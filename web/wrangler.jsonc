@@ -1,0 +1,30 @@
+{
+  "main": "dist/_worker.js/index.js",
+  "name": "uec-atlas",
+  "compatibility_date": "2026-01-12",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist"
+  },
+  "services": [
+    {
+      "binding": "SELF",
+      "service": "uec-atlas"
+    }
+  ],
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    }
+  },
+  "vars": {
+    "SITE": "https://uec-atlas.e-chan1007.workers.dev/"
+  }
+}

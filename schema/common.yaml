@@ -1,0 +1,65 @@
+id: uats:common
+name: uec_atlas_common
+title: UEC Atlas Common Definitions
+description: Common prefixes, types, and base classes for the UEC Atlas project.
+license: https://creativecommons.org/publicdomain/zero/1.0/
+prefixes:
+  linkml: https://w3id.org/linkml/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  hydra: http://www.w3.org/ns/hydra/core#
+  void: http://rdfs.org/ns/void#
+  schema: http://schema.org/
+  uato: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uatr: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uats: https://uec-atlas.e-chan1007.workers.dev/schema/
+
+imports:
+  - linkml:types
+
+default_prefix: uato
+default_range: string
+emit_prefixes:
+  - uatr
+
+classes:
+  Any:
+    class_uri: linkml:Any
+  NamedThing:
+    abstract: true
+    slots:
+      - id
+      - name
+      - description
+  I18NString:
+    class_uri: rdf:langString
+    annotations:
+      jsonld_container: "@language"
+    attributes:
+      language:
+        description: Language
+        key: true
+        range: string
+      value:
+        description: Value
+        range: string
+slots:
+  id:
+    identifier: true
+    slot_uri: schema:identifier
+    range: string
+  type:
+    required: true
+    slot_uri: rdf:type
+    range: uriorcurie
+    annotations:
+      jsonld_id: "@type"
+  name:
+    slot_uri: schema:name
+    range: I18NString
+    inlined: true
+    multivalued: true
+  description:
+    slot_uri: schema:description
+    range: string

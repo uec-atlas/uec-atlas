@@ -1,0 +1,81 @@
+id: uats:room
+name: uec_atlas_room
+title: UEC Atlas Room and Building Ontology
+
+prefixes:
+  uato: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uatr: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uats: https://uec-atlas.e-chan1007.workers.dev/schema/
+  geo: http://www.opengis.net/def/ontology/geosparql#
+  linkml: https://w3id.org/linkml/
+
+imports:
+  - common
+
+default_prefix: uato
+
+classes:
+  AbstractRoom:
+    abstract: true
+    slots:
+      - type
+      - name
+    slot_usage:
+      type:
+        designates_type: true
+        range: string
+    attributes:
+      floor:
+        slot_uri: schema:floorLevel
+        range: string
+        required: true
+  Room:
+    description: A generic room within a building.
+    slot_usage:
+      type:
+        pattern: "Room"
+    class_uri: uato:Room
+    is_a: AbstractRoom
+
+  Classroom:
+    slot_usage:
+      type:
+        pattern: "Classroom"
+    class_uri: uato:Classroom
+    is_a: AbstractRoom
+    attributes:
+      capacity:
+        range: integer
+        required: true
+
+  Feature:
+    class_uri: geo:Feature
+    is_a: NamedThing
+    slots:
+      - type
+    slot_usage:
+      type:
+        pattern: "Feature"
+    attributes:
+      geometry: null
+      properties:
+        slot_uri: linkml:nest
+        required: true
+        range: AbstractRoom
+        inlined: true
+        annotations:
+          jsonld_id: "@nest"
+
+  FeatureCollection:
+    tree_root: true
+    slots:
+      - type
+    slot_usage:
+      type:
+        pattern: "FeatureCollection"
+    attributes:
+      features:
+        range: Feature
+        required: true
+        multivalued: true
+        inlined_as_list: true

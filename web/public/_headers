@@ -1,0 +1,5 @@
+/*
+  Access-Control-Allow-Origin: *
+
+/data/*
+  Content-Type: application/ld+json

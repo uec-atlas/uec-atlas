@@ -1,0 +1,74 @@
+{
+  "@context": "../../generated/room.context.jsonld",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:rooms/C101",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            101.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Classroom",
+        "floor": "1",
+        "name": "Classroom C101",
+        "capacity": 50
+      }
+    },
+    {
+      "id": "uatr:rooms/C102",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5,
+            0.0
+          ],
+          [
+            101.5,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Classroom",
+        "floor": "1",
+        "name": "Classroom C102",
+        "capacity": 30
+      }
+    },
+    {
+      "id": "uatr:rooms/E201",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.0,
+            5.0
+          ],
+          [
+            106.0,
+            6.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Room",
+        "floor": "2",
+        "name": "Office E201"
+      }
+    }
+  ]
+}

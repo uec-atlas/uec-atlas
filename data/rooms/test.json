@@ -1,0 +1,121 @@
+{
+  "@context": "../../generated/room.context.jsonld",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:rooms/A101",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.0,
+            0.0
+          ],
+          [
+            101.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Room",
+        "floor": "1",
+        "name": {
+          "ja": "A101号室",
+          "en": "Room A101"
+        }
+      }
+    },
+    {
+      "id": "uatr:rooms/A102",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.0,
+            0.0
+          ],
+          [
+            102.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Room",
+        "floor": "1",
+        "name": "Room A102"
+      }
+    },
+    {
+      "id": "uatr:rooms/B201",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.0,
+            0.0
+          ],
+          [
+            111.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Classroom",
+        "floor": "2",
+        "name": "Classroom B201",
+        "capacity": 40
+      }
+    },
+    {
+      "id": "uatr:rooms/C301",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            120.0,
+            0.0
+          ],
+          [
+            121.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Classroom",
+        "floor": "3",
+        "name": "Classroom C301",
+        "capacity": 120
+      }
+    },
+    {
+      "id": "uatr:rooms/D401",
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            130.0,
+            0.0
+          ],
+          [
+            131.0,
+            1.0
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Room",
+        "floor": "4",
+        "name": "Room D401"
+      }
+    }
+  ]
+}

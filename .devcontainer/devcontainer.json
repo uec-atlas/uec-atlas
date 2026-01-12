@@ -1,0 +1,21 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"postCreateCommand": "/bin/bash .devcontainer/post-create.sh",
+	"forwardPorts": [4321],
+	"features": {
+		"ghcr.io/devcontainers/features/python": {}
+	},
+	"remoteEnv": {
+		"PATH": "${containerWorkspaceFolder}/.venv/bin:${containerEnv:PATH}"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"astro-build.astro-vscode",
+				"redhat.vscode-yaml",
+				"biomejs.biome",
+				"ms-python.python"
+			]
+		}
+	}
+}

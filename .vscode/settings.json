@@ -1,0 +1,13 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "data/rooms/*.json"
+      ],
+      "url": "./generated/room.schema.json"
+    }
+  ],
+  "yaml.schemas": {
+    "https://w3id.org/linkml/meta.schema.json": "schema/*.yaml"
+  }
+}

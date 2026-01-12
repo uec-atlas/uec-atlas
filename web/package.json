@@ -1,0 +1,26 @@
+{
+  "name": "web",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host",
+    "build": "astro build",
+    "preview": "wrangler dev --ip 0.0.0.0"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
+    "@comunica/actor-query-result-serialize-tree": "^5.0.3",
+    "@comunica/query-sparql": "^5.0.3",
+    "@comunica/query-sparql-link-traversal": "^0.8.0",
+    "astro": "^5.16.8",
+    "betterknown": "^1.2.0",
+    "graphql": "^16.12.0",
+    "graphql-ld": "^2.0.0",
+    "graphql-ld-comunica": "^1.2.2",
+    "graphql-yoga": "^5.18.0"
+  },
+  "devDependencies": {
+    "@comunica/types": "^5.0.0",
+    "@types/node": "^25.0.6",
+    "wrangler": "^4.58.0"
+  }
+}
