@@ -1,0 +1,10 @@
+<h1 class="flex flex-col gap-1 border-b-2 border-b-primary px-2 py-4 mb-8">
+  {
+    Astro.slots.has("subtitle") && (
+      <span class="text-sm">
+        <slot name="subtitle" />
+      </span>
+    )
+  }
+  <span class="text-2xl font-bold"><slot /></span>
+</h1>

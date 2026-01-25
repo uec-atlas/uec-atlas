@@ -1,0 +1,32 @@
+---
+import { expandURI } from "@/utils/url";
+import { Code } from "astro:components";
+
+type CodeProps = Parameters<typeof Code>[0];
+
+interface Props extends CodeProps {}
+
+const linkTransformer = {
+  name: "link-transformer",
+  postprocess(html: string) {
+    const pattern = /"(uatr:[a-zA-Z0-9/]+)"/g;
+    html = html.replace(/"(http[s]?:\/\/[^"]+)"/g, (_match, url) => {
+      return `"<a href="${url}" class="hover:underline">${url}</a>"`;
+    });
+    html = html.replace(pattern, (_match, id) => {
+      return `"<a href="${expandURI(id)}" class="underline decoration-dashed hover:decoration-solid">${id}</a>"`;
+    });
+    return html;
+  },
+};
+---
+
+<div class="d-mockup-code">
+  <Code
+    class="bg-transparent! px-4 before:hidden"
+    lang="json"
+    theme="github-dark-dimmed"
+    {...Astro.props}
+    transformers={[...(Astro.props.transformers ?? []), linkTransformer]}
+  />
+</div>

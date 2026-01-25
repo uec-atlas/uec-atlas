@@ -10,7 +10,5 @@
   "yaml.schemas": {
     "https://w3id.org/linkml/meta.schema.json": "schema/*.yaml"
   },
-  "chat.tools.terminal.autoApprove": {
-    "make": true
-  }
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

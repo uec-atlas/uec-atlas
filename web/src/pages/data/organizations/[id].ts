@@ -12,19 +12,26 @@ export const getStaticPaths = async () => {
   }));
 };
 
-export const GET: APIRoute = async ({ params }) => {
-  const { id } = params;
+export const getOrganizationData = (id?: string) => {
   const entry = allData.find((org) => org.id === `uatr:organizations/${id}`);
   if (!entry) {
+    return null;
+  }
+  return {
+    "@context": toFullURL("/schema/organization.context.jsonld"),
+    "void:inDataset": toFullURL("/resources/organizations"),
+    ...entry,
+  }
+}
+
+export const GET: APIRoute = async ({ params }) => {
+  const { id } = params;
+  const data = getOrganizationData(id);
+  if (!data) {
     return new Response("Not Found", { status: 404 });
   }
-
   return new Response(
-    JSON.stringify({
-      "@context": toFullURL("/schema/organization.context.jsonld"),
-      "void:inDataset": toFullURL("/resources/organizations"),
-      ...entry,
-    }),
+    JSON.stringify(data),
     {
       headers: {
         "Access-Control-Allow-Origin": "*",

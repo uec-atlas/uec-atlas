@@ -11,8 +11,8 @@
     "@comunica/actor-query-result-serialize-tree": "^5.0.3",
     "@comunica/query-sparql": "^5.0.3",
     "@comunica/query-sparql-link-traversal": "^0.8.0",
-    "@fontsource-variable/noto-sans-jp": "^5.2.10",
     "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/noto-sans-jp": "^5.2.10",
     "@iconify-json/mdi": "^1.2.3",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.15",
@@ -24,11 +24,13 @@
     "graphql-ld-comunica": "^1.2.2",
     "graphql-yoga": "^5.18.0",
     "install": "^0.13.0",
+    "jsonld": "^9.0.0",
     "npm": "^11.8.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@comunica/types": "^5.0.0",
+    "@types/jsonld": "^1.5.15",
     "@types/node": "^25.0.6",
     "wrangler": "^4.58.0"
   }

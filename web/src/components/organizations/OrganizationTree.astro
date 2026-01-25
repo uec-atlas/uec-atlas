@@ -1,0 +1,65 @@
+---
+import { expandURI } from "@/utils/url";
+import type { Organization } from "generated/organization";
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  organization: Organization;
+  isRoot?: boolean;
+}
+const { organization, isRoot = true } = Astro.props;
+
+const hasChildren =
+  organization.hasSubOrganization && organization.hasSubOrganization.length > 0;
+const url = expandURI(organization.id);
+---
+
+{
+  isRoot ? (
+    <div class="not-prose font-sans">
+      <ul class="d-menu w-full p-4">
+        <Astro.self organization={organization} isRoot={false} />
+      </ul>
+    </div>
+  ) : (
+    <li>
+      {hasChildren ? (
+        <details open>
+          <summary class="flex justify-between items-center group">
+            <div class="flex flex-col flex-1 font-medium">
+              <span>{organization.name?.ja}</span>
+              <span class="text-xs opacity-60">{organization.name?.en}</span>
+            </div>
+            <a
+              href={url}
+              class="d-btn d-btn-ghost d-btn-xs opacity-0 group-hover:opacity-100 transition-opacity"
+              title="詳細ページへ"
+            >
+              <Icon name="mdi:open-in-new" class="w-3 h-3 text-primary" />
+            </a>
+            <span class="d-badge d-badge-sm d-badge-ghost opacity-60 text-[10px] font-bold tracking-tighter">
+              {organization.type}
+            </span>
+          </summary>
+          <ul>
+            {organization.hasSubOrganization?.map((subOrg) => (
+              <Astro.self organization={subOrg} isRoot={false} />
+            ))}
+          </ul>
+        </details>
+      ) : (
+        <a href={url} class="flex justify-between items-center group">
+          <div class="flex flex-col flex-1 font-medium">
+            <span>{organization.name?.ja}</span>
+            <span class="text-xs opacity-60">{organization.name?.en}</span>
+          </div>
+          {organization.type && (
+            <span class="d-badge d-badge-sm d-badge-ghost opacity-60 text-[10px] font-bold tracking-tighter">
+              {organization.type}
+            </span>
+          )}
+        </a>
+      )}
+    </li>
+  )
+}

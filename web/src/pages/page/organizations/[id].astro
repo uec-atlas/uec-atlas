@@ -1,0 +1,142 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { allData, allJSONLD } from "@/pages/data/organizations/all";
+import { getCollection } from "astro:content";
+import jsonld from "jsonld";
+import { expandURI } from "@/utils/url";
+import { getFrame } from "@/pages/schema/[id].frame.jsonld";
+import { getOrganizationData } from "@/pages/data/organizations/[id]";
+import type { Organization } from "generated/organization";
+import { resolveContext } from "@/pages/schema/[id].context.jsonld";
+import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
+import Heading1 from "@/components/index/Heading1.astro";
+import JSONLDPreview from "@/components/JSONLDPreview.astro";
+import Heading2 from "@/components/index/Heading2.astro";
+import { Icon } from "astro-icon/components";
+
+export const prerender = true;
+
+export const getStaticPaths = async () => {
+  const entries = await getCollection("organizations");
+  return entries.map((entry) => ({
+    params: { id: entry.id.replace("uatr:organizations/", "") },
+  }));
+};
+
+const { id } = Astro.params;
+
+const currentId = `uatr:organizations/${id}`;
+const fullURL = expandURI(currentId);
+
+const targetData = getOrganizationData(id);
+if (!targetData) {
+  throw new Error("Organization not found");
+}
+
+const resolvedAllData = await resolveContext(allJSONLD);
+const frame = await getFrame("organization", true);
+
+const framed = (await jsonld.frame(resolvedAllData, {
+  ...frame,
+  "@id": currentId,
+})) as unknown as Organization;
+
+const getAncestors = (org: any): any[] => {
+  const parent = org.subOrganizationOf;
+  if (!parent) return [];
+  return [...getAncestors(parent), parent];
+};
+
+const ancestors = getAncestors(framed);
+
+const breadcrumbItems = [
+  { label: "Home", href: "/", icon: "mdi:home" },
+  {
+    label: "Organizations",
+    href: "/page/organizations/",
+    icon: "mdi:account-group",
+  },
+  ...ancestors.map((ancestor) => ({
+    tag: ancestor.type,
+    label: ancestor.name?.ja ?? ancestor.name?.en,
+    href: expandURI(ancestor.id),
+  })),
+  {
+    tag: framed.type,
+    label: framed.name?.ja ?? framed.name?.en ?? "Unknown Organization",
+  },
+];
+---
+
+<Layout>
+  <CardBreadcrumb items={breadcrumbItems} />
+  <Heading1>
+    <span slot="subtitle">{framed.name?.en}</span>
+    <span>{framed.name?.ja ?? "Unknown Organization"}</span>
+  </Heading1>
+
+  {
+    framed.hasSubOrganization && (
+      <Fragment>
+        <Heading2>下位組織</Heading2>
+        <ul class="flex flex-col gap-2">
+          {framed.hasSubOrganization.map((subOrg) => (
+            <li>
+              <a
+                class="flex flex-row items-center justify-between rounded-md p-4 hover:bg-base-200 transition-colors border border-base-300 hover:border-primary"
+                href={expandURI(subOrg.id)}
+              >
+                <div class="flex flex-col gap-1">
+                  <h3 class="flex flex-row gap-2 items-baseline">
+                    <span class="font-bold">
+                      {subOrg.name?.ja ??
+                        subOrg.name?.en ??
+                        "Unknown Organization"}
+                    </span>
+                    <span class="d-badge d-badge-primary d-badge-soft d-badge-sm">
+                      {subOrg.type}
+                    </span>
+                  </h3>
+                  {subOrg.name?.ja && subOrg.name?.en && (
+                    <p class="text-xs text-base-content/70">
+                      {subOrg.name?.en}
+                    </p>
+                  )}
+                </div>
+                <Icon name="mdi:chevron-right" />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </Fragment>
+    )
+  }
+
+  <Heading2>JSON-LD</Heading2>
+
+  <div class="d-join w-full mb-2">
+    <input class="d-input d-join-item w-full" readonly value={fullURL} />
+    <button class="d-btn d-join-item copy" data-value={fullURL}>
+      <Icon name="mdi:content-copy" />
+    </button>
+    <a
+      class="d-btn d-join-item"
+      href={fullURL.replace("/resources/", "/data/")}
+      target="_blank"
+    >
+      <Icon name="mdi:external-link" />
+    </a>
+  </div>
+
+  <JSONLDPreview code={JSON.stringify(targetData, null, 2)} />
+</Layout>
+
+<script>
+  document.querySelector(".copy")?.addEventListener("click", (event) => {
+    const button = event.currentTarget as HTMLButtonElement;
+    const value = button.getAttribute("data-value");
+    if (value) {
+      navigator.clipboard.writeText(value);
+    }
+  });
+</script>

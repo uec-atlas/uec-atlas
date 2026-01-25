@@ -1,16 +1,17 @@
 ---
 import Hero from "@/components/index/Hero.astro";
 import Section from "@/components/index/Section.astro";
-import Navbar from "@/components/Navbar.astro";
-import Layout from "@/layouts/Layout.astro";
+import LayoutNoContainer from "@/layouts/LayoutNoContainer.astro";
 ---
 
-<Layout>
-  <Navbar />
+<LayoutNoContainer>
   <Hero />
   <Section>
     <h2>About</h2>
     <p>ここにUEC Atlasの説明文が入ります。</p>
+    <a href="/page/organizations/all" class="d-btn mt-4"
+      >Explore Organizations</a
+    >
   </Section>
   <Section>
     <h2>Get Started</h2>
@@ -28,4 +29,4 @@ import Layout from "@/layouts/Layout.astro";
     <h2>Title</h2>
     <p>ここに説明文が入ります。</p>
   </Section>
-</Layout>
+</LayoutNoContainer>
