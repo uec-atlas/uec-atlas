@@ -2,17 +2,18 @@
 import Layout from "@/layouts/Layout.astro";
 import { allData, allJSONLD } from "@/pages/data/organizations/all";
 import { getCollection } from "astro:content";
-import jsonld from "jsonld";
+import jsonld, { type NodeObject } from "jsonld";
 import { expandURI } from "@/utils/url";
 import { getFrame } from "@/pages/schema/[id].frame.jsonld";
 import { getOrganizationData } from "@/pages/data/organizations/[id]";
-import type { Organization } from "generated/organization";
+import type { Organization, University } from "generated/organization";
 import { resolveContext } from "@/pages/schema/[id].context.jsonld";
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
-import Heading1 from "@/components/index/Heading1.astro";
+import Heading1 from "@/components/Heading1.astro";
 import JSONLDPreview from "@/components/JSONLDPreview.astro";
-import Heading2 from "@/components/index/Heading2.astro";
+import Heading2 from "@/components/Heading2.astro";
 import { Icon } from "astro-icon/components";
+import { formatAddress } from "@/utils/rdf";
 
 export const prerender = true;
 
@@ -33,7 +34,7 @@ if (!targetData) {
   throw new Error("Organization not found");
 }
 
-const resolvedAllData = await resolveContext(allJSONLD);
+const resolvedAllData = await resolveContext(allJSONLD as NodeObject);
 const frame = await getFrame("organization", true);
 
 const framed = (await jsonld.frame(resolvedAllData, {
@@ -41,13 +42,18 @@ const framed = (await jsonld.frame(resolvedAllData, {
   "@id": currentId,
 })) as unknown as Organization;
 
-const getAncestors = (org: any): any[] => {
-  const parent = org.subOrganizationOf;
+const getAncestors = (org: Organization): Organization[] => {
+  const parent = org.subOrganizationOf?.[0] as unknown as Organization;
   if (!parent) return [];
   return [...getAncestors(parent), parent];
 };
 
 const ancestors = getAncestors(framed);
+
+const relations = (framed.relatedTo ?? []) as unknown as {
+  type: string;
+  target: Organization;
+}[];
 
 const breadcrumbItems = [
   { label: "Home", href: "/", icon: "mdi:home" },
@@ -66,6 +72,11 @@ const breadcrumbItems = [
     label: framed.name?.ja ?? framed.name?.en ?? "Unknown Organization",
   },
 ];
+
+const address =
+  framed.type === "University"
+    ? formatAddress((framed as University).address)
+    : "";
 ---
 
 <Layout>
@@ -74,6 +85,8 @@ const breadcrumbItems = [
     <span slot="subtitle">{framed.name?.en}</span>
     <span>{framed.name?.ja ?? "Unknown Organization"}</span>
   </Heading1>
+
+  {address && <p class="mb-4">所在地: {address}</p>}
 
   {
     framed.hasSubOrganization && (
@@ -100,6 +113,46 @@ const breadcrumbItems = [
                   {subOrg.name?.ja && subOrg.name?.en && (
                     <p class="text-xs text-base-content/70">
                       {subOrg.name?.en}
+                    </p>
+                  )}
+                </div>
+                <Icon name="mdi:chevron-right" />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </Fragment>
+    )
+  }
+
+  {
+    relations.length > 0 && (
+      <Fragment>
+        <Heading2>関連組織</Heading2>
+        <ul class="flex flex-col gap-2">
+          {relations.map(({ type, target }) => (
+            <li>
+              <a
+                class="flex flex-row items-center justify-between rounded-md p-4 hover:bg-base-200 transition-colors border border-base-300 hover:border-primary"
+                href={expandURI(target.id)}
+              >
+                <div class="flex flex-col gap-1">
+                  <span class="d-badge d-badge-primary d-badge-soft d-badge-sm">
+                    {type}
+                  </span>
+                  <h3 class="flex flex-row gap-2 items-baseline">
+                    <span class="font-bold">
+                      {target.name?.ja ??
+                        target.name?.en ??
+                        "Unknown Organization"}
+                    </span>
+                    <span class="d-badge d-badge-primary d-badge-soft d-badge-sm">
+                      {target.type}
+                    </span>
+                  </h3>
+                  {target.name?.ja && target.name?.en && (
+                    <p class="text-xs text-base-content/70">
+                      {target.name?.en}
                     </p>
                   )}
                 </div>

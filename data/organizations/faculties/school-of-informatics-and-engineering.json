@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/4S7RCBRG",
+  "type": "School",
+  "subOrganizationOf": [
+    "uatr:organizations/UEC"
+  ],
+  "name": {
+    "en": "School of Informatics and Engineering",
+    "ja": "情報理工学域"
+  }
+}

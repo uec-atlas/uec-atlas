@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/WLUPOG26",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/HXSVK2KQ",
-  "name": {
-    "en": "Information Security Engineering Program",
-    "ja": "セキュリティ情報学プログラム"
-  }
-}

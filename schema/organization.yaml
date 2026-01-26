@@ -25,6 +25,7 @@ classes:
     slots:
       - hasSubOrganization
       - subOrganizationOf
+      - relatedTo
     attributes:
       type:
         description: "組織の種類"
@@ -53,13 +54,13 @@ classes:
       address:
         required: true
 
-  Faculty:
+  School:
     is_a: AbstractEducationalOrganization
-    description: "学域"
+    description: "学域(大学)"
 
   GraduateSchool:
     is_a: AbstractEducationalOrganization
-    description: "研究科"
+    description: "研究科(大学院)"
 
   Cluster:
     is_a: AbstractEducationalOrganization
@@ -73,20 +74,54 @@ classes:
     is_a: AbstractEducationalOrganization
     description: "専攻"
 
+  OrganizationRelation:
+    description: "組織間の関係性"
+    attributes:
+      type:
+        description: "関係性の種類"
+        required: true
+        designates_type: true
+        range: string
+      target:
+        required: true
+        description: "関係先の組織"
+        range: Organization
+
+  EducationalPathway:
+    is_a: OrganizationRelation
+    description: "教育の進路を示す関係性"
+
 slots:
   hasSubOrganization:
     description: "下位組織"
     slot_uri: org:hasSubOrganization
+    domain: Organization
     range: Organization
     inlined: true
     inlined_as_list: true
+    inverse: subOrganizationOf
     multivalued: true
     annotations:
       jsonld_container: "@set"
   subOrganizationOf:
     description: "上位組織"
     slot_uri: org:subOrganizationOf
+    domain: Organization
     range: Organization
+    inverse: hasSubOrganization
+    multivalued: true
+    inlined: false
+    annotations:
+      jsonld_container: "@set"
+  relatedTo:
+    description: "関連する組織"
+    slot_uri: uato:relatedTo
+    range: OrganizationRelation
+    inlined: true
+    inlined_as_list: true
+    multivalued: true
+    annotations:
+      jsonld_container: "@set"
   address:
     description: "大学の所在地"
     slot_uri: schema:address

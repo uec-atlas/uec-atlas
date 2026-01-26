@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/SJGILYFG",
+  "type": "Department",
+  "subOrganizationOf": [
+    "uatr:organizations/PRREAQKG"
+  ],
+  "name": {
+    "en": "Department of Computer and Network Engineering",
+    "ja": "情報・ネットワーク工学専攻"
+  }
+}

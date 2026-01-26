@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/3EMQPAAC",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/HXSVK2KQ",
-  "name": {
-    "en": "Electronics and Information Engineering Program",
-    "ja": "電子情報学プログラム"
-  }
-}

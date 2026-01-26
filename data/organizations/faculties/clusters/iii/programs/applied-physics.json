@@ -1,0 +1,17 @@
+{
+  "id": "uatr:organizations/NIBJHDQW",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uatr:organizations/LMCZ7FKK"
+  ],
+  "relatedTo": [
+    {
+      "type": "EducationalPathway",
+      "target": "uatr:organizations/WLUPOG26"
+    }
+  ],
+  "name": {
+    "en": "Applied Physics Program",
+    "ja": "物理工学プログラム"
+  }
+}

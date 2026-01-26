@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/5VDVCRYM",
-  "type": "Faculty",
-  "subOrganizationOf": "uatr:organizations/UEC",
-  "name": {
-    "en": "School of Informatics and Engineering",
-    "ja": "情報理工学域"
-  }
-}

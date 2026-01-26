@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/4S7RCBRG",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/O757DEDB",
-  "name": {
-    "en": "Optical Science and Engineering Program",
-    "ja": "光工学プログラム"
-  }
-}

@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/W23WZ55B",
+  "type": "Department",
+  "subOrganizationOf": [
+    "uatr:organizations/PRREAQKG"
+  ],
+  "name": {
+    "en": "Department of Mechanical and Intelligent Systems Engineering",
+    "ja": "機械知能システム学専攻"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/XH66SRKN",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/HXSVK2KQ",
-  "name": {
-    "en": "Advanced Robotics Program",
-    "ja": "先端ロボティクスプログラム"
-  }
-}

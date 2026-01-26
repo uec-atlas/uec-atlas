@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/XH66SRKN",
+  "type": "Department",
+  "subOrganizationOf": [
+    "uatr:organizations/PRREAQKG"
+  ],
+  "name": {
+    "en": "Joint Doctoral Program for Sustainability Research",
+    "ja": "共同サステイナビリティ研究専攻（博士後期課程）"
+  }
+}

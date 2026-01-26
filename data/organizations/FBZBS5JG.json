@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/FBZBS5JG",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/O757DEDB",
-  "name": {
-    "en": "Applied Physics Program",
-    "ja": "物理工学プログラム"
-  }
-}

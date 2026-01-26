@@ -2,7 +2,7 @@
   "json.schemas": [
     {
       "fileMatch": [
-        "data/organizations/*.json"
+        "data/organizations/**/*.json"
       ],
       "url": "./generated/organization.schema.json"
     }

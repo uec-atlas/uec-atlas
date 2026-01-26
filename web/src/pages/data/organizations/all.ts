@@ -12,15 +12,21 @@ const toFullOrganizationData = ({
 }: CollectionEntry<"organizations">) => ({
   ...data,
   hasSubOrganization: files
-    .filter((org) => org.data.subOrganizationOf === data.id)
-    .map((org) => org.id),
+    .filter((org) => org.data.subOrganizationOf?.includes(data.id))
+    .map((org) => org.id)
+    .toSorted(),
+  relatedTo: [
+    ...(data.relatedTo ?? []),
+    ...files.filter((org) => org.data.relatedTo?.some((rel) => rel.target === data.id)).flatMap((org) =>
+      org.data.relatedTo?.filter((rel) => rel.target === data.id).map((rel) => ({
+        type: rel.type,
+        target: org.id,
+      })) ?? [],
+    ),
+  ]
 });
 
-export const allData = files.map(toFullOrganizationData).toSorted((a, b) => {
-  if (!a.name?.ja) return -1;
-  if (!b.name?.ja) return 1;
-  return a.name.ja > b.name.ja ? 1 : -1;
-});
+export const allData = files.map(toFullOrganizationData);
 
 export const allJSONLD = {
   "@context": [
@@ -39,7 +45,7 @@ export const allJSONLD = {
   "void:sparqlEndpoint": toFullURL("/sparql"),
   "hydra:totalItems": allData.length,
   items: allData,
-} satisfies NodeObject;
+}
 
 export const GET: APIRoute = async () => {
   return new Response(JSON.stringify(allJSONLD), {

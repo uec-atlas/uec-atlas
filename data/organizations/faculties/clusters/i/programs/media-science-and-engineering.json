@@ -1,0 +1,17 @@
+{
+  "id": "uatr:organizations/5VDVCRYM",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uatr:organizations/5TDWVJAF"
+  ],
+  "relatedTo": [
+    {
+      "type": "EducationalPathway",
+      "target": "uatr:organizations/QBTOSVHH"
+    }
+  ],
+  "name": {
+    "en": "Media Science and Engineering Program",
+    "ja": "メディア情報学プログラム"
+  }
+}

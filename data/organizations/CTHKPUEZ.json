@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/CTHKPUEZ",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/HXSVK2KQ",
-  "name": {
-    "en": "Measurement and Control Systems Program",
-    "ja": "計測・制御システムプログラム"
-  }
-}

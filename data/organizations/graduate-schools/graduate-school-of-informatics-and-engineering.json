@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/PRREAQKG",
+  "type": "GraduateSchool",
+  "subOrganizationOf": [
+    "uatr:organizations/UEC"
+  ],
+  "name": {
+    "en": "Graduate School of Informatics and Engineering",
+    "ja": "情報理工学研究科"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/SJGILYFG",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/O757DEDB",
-  "name": {
-    "en": "Electronic Engineering Program",
-    "ja": "電子工学プログラム"
-  }
-}

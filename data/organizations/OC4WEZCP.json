@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/OC4WEZCP",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/AEFZKYAV",
-  "name": {
-    "en": "Design Thinking and Data Science Program",
-    "ja": "デザイン思考・データサイエンスプログラム"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/75CN24UH",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/O757DEDB",
-  "name": {
-    "en": "Mechanical Systems Program",
-    "ja": "機械システムプログラム"
-  }
-}

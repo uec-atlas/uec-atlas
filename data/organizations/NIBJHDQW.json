@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/NIBJHDQW",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/AEFZKYAV",
-  "name": {
-    "en": "Computer Science Program",
-    "ja": "コンピュータサイエンスプログラム"
-  }
-}

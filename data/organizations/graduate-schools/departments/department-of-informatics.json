@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/QBTOSVHH",
+  "type": "Department",
+  "subOrganizationOf": [
+    "uatr:organizations/PRREAQKG"
+  ],
+  "name": {
+    "en": "Department of Informatics",
+    "ja": "情報学専攻"
+  }
+}

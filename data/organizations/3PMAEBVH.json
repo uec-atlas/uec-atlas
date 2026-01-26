@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/3PMAEBVH",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/HXSVK2KQ",
-  "name": {
-    "en": "Information and Communication Engineering Program",
-    "ja": "情報通信工学プログラム"
-  }
-}

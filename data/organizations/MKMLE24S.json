@@ -1,9 +1,0 @@
-{
-  "id": "uatr:organizations/MKMLE24S",
-  "type": "EducationProgram",
-  "subOrganizationOf": "uatr:organizations/O757DEDB",
-  "name": {
-    "en": "Chemistry and Biotechnology Program",
-    "ja": "化学生命工学プログラム"
-  }
-}

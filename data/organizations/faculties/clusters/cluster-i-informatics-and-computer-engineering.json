@@ -1,7 +1,9 @@
 {
-  "id": "uatr:organizations/AEFZKYAV",
+  "id": "uatr:organizations/5TDWVJAF",
   "type": "Cluster",
-  "subOrganizationOf": "uatr:organizations/5VDVCRYM",
+  "subOrganizationOf": [
+    "uatr:organizations/4S7RCBRG"
+  ],
   "name": {
     "en": "Cluster I (Informatics and Computer Engineering)",
     "ja": "Ⅰ類（情報系）"

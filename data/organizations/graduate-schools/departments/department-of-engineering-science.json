@@ -1,0 +1,11 @@
+{
+  "id": "uatr:organizations/WLUPOG26",
+  "type": "Department",
+  "subOrganizationOf": [
+    "uatr:organizations/PRREAQKG"
+  ],
+  "name": {
+    "en": "Department of Engineering Science",
+    "ja": "基盤理工学専攻"
+  }
+}
