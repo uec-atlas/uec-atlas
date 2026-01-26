@@ -1,7 +1,9 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:24-trixie",
 	"postCreateCommand": "/bin/bash .devcontainer/post-create.sh",
-	"forwardPorts": [4321],
+	"forwardPorts": [
+		4321
+	],
 	"features": {
 		"ghcr.io/devcontainers/features/python": {}
 	},

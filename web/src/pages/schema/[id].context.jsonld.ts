@@ -20,7 +20,7 @@ export const getContext = async (id?: string) => {
   return file ? (JSON.parse(file[1]) as { "@context": ContextDefinition }) : null;
 };
 
-export const resolveContext = async <T extends JsonLdDocument>(doc: T): Promise<T> => {
+export const resolveContext = async <T extends object>(doc: T): Promise<T> => {
   if (Array.isArray(doc)) return Promise.all(doc.map(resolveContext)) as never;
   if (typeof doc !== "object" || !doc || !("@context" in doc)) return doc;
 

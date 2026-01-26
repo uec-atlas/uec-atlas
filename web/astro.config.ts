@@ -15,5 +15,13 @@ export default defineConfig({
   integrations: [icon()],
   vite: {
     plugins: [tailwindcss()],
+    ssr: {
+      external: ["oxigraph", "eyereasoner"],
+    },
+    define: {
+      // 依存ライブラリ内の __dirname を空文字やダミー値で置換する
+      __dirname: '""',
+      __filename: '""',
+    },
   },
 });

@@ -14,15 +14,20 @@ export const getStaticPaths = async () => {
   }));
 };
 
-export const GET: APIRoute = async ({ params }) => {
-  const path = params.path;
-  const file = Object.entries(ontologyFiles).find(([key, _value]) =>
+export const getOntology = async (path?: string) => {
+  const file = Object.entries(ontologyFiles).find(([key]) =>
     key.endsWith(`${path}.ttl`),
   );
+  return file ? file[1] : null;
+}
+
+export const GET: APIRoute = async ({ params }) => {
+  const path = params.path;
+  const file = await getOntology(path);
   if (!file) {
     return new Response("Not Found", { status: 404 });
   }
-  const response: Response = new Response(file[1], {
+  const response: Response = new Response(file, {
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/turtle; charset=utf-8",

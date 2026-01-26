@@ -1,7 +1,6 @@
 import { type CollectionEntry, getCollection } from "astro:content";
 import type { APIRoute } from "astro";
 import { toFullURL } from "@/utils/url";
-import type { NodeObject } from "jsonld";
 
 export const prerender = true;
 

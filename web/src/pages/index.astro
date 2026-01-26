@@ -1,32 +1,123 @@
 ---
+import Card from "@/components/index/Card.astro";
 import Hero from "@/components/index/Hero.astro";
 import Section from "@/components/index/Section.astro";
 import LayoutNoContainer from "@/layouts/LayoutNoContainer.astro";
+import { Code } from "astro:components";
+
+export const prerender = true;
 ---
 
 <LayoutNoContainer>
   <Hero />
+
   <Section>
     <h2>About</h2>
-    <p>ここにUEC Atlasの説明文が入ります。</p>
-    <a href="/page/organizations/all" class="d-btn mt-4"
-      >Explore Organizations</a
-    >
+    <p class="leading-8 indent-4 tracking-wide">
+      UEC Atlas
+      は、電気通信大学のデータを構造化・整理し、誰もが利用できるようにする
+      Linked Open Data プロジェクトです。
+      セマンティックWeb技術を活用してデータの相互運用性と再利用性を高め、データの利活用を促進します。
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <Card title="Structured Data" icon="material-symbols:graph-2">
+        <p class="leading-6 tracking-wide">
+          大学のあらゆる情報をJSON-LD形式で公開し、データの検索、連携、分析を容易にします。
+        </p>
+      </Card>
+      <Card title="Open Access" icon="material-symbols:public">
+        <p class="leading-6 tracking-wide">
+          すべてのデータはオープンライセンス(CC BY
+          4.0)の下で提供され、誰でも自由にアクセス、利用、共有できます。
+        </p>
+      </Card>
+      <Card title="Community Driven" icon="material-symbols:group">
+        <p class="leading-6 tracking-wide">
+          誰もがデータの収集、検証、更新に参加できる仕組みを提供し、継続的な改善を図ります。
+        </p>
+      </Card>
+    </div>
   </Section>
+
   <Section>
-    <h2>Get Started</h2>
-    <p>ここに説明文が入ります。</p>
+    <h2>Data</h2>
+    <p class="leading-8 indent-4 tracking-wide">
+      UEC Atlas では、電気通信大学に関連する多様なデータセットを提供しています。
+    </p>
+    <div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-base-content"
+      >
+        <Card title="Organizations" icon="material-symbols:account-tree">
+          <p class="leading-6 tracking-wide">
+            大学内の各種組織(類、専攻、プログラムなど)の情報を提供しています。
+          </p>
+          <Fragment slot="actions">
+            <a
+              href="/page/organizations/all"
+              class="d-btn d-btn-primary d-btn-sm"
+            >
+              データを見る
+            </a>
+          </Fragment>
+        </Card>
+        <Card title="Courses" icon="material-symbols:menu-book">
+          <p class="leading-6 tracking-wide">
+            講義の概要やカリキュラムの情報を提供しています。
+          </p>
+          <Fragment slot="actions">
+            <a
+              href="/page/courses/all"
+              class="d-btn d-btn-primary d-btn-sm d-btn-disabled"
+            >
+              データを見る
+            </a>
+          </Fragment>
+        </Card>
+        <Card title="Spatial" icon="material-symbols:map">
+          <p class="leading-6 tracking-wide">
+            大学内の建物や施設の地理情報を提供しています。
+          </p>
+          <Fragment slot="actions">
+            <a
+              href="/page/spatial/all"
+              class="d-btn d-btn-primary d-btn-sm d-btn-disabled"
+            >
+              データを見る
+            </a>
+          </Fragment>
+        </Card>
+      </div>
+    </div>
   </Section>
+
   <Section>
-    <h2>Title</h2>
-    <p>ここに説明文が入ります。</p>
-  </Section>
-  <Section>
-    <h2>Title</h2>
-    <p>ここに説明文が入ります。</p>
-  </Section>
-  <Section>
-    <h2>Title</h2>
-    <p>ここに説明文が入ります。</p>
+    <h2>Usage</h2>
+    <p class="leading-8 indent-4 tracking-wide">
+      UEC Atlas のデータは、以下の方法で取得できます。
+    </p>
+    <ul class="list-disc list-inside space-y-2">
+      <li>
+        <strong>Download:</strong>
+        各データセットのページからJSON-LDファイルを直接ダウンロードできます。
+      </li>
+      <li>
+        <strong>SPARQL Endpoint:</strong>
+        SPARQLクエリを使用して、必要なデータを柔軟に取得できます。
+      </li>
+    </ul>
+    <div class="d-mockup-code">
+      <Code
+        class="bg-transparent! px-4 before:hidden"
+        code={`PREFIX schema: <http://schema.org/>
+PREFIX uato: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+
+SELECT ?org ?orgName WHERE {
+  ?org a uato:EducationProgram;
+       schema:name ?orgName .
+}`}
+        lang="sparql"
+      />
+    </div>
   </Section>
 </LayoutNoContainer>

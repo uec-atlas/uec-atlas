@@ -1,0 +1,31 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  title: string;
+  icon: string;
+}
+
+const { title, icon } = Astro.props;
+---
+
+<div class="d-card d-card-border bg-base-100 border-base-200 shadow-sm">
+  <div class="d-card-body">
+    <div class="d-card-title">
+      <div
+        class="bg-primary text-white rounded-lg w-8 h-8 grid place-items-center mr-2"
+      >
+        <Icon name={icon} class="w-6 h-6" />
+      </div>
+      <h3>{title}</h3>
+    </div>
+    <slot />
+    {
+      Astro.slots.actions && (
+        <div class="d-card-actions justify-end">
+          <slot name="actions" />
+        </div>
+      )
+    }
+  </div>
+</div>

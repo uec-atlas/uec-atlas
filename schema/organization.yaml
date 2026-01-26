@@ -20,6 +20,8 @@ default_prefix: uato
 classes:
   Organization:
     is_a: NamedThing
+    exact_mappings:
+      - org:Organization
     description: "組織"
     tree_root: true
     slots:

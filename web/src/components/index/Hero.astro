@@ -1,10 +1,24 @@
-<header class="hero bg-size-[4rem_4rem] md:bg-size-[5rem_5rem] px-4 py-16 md:py-20 flex flex-col items-center text-center">
-  <h1 class="text-4xl md:text-6xl leading-16 md:leading-20 uppercase font-bold text-primary">Navigate Knowledge,<br />Opening The Future</h1>
+---
+import { Icon } from "astro-icon/components";
+---
+
+<header
+  class="hero bg-size-[4rem_4rem] md:bg-size-[5rem_5rem] px-4 py-16 md:py-20 flex flex-col items-center text-center"
+>
+  <h1 class="text-4xl md:text-6xl leading-16 md:leading-20 uppercase font-bold">
+    Navigate Knowledge,<br /><span class="text-primary">Opening The Future</span
+    >
+  </h1>
   <p class="leading-8 md:leading-10 min-h-16 md:min-h-20 place-content-center">
-    UEC Atlasは、電気通信大学のデータを構造化・整理する、コミュニティ主導のLODプロジェクトです。
+    UEC Atlas は、
+    電気通信大学のデータを構造化・整理し、誰もが利用できるようにする Linked Open
+    Data プロジェクトです。
   </p>
   <div class="flex flex-wrap flex-row gap-4 h-16 md:h-20 items-center">
-    <a href="#get-started" class="d-btn d-btn-primary">Get Started</a>
+    <a class="d-btn d-btn-neutral">
+      <Icon name="mdi:github" class="inline-block w-5 h-5 mr-2" />
+      GitHubリポジトリ
+    </a>
   </div>
 </header>
 

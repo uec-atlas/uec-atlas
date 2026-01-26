@@ -1,19 +1,19 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import { allData, allJSONLD } from "@/pages/data/organizations/all";
-import { getCollection } from "astro:content";
-import jsonld, { type NodeObject } from "jsonld";
-import { expandURI } from "@/utils/url";
-import { getFrame } from "@/pages/schema/[id].frame.jsonld";
-import { getOrganizationData } from "@/pages/data/organizations/[id]";
-import type { Organization, University } from "generated/organization";
-import { resolveContext } from "@/pages/schema/[id].context.jsonld";
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import Heading1 from "@/components/Heading1.astro";
-import JSONLDPreview from "@/components/JSONLDPreview.astro";
 import Heading2 from "@/components/Heading2.astro";
-import { Icon } from "astro-icon/components";
+import JSONLDPreview from "@/components/JSONLDPreview.astro";
+import Layout from "@/layouts/Layout.astro";
+import { getOrganizationData } from "@/pages/data/organizations/[id]";
+import { allJSONLD } from "@/pages/data/organizations/all";
+import { resolveContext } from "@/pages/schema/[id].context.jsonld";
+import { getFrame } from "@/pages/schema/[id].frame.jsonld";
 import { formatAddress } from "@/utils/rdf";
+import { expandURI } from "@/utils/url";
+import { Icon } from "astro-icon/components";
+import { getCollection } from "astro:content";
+import type { Organization, University } from "generated/organization";
+import jsonld, { type NodeObject } from "jsonld";
 
 export const prerender = true;
 

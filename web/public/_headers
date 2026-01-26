@@ -4,6 +4,10 @@
 /data/*
   Content-Type: application/ld+json
 
+/data/*.nq
+  ! Content-Type
+  Content-Type: application/n-quads; charset=utf-8
+
 /data/organizations/*
   Link: </schema/organization.context.jsonld>; rel="http://www.w3.org/ns/json-ld#context"; type="application/ld+json", </ontology/organization.ttl>; rel="describedby"; type="text/turtle"
 
