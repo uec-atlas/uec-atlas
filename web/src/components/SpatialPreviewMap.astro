@@ -27,15 +27,19 @@ interface Props extends HTMLAttributes<"div"> {
       this.style.width = "100%";
       this.style.height = "100%";
 
-      const geoJSONFeature = JSON.parse(this.dataset.feature || "{}");
-      let featureBbox: number[] | undefined;
-      if (geoJSONFeature.type === "FeatureCollection") {
-        featureBbox = bbox(
-          geoJSONFeature.features.find((f: GeoJSON.Feature) => f.geometry),
-        );
-      } else {
-        featureBbox = bbox(geoJSONFeature);
-      }
+      const geoJSONFeature = JSON.parse(this.dataset.feature || "{}") as
+        | GeoJSON.Feature
+        | GeoJSON.FeatureCollection;
+      const bboxFeature =
+        geoJSONFeature.type === "Feature"
+          ? geoJSONFeature
+          : {
+              ...geoJSONFeature,
+              features: geoJSONFeature.features.filter(
+                (feature) => feature.geometry,
+              ),
+            };
+      const featureBbox = bbox(bboxFeature);
 
       this.map = new maplibregl.Map({
         container: this,

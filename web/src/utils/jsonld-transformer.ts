@@ -177,6 +177,141 @@ async function createJsonLdHoverTransformer(
   };
 }
 
+import type { Element as HastElement, Text as HastText } from "hast";
+
+function getAllText(node: HastElement | HastText): string {
+  if (node.type === "text") return node.value;
+  if (node.children) {
+    return node.children
+      .map((c) => getAllText(c as HastElement | HastText))
+      .join("");
+  }
+  return "";
+}
+
+function createJsonLdCollapseTransformer(threshold = 10): ShikiTransformer {
+  return {
+    name: "json-details-collapse",
+    code(node) {
+      const transform = (
+        nodes: (HastElement | HastText)[],
+        isRoot = true,
+      ): (HastElement | HastText)[] => {
+        const result: (HastElement | HastText)[] = [];
+        let i = 0;
+
+        while (i < nodes.length) {
+          const nodeItem = nodes[i];
+          if (nodeItem.type === "text") {
+            result.push(nodeItem);
+            i++;
+            continue;
+          }
+
+          const lineText = getAllText(nodeItem).trim();
+          const isStart = lineText.endsWith("[") || lineText.endsWith("{");
+
+          if (isStart) {
+            let depth = 0;
+            let j = i;
+            let foundEnd = false;
+
+            // 閉じ括弧を探す
+            for (; j < nodes.length; j++) {
+              const text = getAllText(nodes[j]);
+              depth += (text.match(/[\[\{]/g) || []).length;
+              depth -= (text.match(/[\]\}]/g) || []).length;
+              if (depth === 0) {
+                foundEnd = true;
+                break;
+              }
+            }
+
+            if (foundEnd) {
+              const logicalLines = nodes
+                .slice(i, j + 1)
+                .filter((n) => n.type === "element").length;
+              const lastLineText = getAllText(nodes[j]).trim();
+              const closeBracket =
+                (lineText.endsWith("{") ? "}" : "]") +
+                (lastLineText.endsWith(",") ? "," : "");
+
+              // コンテンツ範囲の調整（前後の改行を除去）
+              let [start, end] = [i + 1, j];
+              // 型ガード関数を使わずに直接プロパティチェックを行う
+              const startNode = nodes[start];
+              if (startNode?.type === "text" && startNode.value === "\n")
+                start++;
+
+              const endNode = nodes[end - 1];
+              if (endNode?.type === "text" && endNode.value === "\n") end--;
+
+              const processedInner = transform(nodes.slice(start, end), false);
+
+              // 閉じ括弧ノードを整形
+              let closeNode = nodes[j];
+              if (closeNode.type === "text") {
+                closeNode = {
+                  type: "element",
+                  tagName: "span",
+                  properties: {},
+                  children: [closeNode],
+                } as HastElement;
+              }
+              const closeElement = closeNode as HastElement;
+              closeElement.properties = {
+                ...(closeElement.properties || {}),
+                class:
+                  ((closeElement.properties?.class as string) || "") +
+                  " shiki-close-bracket",
+              };
+
+              result.push({
+                type: "element",
+                tagName: "details",
+                properties: {
+                  class: "shiki-details",
+                  ...(isRoot || logicalLines < threshold
+                    ? { open: "true" }
+                    : {}),
+                },
+                children: [
+                  {
+                    type: "element",
+                    tagName: "summary",
+                    properties: {
+                      class: "shiki-summary",
+                      "data-bracket": closeBracket,
+                    },
+                    children: [nodeItem],
+                  },
+                  {
+                    type: "element",
+                    tagName: "div",
+                    properties: { class: "shiki-details-content" },
+                    children: [...processedInner, closeElement],
+                  },
+                ],
+              });
+
+              // 次の改行をスキップ
+              i = j + 1;
+              const nextNode = nodes[i];
+              if (nextNode?.type === "text" && nextNode.value === "\n") i++;
+              continue;
+            }
+          }
+          result.push(nodeItem);
+          i++;
+        }
+        return result;
+      };
+
+      node.children = transform(node.children as (HastElement | HastText)[]);
+    },
+  };
+}
+
 const autoLinkTransformer: ShikiTransformer = {
   name: "safe-link-transformer",
   span(node, _line, _col, _lineText, token) {
@@ -193,9 +328,14 @@ const autoLinkTransformer: ShikiTransformer = {
         if (href !== innerContent || href.startsWith("http")) {
           node.tagName = "a";
           node.properties.href = href;
-          node.properties.class = innerContent.startsWith("uatr:")
-            ? "underline decoration-dashed hover:decoration-solid"
-            : "hover:underline";
+          if (innerContent.startsWith("uatr:")) {
+            this.addClassToHast(
+              node,
+              "underline decoration-dashed hover:decoration-solid",
+            );
+          } else {
+            this.addClassToHast(node, "hover:underline");
+          }
         }
       } catch {
         // JSON parse error ignore
@@ -214,5 +354,6 @@ export async function getJsonLdTransformers(
   return [
     await createJsonLdHoverTransformer(jsonSource, ontologyTtl),
     autoLinkTransformer,
+    createJsonLdCollapseTransformer(),
   ];
 }

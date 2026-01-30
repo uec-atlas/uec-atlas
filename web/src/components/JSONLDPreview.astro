@@ -17,7 +17,7 @@ const transformers = await getJsonLdTransformers(
 
 <div class="d-mockup-code">
   <Code
-    class="bg-transparent! px-4 before:hidden"
+    class="bg-transparent! pl-6 pr-4 before:hidden max-h-80 overflow-y-auto"
     lang="json"
     theme="github-dark-dimmed"
     {...Astro.props}
@@ -26,9 +26,62 @@ const transformers = await getJsonLdTransformers(
 </div>
 
 <style is:global>
+  @reference "../assets/app.css";
+
   .jsonld-hover-target::before {
     white-space: pre-line;
     text-align: left;
     max-width: 24rem;
+  }
+
+  :root {
+    --shiki-collapse-width: 1.5rem;
+  }
+
+  .shiki-summary {
+    display: block;
+    position: relative;
+    list-style: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .shiki-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* アイコンを絶対配置にしてテキスト位置を固定 */
+  .shiki-summary::before {
+    content: "▼";
+    position: absolute;
+    left: calc(var(--shiki-collapse-width) * -1);
+    top: 0;
+    width: var(--shiki-collapse-width);
+    text-align: center;
+    font-size: 0.7rem;
+    opacity: 0.4;
+    transition: transform 0.1s;
+  }
+
+  .shiki-details:not([open]) > .shiki-summary::before {
+    transform: rotate(-90deg);
+  }
+
+  .shiki-details:not([open]) > .shiki-summary::after {
+    content: " ... " attr(data-bracket);
+  }
+
+  .shiki-summary > .line {
+    display: inline;
+  }
+
+  .line {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+  }
+
+  .shiki-close-bracket {
+    display: block !important;
   }
 </style>
