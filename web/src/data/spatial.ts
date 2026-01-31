@@ -1,6 +1,11 @@
 import { getCollection } from "astro:content";
 import { geoJSONToWkt } from "betterknown";
-import type { SpatialEntity, SpatialProperties } from "generated/spatial";
+import type {
+  SpatialEntity,
+  SpatialProperties,
+  Storey,
+} from "generated/spatial";
+import { toOrdinal } from "@/utils/number";
 import type { LinkedOrganization } from "./organizations";
 
 export type RawSpatialProperties = Omit<
@@ -80,7 +85,6 @@ for (const { data } of rawSpatial) {
     data.hasGeometry ??= {};
     data.hasGeometry.asWKT ??= geoJSONToWkt(data.geometry as GeoJSON.Geometry);
   }
-
   if (p.containedInPlace) {
     tempMap.get(p.containedInPlace)?.containsPlace.add(entityId);
   }
@@ -99,6 +103,22 @@ for (const { data } of rawSpatial) {
   }
   for (const interId of p.intersectsPlace ?? []) {
     tempMap.get(interId)?.intersectsPlace.add(entityId);
+  }
+
+  if (p.type === "Storey") {
+    const floorLevel = (p as Storey).floorLevel;
+    const isBasement = floorLevel.startsWith("B");
+    const floorLevelInt = Math.abs(
+      Number.parseInt(floorLevel.match(/\d+/)?.[0] ?? "0", 10),
+    );
+    const ordinalFloorLevel = toOrdinal(floorLevelInt);
+
+    p.name ??= {
+      ja: isBasement ? `地下${floorLevelInt}階` : `${floorLevelInt}階`,
+      en: isBasement
+        ? `Basement ${ordinalFloorLevel} Floor`
+        : `${ordinalFloorLevel} Floor`,
+    };
   }
 }
 

@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/6JLU3XSZ",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Storey",
+        "floorLevel": "1",
+        "containedInPlace": "uatr:spatial/MOVCQ6B3"
+      }
+    },
+    {
+      "id": "uatr:spatial/NCMS6AJT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54393284,
+          35.65669829
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/6JLU3XSZ"
+      }
+    },
+    {
+      "id": "uatr:spatial/LFBDGR3B",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54417021,
+          35.65663101
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/6JLU3XSZ"
+      }
+    },
+    {
+      "id": "uatr:spatial/UP7HTYKP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54434498,
+          35.65658147
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/6JLU3XSZ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/NGOASZGH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54008375,
+              35.65627306
+            ],
+            [
+              139.54055175,
+              35.65611927
+            ],
+            [
+              139.54048478,
+              35.65598353
+            ],
+            [
+              139.54001679,
+              35.65613732
+            ],
+            [
+              139.54008375,
+              35.65627306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "office",
+        "name": {
+          "ja": "UECアライアンスセンター",
+          "en": "UEC Alliance Center"
+        },
+        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 5
+      }
+    }
+  ]
+}

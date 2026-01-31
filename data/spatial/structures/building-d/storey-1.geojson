@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/AQWA3EDW",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Storey",
+        "floorLevel": "1",
+        "containedInPlace": "uatr:spatial/T5KIUE4O"
+      }
+    },
+    {
+      "id": "uatr:spatial/4XZERQM2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54466757,
+          35.65690487
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/AQWA3EDW"
+      }
+    },
+    {
+      "id": "uatr:spatial/NDG3RKV2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54464583,
+          35.65685378
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 20.0,
+        "containedInPlace": "uatr:spatial/AQWA3EDW"
+      }
+    }
+  ]
+}

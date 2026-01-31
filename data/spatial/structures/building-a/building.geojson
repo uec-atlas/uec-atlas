@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/MOVCQ6B3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54391458,
+              35.65670346
+            ],
+            [
+              139.54387019,
+              35.65659915
+            ],
+            [
+              139.54431885,
+              35.65647198
+            ],
+            [
+              139.54436324,
+              35.6565763
+            ],
+            [
+              139.54391458,
+              35.65670346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "A棟",
+          "en": "Building A"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 4
+      }
+    }
+  ]
+}

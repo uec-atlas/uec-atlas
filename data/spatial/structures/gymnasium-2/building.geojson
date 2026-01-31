@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/MESPJMU6",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54232107,
+              35.65730393
+            ],
+            [
+              139.54255816,
+              35.65723207
+            ],
+            [
+              139.54250556,
+              35.65711649
+            ],
+            [
+              139.54226847,
+              35.65718835
+            ],
+            [
+              139.54232107,
+              35.65730393
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "sports",
+        "name": {
+          "ja": "第2体育館",
+          "en": "Gymnasium 2"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    }
+  ]
+}

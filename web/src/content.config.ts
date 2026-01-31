@@ -1,7 +1,6 @@
 import { defineCollection, z } from "astro:content";
-import type { SpatialEntity } from "generated/spatial";
-import type { Organization } from "../generated/organization";
 import type { RawOrganization } from "./data/organizations";
+import type { RawSpatialEntity } from "./data/spatial";
 
 const organizations = defineCollection({
   loader: () => {
@@ -25,7 +24,7 @@ const spatial = defineCollection({
 
     return Object.values(files).flatMap((data) => JSON.parse(data).features);
   },
-  schema: z.custom<SpatialEntity>(),
+  schema: z.custom<RawSpatialEntity>(),
 });
 
 export const collections = {

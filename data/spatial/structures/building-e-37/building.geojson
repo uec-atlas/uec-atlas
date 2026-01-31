@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/XG42SYKJ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54279243,
+              35.65736534
+            ],
+            [
+              139.5429907,
+              35.65730871
+            ],
+            [
+              139.5429338,
+              35.65717604
+            ],
+            [
+              139.54283968,
+              35.65720292
+            ],
+            [
+              139.54278381,
+              35.65707261
+            ],
+            [
+              139.54267966,
+              35.65710236
+            ],
+            [
+              139.54279243,
+              35.65736534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東37号館",
+          "en": "Building E-37"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    }
+  ]
+}

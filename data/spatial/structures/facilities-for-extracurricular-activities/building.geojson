@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/BE266JZZ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54343735,
+              35.65925965
+            ],
+            [
+              139.54395405,
+              35.65918363
+            ],
+            [
+              139.5439284,
+              35.65906754
+            ],
+            [
+              139.5434117,
+              35.65914355
+            ],
+            [
+              139.54343735,
+              35.65925965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "課外活動施設",
+          "en": "Facilities for Extracurricular Activities"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 3
+      }
+    }
+  ]
+}

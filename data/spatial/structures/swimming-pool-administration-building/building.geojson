@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/JJPSSKGO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54078882,
+              35.65846244
+            ],
+            [
+              139.54076374,
+              35.65840365
+            ],
+            [
+              139.54059306,
+              35.65845214
+            ],
+            [
+              139.54061813,
+              35.65851093
+            ],
+            [
+              139.54078882,
+              35.65846244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "プール管理棟",
+          "en": "Swimming Pool Administration Building"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

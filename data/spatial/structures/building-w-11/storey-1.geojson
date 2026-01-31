@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/RRCNG6SM",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Storey",
+        "floorLevel": "1",
+        "containedInPlace": "uatr:spatial/MA3WG7AA"
+      }
+    },
+    {
+      "id": "uatr:spatial/C2T4ZVJF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54084038,
+          35.65806643
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/RRCNG6SM"
+      }
+    }
+  ]
+}

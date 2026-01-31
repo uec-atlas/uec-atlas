@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/H7Z6MEMI",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54375488,
+              35.65610262
+            ],
+            [
+              139.54380266,
+              35.6562126
+            ],
+            [
+              139.54437223,
+              35.6560478
+            ],
+            [
+              139.54432446,
+              35.65593782
+            ],
+            [
+              139.54375488,
+              35.65610262
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "office",
+        "name": {
+          "ja": "本館",
+          "en": "Main Building"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 5
+      }
+    }
+  ]
+}

@@ -55,6 +55,7 @@ interface Props extends HTMLAttributes<"div"> {
         this.map.addSource("spatial-preview", {
           type: "geojson",
           data: geoJSONFeature,
+          promoteId: "id",
         });
 
         this.map.addLayer({

@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/BADAKZWH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54430629,
+              35.65625814
+            ],
+            [
+              139.54453196,
+              35.65619258
+            ],
+            [
+              139.54448442,
+              35.65608359
+            ],
+            [
+              139.54425875,
+              35.65614916
+            ],
+            [
+              139.54430629,
+              35.65625814
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "office",
+        "name": {
+          "ja": "本館別館",
+          "en": "Main Building Annex"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2,
+        "isPartOf": [
+          "uatr:spatial/H7Z6MEMI"
+        ]
+      }
+    }
+  ]
+}

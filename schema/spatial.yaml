@@ -255,6 +255,7 @@ classes:
       floorLevel:
         slot_uri: schema:floorLevel
         range: string
+        pattern: "^B?[0-9]+$"
         required: true
 
   RoomFeature:

@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/PI53A7EG",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54171437,
+              35.65706014
+            ],
+            [
+              139.54192209,
+              35.65699738
+            ],
+            [
+              139.54194511,
+              35.65704813
+            ],
+            [
+              139.5420606,
+              35.65701324
+            ],
+            [
+              139.54198252,
+              35.6568411
+            ],
+            [
+              139.54178296,
+              35.6569014
+            ],
+            [
+              139.54179154,
+              35.65692031
+            ],
+            [
+              139.54166789,
+              35.65695767
+            ],
+            [
+              139.54171437,
+              35.65706014
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "西食堂",
+          "en": "West Cafeteria"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

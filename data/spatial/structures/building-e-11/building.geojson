@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/IESKNHVK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54318927,
+              35.65835645
+            ],
+            [
+              139.54332567,
+              35.6583581
+            ],
+            [
+              139.54333159,
+              35.65803181
+            ],
+            [
+              139.5431223,
+              35.65802927
+            ],
+            [
+              139.54318927,
+              35.65835645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東11号館",
+          "en": "Building E-11"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "alternateName": {
+          "ja": [
+            "Energy Co-creation Nexus (e-Nexus)"
+          ],
+          "en": [
+            "Energy Co-creation Nexus (e-Nexus)"
+          ]
+        },
+        "minFloorLevel": 1,
+        "maxFloorLevel": 3
+      }
+    }
+  ]
+}

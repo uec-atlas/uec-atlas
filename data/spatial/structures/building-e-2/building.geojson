@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/SIEWC3RO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54301203,
+              35.65750474
+            ],
+            [
+              139.54337098,
+              35.65740019
+            ],
+            [
+              139.54342958,
+              35.65738313
+            ],
+            [
+              139.54337351,
+              35.6572549
+            ],
+            [
+              139.54295596,
+              35.65737652
+            ],
+            [
+              139.54301203,
+              35.65750474
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東2号館",
+          "en": "Building E-2"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 6
+      }
+    }
+  ]
+}

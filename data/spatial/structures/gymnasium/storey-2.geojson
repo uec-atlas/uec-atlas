@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/PJ3S23BY",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Storey",
+        "floorLevel": "2",
+        "containedInPlace": "uatr:spatial/6FZIJSGX"
+      }
+    }
+  ]
+}
