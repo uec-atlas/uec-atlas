@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/TJUJEATO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54139264,
+              35.65782362
+            ],
+            [
+              139.54133747,
+              35.65770227
+            ],
+            [
+              139.54091521,
+              35.65783016
+            ],
+            [
+              139.54097095,
+              35.65795274
+            ],
+            [
+              139.54105816,
+              35.65792633
+            ],
+            [
+              139.5410862,
+              35.65798799
+            ],
+            [
+              139.54125189,
+              35.65793781
+            ],
+            [
+              139.54122329,
+              35.65787491
+            ],
+            [
+              139.54139264,
+              35.65782362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "西7号館",
+          "en": "Building W-7"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 7
+      }
+    },
+    {
+      "id": "uatr:spatial/HO6VMAMF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54126997,
+          35.65787856
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/TJUJEATO"
+      }
+    }
+  ]
+}

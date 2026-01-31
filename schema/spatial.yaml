@@ -12,6 +12,7 @@ prefixes:
   void: http://rdfs.org/ns/void#
   schema: http://schema.org/
   linkml: https://w3id.org/linkml/
+  wd: http://www.wikidata.org/entity/
 
 imports:
   - common
@@ -19,7 +20,45 @@ imports:
 default_prefix: uato
 
 enums:
-  PassageType:
+  StructureCategory:
+    description: "構造物のカテゴリ"
+    permissible_values:
+      academic:
+        description: "教育・研究系"
+      sports:
+        description: "運動系"
+      office:
+        description: "事務・管理系"
+      residential:
+        description: "居住系"
+      welfare:
+        description: "福利厚生系"
+      security:
+        description: "警備・防災系"
+      monument:
+        description: "記念碑・モニュメント系"
+      parking:
+        description: "駐輪・駐車場系"
+      utility:
+        description: "公共インフラ系"
+      water:
+        description: "水利系"
+  StructureAmenityKey:
+    description: "構造物の設備の種類"
+    permissible_values:
+      aed:
+        description: "AED(自動体外式除細動器)"
+        meaning: wd:Q787407
+      wheelchair_accessible:
+        description: "車椅子対応設備"
+        meaning: wd:Q24192067
+      ostomate:
+        description: "オストメイト対応設備"
+        meaning: wd:Q97657746
+      nursing_bench:
+        description: "介助用ベッド"
+        meaning: wd:Q1780834
+  PassageCategory:
     description: "移動空間の種類"
     permissible_values:
       corridor:
@@ -88,51 +127,84 @@ classes:
     class_uri: uato:Area
     description: "地区(東地区、西地区など)"
 
-  RoadFeature:
+  StructureFeature:
     is_a: SpatialEntity
-    class_uri: schema:Road
+    class_uri: uato:Structure
+    slot_usage:
+      properties: { range: Structure }
+
+  StructureAmenity:
+    class_uri: schema:LocationFeatureSpecification
+    description: "構造物に付随する設備"
+    attributes:
+      propertyID:
+        slot_uri: schema:propertyID
+        range: StructureAmenityKey
+        required: true
+        description: "設備の種類"
+      value:
+        slot_uri: schema:value
+        range: boolean
+        required: true
+        description: "設備の有無"
+
+  Structure:
+    is_a: SpatialProperties
+    class_uri: uato:Structure
+    description: "物理的な実体を持つ人工構造物"
+    attributes:
+      category:
+        range: StructureCategory
+        description: "構造物のカテゴリ"
+      amenities:
+        range: StructureAmenity
+        inlined: true
+        inlined_as_list: true
+        multivalued: true
+
+  RoadFeature:
+    is_a: StructureFeature
+    class_uri: uato:Road
     slot_usage:
       properties: { range: Road }
 
   Road:
-    is_a: SpatialProperties
-    class_uri: schema:Road
+    is_a: Structure
+    class_uri: uato:Road
     description: "キャンパス内の道路・通路"
 
-  Entrance:
-    abstract: true
-    is_a: SpatialProperties
-    class_uri: schema:Entrance
-    slot_usage:
-      connectedTo: { required: true }
-
   GateFeature:
-    is_a: SpatialEntity
+    is_a: StructureFeature
     class_uri: uato:Gate
     slot_usage:
       properties: { range: Gate }
 
   Gate:
-    is_a: Entrance
-    description: "地区の入口（門）"
+    is_a: Structure
+    class_uri: uato:Gate
+    mixins:
+      - BotInterface
+    description: "地区の入口(門)"
 
   BuildingFeature:
-    is_a: SpatialEntity
+    is_a: StructureFeature
     class_uri: uato:Building
     slot_usage:
       properties: { range: Building }
 
   Building:
-    is_a: SpatialProperties
+    is_a: Structure
     class_uri: uato:Building
     description: "建物全体"
-    exact_mappings:
-      - bot:Building
+    mixins:
+      - BotBuilding
     attributes:
       minFloorLevel:
         range: integer
+        description: "最低階(地下は負数、地上は正数)"
       maxFloorLevel:
         range: integer
+        description: "最高階(正数)"
 
   BuildingEntranceFeature:
     is_a: SpatialEntity
@@ -141,17 +213,25 @@ classes:
       properties: { range: BuildingEntrance }
 
   BuildingEntrance:
-    is_a: Entrance
+    is_a: SpatialProperties
+    class_uri: uato:BuildingEntrance
+    mixins:
+      - BotInterface
     description: "建物の入口"
+    attributes:
+      bearing:
+        range: float
+        description: "入口の方位角"
+        required: true
 
   BridgeFeature:
-    is_a: SpatialEntity
+    is_a: StructureFeature
     class_uri: uato:Bridge
     slot_usage:
       properties: { range: Bridge }
 
   Bridge:
-    is_a: SpatialProperties
+    is_a: Structure
     class_uri: uato:Bridge
     description: "建物間を連絡する渡り廊下"
     slot_usage:
@@ -169,8 +249,8 @@ classes:
     is_a: SpatialProperties
     class_uri: uato:Storey
     description: "建物内の階層"
-    exact_mappings:
-      - bot:Storey
+    mixins:
+      - BotStorey
     attributes:
       floorLevel:
         slot_uri: schema:floorLevel
@@ -178,33 +258,33 @@ classes:
         required: true
 
   RoomFeature:
-    is_a: SpatialEntity
+    is_a: StructureFeature
     class_uri: uato:Room
     slot_usage:
       properties: { range: Room }
 
   Room:
-    is_a: SpatialProperties
+    is_a: Structure
     class_uri: uato:Room
-    exact_mappings:
-      - bot:Space
+    mixins:
+      - BotSpace
     description: "室内空間"
 
   PassageFeature:
-    is_a: SpatialEntity
+    is_a: StructureFeature
     class_uri: uato:Passage
     slot_usage:
       properties: { range: Passage }
 
   Passage:
-    is_a: SpatialProperties
+    is_a: Structure
     class_uri: uato:Passage
     description: "廊下・通路・階段・エレベーターなどの移動空間"
     attributes:
-      type:
+      category:
         slot_uri: rdf:type
         description: "移動空間の種類"
-        range: PassageType
+        range: PassageCategory
         required: true
 
   ClassroomFeature:
@@ -233,12 +313,9 @@ classes:
     class_uri: schema:Restroom
     description: "トイレ"
     attributes:
-      genderCategory:
+      gender:
         range: string
-      isAccessible:
-        range: boolean
-      hasBabyChanging:
-        range: boolean
+        description: "性別"
 
   FeatureCollection:
     tree_root: true
@@ -253,14 +330,21 @@ classes:
         multivalued: true
         inlined_as_list: true
 
+  BotInterface:
+    class_uri: bot:Interface
+  BotBuilding:
+    class_uri: bot:Building
+  BotSpace:
+    class_uri: bot:Space
+  BotStorey:
+    class_uri: bot:Storey
+
 slots:
   hasGeometry:
-    alias: "geo:hasGeometry"
     slot_uri: geo:hasGeometry
     range: GeometryObject
 
   asWKT:
-    alias: "geo:asWKT"
     slot_uri: geo:asWKT
     range: string
 

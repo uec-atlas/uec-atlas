@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/MOVCQ6B3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54391458,
+              35.65670346
+            ],
+            [
+              139.54387019,
+              35.65659915
+            ],
+            [
+              139.54431885,
+              35.65647198
+            ],
+            [
+              139.54436324,
+              35.6565763
+            ],
+            [
+              139.54391458,
+              35.65670346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "A棟",
+          "en": "Building A"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 4
+      }
+    },
+    {
+      "id": "uatr:spatial/NCMS6AJT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54393284,
+          35.65669829
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/MOVCQ6B3"
+      }
+    },
+    {
+      "id": "uatr:spatial/LFBDGR3B",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54417021,
+          35.65663101
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/MOVCQ6B3"
+      }
+    },
+    {
+      "id": "uatr:spatial/UP7HTYKP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54434498,
+          35.65658147
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/MOVCQ6B3"
+      }
+    }
+  ]
+}

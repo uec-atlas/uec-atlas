@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/464DIAAE",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54041123,
+              35.65753198
+            ],
+            [
+              139.54037764,
+              35.65745635
+            ],
+            [
+              139.54032865,
+              35.65747084
+            ],
+            [
+              139.54035283,
+              35.65752528
+            ],
+            [
+              139.54037625,
+              35.65751835
+            ],
+            [
+              139.54038566,
+              35.65753955
+            ],
+            [
+              139.54041123,
+              35.65753198
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "security",
+        "name": {
+          "ja": "西門守衛所",
+          "en": "Security Office of West Gate"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

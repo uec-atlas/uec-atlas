@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/GHLKRZZ3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54426256,
+              35.65914492
+            ],
+            [
+              139.54451301,
+              35.65914841
+            ],
+            [
+              139.5445139,
+              35.65910596
+            ],
+            [
+              139.54456199,
+              35.65910663
+            ],
+            [
+              139.54456274,
+              35.65907127
+            ],
+            [
+              139.54451514,
+              35.6590706
+            ],
+            [
+              139.54451581,
+              35.65903857
+            ],
+            [
+              139.54426486,
+              35.65903507
+            ],
+            [
+              139.54426256,
+              35.65914492
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東31号館",
+          "en": "Building E-31"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    },
+    {
+      "id": "uatr:spatial/AOLXHJQV",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54445963,
+          35.65903779
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 0.0,
+        "containedInPlace": "uatr:spatial/GHLKRZZ3"
+      }
+    }
+  ]
+}

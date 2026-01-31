@@ -1,2 +1,0 @@
-(?a rdf:type ?x), (?x rdfs:subClassOf ?y) -> (?a rdf:type ?y)
-(?x rdfs:subClassOf ?y), (?y rdfs:subClassOf ?z) -> (?x rdfs:subClassOf ?z)

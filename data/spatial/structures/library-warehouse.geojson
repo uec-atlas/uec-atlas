@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/UZC5N5EX",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5430611,
+              35.6579224
+            ],
+            [
+              139.54316979,
+              35.65792439
+            ],
+            [
+              139.54317269,
+              35.65781861
+            ],
+            [
+              139.54306401,
+              35.65781662
+            ],
+            [
+              139.5430611,
+              35.6579224
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "図書館倉庫",
+          "en": "Library Warehouse"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    }
+  ]
+}

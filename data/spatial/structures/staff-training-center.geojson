@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/277ESWX3",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54455162,
+              35.65920111
+            ],
+            [
+              139.54467743,
+              35.65918788
+            ],
+            [
+              139.54466818,
+              35.65912933
+            ],
+            [
+              139.54454237,
+              35.65914257
+            ],
+            [
+              139.54455162,
+              35.65920111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "職員研修所",
+          "en": "Staff Training Center"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    }
+  ]
+}

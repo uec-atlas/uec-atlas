@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/SHGP6CPL",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54342199,
+              35.6572701
+            ],
+            [
+              139.54371414,
+              35.6571873
+            ],
+            [
+              139.54361848,
+              35.65696249
+            ],
+            [
+              139.54332633,
+              35.65704529
+            ],
+            [
+              139.54342199,
+              35.6572701
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "大学会館",
+          "en": "University Center"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 4
+      }
+    },
+    {
+      "id": "uatr:spatial/X74E4ATM",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54355611,
+          35.6572006
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 290.0,
+        "containedInPlace": "uatr:spatial/SHGP6CPL"
+      }
+    },
+    {
+      "id": "uatr:spatial/3Y36KHDU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54367573,
+          35.65709703
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 290.0,
+        "containedInPlace": "uatr:spatial/SHGP6CPL"
+      }
+    },
+    {
+      "id": "uatr:spatial/FSU5R5EB",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54358589,
+          35.65716067
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/SHGP6CPL"
+      }
+    }
+  ]
+}

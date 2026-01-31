@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/MA3WG7AA",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54066153,
+              35.65786122
+            ],
+            [
+              139.54074939,
+              35.65806357
+            ],
+            [
+              139.54077431,
+              35.65805636
+            ],
+            [
+              139.54077906,
+              35.6580673
+            ],
+            [
+              139.5408162,
+              35.65805655
+            ],
+            [
+              139.54081906,
+              35.65806314
+            ],
+            [
+              139.54090828,
+              35.65803729
+            ],
+            [
+              139.54090828,
+              35.65803729
+            ],
+            [
+              139.54089709,
+              35.65801274
+            ],
+            [
+              139.54090855,
+              35.65800926
+            ],
+            [
+              139.54081922,
+              35.65781333
+            ],
+            [
+              139.54066153,
+              35.65786122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "西11号館",
+          "en": "Building W-11"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 5
+      }
+    },
+    {
+      "id": "uatr:spatial/C2T4ZVJF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54084038,
+          35.65806643
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/MA3WG7AA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/BWBZFLSP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54087856,
+              35.65671143
+            ],
+            [
+              139.54096097,
+              35.65668541
+            ],
+            [
+              139.54099286,
+              35.65675267
+            ],
+            [
+              139.54110617,
+              35.65671689
+            ],
+            [
+              139.54104241,
+              35.65658238
+            ],
+            [
+              139.5410115,
+              35.65659213
+            ],
+            [
+              139.54095173,
+              35.65646602
+            ],
+            [
+              139.54053967,
+              35.65659612
+            ],
+            [
+              139.54059945,
+              35.65672223
+            ],
+            [
+              139.54084668,
+              35.65664417
+            ],
+            [
+              139.54085465,
+              35.65666099
+            ],
+            [
+              139.54077224,
+              35.65668701
+            ],
+            [
+              139.54082803,
+              35.65680471
+            ],
+            [
+              139.54091044,
+              35.65677869
+            ],
+            [
+              139.54087856,
+              35.65671143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "西8号館",
+          "en": "Building W-8"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 8
+      }
+    },
+    {
+      "id": "uatr:spatial/FVA3LQJI",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54091977,
+          35.65669842
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 202.0,
+        "containedInPlace": "uatr:spatial/BWBZFLSP"
+      }
+    }
+  ]
+}

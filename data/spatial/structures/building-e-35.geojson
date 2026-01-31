@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/3DCB4Q56",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54332337,
+              35.65862717
+            ],
+            [
+              139.54335478,
+              35.65873346
+            ],
+            [
+              139.54375757,
+              35.65865419
+            ],
+            [
+              139.54372554,
+              35.65854578
+            ],
+            [
+              139.54341057,
+              35.65860777
+            ],
+            [
+              139.54335678,
+              35.65842571
+            ],
+            [
+              139.54320614,
+              35.65845536
+            ],
+            [
+              139.54326056,
+              35.65863954
+            ],
+            [
+              139.54332337,
+              35.65862717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東35号館",
+          "en": "Building E-35"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    },
+    {
+      "id": "uatr:spatial/J3HJ2IOO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54374019,
+          35.65859536
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 290.0,
+        "containedInPlace": "uatr:spatial/3DCB4Q56"
+      }
+    },
+    {
+      "id": "uatr:spatial/CCCJCN7H",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54339984,
+          35.65872459
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 190.0,
+        "containedInPlace": "uatr:spatial/3DCB4Q56"
+      }
+    }
+  ]
+}

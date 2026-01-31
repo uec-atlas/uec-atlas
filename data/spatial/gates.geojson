@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/P4TTQ6A7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54371392,
+          35.65551705
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "正門",
+          "en": "Main Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    },
+    {
+      "id": "uatr:spatial/5CRYHAF4",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54445823,
+          35.65530924
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "南門",
+          "en": "South Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    },
+    {
+      "id": "uatr:spatial/XGTRQKKH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54480452,
+          35.65594569
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "東門",
+          "en": "East Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    },
+    {
+      "id": "uatr:spatial/BJR3M6SB",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54287336,
+          35.65758462
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "中門",
+          "en": "Central Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    },
+    {
+      "id": "uatr:spatial/HMP4XB32",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54278255,
+          35.65761071
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "中門",
+          "en": "Central Gate"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW"
+      }
+    },
+    {
+      "id": "uatr:spatial/WFMPH5EL",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54019568,
+          35.65742538
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "西門",
+          "en": "West Gate"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW"
+      }
+    },
+    {
+      "id": "uatr:spatial/R6UAPZ2I",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54325186,
+          35.65885882
+        ]
+      },
+      "properties": {
+        "type": "Gate",
+        "name": {
+          "ja": "北門",
+          "en": "North Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    }
+  ]
+}

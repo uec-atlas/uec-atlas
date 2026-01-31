@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/Z3BIYF4G",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54426764,
+              35.6583373
+            ],
+            [
+              139.5446015,
+              35.65824258
+            ],
+            [
+              139.5444383,
+              35.65785942
+            ],
+            [
+              139.54410444,
+              35.65795414
+            ],
+            [
+              139.54426764,
+              35.6583373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東6号館",
+          "en": "Building E-6"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 9
+      }
+    },
+    {
+      "id": "uatr:spatial/4B4TDXQI",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54422645,
+          35.65791952
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 20.0,
+        "containedInPlace": "uatr:spatial/Z3BIYF4G"
+      }
+    }
+  ]
+}

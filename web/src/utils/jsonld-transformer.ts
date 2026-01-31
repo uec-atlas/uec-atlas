@@ -219,8 +219,8 @@ function createJsonLdCollapseTransformer(threshold = 10): ShikiTransformer {
             // 閉じ括弧を探す
             for (; j < nodes.length; j++) {
               const text = getAllText(nodes[j]);
-              depth += (text.match(/[\[\{]/g) || []).length;
-              depth -= (text.match(/[\]\}]/g) || []).length;
+              depth += (text.match(/[[{]/g) || []).length;
+              depth -= (text.match(/[\]}]/g) || []).length;
               if (depth === 0) {
                 foundEnd = true;
                 break;
@@ -315,27 +315,41 @@ function createJsonLdCollapseTransformer(threshold = 10): ShikiTransformer {
 const autoLinkTransformer: ShikiTransformer = {
   name: "safe-link-transformer",
   span(node, _line, _col, _lineText, token) {
+    const content = token.content.trim();
     if (
-      token.content.length >= 2 &&
-      token.content.startsWith('"') &&
-      token.content.endsWith('"')
+      content.length >= 2 &&
+      content.startsWith('"') &&
+      content.endsWith('"')
     ) {
       try {
-        const innerContent = JSON.parse(token.content);
+        const innerContent = JSON.parse(content);
         if (typeof innerContent !== "string") return;
 
         const href = expandURI(innerContent);
         if (href !== innerContent || href.startsWith("http")) {
-          node.tagName = "a";
-          node.properties.href = href;
-          if (innerContent.startsWith("uatr:")) {
-            this.addClassToHast(
-              node,
-              "underline decoration-dashed hover:decoration-solid",
-            );
-          } else {
-            this.addClassToHast(node, "hover:underline");
-          }
+          node.children = [
+            { type: "text", value: token.content.split('"')[0] + '"' },
+            {
+              type: "element",
+              tagName: "a",
+              properties: {
+                href,
+                class: innerContent.startsWith("uatr:")
+                  ? "underline decoration-dashed hover:decoration-solid"
+                  : "hover:underline",
+              },
+              children: [
+                {
+                  type: "text",
+                  value: innerContent,
+                },
+              ],
+            },
+            {
+              type: "text",
+              value: '"' + token.content.split('"').slice(2).join('"'),
+            },
+          ];
         }
       } catch {
         // JSON parse error ignore

@@ -1,0 +1,103 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/QQAX2HA7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54347107,
+              35.65812336
+            ],
+            [
+              139.54358259,
+              35.65812293
+            ],
+            [
+              139.54358244,
+              35.65809762
+            ],
+            [
+              139.54361562,
+              35.65809749
+            ],
+            [
+              139.54361549,
+              35.65807567
+            ],
+            [
+              139.54363183,
+              35.6580756
+            ],
+            [
+              139.54363203,
+              35.65811134
+            ],
+            [
+              139.54382403,
+              35.6581106
+            ],
+            [
+              139.5438234,
+              35.65800169
+            ],
+            [
+              139.54363429,
+              35.65800241
+            ],
+            [
+              139.5436346,
+              35.65805683
+            ],
+            [
+              139.54361487,
+              35.65805691
+            ],
+            [
+              139.54361462,
+              35.65801364
+            ],
+            [
+              139.54347045,
+              35.65801419
+            ],
+            [
+              139.54347107,
+              35.65812336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "保健管理センター",
+          "en": "Health Care Center"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    },
+    {
+      "id": "uatr:spatial/IIQ32PWS",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54382369,
+          35.65805252
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 270.0,
+        "containedInPlace": "uatr:spatial/QQAX2HA7"
+      }
+    }
+  ]
+}

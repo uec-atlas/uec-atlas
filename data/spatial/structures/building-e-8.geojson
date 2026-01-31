@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/DD72LEVK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54454586,
+              35.65848578
+            ],
+            [
+              139.54481736,
+              35.65840996
+            ],
+            [
+              139.54476291,
+              35.6582801
+            ],
+            [
+              139.54449142,
+              35.65835592
+            ],
+            [
+              139.54454586,
+              35.65848578
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東8号館",
+          "en": "Building E-8"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 4
+      }
+    },
+    {
+      "id": "uatr:spatial/YMHZF2AF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54450602,
+          35.65839075
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 110.0,
+        "containedInPlace": "uatr:spatial/DD72LEVK"
+      }
+    }
+  ]
+}

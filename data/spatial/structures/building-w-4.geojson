@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/2GNCEMOI",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54057216,
+              35.6576853
+            ],
+            [
+              139.54081566,
+              35.65760906
+            ],
+            [
+              139.54080698,
+              35.6575906
+            ],
+            [
+              139.54084555,
+              35.65757853
+            ],
+            [
+              139.54079766,
+              35.65747667
+            ],
+            [
+              139.54055336,
+              35.65755316
+            ],
+            [
+              139.54057285,
+              35.65759461
+            ],
+            [
+              139.54053509,
+              35.65760644
+            ],
+            [
+              139.54057216,
+              35.6576853
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "西4号館",
+          "en": "Building W-4"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 6
+      }
+    },
+    {
+      "id": "uatr:spatial/OQEEP2NN",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54058568,
+          35.65754304
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 20.0,
+        "containedInPlace": "uatr:spatial/2GNCEMOI"
+      }
+    }
+  ]
+}

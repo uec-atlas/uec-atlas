@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/2URCEFCU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54358773,
+              35.65568049
+            ],
+            [
+              139.54362947,
+              35.65566866
+            ],
+            [
+              139.54362222,
+              35.65565163
+            ],
+            [
+              139.54368482,
+              35.65563389
+            ],
+            [
+              139.54366308,
+              35.6555828
+            ],
+            [
+              139.54360048,
+              35.65560054
+            ],
+            [
+              139.54359323,
+              35.65558351
+            ],
+            [
+              139.5435515,
+              35.65559534
+            ],
+            [
+              139.54358773,
+              35.65568049
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "security",
+        "name": {
+          "ja": "正門守衛所",
+          "en": "Security Office of the Main Gate"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

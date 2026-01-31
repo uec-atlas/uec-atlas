@@ -62,7 +62,7 @@ interface Props extends HTMLAttributes<"div"> {
           type: "fill",
           source: "spatial-preview",
           paint: {
-            "fill-color": "#ff0000",
+            "fill-color": "#17288B",
             "fill-opacity": 0.5,
           },
         });
@@ -74,6 +74,19 @@ interface Props extends HTMLAttributes<"div"> {
           paint: {
             "line-color": "#000000",
             "line-width": 2,
+          },
+        });
+
+        this.map.addLayer({
+          id: "spatial-preview-point",
+          type: "circle",
+          source: "spatial-preview",
+          filter: ["==", "$type", "Point"],
+          paint: {
+            "circle-radius": 6,
+            "circle-color": "#FFFFFF",
+            "circle-stroke-color": "#000000",
+            "circle-stroke-width": 2,
           },
         });
       });

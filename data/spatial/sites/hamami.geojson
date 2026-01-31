@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/OWVZPRW7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.45710346,
+              35.32004443
+            ],
+            [
+              139.45802086,
+              35.3198968
+            ],
+            [
+              139.45794457,
+              35.31957835
+            ],
+            [
+              139.45702717,
+              35.31972598
+            ],
+            [
+              139.45710346,
+              35.32004443
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Site",
+        "name": {
+          "ja": "浜見寮",
+          "en": "Hamami House"
+        },
+        "address": {
+          "streetAddress": {
+            "en": "4-10-3 Tsujido-Higashikaigan",
+            "ja": "辻堂東海岸4-10-3"
+          },
+          "addressLocality": {
+            "en": "Fujisawa",
+            "ja": "藤沢市"
+          },
+          "addressRegion": {
+            "en": "Kanagawa",
+            "ja": "神奈川県"
+          },
+          "postalCode": [
+            "251-0047"
+          ],
+          "addressCountry": "JP"
+        },
+        "managedBy": [
+          "uatr:organizations/UEC"
+        ]
+      }
+    }
+  ]
+}

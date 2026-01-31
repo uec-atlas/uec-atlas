@@ -42,7 +42,6 @@ async function getStore(runtimeFetch: typeof fetch) {
 
   const store = new Store();
   for (const nquads of nquadsList) {
-    console.log("loading nquads...");
     store.load(nquads, { format: "application/n-quads" });
   }
 
@@ -71,15 +70,8 @@ const getQueryType = (query: string) => {
 
 const createFetch =
   (env: Env) => async (input: URL | RequestInfo, init?: RequestInit) => {
-    return env.ASSETS.fetch(input, init)
-      .then((res) => {
-        if (res.status === 404) {
-          console.warn("Asset not found in ASSETS:", input);
-          throw new Error("Not found in ASSETS");
-        }
-        return res;
-      })
-      .catch(() => env.SELF.fetch(input, init));
+    if (import.meta.env.DEV) return fetch(input, init);
+    return env.SELF.fetch(input, init);
   };
 
 const executeQuery = async (
@@ -142,11 +134,11 @@ export const GET: APIRoute = async ({ request, locals, redirect }) => {
   } catch (error) {
     console.error(error);
     if (error instanceof Error) {
-      return new Response(`Internal Server Error: ${error.message}`, {
-        status: 500,
+      return new Response(`Bad Request: ${error.message}`, {
+        status: 400,
       });
     }
-    return new Response("Internal Server Error", { status: 500 });
+    return new Response("Bad Request", { status: 400 });
   }
 };
 
@@ -171,11 +163,11 @@ export const POST: APIRoute = async ({ request, locals }) => {
   } catch (error) {
     console.error(error);
     if (error instanceof Error) {
-      return new Response(`Internal Server Error: ${error.message}`, {
-        status: 500,
+      return new Response(`Bad Request: ${error.message}`, {
+        status: 400,
       });
     }
-    return new Response("Internal Server Error", { status: 500 });
+    return new Response("Bad Request", { status: 400 });
   }
 };
 

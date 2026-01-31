@@ -22,8 +22,8 @@ classes:
   Organization:
     class_uri: schema:Organization
     is_a: OrganizationBase
-    exact_mappings:
-      - org:Organization
+    mixins:
+      - OrgOrganization
     description: "組織"
     tree_root: true
     slots:
@@ -41,6 +41,9 @@ classes:
     slot_usage:
       id:
         pattern: "^uatr:organizations/"
+
+  OrgOrganization:
+    class_uri: org:Organization
 
   AbstractEducationalOrganization:
     abstract: true

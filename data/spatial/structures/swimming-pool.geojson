@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/HHWLSWLT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54049807,
+              35.65818022
+            ],
+            [
+              139.54059721,
+              35.65840161
+            ],
+            [
+              139.5407409,
+              35.65835876
+            ],
+            [
+              139.54064175,
+              35.65813736
+            ],
+            [
+              139.54049807,
+              35.65818022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Structure",
+        "category": "water",
+        "name": {
+          "ja": "プール",
+          "en": "Swimming Pool"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/XZYPMGPK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54404628,
+              35.65687373
+            ],
+            [
+              139.54443473,
+              35.65676132
+            ],
+            [
+              139.54438482,
+              35.65664644
+            ],
+            [
+              139.54403367,
+              35.65674801
+            ],
+            [
+              139.5440411,
+              35.65676546
+            ],
+            [
+              139.54402217,
+              35.65677071
+            ],
+            [
+              139.54404014,
+              35.65681465
+            ],
+            [
+              139.54402302,
+              35.65681955
+            ],
+            [
+              139.54404628,
+              35.65687373
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "東1号館",
+          "en": "Building E-1"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 8
+      }
+    },
+    {
+      "id": "uatr:spatial/Q5PLGJPO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54401269,
+          35.65679936
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 110.0,
+        "containedInPlace": "uatr:spatial/XZYPMGPK"
+      }
+    }
+  ]
+}

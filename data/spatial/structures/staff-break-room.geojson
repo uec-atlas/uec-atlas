@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/AI4LFXHM",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54468982,
+              35.65619095
+            ],
+            [
+              139.54478887,
+              35.65616141
+            ],
+            [
+              139.54470949,
+              35.65598407
+            ],
+            [
+              139.54461043,
+              35.65601361
+            ],
+            [
+              139.54468982,
+              35.65619095
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "職員休憩室・倉庫",
+          "en": "Staff Break Room"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

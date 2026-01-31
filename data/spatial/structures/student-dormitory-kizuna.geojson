@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/OTGFQXVZ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54062086,
+              35.65609289
+            ],
+            [
+              139.54080819,
+              35.65603095
+            ],
+            [
+              139.54066149,
+              35.65573538
+            ],
+            [
+              139.54060645,
+              35.65575358
+            ],
+            [
+              139.54059642,
+              35.65573339
+            ],
+            [
+              139.54065283,
+              35.65571474
+            ],
+            [
+              139.54052009,
+              35.65544738
+            ],
+            [
+              139.54032674,
+              35.65551132
+            ],
+            [
+              139.54043834,
+              35.65573609
+            ],
+            [
+              139.54047994,
+              35.65572233
+            ],
+            [
+              139.54051296,
+              35.65578883
+            ],
+            [
+              139.54047596,
+              35.65580107
+            ],
+            [
+              139.54062086,
+              35.65609289
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "residential",
+        "name": {
+          "ja": "ドーム絆",
+          "en": "Student Dormitory Kizuna"
+        },
+        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 5
+      }
+    },
+    {
+      "id": "uatr:spatial/H2OH3I4W",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54049515,
+          35.65575295
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 110.0,
+        "containedInPlace": "uatr:spatial/OTGFQXVZ"
+      }
+    },
+    {
+      "id": "uatr:spatial/X7LTGHRF",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.5406012,
+          35.65574301
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 290.0,
+        "containedInPlace": "uatr:spatial/OTGFQXVZ"
+      }
+    }
+  ]
+}

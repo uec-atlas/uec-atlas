@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/77GXAMCZ",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "office",
+        "name": {
+          "ja": "管理棟",
+          "en": "Administration Building"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.544577,
+              35.640823
+            ],
+            [
+              139.544743,
+              35.640773
+            ],
+            [
+              139.5448,
+              35.6409
+            ],
+            [
+              139.544634,
+              35.64095
+            ],
+            [
+              139.544577,
+              35.640823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/GYIF63VF",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "倉庫",
+          "en": "Warehouse"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.544667,
+              35.641044
+            ],
+            [
+              139.544761,
+              35.641016
+            ],
+            [
+              139.54478,
+              35.641059
+            ],
+            [
+              139.544686,
+              35.641087
+            ],
+            [
+              139.544667,
+              35.641044
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/BLE7BVSR",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "トイレ",
+          "en": "Restroom"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54468,
+              35.641007
+            ],
+            [
+              139.54478,
+              35.640977
+            ],
+            [
+              139.544765,
+              35.640943
+            ],
+            [
+              139.54473,
+              35.640954
+            ],
+            [
+              139.544725,
+              35.640943
+            ],
+            [
+              139.544659,
+              35.640962
+            ],
+            [
+              139.54468,
+              35.641007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/FWBGOXFO",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "散水ポンプ室",
+          "en": "Water Pump Room"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.544928,
+              35.641058
+            ],
+            [
+              139.544954,
+              35.64105
+            ],
+            [
+              139.544965,
+              35.641074
+            ],
+            [
+              139.544938,
+              35.641082
+            ],
+            [
+              139.544928,
+              35.641058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/FWBGOXFO",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "体育器具庫(部室)",
+          "en": "Equipment Storage (Club Room)"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.545328,
+              35.641004
+            ],
+            [
+              139.54553,
+              35.640962
+            ],
+            [
+              139.545541,
+              35.640999
+            ],
+            [
+              139.545339,
+              35.641041
+            ],
+            [
+              139.545328,
+              35.641004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/UQ6Q37CN",
+      "type": "Feature",
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "部室棟",
+          "en": "Club Room Building"
+        },
+        "containedInPlace": "uatr:spatial/QDHLLYXW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.545832,
+              35.639589
+            ],
+            [
+              139.545935,
+              35.639692
+            ],
+            [
+              139.545855,
+              35.639745
+            ],
+            [
+              139.545753,
+              35.639642
+            ],
+            [
+              139.545832,
+              35.639589
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

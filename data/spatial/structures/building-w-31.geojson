@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/DVG5NS44",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54148003,
+              35.65683744
+            ],
+            [
+              139.54149974,
+              35.65688025
+            ],
+            [
+              139.54182213,
+              35.65678139
+            ],
+            [
+              139.54176664,
+              35.65666086
+            ],
+            [
+              139.54151705,
+              35.6567374
+            ],
+            [
+              139.54150546,
+              35.65671223
+            ],
+            [
+              139.54135252,
+              35.65675913
+            ],
+            [
+              139.54139988,
+              35.65686202
+            ],
+            [
+              139.54148003,
+              35.65683744
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "utility",
+        "name": {
+          "ja": "西31号館",
+          "en": "Building W-31"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": 1,
+        "maxFloorLevel": 2
+      }
+    }
+  ]
+}

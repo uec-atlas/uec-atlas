@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/KNIRFL5F",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54467534,
+              35.65558742
+            ],
+            [
+              139.54479511,
+              35.65555291
+            ],
+            [
+              139.54470671,
+              35.6553486
+            ],
+            [
+              139.54458694,
+              35.65538312
+            ],
+            [
+              139.54467534,
+              35.65558742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Structure",
+        "category": "sports",
+        "name": {
+          "ja": "テニスコート",
+          "en": "Tennis Court"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM"
+      }
+    }
+  ]
+}

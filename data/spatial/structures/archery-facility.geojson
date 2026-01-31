@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/EBHOSDCE",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54201566,
+              35.65822516
+            ],
+            [
+              139.54216744,
+              35.65817897
+            ],
+            [
+              139.54203872,
+              35.6578972
+            ],
+            [
+              139.54188694,
+              35.65794338
+            ],
+            [
+              139.54201566,
+              35.65822516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Structure",
+        "category": "sports",
+        "name": {
+          "ja": "弓道場",
+          "en": "Archery Facility"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW"
+      }
+    }
+  ]
+}

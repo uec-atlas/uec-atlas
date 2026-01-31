@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/QDHLLYXW",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.543883,
+              35.641418
+            ],
+            [
+              139.543553,
+              35.640055
+            ],
+            [
+              139.543833,
+              35.639986
+            ],
+            [
+              139.543989,
+              35.639929
+            ],
+            [
+              139.545709,
+              35.639396
+            ],
+            [
+              139.545977,
+              35.639659
+            ],
+            [
+              139.546066,
+              35.639779
+            ],
+            [
+              139.546092,
+              35.639767
+            ],
+            [
+              139.546423,
+              35.640775
+            ],
+            [
+              139.545607,
+              35.641048
+            ],
+            [
+              139.543883,
+              35.641418
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Site",
+        "name": {
+          "ja": "多摩川運動場",
+          "en": "Tamagawa Athletic Field"
+        },
+        "address": {
+          "streetAddress": {
+            "en": "7-38-1 Tamagawa",
+            "ja": "多摩川7-38-1"
+          },
+          "addressLocality": {
+            "en": "Chofu",
+            "ja": "調布市"
+          },
+          "addressRegion": {
+            "en": "Tokyo",
+            "ja": "東京都"
+          },
+          "postalCode": [
+            "182-0025"
+          ],
+          "addressCountry": "JP"
+        },
+        "managedBy": [
+          "uatr:organizations/UEC"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/VGXBMM7V",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5397492,
+              35.65567269
+            ],
+            [
+              139.53979389,
+              35.65576664
+            ],
+            [
+              139.53985874,
+              35.65574608
+            ],
+            [
+              139.53986956,
+              35.65576881
+            ],
+            [
+              139.53991192,
+              35.65575537
+            ],
+            [
+              139.53990293,
+              35.65573651
+            ],
+            [
+              139.54021811,
+              35.65563628
+            ],
+            [
+              139.5402307,
+              35.65566261
+            ],
+            [
+              139.54029763,
+              35.65564126
+            ],
+            [
+              139.54028128,
+              35.65560716
+            ],
+            [
+              139.54029823,
+              35.65560173
+            ],
+            [
+              139.54025906,
+              35.65552047
+            ],
+            [
+              139.54020366,
+              35.65553827
+            ],
+            [
+              139.54019839,
+              35.65552739
+            ],
+            [
+              139.5397492,
+              35.65567269
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "residential",
+        "name": {
+          "ja": "職員宿舎",
+          "en": "Staff Housing"
+        },
+        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "alternateName": {
+          "ja": [
+            "UECポートロッジ"
+          ],
+          "en": []
+        },
+        "minFloorLevel": 1,
+        "maxFloorLevel": 5
+      }
+    },
+    {
+      "id": "uatr:spatial/LXRP2D6C",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54023207,
+          35.65552914
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 20.0,
+        "containedInPlace": "uatr:spatial/VGXBMM7V"
+      }
+    }
+  ]
+}

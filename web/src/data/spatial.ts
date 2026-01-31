@@ -1,7 +1,7 @@
 import { getCollection } from "astro:content";
+import { geoJSONToWkt } from "betterknown";
 import type { SpatialEntity, SpatialProperties } from "generated/spatial";
 import type { LinkedOrganization } from "./organizations";
-import { geoJSONToWkt } from "betterknown";
 
 export type RawSpatialProperties = Omit<
   SpatialProperties,
@@ -76,9 +76,9 @@ for (const { data } of rawSpatial) {
 for (const { data } of rawSpatial) {
   const entityId = data.id;
   const p = data.properties;
-  if(data.geometry) {
-    data["geo:hasGeometry"] ??= {};
-    data["geo:hasGeometry"]["geo:asWKT"] ??= geoJSONToWkt(data.geometry as GeoJSON.Geometry);
+  if (data.geometry) {
+    data.hasGeometry ??= {};
+    data.hasGeometry.asWKT ??= geoJSONToWkt(data.geometry as GeoJSON.Geometry);
   }
 
   if (p.containedInPlace) {

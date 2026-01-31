@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/ZZ37NTM7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54449928,
+              35.65933104
+            ],
+            [
+              139.54463066,
+              35.65932164
+            ],
+            [
+              139.54462199,
+              35.65924088
+            ],
+            [
+              139.54449061,
+              35.65925028
+            ],
+            [
+              139.54449928,
+              35.65933104
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "welfare",
+        "name": {
+          "ja": "学内保育施設",
+          "en": "Child-Care Facility"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "alternateName": {
+          "ja": [
+            "UEC保育園どんぐり"
+          ],
+          "en": []
+        },
+        "minFloorLevel": 1,
+        "maxFloorLevel": 1
+      }
+    }
+  ]
+}

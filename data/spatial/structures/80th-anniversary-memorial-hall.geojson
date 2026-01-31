@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/2NQHRO5A",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5434067,
+              35.6556261
+            ],
+            [
+              139.54339994,
+              35.65561
+            ],
+            [
+              139.54327534,
+              35.65564484
+            ],
+            [
+              139.54328263,
+              35.65566222
+            ],
+            [
+              139.54316879,
+              35.65569405
+            ],
+            [
+              139.54320895,
+              35.65578972
+            ],
+            [
+              139.54356828,
+              35.65568923
+            ],
+            [
+              139.54352758,
+              35.6555923
+            ],
+            [
+              139.5434067,
+              35.6556261
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "office",
+        "name": {
+          "ja": "創立80周年記念会館",
+          "en": "80th Anniversary Memorial Hall"
+        },
+        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "alternateName": {
+          "ja": [
+            "リサージュ"
+          ],
+          "en": []
+        },
+        "minFloorLevel": 1,
+        "maxFloorLevel": 3
+      }
+    },
+    {
+      "id": "uatr:spatial/F62QGQU4",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54346574,
+          35.65571791
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 200.0,
+        "containedInPlace": "uatr:spatial/2NQHRO5A"
+      }
+    }
+  ]
+}

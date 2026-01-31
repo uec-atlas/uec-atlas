@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/XW6IN3GG",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54150209,
+              35.65725821
+            ],
+            [
+              139.5408428,
+              35.65746637
+            ],
+            [
+              139.54090058,
+              35.65758827
+            ],
+            [
+              139.54155988,
+              35.65738011
+            ],
+            [
+              139.54150209,
+              35.65725821
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Building",
+        "category": "academic",
+        "name": {
+          "ja": "西2号館",
+          "en": "Building W-2"
+        },
+        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "minFloorLevel": -1,
+        "maxFloorLevel": 8
+      }
+    },
+    {
+      "id": "uatr:spatial/OJP77GH6",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54120832,
+          35.65749111
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 202.0,
+        "containedInPlace": "uatr:spatial/XW6IN3GG"
+      }
+    },
+    {
+      "id": "uatr:spatial/IN463RW7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54121365,
+          35.65734928
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 22.0,
+        "containedInPlace": "uatr:spatial/XW6IN3GG"
+      }
+    }
+  ]
+}
