@@ -4,8 +4,20 @@ import Hero from "@/components/index/Hero.astro";
 import Section from "@/components/index/Section.astro";
 import LayoutNoContainer from "@/layouts/LayoutNoContainer.astro";
 import { Code } from "astro:components";
+import { defineIcons } from "icon-plugin";
 
 export const prerender = true;
+
+defineIcons([
+  "material-symbols:graph-2",
+  "material-symbols:public",
+  "material-symbols:group",
+  "material-symbols:account-tree",
+  "material-symbols:menu-book",
+  "material-symbols:map",
+  "material-symbols:download",
+  "material-symbols:query-stats",
+]);
 ---
 
 <LayoutNoContainer>

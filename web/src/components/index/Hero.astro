@@ -1,5 +1,5 @@
 ---
-import { Icon } from "astro-icon/components";
+import Icon from "@/components/Icon.svelte";
 ---
 
 <header
@@ -14,7 +14,9 @@ import { Icon } from "astro-icon/components";
     電気通信大学のデータを構造化・整理し、誰もが利用できるようにする Linked Open
     Data プロジェクトです。
   </p>
-  <div class="flex flex-wrap flex-row gap-4 h-16 md:h-20 items-center">
+  <div
+    class="flex flex-wrap flex-row gap-4 h-16 md:h-20 items-center justify-center"
+  >
     <a class="d-btn d-btn-neutral">
       <Icon name="mdi:github" class="inline-block w-5 h-5 mr-2" />
       GitHubリポジトリ
@@ -24,7 +26,7 @@ import { Icon } from "astro-icon/components";
         type="text"
         name="q"
         class="d-join-item d-input"
-        placeholder="検索語を入力"
+        placeholder="キーワードを入力"
       />
       <button type="submit" class="d-join-item d-btn">検索</button>
     </form>

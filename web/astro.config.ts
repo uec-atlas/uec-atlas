@@ -2,10 +2,10 @@ import cloudflare from "@astrojs/cloudflare";
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
-
-import icon from "astro-icon";
+import { iconSpritePlugin } from "./icon-plugin";
 
 export default defineConfig({
+  site: process.env.SITE,
   adapter: cloudflare(),
   output: "server",
 
@@ -13,9 +13,9 @@ export default defineConfig({
     checkOrigin: false,
   },
 
-  integrations: [icon(), svelte()],
+  integrations: [svelte()],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), iconSpritePlugin()],
     optimizeDeps: {
       esbuildOptions: {
         target: "esnext",
@@ -25,7 +25,6 @@ export default defineConfig({
       external: ["eyereasoner"],
     },
     define: {
-      // 依存ライブラリ内の __dirname を空文字やダミー値で置換する
       __dirname: '""',
       __filename: '""',
     },

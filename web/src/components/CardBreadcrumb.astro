@@ -1,5 +1,6 @@
 ---
-import { Icon } from "astro-icon/components";
+import Icon from "@/components/Icon.svelte";
+import { defineIcons } from "icon-plugin";
 
 interface Props {
   items: {
@@ -10,6 +11,7 @@ interface Props {
   }[];
 }
 
+defineIcons(["mdi:home", "mdi:account-group", "mdi:map"]);
 const { items } = Astro.props;
 ---
 

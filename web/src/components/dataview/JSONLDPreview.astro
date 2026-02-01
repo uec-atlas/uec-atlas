@@ -2,7 +2,7 @@
 import { getOntology } from "@/pages/ontology/[path].ttl";
 import { getJsonLdTransformers } from "@/utils/jsonld-transformer";
 import { Code } from "astro:components";
-import { Icon } from "astro-icon/components";
+import Icon from "@/components/Icon.svelte";
 
 type CodeProps = Parameters<typeof Code>[0];
 interface Props extends CodeProps {

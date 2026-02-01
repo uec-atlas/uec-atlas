@@ -19,7 +19,6 @@
     "@triply/yasqe": "^4.2.28",
     "@turf/turf": "^7.3.3",
     "astro": "^5.16.15",
-    "astro-icon": "^1.1.5",
     "betterknown": "^1.2.0",
     "daisyui": "^5.5.14",
     "eye-reasoning": "github:eyereasoner/eye#path:reasoning",
