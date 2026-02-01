@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "uatr:spatial/PMC26PBR",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Site",
+        "name": {
+          "ja": "菅平地区",
+          "en": "Sugadaira District"
+        },
+        "address": {
+          "streetAddress": {
+            "en": "1223 Sugadaira-Kogen",
+            "ja": "菅平高原1223"
+          },
+          "addressLocality": {
+            "en": "Ueda",
+            "ja": "上田市"
+          },
+          "addressRegion": {
+            "en": "Nagano",
+            "ja": "長野県"
+          },
+          "postalCode": [
+            "386-2204"
+          ],
+          "addressCountry": "JP"
+        },
+        "managedBy": [
+          "uatr:organizations/UEC"
+        ]
+      }
+    }
+  ]
+}

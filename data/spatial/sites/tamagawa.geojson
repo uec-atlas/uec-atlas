@@ -61,6 +61,14 @@
           "ja": "多摩川運動場",
           "en": "Tamagawa Athletic Field"
         },
+        "alternateName": {
+          "ja": [
+            "多摩川団地"
+          ],
+          "en": [
+            "Tamagawa District"
+          ]
+        },
         "address": {
           "streetAddress": {
             "en": "7-38-1 Tamagawa",

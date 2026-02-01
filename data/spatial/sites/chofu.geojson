@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/7GPBAFTH",
+      "id": "uatr:spatial/GZIAQT5V",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -10,6 +10,14 @@
         "name": {
           "ja": "調布キャンパス",
           "en": "Chofu Campus"
+        },
+        "alternateName": {
+          "ja": [
+            "調布団地"
+          ],
+          "en": [
+            "Chofu District"
+          ]
         },
         "address": {
           "streetAddress": {
@@ -33,18 +41,6 @@
         "managedBy": [
           "uatr:organizations/UEC"
         ]
-      }
-    },
-    {
-      "id": "uatr:spatial/GZIAQT5V",
-      "type": "Feature",
-      "properties": {
-        "type": "Area",
-        "name": {
-          "ja": "調布団地",
-          "en": "Chofu Main District"
-        },
-        "containedInPlace": "uatr:spatial/7GPBAFTH"
       }
     },
     {
@@ -344,20 +340,21 @@
         ]
       },
       "properties": {
-        "type": "Area",
+        "type": "Site",
         "name": {
           "ja": "100周年記念キャンパス",
           "en": "100th Anniversary Campus"
         },
         "alternateName": {
           "ja": [
+            "調布宿舎",
             "UEC Port"
           ],
           "en": [
+            "Chofu Dormitory District",
             "UEC Port"
           ]
         },
-        "containedInPlace": "uatr:spatial/7GPBAFTH",
         "address": {
           "streetAddress": {
             "en": "1-1-1 Kojimacho",
