@@ -2,7 +2,7 @@
 import LinkCardList from "@/components/dataview/LinkCardList.astro";
 import Heading1 from "@/components/Heading1.astro";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
-import { toFullURL } from "@/utils/url";
+import { expandURI, toFullURL } from "@/utils/url";
 
 const query = Astro.url.searchParams.get("q") || "";
 const searchWords = query.trim().split(/\s+/).filter(Boolean);
@@ -10,41 +10,39 @@ const escapedWords = searchWords.map((word) =>
   word.replace(/\\/g, "\\\\").replace(/"/g, '\\"'),
 );
 
-const filterClauses = escapedWords
-  .map(
-    (word, index) => `
-  BIND("${word}" AS ?word${index})
-  FILTER(
-    CONTAINS(LCASE(STR(COALESCE(?nameJa, ""))), LCASE(?word${index})) ||
-    CONTAINS(LCASE(STR(COALESCE(?nameEn, ""))), LCASE(?word${index})) ||
-    CONTAINS(LCASE(STR(COALESCE(?description, ""))), LCASE(?word${index})) ||
-    CONTAINS(LCASE(STR(COALESCE(?alternateName, ""))), LCASE(?word${index}))
-  )
-`,
-  )
-  .join("\n");
-
 const sparqlQuery = `
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX uato: <${expandURI("uato:")}>
 
-SELECT ?sub (SAMPLE(?nameJa) AS ?nameJa) (SAMPLE(?nameEn) AS ?nameEn) (SAMPLE(?type) AS ?type) WHERE {
-  ?sub rdf:type ?type .
-  OPTIONAL { ?sub rdfs:label ?nameJa . FILTER(lang(?nameJa) = "ja") }
-  OPTIONAL { ?sub rdfs:label ?nameEn . FILTER(lang(?nameEn) = "en") }
+SELECT
+  ?sub
+  (SAMPLE(?nJa) AS ?nameJa)
+  (SAMPLE(?nEn) AS ?nameEn)
+  (SAMPLE(?t) AS ?type)
+WHERE {
+  {
+    # 1. まずキーワードに一致するIDだけを100件抜く
+    SELECT DISTINCT ?sub WHERE {
+      ?sub a uato:NamedThing .
+      ?sub ?p ?text .
+      FILTER(?p IN (schema:name, schema:description, schema:alternateName))
+      ${escapedWords.map((word) => `FILTER(CONTAINS(LCASE(STR(?text)), LCASE("${word}")))`).join("\n")}
+    }
+  }
 
-  OPTIONAL { ?sub schema:name ?searchName . }
-  OPTIONAL { ?sub schema:description ?description . }
-  OPTIONAL { ?sub schema:alternateName ?alternateName . }
-  ${filterClauses}
+  ?sub rdf:type ?t .
+  OPTIONAL { ?sub schema:name ?nJa . FILTER(lang(?nJa) = "ja") }
+  OPTIONAL { ?sub schema:name ?nEn . FILTER(lang(?nEn) = "en") }
 
   FILTER NOT EXISTS {
     ?sub rdf:type ?other .
-    ?other rdfs:subClassOf+ ?type .
-    FILTER (?other != ?type)
+    ?other rdfs:subClassOf+ ?t .
+    FILTER (?other != ?t)
   }
-} GROUP BY ?sub
+}
+GROUP BY ?sub LIMIT 100
 `;
 
 const searchResult = await Astro.locals.runtime.env.SELF.fetch(
@@ -66,16 +64,32 @@ interface SearchResultBinding {
   type: { value: string };
 }
 
-const results = (searchResult.results.bindings as SearchResultBinding[]).map(
-  (binding) => ({
-    id: binding.sub.value,
-    name: {
-      ja: binding.nameJa.value,
-      en: binding.nameEn.value,
-    },
-    type: binding.type.value,
-  }),
-);
+const results = (searchResult.results.bindings as SearchResultBinding[])
+  .map((binding) => {
+    const nameJa = binding.nameJa?.value || "";
+    const nameEn = binding.nameEn?.value || "";
+
+    let maxRatio = 0;
+    searchWords.forEach((word) => {
+      const w = word.toLowerCase();
+      if (nameJa && nameJa.toLowerCase().includes(w)) {
+        maxRatio = Math.max(maxRatio, w.length / nameJa.length);
+      }
+      if (nameEn && nameEn.toLowerCase().includes(w)) {
+        const ratio = (w.length / nameEn.length) * 0.8;
+        maxRatio = Math.max(maxRatio, ratio);
+      }
+    });
+
+    return {
+      id: binding.sub.value,
+      name: { ja: nameJa, en: nameEn },
+      type: binding.type.value,
+      ratioScore: maxRatio,
+    };
+  })
+  .sort((a, b) => a.name.ja.localeCompare(b.name.ja, "ja"))
+  .sort((a, b) => b.ratioScore - a.ratioScore);
 ---
 
 <DataRepositoryLayout>
@@ -91,7 +105,7 @@ const results = (searchResult.results.bindings as SearchResultBinding[]).map(
         items={results.map((item) => ({
           uri: item.id,
           name: item.name,
-          tags: [new URL(item.type).pathname.split("/").pop()].filter(
+          tags: [item.id.match(/organizations|spatial/)?.[0]].filter(
             (v): v is string => !!v,
           ),
         }))}
