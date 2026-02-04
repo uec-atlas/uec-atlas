@@ -26,6 +26,26 @@
         "bearing": 20.0,
         "containedInPlace": "uatr:spatial/VAG5Y5QF"
       }
+    },
+    {
+      "id": "uatr:spatial/2VSC3VTZ",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Facility",
+        "name": {
+          "ja": "西食堂 den"
+        },
+        "category": "cafeteria",
+        "containedInPlace": "uatr:spatial/VAG5Y5QF",
+        "openingHoursSpecification": [
+          {
+            "dayOfWeek": "Monday",
+            "opens": "11:30:00+09:00",
+            "closes": "13:30:00+09:00"
+          }
+        ]
+      }
     }
   ]
 }

@@ -26,6 +26,632 @@
         "bearing": 200.0,
         "containedInPlace": "uatr:spatial/QDCHGYMQ"
       }
+    },
+    {
+      "id": "uatr:spatial/UW4NDWMC",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54154466,
+              35.65775841
+            ],
+            [
+              139.54157144,
+              35.65774995
+            ],
+            [
+              139.54158021,
+              35.65776845
+            ],
+            [
+              139.54158181,
+              35.65777181
+            ],
+            [
+              139.54163743,
+              35.65775425
+            ],
+            [
+              139.54161173,
+              35.65770002
+            ],
+            [
+              139.54154992,
+              35.65771953
+            ],
+            [
+              139.54152932,
+              35.65772604
+            ],
+            [
+              139.54146751,
+              35.65774555
+            ],
+            [
+              139.54144691,
+              35.65775206
+            ],
+            [
+              139.54145607,
+              35.6577714
+            ],
+            [
+              139.5414674,
+              35.65776782
+            ],
+            [
+              139.54148215,
+              35.65779893
+            ],
+            [
+              139.54149451,
+              35.65779502
+            ],
+            [
+              139.54148813,
+              35.65778157
+            ],
+            [
+              139.54147977,
+              35.65776392
+            ],
+            [
+              139.54150243,
+              35.65775676
+            ],
+            [
+              139.54150861,
+              35.65776979
+            ],
+            [
+              139.54154466,
+              35.65775841
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/RNTMSLUO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54157865,
+              35.65763024
+            ],
+            [
+              139.54161173,
+              35.65770002
+            ],
+            [
+              139.54169414,
+              35.657674
+            ],
+            [
+              139.54166106,
+              35.65760422
+            ],
+            [
+              139.54157865,
+              35.65763024
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/JHJAZYYG",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54144571,
+              35.65774954
+            ],
+            [
+              139.54146631,
+              35.65774303
+            ],
+            [
+              139.54146751,
+              35.65774555
+            ],
+            [
+              139.54152932,
+              35.65772604
+            ],
+            [
+              139.54152533,
+              35.65771763
+            ],
+            [
+              139.54149624,
+              35.65765626
+            ],
+            [
+              139.54141383,
+              35.65768228
+            ],
+            [
+              139.54144571,
+              35.65774954
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/I5QU6MML",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54152533,
+              35.65771763
+            ],
+            [
+              139.54154594,
+              35.65771113
+            ],
+            [
+              139.54154992,
+              35.65771953
+            ],
+            [
+              139.54161173,
+              35.65770002
+            ],
+            [
+              139.54157865,
+              35.65763024
+            ],
+            [
+              139.54149624,
+              35.65765626
+            ],
+            [
+              139.54152533,
+              35.65771763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/TWZQ47EV",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54164421,
+              35.65776854
+            ],
+            [
+              139.54163743,
+              35.65775425
+            ],
+            [
+              139.54158181,
+              35.65777181
+            ],
+            [
+              139.54158858,
+              35.6577861
+            ],
+            [
+              139.54164421,
+              35.65776854
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/JASOPJVH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5415618,
+              35.65779456
+            ],
+            [
+              139.54158858,
+              35.6577861
+            ],
+            [
+              139.54158181,
+              35.65777181
+            ],
+            [
+              139.54158021,
+              35.65776845
+            ],
+            [
+              139.54155343,
+              35.6577769
+            ],
+            [
+              139.5415618,
+              35.65779456
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/XWAJJVLT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54147082,
+              35.6578025
+            ],
+            [
+              139.54147939,
+              35.65782058
+            ],
+            [
+              139.54152574,
+              35.65780594
+            ],
+            [
+              139.5415108,
+              35.65777441
+            ],
+            [
+              139.54148813,
+              35.65778157
+            ],
+            [
+              139.54149451,
+              35.65779502
+            ],
+            [
+              139.54148215,
+              35.65779893
+            ],
+            [
+              139.54147082,
+              35.6578025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Restroom",
+        "name": {
+          "ja": "男子トイレ"
+        },
+        "gender": "men"
+      }
+    },
+    {
+      "id": "uatr:spatial/JS7BXJFK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54148813,
+              35.65778157
+            ],
+            [
+              139.5415108,
+              35.65777441
+            ],
+            [
+              139.54150861,
+              35.65776979
+            ],
+            [
+              139.54150243,
+              35.65775676
+            ],
+            [
+              139.54147977,
+              35.65776392
+            ],
+            [
+              139.54148813,
+              35.65778157
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Restroom",
+        "name": {
+          "ja": "多機能トイレ"
+        },
+        "gender": "unisex",
+        "amenities": [
+          {
+            "propertyID": "wheelchair_accessible",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/LZJ3A4SL",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54147082,
+              35.6578025
+            ],
+            [
+              139.54148215,
+              35.65779893
+            ],
+            [
+              139.5414674,
+              35.65776782
+            ],
+            [
+              139.54145607,
+              35.6577714
+            ],
+            [
+              139.54147082,
+              35.6578025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/CXDR6UCS",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54144691,
+              35.65775206
+            ],
+            [
+              139.54146751,
+              35.65774555
+            ],
+            [
+              139.54146631,
+              35.65774303
+            ],
+            [
+              139.54144571,
+              35.65774954
+            ],
+            [
+              139.54144691,
+              35.65775206
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/XRCGTO7Y",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54152533,
+              35.65771763
+            ],
+            [
+              139.54152932,
+              35.65772604
+            ],
+            [
+              139.54154992,
+              35.65771953
+            ],
+            [
+              139.54154594,
+              35.65771113
+            ],
+            [
+              139.54152533,
+              35.65771763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/3A77P33H",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54169414,
+              35.657674
+            ],
+            [
+              139.54161173,
+              35.65770002
+            ],
+            [
+              139.54163743,
+              35.65775425
+            ],
+            [
+              139.54164421,
+              35.65776854
+            ],
+            [
+              139.54172662,
+              35.65774252
+            ],
+            [
+              139.54169414,
+              35.657674
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/QDCHGYMQ",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/7MMVBFJE",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54155343,
+              35.6577769
+            ],
+            [
+              139.54158021,
+              35.65776845
+            ],
+            [
+              139.54157144,
+              35.65774995
+            ],
+            [
+              139.54154466,
+              35.65775841
+            ],
+            [
+              139.54155343,
+              35.6577769
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "elevator",
+        "name": {
+          "ja": "エレベーター"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/QDCHGYMQ",
+          "uatr:spatial/QFAGFNFD"
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/CBEOA3LQ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54154466,
+              35.65775841
+            ],
+            [
+              139.54150861,
+              35.65776979
+            ],
+            [
+              139.5415108,
+              35.65777441
+            ],
+            [
+              139.54152574,
+              35.65780594
+            ],
+            [
+              139.5415618,
+              35.65779456
+            ],
+            [
+              139.54155343,
+              35.6577769
+            ],
+            [
+              139.54154466,
+              35.65775841
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "stairs",
+        "name": {
+          "ja": "階段"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/QDCHGYMQ",
+          "uatr:spatial/QFAGFNFD"
+        ]
+      }
     }
   ]
 }

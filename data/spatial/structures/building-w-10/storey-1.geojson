@@ -26,6 +26,891 @@
         "bearing": 150.0,
         "containedInPlace": "uatr:spatial/IHXUBKYS"
       }
+    },
+    {
+      "id": "uatr:spatial/FDS72ZU5",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54188602,
+              35.65657043
+            ],
+            [
+              139.54187057,
+              35.65657531
+            ],
+            [
+              139.54188252,
+              35.65660053
+            ],
+            [
+              139.54189797,
+              35.65659565
+            ],
+            [
+              139.54188602,
+              35.65657043
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/3TY6WH2F",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54189797,
+              35.65659565
+            ],
+            [
+              139.54188252,
+              35.65660053
+            ],
+            [
+              139.54191839,
+              35.6566762
+            ],
+            [
+              139.54194414,
+              35.65666806
+            ],
+            [
+              139.5420626,
+              35.65663066
+            ],
+            [
+              139.54202674,
+              35.656555
+            ],
+            [
+              139.54196493,
+              35.65657451
+            ],
+            [
+              139.54189797,
+              35.65659565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/HXB2XCUW",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54195298,
+              35.65654929
+            ],
+            [
+              139.54196493,
+              35.65657451
+            ],
+            [
+              139.54202674,
+              35.656555
+            ],
+            [
+              139.54201478,
+              35.65652977
+            ],
+            [
+              139.54195298,
+              35.65654929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/CCYKKMQ2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54189797,
+              35.65659565
+            ],
+            [
+              139.54196493,
+              35.65657451
+            ],
+            [
+              139.54195298,
+              35.65654929
+            ],
+            [
+              139.54188602,
+              35.65657043
+            ],
+            [
+              139.54189797,
+              35.65659565
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/LWUZGPMU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54217102,
+              35.6565046
+            ],
+            [
+              139.54213703,
+              35.65651534
+            ],
+            [
+              139.54212707,
+              35.65649432
+            ],
+            [
+              139.54203745,
+              35.65652262
+            ],
+            [
+              139.54206136,
+              35.65657306
+            ],
+            [
+              139.54218497,
+              35.65653403
+            ],
+            [
+              139.54217102,
+              35.6565046
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/25JEJW5X",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54216106,
+              35.65648359
+            ],
+            [
+              139.54212707,
+              35.65649432
+            ],
+            [
+              139.54213703,
+              35.65651534
+            ],
+            [
+              139.54217102,
+              35.6565046
+            ],
+            [
+              139.54216106,
+              35.65648359
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/GVLAUOWJ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54218497,
+              35.65653403
+            ],
+            [
+              139.54206136,
+              35.65657306
+            ],
+            [
+              139.54209324,
+              35.65664032
+            ],
+            [
+              139.54215505,
+              35.6566208
+            ],
+            [
+              139.54221685,
+              35.65660129
+            ],
+            [
+              139.54218497,
+              35.65653403
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "103講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-103"
+          ]
+        },
+        "roomNumber": "西10-103",
+        "maximumAttendeeCapacity": 77,
+        "maximumExamAttendeeCapacity": 48,
+        "seatType": "fixed"
+      }
+    },
+    {
+      "id": "uatr:spatial/Y4GHCMLP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54221685,
+              35.65660129
+            ],
+            [
+              139.54215505,
+              35.6566208
+            ],
+            [
+              139.54218693,
+              35.65668806
+            ],
+            [
+              139.54224565,
+              35.65666952
+            ],
+            [
+              139.54224874,
+              35.65666854
+            ],
+            [
+              139.54221685,
+              35.65660129
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "105講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-105"
+          ]
+        },
+        "roomNumber": "西10-105",
+        "maximumAttendeeCapacity": 36,
+        "maximumExamAttendeeCapacity": 24,
+        "seatType": "movable"
+      }
+    },
+    {
+      "id": "uatr:spatial/C3HW7ADN",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54240018,
+              35.65698802
+            ],
+            [
+              139.5423683,
+              35.65692077
+            ],
+            [
+              139.54224468,
+              35.6569598
+            ],
+            [
+              139.54227656,
+              35.65702705
+            ],
+            [
+              139.54240018,
+              35.65698802
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "115講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-115"
+          ]
+        },
+        "roomNumber": "西10-115",
+        "maximumAttendeeCapacity": 85,
+        "maximumExamAttendeeCapacity": 53,
+        "seatType": "fixed"
+      }
+    },
+    {
+      "id": "uatr:spatial/2BGEBFGB",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5422387,
+              35.65694718
+            ],
+            [
+              139.54224468,
+              35.6569598
+            ],
+            [
+              139.5423683,
+              35.65692077
+            ],
+            [
+              139.54233641,
+              35.65685351
+            ],
+            [
+              139.5422128,
+              35.65689254
+            ],
+            [
+              139.54221878,
+              35.65690515
+            ],
+            [
+              139.5422265,
+              35.65690271
+            ],
+            [
+              139.54224643,
+              35.65694475
+            ],
+            [
+              139.5422387,
+              35.65694718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "113講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-113"
+          ]
+        },
+        "roomNumber": "西10-113",
+        "maximumAttendeeCapacity": 77,
+        "maximumExamAttendeeCapacity": 48,
+        "seatType": "fixed"
+      }
+    },
+    {
+      "id": "uatr:spatial/VF44C46F",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54233641,
+              35.65685351
+            ],
+            [
+              139.54230453,
+              35.65678625
+            ],
+            [
+              139.54224272,
+              35.65680576
+            ],
+            [
+              139.54218092,
+              35.65682528
+            ],
+            [
+              139.5422128,
+              35.65689254
+            ],
+            [
+              139.54233641,
+              35.65685351
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "111講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-111"
+          ]
+        },
+        "roomNumber": "西10-111",
+        "maximumAttendeeCapacity": 85,
+        "maximumExamAttendeeCapacity": 53,
+        "seatType": "fixed"
+      }
+    },
+    {
+      "id": "uatr:spatial/ZE4V6OYJ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54230453,
+              35.65678625
+            ],
+            [
+              139.54227265,
+              35.65671899
+            ],
+            [
+              139.54226956,
+              35.65671997
+            ],
+            [
+              139.54221084,
+              35.65673851
+            ],
+            [
+              139.54222877,
+              35.65677634
+            ],
+            [
+              139.54224272,
+              35.65680576
+            ],
+            [
+              139.54230453,
+              35.65678625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Classroom",
+        "name": {
+          "ja": "109講義室"
+        },
+        "alternateName": {
+          "ja": [
+            "西10-109"
+          ]
+        },
+        "roomNumber": "西10-109",
+        "maximumAttendeeCapacity": 36,
+        "maximumExamAttendeeCapacity": 24,
+        "seatType": "movable"
+      }
+    },
+    {
+      "id": "uatr:spatial/3CB4VPPO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54218092,
+              35.65682528
+            ],
+            [
+              139.54224272,
+              35.65680576
+            ],
+            [
+              139.54222877,
+              35.65677634
+            ],
+            [
+              139.54219787,
+              35.6567861
+            ],
+            [
+              139.54216697,
+              35.65679585
+            ],
+            [
+              139.54218092,
+              35.65682528
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/TE75EWHC",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54219024,
+              35.65674501
+            ],
+            [
+              139.54221084,
+              35.65673851
+            ],
+            [
+              139.54219848,
+              35.65671341
+            ],
+            [
+              139.54219729,
+              35.65671509
+            ],
+            [
+              139.54219606,
+              35.65671674
+            ],
+            [
+              139.5421948,
+              35.65671838
+            ],
+            [
+              139.5421935,
+              35.65672
+            ],
+            [
+              139.54219217,
+              35.6567216
+            ],
+            [
+              139.5421908,
+              35.65672318
+            ],
+            [
+              139.5421894,
+              35.65672474
+            ],
+            [
+              139.54218797,
+              35.65672629
+            ],
+            [
+              139.54218651,
+              35.65672781
+            ],
+            [
+              139.54218501,
+              35.65672931
+            ],
+            [
+              139.54218348,
+              35.65673079
+            ],
+            [
+              139.54219024,
+              35.65674501
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Restroom",
+        "name": {
+          "ja": "多機能トイレ"
+        },
+        "gender": "unisex",
+        "amenities": [
+          {
+            "propertyID": "wheelchair_accessible",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/YJR6WBAM",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54221084,
+              35.65673851
+            ],
+            [
+              139.54219024,
+              35.65674501
+            ],
+            [
+              139.54218348,
+              35.65673079
+            ],
+            [
+              139.54218193,
+              35.65673225
+            ],
+            [
+              139.54218034,
+              35.65673368
+            ],
+            [
+              139.54217871,
+              35.65673509
+            ],
+            [
+              139.54217706,
+              35.65673648
+            ],
+            [
+              139.54217539,
+              35.65673785
+            ],
+            [
+              139.54217368,
+              35.65673919
+            ],
+            [
+              139.54217194,
+              35.65674051
+            ],
+            [
+              139.54217018,
+              35.6567418
+            ],
+            [
+              139.54216839,
+              35.65674307
+            ],
+            [
+              139.5421663,
+              35.65674449
+            ],
+            [
+              139.54216964,
+              35.65675152
+            ],
+            [
+              139.54217994,
+              35.65674826
+            ],
+            [
+              139.54219787,
+              35.6567861
+            ],
+            [
+              139.54222877,
+              35.65677634
+            ],
+            [
+              139.54221084,
+              35.65673851
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Restroom",
+        "name": {
+          "ja": "男子トイレ"
+        },
+        "gender": "men"
+      }
+    },
+    {
+      "id": "uatr:spatial/C4LGWZCQ",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54219787,
+              35.6567861
+            ],
+            [
+              139.54217994,
+              35.65674826
+            ],
+            [
+              139.54216964,
+              35.65675152
+            ],
+            [
+              139.5421663,
+              35.65674449
+            ],
+            [
+              139.54216472,
+              35.65674552
+            ],
+            [
+              139.54216285,
+              35.65674671
+            ],
+            [
+              139.54216096,
+              35.65674788
+            ],
+            [
+              139.54215904,
+              35.65674901
+            ],
+            [
+              139.5421571,
+              35.65675012
+            ],
+            [
+              139.54215513,
+              35.6567512
+            ],
+            [
+              139.54215314,
+              35.65675226
+            ],
+            [
+              139.54215113,
+              35.65675328
+            ],
+            [
+              139.5421491,
+              35.65675428
+            ],
+            [
+              139.54214754,
+              35.65675501
+            ],
+            [
+              139.54214903,
+              35.65675802
+            ],
+            [
+              139.54216697,
+              35.65679585
+            ],
+            [
+              139.54219787,
+              35.6567861
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Restroom",
+        "name": {
+          "ja": "女子トイレ"
+        },
+        "gender": "women"
+      }
+    },
+    {
+      "id": "uatr:spatial/EOUFTLSC",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5422387,
+              35.65694718
+            ],
+            [
+              139.54224643,
+              35.65694475
+            ],
+            [
+              139.5422265,
+              35.65690271
+            ],
+            [
+              139.54221878,
+              35.65690515
+            ],
+            [
+              139.5422387,
+              35.65694718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/IHXUBKYS",
+        "type": "Room"
+      }
     }
   ]
 }

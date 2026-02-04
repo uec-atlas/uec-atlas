@@ -58,6 +58,740 @@
         "bearing": 200.0,
         "containedInPlace": "uatr:spatial/2Z7LSPE6"
       }
+    },
+    {
+      "id": "uatr:spatial/IVNYFP7R",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54342172,
+              35.65704688
+            ],
+            [
+              139.54341024,
+              35.65705014
+            ],
+            [
+              139.54347111,
+              35.6571932
+            ],
+            [
+              139.54354415,
+              35.6571725
+            ],
+            [
+              139.54358067,
+              35.65716215
+            ],
+            [
+              139.54369023,
+              35.6571311
+            ],
+            [
+              139.54367827,
+              35.65710299
+            ],
+            [
+              139.5436424,
+              35.65701869
+            ],
+            [
+              139.54362935,
+              35.65698803
+            ],
+            [
+              139.54348328,
+              35.65702943
+            ],
+            [
+              139.54342172,
+              35.65704688
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Facility",
+        "name": {
+          "ja": "コープショップ"
+        },
+        "category": "shop",
+        "openingHoursSpecification": [
+          {
+            "dayOfWeek": "Monday",
+            "opens": "10:00:00+09:00",
+            "closes": "18:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Tuesday",
+            "opens": "10:00:00+09:00",
+            "closes": "18:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Wednesday",
+            "opens": "10:00:00+09:00",
+            "closes": "18:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Thursday",
+            "opens": "10:00:00+09:00",
+            "closes": "18:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Friday",
+            "opens": "10:00:00+09:00",
+            "closes": "18:00:00+09:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/G3CUPSLI",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54348328,
+              35.65702943
+            ],
+            [
+              139.54347241,
+              35.65700389
+            ],
+            [
+              139.54341084,
+              35.65702134
+            ],
+            [
+              139.54342172,
+              35.65704688
+            ],
+            [
+              139.54348328,
+              35.65702943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/43R7KH2N",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.5433343,
+              35.65706402
+            ],
+            [
+              139.5433656,
+              35.65705515
+            ],
+            [
+              139.54335763,
+              35.65703642
+            ],
+            [
+              139.54332633,
+              35.65704529
+            ],
+            [
+              139.5433343,
+              35.65706402
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/AZ2FBZAT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54339937,
+              35.65702459
+            ],
+            [
+              139.54341024,
+              35.65705014
+            ],
+            [
+              139.54342172,
+              35.65704688
+            ],
+            [
+              139.54341084,
+              35.65702134
+            ],
+            [
+              139.54339937,
+              35.65702459
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/TH3IQPGN",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54343202,
+              35.65722909
+            ],
+            [
+              139.54342259,
+              35.65720695
+            ],
+            [
+              139.54339807,
+              35.6572139
+            ],
+            [
+              139.54340749,
+              35.65723604
+            ],
+            [
+              139.54343202,
+              35.65722909
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/Y6PMPHJH",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54342259,
+              35.65720695
+            ],
+            [
+              139.54344712,
+              35.6572
+            ],
+            [
+              139.54343842,
+              35.65717956
+            ],
+            [
+              139.54338938,
+              35.65719346
+            ],
+            [
+              139.54339807,
+              35.6572139
+            ],
+            [
+              139.54342259,
+              35.65720695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Restroom",
+        "name": {
+          "ja": "女子トイレ"
+        },
+        "gender": "women"
+      }
+    },
+    {
+      "id": "uatr:spatial/BFQNO6PA",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54338938,
+              35.65719346
+            ],
+            [
+              139.54343842,
+              35.65717956
+            ],
+            [
+              139.54342827,
+              35.65715572
+            ],
+            [
+              139.54337923,
+              35.65716962
+            ],
+            [
+              139.54338938,
+              35.65719346
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Restroom",
+        "name": {
+          "ja": "男子トイレ"
+        },
+        "gender": "men"
+      }
+    },
+    {
+      "id": "uatr:spatial/CUHWNZB6",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54337017,
+              35.65714833
+            ],
+            [
+              139.54341921,
+              35.65713443
+            ],
+            [
+              139.54340653,
+              35.65710463
+            ],
+            [
+              139.54338201,
+              35.65711158
+            ],
+            [
+              139.54337476,
+              35.65709454
+            ],
+            [
+              139.54335024,
+              35.65710149
+            ],
+            [
+              139.54337017,
+              35.65714833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Facility",
+        "name": {
+          "ja": "カットサロンRen"
+        },
+        "category": "shop",
+        "openingHoursSpecification": [
+          {
+            "dayOfWeek": "Monday",
+            "opens": "10:40:00+09:00",
+            "closes": "17:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Tuesday",
+            "opens": "10:40:00+09:00",
+            "closes": "17:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Wednesday",
+            "opens": "10:40:00+09:00",
+            "closes": "17:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Thursday",
+            "opens": "10:40:00+09:00",
+            "closes": "17:00:00+09:00"
+          },
+          {
+            "dayOfWeek": "Friday",
+            "opens": "10:40:00+09:00",
+            "closes": "17:00:00+09:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/RO5MOKEO",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54337017,
+              35.65714833
+            ],
+            [
+              139.54337923,
+              35.65716962
+            ],
+            [
+              139.54342827,
+              35.65715572
+            ],
+            [
+              139.54341921,
+              35.65713443
+            ],
+            [
+              139.54337017,
+              35.65714833
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Restroom",
+        "name": {
+          "ja": "多機能トイレ"
+        },
+        "gender": "unisex",
+        "amenities": [
+          {
+            "propertyID": "wheelchair_accessible",
+            "value": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/27KPPL6P",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54340653,
+              35.65710463
+            ],
+            [
+              139.54338334,
+              35.65705012
+            ],
+            [
+              139.5433656,
+              35.65705515
+            ],
+            [
+              139.5433343,
+              35.65706402
+            ],
+            [
+              139.54335024,
+              35.65710149
+            ],
+            [
+              139.54337476,
+              35.65709454
+            ],
+            [
+              139.54338201,
+              35.65711158
+            ],
+            [
+              139.54340653,
+              35.65710463
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Facility",
+        "category": "office",
+        "name": {
+          "ja": "生協事務室"
+        },
+        "openingHoursSpecification": [
+          {
+            "dayOfWeek": "Monday",
+            "opens": "10:00:00+09:00",
+            "closes": "16:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Tuesday",
+            "opens": "10:00:00+09:00",
+            "closes": "16:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Wednesday",
+            "opens": "10:00:00+09:00",
+            "closes": "16:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Thursday",
+            "opens": "10:00:00+09:00",
+            "closes": "16:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Friday",
+            "opens": "10:00:00+09:00",
+            "closes": "16:30:00+09:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/LJAY5FA7",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54354415,
+              35.6571725
+            ],
+            [
+              139.54347111,
+              35.6571932
+            ],
+            [
+              139.54341024,
+              35.65705014
+            ],
+            [
+              139.54340734,
+              35.65704332
+            ],
+            [
+              139.54339937,
+              35.65702459
+            ],
+            [
+              139.54335763,
+              35.65703642
+            ],
+            [
+              139.5433656,
+              35.65705515
+            ],
+            [
+              139.54338334,
+              35.65705012
+            ],
+            [
+              139.54340653,
+              35.65710463
+            ],
+            [
+              139.54341921,
+              35.65713443
+            ],
+            [
+              139.54342827,
+              35.65715572
+            ],
+            [
+              139.54343842,
+              35.65717956
+            ],
+            [
+              139.54344712,
+              35.6572
+            ],
+            [
+              139.54345654,
+              35.65722214
+            ],
+            [
+              139.54347103,
+              35.6572562
+            ],
+            [
+              139.54349503,
+              35.6572494
+            ],
+            [
+              139.54356807,
+              35.6572287
+            ],
+            [
+              139.54355611,
+              35.6572006
+            ],
+            [
+              139.54354415,
+              35.6571725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/N4U2UGJX",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54340749,
+              35.65723604
+            ],
+            [
+              139.54342199,
+              35.6572701
+            ],
+            [
+              139.54347103,
+              35.6572562
+            ],
+            [
+              139.54345654,
+              35.65722214
+            ],
+            [
+              139.54343202,
+              35.65722909
+            ],
+            [
+              139.54340749,
+              35.65723604
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "stairs",
+        "name": {
+          "ja": "階段"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/2Z7LSPE6",
+          "uatr:spatial/MDQKQLF4",
+          "uatr:spatial/SAUNE7KB",
+          "uatr:spatial/6U7NK6ZP"
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/RORJOQF4",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54345654,
+              35.65722214
+            ],
+            [
+              139.54344712,
+              35.6572
+            ],
+            [
+              139.54342259,
+              35.65720695
+            ],
+            [
+              139.54343202,
+              35.65722909
+            ],
+            [
+              139.54345654,
+              35.65722214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "elevator",
+        "name": {
+          "ja": "エレベーター"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/2Z7LSPE6",
+          "uatr:spatial/MDQKQLF4",
+          "uatr:spatial/SAUNE7KB",
+          "uatr:spatial/6U7NK6ZP"
+        ]
+      }
+    },
+    {
+      "id": "uatr:spatial/L62SIB4Q",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54357951,
+              35.65720065
+            ],
+            [
+              139.54368386,
+              35.65717107
+            ],
+            [
+              139.54367299,
+              35.65714553
+            ],
+            [
+              139.54356864,
+              35.6571751
+            ],
+            [
+              139.54357951,
+              35.65720065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "stairs",
+        "name": {
+          "ja": "階段"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/2Z7LSPE6",
+          "uatr:spatial/MDQKQLF4"
+        ]
+      }
     }
   ]
 }

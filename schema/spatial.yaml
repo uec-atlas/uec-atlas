@@ -58,6 +58,13 @@ enums:
       nursing_bench:
         description: "介助用ベッド"
         meaning: wd:Q1780834
+  StructureBoundaryType:
+    description: "構造物の境界種別"
+    permissible_values:
+      wall:
+        description: "物理境界(壁)"
+      open:
+        description: "開放境界(壁なし)"
   PassageCategory:
     description: "移動空間の種類"
     permissible_values:
@@ -67,6 +74,75 @@ enums:
         description: "階段"
       elevator:
         description: "エレベーター"
+  SeatType:
+    description: "座席の種類"
+    permissible_values:
+      fixed:
+        description: "固定席"
+      movable:
+        description: "可動席"
+  SpaceUsageCategory:
+    description: "部屋の使用目的"
+    permissible_values:
+      lecture:
+        description: "講義用"
+      laboratory:
+        description: "実験・演習用"
+      research:
+        description: "研究用"
+      self_study:
+        description: "自習用"
+      group_study:
+        description: "グループ学習用"
+      office:
+        description: "事務用"
+      lounge:
+        description: "交流用"
+      extra_curricular:
+        description: "課外活動用"
+      meeting:
+        description: "会議用"
+      library:
+        description: "図書館用"
+      museum:
+        description: "展示用"
+      cafeteria:
+        description: "飲食用"
+      storage:
+        description: "倉庫用"
+      utility:
+        description: "設備用"
+  PracticeRoomCategory:
+    description: "演習室・実験室の種類"
+    permissible_values:
+      computer:
+        description: "計算機演習室"
+      science:
+        description: "科学実験室"
+      engineering:
+        description: "工学実験室"
+  FacilityCategory:
+    description: "サービス設備の種類"
+    permissible_values:
+      cafeteria:
+        description: "食堂"
+      shop:
+        description: "売店・コンビニエンスストア"
+      library:
+        description: "図書館"
+      museum:
+        description: "ミュージアム"
+      office:
+        description: "事務窓口"
+  RestroomGender:
+    description: "トイレの性別"
+    permissible_values:
+      men:
+        description: "男性用"
+      women:
+        description: "女性用"
+      unisex:
+        description: "男女共用"
 
 classes:
   SpatialEntity:
@@ -114,7 +190,6 @@ classes:
     slot_usage:
       geometry: { required: false }
       properties: { range: Site }
-
   Site:
     is_a: SpatialProperties
     mixins:
@@ -127,7 +202,6 @@ classes:
       - BotZone
     slot_usage:
       properties: { range: Area }
-
   Area:
     is_a: SpatialProperties
     class_uri: uato:Area
@@ -138,7 +212,6 @@ classes:
     class_uri: uato:Structure
     slot_usage:
       properties: { range: Structure }
-
   StructureAmenity:
     mixins:
       - SchemaLocationFeatureSpecification
@@ -154,7 +227,6 @@ classes:
         range: boolean
         required: true
         description: "設備の有無"
-
   Structure:
     is_a: SpatialProperties
     class_uri: uato:Structure
@@ -163,18 +235,21 @@ classes:
       category:
         range: StructureCategory
         description: "構造物のカテゴリ"
+      boundaryType:
+        range: StructureBoundaryType
+        description: "構造物の境界種別"
       amenities:
         range: StructureAmenity
         inlined: true
         inlined_as_list: true
         multivalued: true
+        description: "構造物に付随する設備"
 
   RoadFeature:
     is_a: StructureFeature
     class_uri: uato:Road
     slot_usage:
       properties: { range: Road }
-
   Road:
     is_a: Structure
     class_uri: uato:Road
@@ -185,7 +260,6 @@ classes:
     class_uri: uato:Gate
     slot_usage:
       properties: { range: Gate }
-
   Gate:
     is_a: Structure
     class_uri: uato:Gate
@@ -198,7 +272,6 @@ classes:
     class_uri: uato:Building
     slot_usage:
       properties: { range: Building }
-
   Building:
     is_a: Structure
     class_uri: uato:Building
@@ -218,7 +291,6 @@ classes:
     class_uri: uato:BuildingEntrance
     slot_usage:
       properties: { range: BuildingEntrance }
-
   BuildingEntrance:
     is_a: SpatialProperties
     class_uri: uato:BuildingEntrance
@@ -236,7 +308,6 @@ classes:
     class_uri: uato:Bridge
     slot_usage:
       properties: { range: Bridge }
-
   Bridge:
     is_a: Structure
     class_uri: uato:Bridge
@@ -251,7 +322,6 @@ classes:
       geometry:
         required: false
       properties: { range: Storey }
-
   Storey:
     is_a: SpatialProperties
     class_uri: uato:Storey
@@ -270,52 +340,123 @@ classes:
     class_uri: uato:Room
     slot_usage:
       properties: { range: Room }
-
   Room:
     is_a: Structure
     class_uri: uato:Room
     mixins:
       - BotSpace
     description: "室内空間"
+    attributes:
+      usage:
+        range: SpaceUsageCategory
+        description: "部屋の使用目的"
+      roomNumber:
+        slot_uri: schema:roomNumber
+        range: string
+        description: "部屋番号"
+
+  RoomSubZoneFeature:
+    is_a: StructureFeature
+    class_uri: uato:RoomSubZone
+    slot_usage:
+      properties: { range: RoomSubZone }
+  RoomSubZone:
+    is_a: Room
+    class_uri: uato:RoomSubZone
+    mixins:
+      - BotSpace
+    description: "室内の区画・ゾーン"
+    attributes:
+      usage:
+        range: SpaceUsageCategory
+        description: "区画・ゾーンの使用目的"
 
   PassageFeature:
     is_a: StructureFeature
     class_uri: uato:Passage
     slot_usage:
       properties: { range: Passage }
-
   Passage:
     is_a: Structure
     class_uri: uato:Passage
     description: "廊下・通路・階段・エレベーターなどの移動空間"
     attributes:
       category:
-        slot_uri: rdf:type
         description: "移動空間の種類"
         range: PassageCategory
         required: true
+
+  FacilityFeature:
+    is_a: StructureFeature
+    class_uri: uato:Facility
+    slot_usage:
+      properties: { range: Facility }
+  Facility:
+    is_a: Structure
+    class_uri: uato:Facility
+    description: "サービス設備(窓口、食堂などなど)"
+    slots:
+      - openingHoursSpecification
+    attributes:
+      category:
+        range: FacilityCategory
+        required: true
+        description: "サービス設備の種類"
 
   ClassroomFeature:
     is_a: RoomFeature
     class_uri: uato:Classroom
     slot_usage:
       properties: { range: Classroom }
-
   Classroom:
     is_a: Room
     class_uri: uato:Classroom
     description: "講義室"
     attributes:
-      capacity:
+      maximumAttendeeCapacity:
+        slot_uri: schema:maximumAttendeeCapacity
         range: integer
         required: true
+        description: "授業定員"
+      maximumExamAttendeeCapacity:
+        range: integer
+        required: true
+        description: "試験定員"
+      seatType:
+        range: SeatType
+        required: true
+        description: "座席の種類"
+
+  PracticeRoomFeature:
+    is_a: RoomFeature
+    class_uri: uato:PracticeRoom
+    slot_usage:
+      properties: { range: PracticeRoom }
+  PracticeRoom:
+    is_a: Room
+    class_uri: uato:PracticeRoom
+    description: "演習室・実験室"
+    attributes:
+      category:
+        range: PracticeRoomCategory
+        required: true
+        description: "演習室・実験室の種類"
+
+  ResearchLaboratoryFeature:
+    is_a: RoomFeature
+    class_uri: uato:ResearchLaboratory
+    slot_usage:
+      properties: { range: ResearchLaboratory }
+  ResearchLaboratory:
+    is_a: Room
+    class_uri: uato:ResearchLaboratory
+    description: "研究室"
 
   RestroomFeature:
     is_a: RoomFeature
     class_uri: uato:Restroom
     slot_usage:
       properties: { range: Restroom }
-
   Restroom:
     is_a: Room
     mixins:
@@ -323,7 +464,7 @@ classes:
     description: "トイレ"
     attributes:
       gender:
-        range: string
+        range: RestroomGender
         description: "性別"
 
   FeatureCollection:

@@ -10,6 +10,289 @@
         "floorLevel": "4",
         "containedInPlace": "uatr:spatial/JCNJ3I23"
       }
+    },
+    {
+      "id": "uatr:spatial/Y3SVRDV5",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54422682,
+              35.6570575
+            ],
+            [
+              139.54421595,
+              35.65703195
+            ],
+            [
+              139.54429942,
+              35.65700829
+            ],
+            [
+              139.54438289,
+              35.65698463
+            ],
+            [
+              139.54439376,
+              35.65701018
+            ],
+            [
+              139.54422682,
+              35.6570575
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/H7ETPIFT",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54424312,
+              35.65709582
+            ],
+            [
+              139.54422682,
+              35.6570575
+            ],
+            [
+              139.54425812,
+              35.65704863
+            ],
+            [
+              139.54427442,
+              35.65708695
+            ],
+            [
+              139.5442724,
+              35.65708752
+            ],
+            [
+              139.54424312,
+              35.65709582
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/VZKZZHCU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54441007,
+              35.6570485
+            ],
+            [
+              139.54439376,
+              35.65701018
+            ],
+            [
+              139.54436246,
+              35.65701905
+            ],
+            [
+              139.54437877,
+              35.65705737
+            ],
+            [
+              139.54441007,
+              35.6570485
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Restroom",
+        "name": {
+          "ja": "男子トイレ"
+        },
+        "gender": "men"
+      }
+    },
+    {
+      "id": "uatr:spatial/DFYSSCDU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54433703,
+              35.6570692
+            ],
+            [
+              139.54432888,
+              35.65705004
+            ],
+            [
+              139.54435235,
+              35.65704339
+            ],
+            [
+              139.5443442,
+              35.65702423
+            ],
+            [
+              139.54436246,
+              35.65701905
+            ],
+            [
+              139.54437877,
+              35.65705737
+            ],
+            [
+              139.54433703,
+              35.6570692
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/QTHZXTNE",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54418333,
+              35.65695531
+            ],
+            [
+              139.54417507,
+              35.65693589
+            ],
+            [
+              139.54434202,
+              35.65688858
+            ],
+            [
+              139.54435028,
+              35.65690799
+            ],
+            [
+              139.54426681,
+              35.65693165
+            ],
+            [
+              139.54418333,
+              35.65695531
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/CQSXJRGK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54421595,
+              35.65703195
+            ],
+            [
+              139.54418333,
+              35.65695531
+            ],
+            [
+              139.54426681,
+              35.65693165
+            ],
+            [
+              139.54429942,
+              35.65700829
+            ],
+            [
+              139.54421595,
+              35.65703195
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Classroom",
+        "name": {
+          "ja": "401講義室"
+        },
+        "usage": "lecture",
+        "maximumAttendeeCapacity": 48,
+        "maximumExamAttendeeCapacity": 48,
+        "seatType": "movable"
+      }
+    },
+    {
+      "id": "uatr:spatial/JFS4TMCU",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54429942,
+              35.65700829
+            ],
+            [
+              139.54426681,
+              35.65693165
+            ],
+            [
+              139.54435028,
+              35.65690799
+            ],
+            [
+              139.54438289,
+              35.65698463
+            ],
+            [
+              139.54429942,
+              35.65700829
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/G3HHBCPN",
+        "type": "Classroom",
+        "name": {
+          "ja": "402講義室"
+        },
+        "usage": "lecture",
+        "maximumAttendeeCapacity": 48,
+        "maximumExamAttendeeCapacity": 48,
+        "seatType": "movable"
+      }
     }
   ]
 }

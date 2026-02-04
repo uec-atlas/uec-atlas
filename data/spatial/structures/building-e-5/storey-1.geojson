@@ -26,6 +26,355 @@
         "bearing": 110.0,
         "containedInPlace": "uatr:spatial/KL65KI6X"
       }
+    },
+    {
+      "id": "uatr:spatial/F7JQCBPP",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54435848,
+              35.65778183
+            ],
+            [
+              139.54437935,
+              35.65777592
+            ],
+            [
+              139.54435941,
+              35.6577291
+            ],
+            [
+              139.54433854,
+              35.65773502
+            ],
+            [
+              139.54435848,
+              35.65778183
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/LBC7D6V6",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54442742,
+              35.65783388
+            ],
+            [
+              139.54451088,
+              35.6578102
+            ],
+            [
+              139.54448368,
+              35.65774634
+            ],
+            [
+              139.54444195,
+              35.65775818
+            ],
+            [
+              139.54440022,
+              35.65777002
+            ],
+            [
+              139.54442742,
+              35.65783388
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/JLAXVBIA",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54441475,
+              35.65769432
+            ],
+            [
+              139.54442382,
+              35.6577156
+            ],
+            [
+              139.54444195,
+              35.65775818
+            ],
+            [
+              139.54448368,
+              35.65774634
+            ],
+            [
+              139.54454107,
+              35.65773006
+            ],
+            [
+              139.544532,
+              35.65770877
+            ],
+            [
+              139.54455808,
+              35.65770137
+            ],
+            [
+              139.54453995,
+              35.6576588
+            ],
+            [
+              139.54441475,
+              35.65769432
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/KCZMJWJ2",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54448368,
+              35.65774634
+            ],
+            [
+              139.54451088,
+              35.6578102
+            ],
+            [
+              139.54459435,
+              35.65778652
+            ],
+            [
+              139.54456715,
+              35.65772266
+            ],
+            [
+              139.54454107,
+              35.65773006
+            ],
+            [
+              139.54448368,
+              35.65774634
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/K6DINHKA",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54454107,
+              35.65773006
+            ],
+            [
+              139.54456715,
+              35.65772266
+            ],
+            [
+              139.54455808,
+              35.65770137
+            ],
+            [
+              139.544532,
+              35.65770877
+            ],
+            [
+              139.54454107,
+              35.65773006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/C5JA52BK",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54442382,
+              35.6577156
+            ],
+            [
+              139.54438208,
+              35.65772744
+            ],
+            [
+              139.54440022,
+              35.65777002
+            ],
+            [
+              139.54444195,
+              35.65775818
+            ],
+            [
+              139.54442382,
+              35.6577156
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/6QZJZ74W",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54438027,
+              35.65772318
+            ],
+            [
+              139.54438208,
+              35.65772744
+            ],
+            [
+              139.54438027,
+              35.65772318
+            ],
+            [
+              139.54438027,
+              35.65772318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/C6UTRLFD",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54438208,
+              35.65772744
+            ],
+            [
+              139.54442382,
+              35.6577156
+            ],
+            [
+              139.54441475,
+              35.65769432
+            ],
+            [
+              139.54437302,
+              35.65770615
+            ],
+            [
+              139.54438027,
+              35.65772318
+            ],
+            [
+              139.54438208,
+              35.65772744
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "containedInPlace": "uatr:spatial/KL65KI6X",
+        "type": "Room"
+      }
+    },
+    {
+      "id": "uatr:spatial/SKI5KNWW",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54438208,
+              35.65772744
+            ],
+            [
+              139.54438027,
+              35.65772318
+            ],
+            [
+              139.54435941,
+              35.6577291
+            ],
+            [
+              139.54437935,
+              35.65777592
+            ],
+            [
+              139.54440022,
+              35.65777002
+            ],
+            [
+              139.54438208,
+              35.65772744
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "Passage",
+        "category": "stairs",
+        "name": {
+          "ja": "階段"
+        },
+        "intersectsPlace": [
+          "uatr:spatial/KL65KI6X"
+        ]
+      }
     }
   ]
 }

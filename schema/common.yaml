@@ -24,6 +24,35 @@ default_range: string
 emit_prefixes:
   - uatr
 
+enums:
+  SchemaDayOfWeek:
+    description: "曜日"
+    permissible_values:
+      Monday:
+        description: "月曜日"
+        meaning: schema:Monday
+      Tuesday:
+        description: "火曜日"
+        meaning: schema:Tuesday
+      Wednesday:
+        description: "水曜日"
+        meaning: schema:Wednesday
+      Thursday:
+        description: "木曜日"
+        meaning: schema:Thursday
+      Friday:
+        description: "金曜日"
+        meaning: schema:Friday
+      Saturday:
+        description: "土曜日"
+        meaning: schema:Saturday
+      Sunday:
+        description: "日曜日"
+        meaning: schema:Sunday
+      PublicHolidays:
+        description: "祝日・休日"
+        meaning: schema:PublicHolidays
+
 types:
   I18NString:
     uri: rdf:langString
@@ -80,6 +109,33 @@ classes:
     is_a: NamedThing
     mixins:
       - GeoFeature
+  SchemaOpeningHoursSpecification:
+    class_uri: schema:OpeningHoursSpecification
+    attributes:
+      dayOfWeek:
+        description: "曜日"
+        slot_uri: schema:dayOfWeek
+        range: SchemaDayOfWeek
+      opens:
+        description: "開館時間・開店時間"
+        slot_uri: schema:opens
+        range: time
+      closes:
+        description: "閉館時間・閉店時間"
+        slot_uri: schema:closes
+        range: time
+      validFrom:
+        description: "有効開始日"
+        slot_uri: schema:validFrom
+        range: date
+      validThrough:
+        description: "有効終了日"
+        slot_uri: schema:validThrough
+        range: date
+      description:
+        description: "説明"
+        slot_uri: schema:description
+        range: string
   SchemaOrganization:
     class_uri: schema:Organization
   SchemaPostalAddress:
@@ -125,6 +181,11 @@ slots:
     slot_uri: schema:address
     range: PostalAddress
     inlined: true
+  openingHoursSpecification:
+    description: "開館時間・営業時間情報"
+    slot_uri: schema:openingHoursSpecification
+    range: SchemaOpeningHoursSpecification
+    multivalued: true
 
   managedBy:
     description: "管理・運用責任を持つ組織"
