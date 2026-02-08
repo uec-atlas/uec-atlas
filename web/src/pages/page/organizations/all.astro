@@ -2,7 +2,7 @@
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import Heading1 from "@/components/Heading1.astro";
 import Heading2 from "@/components/Heading2.astro";
-import DataView from "@/components/dataview/DataView.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
 import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
 import { allOrganizationDataView } from "@/components/dataview/definitions/organization";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
@@ -27,13 +27,13 @@ const breadcrumbItems = [
 ];
 ---
 
-<DataRepositoryLayout>
+<DataRepositoryLayout title="すべての組織">
   <CardBreadcrumb items={breadcrumbItems} />
   <Heading1>
     <span>すべての組織</span>
   </Heading1>
 
-  <DataView
+  <DataViewComponent
     value={{ organizations: allJSONLD.items }}
     items={allOrganizationDataView}
   />

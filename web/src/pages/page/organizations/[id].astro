@@ -2,7 +2,7 @@
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import Heading1 from "@/components/Heading1.astro";
 import Heading2 from "@/components/Heading2.astro";
-import DataView from "@/components/dataview/DataView.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
 import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
 import { organizationDataView } from "@/components/dataview/definitions/organization";
 import { linkedOrganizationMap, organizationMap } from "@/data";
@@ -58,7 +58,9 @@ const breadcrumbItems = [
 ];
 ---
 
-<DataRepositoryLayout>
+<DataRepositoryLayout
+  title={formatLangString(organization.name, "ja", "無名の組織")}
+>
   <CardBreadcrumb items={breadcrumbItems} />
   <Heading1>
     <span slot="subtitle"
@@ -67,7 +69,7 @@ const breadcrumbItems = [
     <span>{formatLangString(organization.name, "ja", "無名の組織")}</span>
   </Heading1>
 
-  <DataView value={organization} items={organizationDataView} />
+  <DataViewComponent value={organization} items={organizationDataView} />
 
   <Heading2>JSON-LD</Heading2>
   <JSONLDPreview

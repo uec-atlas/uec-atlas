@@ -2,7 +2,7 @@
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import Heading1 from "@/components/Heading1.astro";
 import Heading2 from "@/components/Heading2.astro";
-import DataView from "@/components/dataview/DataView.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
 import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
 import SpatialPreviewMap from "@/components/dataview/SpatialPreviewMap.astro";
 import { spatialDataView } from "@/components/dataview/definitions/spatial";
@@ -59,7 +59,9 @@ const breadcrumbItems = [
 ];
 ---
 
-<DataRepositoryLayout>
+<DataRepositoryLayout
+  title={formatLangString(spatial.properties.name, "ja", "無名の地理情報")}
+>
   <CardBreadcrumb items={breadcrumbItems} />
   <Heading1>
     <span slot="subtitle"
@@ -76,7 +78,7 @@ const breadcrumbItems = [
     >
   </Heading1>
 
-  <DataView value={spatial} items={spatialDataView} />
+  <DataViewComponent value={spatial} items={spatialDataView} />
 
   <Heading2>プレビュー</Heading2>
   {

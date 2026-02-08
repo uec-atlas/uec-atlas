@@ -20,11 +20,17 @@ const transformers = await getJsonLdTransformers(
 
 <div class="flex flex-col gap-2">
   <div class="d-join w-full mb-2">
-    <input class="d-input d-join-item w-full" readonly value={fullURL} />
+    <input
+      class="d-input d-join-item w-full"
+      readonly
+      value={fullURL}
+      aria-label="URL"
+    />
     <a
       class="d-btn d-join-item"
       href={fullURL.replace("/resources/", "/data/")}
       target="_blank"
+      aria-label="新しいタブで開く"
     >
       <Icon name="mdi:external-link" />
     </a>

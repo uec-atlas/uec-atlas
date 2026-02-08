@@ -72,10 +72,10 @@ const results = (searchResult.results.bindings as SearchResultBinding[])
     let maxRatio = 0;
     searchWords.forEach((word) => {
       const w = word.toLowerCase();
-      if (nameJa && nameJa.toLowerCase().includes(w)) {
+      if (nameJa?.toLowerCase().includes(w)) {
         maxRatio = Math.max(maxRatio, w.length / nameJa.length);
       }
-      if (nameEn && nameEn.toLowerCase().includes(w)) {
+      if (nameEn?.toLowerCase().includes(w)) {
         const ratio = (w.length / nameEn.length) * 0.8;
         maxRatio = Math.max(maxRatio, ratio);
       }
@@ -92,7 +92,7 @@ const results = (searchResult.results.bindings as SearchResultBinding[])
   .sort((a, b) => b.ratioScore - a.ratioScore);
 ---
 
-<DataRepositoryLayout>
+<DataRepositoryLayout title={`"${query}"の検索結果`}>
   <Heading1>
     <span>"{query}"の検索結果</span>
   </Heading1>

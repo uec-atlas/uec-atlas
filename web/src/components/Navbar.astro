@@ -1,15 +1,18 @@
 ---
-import Icon from "@/components/Icon.svelte";
+import Logo from "@/assets/logo.svg";
 ---
 
 <nav
-  class="d-navbar bg-base-100 border-b-4 border-b-primary sticky top-0 z-50 h-16"
+  class="d-navbar bg-base-100 border-b-4 border-b-primary sticky top-0 z-50 h-16 pl-3"
 >
   <div class="container mx-auto flex justify-between">
     <div class="d-navbar-start">
-      <a href="/" class="d-join items-center gap-2 text-xl font-bold">
-        <Icon name="mdi:compass" />
-        UEC Atlas
+      <a href="/" class="d-join items-center gap-1 text-2xl font-extrabold">
+        <Logo class="w-auto h-9" />
+        <div>
+          <span class="text-primary">UEC</span>
+          <span class="text-secondary">Atlas</span>
+        </div>
       </a>
     </div>
     <div class="d-navbar-end">

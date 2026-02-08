@@ -2,7 +2,7 @@
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import Heading1 from "@/components/Heading1.astro";
 import Heading2 from "@/components/Heading2.astro";
-import DataView from "@/components/dataview/DataView.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
 import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
 import SpatialPreviewMap from "@/components/dataview/SpatialPreviewMap.astro";
 import { allSpatialDataView } from "@/components/dataview/definitions/spatial";
@@ -28,11 +28,11 @@ const breadcrumbItems = [
 ];
 ---
 
-<DataRepositoryLayout>
+<DataRepositoryLayout title="すべての地物">
   <CardBreadcrumb items={breadcrumbItems} />
 
   <Heading1>すべての地物</Heading1>
-  <DataView value={allJSONLD} items={allSpatialDataView} />
+  <DataViewComponent value={allJSONLD} items={allSpatialDataView} />
 
   <div
     class="my-8 h-96 w-full border border-base-300 rounded-md overflow-hidden"

@@ -8,11 +8,11 @@ import Footer from "@/components/Footer.astro";
 import RepositoryNavbar from "@/components/RepositoryNavbar.astro";
 ---
 
-<BaseLayout class="flex flex-col min-h-dvh">
+<BaseLayout class="flex flex-col min-h-dvh" {...Astro.props}>
   <Navbar />
   <RepositoryNavbar />
   <slot name="preContent" />
-  <div class="bg-base-200 flex-1">
+  <div class="flex-1">
     <main class="bg-base-100 container mx-auto px-2 md:px-8 py-4 md:py-6">
       <slot />
     </main>

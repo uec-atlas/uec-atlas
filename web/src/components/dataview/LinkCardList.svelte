@@ -1,7 +1,7 @@
 <script lang="ts">
+  import Icon from "@/components/Icon.svelte";
   import { formatLangString } from "@/utils/rdf";
   import { expandURI } from "@/utils/url";
-  import Icon from "@/components/Icon.svelte";
   import type { I18NString } from "generated/common";
   import { chunk } from "remeda";
 
@@ -115,6 +115,7 @@
         class="d-join-item d-btn d-btn-sm"
         disabled={currentPage === 0}
         onclick={() => (currentPage -= 1)}
+        aria-label="前のページへ"
       >
         <Icon name="mdi:chevron-left" />
       </button>
@@ -138,6 +139,7 @@
         class="d-join-item d-btn d-btn-sm"
         disabled={currentPage === totalPages - 1}
         onclick={() => (currentPage += 1)}
+        aria-label="次のページへ"
       >
         <Icon name="mdi:chevron-right" />
       </button>

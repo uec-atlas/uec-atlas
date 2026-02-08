@@ -2,6 +2,14 @@
 import "@fontsource-variable/inter";
 import "@fontsource-variable/noto-sans-jp";
 import "@/assets/app.css";
+
+interface Props {
+  class?: string;
+  title?: string;
+}
+
+const { title, class: className } = Astro.props;
+const pageTitle = title ? `${title} | UEC Atlas` : "UEC Atlas";
 ---
 
 <html lang="ja">
@@ -9,9 +17,13 @@ import "@/assets/app.css";
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <title>UEC Atlas</title>
+    <title>{pageTitle}</title>
+    <meta
+      name="description"
+      content="UEC Atlas は、電気通信大学のデータを構造化・整理し、誰もが利用できるようにする Linked Open Data プロジェクトです。セマンティックWeb技術を活用してデータの相互運用性と再利用性を高め、データの利活用を促進します。"
+    />
   </head>
-  <body class={Astro.props.class}>
+  <body class={className}>
     <slot />
   </body>
 </html>

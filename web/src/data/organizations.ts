@@ -22,7 +22,7 @@ export type LinkedOrganization = Omit<
 };
 
 import type { LinkedSpatialEntity } from "./spatial";
-import { _linkedSpatialMap, _spatialMap } from "./spatial";
+import { _spatialMap } from "./spatial";
 
 const rawOrganizations = await getCollection("organizations");
 
@@ -69,7 +69,8 @@ const baseDataMap = new Map<string, RawOrganization>();
 const linkedOrgMap = new Map<string, LinkedOrganization>();
 
 for (const { data } of rawOrganizations) {
-  const temp = tempMap.get(data.id)!;
+  const temp = tempMap.get(data.id);
+  if (!temp) continue;
   const raw: RawOrganization = {
     ...data,
     hasSubOrganization: Array.from(temp.hasSubOrganization),
@@ -91,7 +92,7 @@ for (const { data } of rawOrganizations) {
 }
 
 for (const [id, linkedOrg] of linkedOrgMap) {
-  const baseOrg = baseDataMap.get(id)!;
+  const baseOrg = baseDataMap.get(id);
 
   const resolve = (id: string) => {
     const target = linkedOrgMap.get(id);
@@ -104,18 +105,18 @@ for (const [id, linkedOrg] of linkedOrgMap) {
   };
 
   linkedOrg.hasSubOrganization =
-    baseOrg
-      ?.hasSubOrganization!.map(resolve)
+    baseOrg?.hasSubOrganization
+      ?.map(resolve)
       .filter((org): org is LinkedOrganization => !!org) ?? [];
 
   linkedOrg.subOrganizationOf =
-    baseOrg
-      ?.subOrganizationOf!.map(resolve)
+    baseOrg?.subOrganizationOf
+      ?.map(resolve)
       .filter((org): org is LinkedOrganization => !!org) ?? [];
 
   linkedOrg.relatedTo =
-    baseOrg
-      ?.relatedTo!.map((rel) => {
+    baseOrg?.relatedTo
+      ?.map((rel) => {
         const target = resolve(rel.target);
         return target ? { type: rel.type, target } : null;
       })
@@ -125,8 +126,6 @@ for (const [id, linkedOrg] of linkedOrgMap) {
 
 export const _organizationMap = baseDataMap;
 export const _linkedOrganizationMap = linkedOrgMap;
-
-import { linkedOrganizationMap } from ".";
 
 const reverseRelations: Map<string, LinkedOrganization["relatedTo"][number][]> =
   new Map();
@@ -138,7 +137,7 @@ export const getReverseRelation = (
   if (relations) return relations;
 
   const newRelations: LinkedOrganization["relatedTo"][number][] = [];
-  for (const [otherId, otherOrg] of linkedOrganizationMap) {
+  for (const [_otherId, otherOrg] of _linkedOrganizationMap) {
     for (const rel of otherOrg.relatedTo) {
       if (rel.target.id === orgId) {
         newRelations.push({ type: rel.type, target: otherOrg });

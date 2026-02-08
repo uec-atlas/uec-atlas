@@ -7,7 +7,7 @@ import BaseLayout from "./BaseLayout.astro";
 import Footer from "@/components/Footer.astro";
 ---
 
-<BaseLayout class="flex flex-col min-h-dvh">
+<BaseLayout class="flex flex-col min-h-dvh" {...Astro.props}>
   <Navbar />
   <main class="flex-1">
     <slot />

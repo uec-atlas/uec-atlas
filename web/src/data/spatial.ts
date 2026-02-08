@@ -1,5 +1,5 @@
 import { getCollection } from "astro:content";
-import { area, featureCollection, polygon, simplify, union } from "@turf/turf";
+import { featureCollection, union } from "@turf/turf";
 import { geoJSONToWkt } from "betterknown";
 import type {
   SpatialEntity,
@@ -187,7 +187,8 @@ const baseDataMap = new Map<string, RawSpatialEntity>();
 const linkedMap = new Map<string, LinkedSpatialEntity>();
 
 for (const { data } of rawSpatial) {
-  const adj = tempMap.get(data.id)!;
+  const adj = tempMap.get(data.id);
+  if (!adj) continue;
   const raw: RawSpatialEntity = {
     ...data,
     properties: {
@@ -225,7 +226,7 @@ for (const data of baseDataMap.values()) {
         ...(p.intersectsPlace || []),
       ]) {
         const feature = rawSpatial.find((e) => e.data.id === spatialId);
-        if (feature && feature.data.geometry) {
+        if (feature?.data.geometry) {
           const geometryType = (feature.data.geometry as GeoJSON.Geometry).type;
           if (geometryType !== "Polygon" && geometryType !== "MultiPolygon")
             continue;
@@ -270,7 +271,7 @@ for (const data of baseDataMap.values()) {
 }
 
 for (const [id, linked] of linkedMap) {
-  const base = baseDataMap.get(id)!;
+  const base = baseDataMap.get(id);
 
   const resolve = (id?: string) => {
     if (!id) return;
@@ -285,35 +286,35 @@ for (const [id, linked] of linkedMap) {
   };
 
   linked.properties.containedInPlace = resolve(
-    base.properties.containedInPlace,
+    base?.properties.containedInPlace,
   );
 
   linked.properties.containsPlace =
-    base.properties.containsPlace
+    base?.properties.containsPlace
       ?.map(resolve)
       .filter((e): e is LinkedSpatialEntity => !!e)
       .sort(spatialEntitySorter) ?? [];
 
   linked.properties.isPartOf =
-    base.properties.isPartOf
+    base?.properties.isPartOf
       ?.map(resolve)
       .filter((e): e is LinkedSpatialEntity => !!e)
       .sort(spatialEntitySorter) ?? [];
 
   linked.properties.hasPart =
-    base.properties.hasPart
+    base?.properties.hasPart
       ?.map(resolve)
       .filter((e): e is LinkedSpatialEntity => !!e)
       .sort(spatialEntitySorter) ?? [];
 
   linked.properties.connectedTo =
-    base.properties.connectedTo
+    base?.properties.connectedTo
       ?.map(resolve)
       .filter((e): e is LinkedSpatialEntity => !!e)
       .sort(spatialEntitySorter) ?? [];
 
   linked.properties.intersectsPlace =
-    base.properties.intersectsPlace
+    base?.properties.intersectsPlace
       ?.map(resolve)
       .filter((e): e is LinkedSpatialEntity => !!e)
       .sort(spatialEntitySorter) ?? [];
