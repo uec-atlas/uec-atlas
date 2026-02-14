@@ -1,6 +1,6 @@
 <script lang="ts">
   import Icon from "@/components/Icon.svelte";
-  import { formatLangString } from "@/utils/rdf";
+  import { formatI18NString } from "@/utils/rdf";
   import { expandURI } from "@/utils/url";
   import type { I18NString } from "generated/common";
   import { chunk } from "remeda";
@@ -80,7 +80,7 @@
         <div class="flex flex-col gap-1">
           <p class="flex flex-row gap-2 items-baseline">
             <span class="font-bold">
-              {formatLangString(item.name, "ja", fallbackName)}
+              {formatI18NString(item.name, "ja", fallbackName)}
             </span>
             {#each item.tags as tag}
               {#if typeof tag === "string"}

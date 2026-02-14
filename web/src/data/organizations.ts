@@ -21,6 +21,35 @@ export type LinkedOrganization = Omit<
   manages: LinkedSpatialEntity[];
 };
 
+const organizationTypeOrder = [
+  "University",
+  "School",
+  "GraduateSchool",
+  "Cluster",
+  "Department",
+  "EducationProgram",
+  "ExternalOrganization",
+];
+
+export const organizationSorter = (
+  a: RawOrganization | LinkedOrganization,
+  b: RawOrganization | LinkedOrganization,
+) => {
+  const aTypeIndex = organizationTypeOrder.indexOf(a.type);
+  const bTypeIndex = organizationTypeOrder.indexOf(b.type);
+  if (aTypeIndex !== bTypeIndex) {
+    if (aTypeIndex === -1) return 1;
+    if (bTypeIndex === -1) return -1;
+    return aTypeIndex - bTypeIndex;
+  }
+  const nameA = formatI18NString(a.name);
+  const nameB = formatI18NString(b.name);
+  if (nameA < nameB) return -1;
+  if (nameA > nameB) return 1;
+  return 0;
+};
+
+import { formatI18NString } from "@/utils/rdf";
 import type { LinkedSpatialEntity } from "./spatial";
 import { _spatialMap } from "./spatial";
 

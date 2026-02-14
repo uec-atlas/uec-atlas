@@ -9,7 +9,7 @@ import { linkedOrganizationMap, organizationMap } from "@/data";
 import { type LinkedOrganization } from "@/data/organizations";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
 import { organizationJsonLdMap } from "@/pages/data/organizations/[id]";
-import { formatLangString } from "@/utils/rdf";
+import { formatI18NString } from "@/utils/rdf";
 import { expandURI } from "@/utils/url";
 
 export const prerender = true;
@@ -48,25 +48,25 @@ const breadcrumbItems = [
   },
   ...ancestors.map((ancestor) => ({
     tag: ancestor.type,
-    label: formatLangString(ancestor.name),
+    label: formatI18NString(ancestor.name),
     href: expandURI(ancestor.id),
   })),
   {
     tag: organization.type,
-    label: formatLangString(organization.name),
+    label: formatI18NString(organization.name),
   },
 ];
 ---
 
 <DataRepositoryLayout
-  title={formatLangString(organization.name, "ja", "無名の組織")}
+  title={formatI18NString(organization.name, "ja", "無名の組織")}
 >
   <CardBreadcrumb items={breadcrumbItems} />
   <Heading1>
     <span slot="subtitle"
-      >{formatLangString(organization.name, "en", "Unnamed Organization")}</span
+      >{formatI18NString(organization.name, "en", "Unnamed Organization")}</span
     >
-    <span>{formatLangString(organization.name, "ja", "無名の組織")}</span>
+    <span>{formatI18NString(organization.name, "ja", "無名の組織")}</span>
   </Heading1>
 
   <DataViewComponent value={organization} items={organizationDataView} />

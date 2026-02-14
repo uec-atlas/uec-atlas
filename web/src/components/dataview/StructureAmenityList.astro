@@ -1,37 +1,5 @@
 ---
-import { formatLangString } from "@/utils/rdf";
-import type { I18NString } from "generated/organization";
-import type { StructureAmenity } from "generated/spatial";
-import Icon from "../Icon.svelte";
-import { defineIcons } from "icon-plugin";
 
-interface Props {
-  amenities: StructureAmenity[];
-}
-
-const { amenities } = Astro.props;
-
-defineIcons([
-  "mdi:heart-pulse",
-  "mdi:wheelchair",
-  "mdi:account-plus",
-  "mdi:bench",
-]);
-const amenityTags: Record<string, { label: I18NString; icon: string }> = {
-  aed: { label: { en: "AED", ja: "AED設置" }, icon: "mdi:heart-pulse" },
-  wheelchair_accessible: {
-    label: { en: "Wheelchair Accessible", ja: "車椅子対応" },
-    icon: "mdi:wheelchair",
-  },
-  ostomate: {
-    label: { en: "Ostomate Friendly", ja: "オストメイト対応" },
-    icon: "mdi:account-plus",
-  },
-  nursing_bench: {
-    label: { en: "Nursing Bench", ja: "介助用ベッド" },
-    icon: "mdi:bench",
-  },
-};
 ---
 
 <div class="flex flex-wrap gap-2">
@@ -42,7 +10,7 @@ const amenityTags: Record<string, { label: I18NString; icon: string }> = {
         return (
           <div class="d-badge d-badge-primary d-badge-soft">
             <Icon name={tag.icon} class="text-lg" />
-            <span class="font-medium">{formatLangString(tag.label, "ja")}</span>
+            <span class="font-medium">{formatI18NString(tag.label, "ja")}</span>
           </div>
         );
       }

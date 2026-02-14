@@ -1,10 +1,13 @@
 import type { APIRoute } from "astro";
 import { organizationMap } from "@/data";
+import { organizationSorter } from "@/data/organizations";
 import { toFullURL } from "@/utils/url";
 
 export const prerender = true;
 
-const allOrganizations = Array.from(organizationMap.values());
+const allOrganizations = Array.from(organizationMap.values()).sort(
+  organizationSorter,
+);
 
 export const allJSONLD = {
   "@context": [

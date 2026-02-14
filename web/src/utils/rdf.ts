@@ -1,6 +1,6 @@
 import type { I18NString, PostalAddress } from "generated/organization";
 
-export const formatLangString = (
+export const formatI18NString = (
   value: string | { ja?: string; en?: string } | undefined,
   locale: "ja" | "en" | null | undefined = "ja",
   fallback: string | I18NString = "",
@@ -8,7 +8,7 @@ export const formatLangString = (
   const fallbackStr =
     typeof fallback === "string"
       ? fallback
-      : formatLangString(fallback, locale);
+      : formatI18NString(fallback, locale);
   if (!value) return fallbackStr;
   const preferredLocale = locale ?? "ja";
   if (typeof value === "string") return value;

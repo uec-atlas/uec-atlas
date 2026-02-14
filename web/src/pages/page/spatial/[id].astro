@@ -1,72 +1,15 @@
 ---
-import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
-import Heading1 from "@/components/Heading1.astro";
-import Heading2 from "@/components/Heading2.astro";
-import DataViewComponent from "@/components/dataview/DataView.astro";
-import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
-import SpatialPreviewMap from "@/components/dataview/SpatialPreviewMap.astro";
-import { spatialDataView } from "@/components/dataview/definitions/spatial";
-import { linkedSpatialMap, spatialMap } from "@/data";
-import { type LinkedSpatialEntity } from "@/data/spatial";
-import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
-import { spatialJsonLdMap } from "@/pages/data/spatial/[id]";
-import { formatLangString } from "@/utils/rdf";
-import { expandURI } from "@/utils/url";
 
-export const prerender = true;
-
-export const getStaticPaths = async () => {
-  return Array.from(spatialMap.keys()).map((id) => ({
-    params: { id: id.replace("uar:spatial/", "") },
-  }));
-};
-
-const { id } = Astro.params;
-
-const currentId = `uar:spatial/${id}`;
-const fullURL = expandURI(currentId);
-
-const spatial = linkedSpatialMap.get(currentId);
-const spatialJsonLD = spatialJsonLdMap.get(currentId);
-if (!spatial || !spatialJsonLD) {
-  throw new Error("Spatial not found");
-}
-
-const getAncestors = (spatial: LinkedSpatialEntity): LinkedSpatialEntity[] => {
-  const parent = spatial.properties.containedInPlace;
-  if (!parent) return [];
-  return [...getAncestors(parent), parent];
-};
-
-const ancestors = getAncestors(spatial);
-
-const breadcrumbItems = [
-  { label: "Home", href: "/page/", icon: "mdi:home" },
-  {
-    label: "Spatial",
-    href: "/page/spatial/",
-    icon: "mdi:map",
-  },
-  ...ancestors.map((ancestor) => ({
-    tag: ancestor.properties.type,
-    label: formatLangString(ancestor.properties.name),
-    href: expandURI(ancestor.id),
-  })),
-  {
-    tag: spatial.properties.type,
-    label: formatLangString(spatial.properties.name),
-  },
-];
 ---
 
 <DataRepositoryLayout
-  title={formatLangString(spatial.properties.name, "ja", "無名の地理情報")}
+  title={formatI18NString(spatial.properties.name, "ja", "無名の地理情報")}
 >
   <CardBreadcrumb items={breadcrumbItems} />
   <Heading1>
     <span slot="subtitle"
       >{
-        formatLangString(
+        formatI18NString(
           spatial.properties.name,
           "en",
           "Unnamed Spatial Entity",
@@ -74,7 +17,7 @@ const breadcrumbItems = [
       }</span
     >
     <span
-      >{formatLangString(spatial.properties.name, "ja", "無名の地理情報")}</span
+      >{formatI18NString(spatial.properties.name, "ja", "無名の地理情報")}</span
     >
   </Heading1>
 

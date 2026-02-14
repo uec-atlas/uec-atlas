@@ -1,49 +1,5 @@
 ---
-import { formatLangString } from "@/utils/rdf";
-import type {
-  I18NString,
-  SchemaOpeningHoursSpecification,
-} from "generated/organization";
 
-interface Props {
-  openingHours: SchemaOpeningHoursSpecification[];
-}
-const props = Astro.props;
-
-const DAYS_MAP: Record<string, I18NString> = {
-  Monday: {
-    en: "Monday",
-    ja: "月曜日",
-  },
-  Tuesday: {
-    en: "Tuesday",
-    ja: "火曜日",
-  },
-  Wednesday: {
-    en: "Wednesday",
-    ja: "水曜日",
-  },
-  Thursday: {
-    en: "Thursday",
-    ja: "木曜日",
-  },
-  Friday: {
-    en: "Friday",
-    ja: "金曜日",
-  },
-  Saturday: {
-    en: "Saturday",
-    ja: "土曜日",
-  },
-  Sunday: {
-    en: "Sunday",
-    ja: "日曜日",
-  },
-  PublicHolidays: {
-    en: "Public Holidays",
-    ja: "祝日・休日",
-  },
-};
 ---
 
 <div
@@ -66,8 +22,8 @@ const DAYS_MAP: Record<string, I18NString> = {
           if (hours.length === 0) {
             return (
               <tr>
-                <th>{formatLangString(dayName, "ja")}</th>
-                <td>{formatLangString({ en: "Closed", ja: "休業" }, "ja")}</td>
+                <th>{formatI18NString(dayName, "ja")}</th>
+                <td>{formatI18NString({ en: "Closed", ja: "休業" }, "ja")}</td>
               </tr>
             );
           }
@@ -78,7 +34,7 @@ const DAYS_MAP: Record<string, I18NString> = {
             .join(", ");
           return (
             <tr>
-              <th>{formatLangString(dayName, "ja")}</th>
+              <th>{formatI18NString(dayName, "ja")}</th>
               <td>{hoursStr}</td>
             </tr>
           );

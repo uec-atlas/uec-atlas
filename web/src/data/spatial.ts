@@ -7,7 +7,7 @@ import type {
   Storey,
 } from "generated/spatial";
 import { toOrdinal } from "@/utils/number";
-import { formatLangString } from "@/utils/rdf";
+import { formatI18NString } from "@/utils/rdf";
 import type { LinkedOrganization } from "./organizations";
 
 export type RawSpatialProperties = Omit<
@@ -87,8 +87,8 @@ const spatialEntityCategoryOrder = [
 ];
 
 export const spatialEntitySorter = (
-  a: SpatialEntity | LinkedSpatialEntity,
-  b: SpatialEntity | LinkedSpatialEntity,
+  a: RawSpatialEntity | LinkedSpatialEntity,
+  b: RawSpatialEntity | LinkedSpatialEntity,
 ): number => {
   const typeAIndex = spatialEntityTypeOrder.indexOf(a.properties.type);
   const typeBIndex = spatialEntityTypeOrder.indexOf(b.properties.type);
@@ -112,8 +112,8 @@ export const spatialEntitySorter = (
     }
   }
 
-  const nameA = formatLangString(a.properties.name, "ja");
-  const nameB = formatLangString(b.properties.name, "ja");
+  const nameA = formatI18NString(a.properties.name, "ja");
+  const nameB = formatI18NString(b.properties.name, "ja");
   return nameA.localeCompare(nameB, "ja", { numeric: true });
 };
 
@@ -242,23 +242,6 @@ for (const data of baseDataMap.values()) {
           >,
         );
         if (merged) {
-          // // 小さい穴を除去
-          // if (merged.geometry.type === "Polygon") {
-          //   merged.geometry.coordinates = merged.geometry.coordinates.filter(
-          //     (ring) => {
-          //       const ringPolygon = polygon([ring]);
-          //       return area(ringPolygon) >= 0.1;
-          //     },
-          //   );
-          // } else if (merged.geometry.type === "MultiPolygon") {
-          //   merged.geometry.coordinates = merged.geometry.coordinates.map(
-          //     (polygonCoords) =>
-          //       polygonCoords.filter((ring) => {
-          //         const ringPolygon = polygon([ring]);
-          //         return area(ringPolygon) >= 0.5; // 0.5㎡未満の穴を除去
-          //       }),
-          //   );
-          // }
           data.geometry = merged.geometry;
         }
       }
