@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/6E4QWYV3",
+      "id": "uar:spatial/6E4QWYV3",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "2",
-        "containedInPlace": "uatr:spatial/AI6CRAXC"
+        "containedInPlace": "uar:spatial/AI6CRAXC"
       }
     },
     {
-      "id": "uatr:spatial/2GT4UME2",
+      "id": "uar:spatial/2GT4UME2",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -58,7 +58,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/6E4QWYV3",
+        "containedInPlace": "uar:spatial/6E4QWYV3",
         "type": "Classroom",
         "name": {
           "ja": "241講義室"
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "uatr:spatial/UTQYQ7VP",
+      "id": "uar:spatial/UTQYQ7VP",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -105,7 +105,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/6E4QWYV3",
+        "containedInPlace": "uar:spatial/6E4QWYV3",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "uatr:spatial/RZEXUPL2",
+      "id": "uar:spatial/RZEXUPL2",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -144,7 +144,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/6E4QWYV3",
+        "containedInPlace": "uar:spatial/6E4QWYV3",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -153,7 +153,7 @@
       }
     },
     {
-      "id": "uatr:spatial/QEPRC4GT",
+      "id": "uar:spatial/QEPRC4GT",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -407,12 +407,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/6E4QWYV3",
+        "containedInPlace": "uar:spatial/6E4QWYV3",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/PV2AG45T",
+      "id": "uar:spatial/PV2AG45T",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -456,7 +456,7 @@
           "ja": "階段"
         },
         "intersectsPlace": [
-          "uatr:spatial/6E4QWYV3"
+          "uar:spatial/6E4QWYV3"
         ]
       }
     }

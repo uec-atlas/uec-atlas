@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/NLZ3CHCR",
+      "id": "uar:spatial/NLZ3CHCR",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "2",
-        "containedInPlace": "uatr:spatial/ZTEI3JAZ"
+        "containedInPlace": "uar:spatial/ZTEI3JAZ"
       }
     },
     {
-      "id": "uatr:spatial/VLN4WE4K",
+      "id": "uar:spatial/VLN4WE4K",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,19 +46,19 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room",
         "name": {
           "ja": "第2展示室"
         },
         "usage": "museum",
         "isPartOf": [
-          "uatr:spatial/NSE5X2WH"
+          "uar:spatial/NSE5X2WH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/CLE42SDE",
+      "id": "uar:spatial/CLE42SDE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -88,19 +88,19 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room",
         "name": {
           "ja": "第3展示室"
         },
         "usage": "museum",
         "isPartOf": [
-          "uatr:spatial/NSE5X2WH"
+          "uar:spatial/NSE5X2WH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/K2XKBAT7",
+      "id": "uar:spatial/K2XKBAT7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -130,19 +130,19 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room",
         "name": {
           "ja": "第4展示室"
         },
         "usage": "museum",
         "isPartOf": [
-          "uatr:spatial/NSE5X2WH"
+          "uar:spatial/NSE5X2WH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/VCAWB7OU",
+      "id": "uar:spatial/VCAWB7OU",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -172,12 +172,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/TUEK7S66",
+      "id": "uar:spatial/TUEK7S66",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -215,12 +215,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/XH6HGFTH",
+      "id": "uar:spatial/XH6HGFTH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -298,12 +298,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/25QYZW5B",
+      "id": "uar:spatial/25QYZW5B",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -333,19 +333,19 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room",
         "name": {
           "ja": "第5展示室"
         },
         "usage": "museum",
         "isPartOf": [
-          "uatr:spatial/NSE5X2WH"
+          "uar:spatial/NSE5X2WH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/GFOEYKU3",
+      "id": "uar:spatial/GFOEYKU3",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -387,14 +387,14 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/NLZ3CHCR",
+        "containedInPlace": "uar:spatial/NLZ3CHCR",
         "type": "Room",
         "name": {
           "ja": "第6展示室"
         },
         "usage": "museum",
         "isPartOf": [
-          "uatr:spatial/NSE5X2WH"
+          "uar:spatial/NSE5X2WH"
         ]
       }
     }

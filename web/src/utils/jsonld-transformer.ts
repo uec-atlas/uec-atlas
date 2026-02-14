@@ -334,7 +334,7 @@ const autoLinkTransformer: ShikiTransformer = {
               tagName: "a",
               properties: {
                 href,
-                class: innerContent.startsWith("uatr:")
+                class: innerContent.startsWith("uar:")
                   ? "underline decoration-dashed hover:decoration-solid"
                   : "hover:underline",
               },

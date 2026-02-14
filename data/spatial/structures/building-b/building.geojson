@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/YX7XJKYV",
+      "id": "uar:spatial/YX7XJKYV",
       "type": "Feature",
       "geometry": {
         "type": "GeometryCollection",
@@ -244,7 +244,7 @@
           "ja": "B棟",
           "en": "Building B"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2,
         "amenities": [

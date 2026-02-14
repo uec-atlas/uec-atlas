@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/OTGFQXVZ",
+      "id": "uar:spatial/OTGFQXVZ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -70,7 +70,7 @@
           "ja": "ドーム絆",
           "en": "Student Dormitory Kizuna"
         },
-        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "containedInPlace": "uar:spatial/SKOL7UDT",
         "minFloorLevel": 1,
         "maxFloorLevel": 5
       }

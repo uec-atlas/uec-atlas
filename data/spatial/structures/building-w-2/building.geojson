@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/XW6IN3GG",
+      "id": "uar:spatial/XW6IN3GG",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "西2号館",
           "en": "Building W-2"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": -1,
         "maxFloorLevel": 8
       }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/OWVZPRW7",
+      "id": "uar:spatial/OWVZPRW7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -56,7 +56,7 @@
           "addressCountry": "JP"
         },
         "managedBy": [
-          "uatr:organizations/UEC"
+          "uar:organizations/UEC"
         ]
       }
     }

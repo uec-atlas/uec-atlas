@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/BE266JZZ",
+      "id": "uar:spatial/BE266JZZ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "課外活動施設",
           "en": "Facilities for Extracurricular Activities"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 3
       }

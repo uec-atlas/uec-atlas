@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/VLHMHPII",
+      "id": "uar:spatial/VLHMHPII",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "西6号館",
           "en": "Building W-6"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 7
       }

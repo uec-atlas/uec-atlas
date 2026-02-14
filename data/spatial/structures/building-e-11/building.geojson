@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/IESKNHVK",
+      "id": "uar:spatial/IESKNHVK",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "東11号館",
           "en": "Building E-11"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "alternateName": {
           "ja": [
             "Energy Co-creation Nexus (e-Nexus)"

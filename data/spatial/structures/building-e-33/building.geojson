@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/DBJM53MA",
+      "id": "uar:spatial/DBJM53MA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,7 +46,7 @@
           "ja": "東33号館",
           "en": "Building E-33"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2
       }

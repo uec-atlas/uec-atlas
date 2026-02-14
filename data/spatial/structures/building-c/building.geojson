@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/JCNJ3I23",
+      "id": "uar:spatial/JCNJ3I23",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "C棟",
           "en": "Building C"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "alternateName": {
           "ja": [
             "旧C棟"

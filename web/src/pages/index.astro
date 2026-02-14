@@ -129,10 +129,10 @@ defineIcons([
         class="bg-transparent! px-4 before:hidden"
         code={`# 専門教育プログラムのIDと名称の一覧を取得する
 PREFIX schema: <http://schema.org/>
-PREFIX uato: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
 
 SELECT ?org ?orgName WHERE {
-  ?org a uato:EducationProgram;
+  ?org a uao:EducationProgram;
        schema:name ?orgName .
 }`}
         lang="sparql"
@@ -143,10 +143,10 @@ SELECT ?org ?orgName WHERE {
         class="bg-transparent! px-4 before:hidden"
         code={`# AEDが設置されている建物名を取得する
 PREFIX schema: <http://schema.org/>
-PREFIX uato: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
 
 SELECT ?name WHERE {
-  [] a uato:Building;
+  [] a uao:Building;
      schema:name ?name;
      schema:amenityFeature [
        schema:value true;
@@ -161,15 +161,15 @@ SELECT ?name WHERE {
       <Code
         class="bg-transparent! px-4 before:hidden"
         code={`# 生協が管理する施設の月曜日の営業時間を取得する
-PREFIX uato: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
-PREFIX uatr: <https://uec-atlas.e-chan1007.workers.dev/resources/>
-PREFIX uatr-org: <https://uec-atlas.e-chan1007.workers.dev/resources/organizations/>
+PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+PREFIX uar: <https://uec-atlas.e-chan1007.workers.dev/resources/>
+PREFIX uar-org: <https://uec-atlas.e-chan1007.workers.dev/resources/organizations/>
 PREFIX schema: <http://schema.org/>
 
 SELECT ?facility ?open ?closes WHERE {
-  ?facility a uato:Facility;
+  ?facility a uao:Facility;
     schema:name ?facilityName;
-  	schema:managedBy uatr-org:22GBCPB7;
+  	schema:managedBy uar-org:22GBCPB7;
    	schema:openingHoursSpecification [
       schema:dayOfWeek "Monday";
       schema:opens ?open;

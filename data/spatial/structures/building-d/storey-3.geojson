@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/64VQBKZF",
+      "id": "uar:spatial/64VQBKZF",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "3",
-        "containedInPlace": "uatr:spatial/T5KIUE4O"
+        "containedInPlace": "uar:spatial/T5KIUE4O"
       }
     },
     {
-      "id": "uatr:spatial/GTFVMXMK",
+      "id": "uar:spatial/GTFVMXMK",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -42,7 +42,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "uatr:spatial/LXKE5HMV",
+      "id": "uar:spatial/LXKE5HMV",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -85,12 +85,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/6W3MJGX7",
+      "id": "uar:spatial/6W3MJGX7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -120,12 +120,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/CIQ2FN2W",
+      "id": "uar:spatial/CIQ2FN2W",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -195,12 +195,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/RB5WRPAE",
+      "id": "uar:spatial/RB5WRPAE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -234,7 +234,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
           "ja": "309実験室"
@@ -243,7 +243,7 @@
       }
     },
     {
-      "id": "uatr:spatial/NAIIPFZD",
+      "id": "uar:spatial/NAIIPFZD",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -273,7 +273,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
           "ja": "308実験室"
@@ -282,7 +282,7 @@
       }
     },
     {
-      "id": "uatr:spatial/JEFWAKGT",
+      "id": "uar:spatial/JEFWAKGT",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -328,7 +328,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
           "ja": "301実験室"
@@ -337,7 +337,7 @@
       }
     },
     {
-      "id": "uatr:spatial/GEDDHO4V",
+      "id": "uar:spatial/GEDDHO4V",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -383,7 +383,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
           "ja": "306実験室"
@@ -392,7 +392,7 @@
       }
     },
     {
-      "id": "uatr:spatial/BLOJTC3B",
+      "id": "uar:spatial/BLOJTC3B",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -438,7 +438,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/64VQBKZF",
+        "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
           "ja": "303実験室"

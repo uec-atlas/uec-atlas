@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/GZIAQT5V",
+      "id": "uar:spatial/GZIAQT5V",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -39,12 +39,12 @@
           "addressCountry": "JP"
         },
         "managedBy": [
-          "uatr:organizations/UEC"
+          "uar:organizations/UEC"
         ]
       }
     },
     {
-      "id": "uatr:spatial/EFIV3IVM",
+      "id": "uar:spatial/EFIV3IVM",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -183,11 +183,11 @@
           "ja": "東地区",
           "en": "East Campus"
         },
-        "containedInPlace": "uatr:spatial/GZIAQT5V"
+        "containedInPlace": "uar:spatial/GZIAQT5V"
       }
     },
     {
-      "id": "uatr:spatial/KNT63TOW",
+      "id": "uar:spatial/KNT63TOW",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -274,11 +274,11 @@
           "ja": "西地区",
           "en": "West Campus"
         },
-        "containedInPlace": "uatr:spatial/GZIAQT5V"
+        "containedInPlace": "uar:spatial/GZIAQT5V"
       }
     },
     {
-      "id": "uatr:spatial/SKOL7UDT",
+      "id": "uar:spatial/SKOL7UDT",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",

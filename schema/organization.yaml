@@ -1,11 +1,11 @@
-id: uats:organization
+id: uas:organization
 name: uec_atlas_organization
 title: "UEC Atlas Organization Ontology"
 
 prefixes:
-  uato: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uatr: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uats: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   org: http://www.w3.org/ns/org#
   schema: http://schema.org/
@@ -16,7 +16,7 @@ prefixes:
 imports:
   - common
 
-default_prefix: uato
+default_prefix: uao
 
 classes:
   Organization:
@@ -39,7 +39,7 @@ classes:
         range: string
     slot_usage:
       id:
-        pattern: "^uatr:organizations/"
+        pattern: "^uar:organizations/"
 
   OrgOrganization:
     class_uri: org:Organization
@@ -68,13 +68,13 @@ classes:
     description: "大学"
     slot_usage:
       id:
-        pattern: "^uatr:organizations/UEC$"
+        pattern: "^uar:organizations/UEC$"
 
   School:
     is_a: AbstractEducationalOrganization
     description: "学域(大学)"
 
-  GraduateSchool:
+  GraduaeSchool:
     is_a: AbstractEducationalOrganization
     description: "研究科(大学院)"
 
@@ -135,7 +135,7 @@ slots:
       jsonld_container: "@set"
   relatedTo:
     description: "関連する組織"
-    slot_uri: uato:relatedTo
+    slot_uri: uao:relatedTo
     range: OrganizationRelation
     inlined: true
     inlined_as_list: true

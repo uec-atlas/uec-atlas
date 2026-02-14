@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/464DIAAE",
+      "id": "uar:spatial/464DIAAE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,7 +46,7 @@
           "ja": "西門守衛所",
           "en": "Security Office of West Gate"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 1,
         "amenities": [

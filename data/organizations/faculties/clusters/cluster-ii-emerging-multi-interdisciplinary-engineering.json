@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/AEFZKYAV",
+  "id": "uar:organizations/AEFZKYAV",
   "type": "Cluster",
   "subOrganizationOf": [
-    "uatr:organizations/4S7RCBRG"
+    "uar:organizations/4S7RCBRG"
   ],
   "name": {
     "en": "Cluster II (Emerging Multi-Interdisciplinary Engineering)",

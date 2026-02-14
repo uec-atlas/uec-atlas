@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/P4TTQ6A7",
+      "id": "uar:spatial/P4TTQ6A7",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -17,11 +17,11 @@
           "ja": "正門",
           "en": "Main Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     },
     {
-      "id": "uatr:spatial/5CRYHAF4",
+      "id": "uar:spatial/5CRYHAF4",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -36,11 +36,11 @@
           "ja": "南門",
           "en": "South Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     },
     {
-      "id": "uatr:spatial/XGTRQKKH",
+      "id": "uar:spatial/XGTRQKKH",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -55,11 +55,11 @@
           "ja": "東門",
           "en": "East Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     },
     {
-      "id": "uatr:spatial/BJR3M6SB",
+      "id": "uar:spatial/BJR3M6SB",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -74,11 +74,11 @@
           "ja": "中門",
           "en": "Central Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     },
     {
-      "id": "uatr:spatial/HMP4XB32",
+      "id": "uar:spatial/HMP4XB32",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -93,11 +93,11 @@
           "ja": "中門",
           "en": "Central Gate"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW"
+        "containedInPlace": "uar:spatial/KNT63TOW"
       }
     },
     {
-      "id": "uatr:spatial/WFMPH5EL",
+      "id": "uar:spatial/WFMPH5EL",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -112,11 +112,11 @@
           "ja": "西門",
           "en": "West Gate"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW"
+        "containedInPlace": "uar:spatial/KNT63TOW"
       }
     },
     {
-      "id": "uatr:spatial/R6UAPZ2I",
+      "id": "uar:spatial/R6UAPZ2I",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -131,7 +131,7 @@
           "ja": "北門",
           "en": "North Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     }
   ]

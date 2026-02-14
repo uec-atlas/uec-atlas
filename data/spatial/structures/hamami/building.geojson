@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/3XLYAPXY",
+      "id": "uar:spatial/3XLYAPXY",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -78,7 +78,7 @@
           "ja": "浜見寮",
           "en": "Hamami House"
         },
-        "containedInPlace": "uatr:spatial/OWVZPRW7",
+        "containedInPlace": "uar:spatial/OWVZPRW7",
         "minFloorLevel": 1,
         "maxFloorLevel": 2,
         "amenities": [

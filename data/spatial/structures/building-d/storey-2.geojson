@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/PTIRATZ4",
+      "id": "uar:spatial/PTIRATZ4",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "2",
-        "containedInPlace": "uatr:spatial/T5KIUE4O"
+        "containedInPlace": "uar:spatial/T5KIUE4O"
       }
     },
     {
-      "id": "uatr:spatial/BDAZSUJB",
+      "id": "uar:spatial/BDAZSUJB",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -42,7 +42,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "uatr:spatial/DD2PAMZV",
+      "id": "uar:spatial/DD2PAMZV",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -85,12 +85,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/DJWTSFIV",
+      "id": "uar:spatial/DJWTSFIV",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -120,12 +120,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/DDTXLYNO",
+      "id": "uar:spatial/DDTXLYNO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -171,7 +171,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Facility",
         "category": "office",
         "name": {
@@ -180,7 +180,7 @@
       }
     },
     {
-      "id": "uatr:spatial/BVDEVIKY",
+      "id": "uar:spatial/BVDEVIKY",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -210,12 +210,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/T2VCPGJX",
+      "id": "uar:spatial/T2VCPGJX",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -265,7 +265,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
           "ja": "202実験室"
@@ -274,7 +274,7 @@
       }
     },
     {
-      "id": "uatr:spatial/EAGGKKCW",
+      "id": "uar:spatial/EAGGKKCW",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -312,7 +312,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
           "ja": "209実験室"
@@ -321,7 +321,7 @@
       }
     },
     {
-      "id": "uatr:spatial/45FBVGXO",
+      "id": "uar:spatial/45FBVGXO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -351,7 +351,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
           "ja": "204実験室"
@@ -360,7 +360,7 @@
       }
     },
     {
-      "id": "uatr:spatial/LI4O6FCG",
+      "id": "uar:spatial/LI4O6FCG",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -394,12 +394,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/I2VLC2MN",
+      "id": "uar:spatial/I2VLC2MN",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -437,7 +437,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/PTIRATZ4",
+        "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Room"
       }
     }

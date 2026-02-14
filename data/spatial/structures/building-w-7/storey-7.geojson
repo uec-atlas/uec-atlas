@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/FOWI5LVW",
+      "id": "uar:spatial/FOWI5LVW",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "7",
-        "containedInPlace": "uatr:spatial/TJUJEATO"
+        "containedInPlace": "uar:spatial/TJUJEATO"
       }
     }
   ]

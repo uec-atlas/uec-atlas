@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/QQAX2HA7",
+      "id": "uar:spatial/QQAX2HA7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -78,7 +78,7 @@
           "ja": "保健管理センター",
           "en": "Health Care Center"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2,
         "amenities": [

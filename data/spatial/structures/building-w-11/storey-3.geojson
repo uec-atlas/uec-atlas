@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/OCTAADRT",
+      "id": "uar:spatial/OCTAADRT",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "3",
-        "containedInPlace": "uatr:spatial/MA3WG7AA"
+        "containedInPlace": "uar:spatial/MA3WG7AA"
       }
     }
   ]

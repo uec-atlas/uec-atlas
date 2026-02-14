@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/MA3WG7AA",
+      "id": "uar:spatial/MA3WG7AA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -62,7 +62,7 @@
           "ja": "西11号館",
           "en": "Building W-11"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 5
       }

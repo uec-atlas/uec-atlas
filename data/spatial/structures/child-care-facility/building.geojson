@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/ZZ37NTM7",
+      "id": "uar:spatial/ZZ37NTM7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "学内保育施設",
           "en": "Child-Care Facility"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "alternateName": {
           "ja": [
             "UEC保育園どんぐり"

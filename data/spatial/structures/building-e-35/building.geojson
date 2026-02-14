@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/3DCB4Q56",
+      "id": "uar:spatial/3DCB4Q56",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "東35号館",
           "en": "Building E-35"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2
       }

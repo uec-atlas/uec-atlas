@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/3CXPXLES",
+      "id": "uar:spatial/3CXPXLES",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "4",
-        "containedInPlace": "uatr:spatial/ONOJKYEP"
+        "containedInPlace": "uar:spatial/ONOJKYEP"
       }
     }
   ]

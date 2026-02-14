@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/ORU23AVH",
+      "id": "uar:spatial/ORU23AVH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -148,7 +148,7 @@
           "ja": "東3号館",
           "en": "Building E-3"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": -1,
         "maxFloorLevel": 10,
         "amenities": [
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "uatr:spatial/GAGQV65D",
+      "id": "uar:spatial/GAGQV65D",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -170,7 +170,7 @@
           "en": "The University of Electro-Communications Library"
         },
         "category": "library",
-        "containedInPlace": "uatr:spatial/ORU23AVH",
+        "containedInPlace": "uar:spatial/ORU23AVH",
         "openingHoursSpecification": [
           {
             "dayOfWeek": "Monday",

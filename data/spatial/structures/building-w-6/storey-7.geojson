@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/LX62PNEC",
+      "id": "uar:spatial/LX62PNEC",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "7",
-        "containedInPlace": "uatr:spatial/VLHMHPII"
+        "containedInPlace": "uar:spatial/VLHMHPII"
       }
     }
   ]

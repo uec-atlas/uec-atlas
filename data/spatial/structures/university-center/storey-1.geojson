@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/2Z7LSPE6",
+      "id": "uar:spatial/2Z7LSPE6",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/SHGP6CPL"
+        "containedInPlace": "uar:spatial/SHGP6CPL"
       }
     },
     {
-      "id": "uatr:spatial/X74E4ATM",
+      "id": "uar:spatial/X74E4ATM",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -24,11 +24,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 290.0,
-        "containedInPlace": "uatr:spatial/2Z7LSPE6"
+        "containedInPlace": "uar:spatial/2Z7LSPE6"
       }
     },
     {
-      "id": "uatr:spatial/3Y36KHDU",
+      "id": "uar:spatial/3Y36KHDU",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -40,11 +40,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 290.0,
-        "containedInPlace": "uatr:spatial/2Z7LSPE6"
+        "containedInPlace": "uar:spatial/2Z7LSPE6"
       }
     },
     {
-      "id": "uatr:spatial/FSU5R5EB",
+      "id": "uar:spatial/FSU5R5EB",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -56,11 +56,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 200.0,
-        "containedInPlace": "uatr:spatial/2Z7LSPE6"
+        "containedInPlace": "uar:spatial/2Z7LSPE6"
       }
     },
     {
-      "id": "uatr:spatial/IVNYFP7R",
+      "id": "uar:spatial/IVNYFP7R",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -114,7 +114,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Facility",
         "name": {
           "ja": "コープショップ",
@@ -122,7 +122,7 @@
         },
         "category": "shop",
         "managedBy": [
-          "uatr:organizations/22GBCPB7"
+          "uar:organizations/22GBCPB7"
         ],
         "openingHoursSpecification": [
           {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "uatr:spatial/G3CUPSLI",
+      "id": "uar:spatial/G3CUPSLI",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -184,12 +184,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/43R7KH2N",
+      "id": "uar:spatial/43R7KH2N",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -219,12 +219,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/AZ2FBZAT",
+      "id": "uar:spatial/AZ2FBZAT",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -254,12 +254,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/TH3IQPGN",
+      "id": "uar:spatial/TH3IQPGN",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -289,12 +289,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/Y6PMPHJH",
+      "id": "uar:spatial/Y6PMPHJH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -328,7 +328,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -337,7 +337,7 @@
       }
     },
     {
-      "id": "uatr:spatial/BFQNO6PA",
+      "id": "uar:spatial/BFQNO6PA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -367,7 +367,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -376,7 +376,7 @@
       }
     },
     {
-      "id": "uatr:spatial/CUHWNZB6",
+      "id": "uar:spatial/CUHWNZB6",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -414,7 +414,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Facility",
         "name": {
           "ja": "カットサロンRen",
@@ -422,7 +422,7 @@
         },
         "category": "shop",
         "managedBy": [
-          "uatr:organizations/22GBCPB7"
+          "uar:organizations/22GBCPB7"
         ],
         "openingHoursSpecification": [
           {
@@ -454,7 +454,7 @@
       }
     },
     {
-      "id": "uatr:spatial/RO5MOKEO",
+      "id": "uar:spatial/RO5MOKEO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -484,7 +484,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Restroom",
         "name": {
           "ja": "多機能トイレ"
@@ -499,7 +499,7 @@
       }
     },
     {
-      "id": "uatr:spatial/27KPPL6P",
+      "id": "uar:spatial/27KPPL6P",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -541,7 +541,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Facility",
         "category": "office",
         "name": {
@@ -549,7 +549,7 @@
           "en": "Co-op Office"
         },
         "managedBy": [
-          "uatr:organizations/22GBCPB7"
+          "uar:organizations/22GBCPB7"
         ],
         "openingHoursSpecification": [
           {
@@ -581,7 +581,7 @@
       }
     },
     {
-      "id": "uatr:spatial/LJAY5FA7",
+      "id": "uar:spatial/LJAY5FA7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -667,12 +667,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/2Z7LSPE6",
+        "containedInPlace": "uar:spatial/2Z7LSPE6",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/N4U2UGJX",
+      "id": "uar:spatial/N4U2UGJX",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -712,15 +712,15 @@
           "ja": "階段"
         },
         "intersectsPlace": [
-          "uatr:spatial/2Z7LSPE6",
-          "uatr:spatial/MDQKQLF4",
-          "uatr:spatial/SAUNE7KB",
-          "uatr:spatial/6U7NK6ZP"
+          "uar:spatial/2Z7LSPE6",
+          "uar:spatial/MDQKQLF4",
+          "uar:spatial/SAUNE7KB",
+          "uar:spatial/6U7NK6ZP"
         ]
       }
     },
     {
-      "id": "uatr:spatial/RORJOQF4",
+      "id": "uar:spatial/RORJOQF4",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -756,15 +756,15 @@
           "ja": "エレベーター"
         },
         "intersectsPlace": [
-          "uatr:spatial/2Z7LSPE6",
-          "uatr:spatial/MDQKQLF4",
-          "uatr:spatial/SAUNE7KB",
-          "uatr:spatial/6U7NK6ZP"
+          "uar:spatial/2Z7LSPE6",
+          "uar:spatial/MDQKQLF4",
+          "uar:spatial/SAUNE7KB",
+          "uar:spatial/6U7NK6ZP"
         ]
       }
     },
     {
-      "id": "uatr:spatial/L62SIB4Q",
+      "id": "uar:spatial/L62SIB4Q",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -800,8 +800,8 @@
           "ja": "階段"
         },
         "intersectsPlace": [
-          "uatr:spatial/2Z7LSPE6",
-          "uatr:spatial/MDQKQLF4"
+          "uar:spatial/2Z7LSPE6",
+          "uar:spatial/MDQKQLF4"
         ]
       }
     }

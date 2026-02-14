@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/ZTEI3JAZ",
+      "id": "uar:spatial/ZTEI3JAZ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,13 +46,13 @@
           "ja": "東10号館",
           "en": "Building E-10"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 4
       }
     },
     {
-      "id": "uatr:spatial/NSE5X2WH",
+      "id": "uar:spatial/NSE5X2WH",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -62,7 +62,7 @@
           "ja": "UECコミュニケーションミュージアム",
           "en": "UEC Communication Museum"
         },
-        "containedInPlace": "uatr:spatial/ZTEI3JAZ",
+        "containedInPlace": "uar:spatial/ZTEI3JAZ",
         "openingHoursSpecification": [
           {
             "dayOfWeek": "Tuesday",

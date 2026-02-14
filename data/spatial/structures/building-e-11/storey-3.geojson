@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/DL6DMNPV",
+      "id": "uar:spatial/DL6DMNPV",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "3",
-        "containedInPlace": "uatr:spatial/IESKNHVK"
+        "containedInPlace": "uar:spatial/IESKNHVK"
       }
     },
     {
-      "id": "uatr:spatial/XEUTGZ7Z",
+      "id": "uar:spatial/XEUTGZ7Z",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -42,12 +42,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/SQGVGOVR",
+      "id": "uar:spatial/SQGVGOVR",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -93,7 +93,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "uatr:spatial/BN3SQAL7",
+      "id": "uar:spatial/BN3SQAL7",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -136,12 +136,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/SW2553EY",
+      "id": "uar:spatial/SW2553EY",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -171,12 +171,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/R2JI43O3",
+      "id": "uar:spatial/R2JI43O3",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -202,12 +202,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/2YYNQZJX",
+      "id": "uar:spatial/2YYNQZJX",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -253,12 +253,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/NYMLRS7H",
+      "id": "uar:spatial/NYMLRS7H",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -312,7 +312,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -321,7 +321,7 @@
       }
     },
     {
-      "id": "uatr:spatial/ILAIMUDJ",
+      "id": "uar:spatial/ILAIMUDJ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -359,12 +359,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/EESEXUYA",
+      "id": "uar:spatial/EESEXUYA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -398,12 +398,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/VM4WF7ID",
+      "id": "uar:spatial/VM4WF7ID",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -453,12 +453,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/B4ZTTDGE",
+      "id": "uar:spatial/B4ZTTDGE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -532,7 +532,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/DL6DMNPV",
+        "containedInPlace": "uar:spatial/DL6DMNPV",
         "type": "Room"
       }
     }

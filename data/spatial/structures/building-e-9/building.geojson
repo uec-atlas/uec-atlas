@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/3TIZJUFB",
+      "id": "uar:spatial/3TIZJUFB",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -318,7 +318,7 @@
           "ja": "東9号館",
           "en": "Building E-9"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 4
       }

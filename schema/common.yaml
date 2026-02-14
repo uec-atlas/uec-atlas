@@ -1,4 +1,4 @@
-id: uats:common
+id: uas:common
 name: uec_atlas_common
 title: UEC Atlas Common Definitions
 description: Common prefixes, types, and base classes for the UEC Atlas project.
@@ -12,17 +12,17 @@ prefixes:
   hydra: http://www.w3.org/ns/hydra/core#
   void: http://rdfs.org/ns/void#
   schema: http://schema.org/
-  uato: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uatr: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uats: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
 
 imports:
   - linkml:types
 
-default_prefix: uato
+default_prefix: uao
 default_range: string
 emit_prefixes:
-  - uatr
+  - uar
 
 enums:
   SchemaDayOfWeek:
@@ -73,7 +73,7 @@ classes:
   NamedThingWithId:
     is_a: NamedThing
     id_prefixes:
-      - uatr
+      - uar
     slots:
       - id
   PostalAddress:

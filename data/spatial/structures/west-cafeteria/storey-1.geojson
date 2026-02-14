@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/VAG5Y5QF",
+      "id": "uar:spatial/VAG5Y5QF",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/PI53A7EG"
+        "containedInPlace": "uar:spatial/PI53A7EG"
       }
     },
     {
-      "id": "uatr:spatial/EPC6SSAX",
+      "id": "uar:spatial/EPC6SSAX",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -24,11 +24,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 20.0,
-        "containedInPlace": "uatr:spatial/VAG5Y5QF"
+        "containedInPlace": "uar:spatial/VAG5Y5QF"
       }
     },
     {
-      "id": "uatr:spatial/2VSC3VTZ",
+      "id": "uar:spatial/2VSC3VTZ",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -37,7 +37,7 @@
           "ja": "西食堂 den"
         },
         "category": "cafeteria",
-        "containedInPlace": "uatr:spatial/VAG5Y5QF",
+        "containedInPlace": "uar:spatial/VAG5Y5QF",
         "openingHoursSpecification": [
           {
             "dayOfWeek": "Monday",

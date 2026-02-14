@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/OC4WEZCP",
+  "id": "uar:organizations/OC4WEZCP",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uatr:organizations/4S7RCBRG"
+    "uar:organizations/4S7RCBRG"
   ],
   "name": {
     "en": "Night School Program",

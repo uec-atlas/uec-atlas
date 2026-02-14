@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/SJGILYFG",
+  "id": "uar:organizations/SJGILYFG",
   "type": "Department",
   "subOrganizationOf": [
-    "uatr:organizations/PRREAQKG"
+    "uar:organizations/PRREAQKG"
   ],
   "name": {
     "en": "Department of Computer and Network Engineering",

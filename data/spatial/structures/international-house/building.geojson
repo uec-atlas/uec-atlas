@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/2L4VXTOJ",
+      "id": "uar:spatial/2L4VXTOJ",
       "type": "Feature",
       "geometry": {
         "type": "MultiPolygon",
@@ -128,7 +128,7 @@
           "ja": "国際交流会館",
           "en": "International House"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 5
       }

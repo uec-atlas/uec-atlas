@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/C4UO6XBQ",
+      "id": "uar:spatial/C4UO6XBQ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "東7号館",
           "en": "Building E-7"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 4
       }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/2URCEFCU",
+      "id": "uar:spatial/2URCEFCU",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "正門守衛所",
           "en": "Security Office of the Main Gate"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 1,
         "amenities": [

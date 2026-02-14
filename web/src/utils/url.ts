@@ -8,7 +8,7 @@ export const expandURI = (uri: string) => {
     return uri;
   }
   const [prefix, localName] = uri.split(":");
-  if (prefix === "uatr") {
+  if (prefix === "uar") {
     return toFullURL(`/resources/${localName}`);
   }
   const namespace = (prefixes as Record<string, string>)[prefix];

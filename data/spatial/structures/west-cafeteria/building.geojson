@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/PI53A7EG",
+      "id": "uar:spatial/PI53A7EG",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "西食堂",
           "en": "West Cafeteria"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 1
       }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/NGOASZGH",
+      "id": "uar:spatial/NGOASZGH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "UECアライアンスセンター",
           "en": "UEC Alliance Center"
         },
-        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "containedInPlace": "uar:spatial/SKOL7UDT",
         "minFloorLevel": 1,
         "maxFloorLevel": 5,
         "amenities": [

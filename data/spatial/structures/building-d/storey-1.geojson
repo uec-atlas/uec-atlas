@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/AQWA3EDW",
+      "id": "uar:spatial/AQWA3EDW",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/T5KIUE4O"
+        "containedInPlace": "uar:spatial/T5KIUE4O"
       }
     },
     {
-      "id": "uatr:spatial/4XZERQM2",
+      "id": "uar:spatial/4XZERQM2",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -24,11 +24,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 200.0,
-        "containedInPlace": "uatr:spatial/AQWA3EDW"
+        "containedInPlace": "uar:spatial/AQWA3EDW"
       }
     },
     {
-      "id": "uatr:spatial/NDG3RKV2",
+      "id": "uar:spatial/NDG3RKV2",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -40,11 +40,11 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 20.0,
-        "containedInPlace": "uatr:spatial/AQWA3EDW"
+        "containedInPlace": "uar:spatial/AQWA3EDW"
       }
     },
     {
-      "id": "uatr:spatial/WC2P3T75",
+      "id": "uar:spatial/WC2P3T75",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -74,7 +74,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "uatr:spatial/OJLJFDGD",
+      "id": "uar:spatial/OJLJFDGD",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -113,7 +113,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "PracticeRoom",
         "name": {
           "ja": "110実験室"
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "uatr:spatial/S7DWY4ZL",
+      "id": "uar:spatial/S7DWY4ZL",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -156,7 +156,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "PracticeRoom",
         "name": {
           "ja": "105実験室"
@@ -165,7 +165,7 @@
       }
     },
     {
-      "id": "uatr:spatial/SS7I6UQH",
+      "id": "uar:spatial/SS7I6UQH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -199,7 +199,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "PracticeRoom",
         "name": {
           "ja": "103実験室"
@@ -208,7 +208,7 @@
       }
     },
     {
-      "id": "uatr:spatial/ILHUNM4M",
+      "id": "uar:spatial/ILHUNM4M",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -254,7 +254,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "PracticeRoom",
         "name": {
           "ja": "101実験室"
@@ -263,7 +263,7 @@
       }
     },
     {
-      "id": "uatr:spatial/UIUV4WYZ",
+      "id": "uar:spatial/UIUV4WYZ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -297,12 +297,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/QIB6M4VG",
+      "id": "uar:spatial/QIB6M4VG",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -332,12 +332,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/7RWB6ZOP",
+      "id": "uar:spatial/7RWB6ZOP",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -375,7 +375,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -384,7 +384,7 @@
       }
     },
     {
-      "id": "uatr:spatial/CMCLFJZC",
+      "id": "uar:spatial/CMCLFJZC",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -414,7 +414,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Restroom",
         "name": {
           "ja": "多機能トイレ"
@@ -429,7 +429,7 @@
       }
     },
     {
-      "id": "uatr:spatial/H3YZODVO",
+      "id": "uar:spatial/H3YZODVO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -515,12 +515,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/A74YZUP4",
+      "id": "uar:spatial/A74YZUP4",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -550,12 +550,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/AQWA3EDW",
+        "containedInPlace": "uar:spatial/AQWA3EDW",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/MCKW2VII",
+      "id": "uar:spatial/MCKW2VII",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -595,15 +595,15 @@
           "ja": "階段"
         },
         "intersectsPlace": [
-          "uatr:spatial/AQWA3EDW",
-          "uatr:spatial/PTIRATZ4",
-          "uatr:spatial/64VQBKZF",
-          "uatr:spatial/7DO63MWH"
+          "uar:spatial/AQWA3EDW",
+          "uar:spatial/PTIRATZ4",
+          "uar:spatial/64VQBKZF",
+          "uar:spatial/7DO63MWH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/CILI2R5K",
+      "id": "uar:spatial/CILI2R5K",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -639,15 +639,15 @@
           "ja": "エレベーター"
         },
         "intersectsPlace": [
-          "uatr:spatial/AQWA3EDW",
-          "uatr:spatial/PTIRATZ4",
-          "uatr:spatial/64VQBKZF",
-          "uatr:spatial/7DO63MWH"
+          "uar:spatial/AQWA3EDW",
+          "uar:spatial/PTIRATZ4",
+          "uar:spatial/64VQBKZF",
+          "uar:spatial/7DO63MWH"
         ]
       }
     },
     {
-      "id": "uatr:spatial/MX2L4ZYP",
+      "id": "uar:spatial/MX2L4ZYP",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -683,10 +683,10 @@
           "ja": "階段"
         },
         "intersectsPlace": [
-          "uatr:spatial/AQWA3EDW",
-          "uatr:spatial/PTIRATZ4",
-          "uatr:spatial/64VQBKZF",
-          "uatr:spatial/7DO63MWH"
+          "uar:spatial/AQWA3EDW",
+          "uar:spatial/PTIRATZ4",
+          "uar:spatial/64VQBKZF",
+          "uar:spatial/7DO63MWH"
         ]
       }
     }

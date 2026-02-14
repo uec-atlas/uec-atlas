@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/UDYY5UNO",
+      "id": "uar:spatial/UDYY5UNO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -406,7 +406,7 @@
           "ja": "噴水",
           "en": "Fountain"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM"
+        "containedInPlace": "uar:spatial/EFIV3IVM"
       }
     }
   ]

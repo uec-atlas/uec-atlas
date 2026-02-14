@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/V3ICNQHX",
+      "id": "uar:spatial/V3ICNQHX",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/464DIAAE"
+        "containedInPlace": "uar:spatial/464DIAAE"
       }
     }
   ]

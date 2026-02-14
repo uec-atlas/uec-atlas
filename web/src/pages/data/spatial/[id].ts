@@ -18,7 +18,7 @@ for (const [id, spatialEntity] of spatialMap) {
 export const getStaticPaths = async () => {
   return Array.from(spatialJsonLdMap.entries()).map(([id, entry]) => ({
     params: {
-      id: id.replace("uatr:spatial/", ""),
+      id: id.replace("uar:spatial/", ""),
     },
     props: {
       entry,

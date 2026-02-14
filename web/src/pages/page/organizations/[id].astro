@@ -16,13 +16,13 @@ export const prerender = true;
 
 export const getStaticPaths = async () => {
   return Array.from(organizationMap.keys()).map((id) => ({
-    params: { id: id.replace("uatr:organizations/", "") },
+    params: { id: id.replace("uar:organizations/", "") },
   }));
 };
 
 const { id } = Astro.params;
 
-const currentId = `uatr:organizations/${id}`;
+const currentId = `uar:organizations/${id}`;
 const fullURL = expandURI(currentId);
 
 const organization = linkedOrganizationMap.get(currentId);

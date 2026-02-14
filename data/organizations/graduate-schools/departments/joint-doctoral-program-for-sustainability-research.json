@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/XH66SRKN",
+  "id": "uar:organizations/XH66SRKN",
   "type": "Department",
   "subOrganizationOf": [
-    "uatr:organizations/PRREAQKG"
+    "uar:organizations/PRREAQKG"
   ],
   "name": {
     "en": "Joint Doctoral Program for Sustainability Research",

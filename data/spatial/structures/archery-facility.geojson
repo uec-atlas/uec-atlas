@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/EBHOSDCE",
+      "id": "uar:spatial/EBHOSDCE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "弓道場",
           "en": "Archery Facility"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW"
+        "containedInPlace": "uar:spatial/KNT63TOW"
       }
     }
   ]

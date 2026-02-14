@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/XM3TK3ZB",
+      "id": "uar:spatial/XM3TK3ZB",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -78,7 +78,7 @@
           "ja": "ドーム友達",
           "en": "Student Dormitory Tomodachi"
         },
-        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "containedInPlace": "uar:spatial/SKOL7UDT",
         "minFloorLevel": 1,
         "maxFloorLevel": 5
       }

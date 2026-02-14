@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/HCBGEADW",
+      "id": "uar:spatial/HCBGEADW",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -86,7 +86,7 @@
           "ja": "五思寮",
           "en": "Student Dormitory Goshiryo"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "address": {
           "streetAddress": {
             "en": "2-11-33 Fujimicho",

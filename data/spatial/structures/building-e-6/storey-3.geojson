@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/YXOUIQXJ",
+      "id": "uar:spatial/YXOUIQXJ",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "3",
-        "containedInPlace": "uatr:spatial/Z3BIYF4G"
+        "containedInPlace": "uar:spatial/Z3BIYF4G"
       }
     },
     {
-      "id": "uatr:spatial/YWNDRHMI",
+      "id": "uar:spatial/YWNDRHMI",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -42,12 +42,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/WRBCCZJL",
+      "id": "uar:spatial/WRBCCZJL",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -81,12 +81,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/VU7C62CA",
+      "id": "uar:spatial/VU7C62CA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -116,12 +116,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/V26NT3HL",
+      "id": "uar:spatial/V26NT3HL",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -151,7 +151,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Restroom",
         "name": {
           "ja": "トイレ"
@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": "uatr:spatial/HI2EIC46",
+      "id": "uar:spatial/HI2EIC46",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -189,12 +189,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/NPVVXIZN",
+      "id": "uar:spatial/NPVVXIZN",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -224,12 +224,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/MTLBD3SJ",
+      "id": "uar:spatial/MTLBD3SJ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -259,7 +259,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Classroom",
         "name": {
           "ja": "337講義室"
@@ -276,7 +276,7 @@
       }
     },
     {
-      "id": "uatr:spatial/CDWTRO7H",
+      "id": "uar:spatial/CDWTRO7H",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -306,12 +306,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/QZZ2PAWA",
+      "id": "uar:spatial/QZZ2PAWA",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -349,12 +349,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/WMEUQN5I",
+      "id": "uar:spatial/WMEUQN5I",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -384,12 +384,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/OX7G6CH4",
+      "id": "uar:spatial/OX7G6CH4",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -419,12 +419,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/NLH5MJHB",
+      "id": "uar:spatial/NLH5MJHB",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -454,12 +454,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/OFSIPYT5",
+      "id": "uar:spatial/OFSIPYT5",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -489,12 +489,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/WVVYHHJC",
+      "id": "uar:spatial/WVVYHHJC",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -524,12 +524,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/LUI3YFR5",
+      "id": "uar:spatial/LUI3YFR5",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -559,12 +559,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/JQCU5QII",
+      "id": "uar:spatial/JQCU5QII",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -768,12 +768,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/U7N7HH72",
+      "id": "uar:spatial/U7N7HH72",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -803,12 +803,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/CP5L3ITV",
+      "id": "uar:spatial/CP5L3ITV",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -838,12 +838,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/K2VXFY4L",
+      "id": "uar:spatial/K2VXFY4L",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -873,12 +873,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/PTAQ45TW",
+      "id": "uar:spatial/PTAQ45TW",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -908,12 +908,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/W7H3HML4",
+      "id": "uar:spatial/W7H3HML4",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -943,12 +943,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/H62FHFTS",
+      "id": "uar:spatial/H62FHFTS",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -978,12 +978,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/HEG6XBXG",
+      "id": "uar:spatial/HEG6XBXG",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1017,12 +1017,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/HSUKQSBP",
+      "id": "uar:spatial/HSUKQSBP",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1056,12 +1056,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/UZCO7KBJ",
+      "id": "uar:spatial/UZCO7KBJ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1091,12 +1091,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/I3WZNMZE",
+      "id": "uar:spatial/I3WZNMZE",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -1130,7 +1130,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/YXOUIQXJ",
+        "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Room"
       }
     }

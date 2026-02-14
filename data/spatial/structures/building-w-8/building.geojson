@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/BWBZFLSP",
+      "id": "uar:spatial/BWBZFLSP",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -78,7 +78,7 @@
           "ja": "西8号館",
           "en": "Building W-8"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 8
       }

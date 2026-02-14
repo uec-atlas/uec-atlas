@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/556G6B27",
+      "id": "uar:spatial/556G6B27",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -62,7 +62,7 @@
           "ja": "西5号館",
           "en": "Building W-5"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": -1,
         "maxFloorLevel": 8
       }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/GFTOIPJD",
+      "id": "uar:spatial/GFTOIPJD",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -622,7 +622,7 @@
           "ja": "西9号館",
           "en": "Building W-9"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 8
       }

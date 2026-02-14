@@ -111,7 +111,7 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
     } catch {}
   }
 
-  const uatrPrefix = "https://uec-atlas.e-chan1007.workers.dev/resources/";
+  const uarPrefix = "https://uec-atlas.e-chan1007.workers.dev/resources/";
   const queue: (NamedNode | BlankNode)[] = [];
   const visited = new Set<string>();
   const toKey = (term: NamedNode | BlankNode | Literal) =>
@@ -126,7 +126,7 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
   )) {
     if (
       q.subject.termType === "NamedNode" &&
-      q.subject.value.startsWith(uatrPrefix)
+      q.subject.value.startsWith(uarPrefix)
     ) {
       const key = toKey(q.subject);
       if (!visited.has(key)) {

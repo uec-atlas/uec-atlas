@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/WLUPOG26",
+  "id": "uar:organizations/WLUPOG26",
   "type": "Department",
   "subOrganizationOf": [
-    "uatr:organizations/PRREAQKG"
+    "uar:organizations/PRREAQKG"
   ],
   "name": {
     "en": "Department of Engineering Science",

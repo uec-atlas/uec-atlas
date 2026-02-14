@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/PVIAJODR",
+      "id": "uar:spatial/PVIAJODR",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -70,7 +70,7 @@
           "ja": "東4号館",
           "en": "Building E-4"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 8,
         "amenities": [

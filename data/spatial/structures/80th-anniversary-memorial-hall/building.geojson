@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/2NQHRO5A",
+      "id": "uar:spatial/2NQHRO5A",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "創立80周年記念会館",
           "en": "80th Anniversary Memorial Hall"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "alternateName": {
           "ja": [
             "リサージュ"

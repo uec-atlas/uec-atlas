@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/XG42SYKJ",
+      "id": "uar:spatial/XG42SYKJ",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,7 +46,7 @@
           "ja": "東37号館",
           "en": "Building E-37"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2
       }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/HHWLSWLT",
+      "id": "uar:spatial/HHWLSWLT",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,7 +38,7 @@
           "ja": "プール",
           "en": "Swimming Pool"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW"
+        "containedInPlace": "uar:spatial/KNT63TOW"
       }
     }
   ]

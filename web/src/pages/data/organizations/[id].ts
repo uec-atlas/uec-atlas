@@ -18,7 +18,7 @@ for (const [id, organizationEntity] of organizationMap) {
 export const getStaticPaths = async () => {
   return Array.from(organizationJsonLdMap.entries()).map(([id, entry]) => ({
     params: {
-      id: id.replace("uatr:organizations/", ""),
+      id: id.replace("uar:organizations/", ""),
     },
     props: {
       entry,

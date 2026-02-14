@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/L76MTBUG",
+      "id": "uar:spatial/L76MTBUG",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "2",
-        "containedInPlace": "uatr:spatial/BADAKZWH"
+        "containedInPlace": "uar:spatial/BADAKZWH"
       }
     }
   ]

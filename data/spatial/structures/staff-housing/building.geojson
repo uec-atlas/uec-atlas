@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/VGXBMM7V",
+      "id": "uar:spatial/VGXBMM7V",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -78,7 +78,7 @@
           "ja": "職員宿舎",
           "en": "Staff Housing"
         },
-        "containedInPlace": "uatr:spatial/SKOL7UDT",
+        "containedInPlace": "uar:spatial/SKOL7UDT",
         "alternateName": {
           "ja": [
             "UECポートロッジ"

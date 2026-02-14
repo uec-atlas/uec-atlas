@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/BADAKZWH",
+      "id": "uar:spatial/BADAKZWH",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -38,11 +38,11 @@
           "ja": "本館別館",
           "en": "Main Building Annex"
         },
-        "containedInPlace": "uatr:spatial/EFIV3IVM",
+        "containedInPlace": "uar:spatial/EFIV3IVM",
         "minFloorLevel": 1,
         "maxFloorLevel": 2,
         "isPartOf": [
-          "uatr:spatial/H7Z6MEMI"
+          "uar:spatial/H7Z6MEMI"
         ]
       }
     }

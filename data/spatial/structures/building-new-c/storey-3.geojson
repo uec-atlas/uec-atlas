@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/ZMHMB2RM",
+      "id": "uar:spatial/ZMHMB2RM",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "3",
-        "containedInPlace": "uatr:spatial/EMENGXXP"
+        "containedInPlace": "uar:spatial/EMENGXXP"
       }
     },
     {
-      "id": "uatr:spatial/LF7AP7NY",
+      "id": "uar:spatial/LF7AP7NY",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -46,7 +46,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Restroom",
         "name": {
           "ja": "女子トイレ"
@@ -55,7 +55,7 @@
       }
     },
     {
-      "id": "uatr:spatial/34ZBTTUD",
+      "id": "uar:spatial/34ZBTTUD",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -85,12 +85,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/I2J4NA36",
+      "id": "uar:spatial/I2J4NA36",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -124,7 +124,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Classroom",
         "name": {
           "ja": "303講義室"
@@ -141,7 +141,7 @@
       }
     },
     {
-      "id": "uatr:spatial/GJNRO2GO",
+      "id": "uar:spatial/GJNRO2GO",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -171,12 +171,12 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Room"
       }
     },
     {
-      "id": "uatr:spatial/53AT7FNK",
+      "id": "uar:spatial/53AT7FNK",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -210,7 +210,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Restroom",
         "name": {
           "ja": "男子トイレ"
@@ -219,7 +219,7 @@
       }
     },
     {
-      "id": "uatr:spatial/GAO2DCJY",
+      "id": "uar:spatial/GAO2DCJY",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -273,7 +273,7 @@
         ]
       },
       "properties": {
-        "containedInPlace": "uatr:spatial/ZMHMB2RM",
+        "containedInPlace": "uar:spatial/ZMHMB2RM",
         "type": "Room"
       }
     }

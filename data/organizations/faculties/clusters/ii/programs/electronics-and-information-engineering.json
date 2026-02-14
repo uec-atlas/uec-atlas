@@ -1,13 +1,13 @@
 {
-  "id": "uatr:organizations/FBZBS5JG",
+  "id": "uar:organizations/FBZBS5JG",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uatr:organizations/AEFZKYAV"
+    "uar:organizations/AEFZKYAV"
   ],
   "relatedTo": [
     {
       "type": "EducationalPathway",
-      "target": "uatr:organizations/SJGILYFG"
+      "target": "uar:organizations/SJGILYFG"
     }
   ],
   "name": {

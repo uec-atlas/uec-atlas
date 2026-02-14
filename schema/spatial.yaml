@@ -1,11 +1,11 @@
-id: uats:spatial
+id: uas:spatial
 name: uec_atlas_spatial
 title: "UEC Atlas Spatial and Building Ontology"
 
 prefixes:
-  uato: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uatr: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uats: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
   bot: https://w3id.org/bot#
   geo: http://www.opengis.net/ont/geosparql#
   hydra: http://www.w3.org/ns/hydra/core#
@@ -17,7 +17,7 @@ prefixes:
 imports:
   - common
 
-default_prefix: uato
+default_prefix: uao
 
 enums:
   StructureCategory:
@@ -204,12 +204,12 @@ classes:
       properties: { range: Area }
   Area:
     is_a: SpatialProperties
-    class_uri: uato:Area
+    class_uri: uao:Area
     description: "地区(東地区、西地区など)"
 
   StructureFeature:
     is_a: SpatialEntity
-    class_uri: uato:Structure
+    class_uri: uao:Structure
     slot_usage:
       properties: { range: Structure }
   StructureAmenity:
@@ -229,7 +229,7 @@ classes:
         description: "設備の有無"
   Structure:
     is_a: SpatialProperties
-    class_uri: uato:Structure
+    class_uri: uao:Structure
     description: "物理的な実体を持つ人工構造物"
     attributes:
       category:
@@ -248,34 +248,34 @@ classes:
 
   RoadFeature:
     is_a: StructureFeature
-    class_uri: uato:Road
+    class_uri: uao:Road
     slot_usage:
       properties: { range: Road }
   Road:
     is_a: Structure
-    class_uri: uato:Road
+    class_uri: uao:Road
     description: "キャンパス内の道路・通路"
 
   GateFeature:
     is_a: StructureFeature
-    class_uri: uato:Gate
+    class_uri: uao:Gate
     slot_usage:
       properties: { range: Gate }
   Gate:
     is_a: Structure
-    class_uri: uato:Gate
+    class_uri: uao:Gate
     mixins:
       - BotInterface
     description: "地区の入口(門)"
 
   BuildingFeature:
     is_a: StructureFeature
-    class_uri: uato:Building
+    class_uri: uao:Building
     slot_usage:
       properties: { range: Building }
   Building:
     is_a: Structure
-    class_uri: uato:Building
+    class_uri: uao:Building
     description: "建物全体"
     mixins:
       - BotBuilding
@@ -289,12 +289,12 @@ classes:
 
   BuildingEntranceFeature:
     is_a: SpatialEntity
-    class_uri: uato:BuildingEntrance
+    class_uri: uao:BuildingEntrance
     slot_usage:
       properties: { range: BuildingEntrance }
   BuildingEntrance:
     is_a: SpatialProperties
-    class_uri: uato:BuildingEntrance
+    class_uri: uao:BuildingEntrance
     mixins:
       - BotInterface
     description: "建物の入口"
@@ -306,26 +306,26 @@ classes:
 
   BridgeFeature:
     is_a: StructureFeature
-    class_uri: uato:Bridge
+    class_uri: uao:Bridge
     slot_usage:
       properties: { range: Bridge }
   Bridge:
     is_a: Structure
-    class_uri: uato:Bridge
+    class_uri: uao:Bridge
     description: "建物間を連絡する渡り廊下"
     slot_usage:
       connectedTo: { required: true }
 
   StoreyFeature:
     is_a: SpatialEntity
-    class_uri: uato:Storey
+    class_uri: uao:Storey
     slot_usage:
       geometry:
         required: false
       properties: { range: Storey }
   Storey:
     is_a: SpatialProperties
-    class_uri: uato:Storey
+    class_uri: uao:Storey
     description: "建物内の階層"
     mixins:
       - BotStorey
@@ -338,12 +338,12 @@ classes:
 
   RoomFeature:
     is_a: StructureFeature
-    class_uri: uato:Room
+    class_uri: uao:Room
     slot_usage:
       properties: { range: Room }
   Room:
     is_a: Structure
-    class_uri: uato:Room
+    class_uri: uao:Room
     mixins:
       - BotSpace
     description: "室内空間"
@@ -358,12 +358,12 @@ classes:
 
   RoomSubZoneFeature:
     is_a: StructureFeature
-    class_uri: uato:RoomSubZone
+    class_uri: uao:RoomSubZone
     slot_usage:
       properties: { range: RoomSubZone }
   RoomSubZone:
     is_a: Room
-    class_uri: uato:RoomSubZone
+    class_uri: uao:RoomSubZone
     mixins:
       - BotSpace
     description: "室内の区画・ゾーン"
@@ -374,12 +374,12 @@ classes:
 
   PassageFeature:
     is_a: StructureFeature
-    class_uri: uato:Passage
+    class_uri: uao:Passage
     slot_usage:
       properties: { range: Passage }
   Passage:
     is_a: Structure
-    class_uri: uato:Passage
+    class_uri: uao:Passage
     description: "廊下・通路・階段・エレベーターなどの移動空間"
     attributes:
       category:
@@ -389,12 +389,12 @@ classes:
 
   FacilityFeature:
     is_a: StructureFeature
-    class_uri: uato:Facility
+    class_uri: uao:Facility
     slot_usage:
       properties: { range: Facility }
   Facility:
     is_a: Structure
-    class_uri: uato:Facility
+    class_uri: uao:Facility
     description: "サービス設備(窓口、食堂などなど)"
     slots:
       - openingHoursSpecification
@@ -406,12 +406,12 @@ classes:
 
   ClassroomFeature:
     is_a: RoomFeature
-    class_uri: uato:Classroom
+    class_uri: uao:Classroom
     slot_usage:
       properties: { range: Classroom }
   Classroom:
     is_a: Room
-    class_uri: uato:Classroom
+    class_uri: uao:Classroom
     description: "講義室"
     attributes:
       maximumAttendeeCapacity:
@@ -430,12 +430,12 @@ classes:
 
   PracticeRoomFeature:
     is_a: RoomFeature
-    class_uri: uato:PracticeRoom
+    class_uri: uao:PracticeRoom
     slot_usage:
       properties: { range: PracticeRoom }
   PracticeRoom:
     is_a: Room
-    class_uri: uato:PracticeRoom
+    class_uri: uao:PracticeRoom
     description: "演習室・実験室"
     attributes:
       category:
@@ -445,17 +445,17 @@ classes:
 
   ResearchLaboratoryFeature:
     is_a: RoomFeature
-    class_uri: uato:ResearchLaboratory
+    class_uri: uao:ResearchLaboratory
     slot_usage:
       properties: { range: ResearchLaboratory }
   ResearchLaboratory:
     is_a: Room
-    class_uri: uato:ResearchLaboratory
+    class_uri: uao:ResearchLaboratory
     description: "研究室"
 
   RestroomFeature:
     is_a: RoomFeature
-    class_uri: uato:Restroom
+    class_uri: uao:Restroom
     slot_usage:
       properties: { range: Restroom }
   Restroom:

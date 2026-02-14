@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/F34RPEL5",
+      "id": "uar:spatial/F34RPEL5",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -54,7 +54,7 @@
           "ja": "テニスコート",
           "en": "Tennis Court"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW"
+        "containedInPlace": "uar:spatial/KNT63TOW"
       }
     }
   ]

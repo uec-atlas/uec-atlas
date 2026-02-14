@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/ILPTSDOC",
+      "id": "uar:spatial/ILPTSDOC",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/CRHIDPV2"
+        "containedInPlace": "uar:spatial/CRHIDPV2"
       }
     }
   ]

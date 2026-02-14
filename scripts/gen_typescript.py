@@ -41,7 +41,7 @@ def main():
         sorted_slots = sorted(target_slots.keys(), key=len, reverse=True)
         for slot_name in sorted_slots:
             escaped_slot_name = re.escape(slot_name)
-            # Capture the property name and the punctuation (?: or :)
+            # Capture the property name and the punctuaion (?: or :)
             pattern = rf"(\b|(?<=[^a-zA-Z0-9_]))({escaped_slot_name})(\??:)\s*[^,;\n]+"
             output = re.sub(pattern, r"\2\3 I18NString", output)
 

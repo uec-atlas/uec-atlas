@@ -17,13 +17,13 @@ export const prerender = true;
 
 export const getStaticPaths = async () => {
   return Array.from(spatialMap.keys()).map((id) => ({
-    params: { id: id.replace("uatr:spatial/", "") },
+    params: { id: id.replace("uar:spatial/", "") },
   }));
 };
 
 const { id } = Astro.params;
 
-const currentId = `uatr:spatial/${id}`;
+const currentId = `uar:spatial/${id}`;
 const fullURL = expandURI(currentId);
 
 const spatial = linkedSpatialMap.get(currentId);

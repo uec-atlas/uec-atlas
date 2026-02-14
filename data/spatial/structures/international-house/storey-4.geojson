@@ -2,13 +2,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/LMTAXYPN",
+      "id": "uar:spatial/LMTAXYPN",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "4",
-        "containedInPlace": "uatr:spatial/2L4VXTOJ"
+        "containedInPlace": "uar:spatial/2L4VXTOJ"
       }
     }
   ]

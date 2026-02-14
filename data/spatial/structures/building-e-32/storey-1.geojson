@@ -2,17 +2,17 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/C4QA2ATW",
+      "id": "uar:spatial/C4QA2ATW",
       "type": "Feature",
       "geometry": null,
       "properties": {
         "type": "Storey",
         "floorLevel": "1",
-        "containedInPlace": "uatr:spatial/E3CJTYJI"
+        "containedInPlace": "uar:spatial/E3CJTYJI"
       }
     },
     {
-      "id": "uatr:spatial/E7D33QEQ",
+      "id": "uar:spatial/E7D33QEQ",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -24,7 +24,7 @@
       "properties": {
         "type": "BuildingEntrance",
         "bearing": 85.0,
-        "containedInPlace": "uatr:spatial/C4QA2ATW"
+        "containedInPlace": "uar:spatial/C4QA2ATW"
       }
     }
   ]

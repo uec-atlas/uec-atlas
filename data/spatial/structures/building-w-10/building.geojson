@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/22W4WLXS",
+      "id": "uar:spatial/22W4WLXS",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -550,7 +550,7 @@
           "ja": "西10号館",
           "en": "Building W-10"
         },
-        "containedInPlace": "uatr:spatial/KNT63TOW",
+        "containedInPlace": "uar:spatial/KNT63TOW",
         "minFloorLevel": 1,
         "maxFloorLevel": 8
       }

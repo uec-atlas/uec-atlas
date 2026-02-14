@@ -1,8 +1,8 @@
 {
-  "id": "uatr:organizations/4S7RCBRG",
+  "id": "uar:organizations/4S7RCBRG",
   "type": "School",
   "subOrganizationOf": [
-    "uatr:organizations/UEC"
+    "uar:organizations/UEC"
   ],
   "name": {
     "en": "School of Informatics and Engineering",

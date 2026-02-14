@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/77GXAMCZ",
+      "id": "uar:spatial/77GXAMCZ",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -11,7 +11,7 @@
           "ja": "管理棟",
           "en": "Administration Building"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW",
+        "containedInPlace": "uar:spatial/QDHLLYXW",
         "minFloorLevel": 1,
         "maxFloorLevel": 1,
         "amenities": [
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "uatr:spatial/GYIF63VF",
+      "id": "uar:spatial/GYIF63VF",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -59,7 +59,7 @@
           "ja": "倉庫",
           "en": "Warehouse"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW"
+        "containedInPlace": "uar:spatial/QDHLLYXW"
       },
       "geometry": {
         "type": "Polygon",
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "uatr:spatial/BLE7BVSR",
+      "id": "uar:spatial/BLE7BVSR",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -99,7 +99,7 @@
           "ja": "トイレ",
           "en": "Restroom"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW"
+        "containedInPlace": "uar:spatial/QDHLLYXW"
       },
       "geometry": {
         "type": "Polygon",
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "uatr:spatial/FWBGOXFO",
+      "id": "uar:spatial/FWBGOXFO",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -147,7 +147,7 @@
           "ja": "散水ポンプ室",
           "en": "Water Pump Room"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW"
+        "containedInPlace": "uar:spatial/QDHLLYXW"
       },
       "geometry": {
         "type": "Polygon",
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "uatr:spatial/FWBGOXFO",
+      "id": "uar:spatial/FWBGOXFO",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -187,7 +187,7 @@
           "ja": "体育器具庫(部室)",
           "en": "Equipment Storage (Club Room)"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW"
+        "containedInPlace": "uar:spatial/QDHLLYXW"
       },
       "geometry": {
         "type": "Polygon",
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": "uatr:spatial/UQ6Q37CN",
+      "id": "uar:spatial/UQ6Q37CN",
       "type": "Feature",
       "properties": {
         "type": "Building",
@@ -227,7 +227,7 @@
           "ja": "部室棟",
           "en": "Club Room Building"
         },
-        "containedInPlace": "uatr:spatial/QDHLLYXW"
+        "containedInPlace": "uar:spatial/QDHLLYXW"
       },
       "geometry": {
         "type": "Polygon",

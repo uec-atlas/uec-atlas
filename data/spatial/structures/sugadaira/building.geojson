@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "uatr:spatial/CM2SFZRF",
+      "id": "uar:spatial/CM2SFZRF",
       "type": "Feature",
       "geometry": null,
       "properties": {
@@ -12,7 +12,7 @@
           "ja": "菅平セミナーハウス",
           "en": "Sugadaira Lodging Facility"
         },
-        "containedInPlace": "uatr:spatial/PMC26PBR",
+        "containedInPlace": "uar:spatial/PMC26PBR",
         "amenities": [
           {
             "propertyID": "aed",
