@@ -35,7 +35,7 @@ export const formatAddress = (address: PostalAddress, locale = "ja") => {
 };
 
 const owlRules: Record<string, string> = import.meta.glob(
-  "/node_modules/eye-reasoning/rpo/{owl-equivalentClass,owl-equivalentProperty,owl-inverseOf,owl-sameAs}.n3",
+  "/node_modules/eye-reasoning/rpo/{owl-inverseOf}.n3",
   {
     eager: true,
     query: "raw",
@@ -43,7 +43,7 @@ const owlRules: Record<string, string> = import.meta.glob(
   },
 );
 const rdfRules: Record<string, string> = import.meta.glob(
-  "/node_modules/eye-reasoning/rpo/rdfs-*.n3",
+  "/node_modules/eye-reasoning/rpo/rdfs-{subClassOf,subPropertyOf}.n3",
   {
     eager: true,
     query: "raw",
@@ -57,6 +57,7 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
   })) as string;
 
   await initOxigraph();
+
   const result = await n3reasoner(
     [nQuads, ontology, ...Object.values(rdfRules), ...Object.values(owlRules)],
     `

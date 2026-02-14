@@ -186,6 +186,8 @@ slots:
     slot_uri: schema:openingHoursSpecification
     range: SchemaOpeningHoursSpecification
     multivalued: true
+    inlined: true
+    inlined_as_list: true
 
   managedBy:
     description: "管理・運用責任を持つ組織"

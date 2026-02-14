@@ -1,3 +1,8 @@
+import {
+  allOntologyClasses,
+  ontologyClassMap,
+  rootOntologyClasses,
+} from "./ontology";
 import { _linkedOrganizationMap, _organizationMap } from "./organizations";
 import { _linkedSpatialMap, _spatialMap } from "./spatial";
 
@@ -22,4 +27,7 @@ export {
   _linkedOrganizationMap as linkedOrganizationMap,
   _spatialMap as spatialMap,
   _linkedSpatialMap as linkedSpatialMap,
+  ontologyClassMap,
+  allOntologyClasses,
+  rootOntologyClasses,
 };

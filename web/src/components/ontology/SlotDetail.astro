@@ -1,0 +1,164 @@
+---
+import { type OntologySlot, ontologyClassMap } from "@/data/ontology";
+import Heading2 from "@/components/Heading2.astro";
+
+interface Props {
+  item: OntologySlot;
+}
+
+const { item } = Astro.props;
+---
+
+<section class="mb-10">
+  <Heading2>基本情報</Heading2>
+  <div class="overflow-x-auto">
+    <table class="d-table d-table-sm w-full">
+      <tbody>
+        <tr>
+          <th class="w-1/4 text-slate-500 font-medium tracking-wider align-middle">
+            URI
+          </th>
+          <td class="align-middle">
+            <code class="text-primary text-xs font-mono">
+              {item.slot_uri}
+            </code>
+          </td>
+        </tr>
+        {
+          item.range && (
+            <tr>
+              <th class="text-slate-500 font-medium tracking-wider align-middle">
+                型 (Range)
+              </th>
+              <td class="align-middle">
+                {ontologyClassMap.has(item.range) ? (
+                  <a
+                    href={`/docs/ontology/${item.range}`}
+                    class="d-link d-link-primary d-link-hover"
+                  >
+                    {item.range}
+                  </a>
+                ) : (
+                  <span class="text-slate-600 font-mono text-sm">
+                    {item.range}
+                  </span>
+                )}
+              </td>
+            </tr>
+          )
+        }
+        <tr>
+          <th class="text-slate-500 font-medium tracking-wider align-middle">
+            制約
+          </th>
+          <td class="align-middle">
+            <div class="flex flex-wrap gap-1">
+              {
+                item.range !== "I18NString" && (
+                  <>
+                    {item.multivalued && (
+                      <span class="d-badge d-badge-info d-badge-outline d-badge-sm font-bold">
+                        {item.inlined_as_list ? "List (Inline)" : "List"}
+                      </span>
+                    )}
+                    {item.inlined && !item.inlined_as_list && (
+                      <span class="d-badge d-badge-primary d-badge-outline d-badge-sm font-bold">
+                        Object (Inline)
+                      </span>
+                    )}
+                  </>
+                )
+              }
+              {
+                item.required && (
+                  <span class="d-badge d-badge-error d-badge-outline d-badge-sm font-bold">
+                    Required
+                  </span>
+                )
+              }
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{
+  item.usages && item.usages.length > 0 && (
+    <div class="mt-8">
+      <Heading2>利用状況</Heading2>
+      <div class="overflow-x-auto">
+        <table class="d-table d-table-sm w-full border border-base-200">
+          <thead class="bg-base-200/50">
+            <tr>
+              <th class="text-slate-500 font-bold tracking-wider">
+                使用クラス
+              </th>
+              <th class="text-slate-500 font-bold tracking-wider">
+                型 / 制約
+              </th>
+              <th class="text-slate-500 font-bold tracking-wider"> 説明 </th>
+            </tr>
+          </thead>
+          <tbody>
+            {item.usages.map((usage) => (
+              <tr>
+                <td class="align-middle">
+                  <a
+                    href={`/docs/ontology/${usage.class}`}
+                    class="d-link d-link-primary d-link-hover font-bold"
+                  >
+                    {usage.class}
+                  </a>
+                  {usage.required && (
+                    <span class="text-error ml-0.5" title="必須">
+                      *
+                    </span>
+                  )}
+                </td>
+                <td class="align-middle">
+                  {usage.range && (
+                    <div class="mb-1">
+                      {ontologyClassMap.has(usage.range) ? (
+                        <a
+                          href={`/docs/ontology/${usage.range}`}
+                          class="text-primary hover:underline font-mono text-xs font-bold"
+                        >
+                          {usage.range}
+                        </a>
+                      ) : (
+                        <span class="font-mono text-xs text-slate-600 font-bold">
+                          {usage.range}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                  <div class="flex flex-wrap gap-1 mt-1">
+                    {usage.range !== "I18NString" && (
+                      <>
+                        {usage.multivalued && (
+                          <span class="d-badge d-badge-info d-badge-outline d-badge-xs font-bold leading-none">
+                            {usage.inlined_as_list ? "List (Inline)" : "List"}
+                          </span>
+                        )}
+                        {usage.inlined && !usage.inlined_as_list && (
+                          <span class="d-badge d-badge-primary d-badge-outline d-badge-xs font-bold leading-none">
+                            Object (Inline)
+                          </span>
+                        )}
+                      </>
+                    )}
+                  </div>
+                </td>
+                <td class="text-xs text-slate-600 leading-relaxed align-middle">
+                  {usage.description}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}

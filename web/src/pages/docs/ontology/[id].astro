@@ -1,0 +1,63 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Heading1 from "@/components/Heading1.astro";
+import {
+  allOntologyClasses,
+  allOntologySlots,
+  type LinkedOntologyClass,
+  type OntologySlot,
+} from "@/data/ontology";
+import ClassDetail from "@/components/ontology/ClassDetail.astro";
+import SlotDetail from "@/components/ontology/SlotDetail.astro";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return [
+    ...allOntologyClasses.map((cls) => ({
+      params: { id: cls.id },
+      props: { item: cls, type: "class" as const },
+    })),
+    ...allOntologySlots.map((slot) => ({
+      params: { id: slot.id },
+      props: { item: slot, type: "slot" as const },
+    })),
+  ];
+}
+
+interface Props {
+  item: LinkedOntologyClass | OntologySlot;
+  type: "class" | "slot";
+}
+
+const { item, type } = Astro.props;
+---
+
+<Layout title={`${item.name} | Ontology`}>
+  <div class="max-w-none">
+    <div class="d-breadcrumbs text-xs mb-4">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/docs/ontology">Ontology</a></li>
+        <li>{item.name}</li>
+      </ul>
+    </div>
+
+    <Heading1>
+      <Fragment slot="subtitle"
+        >{type === "class" ? "クラス" : "スロット"}</Fragment
+      >
+      {item.name}
+    </Heading1>
+
+    {item.description && <p class="text-slate-600 mb-8">{item.description}</p>}
+
+    {
+      type === "class" ? (
+        <ClassDetail item={item as LinkedOntologyClass} />
+      ) : (
+        <SlotDetail item={item as OntologySlot} />
+      )
+    }
+  </div>
+</Layout>

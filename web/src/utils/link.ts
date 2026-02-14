@@ -31,3 +31,12 @@ export const findNearestProperty = <T extends object, U>(
 
   return { position: "none", value: undefined };
 };
+
+export const getDepthByPropertyExistence = <T extends object>(
+  data: T,
+  getParent: (item: T) => T | undefined,
+): number => {
+  const parent = getParent(data);
+  if (!parent) return 0;
+  return 1 + getDepthByPropertyExistence(parent, getParent);
+};

@@ -18,7 +18,10 @@ export const expandURI = (uri: string) => {
   return uri;
 };
 
-export const compactUri = (uri: string) => {
+export const compactUri = (uri: string, withPrefix = true) => {
   const entry = Object.entries(prefixes).find(([_, ns]) => uri.startsWith(ns));
+  if (!withPrefix) {
+    return entry ? uri.slice(entry[1].length) : uri;
+  }
   return entry ? `${entry[0]}:${uri.slice(entry[1].length)}` : uri;
 };

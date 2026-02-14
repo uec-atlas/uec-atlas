@@ -1,6 +1,6 @@
 {
   "id": "uar:organizations/PRREAQKG",
-  "type": "GraduaeSchool",
+  "type": "GraduateSchool",
   "subOrganizationOf": [
     "uar:organizations/UEC"
   ],

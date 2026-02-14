@@ -74,7 +74,7 @@ classes:
     is_a: AbstractEducationalOrganization
     description: "学域(大学)"
 
-  GraduaeSchool:
+  GraduateSchool:
     is_a: AbstractEducationalOrganization
     description: "研究科(大学院)"
 

@@ -1,7 +1,10 @@
 ---
 import LinkCardList from "@/components/dataview/LinkCardList.astro";
 import Heading1 from "@/components/Heading1.astro";
+import { allOntologyClasses } from "@/data";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
+import { getDepthByPropertyExistence } from "@/utils/link";
+import { compactUri } from "@/utils/url";
 import { expandURI, toFullURL } from "@/utils/url";
 
 const query = Astro.url.searchParams.get("q") || "";
@@ -16,33 +19,20 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX uao: <${expandURI("uao:")}>
 
-SELECT
-  ?sub
-  (SAMPLE(?nJa) AS ?nameJa)
-  (SAMPLE(?nEn) AS ?nameEn)
-  (SAMPLE(?t) AS ?type)
-WHERE {
+SELECT ?sub ?nameJa ?nameEn ?type WHERE {
   {
-    # 1. まずキーワードに一致するIDだけを100件抜く
     SELECT DISTINCT ?sub WHERE {
       ?sub a uao:NamedThing .
       ?sub ?p ?text .
       FILTER(?p IN (schema:name, schema:description, schema:alternateName))
       ${escapedWords.map((word) => `FILTER(CONTAINS(LCASE(STR(?text)), LCASE("${word}")))`).join("\n")}
-    }
+    } LIMIT 100
   }
 
-  ?sub rdf:type ?t .
-  OPTIONAL { ?sub schema:name ?nJa . FILTER(lang(?nJa) = "ja") }
-  OPTIONAL { ?sub schema:name ?nEn . FILTER(lang(?nEn) = "en") }
-
-  FILTER NOT EXISTS {
-    ?sub rdf:type ?other .
-    ?other rdfs:subClassOf+ ?t .
-    FILTER (?other != ?t)
-  }
+  ?sub rdf:type ?type .
+  OPTIONAL { ?sub schema:name ?nameJa . FILTER(lang(?nameJa) = "ja") }
+  OPTIONAL { ?sub schema:name ?nameEn . FILTER(lang(?nameEn) = "en") }
 }
-GROUP BY ?sub LIMIT 100
 `;
 
 const searchResult = await Astro.locals.runtime.env.SELF.fetch(
@@ -59,36 +49,74 @@ const searchResult = await Astro.locals.runtime.env.SELF.fetch(
 
 interface SearchResultBinding {
   sub: { value: string };
-  nameJa: { value: string };
-  nameEn: { value: string };
+  nameJa?: { value: string };
+  nameEn?: { value: string };
   type: { value: string };
 }
 
-const results = (searchResult.results.bindings as SearchResultBinding[])
-  .map((binding) => {
-    const nameJa = binding.nameJa?.value || "";
-    const nameEn = binding.nameEn?.value || "";
+const depthMap = new Map(
+  allOntologyClasses.map((cls) => [
+    expandURI(cls.class_uri),
+    getDepthByPropertyExistence(cls, (c) => c.is_a),
+  ]),
+);
 
+const resultsMap = new Map<
+  string,
+  {
+    id: string;
+    name: { ja: string; en: string };
+    type: string;
+    typeDepth: number;
+    ratioScore: number;
+  }
+>();
+
+(searchResult.results.bindings as SearchResultBinding[]).forEach((binding) => {
+  const id = binding.sub.value;
+  const currentType = binding.type.value;
+  const nameJa = binding.nameJa?.value || "";
+  const nameEn = binding.nameEn?.value || "";
+
+  if (!resultsMap.has(id)) {
+    resultsMap.set(id, {
+      id,
+      name: { ja: nameJa, en: nameEn },
+      type: currentType,
+      typeDepth: depthMap.get(currentType) || 0,
+      ratioScore: 0,
+    });
+  } else {
+    const existing = resultsMap.get(id);
+    if (!existing) return;
+    const currentDepth = depthMap.get(currentType) || 0;
+    if (currentDepth > existing.typeDepth) {
+      existing.type = currentType;
+      existing.typeDepth = currentDepth;
+    }
+    if (!existing.name.ja) existing.name.ja = nameJa;
+    if (!existing.name.en) existing.name.en = nameEn;
+  }
+});
+
+const results = Array.from(resultsMap.values())
+  .map((item) => {
     let maxRatio = 0;
+    const nameJa = item.name.ja;
+    const nameEn = item.name.en;
+
     searchWords.forEach((word) => {
       const w = word.toLowerCase();
       if (nameJa?.toLowerCase().includes(w)) {
         maxRatio = Math.max(maxRatio, w.length / nameJa.length);
       }
       if (nameEn?.toLowerCase().includes(w)) {
-        const ratio = (w.length / nameEn.length) * 0.8;
-        maxRatio = Math.max(maxRatio, ratio);
+        maxRatio = Math.max(maxRatio, (w.length / nameEn.length) * 0.8);
       }
     });
 
-    return {
-      id: binding.sub.value,
-      name: { ja: nameJa, en: nameEn },
-      type: binding.type.value,
-      ratioScore: maxRatio,
-    };
+    return { ...item, ratioScore: maxRatio };
   })
-  .sort((a, b) => a.name.ja.localeCompare(b.name.ja, "ja"))
   .sort((a, b) => b.ratioScore - a.ratioScore);
 ---
 
@@ -105,9 +133,7 @@ const results = (searchResult.results.bindings as SearchResultBinding[])
         items={results.map((item) => ({
           uri: item.id,
           name: item.name,
-          tags: [item.id.match(/organizations|spatial/)?.[0]].filter(
-            (v): v is string => !!v,
-          ),
+          tags: [compactUri(item.type, false)],
         }))}
         fallbackName={{
           ja: "無名の要素",

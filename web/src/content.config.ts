@@ -1,4 +1,6 @@
 import { defineCollection, z } from "astro:content";
+import ontologyData from "../generated/ontology_docs.json";
+import type { OntologySlot, RawOntologyClass } from "./data/ontology";
 import type { RawOrganization } from "./data/organizations";
 import type { RawSpatialEntity } from "./data/spatial";
 
@@ -27,7 +29,29 @@ const spatial = defineCollection({
   schema: z.custom<RawSpatialEntity>(),
 });
 
+const ontologyClasses = defineCollection({
+  loader: () => {
+    return Object.entries(ontologyData.classes).map(([id, value]) => ({
+      id,
+      ...value,
+    }));
+  },
+  schema: z.custom<RawOntologyClass>(),
+});
+
+const ontologySlots = defineCollection({
+  loader: () => {
+    return Object.entries(ontologyData.slots).map(([id, value]) => ({
+      id,
+      ...value,
+    }));
+  },
+  schema: z.custom<OntologySlot>(),
+});
+
 export const collections = {
   organizations,
   spatial,
+  ontologyClasses,
+  ontologySlots,
 };

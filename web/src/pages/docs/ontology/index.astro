@@ -1,0 +1,50 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Heading1 from "@/components/Heading1.astro";
+import Heading2 from "@/components/Heading2.astro";
+import { allOntologyClasses } from "@/data/ontology";
+
+export const prerender = true;
+
+const classes = [...allOntologyClasses];
+
+// Sort classes by name
+classes.sort((a, b) => a.id.localeCompare(b.id));
+---
+
+<Layout title="Ontology Documentation">
+  <div class="max-w-none">
+    <div class="d-breadcrumbs text-xs mb-4">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>Ontology</li>
+      </ul>
+    </div>
+
+    <header class="mb-10">
+      <Heading1> Ontology </Heading1>
+      <p>UEC Atlasプロジェクトで使用されているデータモデルの仕様です。</p>
+    </header>
+
+    <section class="mb-12">
+      <Heading2> クラス一覧 </Heading2>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3"
+      >
+        {
+          classes
+            .sort((a, b) => a.id.localeCompare(b.id))
+            .map((cls) => (
+              <a
+                href={`/docs/ontology/${cls.id}`}
+                class="block p-3 border border-slate-100 rounded hover:border-slate-300 hover:bg-slate-50 transition-all no-underline"
+              >
+                <h3 class="text-sm font-bold mb-1 break-all">{cls.name}</h3>
+                <p class="text-xs text-slate-500">{cls.description}</p>
+              </a>
+            ))
+        }
+      </div>
+    </section>
+  </div>
+</Layout>

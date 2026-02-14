@@ -395,7 +395,7 @@ classes:
   Facility:
     is_a: Structure
     class_uri: uao:Facility
-    description: "サービス設備(窓口、食堂などなど)"
+    description: "サービス設備(窓口、食堂など)"
     slots:
       - openingHoursSpecification
     attributes:
@@ -479,6 +479,7 @@ classes:
       features:
         range: SpatialEntity
         multivalued: true
+        inlined: true
         inlined_as_list: true
 
   BotInterface:
@@ -522,6 +523,7 @@ slots:
   features:
     range: SpatialEntity
     multivalued: true
+    inlined: true
     inlined_as_list: true
 
   connectedTo:
