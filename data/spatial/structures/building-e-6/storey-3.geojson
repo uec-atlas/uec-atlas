@@ -154,7 +154,8 @@
         "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Restroom",
         "name": {
-          "ja": "トイレ"
+          "ja": "トイレ",
+          "en": "Toilet"
         }
       }
     },
@@ -262,7 +263,8 @@
         "containedInPlace": "uar:spatial/YXOUIQXJ",
         "type": "Classroom",
         "name": {
-          "ja": "337講義室"
+          "ja": "337講義室",
+          "en": "Lecture Room 337"
         },
         "alternateName": {
           "ja": [

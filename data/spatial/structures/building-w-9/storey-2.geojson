@@ -559,7 +559,8 @@
         "containedInPlace": "uar:spatial/6NFOXOQK",
         "type": "PracticeRoom",
         "name": {
-          "ja": "計算機実験室"
+          "ja": "計算機実験室",
+          "en": "Laboratory 計算機"
         },
         "alternateName": {
           "ja": [
@@ -779,7 +780,8 @@
         "containedInPlace": "uar:spatial/6NFOXOQK",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -826,7 +828,8 @@
         "containedInPlace": "uar:spatial/6NFOXOQK",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }

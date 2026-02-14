@@ -363,7 +363,8 @@
         "containedInPlace": "uar:spatial/QDCHGYMQ",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -406,7 +407,8 @@
         "containedInPlace": "uar:spatial/QDCHGYMQ",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -595,7 +597,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/QDCHGYMQ",
@@ -645,7 +648,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/QDCHGYMQ",

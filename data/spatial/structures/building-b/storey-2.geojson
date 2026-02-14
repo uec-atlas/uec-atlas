@@ -77,7 +77,8 @@
         "containedInPlace": "uar:spatial/LTNGXLLO",
         "type": "Classroom",
         "name": {
-          "ja": "201講義室"
+          "ja": "201講義室",
+          "en": "Lecture Room 201"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 226,
@@ -167,7 +168,8 @@
         "containedInPlace": "uar:spatial/LTNGXLLO",
         "type": "Classroom",
         "name": {
-          "ja": "202講義室"
+          "ja": "202講義室",
+          "en": "Lecture Room 202"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 438,
@@ -315,7 +317,8 @@
         "containedInPlace": "uar:spatial/LTNGXLLO",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -358,7 +361,8 @@
         "containedInPlace": "uar:spatial/LTNGXLLO",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -817,7 +821,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/LTNGXLLO"
@@ -866,7 +871,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/LTNGXLLO"

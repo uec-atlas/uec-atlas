@@ -65,7 +65,8 @@
         "containedInPlace": "uar:spatial/6IIPBGZZ",
         "type": "Classroom",
         "name": {
-          "ja": "201講義室"
+          "ja": "201講義室",
+          "en": "Lecture Room 201"
         },
         "alternateName": {
           "ja": [
@@ -136,7 +137,8 @@
         "containedInPlace": "uar:spatial/6IIPBGZZ",
         "type": "Classroom",
         "name": {
-          "ja": "202講義室"
+          "ja": "202講義室",
+          "en": "Lecture Room 202"
         },
         "alternateName": {
           "ja": [
@@ -238,7 +240,8 @@
         "containedInPlace": "uar:spatial/6IIPBGZZ",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -281,7 +284,8 @@
         "containedInPlace": "uar:spatial/6IIPBGZZ",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }

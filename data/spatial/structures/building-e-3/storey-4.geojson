@@ -201,7 +201,8 @@
         "containedInPlace": "uar:spatial/73EMUPBR",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -252,7 +253,8 @@
         "containedInPlace": "uar:spatial/73EMUPBR",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -1276,7 +1278,8 @@
         "containedInPlace": "uar:spatial/73EMUPBR",
         "type": "Restroom",
         "name": {
-          "ja": "トイレ"
+          "ja": "トイレ",
+          "en": "Toilet"
         }
       }
     },
@@ -1584,7 +1587,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/73EMUPBR",

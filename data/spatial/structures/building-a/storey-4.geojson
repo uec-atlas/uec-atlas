@@ -49,7 +49,8 @@
         "containedInPlace": "uar:spatial/5N7JAWV4",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -92,7 +93,8 @@
         "containedInPlace": "uar:spatial/5N7JAWV4",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -729,7 +731,8 @@
         "containedInPlace": "uar:spatial/5N7JAWV4",
         "type": "Classroom",
         "name": {
-          "ja": "403講義室"
+          "ja": "403講義室",
+          "en": "Lecture Room 403"
         },
         "alternateName": {
           "ja": [
@@ -784,7 +787,8 @@
         "containedInPlace": "uar:spatial/5N7JAWV4",
         "type": "Classroom",
         "name": {
-          "ja": "402講義室"
+          "ja": "402講義室",
+          "en": "Lecture Room 402"
         },
         "alternateName": {
           "ja": [
@@ -835,7 +839,8 @@
         "containedInPlace": "uar:spatial/5N7JAWV4",
         "type": "Classroom",
         "name": {
-          "ja": "401講義室"
+          "ja": "401講義室",
+          "en": "Lecture Room 401"
         },
         "alternateName": {
           "ja": [

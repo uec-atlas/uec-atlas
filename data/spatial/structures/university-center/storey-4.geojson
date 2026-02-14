@@ -123,7 +123,8 @@
         "containedInPlace": "uar:spatial/6U7NK6ZP",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -162,7 +163,8 @@
         "containedInPlace": "uar:spatial/6U7NK6ZP",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }

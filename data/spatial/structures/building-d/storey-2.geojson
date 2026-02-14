@@ -45,7 +45,8 @@
         "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -268,7 +269,8 @@
         "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
-          "ja": "202実験室"
+          "ja": "202実験室",
+          "en": "Laboratory 202"
         },
         "category": "science"
       }
@@ -315,7 +317,8 @@
         "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
-          "ja": "209実験室"
+          "ja": "209実験室",
+          "en": "Laboratory 209"
         },
         "category": "science"
       }
@@ -354,7 +357,8 @@
         "containedInPlace": "uar:spatial/PTIRATZ4",
         "type": "PracticeRoom",
         "name": {
-          "ja": "204実験室"
+          "ja": "204実験室",
+          "en": "Laboratory 204"
         },
         "category": "science"
       }

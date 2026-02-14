@@ -295,7 +295,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "103講義室"
+          "ja": "103講義室",
+          "en": "Lecture Room 103"
         },
         "alternateName": {
           "ja": [
@@ -346,7 +347,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "105講義室"
+          "ja": "105講義室",
+          "en": "Lecture Room 105"
         },
         "alternateName": {
           "ja": [
@@ -393,7 +395,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "115講義室"
+          "ja": "115講義室",
+          "en": "Lecture Room 115"
         },
         "alternateName": {
           "ja": [
@@ -456,7 +459,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "113講義室"
+          "ja": "113講義室",
+          "en": "Lecture Room 113"
         },
         "alternateName": {
           "ja": [
@@ -507,7 +511,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "111講義室"
+          "ja": "111講義室",
+          "en": "Lecture Room 111"
         },
         "alternateName": {
           "ja": [
@@ -562,7 +567,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Classroom",
         "name": {
-          "ja": "109講義室"
+          "ja": "109講義室",
+          "en": "Lecture Room 109"
         },
         "alternateName": {
           "ja": [
@@ -688,7 +694,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -785,7 +792,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -872,7 +880,8 @@
         "containedInPlace": "uar:spatial/IHXUBKYS",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }

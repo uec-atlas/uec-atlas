@@ -49,7 +49,8 @@
         "containedInPlace": "uar:spatial/QMICBXOI",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -127,7 +128,8 @@
         "containedInPlace": "uar:spatial/QMICBXOI",
         "type": "Classroom",
         "name": {
-          "ja": "203講義室"
+          "ja": "203講義室",
+          "en": "Lecture Room 203"
         },
         "alternateName": {
           "ja": [
@@ -213,7 +215,8 @@
         "containedInPlace": "uar:spatial/QMICBXOI",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -323,7 +326,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/QMICBXOI",

@@ -365,7 +365,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/KL65KI6X"

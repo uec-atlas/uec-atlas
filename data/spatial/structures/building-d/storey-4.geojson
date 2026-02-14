@@ -45,7 +45,8 @@
         "containedInPlace": "uar:spatial/7DO63MWH",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -214,7 +215,8 @@
         "containedInPlace": "uar:spatial/7DO63MWH",
         "type": "PracticeRoom",
         "name": {
-          "ja": "403実験室"
+          "ja": "403実験室",
+          "en": "Laboratory 403"
         },
         "category": "science"
       }

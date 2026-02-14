@@ -139,7 +139,8 @@
         "containedInPlace": "uar:spatial/QFAGFNFD",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -303,7 +304,8 @@
         "containedInPlace": "uar:spatial/QFAGFNFD",
         "type": "Classroom",
         "name": {
-          "ja": "201講義室"
+          "ja": "201講義室",
+          "en": "Lecture Room 201"
         },
         "alternateName": {
           "ja": [

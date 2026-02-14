@@ -953,7 +953,8 @@
         "containedInPlace": "uar:spatial/4ZANQRHR",
         "type": "Restroom",
         "name": {
-          "ja": "トイレ"
+          "ja": "トイレ",
+          "en": "Toilet"
         }
       }
     },
@@ -1654,7 +1655,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/4ZANQRHR"
@@ -1695,7 +1697,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/4ZANQRHR"
@@ -1740,7 +1743,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/4ZANQRHR"
@@ -1781,7 +1785,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/4ZANQRHR"
@@ -1822,7 +1827,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/4ZANQRHR"

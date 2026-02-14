@@ -116,7 +116,8 @@
         "containedInPlace": "uar:spatial/IONZ2OF2",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -406,7 +407,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/IONZ2OF2",
@@ -450,7 +452,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/IONZ2OF2",

@@ -171,7 +171,8 @@
         "containedInPlace": "uar:spatial/D72R26EL",
         "type": "PracticeRoom",
         "name": {
-          "ja": "計算機実験室"
+          "ja": "計算機実験室",
+          "en": "Laboratory 計算機"
         },
         "alternateName": {
           "ja": [
@@ -331,7 +332,8 @@
         "containedInPlace": "uar:spatial/D72R26EL",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -378,7 +380,8 @@
         "containedInPlace": "uar:spatial/D72R26EL",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -417,7 +420,8 @@
         "containedInPlace": "uar:spatial/D72R26EL",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         }
       }
     },
@@ -1289,7 +1293,8 @@
         "containedInPlace": "uar:spatial/D72R26EL",
         "type": "Classroom",
         "name": {
-          "ja": "135講義室"
+          "ja": "135講義室",
+          "en": "Lecture Room 135"
         },
         "alternateName": {
           "ja": [
@@ -1379,7 +1384,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/D72R26EL",
@@ -1421,7 +1427,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/D72R26EL",

@@ -135,7 +135,8 @@
         "containedInPlace": "uar:spatial/G3HHBCPN",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -256,7 +257,8 @@
         "containedInPlace": "uar:spatial/G3HHBCPN",
         "type": "Classroom",
         "name": {
-          "ja": "401講義室"
+          "ja": "401講義室",
+          "en": "Lecture Room 401"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 48,
@@ -298,7 +300,8 @@
         "containedInPlace": "uar:spatial/G3HHBCPN",
         "type": "Classroom",
         "name": {
-          "ja": "402講義室"
+          "ja": "402講義室",
+          "en": "Lecture Room 402"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 48,

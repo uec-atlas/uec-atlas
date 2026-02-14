@@ -394,7 +394,8 @@
         "containedInPlace": "uar:spatial/BG4XB25Y",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -437,7 +438,8 @@
         "containedInPlace": "uar:spatial/BG4XB25Y",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -670,7 +672,8 @@
         "containedInPlace": "uar:spatial/BG4XB25Y",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -846,7 +849,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/BG4XB25Y",
@@ -889,7 +893,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/BG4XB25Y",

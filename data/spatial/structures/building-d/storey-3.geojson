@@ -45,7 +45,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -237,7 +238,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
-          "ja": "309実験室"
+          "ja": "309実験室",
+          "en": "Laboratory 309"
         },
         "category": "science"
       }
@@ -276,7 +278,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
-          "ja": "308実験室"
+          "ja": "308実験室",
+          "en": "Laboratory 308"
         },
         "category": "science"
       }
@@ -331,7 +334,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
-          "ja": "301実験室"
+          "ja": "301実験室",
+          "en": "Laboratory 301"
         },
         "category": "science"
       }
@@ -386,7 +390,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
-          "ja": "306実験室"
+          "ja": "306実験室",
+          "en": "Laboratory 306"
         },
         "category": "science"
       }
@@ -441,7 +446,8 @@
         "containedInPlace": "uar:spatial/64VQBKZF",
         "type": "PracticeRoom",
         "name": {
-          "ja": "303実験室"
+          "ja": "303実験室",
+          "en": "Laboratory 303"
         },
         "category": "science"
       }

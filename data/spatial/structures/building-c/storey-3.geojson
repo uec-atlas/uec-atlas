@@ -45,7 +45,8 @@
         "containedInPlace": "uar:spatial/IWEBMNJV",
         "type": "Classroom",
         "name": {
-          "ja": "301講義室"
+          "ja": "301講義室",
+          "en": "Lecture Room 301"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 139,
@@ -173,7 +174,8 @@
         "containedInPlace": "uar:spatial/IWEBMNJV",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }

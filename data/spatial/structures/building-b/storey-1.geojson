@@ -203,7 +203,8 @@
         "containedInPlace": "uar:spatial/GPF6JS5K",
         "type": "Classroom",
         "name": {
-          "ja": "102講義室"
+          "ja": "102講義室",
+          "en": "Lecture Room 102"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 143,
@@ -529,7 +530,8 @@
         "containedInPlace": "uar:spatial/GPF6JS5K",
         "type": "Classroom",
         "name": {
-          "ja": "101講義室"
+          "ja": "101講義室",
+          "en": "Lecture Room 101"
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 143,
@@ -575,7 +577,8 @@
         "containedInPlace": "uar:spatial/GPF6JS5K",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -614,7 +617,8 @@
         "containedInPlace": "uar:spatial/GPF6JS5K",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -688,7 +692,8 @@
         "containedInPlace": "uar:spatial/GPF6JS5K",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -768,7 +773,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/GPF6JS5K",
@@ -826,7 +832,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/GPF6JS5K"
@@ -883,7 +890,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/GPF6JS5K"

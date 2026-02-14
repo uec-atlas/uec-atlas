@@ -53,7 +53,8 @@
         "containedInPlace": "uar:spatial/K7OH4RFV",
         "type": "Classroom",
         "name": {
-          "ja": "B101講義室"
+          "ja": "B101講義室",
+          "en": "Lecture Room B101"
         },
         "alternateName": {
           "ja": [
@@ -100,7 +101,8 @@
         "containedInPlace": "uar:spatial/K7OH4RFV",
         "type": "Classroom",
         "name": {
-          "ja": "B106講義室"
+          "ja": "B106講義室",
+          "en": "Lecture Room B106"
         },
         "alternateName": {
           "ja": [
@@ -182,7 +184,8 @@
         "containedInPlace": "uar:spatial/K7OH4RFV",
         "type": "Classroom",
         "name": {
-          "ja": "B105講義室"
+          "ja": "B105講義室",
+          "en": "Lecture Room B105"
         },
         "alternateName": {
           "ja": [
@@ -659,7 +662,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/K7OH4RFV",
@@ -713,7 +717,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/K7OH4RFV",
@@ -755,7 +760,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/K7OH4RFV"

@@ -109,7 +109,8 @@
         "containedInPlace": "uar:spatial/6JLU3XSZ",
         "type": "Classroom",
         "name": {
-          "ja": "101講義室"
+          "ja": "101講義室",
+          "en": "Lecture Room 101"
         },
         "alternateName": {
           "ja": [
@@ -180,7 +181,8 @@
         "containedInPlace": "uar:spatial/6JLU3XSZ",
         "type": "Classroom",
         "name": {
-          "ja": "102講義室"
+          "ja": "102講義室",
+          "en": "Lecture Room 102"
         },
         "alternateName": {
           "ja": [
@@ -438,7 +440,8 @@
         "containedInPlace": "uar:spatial/6JLU3XSZ",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -553,7 +556,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/6JLU3XSZ",
@@ -597,7 +601,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/6JLU3XSZ",
@@ -641,7 +646,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/6JLU3XSZ",
@@ -685,7 +691,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/6JLU3XSZ",
@@ -727,7 +734,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/6JLU3XSZ",

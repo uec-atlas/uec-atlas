@@ -80,7 +80,8 @@
         "containedInPlace": "uar:spatial/JCYBG2IF",
         "type": "Restroom",
         "name": {
-          "ja": "トイレ"
+          "ja": "トイレ",
+          "en": "Toilet"
         }
       }
     },
@@ -762,7 +763,8 @@
         "containedInPlace": "uar:spatial/JCYBG2IF",
         "type": "Classroom",
         "name": {
-          "ja": "315講義室"
+          "ja": "315講義室",
+          "en": "Lecture Room 315"
         },
         "alternateName": {
           "ja": [
@@ -809,7 +811,8 @@
         "containedInPlace": "uar:spatial/JCYBG2IF",
         "type": "Classroom",
         "name": {
-          "ja": "317講義室"
+          "ja": "317講義室",
+          "en": "Lecture Room 317"
         },
         "alternateName": {
           "ja": [
@@ -1086,7 +1089,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/JCYBG2IF"

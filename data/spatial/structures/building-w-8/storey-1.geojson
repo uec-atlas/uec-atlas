@@ -73,7 +73,8 @@
         "containedInPlace": "uar:spatial/DPZX7PJX",
         "type": "Classroom",
         "name": {
-          "ja": "132講義室"
+          "ja": "132講義室",
+          "en": "Lecture Room 132"
         },
         "alternateName": {
           "ja": [
@@ -198,7 +199,8 @@
         "containedInPlace": "uar:spatial/DPZX7PJX",
         "type": "Classroom",
         "name": {
-          "ja": "131講義室"
+          "ja": "131講義室",
+          "en": "Lecture Room 131"
         },
         "alternateName": {
           "ja": [
@@ -323,7 +325,8 @@
         "containedInPlace": "uar:spatial/DPZX7PJX",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
@@ -829,7 +832,8 @@
         "containedInPlace": "uar:spatial/DPZX7PJX",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -903,7 +907,8 @@
         "containedInPlace": "uar:spatial/DPZX7PJX",
         "type": "Restroom",
         "name": {
-          "ja": "多機能トイレ"
+          "ja": "多機能トイレ",
+          "en": "Accessible Toilet"
         },
         "gender": "unisex",
         "amenities": [
@@ -987,7 +992,8 @@
         "type": "Passage",
         "category": "stairs",
         "name": {
-          "ja": "階段"
+          "ja": "階段",
+          "en": "Stairs"
         },
         "intersectsPlace": [
           "uar:spatial/DPZX7PJX"
@@ -1028,7 +1034,8 @@
         "type": "Passage",
         "category": "elevator",
         "name": {
-          "ja": "エレベーター"
+          "ja": "エレベーター",
+          "en": "Elevator"
         },
         "intersectsPlace": [
           "uar:spatial/DPZX7PJX"

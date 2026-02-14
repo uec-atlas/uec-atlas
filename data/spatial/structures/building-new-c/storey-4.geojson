@@ -49,7 +49,8 @@
         "containedInPlace": "uar:spatial/IM3ATYQX",
         "type": "Restroom",
         "name": {
-          "ja": "女子トイレ"
+          "ja": "女子トイレ",
+          "en": "Women's Toilet"
         },
         "gender": "women"
       }
@@ -127,7 +128,8 @@
         "containedInPlace": "uar:spatial/IM3ATYQX",
         "type": "Classroom",
         "name": {
-          "ja": "403講義室"
+          "ja": "403講義室",
+          "en": "Lecture Room 403"
         },
         "alternateName": {
           "ja": [
@@ -213,7 +215,8 @@
         "containedInPlace": "uar:spatial/IM3ATYQX",
         "type": "Restroom",
         "name": {
-          "ja": "男子トイレ"
+          "ja": "男子トイレ",
+          "en": "Men's Toilet"
         },
         "gender": "men"
       }
