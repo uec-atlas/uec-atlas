@@ -3,6 +3,7 @@ import Card from "@/components/index/Card.astro";
 import Hero from "@/components/index/Hero.astro";
 import Section from "@/components/index/Section.astro";
 import LayoutNoContainer from "@/layouts/LayoutNoContainer.astro";
+import { expandURI } from "@/utils/url";
 import { Code } from "astro:components";
 import { defineIcons } from "icon-plugin";
 
@@ -129,7 +130,7 @@ defineIcons([
         class="bg-transparent! px-4 before:hidden"
         code={`# 専門教育プログラムのIDと名称の一覧を取得する
 PREFIX schema: <http://schema.org/>
-PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+PREFIX uao: <${expandURI("uao:")}>
 
 SELECT ?org ?orgName WHERE {
   ?org a uao:EducationProgram;
@@ -143,7 +144,7 @@ SELECT ?org ?orgName WHERE {
         class="bg-transparent! px-4 before:hidden"
         code={`# AEDが設置されている建物名を取得する
 PREFIX schema: <http://schema.org/>
-PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
+PREFIX uao: <${expandURI("uao:")}>
 
 SELECT ?name WHERE {
   [] a uao:Building;
@@ -161,9 +162,9 @@ SELECT ?name WHERE {
       <Code
         class="bg-transparent! px-4 before:hidden"
         code={`# 生協が管理する施設の月曜日の営業時間を取得する
-PREFIX uao: <https://uec-atlas.e-chan1007.workers.dev/ontology/>
-PREFIX uar: <https://uec-atlas.e-chan1007.workers.dev/resources/>
-PREFIX uar-org: <https://uec-atlas.e-chan1007.workers.dev/resources/organizations/>
+PREFIX uao: <${expandURI("uao:")}>
+PREFIX uar: <${expandURI("uar:")}>
+PREFIX uar-org: <${expandURI("uar:")}organizations/>
 PREFIX schema: <http://schema.org/>
 
 SELECT ?facility ?open ?closes WHERE {
