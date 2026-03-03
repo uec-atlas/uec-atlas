@@ -1,1 +1,10 @@
 linkml
+selectolax
+httpx
+tqdm
+pdfplumber
+pandas
+numpy
+mojimoji
+MeCab
+cv2

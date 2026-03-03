@@ -2,7 +2,7 @@ id: uas:common
 name: uec_atlas_common
 title: UEC Atlas Common Definitions
 description: Common prefixes, types, and base classes for the UEC Atlas project.
-license: https://creativecommons.org/publicdomain/zero/1.0/
+
 prefixes:
   linkml: https://w3id.org/linkml/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#

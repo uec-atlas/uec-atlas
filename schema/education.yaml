@@ -1,0 +1,155 @@
+id: uas:education
+name: uec_atlas_education
+title: "UEC Atlas Education Ontology"
+
+prefixes:
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  linkml: https://w3id.org/linkml/
+  schema: http://schema.org/
+  hydra: http://www.w3.org/ns/hydra/core#
+  void: http://rdfs.org/ns/void#
+
+imports:
+  - common
+
+default_prefix: uao
+
+classes:
+  Course:
+    is_a: NamedThingWithId
+    description: "科目"
+    slot_usage:
+      id:
+        pattern: "^uar:education/"
+    attributes:
+      credits:
+        description: "単位数"
+        range: integer
+      succeededBy:
+        description: "後継科目"
+        range: Course
+      prerequisites:
+        description: "履修要件"
+        multivalued: true
+        any_of:
+          - range: Course
+          - range: Checkpoint
+      codeMappings:
+        description: "対応する科目コード"
+        range: CodeMapping
+        multivalued: true
+        inlined: true
+
+  CodeMapping:
+    attributes:
+      code:
+        range: string
+        required: true
+      years:
+        description: "対応する入学年度"
+        range: integer
+        multivalued: true
+
+  Lecture:
+    is_a: NamedThingWithId
+    description: "開講情報"
+    slot_usage:
+      id:
+        pattern: "^uar:education/"
+    attributes:
+      year:
+        description: "開講年度"
+        range: integer
+        required: true
+      courses:
+        description: "対象科目"
+        range: Course
+        required: true
+        multivalued: true
+      instructors:
+        description: "担当教員"
+        range: string
+        multivalued: true
+      locations:
+        description: "開講場所"
+        range: string
+        multivalued: true
+      periods:
+        description: "時限"
+        range: string
+        multivalued: true
+
+  CurriculumEntry:
+    is_a: NamedThingWithId
+    description: "履修規定の構成要素"
+    slot_usage:
+      id:
+        pattern: "^uar:education/"
+    attributes:
+      targetOrganization:
+        description: "規定の適用対象組織"
+        range: OrganizationBase
+        required: true
+      targetGrades:
+        description: "規定の適用対象学年"
+        range: integer
+        multivalued: true
+
+  SubjectCategory:
+    is_a: CurriculumEntry
+    description: "科目区分"
+    slots:
+      - subCategoryOf
+      - hasSubCategory
+    attributes:
+      subjects:
+        description: "対象科目"
+        range: Course
+        multivalued: true
+
+  Checkpoint:
+    is_a: CurriculumEntry
+    description: "履修要件の審査"
+    attributes:
+      requiredSubjects:
+        description: "必須科目"
+        range: Course
+        multivalued: true
+      requiredCategories:
+        description: "区分ごとの単位要件"
+        range: CategoryRequirement
+        multivalued: true
+        inlined: true
+
+  CategoryRequirement:
+    description: "区分ごとの単位数・科目数要件"
+    attributes:
+      targetCategory:
+        description: "対象区分"
+        range: SubjectCategory
+        required: true
+      minCredits:
+        description: "最低単位数"
+        range: integer
+
+slots:
+  subCategoryOf:
+    description: "親科目区分"
+    domain: SubjectCategory
+    range: SubjectCategory
+    transitive: true
+    inverse: hasSubCategory
+  hasSubCategory:
+    description: "子科目区分"
+    domain: SubjectCategory
+    range: SubjectCategory
+    transitive: true
+    inverse: subCategoryOf
+    multivalued: true
+    annotations:
+      jsonld_container: "@set"

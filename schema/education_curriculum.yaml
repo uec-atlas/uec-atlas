@@ -1,0 +1,33 @@
+id: uas:education_curriculum
+name: uec_atlas_education_curriculum
+title: "UEC Atlas Education Ontology (Curriculum)"
+
+prefixes:
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+
+imports:
+  - education
+
+default_prefix: uao
+
+classes:
+  Curriculum:
+    description: "課程ごとの履修規定"
+    tree_root: true
+    slots:
+      - type
+    slot_usage:
+      type:
+        equals_string: "Curriculum"
+    attributes:
+      year:
+        description: "入学年度"
+        range: integer
+        required: true
+      entries:
+        description: "規定の構成要素リスト"
+        range: CurriculumEntry
+        multivalued: true
+        inlined_as_list: true

@@ -24,7 +24,8 @@ jobs:
           python-version: "3.14"
 
       - name: Install Dependencies
-        run: pip install -r requirements.txt
+        run: -|
+          pip install -r requirements.txt
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4

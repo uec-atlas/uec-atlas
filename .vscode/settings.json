@@ -2,6 +2,24 @@
   "json.schemas": [
     {
       "fileMatch": [
+        "data/education/courses.json"
+      ],
+      "url": "./generated/education_course_collection.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/education/lectures/*.json"
+      ],
+      "url": "./generated/education_lecture_collection.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/education/curriculums/**/*.json"
+      ],
+      "url": "./generated/education_curriculum.schema.json"
+    },
+    {
+      "fileMatch": [
         "data/organizations/**/*.json"
       ],
       "url": "./generated/organization.schema.json"

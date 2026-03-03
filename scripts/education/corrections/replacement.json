@@ -1,0 +1,105 @@
+[
+  {
+    "search": {
+      "year": [
+        2023,
+        2024,
+        2025
+      ],
+      "name": "マルチメディア処理",
+      "code": "ELE505g"
+    },
+    "replace": {
+      "code": "ELE506g"
+    },
+    "note": "元データの採番ミスと思われる(宇宙通信工学とのコード重複)"
+  },
+  {
+    "search": {
+      "year": [
+        2023,
+        2024,
+        2025
+      ],
+      "name": "マルチメディア処理",
+      "code": "ELE505h"
+    },
+    "replace": {
+      "code": "ELE506h"
+    },
+    "note": "元データの採番ミスと思われる(宇宙通信工学とのコード重複)"
+  },
+  {
+    "search": {
+      "year": [
+        2023
+      ],
+      "name": "現代代数学",
+      "code": "MTHb02b",
+      "page": 89
+    },
+    "replace": {
+      "code": "MTHb02a"
+    },
+    "note": "元データの採番ミスと思われる(メディア情報学プログラムのカリキュラム表に末尾bの科目が存在する)"
+  },
+  {
+    "search": {
+      "year": [
+        2023
+      ],
+      "name": "数理解析学",
+      "code": "MTHb03b",
+      "page": 89
+    },
+    "replace": {
+      "code": "MTHb03a"
+    },
+    "note": "元データの採番ミスと思われる(メディア情報学プログラムのカリキュラム表に末尾bの科目が存在する)"
+  },
+  {
+    "search": {
+      "year": [
+        2023,
+        2024,
+        2025
+      ],
+      "name": "Introduction to Computational Methods in Scienceand Engineering",
+      "code": "INT505z"
+    },
+    "replace": {
+      "name": "Introduction to Computational Methods in Science and Engineering"
+    },
+    "note": "科目名抽出時に抜けたスペースを自動補正できない"
+  },
+  {
+    "search": {
+      "year": [
+        2023,
+        2024,
+        2025
+      ],
+      "name": "A学会社",
+      "code": "HSS310z"
+    },
+    "replace": {
+      "name": "社会学A"
+    },
+    "note": "科目名抽出時の自然さ評価が誤っている"
+  },
+  {
+    "search": {
+      "year": [
+        2023,
+        2024,
+        2025
+      ],
+      "name": "B学会社",
+      "code": "HSS410z"
+    },
+    "replace": {
+      "name": "社会学B"
+    },
+    "note": "科目名抽出時の自然さ評価が誤っている"
+  }
+]
