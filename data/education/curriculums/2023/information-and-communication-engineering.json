@@ -1,0 +1,199 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/N4P5CDGG",
+      "name": {
+        "ja": "情報通信工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/DVOWVNWN",
+      "name": {
+        "ja": "情報通信工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/F2Z5ZNBE",
+      "name": {
+        "ja": "情報通信工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/ND7KZQMY",
+        "uar:education/7GJ53H24",
+        "uar:education/IYIERFD2",
+        "uar:education/5AZF3AI4",
+        "uar:education/DYJN2FUF",
+        "uar:education/3W7EWROG",
+        "uar:education/UWAH25IP",
+        "uar:education/QNFFHM3S",
+        "uar:education/P6YBCMT5",
+        "uar:education/2SFYDA6N"
+      ]
+    },
+    {
+      "id": "uar:education/AAJXCA6P",
+      "name": {
+        "ja": "情報通信工学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/QIXLTWUN",
+        "uar:education/O3BMPCLK",
+        "uar:education/QXMNI3H6"
+      ]
+    },
+    {
+      "id": "uar:education/CFVFC7NG",
+      "name": {
+        "ja": "情報通信工学プログラム - 類共通基礎科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/WLYPQUEB",
+      "courses": [
+        "uar:education/LVBNPXFB"
+      ]
+    },
+    {
+      "id": "uar:education/N5AJGIBO",
+      "name": {
+        "ja": "情報通信工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/LF4NKTHJ",
+        "uar:education/7ZS6BQL3",
+        "uar:education/BETKLN7P",
+        "uar:education/DTE5DY4U",
+        "uar:education/SDMAEVWS",
+        "uar:education/W7US6KT4",
+        "uar:education/IS4RMMRR",
+        "uar:education/SGKBGHFM",
+        "uar:education/53TQLJDG",
+        "uar:education/M5CFCY3Q",
+        "uar:education/QSJQ6Z5O"
+      ]
+    },
+    {
+      "id": "uar:education/4JWOWID2",
+      "name": {
+        "ja": "情報通信工学プログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/EVNVOWZ7",
+        "uar:education/VPQ7ADL6",
+        "uar:education/YHKQBXJO",
+        "uar:education/KZ4NXK2N",
+        "uar:education/MUIMQX35",
+        "uar:education/5A63PX32",
+        "uar:education/TYABCUJJ",
+        "uar:education/CAJT2G7P",
+        "uar:education/4BEIFJJL"
+      ]
+    },
+    {
+      "id": "uar:education/DGTR4DAI",
+      "name": {
+        "ja": "情報通信工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/UK7MZDPJ",
+        "uar:education/7DBSLWAX",
+        "uar:education/4YSXA3I2",
+        "uar:education/2COEEU4J",
+        "uar:education/GPQP36K2",
+        "uar:education/UTKZ42JJ",
+        "uar:education/RPQTNSE4",
+        "uar:education/O5VMLSAD",
+        "uar:education/BCEX5T2S",
+        "uar:education/PUXIOQF7",
+        "uar:education/RMXYKJII",
+        "uar:education/O7GCET6K",
+        "uar:education/6CZTY2GR",
+        "uar:education/62X4E3MT",
+        "uar:education/IMVNOMRM",
+        "uar:education/LWQGPPID",
+        "uar:education/22N23X5P",
+        "uar:education/O735CKO7",
+        "uar:education/TCAXTXHC",
+        "uar:education/BXK42YSC"
+      ]
+    },
+    {
+      "id": "uar:education/LXLIYIVT",
+      "name": {
+        "ja": "情報通信工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/73YQZ2HU",
+        "uar:education/O7GCET6K",
+        "uar:education/ETCIR4KG",
+        "uar:education/MV3CZKW3",
+        "uar:education/TTOQPTDB",
+        "uar:education/OCIIN25W",
+        "uar:education/4UPFCQ5T",
+        "uar:education/FILAF7MA",
+        "uar:education/MQ2J5LSQ",
+        "uar:education/RC4EBLST",
+        "uar:education/G665O5X2"
+      ]
+    },
+    {
+      "id": "uar:education/6LHQI45E",
+      "name": {
+        "ja": "情報通信工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/DX5GN6SU",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/LXRSZC63",
+        "uar:education/ORUNWRTV",
+        "uar:education/3UASDUJE",
+        "uar:education/D3NV6AGU"
+      ]
+    }
+  ]
+}

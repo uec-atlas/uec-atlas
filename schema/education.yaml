@@ -48,6 +48,7 @@ classes:
   CodeMapping:
     attributes:
       code:
+        description: "科目コード"
         range: string
         required: true
       years:
@@ -91,6 +92,11 @@ classes:
       id:
         pattern: "^uar:education/"
     attributes:
+      type:
+        description: "規定の種類"
+        required: true
+        designates_type: true
+        range: string
       targetOrganization:
         description: "規定の適用対象組織"
         range: OrganizationBase
@@ -100,14 +106,22 @@ classes:
         range: integer
         multivalued: true
 
-  SubjectCategory:
-    is_a: CurriculumEntry
+  CourseCategory:
+    is_a: NamedThingWithId
     description: "科目区分"
     slots:
       - subCategoryOf
       - hasSubCategory
+
+  CourseCategoryMapping:
+    is_a: CurriculumEntry
+    description: "科目区分の指定"
     attributes:
-      subjects:
+      category:
+        description: "対象区分"
+        range: CourseCategory
+        required: true
+      courses:
         description: "対象科目"
         range: Course
         multivalued: true
@@ -116,7 +130,7 @@ classes:
     is_a: CurriculumEntry
     description: "履修要件の審査"
     attributes:
-      requiredSubjects:
+      requiredCourses:
         description: "必須科目"
         range: Course
         multivalued: true
@@ -131,7 +145,7 @@ classes:
     attributes:
       targetCategory:
         description: "対象区分"
-        range: SubjectCategory
+        range: CourseCategory
         required: true
       minCredits:
         description: "最低単位数"
@@ -140,14 +154,14 @@ classes:
 slots:
   subCategoryOf:
     description: "親科目区分"
-    domain: SubjectCategory
-    range: SubjectCategory
+    domain: CourseCategory
+    range: CourseCategory
     transitive: true
     inverse: hasSubCategory
   hasSubCategory:
     description: "子科目区分"
-    domain: SubjectCategory
-    range: SubjectCategory
+    domain: CourseCategory
+    range: CourseCategory
     transitive: true
     inverse: subCategoryOf
     multivalued: true

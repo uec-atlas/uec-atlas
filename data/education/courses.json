@@ -786,9 +786,9 @@
       ]
     },
     {
-      "id": "uar:education/Z4XX7YH6",
+      "id": "uar:education/DYJVGHWZ",
       "name": {
-        "ja": "社会学A"
+        "ja": "A学会社"
       },
       "credits": 2,
       "codeMappings": [
@@ -803,9 +803,9 @@
       ]
     },
     {
-      "id": "uar:education/EUXKDXLO",
+      "id": "uar:education/DEGN7HDH",
       "name": {
-        "ja": "社会学B"
+        "ja": "B学会社"
       },
       "credits": 2,
       "codeMappings": [
@@ -5421,6 +5421,14 @@
             2024,
             2025
           ]
+        },
+        {
+          "code": "ELE505g",
+          "years": [
+            2023,
+            2024,
+            2025
+          ]
         }
       ]
     },
@@ -5433,6 +5441,14 @@
       "codeMappings": [
         {
           "code": "ELE506h",
+          "years": [
+            2023,
+            2024,
+            2025
+          ]
+        },
+        {
+          "code": "ELE505h",
           "years": [
             2023,
             2024,
@@ -19183,6 +19199,40 @@
         {
           "code": "HSS103s",
           "years": [
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uar:education/Z4XX7YH6",
+      "name": {
+        "ja": "社会学A"
+      },
+      "credits": 2,
+      "codeMappings": [
+        {
+          "code": "HSS310z",
+          "years": [
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uar:education/EUXKDXLO",
+      "name": {
+        "ja": "社会学B"
+      },
+      "credits": 2,
+      "codeMappings": [
+        {
+          "code": "HSS410z",
+          "years": [
+            2023,
             2024,
             2025
           ]

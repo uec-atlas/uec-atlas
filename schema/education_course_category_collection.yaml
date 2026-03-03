@@ -1,0 +1,29 @@
+id: uas:education_course_category_collection
+name: uec_atlas_education_course_category_collection
+title: "UEC Atlas Education Ontology (Course Category Collection)"
+
+prefixes:
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+
+imports:
+  - education
+
+default_prefix: uao
+
+classes:
+  CourseCategoryCollection:
+    description: "科目区分の集合"
+    tree_root: true
+    slots:
+      - type
+    slot_usage:
+      type:
+        equals_string: "CourseCategoryCollection"
+    attributes:
+      entries:
+        description: "科目区分リスト"
+        range: CourseCategory
+        multivalued: true
+        inlined_as_list: true

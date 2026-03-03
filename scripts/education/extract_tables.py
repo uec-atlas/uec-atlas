@@ -3,9 +3,10 @@ import pandas as pd
 import numpy as np
 import re
 import cv2
+import io
 from functools import cache
-from dataclasses import dataclass
-from typing import List, Optional, Tuple, Dict, Any
+from pypdf import PdfReader, PdfWriter
+from typing import Optional, Any
 import mojimoji
 import MeCab
 
@@ -13,6 +14,7 @@ RE_JAPANESE = re.compile(r"[\u3040-\u30ff\u4e00-\u9faf]")
 TAGGER = MeCab.Tagger()
 
 
+@cache
 def clean_text(text: str) -> str:
     if not text:
         return ""
@@ -36,7 +38,7 @@ def get_naturalness_score(text: str) -> float:
     return -last_cost
 
 
-def cluster_coords(coords: List[float], threshold: float = 2.0) -> List[float]:
+def cluster_coords(coords: list[float], threshold: float = 2.0) -> list[float]:
     if not coords:
         return []
     vals = np.sort(np.unique(coords))
@@ -45,7 +47,7 @@ def cluster_coords(coords: List[float], threshold: float = 2.0) -> List[float]:
     return [float(np.mean(c)) for c in np.split(vals, splits)]
 
 
-def get_visual_grid_segments(page, dpi, debug_path: str = None) -> Tuple[List[Dict], List[Dict]]:
+def get_visual_grid_segments(page, dpi, debug_path: str = None) -> tuple[list[dict], list[dict]]:
     pix = page.to_image(resolution=dpi).original
     img_color = cv2.cvtColor(np.array(pix), cv2.COLOR_RGB2BGR)
     gray = cv2.cvtColor(img_color, cv2.COLOR_BGR2GRAY)
@@ -117,7 +119,7 @@ class TableExtractor:
         self.avg_char_w = np.mean(
             [c["width"] for c in self.page_chars]) if self.page_chars else 10
 
-    def _extract_cell_text(self, bbox: Tuple[float, float, float, float]) -> str:
+    def _extract_cell_text(self, bbox: tuple[float, float, float, float]) -> str:
         x0, y0, x1, y1 = bbox
         in_cell = [c for c in self.page_chars if
                    x0 - 1.0 <= (c["x0"] + c["x1"]) / 2 <= x1 + 1.0 and
@@ -143,7 +145,7 @@ class TableExtractor:
         v_text = build("v", True, self.avg_char_w * 0.5)
         return clean_text(v_text if get_naturalness_score(v_text) > get_naturalness_score(h_text) else h_text)
 
-    def to_dataframe(self) -> Tuple[pd.DataFrame, List[float]]:
+    def to_dataframe(self) -> tuple[pd.DataFrame, list[float]]:
         cells = self.table.cells
         x_coords = [c[0] for c in cells] + [c[2] for c in cells]
         y_coords = [c[1] for c in cells] + [c[3] for c in cells]
@@ -179,12 +181,43 @@ class TableExtractor:
 
 
 def estimate_header_boundary(df: pd.DataFrame) -> int:
-    """科目番号などのパターンから、データ行の開始位置（ヘッダー行数）を特定する"""
+    """科目番号パターンとセル結合の痕跡から、データ行の開始位置（ヘッダー行数）を特定する"""
+
+    def _norm(v: Any) -> str:
+        if v is None:
+            return ""
+        if isinstance(v, float) and np.isnan(v):
+            return ""
+        s = str(v).strip()
+        return "" if s.lower() == "nan" else s
+
+    inspect_rows = min(5, len(df))
+
     for i in range(min(5, len(df))):
         row_str = " ".join(df.iloc[i].astype(str))
         # 科目番号 (例: MTH101z, COM503c) があればデータ行の始まり
         if re.search(r"[A-Z]{2,4}\d{3}[a-z]?", row_str):
             return i  # 1行目(i=0)で見つかれば、ヘッダーは0行(なし)と判定
+
+    # 科目番号が見つからない場合は、1行目起点の結合セルを優先して判定する
+    # 1行目から縦方向に同一値が連続しているセルを「結合セルの痕跡」とみなし、
+    # その連続長が表全体（または先頭5行）に及ばないときはヘッダー行候補にする
+    if inspect_rows >= 2 and len(df.columns) > 0:
+        header_candidate = 0
+        for c in range(len(df.columns)):
+            top_val = _norm(df.iat[0, c])
+            if not top_val:
+                continue
+
+            span = 1
+            while span < inspect_rows and _norm(df.iat[span, c]) == top_val:
+                span += 1
+
+            if 1 < span < inspect_rows:
+                header_candidate = max(header_candidate, span)
+
+        if header_candidate > 0:
+            return header_candidate
 
     # フォールバック
     if len(df) > 1 and len("".join(df.iloc[1].astype(str)).strip()) > 5:
@@ -233,14 +266,27 @@ def estimate_table_title(page, last_y: float, current_table_top: float) -> str:
         return ""
 
 
-def extract_tables(pdf_path: str, pages: Optional[List[int]] = None):
+def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_pages: Optional[dict[int, int]] = None) -> list[pd.DataFrame]:
     raw_results = []
-    with pdfplumber.open(pdf_path) as pdf:
+    reader = PdfReader(pdf_path)
+    writer = PdfWriter()
+
+    for page in reader.pages:
+        if rotate_pages and page.page_number + 1 in rotate_pages:
+            page.rotate(rotate_pages[page.page_number + 1])
+        writer.add_page(page)
+
+    pdf_bytes = io.BytesIO()
+    writer.write(pdf_bytes)
+    pdf_bytes.seek(0)
+
+    with pdfplumber.open(pdf_bytes) as pdf:
         target_pages = [pdf.pages[p-1] for p in pages] if pages else pdf.pages
         for page in target_pages:
             # debug_img = f"debug_lines_p{page.page_number}.png"
+            debug_img = None
             h_segs, v_segs = get_visual_grid_segments(
-                page, 400)
+                page, 400, debug_path=debug_img)
 
             if len(h_segs) < 2 or len(v_segs) < 2:
                 continue
@@ -248,7 +294,7 @@ def extract_tables(pdf_path: str, pages: Optional[List[int]] = None):
             settings = {
                 "vertical_strategy": "explicit", "horizontal_strategy": "explicit",
                 "explicit_vertical_lines": v_segs, "explicit_horizontal_lines": h_segs,
-                "snap_tolerance": 5, "join_tolerance": 5
+                "snap_tolerance": 2, "join_tolerance": 2
             }
 
             found = page.find_tables(table_settings=settings)

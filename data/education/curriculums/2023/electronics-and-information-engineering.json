@@ -1,0 +1,196 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/MTRY3I5W",
+      "name": {
+        "ja": "電子情報学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/LKFRKC2C",
+      "name": {
+        "ja": "電子情報学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/4MZUIDRP",
+      "name": {
+        "ja": "電子情報学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/LZQ2TAIP",
+        "uar:education/R4GBGODB",
+        "uar:education/YCW3VZXS",
+        "uar:education/4OH5FDMU",
+        "uar:education/7UQSOWDC",
+        "uar:education/6ZSSYUKW",
+        "uar:education/YYFITYAM",
+        "uar:education/SRV4WCLB",
+        "uar:education/ZYV7JIEJ",
+        "uar:education/2KYKJRE6"
+      ]
+    },
+    {
+      "id": "uar:education/KR6P646Q",
+      "name": {
+        "ja": "電子情報学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/Y5VHYGGV",
+        "uar:education/GCCVXVKF",
+        "uar:education/4AD2L5BC"
+      ]
+    },
+    {
+      "id": "uar:education/NAQJ5GXN",
+      "name": {
+        "ja": "電子情報学プログラム - 類共通基礎科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/WLYPQUEB",
+      "courses": [
+        "uar:education/KYWJ4UIQ"
+      ]
+    },
+    {
+      "id": "uar:education/FYMBNV2D",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/SBCC3RYK",
+        "uar:education/J5XB7RV3",
+        "uar:education/5L73WVQL",
+        "uar:education/QIHD6SVM",
+        "uar:education/PP5K5CNW",
+        "uar:education/LGQCWMAA",
+        "uar:education/M5NWKWAL",
+        "uar:education/BBUGKE3U",
+        "uar:education/4Z4MXDFQ",
+        "uar:education/VQ4X5RTX",
+        "uar:education/CPUKZK62"
+      ]
+    },
+    {
+      "id": "uar:education/BMPISLD3",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/EC5TENOK",
+        "uar:education/BG7AMJ5H",
+        "uar:education/HYJDVIBP",
+        "uar:education/FZ664OOZ",
+        "uar:education/M4ZSH6XF",
+        "uar:education/ERBZ43HQ",
+        "uar:education/N4FPNY5H",
+        "uar:education/EDZPGYI2"
+      ]
+    },
+    {
+      "id": "uar:education/FBIF6LHH",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/2ECXKIS6",
+        "uar:education/R5RLO74X",
+        "uar:education/L72WF35A",
+        "uar:education/QDU42EDB",
+        "uar:education/FVY6EPU2",
+        "uar:education/FSPR5DKV",
+        "uar:education/MIS5OTQQ",
+        "uar:education/QBQ2BUSK",
+        "uar:education/3VRV35QO",
+        "uar:education/QDG6HCEF",
+        "uar:education/NYOWLG6S",
+        "uar:education/JRD5W447",
+        "uar:education/DFV2WGBH",
+        "uar:education/KMCBFQTC",
+        "uar:education/RTK6BKFD",
+        "uar:education/2YCXHQRY",
+        "uar:education/YHBXGSLB",
+        "uar:education/IVN4KU5X",
+        "uar:education/EX7O3ZCY"
+      ]
+    },
+    {
+      "id": "uar:education/LHQ7SD64",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/ZFYTTNGZ",
+        "uar:education/NYOWLG6S",
+        "uar:education/SE6JPKTD",
+        "uar:education/ZCFRH7I5",
+        "uar:education/42IYNZSY",
+        "uar:education/UKO655OI",
+        "uar:education/4SIRNC4J",
+        "uar:education/IV2B37NK",
+        "uar:education/MKVPIXC2",
+        "uar:education/AWKDU3EU"
+      ]
+    },
+    {
+      "id": "uar:education/IOCJKBRD",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/KENSB4VA",
+        "uar:education/MVPXUIYT",
+        "uar:education/PWFPSP7W",
+        "uar:education/22SX2NW3"
+      ]
+    }
+  ]
+}

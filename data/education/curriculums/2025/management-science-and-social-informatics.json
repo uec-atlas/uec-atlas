@@ -1,0 +1,172 @@
+{
+  "type": "Curriculum",
+  "year": 2025,
+  "entries": [
+    {
+      "id": "uar:education/LLBEZEUI",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/VAJ56L34",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/GLWN7N4I",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/KONCZ2Y5",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/QZRY4A6S",
+        "uar:education/CHDMZDSU",
+        "uar:education/PY5MDOZT",
+        "uar:education/UYPITXRJ",
+        "uar:education/WTJQGCTZ",
+        "uar:education/LEKHMCCE",
+        "uar:education/JXVWNA6U",
+        "uar:education/TC7TGGOF",
+        "uar:education/NO7IDCVW"
+      ]
+    },
+    {
+      "id": "uar:education/F3WSYW3A",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/QVN6OAQE",
+        "uar:education/CPB6P5PV",
+        "uar:education/R3CKCK6E",
+        "uar:education/EHDGGKEY",
+        "uar:education/3BECGCVW",
+        "uar:education/GHYRVYZD",
+        "uar:education/33TR7D5S"
+      ]
+    },
+    {
+      "id": "uar:education/GBT7OYTE",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/JUWMEYIF",
+        "uar:education/RVJU33KV",
+        "uar:education/FNNVSSZH",
+        "uar:education/Q4NO46V2",
+        "uar:education/3UGRYPX6",
+        "uar:education/BXVTW7XU"
+      ]
+    },
+    {
+      "id": "uar:education/Q5DZ3TYW",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/UZAAWGKY",
+        "uar:education/7D4NRSAP",
+        "uar:education/KTE7ICZV",
+        "uar:education/NIBJQ6TX",
+        "uar:education/KD4BOWPG",
+        "uar:education/FU3Y7XGJ",
+        "uar:education/XR2L6XMY",
+        "uar:education/MXNFPYZ3",
+        "uar:education/6VYNPFMR",
+        "uar:education/H74J4MXD",
+        "uar:education/CSW2NYMS",
+        "uar:education/OUUI7YTK",
+        "uar:education/INH2G7F4",
+        "uar:education/OQE44HC6",
+        "uar:education/Z53NUHMU",
+        "uar:education/TBYKZWMZ",
+        "uar:education/GPA2XZMY",
+        "uar:education/XO7QLN6V",
+        "uar:education/2OB7MVXV",
+        "uar:education/MP6LAYLU",
+        "uar:education/AB4QGPHM",
+        "uar:education/F5KUUKHX",
+        "uar:education/RDPUY5OH"
+      ]
+    },
+    {
+      "id": "uar:education/CKFHWMRY",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/FEF2MKO2",
+        "uar:education/5344XKFU",
+        "uar:education/IMMTXM6M",
+        "uar:education/ZMAODSVV",
+        "uar:education/REA26R3G",
+        "uar:education/VVN7MT2Q",
+        "uar:education/Q2IYSVUE",
+        "uar:education/OHJRZSTR",
+        "uar:education/PYKTHZNV",
+        "uar:education/JTXPHKJB",
+        "uar:education/CA34AADY",
+        "uar:education/MATSDJJM",
+        "uar:education/56HSIFPS",
+        "uar:education/PVEE2ZJT",
+        "uar:education/MG2QEFCK",
+        "uar:education/DCBK4NRY"
+      ]
+    },
+    {
+      "id": "uar:education/2NTSLMQK",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/HTG4TKI2",
+        "uar:education/FNZ3OXT7",
+        "uar:education/7IIHTHEP"
+      ]
+    }
+  ]
+}

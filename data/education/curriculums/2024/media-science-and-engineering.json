@@ -1,0 +1,124 @@
+{
+  "type": "Curriculum",
+  "year": 2024,
+  "entries": [
+    {
+      "id": "uar:education/5EIEHEA2",
+      "name": {
+        "ja": "メディア情報学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/4P3HZ47H",
+      "name": {
+        "ja": "メディア情報学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/GLWN7N4I",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/XONN35XK",
+      "name": {
+        "ja": "メディア情報学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/HFHTGYVJ",
+        "uar:education/QPDCPTHD",
+        "uar:education/Z25E6O7S",
+        "uar:education/JZZF5ZI6",
+        "uar:education/TRJQ2HNQ",
+        "uar:education/VNP2WLDI",
+        "uar:education/Y3SIICUQ",
+        "uar:education/QHILKZ4E",
+        "uar:education/VBW6DTUK"
+      ]
+    },
+    {
+      "id": "uar:education/KF3KOKLG",
+      "name": {
+        "ja": "メディア情報学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/U6GHKOVN",
+        "uar:education/UGO4I3O3",
+        "uar:education/YSB7672N",
+        "uar:education/B62ZBZB4",
+        "uar:education/45JV6ZD5",
+        "uar:education/BTYZS27C",
+        "uar:education/IFGDKUVV"
+      ]
+    },
+    {
+      "id": "uar:education/OANUZFKX",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/CKLPSTSF",
+        "uar:education/7KI2KAR7",
+        "uar:education/VQEFLAO3",
+        "uar:education/N2B4BAJN",
+        "uar:education/UKNSSEL4",
+        "uar:education/QO6FOSWZ",
+        "uar:education/KCAWTWWG"
+      ]
+    },
+    {
+      "id": "uar:education/IDRNMSNE",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/WM6RFFYE",
+        "uar:education/FTN6XTUL",
+        "uar:education/HWUDR36A",
+        "uar:education/OTRFHV7A",
+        "uar:education/L4ENZGM4",
+        "uar:education/2GOEEPJ7",
+        "uar:education/O3O6442H",
+        "uar:education/LW7NB4BX",
+        "uar:education/BSGGTQKG",
+        "uar:education/JIY6P3SH",
+        "uar:education/62WKUOJ5",
+        "uar:education/IJXBQNLA",
+        "uar:education/UIHKZLS5",
+        "uar:education/3GGHHSHB",
+        "uar:education/VL63EJ43"
+      ]
+    }
+  ]
+}

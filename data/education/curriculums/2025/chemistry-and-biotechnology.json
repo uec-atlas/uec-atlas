@@ -1,0 +1,203 @@
+{
+  "type": "Curriculum",
+  "year": 2025,
+  "entries": [
+    {
+      "id": "uar:education/ZO3UYUJP",
+      "name": {
+        "ja": "化学生命工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/T2YVK3EI",
+      "name": {
+        "ja": "化学生命工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/MEWPSXQL",
+      "name": {
+        "ja": "化学生命工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/P473IWTT",
+        "uar:education/5LWZPBSZ",
+        "uar:education/666OAUAB",
+        "uar:education/WTIDJCHQ",
+        "uar:education/MJATCCD7",
+        "uar:education/XNZ34QMB",
+        "uar:education/KSJJY7Y2"
+      ]
+    },
+    {
+      "id": "uar:education/2CESDP3R",
+      "name": {
+        "ja": "化学生命工学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/TGZWKCRO",
+        "uar:education/37U6AVS5",
+        "uar:education/HCTQFLVK",
+        "uar:education/34BTFZ2N",
+        "uar:education/WVMPMILB",
+        "uar:education/RAU7N6FS",
+        "uar:education/D3SQ5KGX"
+      ]
+    },
+    {
+      "id": "uar:education/5YPKGS6A",
+      "name": {
+        "ja": "化学生命工学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/TMHRCZRF"
+      ]
+    },
+    {
+      "id": "uar:education/ZWWYMRMO",
+      "name": {
+        "ja": "化学生命工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/6MPJ5GKE",
+        "uar:education/GA2BORJL",
+        "uar:education/22LN2HX4",
+        "uar:education/LUOPHRC7",
+        "uar:education/4DART4IR",
+        "uar:education/WQCED5CV",
+        "uar:education/BVYPRAZX",
+        "uar:education/FIP5SZDO",
+        "uar:education/MGRBWQ5A",
+        "uar:education/BK4GGVNY",
+        "uar:education/DUOJJ5PR",
+        "uar:education/HLLE5GNE",
+        "uar:education/E6LU4KK2",
+        "uar:education/6D2BVFQ2",
+        "uar:education/YDGBGIEK",
+        "uar:education/WYI6CIXO"
+      ]
+    },
+    {
+      "id": "uar:education/AEGYQDSL",
+      "name": {
+        "ja": "化学生命工学プログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/5N6UU2SD",
+        "uar:education/QAW7WQHT",
+        "uar:education/23S6UHT6",
+        "uar:education/NEV4HVJM",
+        "uar:education/TMBLXXSI",
+        "uar:education/XTETZ5XZ",
+        "uar:education/IFHVXFQA"
+      ]
+    },
+    {
+      "id": "uar:education/D4PSOBMV",
+      "name": {
+        "ja": "化学生命工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/LW2DNH7H",
+        "uar:education/O5A4D3EL",
+        "uar:education/VEQAJIGO",
+        "uar:education/35BNW2Q6",
+        "uar:education/XWHNBQCK",
+        "uar:education/CEN7ZSSX",
+        "uar:education/LN4IVAZP",
+        "uar:education/4R3WJCF2",
+        "uar:education/HEJCDCKF"
+      ]
+    },
+    {
+      "id": "uar:education/JFYCXDDU",
+      "name": {
+        "ja": "化学生命工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/SU5PVZDA",
+        "uar:education/CIPT3NTX",
+        "uar:education/GLS2SKNR",
+        "uar:education/XPMM3QA2",
+        "uar:education/3LJVDAW3",
+        "uar:education/RUEDCINA",
+        "uar:education/YYKTXNSV",
+        "uar:education/F2C46XMO",
+        "uar:education/2P52RJVB",
+        "uar:education/YEKANXOE",
+        "uar:education/AZXFR7UB",
+        "uar:education/MLT6QCFC",
+        "uar:education/VNERRBSJ",
+        "uar:education/ZIH4UAC6",
+        "uar:education/K4PU6SNK",
+        "uar:education/NG6SBYXX",
+        "uar:education/G2SUO6Y5",
+        "uar:education/24WI3MMJ",
+        "uar:education/VN56EJEF",
+        "uar:education/XO4GBVTF",
+        "uar:education/YE54S2D6",
+        "uar:education/DEPELV6F"
+      ]
+    },
+    {
+      "id": "uar:education/BNTRCPQ4",
+      "name": {
+        "ja": "化学生命工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/5L2LGOXV",
+        "uar:education/GX4O3MZ4",
+        "uar:education/6NO7UDYM",
+        "uar:education/7O6XHJEC"
+      ]
+    }
+  ]
+}

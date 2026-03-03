@@ -1,0 +1,373 @@
+{
+  "type": "CourseCategoryCollection",
+  "entries": [
+    {
+      "id": "uar:education/F7XOZXJW",
+      "name": {
+        "ja": "総合文化科目"
+      }
+    },
+    {
+      "id": "uar:education/UAPNAXFB",
+      "name": {
+        "ja": "人文・社会科学科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/26TDPRGA",
+      "name": {
+        "ja": "言語文化科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/CHCYUQLY",
+      "name": {
+        "ja": "言語文化科目Ⅰ"
+      },
+      "subCategoryOf": "uar:education/26TDPRGA"
+    },
+    {
+      "id": "uar:education/BIZMTYJH",
+      "name": {
+        "ja": "言語文化基礎科目Ⅰ"
+      },
+      "subCategoryOf": "uar:education/CHCYUQLY"
+    },
+    {
+      "id": "uar:education/2HGUSRXG",
+      "name": {
+        "ja": "言語文化応用科目Ⅰ"
+      },
+      "subCategoryOf": "uar:education/CHCYUQLY"
+    },
+    {
+      "id": "uar:education/OSWQLKQP",
+      "name": {
+        "ja": "言語文化科目Ⅱ"
+      },
+      "subCategoryOf": "uar:education/26TDPRGA"
+    },
+    {
+      "id": "uar:education/7C2FCWAI",
+      "name": {
+        "ja": "言語文化基礎科目Ⅱ"
+      },
+      "subCategoryOf": "uar:education/OSWQLKQP"
+    },
+    {
+      "id": "uar:education/7PNYJAS6",
+      "name": {
+        "ja": "言語文化応用科目Ⅱ"
+      },
+      "subCategoryOf": "uar:education/OSWQLKQP"
+    },
+    {
+      "id": "uar:education/ONHTCGJO",
+      "name": {
+        "ja": "言語文化演習科目"
+      },
+      "subCategoryOf": "uar:education/26TDPRGA"
+    },
+    {
+      "id": "uar:education/K74FWNJR",
+      "name": {
+        "ja": "日本語･日本文化科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/L23EC7SE",
+      "name": {
+        "ja": "日本語"
+      },
+      "subCategoryOf": "uar:education/K74FWNJR"
+    },
+    {
+      "id": "uar:education/CBFOHA4B",
+      "name": {
+        "ja": "日本文化科目"
+      },
+      "subCategoryOf": "uar:education/K74FWNJR"
+    },
+    {
+      "id": "uar:education/B3JQULL5",
+      "name": {
+        "ja": "健康・スポーツ科学科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/LOMF6PIL",
+      "name": {
+        "ja": "健康科学科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/XCVNZS7I",
+      "name": {
+        "ja": "理工系教養科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/FYWU7HU5",
+      "name": {
+        "ja": "上級科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/Y2N7LUOC",
+      "name": {
+        "ja": "A類 文化と社会"
+      },
+      "subCategoryOf": "uar:education/FYWU7HU5"
+    },
+    {
+      "id": "uar:education/WIKMSOUV",
+      "name": {
+        "ja": "B類 言語によるコミュニケーション"
+      },
+      "subCategoryOf": "uar:education/FYWU7HU5"
+    },
+    {
+      "id": "uar:education/D7ZABGMS",
+      "name": {
+        "ja": "C類 異文化の理解"
+      },
+      "subCategoryOf": "uar:education/FYWU7HU5"
+    },
+    {
+      "id": "uar:education/FXMDHPBC",
+      "name": {
+        "ja": "D類 現代の科学"
+      },
+      "subCategoryOf": "uar:education/FYWU7HU5"
+    },
+    {
+      "id": "uar:education/PLEWXBFH",
+      "name": {
+        "ja": "E類 健康とスポーツの科学"
+      },
+      "subCategoryOf": "uar:education/FYWU7HU5"
+    },
+    {
+      "id": "uar:education/W62OLBYU",
+      "name": {
+        "ja": "国際科目"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/TMBIGKDA",
+      "name": {
+        "ja": "特別講義"
+      },
+      "subCategoryOf": "uar:education/F7XOZXJW"
+    },
+    {
+      "id": "uar:education/4QMQ7XT4",
+      "name": {
+        "ja": "実践教育科目"
+      }
+    },
+    {
+      "id": "uar:education/XP55JSPI",
+      "name": {
+        "ja": "初年次導入科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/NNAK4A3G",
+      "name": {
+        "ja": "データサイエンス科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/BXZWGUXE",
+      "name": {
+        "ja": "倫理・キャリア教育科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/PXKZGKBB",
+      "name": {
+        "ja": "技術英語科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/4Q6RMC64",
+      "name": {
+        "ja": "産学連携教育科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/QCQ2EJWC",
+      "name": {
+        "ja": "技術者教養科目"
+      },
+      "subCategoryOf": "uar:education/4QMQ7XT4"
+    },
+    {
+      "id": "uar:education/NGVH4A4Z",
+      "name": {
+        "ja": "専門科目"
+      }
+    },
+    {
+      "id": "uar:education/FT4TXJMO",
+      "name": {
+        "ja": "理数基礎科目"
+      },
+      "subCategoryOf": "uar:education/NGVH4A4Z"
+    },
+    {
+      "id": "uar:education/AD4LGWNT",
+      "name": {
+        "ja": "必修科目"
+      },
+      "subCategoryOf": "uar:education/FT4TXJMO"
+    },
+    {
+      "id": "uar:education/MMQPRW5P",
+      "name": {
+        "ja": "選択科目"
+      },
+      "subCategoryOf": "uar:education/FT4TXJMO"
+    },
+    {
+      "id": "uar:education/4NUIY6AA",
+      "name": {
+        "ja": "類共通基礎科目"
+      },
+      "subCategoryOf": "uar:education/NGVH4A4Z"
+    },
+    {
+      "id": "uar:education/EP2LLKV4",
+      "name": {
+        "ja": "必修科目"
+      },
+      "subCategoryOf": "uar:education/4NUIY6AA"
+    },
+    {
+      "id": "uar:education/BFLB7HEA",
+      "name": {
+        "ja": "選択必修科目"
+      },
+      "subCategoryOf": "uar:education/4NUIY6AA"
+    },
+    {
+      "id": "uar:education/FS2YNTNZ",
+      "name": {
+        "ja": "選択科目"
+      },
+      "subCategoryOf": "uar:education/4NUIY6AA"
+    },
+    {
+      "id": "uar:education/WLYPQUEB",
+      "name": {
+        "ja": "自由科目"
+      },
+      "subCategoryOf": "uar:education/4NUIY6AA"
+    },
+    {
+      "id": "uar:education/Z6K3S43B",
+      "name": {
+        "ja": "専門基礎科目"
+      },
+      "subCategoryOf": "uar:education/NGVH4A4Z"
+    },
+    {
+      "id": "uar:education/YSB4JMOU",
+      "name": {
+        "ja": "類専門科目"
+      },
+      "subCategoryOf": "uar:education/NGVH4A4Z"
+    },
+    {
+      "id": "uar:education/RATDGCTQ",
+      "name": {
+        "ja": "必修科目"
+      },
+      "subCategoryOf": "uar:education/YSB4JMOU"
+    },
+    {
+      "id": "uar:education/JQL4E6TE",
+      "name": {
+        "ja": "選択必修科目"
+      },
+      "subCategoryOf": "uar:education/YSB4JMOU"
+    },
+    {
+      "id": "uar:education/IIBWCNBT",
+      "name": {
+        "ja": "選択科目"
+      },
+      "subCategoryOf": "uar:education/YSB4JMOU"
+    },
+    {
+      "id": "uar:education/TZCVU7TC",
+      "name": {
+        "ja": "自由科目"
+      },
+      "subCategoryOf": "uar:education/YSB4JMOU"
+    },
+    {
+      "id": "uar:education/CSC64UHO",
+      "name": {
+        "ja": "国際科目"
+      },
+      "subCategoryOf": "uar:education/YSB4JMOU"
+    },
+    {
+      "id": "uar:education/65QRDIID",
+      "name": {
+        "ja": "専門科目"
+      },
+      "subCategoryOf": "uar:education/NGVH4A4Z"
+    },
+    {
+      "id": "uar:education/HCTZFE6F",
+      "name": {
+        "ja": "必修科目"
+      },
+      "subCategoryOf": "uar:education/65QRDIID"
+    },
+    {
+      "id": "uar:education/NE5WG6EI",
+      "name": {
+        "ja": "選択必修科目"
+      },
+      "subCategoryOf": "uar:education/65QRDIID"
+    },
+    {
+      "id": "uar:education/OEDAWCZN",
+      "name": {
+        "ja": "選択科目"
+      },
+      "subCategoryOf": "uar:education/65QRDIID"
+    },
+    {
+      "id": "uar:education/UKUDMYAQ",
+      "name": {
+        "ja": "自由科目"
+      },
+      "subCategoryOf": "uar:education/65QRDIID"
+    },
+    {
+      "id": "uar:education/ABJCHCAK",
+      "name": {
+        "ja": "国際科目"
+      },
+      "subCategoryOf": "uar:education/65QRDIID"
+    }
+  ]
+}

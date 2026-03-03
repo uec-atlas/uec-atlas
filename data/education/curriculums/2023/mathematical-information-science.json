@@ -1,0 +1,177 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/NPMYBCTV",
+      "name": {
+        "ja": "情報数理工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/OHRPM5VQ",
+      "name": {
+        "ja": "情報数理工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/GLWN7N4I",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/SQTWAVEM",
+      "name": {
+        "ja": "情報数理工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/YW5XKCST",
+        "uar:education/M5YJV2LJ",
+        "uar:education/3PUYEYHF",
+        "uar:education/KZSA3MYE",
+        "uar:education/MI5UR7NO",
+        "uar:education/3UBL4WJO",
+        "uar:education/6EWWNFWC",
+        "uar:education/QTOW6V5U",
+        "uar:education/KLSTYKRS"
+      ]
+    },
+    {
+      "id": "uar:education/HOEP55ZB",
+      "name": {
+        "ja": "情報数理工学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/VWQF7XDD",
+        "uar:education/HJP47SNA",
+        "uar:education/Y3SXRAN5",
+        "uar:education/4B5WPYVJ",
+        "uar:education/UXM4MCTE",
+        "uar:education/MISADQXY",
+        "uar:education/N3EGBWOY"
+      ]
+    },
+    {
+      "id": "uar:education/7EUERQFD",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/5OEBBLMX",
+        "uar:education/VXQQ7O4E",
+        "uar:education/LBDTE64K",
+        "uar:education/ZHFVNDNB",
+        "uar:education/HGWA5EM6",
+        "uar:education/XWYG4SPB",
+        "uar:education/U3L3JASX",
+        "uar:education/BKESTAJR",
+        "uar:education/RKXHIUGV"
+      ]
+    },
+    {
+      "id": "uar:education/KFPZC4KC",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/K4WDGT6C",
+        "uar:education/NRRCN5HV",
+        "uar:education/QD6NKHWV",
+        "uar:education/UFV3QIQC",
+        "uar:education/VMRZKLU2",
+        "uar:education/AFUN4E63",
+        "uar:education/6462SAEC",
+        "uar:education/ROWIAQNS",
+        "uar:education/JEDB4ONE",
+        "uar:education/KWNQ2IFL",
+        "uar:education/S2PGKOQV",
+        "uar:education/E57RA6ZW",
+        "uar:education/KBUAUQPI",
+        "uar:education/ABDPITDJ",
+        "uar:education/CEYZJQOD",
+        "uar:education/P43TGZZA",
+        "uar:education/4ZHORKHQ",
+        "uar:education/BHOHQIWI",
+        "uar:education/HSAHLL4P",
+        "uar:education/Z7BQYK4S",
+        "uar:education/JGKWLJ2K",
+        "uar:education/HSNPDBS4",
+        "uar:education/OPMFFXNS",
+        "uar:education/LY4ZEIQG",
+        "uar:education/QN5ZYVZU",
+        "uar:education/RHCKDUGX",
+        "uar:education/UEGN637V",
+        "uar:education/AV3VPCP6"
+      ]
+    },
+    {
+      "id": "uar:education/N4MSZF5K",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/3UAPGCSA",
+        "uar:education/EES7ANE3",
+        "uar:education/P6X6IQCJ",
+        "uar:education/IYKUFH45",
+        "uar:education/PGCTBA3I",
+        "uar:education/5NX34CCU",
+        "uar:education/L5JZXNJW",
+        "uar:education/47727RAG",
+        "uar:education/534UM65G",
+        "uar:education/AHQTV3BV",
+        "uar:education/S2ZPLXSP",
+        "uar:education/MK4N4JXU"
+      ]
+    },
+    {
+      "id": "uar:education/RAELXVYR",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/ENG6NTDT",
+        "uar:education/PJNLZG4M",
+        "uar:education/WFLY44PU",
+        "uar:education/R2EMBSBD"
+      ]
+    }
+  ]
+}

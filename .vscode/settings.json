@@ -14,9 +14,15 @@
     },
     {
       "fileMatch": [
-        "data/education/curriculums/**/*.json"
+        "data/education/curriculums/**/*.json",
       ],
       "url": "./generated/education_curriculum.schema.json"
+    },
+    {
+      "fileMatch": [
+        "data/education/subject_category.json"
+      ],
+      "url": "./generated/education_subject_category_collection.schema.json"
     },
     {
       "fileMatch": [

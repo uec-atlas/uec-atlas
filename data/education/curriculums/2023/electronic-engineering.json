@@ -1,0 +1,190 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/NODZD7IM",
+      "name": {
+        "ja": "電子工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/HDXVTTBR",
+      "name": {
+        "ja": "電子工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/7P3GWSSK",
+      "name": {
+        "ja": "電子工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/ZMXCTOMF",
+        "uar:education/WK2MWYT2",
+        "uar:education/5FJXSUZC",
+        "uar:education/6H5GB5NH",
+        "uar:education/AWQOYZQY",
+        "uar:education/GHBS6JLE",
+        "uar:education/PUGJWG5T",
+        "uar:education/TAZFQPDJ"
+      ]
+    },
+    {
+      "id": "uar:education/LRYFEJI5",
+      "name": {
+        "ja": "電子工学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/4T3JLN6H",
+        "uar:education/CVBFDGWX",
+        "uar:education/KQWT5ZA6",
+        "uar:education/HZ3NML7G"
+      ]
+    },
+    {
+      "id": "uar:education/I6A2COIS",
+      "name": {
+        "ja": "電子工学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/3CQ5MC5E",
+        "uar:education/CT5LERUK",
+        "uar:education/EOYYK7KX"
+      ]
+    },
+    {
+      "id": "uar:education/OGCQVQLJ",
+      "name": {
+        "ja": "電子工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/YLBV53YL",
+        "uar:education/THWMS32M",
+        "uar:education/J2SWAEQ6",
+        "uar:education/ZLTNP3VQ",
+        "uar:education/T7AIY77Q",
+        "uar:education/4AXFWUFB",
+        "uar:education/7T7GFHJ2",
+        "uar:education/OZ2GZ4OQ",
+        "uar:education/7EGXXZNK",
+        "uar:education/OJ44PIZN",
+        "uar:education/NN2YLOVF",
+        "uar:education/2EB52XZQ",
+        "uar:education/DS4LS6VX",
+        "uar:education/IDL5ZNHJ",
+        "uar:education/OVBLJGKC"
+      ]
+    },
+    {
+      "id": "uar:education/R5GZOSAZ",
+      "name": {
+        "ja": "電子工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/F7GCTY6T",
+        "uar:education/ZWIYRJ33",
+        "uar:education/6PSTJE2G",
+        "uar:education/K7GS233Q",
+        "uar:education/WUD26SHN",
+        "uar:education/2W25VDTW",
+        "uar:education/ATKPHEH6",
+        "uar:education/EB6NHOJK",
+        "uar:education/MY43GZBF",
+        "uar:education/BWCN5BW7",
+        "uar:education/XS4CGIOQ",
+        "uar:education/BJATMZBP",
+        "uar:education/CSZKHXHE",
+        "uar:education/R37QK6SX",
+        "uar:education/YPVLPLTE",
+        "uar:education/5BQREI2W",
+        "uar:education/SDT5RBJI",
+        "uar:education/DBSWOCR2",
+        "uar:education/FLS6WYU3",
+        "uar:education/VKB4G4DS",
+        "uar:education/QQXCIJAF"
+      ]
+    },
+    {
+      "id": "uar:education/7ZO4IP7J",
+      "name": {
+        "ja": "電子工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/OX2Z3PRF",
+        "uar:education/KGBFOYQM",
+        "uar:education/O4I7A5RF",
+        "uar:education/ZQ45YQCH",
+        "uar:education/L3O2YMXT",
+        "uar:education/PJCHQRVC",
+        "uar:education/4TFJJ4KT",
+        "uar:education/L45YSQMT",
+        "uar:education/LROEHL2O",
+        "uar:education/TYXLYDYK",
+        "uar:education/DNUWTLP3",
+        "uar:education/X32SL2N2",
+        "uar:education/YJYBHSDN",
+        "uar:education/V77MMAGQ",
+        "uar:education/JVXLEM7R",
+        "uar:education/QAKEREPS"
+      ]
+    },
+    {
+      "id": "uar:education/2MVIGFFL",
+      "name": {
+        "ja": "電子工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MKMLE24S",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/NCYCAMJV",
+        "uar:education/6IJOWUMV",
+        "uar:education/M2W3A5EX",
+        "uar:education/SQ64FTXS"
+      ]
+    }
+  ]
+}
