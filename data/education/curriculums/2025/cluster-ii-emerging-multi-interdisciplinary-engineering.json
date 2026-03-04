@@ -5,7 +5,7 @@
     {
       "id": "uar:education/I3QKA7DB",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/人文・社会科学科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/人文・社会科学科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -51,7 +51,7 @@
     {
       "id": "uar:education/67QWYFFB",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/言語文化科目/言語文化基礎科目Ⅰ"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅰ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -66,7 +66,7 @@
     {
       "id": "uar:education/P4LT26XE",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/言語文化科目/言語文化応用科目Ⅰ"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅰ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -79,7 +79,7 @@
     {
       "id": "uar:education/VWRXFJVG",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/言語文化科目/言語文化基礎科目Ⅱ"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅱ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -100,7 +100,7 @@
     {
       "id": "uar:education/WACWXNBF",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/言語文化科目/言語文化応用科目Ⅱ"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅱ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -121,7 +121,7 @@
     {
       "id": "uar:education/ZGLNBYWG",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/言語文化科目/言語文化演習科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化演習科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -144,7 +144,7 @@
     {
       "id": "uar:education/HERHR7C2",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/日本語･日本文化科目/日本語"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/日本語･日本文化科目/日本語"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -158,7 +158,7 @@
     {
       "id": "uar:education/RMW7EZFC",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/日本語･日本文化科目/日本文化科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/日本語･日本文化科目/日本文化科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -174,7 +174,7 @@
     {
       "id": "uar:education/3FOF2UQO",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/健康・スポーツ科学科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/健康・スポーツ科学科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -191,7 +191,7 @@
     {
       "id": "uar:education/SLVYDWFK",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/理工系教養科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/理工系教養科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -209,7 +209,7 @@
     {
       "id": "uar:education/M4WPQTXA",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/上級科目/A類文化と社会"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/A類文化と社会"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -239,7 +239,7 @@
     {
       "id": "uar:education/BNZ6FPYM",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/上級科目/B類言語によるコミュニケーション"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/B類言語によるコミュニケーション"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -268,7 +268,7 @@
     {
       "id": "uar:education/F5JL4UVC",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/上級科目/C類異文化の理解"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/C類異文化の理解"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -287,7 +287,7 @@
     {
       "id": "uar:education/KQH4Z7O5",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/上級科目/D類現代の科学"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/D類現代の科学"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -306,7 +306,7 @@
     {
       "id": "uar:education/GPFHZUJP",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/上級科目/E類健康とスポーツの科学"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/E類健康とスポーツの科学"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -325,7 +325,7 @@
     {
       "id": "uar:education/2M45HHLQ",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/国際科目"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/国際科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -350,7 +350,7 @@
     {
       "id": "uar:education/QOFUZF3Q",
       "name": {
-        "ja": "Ⅱ類（融合系） - 総合文化科目/特別講義"
+        "ja": "Ⅱ類(融合系) - 総合文化科目/特別講義"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -363,7 +363,7 @@
     {
       "id": "uar:education/VXRMNEQG",
       "name": {
-        "ja": "Ⅱ類（融合系） - 実践教育科目/初年次導入科目"
+        "ja": "Ⅱ類(融合系) - 実践教育科目/初年次導入科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -379,7 +379,7 @@
     {
       "id": "uar:education/ELSHKEIT",
       "name": {
-        "ja": "Ⅱ類（融合系） - 実践教育科目/データサイエンス科目"
+        "ja": "Ⅱ類(融合系) - 実践教育科目/データサイエンス科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -392,7 +392,7 @@
     {
       "id": "uar:education/6U6G6EMD",
       "name": {
-        "ja": "Ⅱ類（融合系） - 実践教育科目/倫理・キャリア教育科目"
+        "ja": "Ⅱ類(融合系) - 実践教育科目/倫理・キャリア教育科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",
@@ -415,7 +415,7 @@
     {
       "id": "uar:education/GBCU4MFX",
       "name": {
-        "ja": "Ⅱ類（融合系） - 実践教育科目/技術英語科目"
+        "ja": "Ⅱ類(融合系) - 実践教育科目/技術英語科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/AEFZKYAV",

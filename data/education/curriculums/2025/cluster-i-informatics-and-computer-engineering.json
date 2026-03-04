@@ -5,7 +5,7 @@
     {
       "id": "uar:education/BDTBLW6C",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/人文・社会科学科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/人文・社会科学科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -51,7 +51,7 @@
     {
       "id": "uar:education/IHC7OVMO",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/言語文化科目/言語文化基礎科目Ⅰ"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅰ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -66,7 +66,7 @@
     {
       "id": "uar:education/OUYT56GW",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/言語文化科目/言語文化応用科目Ⅰ"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅰ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -79,7 +79,7 @@
     {
       "id": "uar:education/N35FZASH",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/言語文化科目/言語文化基礎科目Ⅱ"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅱ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -100,7 +100,7 @@
     {
       "id": "uar:education/UN4YJWDU",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/言語文化科目/言語文化応用科目Ⅱ"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅱ"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -121,7 +121,7 @@
     {
       "id": "uar:education/VBNJXE2Y",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/言語文化科目/言語文化演習科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/言語文化科目/言語文化演習科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -144,7 +144,7 @@
     {
       "id": "uar:education/G3ITFPVR",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/日本語･日本文化科目/日本語"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/日本語･日本文化科目/日本語"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -158,7 +158,7 @@
     {
       "id": "uar:education/XTWN55JO",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/日本語･日本文化科目/日本文化科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/日本語･日本文化科目/日本文化科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -174,7 +174,7 @@
     {
       "id": "uar:education/KF7TMVTY",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/健康・スポーツ科学科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/健康・スポーツ科学科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -191,7 +191,7 @@
     {
       "id": "uar:education/BPOHSC7W",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/理工系教養科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/理工系教養科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -209,7 +209,7 @@
     {
       "id": "uar:education/CEO5DNYS",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/上級科目/A類文化と社会"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/上級科目/A類文化と社会"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -239,7 +239,7 @@
     {
       "id": "uar:education/EZJZ63Q2",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/上級科目/B類言語によるコミュニケーション"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/上級科目/B類言語によるコミュニケーション"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -268,7 +268,7 @@
     {
       "id": "uar:education/MKR4DET6",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/上級科目/C類異文化の理解"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/上級科目/C類異文化の理解"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -287,7 +287,7 @@
     {
       "id": "uar:education/ANGSXN4G",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/上級科目/D類現代の科学"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/上級科目/D類現代の科学"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -306,7 +306,7 @@
     {
       "id": "uar:education/QAIN6U2M",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/上級科目/E類健康とスポーツの科学"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/上級科目/E類健康とスポーツの科学"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -325,7 +325,7 @@
     {
       "id": "uar:education/ZBCV3HEY",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/国際科目"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/国際科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -350,7 +350,7 @@
     {
       "id": "uar:education/F4JFXTPT",
       "name": {
-        "ja": "Ⅰ類（情報系） - 総合文化科目/特別講義"
+        "ja": "Ⅰ類(情報系) - 総合文化科目/特別講義"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -363,7 +363,7 @@
     {
       "id": "uar:education/2UVGGGWH",
       "name": {
-        "ja": "Ⅰ類（情報系） - 実践教育科目/初年次導入科目"
+        "ja": "Ⅰ類(情報系) - 実践教育科目/初年次導入科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -379,7 +379,7 @@
     {
       "id": "uar:education/UB7CUKKG",
       "name": {
-        "ja": "Ⅰ類（情報系） - 実践教育科目/データサイエンス科目"
+        "ja": "Ⅰ類(情報系) - 実践教育科目/データサイエンス科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -392,7 +392,7 @@
     {
       "id": "uar:education/HLUUHF6L",
       "name": {
-        "ja": "Ⅰ類（情報系） - 実践教育科目/倫理・キャリア教育科目"
+        "ja": "Ⅰ類(情報系) - 実践教育科目/倫理・キャリア教育科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",
@@ -415,7 +415,7 @@
     {
       "id": "uar:education/UT2IJSKP",
       "name": {
-        "ja": "Ⅰ類（情報系） - 実践教育科目/技術英語科目"
+        "ja": "Ⅰ類(情報系) - 実践教育科目/技術英語科目"
       },
       "type": "CourseCategoryMapping",
       "targetOrganization": "uar:organizations/5TDWVJAF",

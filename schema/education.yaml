@@ -33,17 +33,15 @@ classes:
       succeededBy:
         description: "後継科目"
         range: Course
-      prerequisites:
-        description: "履修要件"
-        multivalued: true
-        any_of:
-          - range: Course
-          - range: Checkpoint
       codeMappings:
         description: "対応する科目コード"
         range: CodeMapping
         multivalued: true
         inlined: true
+      prerequisites:
+        description: "履修要件"
+        multivalued: true
+        range: CoursePrerequisite
 
   CodeMapping:
     attributes:
@@ -55,6 +53,19 @@ classes:
         description: "対応する入学年度"
         range: integer
         multivalued: true
+
+  CoursePrerequisite:
+    description: "科目履修要件"
+    attributes:
+      year:
+        description: "要件が適用される入学年度"
+        range: integer
+      entries:
+        description: "要件"
+        multivalued: true
+        any_of:
+          - range: Course
+          - range: Checkpoint
 
   Lecture:
     is_a: NamedThingWithId
