@@ -1,7 +1,9 @@
 import json
 import os
 from pathlib import Path
+import re
 
+from numpy.char import isdigit
 import pandas as pd
 
 from scripts.gen_id import generate_id
@@ -11,6 +13,19 @@ from .course_category import find_course_category_by_fragments, load_course_cate
 from .extract_handbook import extract_handbook_tables
 from .organizations import find_organization_by_name_pattern, get_clusters, get_programs, load_organizations
 from .utils import normalize_handbook_name
+
+
+def get_val(row, col, multivalued=False):
+    val = row[col]
+    if isinstance(val, pd.Series):
+        if multivalued:
+            return [str(v).strip() for v in val if not pd.isna(v)]
+        else:
+            return str(val.iloc[0]).strip()
+    result = str(val).strip()
+    if multivalued:
+        return [result] if result and result != "nan" else []
+    return result
 
 
 def generate_curriculum(year: int, input_path: str):
@@ -28,33 +43,28 @@ def generate_curriculum(year: int, input_path: str):
     output_files_per_organization: dict[str, tuple[str, list]] = {}
     outdir = Path(f"data/education/curriculums/{year}")
     outdir.mkdir(parents=True, exist_ok=True)
-    existing_ids_per_output_file: dict[str, dict[str, str]] = {}
 
-    def get_existing_entry_ids(output_file: str) -> dict[str, str]:
-        if output_file in existing_ids_per_output_file:
-            return existing_ids_per_output_file[output_file]
+    def get_or_init_organization_entries(org) -> list:
+        if org.id in output_files_per_organization:
+            return output_files_per_organization[org.id][1]
 
-        path = outdir / f"{output_file}.json"
-        ids_by_category: dict[str, str] = {}
+        path = outdir / f"{org.file_basename}.json"
+        entries = []
         if path.exists():
             try:
                 with open(path, "r", encoding="utf-8") as f:
                     payload = json.load(f)
-                for entry in payload.get("entries", []):
-                    category_id = entry.get("category")
-                    entry_id = entry.get("id")
-                    if category_id and entry_id:
-                        ids_by_category[str(category_id)] = str(entry_id)
+                entries = payload.get("entries", [])
             except Exception as e:
                 print(
                     f"Warning: Failed to load existing curriculum file {path}: {e}")
 
-        existing_ids_per_output_file[output_file] = ids_by_category
-        return ids_by_category
+        output_files_per_organization[org.id] = (org.file_basename, entries)
+        return entries
 
     for table in course_list_tables:
         print(
-            f"Table {table.attrs['title']} at {table.attrs.get('page', 'unknown')}")
+            f"Table {table.attrs.get('title', 'unknown')} at {table.attrs.get('page', 'unknown')}")
         target_organizations = []
         if "総合文化科目" in table.attrs["title"] and "昼間コース" in table.attrs["title"]:
             target_organizations = clusters
@@ -65,18 +75,6 @@ def generate_curriculum(year: int, input_path: str):
 
         for _, row in table.iterrows():
             row_target_organizations = target_organizations
-
-            def get_val(row, col, multivalued=False):
-                val = row[col]
-                if isinstance(val, pd.Series):
-                    if multivalued:
-                        return [str(v).strip() for v in val if not pd.isna(v)]
-                    else:
-                        return str(val.iloc[0]).strip()
-                result = str(val).strip()
-                if multivalued:
-                    return [result] if result and result != "nan" else []
-                return result
 
             code = get_val(row, "科目番号")
             course = course_registry.find_course_by_code(year, code)
@@ -122,19 +120,14 @@ def generate_curriculum(year: int, input_path: str):
                 continue
 
             for org in row_target_organizations:
-                if org.id not in output_files_per_organization:
-                    output_files_per_organization[
-                        org.id] = (org.file_basename, [])
+                curriculum_entries = get_or_init_organization_entries(org)
 
-                output_file, curriculum_entries = output_files_per_organization[org.id]
-                existing_ids = get_existing_entry_ids(output_file)
-
-                entry = next((entry for entry in curriculum_entries if entry.get(
-                    "category") == category.id), None)
+                entry = next((entry for entry in curriculum_entries if entry.get("type") == "CourseCategoryMapping" and entry.get(
+                    "category") == category.id and entry.get("targetOrganization") == org.id), None)
 
                 if entry is None:
                     entry = {
-                        "id": existing_ids.get(category.id, generate_id("uar:education/")),
+                        "id": generate_id("uar:education/"),
                         "name": {
                             "ja": f"{org.name} - {category_fragments_str}"
                         },
@@ -144,7 +137,244 @@ def generate_curriculum(year: int, input_path: str):
                         "courses": []
                     }
                     curriculum_entries.append(entry)
-                entry["courses"].append(course.id)
+
+                if course.id not in entry["courses"]:
+                    entry["courses"].append(course.id)
+
+    for table in tables:
+        # 2年次終了時審査
+        if all(col in table.columns for col in ["授業科目区分", "修得すべき単位", "審査対象科目"]):
+            text = ""
+            for _, row in table.iterrows():
+                text += get_val(row, "審査対象科目")
+
+            category_names = [
+                category.name for category in load_course_categories().values() if category.name != "必修科目"]
+            category_pattern = '|'.join(re.escape(name)
+                                        for name in category_names)
+
+            # 1. 前処理: 「18単位(Ⅰ類)理数基礎科目」のように科目が後ろにある場合、前に移動させて順番を統一する
+            text = re.sub(
+                fr"(\d+単位(?:\([^)]*?類[^)]*?\))?)[ \t]*({category_pattern})", r"\2 \1", text)
+
+            # 2. 「科目名」と「単位（類）」のキーワードだけを上から順番にリストアップ
+            tokens = [m.group(0) for m in re.finditer(
+                fr"{category_pattern}|\d+単位(?:\([^)]*?類[^)]*?\))?", text)]
+
+            current_subj = None
+            for token in tokens:
+                if token in category_names:
+                    current_subj = token  # 科目名なら記憶を上書き
+                elif current_subj:
+                    # 単位なら出力 (例: "18単位(Ⅰ類)" -> "18, Ⅰ類",  "4単位" -> "4" と文字を整える)
+                    val = token.replace(
+                        '単位(', ', ').replace('単位', '').replace(')', '')
+                    credits = int(re.search(r"\d+", val).group(0))
+                    category_fragments = [current_subj]
+                    if current_subj == "理数基礎科目" or current_subj == "類共通基礎科目":
+                        category_fragments.append("必修科目")
+                    category = find_course_category_by_fragments(
+                        category_fragments)
+                    if category is None:
+                        print(
+                            f"Warning: No category found for fragments {category_fragments} in 2nd year checkpoint ({current_subj})")
+                        continue
+                    target_organizations = []
+                    if "Ⅰ類" in val:
+                        target_organizations.append(
+                            find_organization_by_name_pattern("Ⅰ類"))
+                    if "Ⅱ類" in val:
+                        target_organizations.append(
+                            find_organization_by_name_pattern("Ⅱ類"))
+                    if "Ⅲ類" in val:
+                        target_organizations.append(
+                            find_organization_by_name_pattern("Ⅲ類"))
+                    if not target_organizations:
+                        target_organizations = clusters
+                    for org in target_organizations:
+                        curriculum_entries = get_or_init_organization_entries(
+                            org)
+
+                        entry = next((entry for entry in curriculum_entries if entry.get(
+                            "type") == "Checkpoint" and entry.get("targetOrganization") == org.id
+                            and entry["name"]["ja"] == "2年次終了時審査"), None)
+
+                        if entry is None:
+                            entry = {
+                                "id": generate_id("uar:education/"),
+                                "name": {
+                                    "ja": f"2年次終了時審査"
+                                },
+                                "type": "Checkpoint",
+                                "targetOrganization": org.id,
+                                "requiredCategories": []
+                            }
+                            curriculum_entries.append(entry)
+
+                        if any(
+                                req["minCredits"] == credits
+                                and set(req.get("targetCategories", [])) == set(c.id for c in [category])
+                                for req in entry["requiredCategories"]):
+                            continue
+
+                        new_entry = {
+                            "minCredits": credits,
+                            "targetCategories": [category.id]
+                        }
+
+                        entry["requiredCategories"].append(new_entry)
+
+            # 卒業研究着手審査基準(昼間)
+        if all(col in table.columns for col in ["授業科目区分", "修得すべき単位", "審査対象科目・要件等"]):
+            for _, row in table.iterrows():
+                credits = get_val(row, "修得すべき単位")
+                credits = int(credits) if isdigit(credits) else 0
+                notes = get_val(row, "審査対象科目・要件等")
+
+                category_fragments = get_val(
+                    row, "授業科目区分", multivalued=True)
+                category_fragments = [
+                    normalize_handbook_name(f) for f in category_fragments]
+                category_fragments_str = "/".join(category_fragments)
+                category_fragments = [f.split("(")[0].strip()
+                                      for f in category_fragments]
+                if "・" in category_fragments[-1] and "健康・スポーツ科学科目" not in category_fragments[-1]:
+                    category_fragments = category_fragments[-1].split("・")
+                else:
+                    category_fragments = [category_fragments[-1]]
+                categories = [find_course_category_by_fragments(
+                    [f]) for f in category_fragments]
+                categories = [c for c in categories if c is not None]
+                if not categories:
+                    if "必要総単位数" in category_fragments_str:
+                        credits = int(re.search(r"(\d+)単位以上を修得",
+                                      category_fragments_str).group(1))
+                    else:
+                        print(
+                            f"Warning: No category found for fragments {category_fragments_str} in graduation requirements ({get_val(row, '授業科目区分')})")
+                        continue
+
+                target_organizations = []
+                if "総合文化科目" in category_fragments_str or "実践教育科目" in category_fragments_str:
+                    target_organizations = clusters
+                elif "プログラム" in category_fragments_str:
+                    program_name = re.search(
+                        r"([^\/]+プログラム)", category_fragments_str).group(1)
+                    target_organizations = [
+                        find_organization_by_name_pattern(program_name)]
+                elif "Ⅰ類" in category_fragments_str or "Ⅱ類" in category_fragments_str or "Ⅲ類" in category_fragments_str:
+                    cluster_names = [m.group(0) for m in re.finditer(
+                        r"(Ⅰ類|Ⅱ類|Ⅲ類)", category_fragments_str)]
+
+                    target_organizations = [
+                        find_organization_by_name_pattern(cluster_name) for cluster_name in cluster_names]
+
+                for org in target_organizations:
+                    curriculum_entries = get_or_init_organization_entries(
+                        org)
+
+                    entry = next((entry for entry in curriculum_entries if entry.get(
+                        "type") == "Checkpoint" and entry.get("targetOrganization") == org.id
+                        and entry["name"]["ja"] == "卒業研究着手審査基準"), None)
+
+                    if entry is None:
+                        entry = {
+                            "id": generate_id("uar:education/"),
+                            "name": {
+                                "ja": f"卒業研究着手審査基準"
+                            },
+                            "type": "Checkpoint",
+                            "targetOrganization": org.id,
+                            "requiredCategories": []
+                        }
+                        curriculum_entries.append(entry)
+
+                    if any(
+                        req["minCredits"] == credits
+                            and req["description"] == notes
+                            and set(req.get("targetCategories", [])) == set(c.id for c in categories)
+                            for req in entry["requiredCategories"]):
+                        continue
+
+                    new_entry = {
+                        "minCredits": credits,
+                        "description": notes
+                    }
+
+                    if categories:
+                        new_entry["targetCategories"] = [
+                            c.id for c in categories]
+
+                    entry["requiredCategories"].append(new_entry)
+
+        # 卒業所要単位(昼間)
+        if "類区分プログラム" in table.columns and len(table.columns) == 18:
+            program_names = [
+                f"{name.split(')')[-1]}プログラム" for name in table.columns[3:]]
+            for _, row in table.iterrows():
+                category_fragments = get_val(row, "類区分プログラム", multivalued=True)
+                category_fragments = list(dict.fromkeys(
+                    [normalize_handbook_name(f) for f in category_fragments]))
+                category_fragments_str = "/".join(category_fragments)
+                if "小計" in category_fragments or "合計" in category_fragments:
+                    continue
+                category_fragments = [
+                    f"{f}科目" if any(f == flag for flag in ["必修", "選択必修", "選択"]) else f for f in category_fragments
+                ]
+                if "総合文化科目" in category_fragments_str:
+                    category_fragments = category_fragments[-1:]
+                category = find_course_category_by_fragments(
+                    category_fragments)
+                if category is None:
+                    print(
+                        f"Warning: No category found for fragments {category_fragments} in course list ({get_val(row, '類区分プログラム')})")
+                    continue
+
+                credits = row.iloc[3:]
+
+                for program_name, credit in zip(program_names, credits):
+                    if credit and credit != "nan":
+                        org = find_organization_by_name_pattern(program_name)
+                        if org is None:
+                            print(
+                                f"Warning: No organization found for program name {program_name} in course list ({get_val(row, '類区分プログラム')})")
+                            continue
+
+                        curriculum_entries = get_or_init_organization_entries(
+                            org)
+
+                        entry = next((entry for entry in curriculum_entries if entry.get(
+                            "type") == "Checkpoint" and entry.get("targetOrganization") == org.id
+                            and entry["name"]["ja"] == "卒業所要単位"), None)
+
+                        if entry is None:
+                            entry = {
+                                "id": generate_id("uar:education/"),
+                                "name": {
+                                    "ja": f"卒業所要単位"
+                                },
+                                "type": "Checkpoint",
+                                "targetOrganization": org.id,
+                                "requiredCategories": []
+                            }
+                            curriculum_entries.append(entry)
+
+                        if credit == "-":
+                            continue
+                        credit = int(credit)
+
+                        if any(
+                                req["minCredits"] == credit
+                            and set(req.get("targetCategories", [])) == set(c.id for c in [category])
+                                for req in entry["requiredCategories"]):
+                            continue
+
+                        new_entry = {
+                            "minCredits": credit,
+                            "targetCategories": [category.id]
+                        }
+
+                        entry["requiredCategories"].append(new_entry)
 
     for (output_file, curriculum_entries) in output_files_per_organization.values():
         with open(outdir / f"{output_file}.json", "w", encoding="utf-8") as f:

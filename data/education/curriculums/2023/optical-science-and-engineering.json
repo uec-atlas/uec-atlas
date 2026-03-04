@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/GEXJYCOF",
+      "id": "uar:education/ZB3F7XZM",
       "name": {
         "ja": "光工学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/MZW7RRGK",
+      "id": "uar:education/HABVU7HM",
       "name": {
         "ja": "光工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/SZDLWCET",
+      "id": "uar:education/DH43XGCO",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "uar:education/OJATFWTS",
+      "id": "uar:education/EO4NNSV6",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "uar:education/MUG7JDRH",
+      "id": "uar:education/E353L47F",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/IY56WRPU",
+      "id": "uar:education/FX7VS6CK",
       "name": {
         "ja": "光工学プログラム - 類専門科目/必修科目"
       },
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "uar:education/JXWITM77",
+      "id": "uar:education/DVIXKFGV",
       "name": {
         "ja": "光工学プログラム - 類専門科目/選択科目"
       },
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": "uar:education/7HWAY3YZ",
+      "id": "uar:education/SQXPFWGS",
       "name": {
         "ja": "光工学プログラム - 類専門科目/自由科目"
       },
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "uar:education/EEOWJEYB",
+      "id": "uar:education/XDIF4S2A",
       "name": {
         "ja": "光工学プログラム - 類専門科目/国際科目"
       },
@@ -180,6 +180,146 @@
         "uar:education/RV33IGF2",
         "uar:education/GHTDFD5S",
         "uar:education/KPJJJP4W"
+      ]
+    },
+    {
+      "id": "uar:education/ZQ6SGRNK",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "requiredCategories": [
+        {
+          "minCredits": 0,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目10科目の22単位のうち、16単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに光工学実験第一及び第二の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA",
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/VPE5ZMJ5",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 34,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

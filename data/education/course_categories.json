@@ -368,6 +368,12 @@
         "ja": "国際科目"
       },
       "subCategoryOf": "uar:education/65QRDIID"
+    },
+    {
+      "id": "uar:education/7YNQFIBT",
+      "name": {
+        "ja": "共通単位"
+      }
     }
   ]
 }

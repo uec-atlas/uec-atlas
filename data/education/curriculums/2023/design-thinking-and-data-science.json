@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/EM7YTAYK",
+      "id": "uar:education/2UJ5P3DP",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/WSFK2TJI",
+      "id": "uar:education/VWBULMKY",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/B7UH7Q25",
+      "id": "uar:education/NJL7GGTV",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類共通基礎科目/必修科目"
       },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "uar:education/WGWZAVEL",
+      "id": "uar:education/OIM5RRLO",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/OPIQLAR5",
+      "id": "uar:education/N27CUL6V",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/必修科目"
       },
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": "uar:education/Z7GZ5EA4",
+      "id": "uar:education/FTVYDNOU",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/選択科目"
       },
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "id": "uar:education/BDKO4YIG",
+      "id": "uar:education/264U5QR7",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/自由科目"
       },
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "uar:education/AD4H4GU3",
+      "id": "uar:education/HTNWAX6O",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/国際科目"
       },
@@ -173,6 +173,152 @@
         "uar:education/PWERWW7G",
         "uar:education/CUTCUPVX",
         "uar:education/OWXZO47H"
+      ]
+    },
+    {
+      "id": "uar:education/W3JLIVG3",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/7PMAEBVH",
+      "requiredCategories": [
+        {
+          "minCredits": 17,
+          "description": "類共通基礎科目の必修科目10科目の17単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "description": "プログラミング言語実験及びデータサイエンス実験の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 101,
+          "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/F2UBF6RE",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/7PMAEBVH",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 17,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 16,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 7,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

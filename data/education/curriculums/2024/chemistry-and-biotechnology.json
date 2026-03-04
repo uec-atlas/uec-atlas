@@ -3,7 +3,7 @@
   "year": 2024,
   "entries": [
     {
-      "id": "uar:education/YBRLPNMI",
+      "id": "uar:education/FJLGKGIW",
       "name": {
         "ja": "化学生命工学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/XQERR7OW",
+      "id": "uar:education/SSH62T42",
       "name": {
         "ja": "化学生命工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/HNBEPC6U",
+      "id": "uar:education/VWH2BHCN",
       "name": {
         "ja": "化学生命工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "uar:education/HZWZY7AJ",
+      "id": "uar:education/SYQJY5LC",
       "name": {
         "ja": "化学生命工学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": "uar:education/F6XITR2B",
+      "id": "uar:education/TMAO5LK5",
       "name": {
         "ja": "化学生命工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/F6UN2YGS",
+      "id": "uar:education/I6DQN3CA",
       "name": {
         "ja": "化学生命工学プログラム - 類専門科目/必修科目"
       },
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "uar:education/KIVPVM3N",
+      "id": "uar:education/JO6LAQEU",
       "name": {
         "ja": "化学生命工学プログラム - 類専門科目/選択必修科目"
       },
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "uar:education/4BMV72ZC",
+      "id": "uar:education/LQVBYEUV",
       "name": {
         "ja": "化学生命工学プログラム - 類専門科目/選択科目"
       },
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "id": "uar:education/VUJBAWIY",
+      "id": "uar:education/D2ITKSQP",
       "name": {
         "ja": "化学生命工学プログラム - 類専門科目/自由科目"
       },
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "id": "uar:education/JAFLFWEP",
+      "id": "uar:education/XVPBMWKJ",
       "name": {
         "ja": "化学生命工学プログラム - 類専門科目/国際科目"
       },
@@ -197,6 +197,158 @@
         "uar:education/GX4O3MZ4",
         "uar:education/6NO7UDYM",
         "uar:education/7O6XHJEC"
+      ]
+    },
+    {
+      "id": "uar:education/GHB6REAH",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "requiredCategories": [
+        {
+          "minCredits": 0,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目10科目の21単位のうち、16単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに化学生命工学実験第一及び第二の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA",
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/XIWDHLKX",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/O757DEDB",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 15,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 32,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 5,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

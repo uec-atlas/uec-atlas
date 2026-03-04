@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/MTRY3I5W",
+      "id": "uar:education/I4C3S64G",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/LKFRKC2C",
+      "id": "uar:education/TX55XZ2J",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/4MZUIDRP",
+      "id": "uar:education/AAHOE5PH",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "uar:education/KR6P646Q",
+      "id": "uar:education/LO4NPYRE",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "uar:education/NAQJ5GXN",
+      "id": "uar:education/TFSE4TWO",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/自由科目"
       },
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "id": "uar:education/FYMBNV2D",
+      "id": "uar:education/X3ND3FOW",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/必修科目"
       },
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": "uar:education/BMPISLD3",
+      "id": "uar:education/3PULLHRS",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択必修科目"
       },
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": "uar:education/FBIF6LHH",
+      "id": "uar:education/OSBQGPRG",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択科目"
       },
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": "uar:education/LHQ7SD64",
+      "id": "uar:education/7ITNUEM4",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/自由科目"
       },
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "id": "uar:education/IOCJKBRD",
+      "id": "uar:education/7EHGXV77",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/国際科目"
       },
@@ -190,6 +190,158 @@
         "uar:education/MVPXUIYT",
         "uar:education/PWFPSP7W",
         "uar:education/22SX2NW3"
+      ]
+    },
+    {
+      "id": "uar:education/N2N4CFI7",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "requiredCategories": [
+        {
+          "minCredits": 21,
+          "description": "類共通基礎科目の全必修科目10科目のうち、9科目以上の単位を修得し、かつ、必修科目及び選択必修科目のうち、21単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "description": "電子情報学実験A及び電子情報学実験B1並びにB2の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/NQPQZBGY",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 22,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 10,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 1,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

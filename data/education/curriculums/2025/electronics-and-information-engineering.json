@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/BI6WBRIX",
+      "id": "uar:education/3GDRNBEE",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/FIR6N5BK",
+      "id": "uar:education/XSN24CI6",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/TI4U4C4K",
+      "id": "uar:education/XGXWKBQO",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "uar:education/D5RXF5BD",
+      "id": "uar:education/OBZWWGKZ",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "uar:education/SR3FHI33",
+      "id": "uar:education/W5LC5O4W",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/自由科目"
       },
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "id": "uar:education/BL6IULZF",
+      "id": "uar:education/UPVGEASG",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/必修科目"
       },
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": "uar:education/JBPIHXNI",
+      "id": "uar:education/YOKKKKFX",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択必修科目"
       },
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": "uar:education/QZ4HA7DF",
+      "id": "uar:education/YC6XRSOM",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択科目"
       },
@@ -141,7 +141,208 @@
         "uar:education/QDU42EDB",
         "uar:education/FVY6EPU2",
         "uar:education/FSPR5DKV",
-        "uar:education/MIS5OTQQ"
+        "uar:education/MIS5OTQQ",
+        "uar:education/QBQ2BUSK",
+        "uar:education/3VRV35QO",
+        "uar:education/QDG6HCEF",
+        "uar:education/NYOWLG6S",
+        "uar:education/JRD5W447",
+        "uar:education/DFV2WGBH",
+        "uar:education/KMCBFQTC",
+        "uar:education/RTK6BKFD",
+        "uar:education/2YCXHQRY",
+        "uar:education/YHBXGSLB",
+        "uar:education/IVN4KU5X",
+        "uar:education/EX7O3ZCY"
+      ]
+    },
+    {
+      "id": "uar:education/U4KF3SEW",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/ZFYTTNGZ",
+        "uar:education/NYOWLG6S",
+        "uar:education/SE6JPKTD",
+        "uar:education/ZCFRH7I5",
+        "uar:education/42IYNZSY",
+        "uar:education/UKO655OI",
+        "uar:education/4SIRNC4J",
+        "uar:education/IV2B37NK",
+        "uar:education/MKVPIXC2",
+        "uar:education/AWKDU3EU",
+        "uar:education/7NEBKFL5"
+      ]
+    },
+    {
+      "id": "uar:education/L4A5P7IB",
+      "name": {
+        "ja": "電子情報学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/KENSB4VA",
+        "uar:education/MVPXUIYT",
+        "uar:education/PWFPSP7W",
+        "uar:education/22SX2NW3"
+      ]
+    },
+    {
+      "id": "uar:education/7GIWIUNL",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "requiredCategories": [
+        {
+          "minCredits": 21,
+          "description": "類共通基礎科目の全必修科目10科目のうち、9科目以上の単位を修得し、かつ、必修科目及び選択必修科目のうち、21単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "description": "電子情報学実験A及び電子情報学実験B1並びにB2の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/KZNO5KUY",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/FBZBS5JG",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 22,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 10,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 1,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

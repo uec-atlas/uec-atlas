@@ -3,7 +3,7 @@
   "year": 2024,
   "entries": [
     {
-      "id": "uar:education/TWDNM5YU",
+      "id": "uar:education/6VS7KALQ",
       "name": {
         "ja": "機械システムプログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/LSYSMA3B",
+      "id": "uar:education/J2IGWXEV",
       "name": {
         "ja": "機械システムプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/TPUF3MWF",
+      "id": "uar:education/N7OXK3PW",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/必修科目"
       },
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "uar:education/VOZILF3S",
+      "id": "uar:education/33VECN3K",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/選択必修科目"
       },
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "uar:education/OY27W3WK",
+      "id": "uar:education/FNYQNKJ6",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/J4MGGXJX",
+      "id": "uar:education/MEA6HDY3",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/必修科目"
       },
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "uar:education/LHZXSTPH",
+      "id": "uar:education/URVGHBXF",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/選択必修科目"
       },
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "uar:education/PJ4XKRXU",
+      "id": "uar:education/RO4IATO6",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/選択科目"
       },
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "uar:education/OTU3MKCO",
+      "id": "uar:education/DWDJDI2J",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/自由科目"
       },
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": "uar:education/UNGNJVMI",
+      "id": "uar:education/LRAFK2MC",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/国際科目"
       },
@@ -208,6 +208,152 @@
       "courses": [
         "uar:education/O772ARVP",
         "uar:education/SJYGKOQ2"
+      ]
+    },
+    {
+      "id": "uar:education/7XZA5FZC",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/M6PLREDB",
+      "requiredCategories": [
+        {
+          "minCredits": 0,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目9科目の21単位のうち、16単位以上の単位を修得していること。類専門科目のメカノデザイン並びに知能機械工学基礎実験第一及び第二並びにマシンデザインA及びBの単位を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA",
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/2WGKANI5",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/M6PLREDB",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 13,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 9,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 31,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 9,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

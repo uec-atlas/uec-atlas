@@ -1,5 +1,6 @@
 
 import argparse
+import re
 
 from .extract_handbook import extract_handbook_tables
 from .gen_curriculum import generate_curriculum
@@ -14,6 +15,8 @@ if __name__ == "__main__":
     parser.add_argument("--input", required=True,
                         help="Path to pkl file containing DataFrames")
     args = parser.parse_args()
+    if not args.year:
+        args.year = int(re.search(r"(\d{4})", args.input).group(1))
 
     print("Generating course registry...")
     registry = generate_course_registry(

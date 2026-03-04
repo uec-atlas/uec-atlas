@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/LLBEZEUI",
+      "id": "uar:education/ALHLDMAQ",
       "name": {
         "ja": "経営・社会情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/VAJ56L34",
+      "id": "uar:education/7I5NNXBN",
       "name": {
         "ja": "経営・社会情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/KONCZ2Y5",
+      "id": "uar:education/EYR6ZEJF",
       "name": {
         "ja": "経営・社会情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/F3WSYW3A",
+      "id": "uar:education/7MCNABEF",
       "name": {
         "ja": "経営・社会情報学プログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/GBT7OYTE",
+      "id": "uar:education/OZCFQP6Q",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/必修科目"
       },
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "id": "uar:education/Q5DZ3TYW",
+      "id": "uar:education/KQKHCLJU",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/選択科目"
       },
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": "uar:education/CKFHWMRY",
+      "id": "uar:education/MZFFNSSC",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/自由科目"
       },
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "uar:education/2NTSLMQK",
+      "id": "uar:education/C7HDUAIP",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/国際科目"
       },
@@ -166,6 +166,152 @@
         "uar:education/HTG4TKI2",
         "uar:education/FNZ3OXT7",
         "uar:education/7IIHTHEP"
+      ]
+    },
+    {
+      "id": "uar:education/IGLF35MO",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "requiredCategories": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "description": "プログラミング言語実験及び経営・社会情報学実験の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 101,
+          "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/4SJT4T6A",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/6BHVGRQD",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 15,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 24,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 7,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

@@ -141,15 +141,18 @@ classes:
         inlined: true
 
   CategoryRequirement:
-    description: "区分ごとの単位数・科目数要件"
+    description: "単位数要件"
     attributes:
-      targetCategory:
-        description: "対象区分"
+      targetCategories:
+        description: "対象科目区分(ない場合は全区分対象)"
         range: CourseCategory
-        required: true
+        multivalued: true
       minCredits:
         description: "最低単位数"
         range: integer
+      description:
+        description: "要件の説明"
+        range: string
 
 slots:
   subCategoryOf:

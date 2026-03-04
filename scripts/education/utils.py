@@ -20,6 +20,7 @@ def normalize_handbook_name(name: str) -> str:
     name = re.sub(r"(?<![a-zA-Z])[IVX]+(?![a-zA-Z])", replace_roman, name)
     name = re.sub(r"([a-zA-Z])([\u2160-\u216F])", r"\1 \2", name)
     name = re.sub(r"([a-z])([A-Z])", r"\1 \2", name)
+    name = name.replace("（", "(").replace("）", ")")
     name = re.sub(r"\s+", " ", name)
     return name.strip()
 

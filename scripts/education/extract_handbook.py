@@ -1,4 +1,4 @@
-from .extract_tables import extract_tables
+from .extract_tables import extract_tables, merge_tables
 from .utils import canonicalize_subject_name
 import pickle
 import os
@@ -78,7 +78,8 @@ def extract_handbook_tables(year: int, input_path: str) -> list[pd.DataFrame]:
     if output.exists():
         return pickle.loads(output.read_bytes())
 
-    tables = extract_tables(input_path, None, load_handbook_rotations(year))
+    tables = extract_tables(
+        input_path, None, load_handbook_rotations(year))
 
     final_tables = []
     corr_dir = Path(__file__).parent / "corrections"
@@ -95,6 +96,11 @@ def extract_handbook_tables(year: int, input_path: str) -> list[pd.DataFrame]:
                     final_tables.append(csv_df)
                 continue
         final_tables.append(table)
+
+    final_tables = merge_tables(final_tables)
+    for table in final_tables:
+        if not "title" in table.attrs:
+            table.attrs["title"] = "Unnamed Table"
 
     course_list_tables = [
         table for table in final_tables

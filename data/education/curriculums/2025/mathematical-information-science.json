@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/NS6TJ4UN",
+      "id": "uar:education/RUEW7IBT",
       "name": {
         "ja": "情報数理工学プログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/GVNP4GTX",
+      "id": "uar:education/Y7N2TEKX",
       "name": {
         "ja": "情報数理工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/PMGK25T3",
+      "id": "uar:education/ZJXKEH6N",
       "name": {
         "ja": "情報数理工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/QPQZ2GZ6",
+      "id": "uar:education/72Z5DCHM",
       "name": {
         "ja": "情報数理工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/QQQIHKLF",
+      "id": "uar:education/C3QE7O7S",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/必修科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/Q5W2Y5TD",
+      "id": "uar:education/DHP2INWD",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/選択科目"
       },
@@ -119,7 +119,208 @@
         "uar:education/E57RA6ZW",
         "uar:education/KBUAUQPI",
         "uar:education/ABDPITDJ",
-        "uar:education/CEYZJQOD"
+        "uar:education/CEYZJQOD",
+        "uar:education/P43TGZZA",
+        "uar:education/4ZHORKHQ",
+        "uar:education/BHOHQIWI",
+        "uar:education/HSAHLL4P",
+        "uar:education/Z7BQYK4S",
+        "uar:education/JGKWLJ2K",
+        "uar:education/SSWRM47R",
+        "uar:education/OPMFFXNS",
+        "uar:education/LY4ZEIQG",
+        "uar:education/QN5ZYVZU",
+        "uar:education/RHCKDUGX",
+        "uar:education/UEGN637V",
+        "uar:education/AV3VPCP6"
+      ]
+    },
+    {
+      "id": "uar:education/2ET3XDHG",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/3UAPGCSA",
+        "uar:education/ZBRP3KJ6",
+        "uar:education/QVVIXUTG",
+        "uar:education/ORT6MUCM",
+        "uar:education/EES7ANE3",
+        "uar:education/P6X6IQCJ",
+        "uar:education/IYKUFH45",
+        "uar:education/PGCTBA3I",
+        "uar:education/5NX34CCU",
+        "uar:education/L5JZXNJW",
+        "uar:education/47727RAG",
+        "uar:education/534UM65G",
+        "uar:education/AHQTV3BV",
+        "uar:education/S2ZPLXSP",
+        "uar:education/MK4N4JXU",
+        "uar:education/54QQBXO2"
+      ]
+    },
+    {
+      "id": "uar:education/GYYMBWPW",
+      "name": {
+        "ja": "情報数理工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/ENG6NTDT",
+        "uar:education/PJNLZG4M",
+        "uar:education/WFLY44PU",
+        "uar:education/R2EMBSBD"
+      ]
+    },
+    {
+      "id": "uar:education/BZ6HGY4C",
+      "name": {
+        "ja": "卒業研究着手審査基準"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "requiredCategories": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "description": "情報数理工学実験第一及び情報数理工学実験第二A並びに第二Bの単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 101,
+          "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/FIWYBEFW",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/6EMQPAAC",
+      "requiredCategories": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 15,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 16,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 7,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
       ]
     }
   ]

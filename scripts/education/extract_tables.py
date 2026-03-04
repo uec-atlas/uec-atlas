@@ -193,15 +193,6 @@ def estimate_header_boundary(df: pd.DataFrame) -> int:
 
     inspect_rows = min(5, len(df))
 
-    for i in range(min(5, len(df))):
-        row_str = " ".join(df.iloc[i].astype(str))
-        # 科目番号 (例: MTH101z, COM503c) があればデータ行の始まり
-        if re.search(r"[A-Z]{2,4}\d{3}[a-z]?", row_str):
-            return i  # 1行目(i=0)で見つかれば、ヘッダーは0行(なし)と判定
-
-    # 科目番号が見つからない場合は、1行目起点の結合セルを優先して判定する
-    # 1行目から縦方向に同一値が連続しているセルを「結合セルの痕跡」とみなし、
-    # その連続長が表全体（または先頭5行）に及ばないときはヘッダー行候補にする
     if inspect_rows >= 2 and len(df.columns) > 0:
         header_candidate = 0
         for c in range(len(df.columns)):
@@ -213,18 +204,16 @@ def estimate_header_boundary(df: pd.DataFrame) -> int:
             while span < inspect_rows and _norm(df.iat[span, c]) == top_val:
                 span += 1
 
-            if 1 < span < inspect_rows:
+            if 1 < span:
                 header_candidate = max(header_candidate, span)
-
-        if header_candidate > 0:
+        if 0 < header_candidate < inspect_rows:
             return header_candidate
 
-    # フォールバック
-    if len(df) > 1 and len("".join(df.iloc[1].astype(str)).strip()) > 5:
-        if len(df) > 2 and any(re.match(r"^\d$", str(x).strip()) for x in df.iloc[2]):
-            return 3
-        return 2
-    return 1
+    # 1行目がすべて空でない場合は、ヘッダー行とみなす
+    if all(_norm(df.iat[0, c]) for c in range(len(df.columns))):
+        return 1
+
+    return 0
 
 
 def finalize_header(df: pd.DataFrame, hb: int) -> pd.DataFrame:
@@ -266,6 +255,68 @@ def estimate_table_title(page, last_y: float, current_table_top: float) -> str:
         return ""
 
 
+def merge_tables_structural(tables: list[dict]) -> list[dict]:
+    merged = [tables[0]]
+    for nxt in tables[1:]:
+        curr = merged[-1]
+
+        # 列の境界線が近いか（列数が同じで、座標のズレが許容範囲内か）
+        is_same_structure = len(curr["col_edges"]) == len(nxt["col_edges"]) and \
+            np.allclose(curr["col_edges"], nxt["col_edges"], atol=15)
+
+        cols_curr: list[str] = [c.replace(" ", "").split(".")[0]
+                                for c in curr["df"].columns]
+        cols_nxt: list[str] = [c.replace(" ", "").split(".")[0]
+                               for c in nxt["df"].columns]
+
+        is_same_columns = cols_curr == cols_nxt
+
+        should_merge = False
+        if is_same_columns:
+            # 列名が完全一致している場合は結合対象
+            should_merge = True
+        if is_same_structure and len(cols_curr) == len(cols_nxt) and not any(c.startswith("(cid:") for c in [*cols_curr, *cols_nxt]):
+            # 列の構造が同じで、列数も同じ場合で、cidが含まれていない（列名が正しく抽出されている）場合は結合対象
+            should_merge = True
+
+        if should_merge:
+            # 次の表の列名を前の表に合わせて結合
+            nxt_df = nxt["df"].copy()
+            nxt_df.columns = curr["df"].columns
+            curr["df"] = pd.concat([curr["df"], nxt_df], ignore_index=True)
+            if not curr["title"] and nxt["title"]:
+                curr["title"] = nxt["title"]
+        else:
+            merged.append(nxt)
+    return merged
+
+
+def merge_tables(tables: list[pd.DataFrame]) -> list[pd.DataFrame]:
+    merged = [tables[0]]
+    for nxt in tables[1:]:
+        curr = merged[-1]
+
+        cols_curr = [c.replace(" ", "").split(".")[0]
+                     for c in curr.columns]
+        cols_nxt = [c.replace(" ", "").split(".")[0]
+                    for c in nxt.columns]
+
+        is_same_columns = cols_curr == cols_nxt
+
+        if is_same_columns:
+            nxt_df = nxt.copy()
+            nxt_df.columns = curr.columns
+            attrs = curr.attrs.copy()
+            curr = pd.concat([curr, nxt_df], ignore_index=True)
+            curr.attrs = attrs
+            if not curr.attrs.get("title") and nxt.attrs.get("title"):
+                curr.attrs["title"] = nxt.attrs.get("title")
+            merged[-1] = curr
+        else:
+            merged.append(nxt)
+    return merged
+
+
 def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_pages: Optional[dict[int, int]] = None) -> list[pd.DataFrame]:
     raw_results = []
     reader = PdfReader(pdf_path)
@@ -294,7 +345,7 @@ def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_page
             settings = {
                 "vertical_strategy": "explicit", "horizontal_strategy": "explicit",
                 "explicit_vertical_lines": v_segs, "explicit_horizontal_lines": h_segs,
-                "snap_tolerance": 2, "join_tolerance": 2
+                "snap_tolerance": 5, "join_tolerance": 5
             }
 
             found = page.find_tables(table_settings=settings)
@@ -313,7 +364,7 @@ def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_page
                     "title": title,
                     "df": final_df,
                     "col_edges": col_edges,
-                    "hb": hb,  # ヘッダー行数を結合判定用に記録
+                    "hb": hb,
                     "page": page.page_number
                 })
                 last_y = t.bbox[3]
@@ -324,36 +375,9 @@ def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_page
     # -----------------------------------------------------
     # 同一構造の表を結合する処理 (Merge Fragments)
     # -----------------------------------------------------
-    merged = [raw_results[0]]
-    for nxt in raw_results[1:]:
-        curr = merged[-1]
-
-        # 列の境界線が近いか（列数が同じで、座標のズレが許容範囲内か）
-        is_same_structure = len(curr["col_edges"]) == len(nxt["col_edges"]) and \
-            np.allclose(curr["col_edges"], nxt["col_edges"], atol=10)
-
-        is_same_columns = list(curr["df"].columns) == list(nxt["df"].columns)
-        is_nxt_no_header = (nxt["hb"] == 0)
-
-        should_merge = False
-        if is_same_structure:
-            # カラムが一致しているか、次の表が見出しなし(続き)の場合は結合対象
-            if is_same_columns or is_nxt_no_header:
-                if not nxt["title"] or nxt["title"] == curr["title"] or "注" in nxt["title"]:
-                    should_merge = True
-
-        if should_merge:
-            # 次の表の列名を前の表に合わせて結合
-            nxt_df = nxt["df"].copy()
-            nxt_df.columns = curr["df"].columns
-            curr["df"] = pd.concat([curr["df"], nxt_df], ignore_index=True)
-            if not curr["title"] and nxt["title"]:
-                curr["title"] = nxt["title"]
-        else:
-            merged.append(nxt)
 
     final_dfs = []
-    for m in merged:
+    for m in merge_tables_structural(raw_results):
         df = m["df"]
         df.attrs["title"] = m["title"]
         df.attrs["page"] = m.get("page")
