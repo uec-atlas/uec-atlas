@@ -112,6 +112,7 @@
     </span>
     <div class="d-join">
       <button
+        type="button"
         class="d-join-item d-btn d-btn-sm"
         disabled={currentPage === 0}
         onclick={() => (currentPage -= 1)}
@@ -122,6 +123,7 @@
       {#each displayedPages as page}
         {#if typeof page === "number"}
           <button
+            type="button"
             class="d-join-item d-btn d-btn-sm {page === currentPage
               ? 'd-btn-primary'
               : ''}"
@@ -130,12 +132,12 @@
             {page + 1}
           </button>
         {:else}
-          <button class="d-join-item d-btn d-btn-sm d-btn-disabled" disabled>
+          <button type="button" class="d-join-item d-btn d-btn-sm d-btn-disabled" disabled>
             ...
           </button>
         {/if}
       {/each}
-      <button
+      <button type="button"
         class="d-join-item d-btn d-btn-sm"
         disabled={currentPage === totalPages - 1}
         onclick={() => (currentPage += 1)}

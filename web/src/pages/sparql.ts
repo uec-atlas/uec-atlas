@@ -33,7 +33,10 @@ async function getStore(runtimeFetch: typeof fetch) {
   const nQuadURLs = [
     toFullURL("/data/organizations/all.nq"),
     toFullURL("/data/spatial/all.nq"),
-    toFullURL("/data/education/all.nq"),
+    toFullURL("/data/education/courses.nq"),
+    toFullURL("/data/education/categories.nq"),
+    toFullURL("/data/education/curriculum.nq"),
+    toFullURL("/data/education/lectures.nq"),
   ];
   const nquadsList = await Promise.all(
     nQuadURLs.map(async (url) => {
