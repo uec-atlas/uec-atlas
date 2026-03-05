@@ -28,3 +28,6 @@ __pycache__/
 generated/
 web/generated/
 .wrangler/
+
+# data source
+*.pdf

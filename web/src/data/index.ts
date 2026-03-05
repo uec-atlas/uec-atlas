@@ -1,4 +1,10 @@
 import {
+  _courseCategoryMap,
+  _courseMap,
+  _curriculumMap,
+  _lectureMap,
+} from "./education";
+import {
   allOntologyClasses,
   ontologyClassMap,
   rootOntologyClasses,
@@ -27,6 +33,10 @@ export {
   _linkedOrganizationMap as linkedOrganizationMap,
   _spatialMap as spatialMap,
   _linkedSpatialMap as linkedSpatialMap,
+  _courseMap as courseMap,
+  _courseCategoryMap as courseCategoryMap,
+  _curriculumMap as curriculumMap,
+  _lectureMap as lectureMap,
   ontologyClassMap,
   allOntologyClasses,
   rootOntologyClasses,

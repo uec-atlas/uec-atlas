@@ -1,0 +1,386 @@
+{
+  "type": "Curriculum",
+  "year": 2024,
+  "entries": [
+    {
+      "id": "uar:education/SWTK6QYG",
+      "name": {
+        "ja": "計測・制御システムプログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/7LBPYOO4",
+      "name": {
+        "ja": "計測・制御システムプログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/G2Z3CNOS",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/LVRJHILN",
+        "uar:education/N4PF43UV",
+        "uar:education/AGITIA6U",
+        "uar:education/TFFFBJB2",
+        "uar:education/WQMHRSRP",
+        "uar:education/EX66LBBH"
+      ]
+    },
+    {
+      "id": "uar:education/6RNIZTYO",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/O4PIDKTF",
+        "uar:education/FMO7UWE7",
+        "uar:education/BAMT4RIW",
+        "uar:education/O5IA47EW"
+      ]
+    },
+    {
+      "id": "uar:education/OQUG564G",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/RYLVYYQM",
+        "uar:education/R26CBQN2"
+      ]
+    },
+    {
+      "id": "uar:education/EJ6POI2Q",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類共通基礎科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/WLYPQUEB",
+      "courses": [
+        "uar:education/WQBPIIWP",
+        "uar:education/VNN5WITQ"
+      ]
+    },
+    {
+      "id": "uar:education/VEGORHIV",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/FT2OLHO4",
+        "uar:education/RTYSXZYP",
+        "uar:education/EG22OY63",
+        "uar:education/PA377TI6",
+        "uar:education/EKFAJRGO",
+        "uar:education/MOJSIGS5",
+        "uar:education/JF2MFB4H",
+        "uar:education/ZWALLKSO",
+        "uar:education/G5BYUFS7",
+        "uar:education/BPP5WCHB",
+        "uar:education/LHEXSGP4",
+        "uar:education/OVOGCPS2",
+        "uar:education/FWHTBHQ3",
+        "uar:education/QNXAXUSS"
+      ]
+    },
+    {
+      "id": "uar:education/SOL3HB65",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/HC65AWKO",
+        "uar:education/47Y6FZVW",
+        "uar:education/5PQFJIBJ",
+        "uar:education/UFKZMG7D",
+        "uar:education/CXRKIFFW",
+        "uar:education/MEFUQZW5",
+        "uar:education/ELL3O2XQ",
+        "uar:education/TDRM6RCE",
+        "uar:education/SANH7DOU",
+        "uar:education/EKQRUALW",
+        "uar:education/POVGYZ6J"
+      ]
+    },
+    {
+      "id": "uar:education/QKK7DPBR",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/OERWIWZT",
+        "uar:education/DS6EZLBC",
+        "uar:education/274ZGJJI",
+        "uar:education/ARLY4YHN",
+        "uar:education/QRAY4UPV",
+        "uar:education/P7PZXM6L",
+        "uar:education/ETTUIFXM",
+        "uar:education/6YMGUUGJ",
+        "uar:education/6KE7LLOT",
+        "uar:education/PM4BV4CR",
+        "uar:education/CEWP6IUF",
+        "uar:education/4LDUUNQ5",
+        "uar:education/AHWPMZVM",
+        "uar:education/VDEQ4DHD",
+        "uar:education/E7O4PF3K",
+        "uar:education/AZF3IYCB",
+        "uar:education/HI7K6IH6"
+      ]
+    },
+    {
+      "id": "uar:education/32S5HYLP",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/TIK3BSS2",
+        "uar:education/HEGUFFBK",
+        "uar:education/ELURTNCC",
+        "uar:education/D3JJF2QO",
+        "uar:education/4KY65P6O",
+        "uar:education/NEJTJZC6",
+        "uar:education/C6DD2ZLQ",
+        "uar:education/MNRFFVER",
+        "uar:education/44V4HNK3",
+        "uar:education/YVZT5EWE",
+        "uar:education/7RXWWIMW",
+        "uar:education/KCOS6AOI",
+        "uar:education/GC4SRYFL",
+        "uar:education/ZCHBQLGJ",
+        "uar:education/WTJOLGXP",
+        "uar:education/ZRZAGPTW",
+        "uar:education/HWVVSKAX",
+        "uar:education/RGA42UED",
+        "uar:education/WVOIWSSZ",
+        "uar:education/EYKMI2AX",
+        "uar:education/XQGQNWIM",
+        "uar:education/5G7PEXLM",
+        "uar:education/PKRKZV5G",
+        "uar:education/LYGY5N6F",
+        "uar:education/WA4SYEHK",
+        "uar:education/TN5VH4ZF",
+        "uar:education/FT5XGAF4",
+        "uar:education/7JJWVQC6",
+        "uar:education/KC3N5UVK",
+        "uar:education/NSGJFGTC",
+        "uar:education/RA2BGAZY",
+        "uar:education/GTPQNG3I",
+        "uar:education/AO3Q73YR",
+        "uar:education/DCNY5DBK",
+        "uar:education/BWXRKUF7"
+      ]
+    },
+    {
+      "id": "uar:education/JVCIHIB4",
+      "name": {
+        "ja": "計測・制御システムプログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/D2RWVGAA",
+        "uar:education/EXKVU65D"
+      ]
+    },
+    {
+      "id": "uar:education/3M3H662L",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "categoryRequirements": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の全必修科目6科目の11単位及び選択必修科目2科目の4単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 10,
+          "description": "メカノデザイン,メカトロニクス基礎実験A及びB,マシンデザインA及びBの単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/XRYLCE2E",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/HXSVK2KQ",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 11,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 31,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}

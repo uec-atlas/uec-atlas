@@ -1,0 +1,351 @@
+{
+  "type": "Curriculum",
+  "year": 2024,
+  "entries": [
+    {
+      "id": "uar:education/PBO44SNU",
+      "name": {
+        "ja": "物理工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/C2JZH3ST",
+      "name": {
+        "ja": "物理工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/3PPO7HHK",
+      "name": {
+        "ja": "物理工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/4WAT4JV3",
+        "uar:education/7BETXH25",
+        "uar:education/RVBHROV7",
+        "uar:education/TAV7IHFY",
+        "uar:education/CYDQG3I5",
+        "uar:education/2HGH6XZ4",
+        "uar:education/K5QRPY2A",
+        "uar:education/CIUTUGLT",
+        "uar:education/6FES2WEA"
+      ]
+    },
+    {
+      "id": "uar:education/YQ6NOCAK",
+      "name": {
+        "ja": "物理工学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/UDN4EATT",
+        "uar:education/7ORFHCCK",
+        "uar:education/ERXH4M67",
+        "uar:education/RE2FKFM4"
+      ]
+    },
+    {
+      "id": "uar:education/FVCJBF72",
+      "name": {
+        "ja": "物理工学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/T6KMEZD7",
+        "uar:education/MJJ4OQOS"
+      ]
+    },
+    {
+      "id": "uar:education/RMZQKSQQ",
+      "name": {
+        "ja": "物理工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/TPK2EPIY",
+        "uar:education/L2I2MFPY",
+        "uar:education/B2N56ZWD",
+        "uar:education/KUOHUGT7",
+        "uar:education/QJYF3UPY",
+        "uar:education/TIHPI5OT",
+        "uar:education/TOZVHGYY",
+        "uar:education/3DUMAH2C",
+        "uar:education/IP7PSNDS",
+        "uar:education/JK3Y5O3Z",
+        "uar:education/KTKE2HSZ",
+        "uar:education/5IDJEFXH",
+        "uar:education/SCQEOFVH",
+        "uar:education/XEIRKCJL",
+        "uar:education/MYEDZIW7"
+      ]
+    },
+    {
+      "id": "uar:education/V6HJH4YB",
+      "name": {
+        "ja": "物理工学プログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/CH3K63AJ",
+        "uar:education/KFX7DJRK",
+        "uar:education/JM5FOPKD",
+        "uar:education/M52INXBU"
+      ]
+    },
+    {
+      "id": "uar:education/DYACVUG2",
+      "name": {
+        "ja": "物理工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/NIGGIMJZ",
+        "uar:education/XQAOSM3Y",
+        "uar:education/4WQAOYUI",
+        "uar:education/DHEQC7A2",
+        "uar:education/RIWEU5SX",
+        "uar:education/7H6J2DIO",
+        "uar:education/33FCF27R",
+        "uar:education/XWB6PNMT",
+        "uar:education/GEF5YN7S",
+        "uar:education/PGLSK6JE",
+        "uar:education/WXBQR3UB",
+        "uar:education/L7YYUZQD",
+        "uar:education/OH5EYAE5"
+      ]
+    },
+    {
+      "id": "uar:education/UEZ6LDUR",
+      "name": {
+        "ja": "物理工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/3AM6SXZH",
+        "uar:education/73LWZRS4",
+        "uar:education/LIKSQW5S",
+        "uar:education/KX35CQBZ",
+        "uar:education/HSDUBOAU",
+        "uar:education/H3ZY4P3G",
+        "uar:education/SIUI6JLW",
+        "uar:education/Y2BGV5LC",
+        "uar:education/4BRY2L3O",
+        "uar:education/MSRUVTZ6",
+        "uar:education/KWH2KDTE",
+        "uar:education/4RCMNQTZ",
+        "uar:education/RK5NWZV7",
+        "uar:education/4KDIR66P",
+        "uar:education/UXFDCP4Q",
+        "uar:education/YQB3LWIX",
+        "uar:education/2S7EUQO4",
+        "uar:education/TVXHJOUN"
+      ]
+    },
+    {
+      "id": "uar:education/S3LOJCGK",
+      "name": {
+        "ja": "物理工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/N5EWF7AI",
+        "uar:education/RWZRQUPG",
+        "uar:education/UE3SFZUY",
+        "uar:education/4QBRBC5J"
+      ]
+    },
+    {
+      "id": "uar:education/RU5CGFUA",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "categoryRequirements": [
+        {
+          "minCredits": 0,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目11科目の24単位のうち、18単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに物理工学実験第一及び第二の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA",
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/Y4A3NCZK",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NIBJHDQW",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 31,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 5,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}

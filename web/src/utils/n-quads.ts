@@ -1,124 +1,115 @@
-import { n3reasoner } from "eyereasoner";
-import type { PostalAddress } from "generated/organization";
 import jsonld from "jsonld";
 import {
   type BlankNode,
-  blankNode,
   defaultGraph,
   initOxigraph,
   type Literal,
-  literal,
   type NamedNode,
   namedNode,
-  type Quad_Predicate,
-  type Quad_Subject,
-  quad,
   Store,
 } from "@/utils/oxigraph";
+import { expandURI } from "./url";
 
-export const formatAddress = (address: PostalAddress, locale = "ja") => {
-  if (!address) return "";
-  const parts = [];
-  if (locale === "ja") {
-    if (address.postalCode) parts.push(`〒${address.postalCode} `);
-    if (address.addressRegion) parts.push(address.addressRegion.ja);
-    if (address.addressLocality) parts.push(address.addressLocality.ja);
-    if (address.streetAddress) parts.push(address.streetAddress.ja);
-    return parts.join("");
-  } else {
-    if (address.streetAddress) parts.push(address.streetAddress.en);
-    if (address.addressLocality) parts.push(address.addressLocality.en);
-    if (address.addressRegion) parts.push(address.addressRegion.en);
-    if (address.postalCode) parts.push(address.postalCode);
-    return parts.join(", ");
-  }
-};
-
-const owlRules: Record<string, string> = import.meta.glob(
-  "/node_modules/eye-reasoning/rpo/{owl-inverseOf}.n3",
-  {
-    eager: true,
-    query: "raw",
-    import: "default",
-  },
-);
-const rdfRules: Record<string, string> = import.meta.glob(
-  "/node_modules/eye-reasoning/rpo/rdfs-{subClassOf,subPropertyOf}.n3",
-  {
-    eager: true,
-    query: "raw",
-    import: "default",
-  },
-);
-
-export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
+export const jsonLdToNQuads = async (
+  ontology: string,
+  jsonLd: object,
+  inferenceRules: string[] = [],
+) => {
   const nQuads = (await jsonld.toRDF(jsonLd, {
     format: "application/n-quads",
   })) as string;
 
   await initOxigraph();
-
-  const result = await n3reasoner(
-    [nQuads, ontology, ...Object.values(rdfRules), ...Object.values(owlRules)],
-    `
-   @prefix log: <http://www.w3.org/2000/10/swap/log#> .
-  {
-    ?s ?p ?o .
-    ?s log:uri ?sUri .
-  } => {
-    ?s ?p ?o
-  }.`,
-    {
-      outputType: "quads",
-    },
-  ).catch((e) => {
-    console.error("EYE Reasoning error:", e);
-    throw e;
-  });
-
   const store = new Store();
-  for (const q of result) {
-    const toOxiTerm = (term: {
-      termType: string;
-      value: string;
-      language?: string;
-      datatype?: { value: string };
-    }) => {
-      if (term.termType === "NamedNode") {
-        return namedNode(term.value);
-      }
-      if (term.termType === "BlankNode") {
-        return blankNode(term.value);
-      }
-      if (term.termType === "Literal") {
-        return literal(
-          term.value,
-          term.language ||
-            (term.datatype ? namedNode(term.datatype.value) : undefined),
-        );
-      }
-      return namedNode(term.value);
-    };
+  const ontologyGraph = namedNode("urn:uec-atlas:ontology");
 
-    try {
-      store.add(
-        quad(
-          toOxiTerm(q.subject) as Quad_Subject,
-          toOxiTerm(q.predicate) as Quad_Predicate,
-          toOxiTerm(q.object),
-          defaultGraph(),
-        ),
-      );
-    } catch {}
+  store.load(nQuads, { format: "application/n-quads" });
+  store.load(ontology, { format: "text/turtle", to_graph_name: ontologyGraph });
+
+  const inferenceUpdates = [
+    ` # rdfs:subPropertyOf
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      INSERT {
+        ?s ?superP ?o .
+      }
+      WHERE {
+        GRAPH <${ontologyGraph.value}> {
+          ?p rdfs:subPropertyOf+ ?superP .
+          FILTER(?p != ?superP)
+          FILTER(?superP != rdfs:subPropertyOf)
+          FILTER(?superP != rdfs:subClassOf)
+        }
+        ?s ?p ?o .
+      }
+    `,
+    ` # rdfs:subClassOf
+      PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+      PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+      INSERT {
+        ?x rdf:type ?superClass .
+      }
+      WHERE {
+        GRAPH <${ontologyGraph.value}> {
+          ?class rdfs:subClassOf+ ?superClass .
+          FILTER(?class != ?superClass)
+          FILTER(?superClass != rdfs:Class)
+        }
+        ?x rdf:type ?class .
+      }
+    `,
+    ` # owl:inverseOf
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      INSERT {
+        ?o ?q ?s .
+      }
+      WHERE {
+        GRAPH <${ontologyGraph.value}> {
+          ?p owl:inverseOf ?q .
+        }
+        ?s ?p ?o .
+        FILTER(?s != ?o)
+      }
+    `,
+    ` # owl:inverseOf (inverse direction)
+      PREFIX owl: <http://www.w3.org/2002/07/owl#>
+      INSERT {
+        ?o ?p ?s .
+      }
+      WHERE {
+        GRAPH <${ontologyGraph.value}> {
+          ?p owl:inverseOf ?q .
+        }
+        ?s ?q ?o .
+        FILTER(?s != ?o)
+      }
+    `,
+    ...inferenceRules,
+  ];
+
+  const maxInferenceIterations = 10;
+  let iteration = 0;
+  let lastSize = 0;
+  while (store.size !== lastSize) {
+    lastSize = store.size;
+    iteration += 1;
+    if (iteration > maxInferenceIterations) {
+      throw new Error("Inference did not converge within iteration limit");
+    }
+
+    for (const update of inferenceUpdates) {
+      store.update(update);
+    }
   }
 
   const uarPrefix = "https://uec-atlas.e-chan1007.workers.dev/resources/";
+  const tempPrefix = expandURI("uao:_");
+
+  const uarPrefixStr = uarPrefix.toString();
   const queue: (NamedNode | BlankNode)[] = [];
   const visited = new Set<string>();
   const toKey = (term: NamedNode | BlankNode | Literal) =>
     `${term.termType}:${term.value}`;
 
-  // Find roots
   for (const q of store.match(
     undefined,
     undefined,
@@ -127,7 +118,7 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
   )) {
     if (
       q.subject.termType === "NamedNode" &&
-      q.subject.value.startsWith(uarPrefix)
+      q.subject.value.startsWith(uarPrefixStr)
     ) {
       const key = toKey(q.subject);
       if (!visited.has(key)) {
@@ -137,21 +128,15 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
     }
   }
 
-  // Crawl
-  const forbiddenPredicates = new Set([
-    "http://www.w3.org/2002/07/owl#sameAs",
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf",
-    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
-  ]);
-
   let head = 0;
   while (head < queue.length) {
     const s = queue[head++];
     for (const q of store.match(s, undefined, undefined, defaultGraph())) {
-      if (forbiddenPredicates.has(q.predicate.value)) continue;
-      // Don't follow rdf:type for reachability
+      if (q.predicate.value.startsWith(tempPrefix)) continue;
       if (
-        q.predicate.value === "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+        q.predicate.value ===
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" &&
+        q.object.termType === "BlankNode"
       )
         continue;
 
@@ -166,16 +151,14 @@ export const jsonLdToNQuads = async (ontology: string, jsonLd: object) => {
   }
 
   const finalStore = new Store();
-  for (const sTerm of queue) {
-    for (const q of store.match(sTerm, undefined, undefined, defaultGraph())) {
-      if (forbiddenPredicates.has(q.predicate.value)) continue;
+  for (const s of queue) {
+    for (const q of store.match(s, undefined, undefined, defaultGraph())) {
       if (
         q.predicate.value ===
           "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" &&
         q.object.termType === "BlankNode"
       )
         continue;
-
       finalStore.add(q);
     }
   }

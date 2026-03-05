@@ -1,10 +1,17 @@
 import secrets
 
 
-def generate_id(length: int = 8) -> str:
+def generate_id(prefix: str = "", length: int = 8) -> str:
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"
-    return "".join(secrets.choice(alphabet) for _ in range(length))
+    return f"{prefix}{''.join(secrets.choice(alphabet) for _ in range(length))}"
 
 
-new_id = generate_id()
-print(new_id)
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prefix")
+    parser.add_argument("--count", type=int, default=1)
+    args = parser.parse_args()
+    for _ in range(args.count):
+        new_id = generate_id(prefix=args.prefix or "")
+        print(new_id)

@@ -1,1 +1,12 @@
 linkml
+selectolax
+httpx
+tqdm
+pdfplumber
+pandas
+numpy
+mojimoji
+mecab-python3
+pypdf
+unidic-lite
+opencv-python

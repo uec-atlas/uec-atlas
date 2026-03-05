@@ -1,0 +1,326 @@
+{
+  "type": "Curriculum",
+  "year": 2024,
+  "entries": [
+    {
+      "id": "uar:education/7SY5IDS3",
+      "name": {
+        "ja": "光工学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/SM7QX36S",
+      "name": {
+        "ja": "光工学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/ILUX6VP4",
+      "name": {
+        "ja": "光工学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/HHPGLRYX",
+        "uar:education/NBHWUOTY",
+        "uar:education/4AMWDHUW",
+        "uar:education/7NDLL7RN",
+        "uar:education/OOIPJQJL",
+        "uar:education/WJZLJCFJ",
+        "uar:education/CAKTHGDJ",
+        "uar:education/ZOWSTIEV"
+      ]
+    },
+    {
+      "id": "uar:education/EAUYRROE",
+      "name": {
+        "ja": "光工学プログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/Y2QFB7OG",
+        "uar:education/OEXVU7IY",
+        "uar:education/RB4S3LY2",
+        "uar:education/LOGYSGMQ"
+      ]
+    },
+    {
+      "id": "uar:education/U3M2ZRUI",
+      "name": {
+        "ja": "光工学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/MSARKS6A",
+        "uar:education/45OGPAB7",
+        "uar:education/HCT3OGQG"
+      ]
+    },
+    {
+      "id": "uar:education/2SL6OXIA",
+      "name": {
+        "ja": "光工学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/3ORAQRTI",
+        "uar:education/JGFPHZDI",
+        "uar:education/XYDOMTRO",
+        "uar:education/2BQ6PQAI",
+        "uar:education/3XWQSLUQ",
+        "uar:education/HVLQ6YC3",
+        "uar:education/C52N4ARD",
+        "uar:education/BBUQUXEW",
+        "uar:education/T3YZXF2I",
+        "uar:education/IZ45RWOV",
+        "uar:education/6WOFG64Q",
+        "uar:education/7TRBPUUK",
+        "uar:education/7CSMDPNH",
+        "uar:education/SXDFD6FE",
+        "uar:education/FDQEMZDT",
+        "uar:education/L4FCTNAU"
+      ]
+    },
+    {
+      "id": "uar:education/YA6KPLOD",
+      "name": {
+        "ja": "光工学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/K6C6KUG4",
+        "uar:education/7BO337HF",
+        "uar:education/4ZJU5K5R",
+        "uar:education/BJDKDXVM",
+        "uar:education/GEZEUHFB",
+        "uar:education/G5JVN7TJ",
+        "uar:education/AOBSNJDV",
+        "uar:education/IS3LFTHF",
+        "uar:education/KZX6IDT2",
+        "uar:education/454AV63Z",
+        "uar:education/ZN3OWBDR",
+        "uar:education/QUORMU5Y",
+        "uar:education/HQYCE2CY",
+        "uar:education/XHHOITPS",
+        "uar:education/C4A6TZZB",
+        "uar:education/AD6WIM2J"
+      ]
+    },
+    {
+      "id": "uar:education/INL6BWF3",
+      "name": {
+        "ja": "光工学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/MH5YDTFM",
+        "uar:education/WSU6F7CE",
+        "uar:education/AZA5HE73",
+        "uar:education/EY7CRRXT",
+        "uar:education/NRTXHH3R",
+        "uar:education/M4SIMBZV",
+        "uar:education/X53WZ4OW",
+        "uar:education/PNDZ3L4J",
+        "uar:education/H4VPM3OF",
+        "uar:education/C45FIO7K",
+        "uar:education/LZFR47U7",
+        "uar:education/IQ7ORZ6N",
+        "uar:education/X47PTXJW",
+        "uar:education/HKRPL6OD",
+        "uar:education/LOFAFCSP",
+        "uar:education/4YH6FX3G"
+      ]
+    },
+    {
+      "id": "uar:education/X2AZISVL",
+      "name": {
+        "ja": "光工学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/GFYZFR2E",
+        "uar:education/RV33IGF2",
+        "uar:education/GHTDFD5S",
+        "uar:education/KPJJJP4W"
+      ]
+    },
+    {
+      "id": "uar:education/PXEW5MZ5",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "categoryRequirements": [
+        {
+          "minCredits": 0,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目10科目の22単位のうち、16単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに光工学実験第一及び第二の単位を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA",
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/PQESLMXT",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NCMQHOOB",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 34,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}

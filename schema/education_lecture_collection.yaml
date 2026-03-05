@@ -1,0 +1,33 @@
+id: uas:education_lecture_collection
+name: uec_atlas_education_lecture_collection
+title: "UEC Atlas Education Ontology (Lecture Collection)"
+
+prefixes:
+  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
+  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
+  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+
+imports:
+  - education
+
+default_prefix: uao
+
+classes:
+  LectureCollection:
+    description: "開講情報の集合"
+    tree_root: true
+    slots:
+      - type
+    slot_usage:
+      type:
+        equals_string: "LectureCollection"
+    attributes:
+      year:
+        description: "開講年度"
+        range: integer
+        required: true
+      entries:
+        description: "開講情報リスト"
+        range: Lecture
+        multivalued: true
+        inlined_as_list: true

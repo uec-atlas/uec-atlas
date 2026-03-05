@@ -1,0 +1,387 @@
+{
+  "type": "Curriculum",
+  "year": 2025,
+  "entries": [
+    {
+      "id": "uar:education/GEHQCYFK",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/GLWN7N4I",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/3BL3W6BR",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/HRWHV64G",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/XCG5AQUH",
+        "uar:education/6IS6HS2Y",
+        "uar:education/XY2RWQRR",
+        "uar:education/MCAHXZHI",
+        "uar:education/VFQE25EE",
+        "uar:education/BMIQXJYN"
+      ]
+    },
+    {
+      "id": "uar:education/OCK7KMUD",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類共通基礎科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/BFLB7HEA",
+      "courses": [
+        "uar:education/WGCXBHBN",
+        "uar:education/KV4EUWKE",
+        "uar:education/O42A5V43",
+        "uar:education/RSWCZ6NG"
+      ]
+    },
+    {
+      "id": "uar:education/YOHPKQEM",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/USZR7KKR",
+        "uar:education/W5HRDVJG"
+      ]
+    },
+    {
+      "id": "uar:education/3DZDXQQG",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類共通基礎科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/WLYPQUEB",
+      "courses": [
+        "uar:education/UZRHFVTY",
+        "uar:education/ICMIABI7"
+      ]
+    },
+    {
+      "id": "uar:education/E7K4IF4X",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/ZYNP5M5Z",
+        "uar:education/2FXRXVIK",
+        "uar:education/MXR5QPRE",
+        "uar:education/FAMKAKJF",
+        "uar:education/WPKFR5DJ",
+        "uar:education/T7VSI2S4",
+        "uar:education/LASM5XSF",
+        "uar:education/2PT7PFU6",
+        "uar:education/YFN2NCY4",
+        "uar:education/AWZ5MPG4",
+        "uar:education/DXXGKK6W",
+        "uar:education/Y2IWACM3",
+        "uar:education/JNML62ZR",
+        "uar:education/3ZVVLDRY"
+      ]
+    },
+    {
+      "id": "uar:education/FQALUDSL",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類専門科目/選択必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/JQL4E6TE",
+      "courses": [
+        "uar:education/VAUS5KLU",
+        "uar:education/WNS625NJ",
+        "uar:education/T45R7YHX",
+        "uar:education/EV4JTRWT",
+        "uar:education/4NMQ2HVE",
+        "uar:education/EVR5XX4D",
+        "uar:education/YHBCA5HO",
+        "uar:education/PCR5QZKP",
+        "uar:education/JIUUYHAE",
+        "uar:education/DS7VVER4"
+      ]
+    },
+    {
+      "id": "uar:education/2PBKCP4L",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/3KEJPCO5",
+        "uar:education/BUYCXAQD",
+        "uar:education/2EKRRN6Z",
+        "uar:education/6OZWWNTD",
+        "uar:education/EN2ZEC6K",
+        "uar:education/ZJSACVQF",
+        "uar:education/QCLL6HZ6",
+        "uar:education/H7PCA7TF",
+        "uar:education/F2QHVQ37",
+        "uar:education/OVJZQN6U",
+        "uar:education/UAHLS3KU",
+        "uar:education/KULKA6BZ",
+        "uar:education/GIQY7IMQ",
+        "uar:education/4B7HJFQ2",
+        "uar:education/HHS2YNDG",
+        "uar:education/XDMYU3DO",
+        "uar:education/4YS5SHJ7",
+        "uar:education/ARR6PDJD"
+      ]
+    },
+    {
+      "id": "uar:education/DFUJLE4G",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/LYBHVQOC",
+        "uar:education/IG7AHCPW",
+        "uar:education/R2BC6O25",
+        "uar:education/524AXVD7",
+        "uar:education/YNCQ4DDX",
+        "uar:education/JAZNF42G",
+        "uar:education/USCLISZ7",
+        "uar:education/CRUWN3A5",
+        "uar:education/YG7PYVND",
+        "uar:education/GKPUDIUG",
+        "uar:education/6RWRDVPF",
+        "uar:education/BLO6QYXO",
+        "uar:education/2LTVIQQS",
+        "uar:education/QDCZJ4GC",
+        "uar:education/JCVIXUOW",
+        "uar:education/HXLTXFSW",
+        "uar:education/5I2RP7OV",
+        "uar:education/MIURUUTP",
+        "uar:education/RHOKDNC4",
+        "uar:education/ZP3VW2E7",
+        "uar:education/YSY3MW3G",
+        "uar:education/XQYS5SJZ",
+        "uar:education/JHFONRQF",
+        "uar:education/GIMFKNPI",
+        "uar:education/Q7DGB4ZZ",
+        "uar:education/TN5EID3C",
+        "uar:education/XLSDWI3U",
+        "uar:education/VNI6YHZG",
+        "uar:education/MEM2TBRW",
+        "uar:education/VAHHDVE7",
+        "uar:education/7WQF4IQM",
+        "uar:education/NQLTDS45",
+        "uar:education/EZQGXZPZ",
+        "uar:education/3MLHAB6R",
+        "uar:education/OJWYEWM7",
+        "uar:education/4JJODKXZ"
+      ]
+    },
+    {
+      "id": "uar:education/SAKT3X42",
+      "name": {
+        "ja": "先端ロボティクスプログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/Y24AACY6",
+        "uar:education/T2IP4Z33"
+      ]
+    },
+    {
+      "id": "uar:education/LHSOIPBN",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "categoryRequirements": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の全必修科目6科目の11単位及び選択必修科目2科目の4単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/4NUIY6AA"
+          ]
+        },
+        {
+          "minCredits": 10,
+          "description": "メカノデザイン,メカトロニクス基礎実験A及びB,マシンデザインA及びBの単位を修得していること。",
+          "targetCategories": [
+            "uar:education/YSB4JMOU"
+          ]
+        },
+        {
+          "minCredits": 104,
+          "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/RTXEYLYH",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/IGC4IZMT",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/FT4TXJMO"
+          ]
+        },
+        {
+          "minCredits": 11,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BFLB7HEA"
+          ]
+        },
+        {
+          "minCredits": 30,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "targetCategories": [
+            "uar:education/JQL4E6TE"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 5,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}
