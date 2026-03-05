@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/D2TE6VTJ",
+      "id": "uar:education/MW4CAFFY",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/BERQHVLK",
+      "id": "uar:education/GQ2MYAZH",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/KEDT4QTU",
+      "id": "uar:education/PRDSKDTR",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類共通基礎科目/必修科目"
       },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "uar:education/GENRTTFA",
+      "id": "uar:education/ZLUOJEKR",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/ITDEVLG2",
+      "id": "uar:education/6WRQMH4P",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/必修科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/SJ7MM2CO",
+      "id": "uar:education/DKDVNLBK",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/選択科目"
       },
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "uar:education/COAU7BSV",
+      "id": "uar:education/ED5MRB3I",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/自由科目"
       },
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "id": "uar:education/WH6UFW4T",
+      "id": "uar:education/SIMBAZJ3",
       "name": {
         "ja": "デザイン思考・データサイエンスプログラム - 類専門科目/国際科目"
       },
@@ -177,9 +177,9 @@
       ]
     },
     {
-      "id": "uar:education/TVLMT6AZ",
+      "id": "uar:education/2M3O3VXB",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/7PMAEBVH",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": "uar:education/PSP7WVAF",
+      "id": "uar:education/4TIK6WT4",
       "name": {
         "ja": "卒業所要単位"
       },

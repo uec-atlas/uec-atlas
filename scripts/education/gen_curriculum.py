@@ -153,11 +153,9 @@ def generate_curriculum(year: int, input_path: str):
             category_pattern = '|'.join(re.escape(name)
                                         for name in category_names)
 
-            # 1. 前処理: 「18単位(Ⅰ類)理数基礎科目」のように科目が後ろにある場合、前に移動させて順番を統一する
             text = re.sub(
-                fr"(\d+単位(?:\([^)]*?類[^)]*?\))?)[ \t]*({category_pattern})", r"\2 \1", text)
+                fr"(\d+単位\([^)]*?類[^)]*?\))[ \t]*({category_pattern})", r"\2 \1", text)
 
-            # 2. 「科目名」と「単位（類）」のキーワードだけを上から順番にリストアップ
             tokens = [m.group(0) for m in re.finditer(
                 fr"{category_pattern}|\d+単位(?:\([^)]*?類[^)]*?\))?", text)]
 
@@ -175,6 +173,7 @@ def generate_curriculum(year: int, input_path: str):
                         category_fragments.append("必修科目")
                     category = find_course_category_by_fragments(
                         category_fragments)
+
                     if category is None:
                         print(
                             f"Warning: No category found for fragments {category_fragments} in 2nd year checkpoint ({current_subj})")
@@ -224,7 +223,7 @@ def generate_curriculum(year: int, input_path: str):
 
                         entry["requiredCategories"].append(new_entry)
 
-            # 卒業研究着手審査基準(昼間)
+            # 卒業研究着手審査(昼間)
         if all(col in table.columns for col in ["授業科目区分", "修得すべき単位", "審査対象科目・要件等"]):
             for _, row in table.iterrows():
                 credits = get_val(row, "修得すべき単位")
@@ -275,13 +274,13 @@ def generate_curriculum(year: int, input_path: str):
 
                     entry = next((entry for entry in curriculum_entries if entry.get(
                         "type") == "Checkpoint" and entry.get("targetOrganization") == org.id
-                        and entry["name"]["ja"] == "卒業研究着手審査基準"), None)
+                        and entry["name"]["ja"] == "卒業研究着手審査"), None)
 
                     if entry is None:
                         entry = {
                             "id": generate_id("uar:education/"),
                             "name": {
-                                "ja": f"卒業研究着手審査基準"
+                                "ja": f"卒業研究着手審査"
                             },
                             "type": "Checkpoint",
                             "targetOrganization": org.id,

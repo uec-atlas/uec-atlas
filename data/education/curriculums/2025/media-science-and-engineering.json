@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/4S3OYEJG",
+      "id": "uar:education/BHZGYYJC",
       "name": {
         "ja": "メディア情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/DNKSYF6S",
+      "id": "uar:education/B7LT4WYX",
       "name": {
         "ja": "メディア情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/3QZ3M3XL",
+      "id": "uar:education/ZZBS56U4",
       "name": {
         "ja": "メディア情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/5BYJOC67",
+      "id": "uar:education/VWDSDMEY",
       "name": {
         "ja": "メディア情報学プログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/LJW3GJLI",
+      "id": "uar:education/2ZIIYBNK",
       "name": {
         "ja": "メディア情報学プログラム - 類専門科目/必修科目"
       },
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": "uar:education/HKPAUVHA",
+      "id": "uar:education/SDC4N6FF",
       "name": {
         "ja": "メディア情報学プログラム - 類専門科目/選択科目"
       },
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "uar:education/RNKBTTT6",
+      "id": "uar:education/6SCOXK22",
       "name": {
         "ja": "メディア情報学プログラム - 類専門科目/自由科目"
       },
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "id": "uar:education/EWLEA7EQ",
+      "id": "uar:education/4ENXBVKT",
       "name": {
         "ja": "メディア情報学プログラム - 類専門科目/国際科目"
       },
@@ -174,9 +174,9 @@
       ]
     },
     {
-      "id": "uar:education/LAFDOS3G",
+      "id": "uar:education/QEPLOOGE",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/5VDVCRYM",
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": "uar:education/OODBLH4G",
+      "id": "uar:education/SLZKMPNA",
       "name": {
         "ja": "卒業所要単位"
       },

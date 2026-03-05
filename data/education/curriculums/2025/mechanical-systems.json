@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/PNI3WQ3X",
+      "id": "uar:education/I5DLGFKP",
       "name": {
         "ja": "機械システムプログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/2RYZDJ6A",
+      "id": "uar:education/X3RDLMHU",
       "name": {
         "ja": "機械システムプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/5FHMNP7L",
+      "id": "uar:education/JZXDWSKP",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/必修科目"
       },
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "uar:education/LFUGTRJJ",
+      "id": "uar:education/HMOFO2DC",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/選択必修科目"
       },
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "uar:education/OLRDFYFP",
+      "id": "uar:education/GN4AZIYS",
       "name": {
         "ja": "機械システムプログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/EVI4XPOG",
+      "id": "uar:education/IKUZH23B",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/必修科目"
       },
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "id": "uar:education/VBZXU6BK",
+      "id": "uar:education/MLFDW7DR",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/選択必修科目"
       },
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "id": "uar:education/2AH6XRJW",
+      "id": "uar:education/W7XIMQR5",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/選択科目"
       },
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "uar:education/NCYLURH2",
+      "id": "uar:education/RRP7C5JF",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/自由科目"
       },
@@ -199,7 +199,7 @@
       ]
     },
     {
-      "id": "uar:education/AR6SAJNY",
+      "id": "uar:education/OOJVEDLH",
       "name": {
         "ja": "機械システムプログラム - 類専門科目/国際科目"
       },
@@ -212,9 +212,9 @@
       ]
     },
     {
-      "id": "uar:education/ZXP7AIJU",
+      "id": "uar:education/Q7FTZSLV",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/M6PLREDB",
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "id": "uar:education/64V5EKOR",
+      "id": "uar:education/AIWC65RO",
       "name": {
         "ja": "卒業所要単位"
       },

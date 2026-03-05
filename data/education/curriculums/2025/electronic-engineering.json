@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/5G3T4MAV",
+      "id": "uar:education/YKMEZLSH",
       "name": {
         "ja": "電子工学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/RIYU3BCV",
+      "id": "uar:education/TVL4GHCA",
       "name": {
         "ja": "電子工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/F6VXQ3Z5",
+      "id": "uar:education/72M5LKBL",
       "name": {
         "ja": "電子工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "uar:education/W443OKRM",
+      "id": "uar:education/7EGDUE5D",
       "name": {
         "ja": "電子工学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "uar:education/TT2DOV3E",
+      "id": "uar:education/54H75WYG",
       "name": {
         "ja": "電子工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/XQIAXRWV",
+      "id": "uar:education/IATL74EO",
       "name": {
         "ja": "電子工学プログラム - 類専門科目/必修科目"
       },
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "id": "uar:education/IYUB64BF",
+      "id": "uar:education/4Y2B2SYZ",
       "name": {
         "ja": "電子工学プログラム - 類専門科目/選択科目"
       },
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "uar:education/CL3UUPXY",
+      "id": "uar:education/DFCKSPJJ",
       "name": {
         "ja": "電子工学プログラム - 類専門科目/自由科目"
       },
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "id": "uar:education/N2DLFVJ4",
+      "id": "uar:education/M7MV3KM7",
       "name": {
         "ja": "電子工学プログラム - 類専門科目/国際科目"
       },
@@ -189,9 +189,9 @@
       ]
     },
     {
-      "id": "uar:education/YFBE5W7M",
+      "id": "uar:education/ETIZEXUG",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/MKMLE24S",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": "uar:education/YN26D47H",
+      "id": "uar:education/X3ZDM4UH",
       "name": {
         "ja": "卒業所要単位"
       },

@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/ZB3F7XZM",
+      "id": "uar:education/SQR3PUIZ",
       "name": {
         "ja": "光工学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/HABVU7HM",
+      "id": "uar:education/4G2IKZYU",
       "name": {
         "ja": "光工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/DH43XGCO",
+      "id": "uar:education/EIU2HN57",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "uar:education/EO4NNSV6",
+      "id": "uar:education/J64HYS2V",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "uar:education/E353L47F",
+      "id": "uar:education/NSQ36ATO",
       "name": {
         "ja": "光工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "id": "uar:education/FX7VS6CK",
+      "id": "uar:education/MV7Z7WX3",
       "name": {
         "ja": "光工学プログラム - 類専門科目/必修科目"
       },
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "uar:education/DVIXKFGV",
+      "id": "uar:education/4EMHZ3Z7",
       "name": {
         "ja": "光工学プログラム - 類専門科目/選択科目"
       },
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": "uar:education/SQXPFWGS",
+      "id": "uar:education/RA4ZSUSW",
       "name": {
         "ja": "光工学プログラム - 類専門科目/自由科目"
       },
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "id": "uar:education/XDIF4S2A",
+      "id": "uar:education/42AIMMNM",
       "name": {
         "ja": "光工学プログラム - 類専門科目/国際科目"
       },
@@ -183,9 +183,9 @@
       ]
     },
     {
-      "id": "uar:education/ZQ6SGRNK",
+      "id": "uar:education/MQ2QCBPB",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/NCMQHOOB",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": "uar:education/VPE5ZMJ5",
+      "id": "uar:education/BLJIDISS",
       "name": {
         "ja": "卒業所要単位"
       },

@@ -60,12 +60,15 @@ classes:
       year:
         description: "要件が適用される入学年度"
         range: integer
-      entries:
-        description: "要件"
-        multivalued: true
-        any_of:
-          - range: Course
-          - range: Checkpoint
+      checkpoint:
+        description: "審査要件"
+        range: Checkpoint
+      category:
+        description: "区分要件"
+        range: CourseCategory
+      course:
+        description: "科目要件"
+        range: Course
 
   Lecture:
     is_a: NamedThingWithId
@@ -116,6 +119,9 @@ classes:
         description: "規定の適用対象学年"
         range: integer
         multivalued: true
+      year:
+        description: "規定が適用される入学年度"
+        range: integer
 
   CourseCategory:
     is_a: NamedThingWithId

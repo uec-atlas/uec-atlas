@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/UUZ2DCL3",
+      "id": "uar:education/VFKINVSK",
       "name": {
         "ja": "セキュリティ情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/GYMQWDFE",
+      "id": "uar:education/36LATUWW",
       "name": {
         "ja": "セキュリティ情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/C7ZKGG6E",
+      "id": "uar:education/FRJHF7C6",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": "uar:education/JIOUFJNK",
+      "id": "uar:education/3GGS3BPP",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類共通基礎科目/選択科目"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "uar:education/DXCR2PO2",
+      "id": "uar:education/5TTO6RNB",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類共通基礎科目/自由科目"
       },
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "uar:education/74UER42C",
+      "id": "uar:education/K5LZ6M6L",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類専門科目/必修科目"
       },
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "id": "uar:education/ABIJGTTY",
+      "id": "uar:education/MNUHRXEP",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類専門科目/選択科目"
       },
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "id": "uar:education/QFKAWPEN",
+      "id": "uar:education/RPGNTGKJ",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類専門科目/自由科目"
       },
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "uar:education/7JM4TRCQ",
+      "id": "uar:education/3BXHL7H5",
       "name": {
         "ja": "セキュリティ情報学プログラム - 類専門科目/国際科目"
       },
@@ -176,9 +176,9 @@
       ]
     },
     {
-      "id": "uar:education/VX5MKI6Q",
+      "id": "uar:education/WA6MOJXV",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/CTHKPUEZ",
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "id": "uar:education/W6B3MEOS",
+      "id": "uar:education/QWYVN22C",
       "name": {
         "ja": "卒業所要単位"
       },

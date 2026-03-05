@@ -3,7 +3,7 @@
   "year": 2024,
   "entries": [
     {
-      "id": "uar:education/3MN3GN3D",
+      "id": "uar:education/YORJYIHJ",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/JUAGTATA",
+      "id": "uar:education/PMZ3K6PW",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/M7WL54IF",
+      "id": "uar:education/C36V3G52",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/E6RP6GSB",
+      "id": "uar:education/TJCLWTIQ",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/NVPRJE6C",
+      "id": "uar:education/362MPETW",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類専門科目/必修科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/UX7IRX35",
+      "id": "uar:education/HBSWM5SQ",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類専門科目/選択科目"
       },
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "uar:education/ZGT7F4TA",
+      "id": "uar:education/UD6HITQJ",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類専門科目/自由科目"
       },
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": "uar:education/IAU7VRVZ",
+      "id": "uar:education/2CPV4TVE",
       "name": {
         "ja": "コンピュータサイエンスプログラム - 類専門科目/国際科目"
       },
@@ -177,9 +177,9 @@
       ]
     },
     {
-      "id": "uar:education/AG4NOZZ4",
+      "id": "uar:education/DCQRW5MJ",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/75CN24UH",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "id": "uar:education/W276ID34",
+      "id": "uar:education/7AYEFL5T",
       "name": {
         "ja": "卒業所要単位"
       },

@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/A45BEEA3",
+      "id": "uar:education/S4UGFT6H",
       "name": {
         "ja": "計測・制御システムプログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/SKCPM7VH",
+      "id": "uar:education/BK3JC74S",
       "name": {
         "ja": "計測・制御システムプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/4WNBGZKY",
+      "id": "uar:education/O4Q3XNZP",
       "name": {
         "ja": "計測・制御システムプログラム - 類共通基礎科目/必修科目"
       },
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "uar:education/6YQEDNNT",
+      "id": "uar:education/ETAP4IC6",
       "name": {
         "ja": "計測・制御システムプログラム - 類共通基礎科目/選択必修科目"
       },
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "uar:education/NSIKFLFE",
+      "id": "uar:education/XVFUYL6V",
       "name": {
         "ja": "計測・制御システムプログラム - 類共通基礎科目/選択科目"
       },
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "id": "uar:education/BXU2QGPS",
+      "id": "uar:education/XPVRVUTS",
       "name": {
         "ja": "計測・制御システムプログラム - 類共通基礎科目/自由科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/NE6ARPZB",
+      "id": "uar:education/FZ5U4G4E",
       "name": {
         "ja": "計測・制御システムプログラム - 類専門科目/必修科目"
       },
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": "uar:education/2MZ2OSLL",
+      "id": "uar:education/T6EYXLH4",
       "name": {
         "ja": "計測・制御システムプログラム - 類専門科目/選択必修科目"
       },
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "uar:education/J7UTLCRH",
+      "id": "uar:education/AOUXSE7B",
       "name": {
         "ja": "計測・制御システムプログラム - 類専門科目/選択科目"
       },
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": "uar:education/WLWHNMVP",
+      "id": "uar:education/2JN4FYDU",
       "name": {
         "ja": "計測・制御システムプログラム - 類専門科目/自由科目"
       },
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "id": "uar:education/6ILQJ56E",
+      "id": "uar:education/NIUGCYUQ",
       "name": {
         "ja": "計測・制御システムプログラム - 類専門科目/国際科目"
       },
@@ -230,9 +230,9 @@
       ]
     },
     {
-      "id": "uar:education/746YOEDS",
+      "id": "uar:education/USA5CDFR",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/HXSVK2KQ",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "id": "uar:education/AHQXAQNB",
+      "id": "uar:education/GZ3DCEOQ",
       "name": {
         "ja": "卒業所要単位"
       },

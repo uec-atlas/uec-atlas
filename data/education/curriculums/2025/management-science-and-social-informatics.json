@@ -3,7 +3,7 @@
   "year": 2025,
   "entries": [
     {
-      "id": "uar:education/ALHLDMAQ",
+      "id": "uar:education/DV75Q7HV",
       "name": {
         "ja": "経営・社会情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/7I5NNXBN",
+      "id": "uar:education/TTMC626K",
       "name": {
         "ja": "経営・社会情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/EYR6ZEJF",
+      "id": "uar:education/QQJL45C2",
       "name": {
         "ja": "経営・社会情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/7MCNABEF",
+      "id": "uar:education/LYOHWTKP",
       "name": {
         "ja": "経営・社会情報学プログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/OZCFQP6Q",
+      "id": "uar:education/NOG7TPMC",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/必修科目"
       },
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "id": "uar:education/KQKHCLJU",
+      "id": "uar:education/JYYUPXJQ",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/選択科目"
       },
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "id": "uar:education/MZFFNSSC",
+      "id": "uar:education/BGDPSI6E",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/自由科目"
       },
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "id": "uar:education/C7HDUAIP",
+      "id": "uar:education/6WJ7OB5E",
       "name": {
         "ja": "経営・社会情報学プログラム - 類専門科目/国際科目"
       },
@@ -169,9 +169,9 @@
       ]
     },
     {
-      "id": "uar:education/IGLF35MO",
+      "id": "uar:education/7GLJTFGR",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/6BHVGRQD",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "id": "uar:education/4SJT4T6A",
+      "id": "uar:education/VE76G7BS",
       "name": {
         "ja": "卒業所要単位"
       },

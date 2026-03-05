@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/K4XCBQ3J",
+      "id": "uar:education/74X55E3A",
       "name": {
         "ja": "先端ロボティクスプログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/YRRMQ7XS",
+      "id": "uar:education/7J4J7UFH",
       "name": {
         "ja": "先端ロボティクスプログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/6LEUU2X6",
+      "id": "uar:education/IMO4REJX",
       "name": {
         "ja": "先端ロボティクスプログラム - 類共通基礎科目/必修科目"
       },
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": "uar:education/ZFSJ4M7F",
+      "id": "uar:education/E2TCDT2E",
       "name": {
         "ja": "先端ロボティクスプログラム - 類共通基礎科目/選択必修科目"
       },
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "uar:education/YGOZNKBW",
+      "id": "uar:education/NO3JMOZU",
       "name": {
         "ja": "先端ロボティクスプログラム - 類共通基礎科目/選択科目"
       },
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "id": "uar:education/QX2FAUGS",
+      "id": "uar:education/DCPJOCPL",
       "name": {
         "ja": "先端ロボティクスプログラム - 類共通基礎科目/自由科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/UIO7TIQY",
+      "id": "uar:education/DP5BJWPJ",
       "name": {
         "ja": "先端ロボティクスプログラム - 類専門科目/必修科目"
       },
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "id": "uar:education/HQG3KCF5",
+      "id": "uar:education/XJFUDXXX",
       "name": {
         "ja": "先端ロボティクスプログラム - 類専門科目/選択必修科目"
       },
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "id": "uar:education/AE6CWKLF",
+      "id": "uar:education/CPA46NDS",
       "name": {
         "ja": "先端ロボティクスプログラム - 類専門科目/選択科目"
       },
@@ -172,7 +172,7 @@
       ]
     },
     {
-      "id": "uar:education/PRABBYCV",
+      "id": "uar:education/4HSWD4FX",
       "name": {
         "ja": "先端ロボティクスプログラム - 類専門科目/自由科目"
       },
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "id": "uar:education/WMK2TNZ6",
+      "id": "uar:education/ANO6UTMW",
       "name": {
         "ja": "先端ロボティクスプログラム - 類専門科目/国際科目"
       },
@@ -230,9 +230,9 @@
       ]
     },
     {
-      "id": "uar:education/IEXATIOS",
+      "id": "uar:education/QZ57ISDT",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/IGC4IZMT",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "id": "uar:education/NSDRNLLN",
+      "id": "uar:education/CSIJJF3E",
       "name": {
         "ja": "卒業所要単位"
       },

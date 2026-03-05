@@ -3,7 +3,7 @@
   "year": 2024,
   "entries": [
     {
-      "id": "uar:education/6NG56KRC",
+      "id": "uar:education/H4YQCHFM",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/必修科目"
       },
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "uar:education/DMKDWKAR",
+      "id": "uar:education/JV4234UJ",
       "name": {
         "ja": "電子情報学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/MTPDWXUZ",
+      "id": "uar:education/IYADHMEU",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/必修科目"
       },
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "id": "uar:education/TRI46WIR",
+      "id": "uar:education/EDUYVVJB",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/選択必修科目"
       },
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "uar:education/MFJJMFAY",
+      "id": "uar:education/XL66Z5I4",
       "name": {
         "ja": "電子情報学プログラム - 類共通基礎科目/自由科目"
       },
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "id": "uar:education/6LJKCZLB",
+      "id": "uar:education/W2LKYU7R",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/必修科目"
       },
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": "uar:education/JMP5DU5D",
+      "id": "uar:education/FAFFQN66",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択必修科目"
       },
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": "uar:education/GVBJNXA7",
+      "id": "uar:education/WECO6NWQ",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/選択科目"
       },
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "id": "uar:education/P7GZK7IO",
+      "id": "uar:education/BUYMAQEC",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/自由科目"
       },
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "id": "uar:education/75SQYX4Z",
+      "id": "uar:education/EATZCLGW",
       "name": {
         "ja": "電子情報学プログラム - 類専門科目/国際科目"
       },
@@ -194,9 +194,9 @@
       ]
     },
     {
-      "id": "uar:education/NBIAFRAH",
+      "id": "uar:education/DURRP3AE",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/FBZBS5JG",
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "id": "uar:education/5U2PACDO",
+      "id": "uar:education/QDBTXR3E",
       "name": {
         "ja": "卒業所要単位"
       },

@@ -3,7 +3,7 @@
   "year": 2023,
   "entries": [
     {
-      "id": "uar:education/VHZ5FOGM",
+      "id": "uar:education/UQBOLM2Y",
       "name": {
         "ja": "情報数理工学プログラム - 理数基礎科目/必修科目"
       },
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "uar:education/7HCZMNC4",
+      "id": "uar:education/LUCNAM35",
       "name": {
         "ja": "情報数理工学プログラム - 理数基礎科目/選択科目"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "uar:education/JHSZZEOX",
+      "id": "uar:education/L5X7PMI6",
       "name": {
         "ja": "情報数理工学プログラム - 類共通基礎科目/必修科目"
       },
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "id": "uar:education/LIYKUO4V",
+      "id": "uar:education/PNGIKHOA",
       "name": {
         "ja": "情報数理工学プログラム - 類共通基礎科目/選択科目"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "uar:education/BVJMOTPB",
+      "id": "uar:education/SQDBLYUX",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/必修科目"
       },
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "id": "uar:education/7PCTQ7N7",
+      "id": "uar:education/PEAEPXWY",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/選択科目"
       },
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "uar:education/QYA7H6BH",
+      "id": "uar:education/YHAZN25S",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/自由科目"
       },
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "id": "uar:education/6T4PQTVQ",
+      "id": "uar:education/36FG553R",
       "name": {
         "ja": "情報数理工学プログラム - 類専門科目/国際科目"
       },
@@ -174,9 +174,9 @@
       ]
     },
     {
-      "id": "uar:education/PQSLYNHQ",
+      "id": "uar:education/MJS6WFSD",
       "name": {
-        "ja": "卒業研究着手審査基準"
+        "ja": "卒業研究着手審査"
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/6EMQPAAC",
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": "uar:education/AQ4TTUXZ",
+      "id": "uar:education/HPJMFKY7",
       "name": {
         "ja": "卒業所要単位"
       },
