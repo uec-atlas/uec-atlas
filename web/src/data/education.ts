@@ -54,6 +54,18 @@ for (const category of courseCategories) {
   _courseCategoryMap.set(category.id, category.data as CourseCategory);
 }
 
+for (const category of _courseCategoryMap.values()) {
+  if (category.subCategoryOf) {
+    const parentCategory = _courseCategoryMap.get(category.subCategoryOf);
+    if (parentCategory) {
+      parentCategory.hasSubCategory ??= [];
+      if (!parentCategory.hasSubCategory.includes(category.id)) {
+        parentCategory.hasSubCategory.push(category.id);
+      }
+    }
+  }
+}
+
 const curriculums = await getCollection("educationCurriculums");
 for (const curriculum of curriculums) {
   _curriculumMap.set(curriculum.id, curriculum.data as CurriculumEntry);

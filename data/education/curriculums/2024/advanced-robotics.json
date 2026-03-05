@@ -237,7 +237,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/IGC4IZMT",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 15,
           "description": "類共通基礎科目の全必修科目6科目の11単位及び選択必修科目2科目の4単位以上を修得していること。",
@@ -265,7 +265,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/IGC4IZMT",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

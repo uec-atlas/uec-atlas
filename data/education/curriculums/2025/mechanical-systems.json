@@ -218,7 +218,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/M6PLREDB",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 0,
           "description": "2年次までの類共通基礎科目及び類専門科目の必修科目9科目の21単位のうち、16単位以上の単位を修得していること。類専門科目のメカノデザイン並びに知能機械工学基礎実験第一及び第二並びにマシンデザインA及びBの単位を修得していること。",
@@ -240,7 +240,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/M6PLREDB",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

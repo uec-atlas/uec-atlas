@@ -180,7 +180,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/6EMQPAAC",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 15,
           "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
@@ -208,7 +208,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/6EMQPAAC",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

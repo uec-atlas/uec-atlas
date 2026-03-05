@@ -182,7 +182,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/7PMAEBVH",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 17,
           "description": "類共通基礎科目の必修科目10科目の17単位をすべて修得していること。",
@@ -210,7 +210,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/7PMAEBVH",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

@@ -199,7 +199,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/FBZBS5JG",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 21,
           "description": "類共通基礎科目の全必修科目10科目のうち、9科目以上の単位を修得し、かつ、必修科目及び選択必修科目のうち、21単位以上を修得していること。",
@@ -227,7 +227,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/FBZBS5JG",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

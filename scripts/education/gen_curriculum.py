@@ -206,14 +206,14 @@ def generate_curriculum(year: int, input_path: str):
                                 },
                                 "type": "Checkpoint",
                                 "targetOrganization": org.id,
-                                "requiredCategories": []
+                                "categoryRequirements": []
                             }
                             curriculum_entries.append(entry)
 
                         if any(
                                 req["minCredits"] == credits
                                 and set(req.get("targetCategories", [])) == set(c.id for c in [category])
-                                for req in entry["requiredCategories"]):
+                                for req in entry["categoryRequirements"]):
                             continue
 
                         new_entry = {
@@ -221,7 +221,7 @@ def generate_curriculum(year: int, input_path: str):
                             "targetCategories": [category.id]
                         }
 
-                        entry["requiredCategories"].append(new_entry)
+                        entry["categoryRequirements"].append(new_entry)
 
             # 卒業研究着手審査(昼間)
         if all(col in table.columns for col in ["授業科目区分", "修得すべき単位", "審査対象科目・要件等"]):
@@ -284,7 +284,7 @@ def generate_curriculum(year: int, input_path: str):
                             },
                             "type": "Checkpoint",
                             "targetOrganization": org.id,
-                            "requiredCategories": []
+                            "categoryRequirements": []
                         }
                         curriculum_entries.append(entry)
 
@@ -292,7 +292,7 @@ def generate_curriculum(year: int, input_path: str):
                         req["minCredits"] == credits
                             and req["description"] == notes
                             and set(req.get("targetCategories", [])) == set(c.id for c in categories)
-                            for req in entry["requiredCategories"]):
+                            for req in entry["categoryRequirements"]):
                         continue
 
                     new_entry = {
@@ -304,7 +304,7 @@ def generate_curriculum(year: int, input_path: str):
                         new_entry["targetCategories"] = [
                             c.id for c in categories]
 
-                    entry["requiredCategories"].append(new_entry)
+                    entry["categoryRequirements"].append(new_entry)
 
         # 卒業所要単位(昼間)
         if "類区分プログラム" in table.columns and len(table.columns) == 18:
@@ -354,7 +354,7 @@ def generate_curriculum(year: int, input_path: str):
                                 },
                                 "type": "Checkpoint",
                                 "targetOrganization": org.id,
-                                "requiredCategories": []
+                                "categoryRequirements": []
                             }
                             curriculum_entries.append(entry)
 
@@ -365,7 +365,7 @@ def generate_curriculum(year: int, input_path: str):
                         if any(
                                 req["minCredits"] == credit
                             and set(req.get("targetCategories", [])) == set(c.id for c in [category])
-                                for req in entry["requiredCategories"]):
+                                for req in entry["categoryRequirements"]):
                             continue
 
                         new_entry = {
@@ -373,7 +373,7 @@ def generate_curriculum(year: int, input_path: str):
                             "targetCategories": [category.id]
                         }
 
-                        entry["requiredCategories"].append(new_entry)
+                        entry["categoryRequirements"].append(new_entry)
 
     for (output_file, curriculum_entries) in output_files_per_organization.values():
         with open(outdir / f"{output_file}.json", "w", encoding="utf-8") as f:

@@ -182,7 +182,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/CTHKPUEZ",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 19,
           "description": "類共通基礎科目の全必修科目8科目の17単位及び選択科目1科目の2単位以上を修得していること。",
@@ -210,7 +210,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/CTHKPUEZ",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

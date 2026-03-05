@@ -190,7 +190,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/NCMQHOOB",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 0,
           "description": "2年次までの類共通基礎科目及び類専門科目の必修科目10科目の22単位のうち、16単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに光工学実験第一及び第二の単位を修得していること。",
@@ -212,7 +212,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/NCMQHOOB",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 8,
           "targetCategories": [

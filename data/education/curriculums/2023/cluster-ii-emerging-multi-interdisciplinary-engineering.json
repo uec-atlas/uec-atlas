@@ -426,7 +426,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/AEFZKYAV",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 4,
           "targetCategories": [
@@ -478,7 +478,7 @@
       },
       "type": "Checkpoint",
       "targetOrganization": "uar:organizations/AEFZKYAV",
-      "requiredCategories": [
+      "categoryRequirements": [
         {
           "minCredits": 4,
           "description": "言語文化基礎科目Ⅰ(1年次英語4単位)",

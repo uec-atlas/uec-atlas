@@ -21,9 +21,6 @@ export default defineConfig({
         target: "esnext",
       },
     },
-    ssr: {
-      external: ["eyereasoner"],
-    },
     define: {
       __dirname: '""',
       __filename: '""',
