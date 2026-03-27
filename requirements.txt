@@ -1,6 +1,6 @@
 linkml
 selectolax
-httpx
+httpx[http2]
 tqdm
 pdfplumber
 pandas

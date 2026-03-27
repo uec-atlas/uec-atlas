@@ -4,6 +4,9 @@ from dataclasses import dataclass
 from selectolax.lexbor import LexborHTMLParser
 from tqdm.asyncio import tqdm
 import sys
+import json
+import os
+import hashlib
 
 
 @dataclass
@@ -20,18 +23,34 @@ class SyllabusCourse:
 
 
 LIMITS = httpx.Limits(max_connections=10, max_keepalive_connections=5)
-CONCURRENCY_LIMIT = 5
+CONCURRENCY_LIMIT = 10
+CACHE_DIR = ".cache/syllabuses"
+
+
+def get_cache_path(url: str) -> str:
+    hashed = hashlib.md5(url.encode()).hexdigest()
+    return os.path.join(CACHE_DIR, f"{hashed}.html")
 
 
 async def fill_course_details(client: httpx.AsyncClient, course: SyllabusCourse, semaphore: asyncio.Semaphore):
     async with semaphore:
         try:
-            await asyncio.sleep(0.5)
+            cache_path = get_cache_path(course.url)
+            html_content = None
 
-            response = await client.get(course.url, timeout=10.0)
-            response.raise_for_status()
+            if os.path.exists(cache_path):
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    html_content = f.read()
+            else:
+                await asyncio.sleep(0.25)
+                response = await client.get(course.url, timeout=10.0)
+                response.raise_for_status()
+                html_content = response.text
+                os.makedirs(CACHE_DIR, exist_ok=True)
+                with open(cache_path, "w", encoding="utf-8") as f:
+                    f.write(html_content)
 
-            parser = LexborHTMLParser(response.text)
+            parser = LexborHTMLParser(html_content)
 
             node_en = parser.css_first(
                 "body > table:nth-child(8) > tbody > tr:nth-child(2) > td")
@@ -49,10 +68,20 @@ async def fill_course_details(client: httpx.AsyncClient, course: SyllabusCourse,
 
 async def load_syllabuses(root_url: str):
     async with httpx.AsyncClient(limits=LIMITS, http2=False) as client:
-        response = await client.get(root_url)
-        response.raise_for_status()
+        # ルートURLもキャッシュ
+        root_cache_path = get_cache_path(root_url)
+        if os.path.exists(root_cache_path):
+            with open(root_cache_path, "r", encoding="utf-8") as f:
+                root_html = f.read()
+        else:
+            response = await client.get(root_url)
+            response.raise_for_status()
+            root_html = response.text
+            os.makedirs(CACHE_DIR, exist_ok=True)
+            with open(root_cache_path, "w", encoding="utf-8") as f:
+                f.write(root_html)
 
-        parser = LexborHTMLParser(response.text)
+        parser = LexborHTMLParser(root_html)
         syllabus_rows = parser.css(
             "body > table > tbody > tr:nth-child(4) > td > table > tbody:nth-child(3) > tr")
 
@@ -79,12 +108,15 @@ async def load_syllabuses(root_url: str):
                  for course in courses]
         await tqdm.gather(*tasks, desc="Loading syllabuses")
 
-    for course in courses:
-        print(f"[{course.numbering_codes}] {course.name} / {course.name_en}")
+        return courses
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python load_syllabuses.py <syllabus_url>")
+    if len(sys.argv) != 3:
+        print("Usage: python load_syllabuses.py <syllabus_url> <output_file>")
         sys.exit(1)
     url = sys.argv[1]
-    asyncio.run(load_syllabuses(url))
+    output_file = sys.argv[2]
+    courses = asyncio.run(load_syllabuses(url))
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump([course.__dict__ for course in courses],
+                  f, ensure_ascii=False, indent=2)

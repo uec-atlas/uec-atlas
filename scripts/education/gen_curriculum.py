@@ -11,7 +11,7 @@ from scripts.gen_id import generate_id
 from .course_registry import CourseRegistry
 from .course_category import find_course_category_by_fragments, load_course_categories
 from .extract_handbook import extract_handbook_tables
-from .organizations import find_organization_by_name_pattern, get_clusters, get_programs, load_organizations
+from ..organizations import find_organization_by_name_pattern, get_clusters, get_programs, load_organizations
 from .utils import normalize_handbook_name
 
 

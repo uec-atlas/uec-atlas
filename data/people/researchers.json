@@ -1,0 +1,4431 @@
+[
+  {
+    "id": "uar:people/QUBWILV6",
+    "name": {
+      "ja": "饗庭 絵里子",
+      "en": "Aiba Eriko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/684"
+  },
+  {
+    "id": "uar:people/L4BTJXFC",
+    "name": {
+      "ja": "赤池 英夫",
+      "en": "Hideo Akaike"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/504"
+  },
+  {
+    "id": "uar:people/VSSU3YXY",
+    "name": {
+      "ja": "赤澤 紀子",
+      "en": "Akazawa Noriko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/JU4BGIXI"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/40"
+  },
+  {
+    "id": "uar:people/7WSWHPJA",
+    "name": {
+      "ja": "秋田 学",
+      "en": "Akita Manabu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/674"
+  },
+  {
+    "id": "uar:people/OKDMHI5D",
+    "name": {
+      "ja": "秋吉 亮太",
+      "en": "Akiyoshi Ryota"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/912"
+  },
+  {
+    "id": "uar:people/7CPIVMPF",
+    "name": {
+      "ja": "浅原 彰文",
+      "en": "Asahara Akifumi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/704"
+  },
+  {
+    "id": "uar:people/6GPPRSNI",
+    "name": {
+      "ja": "阿部 朋典",
+      "en": "Tomonori Abe"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/N2FRVIVV"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/777"
+  },
+  {
+    "id": "uar:people/7ECUFIBV",
+    "name": {
+      "ja": "天野 友之",
+      "en": "Amano Tomoyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/835"
+  },
+  {
+    "id": "uar:people/FKSENKY4",
+    "name": {
+      "ja": "安西 亮",
+      "en": "Anzai Ryo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/909"
+  },
+  {
+    "id": "uar:people/RWX76R5O",
+    "name": {
+      "ja": "安藤 創一",
+      "en": "Ando Soichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/390"
+  },
+  {
+    "id": "uar:people/Q67WXXAZ",
+    "name": {
+      "ja": "安藤 芳晃",
+      "en": "Yoshiaki Ando"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/555"
+  },
+  {
+    "id": "uar:people/QX6YHQC5",
+    "name": {
+      "ja": "池田 暁彦",
+      "en": "Ikeda Akihiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/123"
+  },
+  {
+    "id": "uar:people/UNPW5GTL",
+    "name": {
+      "ja": "石川 亮",
+      "en": "Ishikawa Ryo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/35"
+  },
+  {
+    "id": "uar:people/ODQRWY3M",
+    "name": {
+      "ja": "石谷 靖",
+      "en": "Ishigai Yasushi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/934"
+  },
+  {
+    "id": "uar:people/KYDB5EJL",
+    "name": {
+      "ja": "石垣 陽",
+      "en": "Ishigaki Yo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/XH66SRKN",
+      "uar:organizations/LAEANIVX",
+      "uar:organizations/MQGWOI4F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/325"
+  },
+  {
+    "id": "uar:people/LE7U3UZ4",
+    "name": {
+      "ja": "石上 嘉康",
+      "en": "Ishigami Yoshiyasu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/501"
+  },
+  {
+    "id": "uar:people/6QOGZXZV",
+    "name": {
+      "ja": "石田 尚行",
+      "en": "Ishida Takayuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/481"
+  },
+  {
+    "id": "uar:people/YTMI3RAJ",
+    "name": {
+      "ja": "石田 晴久",
+      "en": "Ishida Haruhisa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/153"
+  },
+  {
+    "id": "uar:people/EPUACK2I",
+    "name": {
+      "ja": "石橋 功至",
+      "en": "Ishibashi Koji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/792"
+  },
+  {
+    "id": "uar:people/E3HX265N",
+    "name": {
+      "ja": "伊勢 大平",
+      "en": "Ise Daihei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/920"
+  },
+  {
+    "id": "uar:people/3PRQ5INS",
+    "name": {
+      "ja": "板倉 直明",
+      "en": "Itakura Naoaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/477"
+  },
+  {
+    "id": "uar:people/HV5QLMPF",
+    "name": {
+      "ja": "市野 将嗣",
+      "en": "Ichino Masatsugu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/654"
+  },
+  {
+    "id": "uar:people/UL4V7TK6",
+    "name": {
+      "ja": "一色 秀夫",
+      "en": "Isshiki Hideo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/519"
+  },
+  {
+    "id": "uar:people/SHWYBREW",
+    "name": {
+      "ja": "伊藤 毅志",
+      "en": "Ito Takeshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/500"
+  },
+  {
+    "id": "uar:people/ILQDJLPU",
+    "name": {
+      "ja": "伊藤 大雄",
+      "en": "Ito Hiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/6"
+  },
+  {
+    "id": "uar:people/ZDLDH7EF",
+    "name": {
+      "ja": "稲葉 通将",
+      "en": "Inaba Michimasa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/405"
+  },
+  {
+    "id": "uar:people/4J7I7AIV",
+    "name": {
+      "ja": "井上 洋平",
+      "en": "Inoue Yohei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/671"
+  },
+  {
+    "id": "uar:people/QKBSKNDG",
+    "name": {
+      "ja": "岩國 加奈",
+      "en": "Iwakuni Kana"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/735"
+  },
+  {
+    "id": "uar:people/HBBOANPH",
+    "name": {
+      "ja": "岩﨑 敦",
+      "en": "Iwasaki Atsushi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/847"
+  },
+  {
+    "id": "uar:people/6XVJPQJJ",
+    "name": {
+      "ja": "岩永 二郎",
+      "en": "Iwanaga Jiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/QBTOSVHH",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/769"
+  },
+  {
+    "id": "uar:people/7JCGFXFP",
+    "name": {
+      "ja": "岩本 貢",
+      "en": "Iwamoto Mitsugu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/610"
+  },
+  {
+    "id": "uar:people/5L4UF3U6",
+    "name": {
+      "ja": "植野 真臣",
+      "en": "Ueno Maomi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/172"
+  },
+  {
+    "id": "uar:people/BX27MC5N",
+    "name": {
+      "ja": "上野 芳康",
+      "en": "Ueno Yoshiyasu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/280"
+  },
+  {
+    "id": "uar:people/DRBIOROS",
+    "name": {
+      "ja": "上原 寿和子",
+      "en": "Uehara Suwako"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/389"
+  },
+  {
+    "id": "uar:people/V4P7CAVU",
+    "name": {
+      "ja": "臼井 秀知",
+      "en": "Usui Hidetomo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/932"
+  },
+  {
+    "id": "uar:people/35332NAW",
+    "name": {
+      "ja": "内田 雅文",
+      "en": "Masafumi Uchida"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/834"
+  },
+  {
+    "id": "uar:people/UY4VFIEO",
+    "name": {
+      "ja": "内海 彰",
+      "en": "Utsumi Akira"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/170"
+  },
+  {
+    "id": "uar:people/I5H4LTQD",
+    "name": {
+      "ja": "宇都 雅輝",
+      "en": "Uto Masaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/707"
+  },
+  {
+    "id": "uar:people/233BGDDN",
+    "name": {
+      "ja": "江木 啓訓",
+      "en": "Egi Hironori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/147"
+  },
+  {
+    "id": "uar:people/X7SQCSXP",
+    "name": {
+      "ja": "Eslam Abubakr",
+      "en": "Abubakr Eslam"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/W23WZ55B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/904"
+  },
+  {
+    "id": "uar:people/6QKF7MBY",
+    "name": {
+      "ja": "榎本 直也",
+      "en": "Enomoto Naoya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/803"
+  },
+  {
+    "id": "uar:people/RUDEV32S",
+    "name": {
+      "ja": "遠藤 晋平",
+      "en": "Endo Shimpei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/29"
+  },
+  {
+    "id": "uar:people/SCIYKTGV",
+    "name": {
+      "ja": "王 軼煒",
+      "en": "Wang Yiwei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/926"
+  },
+  {
+    "id": "uar:people/WQH4G7NY",
+    "name": {
+      "ja": "王 贇弢",
+      "en": "Wang Yuntao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/140"
+  },
+  {
+    "id": "uar:people/DM2PM3MR",
+    "name": {
+      "ja": "王 港帰",
+      "en": "Wang Ganggui"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/923"
+  },
+  {
+    "id": "uar:people/HMFTLPUT",
+    "name": {
+      "ja": "王 萌蕾",
+      "en": "Wang Menglei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/906"
+  },
+  {
+    "id": "uar:people/3QLDTJWT",
+    "name": {
+      "ja": "大饗 千彰",
+      "en": "Ooae Chiaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/702"
+  },
+  {
+    "id": "uar:people/LNIYWE7J",
+    "name": {
+      "ja": "大石 由紀子",
+      "en": "Oishi Yukiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/109"
+  },
+  {
+    "id": "uar:people/3K6SNLXR",
+    "name": {
+      "ja": "大川 富雄",
+      "en": "Okawa Tomio"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/818"
+  },
+  {
+    "id": "uar:people/GAQMWSPI",
+    "name": {
+      "ja": "大河原 一憲",
+      "en": "Ohkawara Kazunori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/386"
+  },
+  {
+    "id": "uar:people/2MLDHKO7",
+    "name": {
+      "ja": "大坐畠 智",
+      "en": "Ohzahata Satoshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/146"
+  },
+  {
+    "id": "uar:people/R6QHQUWJ",
+    "name": {
+      "ja": "大野 真裕",
+      "en": "Ohno Masahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/265"
+  },
+  {
+    "id": "uar:people/BONH7BQC",
+    "name": {
+      "ja": "大濱 靖匡",
+      "en": "Ohama Yasutada"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/846"
+  },
+  {
+    "id": "uar:people/TTKTB7AS",
+    "name": {
+      "ja": "大森 匡",
+      "en": "Ohmori Tadashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/807"
+  },
+  {
+    "id": "uar:people/FZ4UREQ3",
+    "name": {
+      "ja": "岡田 英孝",
+      "en": "Okada Hidetaka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/535"
+  },
+  {
+    "id": "uar:people/6AM363X5",
+    "name": {
+      "ja": "岡本 一志",
+      "en": "Okamoto Kazushi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/59"
+  },
+  {
+    "id": "uar:people/QXZPC4WO",
+    "name": {
+      "ja": "岡本 吉央",
+      "en": "Okamoto Yoshio"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/7"
+  },
+  {
+    "id": "uar:people/TK32ABQY",
+    "name": {
+      "ja": "小柏 香穂理",
+      "en": "Ogashiwa Kahori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LNC67ZQX",
+      "uar:organizations/MQGWOI4F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/896"
+  },
+  {
+    "id": "uar:people/L464HI6G",
+    "name": {
+      "ja": "緒方 秀教",
+      "en": "Ogata Hidenori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/77"
+  },
+  {
+    "id": "uar:people/5FOU4WTB",
+    "name": {
+      "ja": "小川 朋宏",
+      "en": "Ogawa Tomohiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/81"
+  },
+  {
+    "id": "uar:people/BMJZUMU5",
+    "name": {
+      "ja": "奥野 剛史",
+      "en": "Tsuyoshi Okuno"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/151"
+  },
+  {
+    "id": "uar:people/JZV2MPNE",
+    "name": {
+      "ja": "尾関 之康",
+      "en": "Yukiyasu Ozeki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/157"
+  },
+  {
+    "id": "uar:people/WET2XPMZ",
+    "name": {
+      "ja": "織田 健",
+      "en": "Takeshi Oda"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/499"
+  },
+  {
+    "id": "uar:people/2C6IFKK2",
+    "name": {
+      "ja": "小野 薫",
+      "en": "Ono Kaoru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/I3YNKJ5K"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/900"
+  },
+  {
+    "id": "uar:people/J7H4RFQL",
+    "name": {
+      "ja": "小野 哲",
+      "en": "Ono Satoshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/717"
+  },
+  {
+    "id": "uar:people/DMD3AVQM",
+    "name": {
+      "ja": "小野 響",
+      "en": "Ono Hibiki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/412"
+  },
+  {
+    "id": "uar:people/YLEJPL2E",
+    "name": {
+      "ja": "Oon Sim Jui",
+      "en": "Oon Sim Jui"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/913"
+  },
+  {
+    "id": "uar:people/727KWVQU",
+    "name": {
+      "ja": "海津 利行",
+      "en": "Kaizu Toshiyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/899"
+  },
+  {
+    "id": "uar:people/S2FD7QN5",
+    "name": {
+      "ja": "加固 昌寛",
+      "en": "Kako Masahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/482"
+  },
+  {
+    "id": "uar:people/E62N3KG5",
+    "name": {
+      "ja": "笠原 ゆう子",
+      "en": "Kasahara Yuko"
+    },
+    "alternateNames": {
+      "ja": [
+        "竹田 ゆう子"
+      ],
+      "en": [
+        "Takeda Yuko"
+      ]
+    },
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/360"
+  },
+  {
+    "id": "uar:people/3DPGQ2T7",
+    "name": {
+      "ja": "柏原 昭博",
+      "en": "Akihiro Kashihara"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/828"
+  },
+  {
+    "id": "uar:people/FCT2P6DP",
+    "name": {
+      "ja": "柏木 岳彦",
+      "en": "Kashiwagi Takehiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/MQGWOI4F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/905"
+  },
+  {
+    "id": "uar:people/7QRALXO4",
+    "name": {
+      "ja": "梶川 翔平",
+      "en": "Kajikawa Shohei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/709"
+  },
+  {
+    "id": "uar:people/DYA4FH5R",
+    "name": {
+      "ja": "加治佐 貴大",
+      "en": "Kajisa Takahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/QBTOSVHH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/927"
+  },
+  {
+    "id": "uar:people/MUVTU4RB",
+    "name": {
+      "ja": "梶本 裕之",
+      "en": "Kajimoto Hiroyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/114"
+  },
+  {
+    "id": "uar:people/FW2R4SBT",
+    "name": {
+      "ja": "片岡 寛子",
+      "en": "Kataoka Hiroko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/KXFA2MJ4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/767"
+  },
+  {
+    "id": "uar:people/MEHUBKAP",
+    "name": {
+      "ja": "桂川 眞幸",
+      "en": "Katsuragawa Masayuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/496"
+  },
+  {
+    "id": "uar:people/EB6O7VCG",
+    "name": {
+      "ja": "加藤 省吾",
+      "en": "Kato Shogo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/83"
+  },
+  {
+    "id": "uar:people/FDQBDGJ6",
+    "name": {
+      "ja": "加藤 峰士",
+      "en": "Kato Takashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/710"
+  },
+  {
+    "id": "uar:people/ABE7X7TT",
+    "name": {
+      "ja": "金沢 友緒",
+      "en": "Tomoo Kanazawa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/407"
+  },
+  {
+    "id": "uar:people/C2LQDI5G",
+    "name": {
+      "ja": "金田 礼人",
+      "en": "Kanada Ayato"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/933"
+  },
+  {
+    "id": "uar:people/JSXZEFZA",
+    "name": {
+      "ja": "金森 哉吏",
+      "en": "Kanamori Chisato"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/479"
+  },
+  {
+    "id": "uar:people/CHIZ4FCG",
+    "name": {
+      "ja": "兼岩 憲",
+      "en": "Kaneiwa Ken"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/25"
+  },
+  {
+    "id": "uar:people/IAXS5UHX",
+    "name": {
+      "ja": "鐘ヶ江 暢子"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/JU4BGIXI"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/753"
+  },
+  {
+    "id": "uar:people/24NH4SFS",
+    "name": {
+      "ja": "金子 修",
+      "en": "Kaneko Osamu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/827"
+  },
+  {
+    "id": "uar:people/T3NMARXL",
+    "name": {
+      "ja": "狩野 豊",
+      "en": "Kano Yutaka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/364"
+  },
+  {
+    "id": "uar:people/TRSDMRDN",
+    "name": {
+      "ja": "萓野 良樹",
+      "en": "Kayano Yoshiki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/37"
+  },
+  {
+    "id": "uar:people/YDBLT4KF",
+    "name": {
+      "ja": "軽部 幸起",
+      "en": "Karube Koki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/908"
+  },
+  {
+    "id": "uar:people/EQCRKYCH",
+    "name": {
+      "ja": "菅 哲朗",
+      "en": "Kan Tetsuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/133"
+  },
+  {
+    "id": "uar:people/EYBJ5T7Q",
+    "name": {
+      "ja": "菊池 博史",
+      "en": "Kikuchi Hiroshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/819"
+  },
+  {
+    "id": "uar:people/6NTNEYHU",
+    "name": {
+      "ja": "岸本 哲夫",
+      "en": "Kishimoto Tetsuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/87"
+  },
+  {
+    "id": "uar:people/VCDESIB6",
+    "name": {
+      "ja": "北田 昇雄",
+      "en": "Kitada Nobuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/736"
+  },
+  {
+    "id": "uar:people/RR7MG547",
+    "name": {
+      "ja": "Kitsuwan Nattapong",
+      "en": "Kitsuwan Nattapong"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/703"
+  },
+  {
+    "id": "uar:people/YWKA5GN4",
+    "name": {
+      "ja": "木寺 正平",
+      "en": "Kidera Shouhei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/214"
+  },
+  {
+    "id": "uar:people/5JEAVFWW",
+    "name": {
+      "ja": "木下 雄貴",
+      "en": "Kinoshita Yuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/916"
+  },
+  {
+    "id": "uar:people/I5ESMBV6",
+    "name": {
+      "ja": "木村 航平",
+      "en": "Kohei Kimura"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/141"
+  },
+  {
+    "id": "uar:people/YOA5FMYW",
+    "name": {
+      "ja": "工藤 周平",
+      "en": "Shuhei Kudo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/748"
+  },
+  {
+    "id": "uar:people/YYI3BMPV",
+    "name": {
+      "ja": "工藤 俊亮",
+      "en": "Kudoh Shunsuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/65"
+  },
+  {
+    "id": "uar:people/WZBTAY2G",
+    "name": {
+      "ja": "久保木 孝",
+      "en": "Kuboki Takashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/285"
+  },
+  {
+    "id": "uar:people/2U2X7WA2",
+    "name": {
+      "ja": "栗田 岳",
+      "en": "Gaku Kurita"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/110"
+  },
+  {
+    "id": "uar:people/VAKXPRSH",
+    "name": {
+      "ja": "栗原 正純",
+      "en": "Masazumi Kurihara"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/488"
+  },
+  {
+    "id": "uar:people/TVWG7QIB",
+    "name": {
+      "ja": "桑原 大介",
+      "en": "Daisuke Kuwahara"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/LM62P3AE"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/15"
+  },
+  {
+    "id": "uar:people/TFNPABQM",
+    "name": {
+      "ja": "胡 芸群",
+      "en": "Hu Yiqun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/917"
+  },
+  {
+    "id": "uar:people/BXGDQHT6",
+    "name": {
+      "ja": "小池 卓二",
+      "en": "Koike Takuji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/32"
+  },
+  {
+    "id": "uar:people/Q5XTH3TF",
+    "name": {
+      "ja": "小泉 直也",
+      "en": "Koizumi Naoya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/131"
+  },
+  {
+    "id": "uar:people/O6TULR7U",
+    "name": {
+      "ja": "小泉 憲裕",
+      "en": "Koizumi Norihiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/64"
+  },
+  {
+    "id": "uar:people/Y6XJBB3X",
+    "name": {
+      "ja": "高坂 洋史",
+      "en": "Kohsaka Hiroshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/98"
+  },
+  {
+    "id": "uar:people/H5HIHWCX",
+    "name": {
+      "ja": "古賀 久志",
+      "en": "Koga Hisashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/376"
+  },
+  {
+    "id": "uar:people/V5ZAWLFZ",
+    "name": {
+      "ja": "小木曽 公尚",
+      "en": "Kogiso Kiminao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/11"
+  },
+  {
+    "id": "uar:people/WXIMOOM4",
+    "name": {
+      "ja": "小久保 伸人",
+      "en": "Kokubo Nobuhito"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/RFKJRV2S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/154"
+  },
+  {
+    "id": "uar:people/MJ5KMWQA",
+    "name": {
+      "ja": "小島 年春",
+      "en": "Kojima Toshiharu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/461"
+  },
+  {
+    "id": "uar:people/4JWSJG45",
+    "name": {
+      "ja": "児玉 幸子",
+      "en": "Kodama Sachiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/560"
+  },
+  {
+    "id": "uar:people/4JQPYR2L",
+    "name": {
+      "ja": "小林 聡",
+      "en": "Satoshi Kobayashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/492"
+  },
+  {
+    "id": "uar:people/NL5W7DAQ",
+    "name": {
+      "ja": "小宮 常康",
+      "en": "Komiya Tsuneyasu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/808"
+  },
+  {
+    "id": "uar:people/BBQFV2KF",
+    "name": {
+      "ja": "小山 大介",
+      "en": "Daisuke Koyama"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/493"
+  },
+  {
+    "id": "uar:people/J2IKPUUV",
+    "name": {
+      "ja": "齋藤 平和",
+      "en": "Saito Hirokazu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/408"
+  },
+  {
+    "id": "uar:people/DA5NWFA5",
+    "name": {
+      "ja": "斎藤 弘樹",
+      "en": "Saito Hiroki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/166"
+  },
+  {
+    "id": "uar:people/2ZABZD76",
+    "name": {
+      "ja": "酒井 剛",
+      "en": "Sakai Takeshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S",
+      "uar:organizations/FZLLX2DZ",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/102"
+  },
+  {
+    "id": "uar:people/LWP53EWD",
+    "name": {
+      "ja": "阪口 豊",
+      "en": "Sakaguchi Yutaka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/75"
+  },
+  {
+    "id": "uar:people/ZLRPTOMU",
+    "name": {
+      "ja": "坂野 昌人",
+      "en": "Sakano Masato"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/910"
+  },
+  {
+    "id": "uar:people/KBNWHHMU",
+    "name": {
+      "ja": "坂本 克好",
+      "en": "Sakamoto Katsuyoshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/489"
+  },
+  {
+    "id": "uar:people/EQMLW5XI",
+    "name": {
+      "ja": "坂本 真樹",
+      "en": "Sakamoto Maki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/107"
+  },
+  {
+    "id": "uar:people/F7NKMX6B",
+    "name": {
+      "ja": "﨑山 一男",
+      "en": "Sakiyama Kazuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/200"
+  },
+  {
+    "id": "uar:people/ZJ7PBIAL",
+    "name": {
+      "ja": "佐々木 成朗",
+      "en": "Sasaki Naruo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/315"
+  },
+  {
+    "id": "uar:people/7TTC7SWM",
+    "name": {
+      "ja": "定本 知徳",
+      "en": "Sadamoto Tomonori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/175"
+  },
+  {
+    "id": "uar:people/PLNM4TA6",
+    "name": {
+      "ja": "佐藤 証",
+      "en": "Satoh Akashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/314"
+  },
+  {
+    "id": "uar:people/3NE3FBU5",
+    "name": {
+      "ja": "佐藤 賢一",
+      "en": "Sato Ken'Ichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/368"
+  },
+  {
+    "id": "uar:people/7VUMBBCM",
+    "name": {
+      "ja": "佐藤 光哉",
+      "en": "Koya Sato"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/750"
+  },
+  {
+    "id": "uar:people/JFOKA2US",
+    "name": {
+      "ja": "佐藤 重幸",
+      "en": "Sato Shigeyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/139"
+  },
+  {
+    "id": "uar:people/RYQ7WSAS",
+    "name": {
+      "ja": "佐藤 俊治",
+      "en": "Satoh Shunji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/225"
+  },
+  {
+    "id": "uar:people/OW4Z2O3J",
+    "name": {
+      "ja": "佐藤 寛之",
+      "en": "Sato Hiroyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/220"
+  },
+  {
+    "id": "uar:people/BRUZCP3G",
+    "name": {
+      "ja": "佐藤 隆紀",
+      "en": "Sato Ryuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/778"
+  },
+  {
+    "id": "uar:people/OM62DDYU",
+    "name": {
+      "ja": "佐野 遼太郎",
+      "en": "Sano Ryotaro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/NXPOT4S5",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/762"
+  },
+  {
+    "id": "uar:people/BLZNVNA2",
+    "name": {
+      "ja": "Santoso Bagus",
+      "en": "Santoso Bagus"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/706"
+  },
+  {
+    "id": "uar:people/6TA6ZMN5",
+    "name": {
+      "ja": "三瓶 嚴一",
+      "en": "Sampei Genichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/95"
+  },
+  {
+    "id": "uar:people/TRKE7QBK",
+    "name": {
+      "ja": "張 贇",
+      "en": "Zhang Yun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/194"
+  },
+  {
+    "id": "uar:people/ZMZU5CDY",
+    "name": {
+      "ja": "志賀 智一",
+      "en": "Shiga Tomokazu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/549"
+  },
+  {
+    "id": "uar:people/AFDX47LC",
+    "name": {
+      "ja": "篠原 百合",
+      "en": "Shinohara Yuri"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/174"
+  },
+  {
+    "id": "uar:people/DGFDJJS7",
+    "name": {
+      "ja": "柴田 淳司",
+      "en": "Shibata Atsushi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/7PMAEBVH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/931"
+  },
+  {
+    "id": "uar:people/STHGAYQ3",
+    "name": {
+      "ja": "島田 宏",
+      "en": "Hiroshi Shimada"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/137"
+  },
+  {
+    "id": "uar:people/YQIMQF5M",
+    "name": {
+      "ja": "清水 亮介",
+      "en": "Shimizu Ryosuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/380"
+  },
+  {
+    "id": "uar:people/26YSLDK2",
+    "name": {
+      "ja": "尚 方",
+      "en": "Shang Fang"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/698"
+  },
+  {
+    "id": "uar:people/M3JDXP6U",
+    "name": {
+      "ja": "朱 沛賢",
+      "en": "Zhu Peixian"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/919"
+  },
+  {
+    "id": "uar:people/LDVPREG3",
+    "name": {
+      "ja": "肖 鳳超",
+      "en": "Fengchao Xiao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/551"
+  },
+  {
+    "id": "uar:people/TLCBSUCO",
+    "name": {
+      "ja": "庄司 暁",
+      "en": "Shoji Satoru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/813"
+  },
+  {
+    "id": "uar:people/ZSLJSC7Q",
+    "name": {
+      "ja": "庄野 逸",
+      "en": "Shouno Hayaru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/R6STPZS5",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/826"
+  },
+  {
+    "id": "uar:people/TTQJREIJ",
+    "name": {
+      "ja": "白川 晃",
+      "en": "Akira Shirakawa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/539"
+  },
+  {
+    "id": "uar:people/TZM2RKWN",
+    "name": {
+      "ja": "白川 英樹",
+      "en": "Shirakawa Hideki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/293"
+  },
+  {
+    "id": "uar:people/K4HG53MP",
+    "name": {
+      "ja": "沈 青",
+      "en": "Qing Shen"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/79"
+  },
+  {
+    "id": "uar:people/LJU24IE6",
+    "name": {
+      "ja": "新竹 純",
+      "en": "Shintake Jun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/731"
+  },
+  {
+    "id": "uar:people/6MNN46C7",
+    "name": {
+      "ja": "新谷 隆彦",
+      "en": "Shintani Takahiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/381"
+  },
+  {
+    "id": "uar:people/7QUA3UU2",
+    "name": {
+      "ja": "史 傑",
+      "en": "Shi Jie"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/287"
+  },
+  {
+    "id": "uar:people/RVJUCE77",
+    "name": {
+      "ja": "Jeffreys Atsuko Marie",
+      "en": "Jeffreys Atsuko Marie"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/317"
+  },
+  {
+    "id": "uar:people/OSAXS7OW",
+    "name": {
+      "ja": "姜 銀来",
+      "en": "Jiang Yinlai"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/XH66SRKN",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/391"
+  },
+  {
+    "id": "uar:people/6UKD2PJE",
+    "name": {
+      "ja": "金 路",
+      "en": "Jin Lu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/626"
+  },
+  {
+    "id": "uar:people/RPZ5POVE",
+    "name": {
+      "ja": "菅原 聖太",
+      "en": "Sugahara Shouta"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/766"
+  },
+  {
+    "id": "uar:people/SENHYA4S",
+    "name": {
+      "ja": "菅原 健",
+      "en": "Sugawara Takeshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/401"
+  },
+  {
+    "id": "uar:people/7IO66OK7",
+    "name": {
+      "ja": "杉 正夫",
+      "en": "Sugi Masao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/383"
+  },
+  {
+    "id": "uar:people/E3ABZWXO",
+    "name": {
+      "ja": "鈴木 淳",
+      "en": "Suzuki Jun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/18"
+  },
+  {
+    "id": "uar:people/RVDJOFU5",
+    "name": {
+      "ja": "住吉 晶",
+      "en": "Sumiyoshi Akira"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/B4ERRCO6"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/925"
+  },
+  {
+    "id": "uar:people/VN3TQOBK",
+    "name": {
+      "ja": "清 雄一",
+      "en": "Sei Yuichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/QBTOSVHH",
+      "uar:organizations/W23WZ55B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/673"
+  },
+  {
+    "id": "uar:people/NXFDPRKJ",
+    "name": {
+      "ja": "関 新之助",
+      "en": "Seki Shinnosuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/804"
+  },
+  {
+    "id": "uar:people/DDRDRKVE",
+    "name": {
+      "ja": "曽我部 東馬",
+      "en": "Tohma Sogabe"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S",
+      "uar:organizations/N6AF374F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/128"
+  },
+  {
+    "id": "uar:people/YHSCTJKB",
+    "name": {
+      "ja": "孫 光鎬",
+      "en": "Sun Guanghao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/708"
+  },
+  {
+    "id": "uar:people/XVOMHGUH",
+    "name": {
+      "ja": "高木 一幸",
+      "en": "Kazuyuki Takagi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/510"
+  },
+  {
+    "id": "uar:people/J6PTFVF3",
+    "name": {
+      "ja": "高木 克人",
+      "en": "Katsuto Takagi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/749"
+  },
+  {
+    "id": "uar:people/46POMMLX",
+    "name": {
+      "ja": "高木 正則",
+      "en": "Takagi Masanori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD",
+      "uar:organizations/POGPORDX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/411"
+  },
+  {
+    "id": "uar:people/ZZQEX3JE",
+    "name": {
+      "ja": "高田 哲司",
+      "en": "Takada Tetsuji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/379"
+  },
+  {
+    "id": "uar:people/XHJANQR6",
+    "name": {
+      "ja": "高田 亨",
+      "en": "Takada Toru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/JCVFHV2J"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/774"
+  },
+  {
+    "id": "uar:people/6FEERS2J",
+    "name": {
+      "ja": "高橋 弘太",
+      "en": "Takahashi Kota"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/73"
+  },
+  {
+    "id": "uar:people/MF5RDAUB",
+    "name": {
+      "ja": "高橋 里司",
+      "en": "Satoshi Takahashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/679"
+  },
+  {
+    "id": "uar:people/VNTF5QIX",
+    "name": {
+      "ja": "髙橋 裕樹",
+      "en": "Hiroki Takahashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/171"
+  },
+  {
+    "id": "uar:people/P37EGXEV",
+    "name": {
+      "ja": "瀧 真清",
+      "en": "Taki Masumi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/837"
+  },
+  {
+    "id": "uar:people/2SQHMYHS",
+    "name": {
+      "ja": "武石 典史",
+      "en": "Takeishi Norifumi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/322"
+  },
+  {
+    "id": "uar:people/3E6CFT7W",
+    "name": {
+      "ja": "武永 康彦",
+      "en": "Takenaga Yasuhiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/806"
+  },
+  {
+    "id": "uar:people/KJBY3QE7",
+    "name": {
+      "ja": "田尻 武義",
+      "en": "Takeyoshi Tajiri"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/120"
+  },
+  {
+    "id": "uar:people/4R6JILMK",
+    "name": {
+      "ja": "龍野 智哉",
+      "en": "Tatsuno Tomoya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/130"
+  },
+  {
+    "id": "uar:people/NPMAASJ2",
+    "name": {
+      "ja": "田中 一男",
+      "en": "Tanaka Kazuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/783"
+  },
+  {
+    "id": "uar:people/Q6UKILFH",
+    "name": {
+      "ja": "田中 健次",
+      "en": "Tanaka Kenji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/45"
+  },
+  {
+    "id": "uar:people/FWGCQEJE",
+    "name": {
+      "ja": "田中 久陽",
+      "en": "Tanaka Hisa-Aki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/277"
+  },
+  {
+    "id": "uar:people/AEYKOOHS",
+    "name": {
+      "ja": "田仲 真紀子",
+      "en": "Tanaka Makiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/860"
+  },
+  {
+    "id": "uar:people/LLU3R6VP",
+    "name": {
+      "ja": "田中 基康",
+      "en": "Tanaka Motoyasu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/663"
+  },
+  {
+    "id": "uar:people/FVT3I4YM",
+    "name": {
+      "ja": "谷口 淳子",
+      "en": "Taniguchi Junko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ",
+      "uar:organizations/RFKJRV2S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/605"
+  },
+  {
+    "id": "uar:people/ZPLRAHFO",
+    "name": {
+      "ja": "田原 康之",
+      "en": "Tahara Yasuyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/201"
+  },
+  {
+    "id": "uar:people/JVGPTC6N",
+    "name": {
+      "ja": "田渕 絢香",
+      "en": "Tabuchi Ayaka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/764"
+  },
+  {
+    "id": "uar:people/6AKCHQ6N",
+    "name": {
+      "ja": "垂井 淳",
+      "en": "Tarui Jun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/354"
+  },
+  {
+    "id": "uar:people/YKAOCMUP",
+    "name": {
+      "ja": "湯 素華",
+      "en": "Tang Suhua"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/690"
+  },
+  {
+    "id": "uar:people/HXAFFAKV",
+    "name": {
+      "ja": "丹治 はるか",
+      "en": "Tanji Haruka"
+    },
+    "alternateNames": {
+      "ja": [
+        "鈴木 はるか"
+      ],
+      "en": [
+        "Suzuki Haruka"
+      ]
+    },
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/86"
+  },
+  {
+    "id": "uar:people/OQLXEVOM",
+    "name": {
+      "ja": "千葉 一永",
+      "en": "Chiba Kazuhisa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/397"
+  },
+  {
+    "id": "uar:people/BR27PIYI",
+    "name": {
+      "ja": "Choo Cheow Keong",
+      "en": "Choo Cheow Keong"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/561"
+  },
+  {
+    "id": "uar:people/ASG6LQUB",
+    "name": {
+      "ja": "張 熙",
+      "en": "Zhang Xi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/491"
+  },
+  {
+    "id": "uar:people/RCLFT5KP",
+    "name": {
+      "ja": "策力木格",
+      "en": "Wu Celimuge"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/650"
+  },
+  {
+    "id": "uar:people/TDDCTEE3",
+    "name": {
+      "ja": "陳 培基",
+      "en": "Chen Peiji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/907"
+  },
+  {
+    "id": "uar:people/4VJIY3KF",
+    "name": {
+      "ja": "塚本 貴広",
+      "en": "Tsukamoto Takahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/148"
+  },
+  {
+    "id": "uar:people/NV62APFH",
+    "name": {
+      "ja": "津田 卓雄",
+      "en": "Tsuda Takuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/800"
+  },
+  {
+    "id": "uar:people/CPKETOQM",
+    "name": {
+      "ja": "土屋 英亮",
+      "en": "Tsuchiya Hideaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/B4ERRCO6"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/513"
+  },
+  {
+    "id": "uar:people/DODBNQGZ",
+    "name": {
+      "ja": "椿本 弥生",
+      "en": "Tsubakimoto Mio"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/929"
+  },
+  {
+    "id": "uar:people/IUWYYWJW",
+    "name": {
+      "ja": "東郷 俊太",
+      "en": "Togo Shunta"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/719"
+  },
+  {
+    "id": "uar:people/5SAOCJMQ",
+    "name": {
+      "ja": "戸倉川 正樹",
+      "en": "Masaki Tokurakawa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/OQG27O32",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/685"
+  },
+  {
+    "id": "uar:people/5YIUMSV6",
+    "name": {
+      "ja": "戸田 貴久",
+      "en": "Toda Takahisa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/688"
+  },
+  {
+    "id": "uar:people/CQY5MTVL",
+    "name": {
+      "ja": "栃木 衛",
+      "en": "Tochigi Mamoru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AFY6DOEJ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/62"
+  },
+  {
+    "id": "uar:people/EG5MZP5N",
+    "name": {
+      "ja": "内藤 真理子",
+      "en": "Naito Mariko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/406"
+  },
+  {
+    "id": "uar:people/AGM3UUNX",
+    "name": {
+      "ja": "中井 日佐司",
+      "en": "Nakai Hisashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/485"
+  },
+  {
+    "id": "uar:people/7XAGGJW5",
+    "name": {
+      "ja": "中川 賢一",
+      "en": "Ken'Ichi Nakagawa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/169"
+  },
+  {
+    "id": "uar:people/X3I3ZS2M",
+    "name": {
+      "ja": "中鹿 亘",
+      "en": "Nakashika Toru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/831"
+  },
+  {
+    "id": "uar:people/XGZ4EWC3",
+    "name": {
+      "ja": "仲田 佳弘",
+      "en": "Yoshihiro Nakata"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/820"
+  },
+  {
+    "id": "uar:people/UPSVSV6I",
+    "name": {
+      "ja": "仲谷 栄伸",
+      "en": "Nakatani Yoshinobu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/469"
+  },
+  {
+    "id": "uar:people/EHUO2UF3",
+    "name": {
+      "ja": "中根 大介",
+      "en": "Nakane Daisuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/744"
+  },
+  {
+    "id": "uar:people/SBUGM2RY",
+    "name": {
+      "ja": "中橋 誠",
+      "en": "Nakahashi Makoto"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/811"
+  },
+  {
+    "id": "uar:people/7OM6PTYR",
+    "name": {
+      "ja": "仲村 厚志",
+      "en": "Nakamura Atsushi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/592"
+  },
+  {
+    "id": "uar:people/OUFQ5NJ4",
+    "name": {
+      "ja": "中村 淳",
+      "en": "Nakamura Jun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S",
+      "uar:organizations/RFKJRV2S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/569"
+  },
+  {
+    "id": "uar:people/7T3ZUYBG",
+    "name": {
+      "ja": "中村 仁",
+      "en": "Nakamura Jin"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/543"
+  },
+  {
+    "id": "uar:people/EX7OCJRN",
+    "name": {
+      "ja": "中村 友昭",
+      "en": "Nakamura Tomoaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/GGFKRA4X",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/691"
+  },
+  {
+    "id": "uar:people/ZIWHHRXI",
+    "name": {
+      "ja": "中村 信行",
+      "en": "Nakamura Nobuyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/289"
+  },
+  {
+    "id": "uar:people/BPWHXZZG",
+    "name": {
+      "ja": "中山 泰一",
+      "en": "Nakayama Yasuichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/494"
+  },
+  {
+    "id": "uar:people/IVJQACXO",
+    "name": {
+      "ja": "長瀬 准平",
+      "en": "Nagase Jumpei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/NXPOT4S5",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/765"
+  },
+  {
+    "id": "uar:people/CBJX5JTX",
+    "name": {
+      "ja": "長野 伸一",
+      "en": "Nagano Shinichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/MQGWOI4F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/327"
+  },
+  {
+    "id": "uar:people/JXHWWIQX",
+    "name": {
+      "ja": "長濱 章仁",
+      "en": "Akihito Nagahama"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/747"
+  },
+  {
+    "id": "uar:people/Q6GHQVS3",
+    "name": {
+      "ja": "永松 秀朗",
+      "en": "Nagamatsu Hideaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/754"
+  },
+  {
+    "id": "uar:people/EHX7PH7S",
+    "name": {
+      "ja": "Nayak Kali Prasanna",
+      "en": "Nayak Kali Prasanna"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/222"
+  },
+  {
+    "id": "uar:people/7VCSUYNB",
+    "name": {
+      "ja": "成見 哲",
+      "en": "Narumi Tetsu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/219"
+  },
+  {
+    "id": "uar:people/GO2EQHZE",
+    "name": {
+      "ja": "西 一樹",
+      "en": "Kazuki Nishi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/470"
+  },
+  {
+    "id": "uar:people/BGVGN2CA",
+    "name": {
+      "ja": "西山 悠",
+      "en": "Nishiyama Yu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/9"
+  },
+  {
+    "id": "uar:people/DCQRYXUY",
+    "name": {
+      "ja": "丹羽 治樹",
+      "en": "Niwa Haruki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/794"
+  },
+  {
+    "id": "uar:people/GZGF7ZPU",
+    "name": {
+      "ja": "野嶋 琢也",
+      "en": "Nojima Takuya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/13"
+  },
+  {
+    "id": "uar:people/CHP65BAL",
+    "name": {
+      "ja": "野村 英之",
+      "en": "Nomura Hideyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/785"
+  },
+  {
+    "id": "uar:people/NPTBB7HD",
+    "name": {
+      "ja": "Hauser Eric",
+      "en": "Hauser Eric"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/375"
+  },
+  {
+    "id": "uar:people/7Z3JSGJQ",
+    "name": {
+      "ja": "橋本 直己",
+      "en": "Hashimoto Naoki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/165"
+  },
+  {
+    "id": "uar:people/3RI7NRLK",
+    "name": {
+      "ja": "橋山 智訓",
+      "en": "Hashiyama Tomonori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/XH66SRKN",
+      "uar:organizations/ER4QEF2B",
+      "uar:organizations/LAEANIVX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/796"
+  },
+  {
+    "id": "uar:people/ORJ5VUMJ",
+    "name": {
+      "ja": "長谷川 景郁",
+      "en": "Hasegawa Hiroka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/763"
+  },
+  {
+    "id": "uar:people/UZIGPBQ4",
+    "name": {
+      "ja": "羽田 陽一",
+      "en": "Haneda Yoichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/311"
+  },
+  {
+    "id": "uar:people/7V6TV4JK",
+    "name": {
+      "ja": "濵野 哲子",
+      "en": "Hamano Tetsuko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/303"
+  },
+  {
+    "id": "uar:people/UTE6AYPW",
+    "name": {
+      "ja": "林 希久也",
+      "en": "Hayashi Kikuya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/WLUPOG26"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/922"
+  },
+  {
+    "id": "uar:people/DDNMIHB2",
+    "name": {
+      "ja": "早瀬 修二",
+      "en": "Hayase Shuzi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/N6AF374F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/848"
+  },
+  {
+    "id": "uar:people/3P6YWDYQ",
+    "name": {
+      "ja": "原 聡",
+      "en": "Hara Satoshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/7PMAEBVH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/895"
+  },
+  {
+    "id": "uar:people/BEFM5ORO",
+    "name": {
+      "ja": "原田 慧",
+      "en": "Harada Kei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/7PMAEBVH",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/326"
+  },
+  {
+    "id": "uar:people/7LENZEOE",
+    "name": {
+      "ja": "範 公可",
+      "en": "Pham Cong-Kha"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/271"
+  },
+  {
+    "id": "uar:people/MQK63CDO",
+    "name": {
+      "ja": "久野 雅樹",
+      "en": "Hisano Masaki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/359"
+  },
+  {
+    "id": "uar:people/UTILXAPL",
+    "name": {
+      "ja": "平田 修造",
+      "en": "Hirata Shuzo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/844"
+  },
+  {
+    "id": "uar:people/7KXFZ7KT",
+    "name": {
+      "ja": "平野 誉",
+      "en": "Hirano Takashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/483"
+  },
+  {
+    "id": "uar:people/Z75Y3CKY",
+    "name": {
+      "ja": "広田 光一",
+      "en": "Hirota Koichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/5"
+  },
+  {
+    "id": "uar:people/LFLAN72J",
+    "name": {
+      "ja": "Pham Le Kien",
+      "en": "Pham Kien Le"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/WLUPOG26"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/290"
+  },
+  {
+    "id": "uar:people/NWPAL2NY",
+    "name": {
+      "ja": "藤井 威生",
+      "en": "Takeo Fujii"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/145"
+  },
+  {
+    "id": "uar:people/FBE6OG7V",
+    "name": {
+      "ja": "藤田 秀之",
+      "en": "Fujita Hideyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/117"
+  },
+  {
+    "id": "uar:people/7PNYCYGZ",
+    "name": {
+      "ja": "舩戸 徹郎",
+      "en": "Funato Tetsuro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/672"
+  },
+  {
+    "id": "uar:people/PNZCP3SK",
+    "name": {
+      "ja": "古川 浩規",
+      "en": "Furukawa Hiroki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/BXRSA56W",
+      "uar:organizations/LAEANIVX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/911"
+  },
+  {
+    "id": "uar:people/TNBZFVUF",
+    "name": {
+      "ja": "古川 裕介",
+      "en": "Furukawa Yusuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/WLUPOG26"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/132"
+  },
+  {
+    "id": "uar:people/G4G46RRN",
+    "name": {
+      "ja": "古川 怜",
+      "en": "Furukawa Rei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/648"
+  },
+  {
+    "id": "uar:people/KQS6LQQ7",
+    "name": {
+      "ja": "芳原 容英",
+      "en": "Hobara Yasuhide"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/VTA3KCN4",
+      "uar:organizations/LAEANIVX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/530"
+  },
+  {
+    "id": "uar:people/CGL2UEGX",
+    "name": {
+      "ja": "保木 邦仁",
+      "en": "Kunihito Hoki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/28"
+  },
+  {
+    "id": "uar:people/XEQSCPLF",
+    "name": {
+      "ja": "星野 太佑",
+      "en": "Hoshino Daisuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/108"
+  },
+  {
+    "id": "uar:people/C4PQHY57",
+    "name": {
+      "ja": "細川 敬祐",
+      "en": "Hosokawa Keisuke"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/VTA3KCN4"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/593"
+  },
+  {
+    "id": "uar:people/DKPHOFVN",
+    "name": {
+      "ja": "Hoang Trong Thuc",
+      "en": "Hoang Trongthuc"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/759"
+  },
+  {
+    "id": "uar:people/REWFE2JW",
+    "name": {
+      "ja": "本多 弘樹",
+      "en": "Honda Hiroki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/789"
+  },
+  {
+    "id": "uar:people/OODMRXYP",
+    "name": {
+      "ja": "本間 高弘",
+      "en": "Homma Takahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/118"
+  },
+  {
+    "id": "uar:people/PJOMB6BX",
+    "name": {
+      "ja": "牧 昌次郎",
+      "en": "Shojiro Maki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/517"
+  },
+  {
+    "id": "uar:people/4TD5W5N2",
+    "name": {
+      "ja": "正本 和人",
+      "en": "Masamoto Kazuto"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/210"
+  },
+  {
+    "id": "uar:people/T4RQHZ4M",
+    "name": {
+      "ja": "増田 宏",
+      "en": "Masuda Hiroshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/80"
+  },
+  {
+    "id": "uar:people/IM76OK6C",
+    "name": {
+      "ja": "松浦 基晴",
+      "en": "Matsuura Motoharu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/637"
+  },
+  {
+    "id": "uar:people/EOQEC3JO",
+    "name": {
+      "ja": "松木 利憲",
+      "en": "Matsuki Toshinori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/BXRSA56W"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/312"
+  },
+  {
+    "id": "uar:people/FR3SFCVV",
+    "name": {
+      "ja": "松倉 悠",
+      "en": "Matsukura Haruka"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/829"
+  },
+  {
+    "id": "uar:people/JQTGCUDC",
+    "name": {
+      "ja": "松田 信爾",
+      "en": "Matsuda Shinji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/395"
+  },
+  {
+    "id": "uar:people/CNMR4IHF",
+    "name": {
+      "ja": "松野 省吾",
+      "en": "Shogo Matsuno"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/QBTOSVHH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/52"
+  },
+  {
+    "id": "uar:people/VBOQL23K",
+    "name": {
+      "ja": "松橋 拓人",
+      "en": "Matsuhashi Takuto"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/B4ERRCO6",
+      "uar:organizations/MQGWOI4F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/768"
+  },
+  {
+    "id": "uar:people/BPMCEJZU",
+    "name": {
+      "ja": "松橋 千尋",
+      "en": "Matsuhashi Chihiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LM62P3AE"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/730"
+  },
+  {
+    "id": "uar:people/24OVPC5M",
+    "name": {
+      "ja": "松林 和幸",
+      "en": "Matsubayashi Kazuyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/121"
+  },
+  {
+    "id": "uar:people/ASEMMDEE",
+    "name": {
+      "ja": "松村 隆",
+      "en": "Matsumura Takashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/495"
+  },
+  {
+    "id": "uar:people/FCUTZZET",
+    "name": {
+      "ja": "松本 光春",
+      "en": "Matsumoto Mitsuharu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/211"
+  },
+  {
+    "id": "uar:people/SW2AXMZY",
+    "name": {
+      "ja": "Matuttis Hans-Georg",
+      "en": "Hans-Georg Matuttis"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/M6PLREDB",
+      "uar:organizations/PI22BRUG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/284"
+  },
+  {
+    "id": "uar:people/YIOKKS5I",
+    "name": {
+      "ja": "守 裕也",
+      "en": "Mamori Hiroya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/402"
+  },
+  {
+    "id": "uar:people/JSRMUFXO",
+    "name": {
+      "ja": "丸亀 泰二",
+      "en": "Taiji Marugame"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/409"
+  },
+  {
+    "id": "uar:people/3NGGZSXZ",
+    "name": {
+      "ja": "三重野 琢也",
+      "en": "Mieno Takuya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/757"
+  },
+  {
+    "id": "uar:people/HIOQISCZ",
+    "name": {
+      "ja": "三崎 亜衣",
+      "en": "Misaki Ai"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LM62P3AE"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/914"
+  },
+  {
+    "id": "uar:people/G4JI2TB6",
+    "name": {
+      "ja": "水柿 義直",
+      "en": "Mizugaki Yoshinao"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/34"
+  },
+  {
+    "id": "uar:people/ROLVVYVB",
+    "name": {
+      "ja": "水野 統太",
+      "en": "Mizuno Tota"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/666"
+  },
+  {
+    "id": "uar:people/6SMZBWSV",
+    "name": {
+      "ja": "溝口 泉",
+      "en": "Mizoguchi Izumi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/758"
+  },
+  {
+    "id": "uar:people/SUV7ZI22",
+    "name": {
+      "ja": "道根 百合奈",
+      "en": "Michine Yurina"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/742"
+  },
+  {
+    "id": "uar:people/GLRQ5M2Y",
+    "name": {
+      "ja": "水戸 和幸",
+      "en": "Mito Kazuyuki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/857"
+  },
+  {
+    "id": "uar:people/QHD4CPVT",
+    "name": {
+      "ja": "南 泰浩",
+      "en": "Minami Yasuhiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/319"
+  },
+  {
+    "id": "uar:people/E54Y4AO3",
+    "name": {
+      "ja": "美濃島 薫",
+      "en": "Minoshima Kaoru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/313"
+  },
+  {
+    "id": "uar:people/K6CHX64F",
+    "name": {
+      "ja": "宮下 直也",
+      "en": "Miyashita Naoya"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/127"
+  },
+  {
+    "id": "uar:people/GAKBGUFK",
+    "name": {
+      "ja": "宮原 大輝",
+      "en": "Daiki Miyahara"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/751"
+  },
+  {
+    "id": "uar:people/I5WEVBL2",
+    "name": {
+      "ja": "宮本 友樹",
+      "en": "Miyamoto Tomoki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/755"
+  },
+  {
+    "id": "uar:people/3Q4VGPDS",
+    "name": {
+      "ja": "宮本 洋子",
+      "en": "Miyamoto Yoko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/511"
+  },
+  {
+    "id": "uar:people/IQY6OZBK",
+    "name": {
+      "ja": "宮脇 陽一",
+      "en": "Miyawaki Yoichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/387"
+  },
+  {
+    "id": "uar:people/JD6YVCZF",
+    "name": {
+      "ja": "三輪 忍",
+      "en": "Miwa Shinobu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/802"
+  },
+  {
+    "id": "uar:people/22MIHIQV",
+    "name": {
+      "ja": "三輪 寛子",
+      "en": "Hiroko Miwa"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/O757DEDB",
+      "uar:organizations/VX74JVZP"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/24"
+  },
+  {
+    "id": "uar:people/FS5E73XG",
+    "name": {
+      "ja": "明 愛国",
+      "en": "Ming Aiguo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/IGC4IZMT"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/788"
+  },
+  {
+    "id": "uar:people/2KBG2FV5",
+    "name": {
+      "ja": "武者 満",
+      "en": "Mitsuru Musha"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/528"
+  },
+  {
+    "id": "uar:people/K7KAPWOV",
+    "name": {
+      "ja": "村上 靖宜",
+      "en": "Yasutaka Murakami"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/752"
+  },
+  {
+    "id": "uar:people/NUYTWY6T",
+    "name": {
+      "ja": "村中 隆弘",
+      "en": "Muranaka Takahiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/664"
+  },
+  {
+    "id": "uar:people/XZ7S46IN",
+    "name": {
+      "ja": "村松 大陸",
+      "en": "Muramatsu Dairoku"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/HXSVK2KQ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/410"
+  },
+  {
+    "id": "uar:people/HNO2CPQ4",
+    "name": {
+      "ja": "森倉 晋",
+      "en": "Morikura Susumu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/NHGHARXX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/316"
+  },
+  {
+    "id": "uar:people/AQJQ5IUN",
+    "name": {
+      "ja": "森重 功一",
+      "en": "Koichi Morishige"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/529"
+  },
+  {
+    "id": "uar:people/XER5UGJE",
+    "name": {
+      "ja": "森下 亨",
+      "en": "Morishita Toru"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/536"
+  },
+  {
+    "id": "uar:people/AG6O3CG3",
+    "name": {
+      "ja": "森田 桂花",
+      "en": "Morita Keika"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/JU4BGIXI"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/66"
+  },
+  {
+    "id": "uar:people/4RJX3IKC",
+    "name": {
+      "ja": "森永 実",
+      "en": "Makoto Morinaga"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/76"
+  },
+  {
+    "id": "uar:people/LMTD7BAK",
+    "name": {
+      "ja": "八木 秀樹",
+      "en": "Yagi Hideki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/DX5GN6SU"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/185"
+  },
+  {
+    "id": "uar:people/XCCPH47B",
+    "name": {
+      "ja": "矢崎 俊志",
+      "en": "Yazaki Shunji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/B4ERRCO6"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/641"
+  },
+  {
+    "id": "uar:people/TFBL2SXR",
+    "name": {
+      "ja": "安井 正憲",
+      "en": "Yasui Masanori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/468"
+  },
+  {
+    "id": "uar:people/JURNZTCR",
+    "name": {
+      "ja": "柳井 啓司",
+      "en": "Keiji Yanai"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/526"
+  },
+  {
+    "id": "uar:people/HIYNRYDZ",
+    "name": {
+      "ja": "八巻 隼人",
+      "en": "Yamaki Hayato"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/718"
+  },
+  {
+    "id": "uar:people/LEYPSBJL",
+    "name": {
+      "ja": "山北 佳宏",
+      "en": "Yamakita Yoshihiro"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/O757DEDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/27"
+  },
+  {
+    "id": "uar:people/WOMVA7QB",
+    "name": {
+      "ja": "山口 和彦",
+      "en": "Yamaguchi Kazuhiko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/473"
+  },
+  {
+    "id": "uar:people/4PI46EHS",
+    "name": {
+      "ja": "山口 浩一",
+      "en": "Yamaguchi Kouichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S",
+      "uar:organizations/N6AF374F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/465"
+  },
+  {
+    "id": "uar:people/DW3EI262",
+    "name": {
+      "ja": "山﨑 匡",
+      "en": "Yamazaki Tadashi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6EMQPAAC",
+      "uar:organizations/R6STPZS5",
+      "uar:organizations/GGFKRA4X"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/662"
+  },
+  {
+    "id": "uar:people/PZQUMATH",
+    "name": {
+      "ja": "山鹿 汐音",
+      "en": "Yamashika Shion"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NIBJHDQW"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/924"
+  },
+  {
+    "id": "uar:people/SFIFMINT",
+    "name": {
+      "ja": "山路 浩夫",
+      "en": "Yamaji Hiroo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/JU4BGIXI"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/321"
+  },
+  {
+    "id": "uar:people/XXRC2IOO",
+    "name": {
+      "ja": "山田 哲男",
+      "en": "Yamada Tetsuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/577"
+  },
+  {
+    "id": "uar:people/HS7PPYK2",
+    "name": {
+      "ja": "山田 裕一",
+      "en": "Yamada Yuichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/6BHVGRQD"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/365"
+  },
+  {
+    "id": "uar:people/TVQANKJS",
+    "name": {
+      "ja": "山本 佳世子",
+      "en": "Kayoko Yamamoto"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD",
+      "uar:organizations/XH66SRKN",
+      "uar:organizations/LAEANIVX"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/298"
+  },
+  {
+    "id": "uar:people/XU5JEU36",
+    "name": {
+      "ja": "山本 有作",
+      "en": "Yamamoto Yusaku"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/6EMQPAAC"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/797"
+  },
+  {
+    "id": "uar:people/G5U6VNT2",
+    "name": {
+      "ja": "山本 嶺",
+      "en": "Yamamoto Ryo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/692"
+  },
+  {
+    "id": "uar:people/TQ5BT22M",
+    "name": {
+      "ja": "結城 宏信",
+      "en": "Yuki Hironobu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/503"
+  },
+  {
+    "id": "uar:people/FMD4CMYV",
+    "name": {
+      "ja": "遊佐 泰紀",
+      "en": "Yusa Yasunori"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/M6PLREDB"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/738"
+  },
+  {
+    "id": "uar:people/T6AIVFFC",
+    "name": {
+      "ja": "横井 浩史",
+      "en": "Yokoi Hiroshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/IGC4IZMT",
+      "uar:organizations/XH66SRKN",
+      "uar:organizations/R6STPZS5"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/23"
+  },
+  {
+    "id": "uar:people/L6Z6QZTO",
+    "name": {
+      "ja": "横川 慎二",
+      "en": "Yokogawa Shinji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/6BHVGRQD",
+      "uar:organizations/N6AF374F"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/399"
+  },
+  {
+    "id": "uar:people/EFEH4CET",
+    "name": {
+      "ja": "吉田 太一",
+      "en": "Yoshida Taichi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/1"
+  },
+  {
+    "id": "uar:people/3HDO73TE",
+    "name": {
+      "ja": "吉永 努",
+      "en": "Yoshinaga Tsutomu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/48"
+  },
+  {
+    "id": "uar:people/IILTNTIZ",
+    "name": {
+      "ja": "米田 仁紀",
+      "en": "Hitoki Yoneda"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/OQG27O32"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/471"
+  },
+  {
+    "id": "uar:people/H57VHYDK",
+    "name": {
+      "ja": "李 傲寒",
+      "en": "Li Aohan"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/75CN24UH",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/756"
+  },
+  {
+    "id": "uar:people/HX4DI3RM",
+    "name": {
+      "ja": "李 鯤",
+      "en": "Li Kun"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/841"
+  },
+  {
+    "id": "uar:people/SUV3UDKA",
+    "name": {
+      "ja": "李 陽",
+      "en": "Li Yang"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/683"
+  },
+  {
+    "id": "uar:people/QKD5RUFI",
+    "name": {
+      "ja": "Li Yusheng",
+      "en": "Li Yusheng"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/WLUPOG26"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/918"
+  },
+  {
+    "id": "uar:people/IIKP5NKI",
+    "name": {
+      "ja": "劉 志",
+      "en": "Liu Zhi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/ER4QEF2B"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/793"
+  },
+  {
+    "id": "uar:people/YLFPCYKR",
+    "name": {
+      "ja": "若月 光夫",
+      "en": "Wakatsuki Mitsuo"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/5VDVCRYM"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/490"
+  },
+  {
+    "id": "uar:people/ABZ4QDCC",
+    "name": {
+      "ja": "鷲沢 嘉一",
+      "en": "Washizawa Yoshikazu"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/FBZBS5JG"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/658"
+  },
+  {
+    "id": "uar:people/64Z6NLSW",
+    "name": {
+      "ja": "渡邉 恵理子",
+      "en": "Watanabe Eriko"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/NCMQHOOB",
+      "uar:organizations/FZLLX2DZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/649"
+  },
+  {
+    "id": "uar:people/K4SGS4NG",
+    "name": {
+      "ja": "渡辺 博芳",
+      "en": "Watanabe Hiroyoshi"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/5TDWVJAF",
+      "uar:organizations/DXJPGT4W",
+      "uar:organizations/75CN24UH"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/324"
+  },
+  {
+    "id": "uar:people/HZLV3PHO",
+    "name": {
+      "ja": "渡邉 洋平",
+      "en": "Watanabe Yohei"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/CTHKPUEZ"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/740"
+  },
+  {
+    "id": "uar:people/SVKCTHM5",
+    "name": {
+      "ja": "和田 光司",
+      "en": "Wada Koji"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/AEFZKYAV",
+      "uar:organizations/OC4WEZCP",
+      "uar:organizations/FBZBS5JG",
+      "uar:organizations/WTCNUI6Z"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/292"
+  }
+]

@@ -16,6 +16,7 @@ prefixes:
 
 imports:
   - common
+  - people
 
 default_prefix: uao
 
@@ -92,6 +93,10 @@ classes:
         description: "開講年度"
         range: integer
         required: true
+      syllabusSourceUrl:
+        description: "シラバスデータの参照元URL"
+        range: string
+        slot_uri: schema:url
       courses:
         description: "対象科目"
         range: Course
@@ -100,14 +105,9 @@ classes:
         slot_uri: uao:course
       instructors:
         description: "担当教員"
-        range: string
+        range: Person
         multivalued: true
         slot_uri: uao:instructor
-      locations:
-        description: "開講場所"
-        range: string
-        multivalued: true
-        slot_uri: uao:location
       periods:
         description: "時限"
         range: string

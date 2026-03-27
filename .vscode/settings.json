@@ -20,9 +20,9 @@
     },
     {
       "fileMatch": [
-        "data/education/subject_category.json"
+        "data/education/course_categories.json"
       ],
-      "url": "./generated/education_subject_category_collection.schema.json"
+      "url": "./generated/education_course_category_collection.schema.json"
     },
     {
       "fileMatch": [
@@ -40,5 +40,5 @@
   "yaml.schemas": {
     "https://w3id.org/linkml/meta.schema.json": "schema/*.yaml"
   },
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
 }

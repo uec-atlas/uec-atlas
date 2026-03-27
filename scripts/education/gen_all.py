@@ -4,7 +4,7 @@ import re
 
 from .extract_handbook import extract_handbook_tables
 from .gen_curriculum import generate_curriculum
-from .gen_course_registry import generate_course_registry
+from .gen_course_collection import generate_course_registry
 
 
 if __name__ == "__main__":

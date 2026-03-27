@@ -31,3 +31,4 @@ web/generated/
 
 # data source
 *.pdf
+.cache/

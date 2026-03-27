@@ -1,0 +1,46 @@
+[
+  {
+    "id": "uar:people/CKFGMBL3",
+    "name": {
+      "ja": "皆川 昭俊"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.career.ce.uec.ac.jp/faculty/"
+  },
+  {
+    "id": "uar:people/STSERQVC",
+    "name": {
+      "ja": "山田 祥之"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/4S7RCBRG"
+    ],
+    "isBasedOn": "https://www.career.ce.uec.ac.jp/faculty/"
+  },
+  {
+    "id": "uar:people/NO5YCWCA",
+    "name": {
+      "ja": "松木 利憲"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.career.ce.uec.ac.jp/faculty/"
+  },
+  {
+    "id": "uar:people/2UMZ62FF",
+    "name": {
+      "ja": "古川 浩規"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/DXJPGT4W"
+    ],
+    "isBasedOn": "https://www.career.ce.uec.ac.jp/faculty/"
+  }
+]
