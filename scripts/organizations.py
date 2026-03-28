@@ -20,6 +20,15 @@ class Organization:
         if self.children is None:
             self.children = []
 
+    def __hash__(self):
+        return hash(self.id)
+
+    @property
+    def depth(self) -> int:
+        if not self.parents:
+            return 0
+        return 1 + max(parent.depth for parent in self.parents)
+
 
 @cache
 def load_organizations() -> dict[str, Organization]:
@@ -42,7 +51,7 @@ def load_organizations() -> dict[str, Organization]:
 
     for organization_raw in organizations_raw:
         organization = organizations[organization_raw["id"]]
-        for parent_id in organization_raw.get("parents", []):
+        for parent_id in organization_raw.get("subOrganizationOf", []):
             parent_org = organizations[parent_id]
             organization.parents.append(parent_org)
             parent_org.children.append(organization)

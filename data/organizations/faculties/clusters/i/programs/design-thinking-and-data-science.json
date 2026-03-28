@@ -2,13 +2,8 @@
   "id": "uar:organizations/7PMAEBVH",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/QBTOSVHH"
-    }
+    "uar:organizations/5TDWVJAF",
+    "uar:organizations/QBTOSVHH"
   ],
   "name": {
     "en": "Design Thinking and Data Science Program",

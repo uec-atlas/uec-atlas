@@ -14,12 +14,16 @@ class SyllabusCourse:
     semester: str
     term: str
     periods: str
+    credits: int
     name: str
     name_en: str = None
     instructors: str = None
     numbering_codes: str = None
     timetable_code: str = None
     url: str = None
+
+    def __hash__(self):
+        return hash(self.timetable_code)
 
 
 LIMITS = httpx.Limits(max_connections=10, max_keepalive_connections=5)
@@ -56,17 +60,24 @@ async def fill_course_details(client: httpx.AsyncClient, course: SyllabusCourse,
                 "body > table:nth-child(8) > tbody > tr:nth-child(2) > td")
             node_code = parser.css_first(
                 "body > table:nth-child(8) > tbody > tr:nth-child(3) > td")
+            node_credits = parser.css_first(
+                "body > table:nth-child(8) > tbody > tr:nth-child(6) > td:nth-child(4)")
 
             if node_en:
                 course.name_en = node_en.text().strip()
             if node_code:
                 course.numbering_codes = node_code.text().strip()
+            if node_credits:
+                try:
+                    course.credits = int(node_credits.text().strip())
+                except ValueError:
+                    pass
 
         except Exception as e:
             print(f"Failed: {course.url} - {e}")
 
 
-async def load_syllabuses(root_url: str):
+async def load_syllabuses(root_url: str) -> list[SyllabusCourse]:
     async with httpx.AsyncClient(limits=LIMITS, http2=False) as client:
         # ルートURLもキャッシュ
         root_cache_path = get_cache_path(root_url)
@@ -98,6 +109,7 @@ async def load_syllabuses(root_url: str):
                 name_en=None,
                 instructors=row.css_first("td:nth-child(7)").text().strip(),
                 numbering_codes=None,
+                credits=0,
                 url=base_url + row.css_first(
                     "td:nth-child(6) > a").attrs.get("href", "")
             )

@@ -4,8 +4,32 @@ import os
 
 KANJI_VARIANT_TRANSLATION = str.maketrans({
     "廣": "広",
-    "髙": "高"
+    "髙": "高",
+    "邉": "辺",
+    "邊": "辺",
+    "﨑": "崎"
 })
+
+
+class CanonicalKey:
+    value: frozenset[str]
+
+    def __init__(self, name: str | list[str]):
+        if isinstance(name, list):
+            name = " ".join(name)
+        self.name = name
+        self.value = _person_key_set(name)
+
+    def __eq__(self, value):
+        if not isinstance(value, CanonicalKey):
+            return False
+        return self.value == value.value or self.name.replace(" ", "") == value.name.replace(" ", "")
+
+    def __hash__(self):
+        return hash(self.value)
+
+    def __repr__(self):
+        return f"CanonicalKey({self.value})"
 
 
 def normalize_name(name: str) -> str:
@@ -16,13 +40,18 @@ def normalize_name(name: str) -> str:
     return name.strip()
 
 
-def canonicalize_instructor_key(name: str) -> str:
+def canonicalize_kanji(name: str) -> str:
+    return name.translate(KANJI_VARIANT_TRANSLATION)
+
+
+def _person_key_set(name: str) -> frozenset[str]:
     if not isinstance(name, str):
-        return ""
+        return frozenset()
     s = utils.normalize_string(name)
-    s = s.translate(KANJI_VARIANT_TRANSLATION)
-    s = s.replace(" ", "")
-    return s.lower()
+    s = canonicalize_kanji(s)
+    s = s.lower()
+    s = frozenset(s.split(" "))
+    return s
 
 
 def save_people(people: list, output_file: str):
@@ -36,12 +65,10 @@ def save_people(people: list, output_file: str):
             except json.JSONDecodeError:
                 pass
     with open(output_file, "w", encoding="utf-8") as f:
-        existing_names = [r["name"]["ja"]
-                          for r in people_saving]
-        existing_name_segments = [set(name.split(" "))
-                                  for name in existing_names]
+        existing_name_keys = [CanonicalKey(r["name"]["ja"])
+                              for r in people_saving]
         for person in people:
-            if set(normalize_name(person.name).split(" ")) in existing_name_segments or any(name.replace(" ", "") == person.name.replace(" ", "") for name in existing_names):
+            if any(name_key == person.canonical_key for name_key in existing_name_keys):
                 continue
             people_saving.append(person.to_dict())
 

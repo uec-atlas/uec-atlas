@@ -2,13 +2,8 @@
   "id": "uar:organizations/IGC4IZMT",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/W23WZ55B"
-    }
+    "uar:organizations/AEFZKYAV",
+    "uar:organizations/W23WZ55B"
   ],
   "name": {
     "en": "Advanced Robotics Program",

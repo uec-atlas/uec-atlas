@@ -2,13 +2,8 @@
   "id": "uar:organizations/NIBJHDQW",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/LMCZ7FKK"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/WLUPOG26"
-    }
+    "uar:organizations/LMCZ7FKK",
+    "uar:organizations/WLUPOG26"
   ],
   "name": {
     "en": "Applied Physics Program",

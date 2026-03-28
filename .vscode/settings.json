@@ -8,7 +8,7 @@
     },
     {
       "fileMatch": [
-        "data/education/lectures/*.json"
+        "data/education/lectures/**/*.json"
       ],
       "url": "./generated/education_lecture_collection.schema.json"
     },

@@ -2,13 +2,8 @@
   "id": "uar:organizations/75CN24UH",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/SJGILYFG"
-    }
+    "uar:organizations/5TDWVJAF",
+    "uar:organizations/SJGILYFG"
   ],
   "name": {
     "en": "Computer Science Program",

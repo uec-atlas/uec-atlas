@@ -2,13 +2,8 @@
   "id": "uar:organizations/DX5GN6SU",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/SJGILYFG"
-    }
+    "uar:organizations/AEFZKYAV",
+    "uar:organizations/SJGILYFG"
   ],
   "name": {
     "en": "Information and Communication Engineering Program",

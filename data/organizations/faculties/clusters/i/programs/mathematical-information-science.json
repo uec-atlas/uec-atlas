@@ -2,13 +2,8 @@
   "id": "uar:organizations/6EMQPAAC",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/SJGILYFG"
-    }
+    "uar:organizations/5TDWVJAF",
+    "uar:organizations/SJGILYFG"
   ],
   "name": {
     "en": "Mathematical Information Science Program",

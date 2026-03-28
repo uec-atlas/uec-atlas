@@ -93,12 +93,12 @@ classes:
         description: "開講年度"
         range: integer
         required: true
-      syllabusSourceUrl:
+      sourceUrl:
         description: "シラバスデータの参照元URL"
         range: string
         slot_uri: schema:url
       courses:
-        description: "対象科目"
+        description: "対応する学修要覧上の科目"
         range: Course
         required: true
         multivalued: true
@@ -108,11 +108,17 @@ classes:
         range: Person
         multivalued: true
         slot_uri: uao:instructor
+      term:
+        description: "開講学期"
+        range: string
       periods:
         description: "時限"
         range: string
         multivalued: true
         slot_uri: uao:period
+      credits:
+        description: "シラバスに記載の単位数"
+        range: integer
 
   CurriculumEntry:
     is_a: NamedThingWithId

@@ -1,0 +1,1727 @@
+{
+  "type": "LectureCollection",
+  "entries": [
+    {
+      "id": "uar:education/RLY4J5BB",
+      "name": {
+        "ja": "基礎微分積分学第一",
+        "en": "Basic Calculus Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019101.html",
+      "courses": [
+        "uar:education/TCO5RUBM"
+      ],
+      "instructors": [
+        "uar:people/7ECUFIBV",
+        "uar:people/KVHO67IG"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/MXOQJ322",
+      "name": {
+        "ja": "応用数学第一",
+        "en": "Applied Mathematics Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021101.html",
+      "courses": [
+        "uar:education/JGDG5QYR"
+      ],
+      "instructors": [
+        "uar:people/5SAOCJMQ",
+        "uar:people/IILTNTIZ"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/3MOD3XTP",
+      "name": {
+        "ja": "制御工学",
+        "en": "Control System Engineering"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021108.html",
+      "courses": [
+        "uar:education/JFUZFS3R"
+      ],
+      "instructors": [
+        "uar:people/V5ZAWLFZ"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/5Y3QU7LA",
+      "name": {
+        "ja": "通信・ネットワーク",
+        "en": "Communications and Networks"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023103.html",
+      "courses": [
+        "uar:education/4E3QFDV5"
+      ],
+      "instructors": [
+        "uar:people/RR7MG547"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/L7A7EU2J",
+      "name": {
+        "ja": "科学という文化",
+        "en": "Science and Culture"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016101.html",
+      "courses": [
+        "uar:education/2QV4F66K"
+      ],
+      "instructors": [
+        "uar:people/XBO6XIY3"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "火6"
+      ]
+    },
+    {
+      "id": "uar:education/YGY5TZLA",
+      "name": {
+        "ja": "健康実践論",
+        "en": "Theory and Practice for Health"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22014101.html",
+      "courses": [
+        "uar:education/I5JA7722"
+      ],
+      "instructors": [
+        "uar:people/FZ4UREQ3",
+        "uar:people/GAQMWSPI",
+        "uar:people/MQFGY2H2",
+        "uar:people/RWX76R5O",
+        "uar:people/XEQSCPLF"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/QASLSKO2",
+      "name": {
+        "ja": "技術課程演習第一",
+        "en": "Practice for Career Persons' Course Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018103.html",
+      "courses": [
+        "uar:education/VHFN2PMF"
+      ],
+      "instructors": [
+        "uar:people/STSERQVC"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/5PB7MXHG",
+      "name": {
+        "ja": "基礎解析学",
+        "en": "Introduction to Analysis"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019106.html",
+      "courses": [
+        "uar:education/5AUZ5SBR"
+      ],
+      "instructors": [
+        "uar:people/BX27MC5N"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/EZXNWYAS",
+      "name": {
+        "ja": "メカトロニクス",
+        "en": "Mechatronics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023105.html",
+      "courses": [
+        "uar:education/O2JDFHO4"
+      ],
+      "instructors": [
+        "uar:people/EQCRKYCH"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/35LPSNEV",
+      "name": {
+        "ja": "歴史学",
+        "en": "History"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011101.html",
+      "courses": [
+        "uar:education/6UUYTO57"
+      ],
+      "instructors": [
+        "uar:people/JINEFS6J"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水6"
+      ]
+    },
+    {
+      "id": "uar:education/OZJP7J5D",
+      "name": {
+        "ja": "社会学",
+        "en": "Sociology"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011105.html",
+      "courses": [
+        "uar:education/MYL24EZR"
+      ],
+      "instructors": [
+        "uar:people/3AMCRUL2"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水6"
+      ]
+    },
+    {
+      "id": "uar:education/CS4I6LOL",
+      "name": {
+        "ja": "知的財産権",
+        "en": "Intellectual Property"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018104.html",
+      "courses": [
+        "uar:education/YIPIYHIZ",
+        "uar:education/TGRWFNPX"
+      ],
+      "instructors": [
+        "uar:people/JCP2ZF6A",
+        "uar:people/K4CU3Q36",
+        "uar:people/OODMRXYP"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/P4VUNK6H",
+      "name": {
+        "ja": "ベクトルと行列第一",
+        "en": "Introductory Linear Algebra Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019103.html",
+      "courses": [
+        "uar:education/WW5KNXZK"
+      ],
+      "instructors": [
+        "uar:people/7ECUFIBV"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/EBZ7KKA6",
+      "name": {
+        "ja": "論理回路学",
+        "en": "Logical Circuits"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021103.html",
+      "courses": [
+        "uar:education/VXGX65QG"
+      ],
+      "instructors": [
+        "uar:people/RCLFT5KP"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/C2JV2PEO",
+      "name": {
+        "ja": "電子回路学",
+        "en": "Electronics Circuits"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021110.html",
+      "courses": [
+        "uar:education/JF722BPS"
+      ],
+      "instructors": [
+        "uar:people/J7H4RFQL"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/QE5MIIUW",
+      "name": {
+        "ja": "基礎物理学第一",
+        "en": "Fundamental Physics Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019104.html",
+      "courses": [
+        "uar:education/J7CSWLBQ"
+      ],
+      "instructors": [
+        "uar:people/JVO6TKCB"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/PLPRFXP6",
+      "name": {
+        "ja": "プログラミング通論および演習",
+        "en": "Fundamentals of Computer Programming Exercises"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021102.html",
+      "courses": [
+        "uar:education/AFWB32TB"
+      ],
+      "instructors": [
+        "uar:people/OW4Z2O3J",
+        "uar:people/VNTF5QIX"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/CRJDWP7X",
+      "name": {
+        "ja": "情報通信と符号化",
+        "en": "Introduction to Information Theory and Coding"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021107.html",
+      "courses": [
+        "uar:education/HA4L65CK"
+      ],
+      "instructors": [
+        "uar:people/NWPAL2NY"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/2DQ2LL56",
+      "name": {
+        "ja": "情報メディアシステム",
+        "en": "Media Computing System"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023102.html",
+      "courses": [
+        "uar:education/6OEXVQZU"
+      ],
+      "instructors": [
+        "uar:people/4JWSJG45",
+        "uar:people/UZIGPBQ4",
+        "uar:people/VN3TQOBK",
+        "uar:people/ZPLRAHFO",
+        "uar:people/ZSLJSC7Q"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/SNDYPWEL",
+      "name": {
+        "ja": "環境科学",
+        "en": "Environmental Science"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22015101.html",
+      "courses": [
+        "uar:education/DQUDQNS3"
+      ],
+      "instructors": [
+        "uar:people/LEYPSBJL"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/UIKN43DE",
+      "name": {
+        "ja": "国際文化論",
+        "en": "Intercultural Studies"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016102.html",
+      "courses": [
+        "uar:education/3JDYBDWK",
+        "uar:education/VZJ4S7XK"
+      ],
+      "instructors": [
+        "uar:people/JT3H5JQ6"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/BFFKJYEV",
+      "name": {
+        "ja": "科学技術と倫理",
+        "en": "Science,Technology and Ethics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016103.html",
+      "courses": [
+        "uar:education/4FBRNDCP"
+      ],
+      "instructors": [
+        "uar:people/2RVDTMYR"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/SJ7A6RPZ",
+      "name": {
+        "ja": "化学結合と構造",
+        "en": "Chemical Bonding and Structure: an Introduction"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019105.html",
+      "courses": [
+        "uar:education/DMAPSLM2"
+      ],
+      "instructors": [
+        "uar:people/S2FD7QN5"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/KS23EU3Q",
+      "name": {
+        "ja": "コンピュータリテラシー",
+        "en": "Computer Literacy"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018102.html",
+      "courses": [
+        "uar:education/S3WXBXL6"
+      ],
+      "instructors": [
+        "uar:people/233BGDDN",
+        "uar:people/5JEAVFWW",
+        "uar:people/7VUMBBCM"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土1"
+      ]
+    },
+    {
+      "id": "uar:education/SMT7DEX2",
+      "name": {
+        "ja": "基礎物理学第三",
+        "en": "Fundamental Physics Ⅲ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019107.html",
+      "courses": [
+        "uar:education/QWW4FQCV"
+      ],
+      "instructors": [
+        "uar:people/ICNDLATG"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土1"
+      ]
+    },
+    {
+      "id": "uar:education/6ZUTKKVF",
+      "name": {
+        "ja": "設計工学",
+        "en": "Mechanical Engineering Design"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021109.html",
+      "courses": [
+        "uar:education/V4URSW5A"
+      ],
+      "instructors": [
+        "uar:people/T4RQHZ4M"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土1"
+      ]
+    },
+    {
+      "id": "uar:education/CW2JBRPA",
+      "name": {
+        "ja": "Academic Spoken English Ⅰ",
+        "en": "Academic Spoken English Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012102.html",
+      "courses": [
+        "uar:education/RRAKIHLN"
+      ],
+      "instructors": [
+        "uar:people/NPTBB7HD",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土2"
+      ]
+    },
+    {
+      "id": "uar:education/FFBHAGUB",
+      "name": {
+        "ja": "回路システム学",
+        "en": "Circuits and Systems"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021111.html",
+      "courses": [
+        "uar:education/5FK67U75"
+      ],
+      "instructors": [
+        "uar:people/GO2EQHZE"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土2"
+      ]
+    },
+    {
+      "id": "uar:education/MHNXT2D3",
+      "name": {
+        "ja": "電磁気学および演習",
+        "en": "Electromagnetism and Practice"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021104.html",
+      "courses": [
+        "uar:education/5HGFELMZ"
+      ],
+      "instructors": [
+        "uar:people/6NTNEYHU",
+        "uar:people/MEHUBKAP"
+      ],
+      "credits": 3,
+      "term": "前学期",
+      "periods": [
+        "土2",
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/GPVCY5OH",
+      "name": {
+        "ja": "Academic Written English Ⅰ",
+        "en": "Academic Written English Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012101.html",
+      "courses": [
+        "uar:education/FRHT34C2"
+      ],
+      "instructors": [
+        "uar:people/JVFETFKP",
+        "uar:people/RVJUCE77"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/I5UUBCIK",
+      "name": {
+        "ja": "Academic Presentation in English",
+        "en": "Academic Presentation in English"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012104.html",
+      "courses": [
+        "uar:education/QIHA6BTE"
+      ],
+      "instructors": [
+        "uar:people/7QUA3UU2",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/GIOW7KQQ",
+      "name": {
+        "ja": "先端トピックス",
+        "en": "Topics in Modern Technologies"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023106.html",
+      "courses": [
+        "uar:education/WAHS4JVQ"
+      ],
+      "instructors": [
+        "uar:people/FYTO5OGG"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/O6FPAQCP",
+      "name": {
+        "ja": "Academic English for the 2nd Year Ⅰ",
+        "en": "Academic English for the 2nd Year Ⅰ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012103.html",
+      "courses": [
+        "uar:education/QXDWAWIC"
+      ],
+      "instructors": [
+        "uar:people/65BHQF6C",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土4"
+      ]
+    },
+    {
+      "id": "uar:education/V5TX3ALL",
+      "name": {
+        "ja": "国際技術協力論",
+        "en": "International Technical Cooperation"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016104.html",
+      "courses": [
+        "uar:education/7S3ZBWYT"
+      ],
+      "instructors": [
+        "uar:people/6RKYWBBK"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "土4"
+      ]
+    },
+    {
+      "id": "uar:education/TFN4KU34",
+      "name": {
+        "ja": "アナログ回路実験",
+        "en": "Analog Circuit Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021105.html",
+      "courses": [
+        "uar:education/BLKXK72E"
+      ],
+      "instructors": [
+        "uar:people/7L64WJRQ",
+        "uar:people/7W4WA4SK",
+        "uar:people/RR7MG547",
+        "uar:people/TZVE2BIF"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/2IJGJQRT",
+      "name": {
+        "ja": "プログラミング実験",
+        "en": "Programming Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021106.html",
+      "courses": [
+        "uar:education/EJRL4UN4"
+      ],
+      "instructors": [
+        "uar:people/7Z3JSGJQ",
+        "uar:people/GLRQ5M2Y",
+        "uar:people/UY4VFIEO"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/FRKU7IRQ",
+      "name": {
+        "ja": "地理学(R7開講なし)",
+        "en": "Geography"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011107.html",
+      "courses": [
+        "uar:education/RRLTAUXL"
+      ],
+      "instructors": [],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/A6DHSLDH",
+      "name": {
+        "ja": "社会思想史(R7開講なし)",
+        "en": "History of Social Thought"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011108.html",
+      "courses": [
+        "uar:education/BWPYJFIE"
+      ],
+      "instructors": [],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/RAXBEIFW",
+      "name": {
+        "ja": "アカデミックリテラシー",
+        "en": "Academic Literacy"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018101.html",
+      "courses": [
+        "uar:education/KKWCZP2E"
+      ],
+      "instructors": [
+        "uar:people/4JWSJG45",
+        "uar:people/HZLV3PHO"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/CNQXO7QX",
+      "name": {
+        "ja": "データサイエンス演習",
+        "en": "Data Science Studies"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018107.html",
+      "courses": [
+        "uar:education/NMNUROMZ",
+        "uar:education/52WXRG6C"
+      ],
+      "instructors": [
+        "uar:people/ZSLJSC7Q"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SDRAQH4F",
+      "name": {
+        "ja": "総合コミュニケーション科学",
+        "en": "Comprehensive Communications Sciences"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018203.html",
+      "courses": [
+        "uar:education/XLFGHFF6"
+      ],
+      "instructors": [
+        "uar:people/STSERQVC"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/FJXOG3NX",
+      "name": {
+        "ja": "輪講A(学域・K課程)",
+        "en": "Seminar A"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023101.html",
+      "courses": [
+        "uar:education/IAQQGCZI"
+      ],
+      "instructors": [
+        "uar:people/HXAFFAKV",
+        "uar:people/RYQ7WSAS",
+        "uar:people/X3I3ZS2M",
+        "uar:people/XGZ4EWC3"
+      ],
+      "credits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/B35YSGMF",
+      "name": {
+        "ja": "計測工学",
+        "en": "Instrumentation Engineering"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023104.html",
+      "courses": [
+        "uar:education/6GO7L44U"
+      ],
+      "instructors": [
+        "uar:people/YWKA5GN4"
+      ],
+      "credits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MCUBHFTY",
+      "name": {
+        "ja": "卒業研究A(学域・K課程)",
+        "en": "Senior Thesis A"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023107.html",
+      "courses": [
+        "uar:education/Z4CPPJBE"
+      ],
+      "instructors": [
+        "uar:people/RCLFT5KP"
+      ],
+      "credits": 3,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/EWFRQ7CU",
+      "name": {
+        "ja": "応用幾何学",
+        "en": "Applied Geometry"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016201.html",
+      "courses": [
+        "uar:education/CALZFL7S"
+      ],
+      "instructors": [
+        "uar:people/JSRMUFXO"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "月6"
+      ]
+    },
+    {
+      "id": "uar:education/T3XCMCSG",
+      "name": {
+        "ja": "基礎プログラミングおよび演習",
+        "en": "Fundamental Programming"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019205.html",
+      "courses": [
+        "uar:education/FE72WCA5"
+      ],
+      "instructors": [
+        "uar:people/5YIUMSV6",
+        "uar:people/FBE6OG7V"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/NYCE4ZIP",
+      "name": {
+        "ja": "アルゴリズム・データ構造および演習",
+        "en": "Algorithms and Data Structures with Programming Projects"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021206.html",
+      "courses": [
+        "uar:education/LVPS66MS"
+      ],
+      "instructors": [
+        "uar:people/CHIZ4FCG"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/3DHH66NS",
+      "name": {
+        "ja": "計算機工学",
+        "en": "Computer Engineering"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023201.html",
+      "courses": [
+        "uar:education/E54ZZNMS"
+      ],
+      "instructors": [
+        "uar:people/TTKTB7AS"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "月7"
+      ]
+    },
+    {
+      "id": "uar:education/L6DJ7464",
+      "name": {
+        "ja": "応用代数学",
+        "en": "Applied Algebra"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016202.html",
+      "courses": [
+        "uar:education/CCBYPOBO",
+        "uar:education/SWGKNY3C"
+      ],
+      "instructors": [
+        "uar:people/6QKF7MBY"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "火6"
+      ]
+    },
+    {
+      "id": "uar:education/JB7QEJ6Q",
+      "name": {
+        "ja": "技術課程演習第二",
+        "en": "Practice for Career Persons' Course Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018204.html",
+      "courses": [
+        "uar:education/WDMSODTV"
+      ],
+      "instructors": [
+        "uar:people/STSERQVC"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/5D36LHE3",
+      "name": {
+        "ja": "基礎微分積分学第二",
+        "en": "Basic Calculus Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019201.html",
+      "courses": [
+        "uar:education/7MW2MMYB"
+      ],
+      "instructors": [
+        "uar:people/KVHO67IG",
+        "uar:people/YTMI3RAJ"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/DZ2I2CB5",
+      "name": {
+        "ja": "基礎電子工学",
+        "en": "Fundamental Electronics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021205.html",
+      "courses": [
+        "uar:education/YRELHBB3"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/MDN5YZRN",
+      "name": {
+        "ja": "ロボティックス",
+        "en": "Robotics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023210.html",
+      "courses": [
+        "uar:education/6TF725QT"
+      ],
+      "instructors": [
+        "uar:people/O6TULR7U"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "火7"
+      ]
+    },
+    {
+      "id": "uar:education/UKR7CSG7",
+      "name": {
+        "ja": "科学史",
+        "en": "History of Science"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011204.html",
+      "courses": [
+        "uar:education/NHCEYRCY"
+      ],
+      "instructors": [
+        "uar:people/3NE3FBU5"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "水6"
+      ]
+    },
+    {
+      "id": "uar:education/ESEITP5V",
+      "name": {
+        "ja": "技術者倫理",
+        "en": "Ethics for Engineers"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018205.html",
+      "courses": [
+        "uar:education/7KU57L36",
+        "uar:education/J62T4H35"
+      ],
+      "instructors": [
+        "uar:people/QZTDZSGL"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/HUYJ2SNF",
+      "name": {
+        "ja": "ベクトルと行列第二",
+        "en": "Introductory Linear Algebra Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019203.html",
+      "courses": [
+        "uar:education/YJ4CIWDK"
+      ],
+      "instructors": [
+        "uar:people/YTMI3RAJ"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/4KQ2YD64",
+      "name": {
+        "ja": "確率統計",
+        "en": "Probability and Statistics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021203.html",
+      "courses": [
+        "uar:education/BX4GXKLN"
+      ],
+      "instructors": [
+        "uar:people/7ECUFIBV"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/ZW7EWOCJ",
+      "name": {
+        "ja": "電磁波工学",
+        "en": "Electromagnetic Wave Engineering"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023203.html",
+      "courses": [
+        "uar:education/LVXM4FOD"
+      ],
+      "instructors": [
+        "uar:people/TRSDMRDN"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/IE6AQS5X",
+      "name": {
+        "ja": "基礎物理学第二",
+        "en": "Fundamental Physics Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019204.html",
+      "courses": [
+        "uar:education/2KQIO25C"
+      ],
+      "instructors": [
+        "uar:people/JZV2MPNE"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/VFMJYCV3",
+      "name": {
+        "ja": "組み込みシステム",
+        "en": "Embedded System"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023204.html",
+      "courses": [
+        "uar:education/AWVNIRMP"
+      ],
+      "instructors": [
+        "uar:people/7WSWHPJA"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/NXG7YJW3",
+      "name": {
+        "ja": "暗号情報セキュリティ",
+        "en": "Cryptography and Information Security"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023209.html",
+      "courses": [
+        "uar:education/MQUGLEY2"
+      ],
+      "instructors": [
+        "uar:people/2MLDHKO7",
+        "uar:people/6QKF7MBY",
+        "uar:people/7JCGFXFP",
+        "uar:people/F7NKMX6B",
+        "uar:people/FCUTZZET",
+        "uar:people/G5U6VNT2",
+        "uar:people/G6GBO5JY",
+        "uar:people/HV5QLMPF",
+        "uar:people/HZLV3PHO",
+        "uar:people/LE7U3UZ4",
+        "uar:people/SENHYA4S",
+        "uar:people/SUV3UDKA"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "木7"
+      ]
+    },
+    {
+      "id": "uar:education/PYNCFWZV",
+      "name": {
+        "ja": "音楽",
+        "en": "Music"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011103.html",
+      "courses": [
+        "uar:education/A5QVYIRN"
+      ],
+      "instructors": [
+        "uar:people/RPEZUR5G"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/3KDS3JG5",
+      "name": {
+        "ja": "法学",
+        "en": "Jurisprudence"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011106.html",
+      "courses": [
+        "uar:education/IJNW2FCL"
+      ],
+      "instructors": [
+        "uar:people/PBW5EKIU"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/UXHNZA5N",
+      "name": {
+        "ja": "哲学",
+        "en": "Philosophy"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011201.html",
+      "courses": [
+        "uar:education/K4QWR2EP"
+      ],
+      "instructors": [
+        "uar:people/OKDMHI5D"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "金7"
+      ]
+    },
+    {
+      "id": "uar:education/CM4UMKOJ",
+      "name": {
+        "ja": "離散数学",
+        "en": "Discrete Mathematics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021201.html",
+      "courses": [
+        "uar:education/S65ETOC4"
+      ],
+      "instructors": [
+        "uar:people/BRW3BG7J"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "土1"
+      ]
+    },
+    {
+      "id": "uar:education/F3UHJJSL",
+      "name": {
+        "ja": "知能システム",
+        "en": "Intelligent Systems"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023208.html",
+      "courses": [
+        "uar:education/AKKGL3DZ"
+      ],
+      "instructors": [
+        "uar:people/SHWYBREW"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "土1"
+      ]
+    },
+    {
+      "id": "uar:education/23CJNKMM",
+      "name": {
+        "ja": "Academic Spoken English Ⅱ",
+        "en": "Academic Spoken English Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012202.html",
+      "courses": [
+        "uar:education/NXDNOFXR"
+      ],
+      "instructors": [
+        "uar:people/NPTBB7HD",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土2"
+      ]
+    },
+    {
+      "id": "uar:education/IRJY7TCU",
+      "name": {
+        "ja": "信号処理論",
+        "en": "Signal Processing"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023202.html",
+      "courses": [
+        "uar:education/6KDYAJZE"
+      ],
+      "instructors": [
+        "uar:people/6FEERS2J"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "土2"
+      ]
+    },
+    {
+      "id": "uar:education/65FT5LL7",
+      "name": {
+        "ja": "電気回路学および演習",
+        "en": "Electric Circuit Theory and Practice"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021204.html",
+      "courses": [
+        "uar:education/IGVYREQL"
+      ],
+      "instructors": [
+        "uar:people/UNPW5GTL"
+      ],
+      "credits": 3,
+      "term": "後学期",
+      "periods": [
+        "土2",
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/IPJOLLBC",
+      "name": {
+        "ja": "Academic Written English Ⅱ",
+        "en": "Academic Written English Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012201.html",
+      "courses": [
+        "uar:education/UAI4YP3F"
+      ],
+      "instructors": [
+        "uar:people/JVFETFKP",
+        "uar:people/RVJUCE77"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/T6I47PC3",
+      "name": {
+        "ja": "Academic Writing in English",
+        "en": "Academic Writing in English"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012204.html",
+      "courses": [
+        "uar:education/CFGB2CAO"
+      ],
+      "instructors": [
+        "uar:people/7QUA3UU2",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土3"
+      ]
+    },
+    {
+      "id": "uar:education/HD5WVYRT",
+      "name": {
+        "ja": "Academic English for the 2nd Year Ⅱ",
+        "en": "Academic English for the 2nd Year Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012203.html",
+      "courses": [
+        "uar:education/A6HMQ2YB"
+      ],
+      "instructors": [
+        "uar:people/65BHQF6C",
+        "uar:people/ORXAGGA5"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土4"
+      ]
+    },
+    {
+      "id": "uar:education/XTNWKQPL",
+      "name": {
+        "ja": "基礎物理学実験",
+        "en": "Physics Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018201.html",
+      "courses": [
+        "uar:education/JUGMI3HS"
+      ],
+      "instructors": [
+        "uar:people/7T3ZUYBG",
+        "uar:people/EJQYPVSJ",
+        "uar:people/NUYTWY6T"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/5YGTRGYP",
+      "name": {
+        "ja": "基礎化学実験",
+        "en": "Chemistry Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018202.html",
+      "courses": [
+        "uar:education/E6XXWSOV"
+      ],
+      "instructors": [
+        "uar:people/4TJKSNEZ",
+        "uar:people/CKMJWKNK",
+        "uar:people/S2FD7QN5"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/CNAAPMIQ",
+      "name": {
+        "ja": "情報学実験",
+        "en": "Informatics Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023205.html",
+      "courses": [
+        "uar:education/IVF4SUZC"
+      ],
+      "instructors": [
+        "uar:people/6AM363X5",
+        "uar:people/MUVTU4RB",
+        "uar:people/OW4Z2O3J",
+        "uar:people/ROLVVYVB"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/QQ2LME2Z",
+      "name": {
+        "ja": "知能機械工学実験",
+        "en": "Mechanical Engineering and Intelligent Systems Laboratory"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023206.html",
+      "courses": [
+        "uar:education/FCIGXFXJ"
+      ],
+      "instructors": [
+        "uar:people/C2LQDI5G",
+        "uar:people/XGZ4EWC3",
+        "uar:people/YHSCTJKB"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/3HA6U732",
+      "name": {
+        "ja": "倫理学(R7開講なし)",
+        "en": "Ethics"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011202.html",
+      "courses": [
+        "uar:education/222VTQEN"
+      ],
+      "instructors": [],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/OEODPAUW",
+      "name": {
+        "ja": "心理学(R7開講なし)",
+        "en": "Psychology"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011203.html",
+      "courses": [
+        "uar:education/OEUGUIKB"
+      ],
+      "instructors": [],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/7BDOIVMZ",
+      "name": {
+        "ja": "文学(R7開講なし)",
+        "en": "Literature"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011205.html",
+      "courses": [
+        "uar:education/N2BZ2OKI"
+      ],
+      "instructors": [],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/NTLVYOSL",
+      "name": {
+        "ja": "応用数学第二",
+        "en": "Applied Mathematics Ⅱ"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021202.html",
+      "courses": [
+        "uar:education/VVSXR3VG"
+      ],
+      "instructors": [
+        "uar:people/FCUTZZET",
+        "uar:people/GZGF7ZPU"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/Y6FR7I4F",
+      "name": {
+        "ja": "輪講B(学域・K課程)",
+        "en": "Seminar B"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023207.html",
+      "courses": [
+        "uar:education/LW7INQAG"
+      ],
+      "instructors": [
+        "uar:people/67FM5BOK",
+        "uar:people/K4HG53MP",
+        "uar:people/RYQ7WSAS",
+        "uar:people/XXRC2IOO"
+      ],
+      "credits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/DODJD3BD",
+      "name": {
+        "ja": "ヒューマンインタフェース",
+        "en": "Human Interface"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023211.html",
+      "courses": [
+        "uar:education/6XCGMYA3"
+      ],
+      "instructors": [
+        "uar:people/EX7OCJRN"
+      ],
+      "credits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2WHCG36A",
+      "name": {
+        "ja": "卒業研究B(学域・K課程)",
+        "en": "Senior Thesis B"
+      },
+      "year": 2025,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023212.html",
+      "courses": [
+        "uar:education/MDKPUE3L"
+      ],
+      "instructors": [
+        "uar:people/RCLFT5KP"
+      ],
+      "credits": 3,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    }
+  ]
+}

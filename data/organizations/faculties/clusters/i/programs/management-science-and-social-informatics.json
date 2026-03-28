@@ -2,13 +2,8 @@
   "id": "uar:organizations/6BHVGRQD",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/QBTOSVHH"
-    }
+    "uar:organizations/5TDWVJAF",
+    "uar:organizations/QBTOSVHH"
   ],
   "name": {
     "en": "Management Science and Social Informatics Program",

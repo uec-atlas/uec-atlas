@@ -1,0 +1,62 @@
+[
+  {
+    "title": "囲碁とゲームAI",
+    "name": "伊藤",
+    "override": "uar:people/SHWYBREW"
+  },
+  {
+    "title": "生涯スポーツ演習",
+    "name": "安藤",
+    "override": "uar:people/RWX76R5O"
+  },
+  {
+    "title": "情報領域演習第二",
+    "name": "菅原",
+    "override": "uar:people/RPZ5POVE"
+  },
+  {
+    "title": "基礎科学実験",
+    "name": "菅原",
+    "override": "uar:people/SENHYA4S"
+  },
+  {
+    "title": "地学実験",
+    "name": "濱田",
+    "override": "uar:people/ROAFUIHX"
+  },
+  {
+    "title": "航空宇宙工学",
+    "name": "濱田",
+    "override": "uar:people/OA3ZP5WL"
+  },
+  {
+    "title": "Technical English",
+    "name": "Yu",
+    "override": "uar:people/SULFMPBF"
+  },
+  {
+    "title": "理工学基礎実験",
+    "name": "鈴木",
+    "override": "uar:people/Y2XRJ4AY"
+  },
+  {
+    "title": "Academic.+English",
+    "name": "Go",
+    "override": "uar:people/ORXAGGA5"
+  },
+  {
+    "title": "Academic.+English",
+    "name": "Jeffreys",
+    "override": "uar:people/RVJUCE77"
+  },
+  {
+    "title": "Academic.+English",
+    "name": "Shi",
+    "override": "uar:people/7QUA3UU2"
+  },
+  {
+    "title": "Academic.+English",
+    "name": "Dusza",
+    "override": "uar:people/JVFETFKP"
+  }
+]

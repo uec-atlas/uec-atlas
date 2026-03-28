@@ -2,13 +2,8 @@
   "id": "uar:organizations/M6PLREDB",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/LMCZ7FKK"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/W23WZ55B"
-    }
+    "uar:organizations/LMCZ7FKK",
+    "uar:organizations/W23WZ55B"
   ],
   "name": {
     "en": "Mechanical Systems Program",

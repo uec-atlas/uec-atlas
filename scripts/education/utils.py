@@ -18,3 +18,8 @@ def canonicalize_subject_name(name: str) -> str:
     s = normalize_handbook_name(name)
     s = re.sub(r"\s+", "", s)
     return s.lower()
+
+
+def normalize_instructor_name(name: str) -> str:
+    """担当教員名の正規化"""
+    return utils.normalize_string(name).lstrip("◯〇○*＊").removesuffix("ほか").removesuffix("他").replace(",", "").strip().title()

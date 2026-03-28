@@ -103,10 +103,6 @@ classes:
         description: "関係先の組織"
         range: Organization
 
-  EducationalPathway:
-    is_a: OrganizationRelation
-    description: "教育の進路を示す関係性"
-
 slots:
   target:
     range: Organization

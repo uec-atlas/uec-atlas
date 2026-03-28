@@ -2,13 +2,8 @@
   "id": "uar:organizations/HXSVK2KQ",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/W23WZ55B"
-    }
+    "uar:organizations/AEFZKYAV",
+    "uar:organizations/W23WZ55B"
   ],
   "name": {
     "en": "Measurement and Control Systems Program",

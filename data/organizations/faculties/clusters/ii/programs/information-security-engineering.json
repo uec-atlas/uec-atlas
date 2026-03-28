@@ -2,13 +2,7 @@
   "id": "uar:organizations/CTHKPUEZ",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/QBTOSVHH"
-    }
+    "uar:organizations/QBTOSVHH"
   ],
   "name": {
     "en": "Information Security Engineering Program",

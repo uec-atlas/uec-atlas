@@ -2,13 +2,8 @@
   "id": "uar:organizations/FBZBS5JG",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV"
-  ],
-  "relatedTo": [
-    {
-      "type": "EducationalPathway",
-      "target": "uar:organizations/SJGILYFG"
-    }
+    "uar:organizations/AEFZKYAV",
+    "uar:organizations/SJGILYFG"
   ],
   "name": {
     "en": "Electronics and Information Engineering Program",

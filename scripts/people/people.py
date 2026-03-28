@@ -13,6 +13,7 @@ class Person:
     alternative_names_en: list[str] = None
     member_of: list[str] = None
     is_based_on: str = None
+    is_part_time: bool = False
 
     def resolve_member_of(self) -> list["Organization"]:
         resolved = []
@@ -22,6 +23,10 @@ class Person:
             if org:
                 resolved.append(org)
         return list({org.id: org for org in resolved}.values())
+
+    @property
+    def canonical_key(self) -> utils.CanonicalKey:
+        return utils.CanonicalKey(self.name)
 
     def to_dict(self) -> dict:
         name = {"ja": utils.normalize_name(self.name)}
@@ -41,4 +46,8 @@ class Person:
             "alternateNames": alternate_names,
             "memberOf": [org.id for org in self.resolve_member_of()],
             "isBasedOn": self.is_based_on,
+            "isPartTime": self.is_part_time,
         }
+
+    def __hash__(self):
+        return hash(self.canonical_key)

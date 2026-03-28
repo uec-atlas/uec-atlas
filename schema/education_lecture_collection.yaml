@@ -22,10 +22,6 @@ classes:
       type:
         equals_string: "LectureCollection"
     attributes:
-      year:
-        description: "開講年度"
-        range: integer
-        required: true
       entries:
         description: "開講情報リスト"
         range: Lecture
