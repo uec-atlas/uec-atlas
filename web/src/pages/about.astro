@@ -1,0 +1,157 @@
+---
+import Heading1 from "@/components/Heading1.astro";
+import Heading2 from "@/components/Heading2.astro";
+import { allOntologyClasses } from "@/data/ontology";
+import Layout from "@/layouts/Layout.astro";
+
+export const prerender = true;
+
+const classes = [...allOntologyClasses];
+
+// Sort classes by name
+classes.sort((a, b) => a.id.localeCompare(b.id));
+---
+
+<Layout title="About">
+  <div class="max-w-none leading-8 tracking-wide">
+    <div class="d-breadcrumbs text-xs mb-4">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>About</li>
+      </ul>
+    </div>
+
+    <section class="mb-12 space-y-6" id="overview">
+      <Heading1>About UEC Atlas</Heading1>
+      <Heading2>UEC Atlas とは</Heading2>
+      <p>
+        UEC Atlasは、電気通信大学のデータを
+        構造化・整理し、誰もが利用できるようにする Linked Open Data
+        プロジェクトです。
+      </p>
+      <p>
+        電気通信大学の学生は、大学生活を支える様々なアプリケーションを自身で開発・運用する文化がありますが、大学のデータは構造化されずに散在しているため、アプリケーション開発の障壁となっています。
+        本プロジェクトは、Linked Open
+        Dataとして大学関連のデータを構造化・整理し、また自由にクエリできるSPARQLエンドポイントを提供することで、学生が大学のデータを活用したアプリケーションを開発しやすくすることを目指しています。
+      </p>
+      <p>
+        なお、このプロジェクトは学生主体で運営されており、大学の公式なプロジェクトではありません。
+        情報の正確性や完全性は保証されないため、最新の情報や正式な情報が必要な場合は、大学の公式な情報源を参照してください。
+      </p>
+
+      <Heading2>データの利活用</Heading2>
+      <p>
+        データの利活用に関するドキュメントは、以下のページを参照してください。
+      </p>
+      <ul class="list-disc pl-6">
+        <li>
+          <a class="underline" href="/docs/ontology">オントロジーの仕様</a
+          >(自動生成のため、内容が不完全な場合があります)
+        </li>
+        <li>
+          <a class="underline" href="/page/">データリポジトリ</a
+          >(一部のデータを簡易に閲覧できます)
+        </li>
+        <li>
+          <a
+            class="underline"
+            href="https://github.com/uec-atlas/uec-atlas/wiki"
+            target="_blank"
+            rel="noopener noreferrer">GitHub Wiki</a
+          > (開発者向けのドキュメントや技術的な詳細情報)
+        </li>
+      </ul>
+
+      <Heading2>運営ポリシー</Heading2>
+      <p>UEC Atlasは、以下のポリシーに基づいて運営されます。</p>
+      <dl class="mb-2">
+        <dt class="font-bold">オープンアクセス</dt>
+        <dd class="pl-4 mb-2">
+          すべてのデータは、以下に定める利用規約のもとで、誰でも自由にアクセス、利用、共有できます。
+        </dd>
+        <dt class="font-bold">コミュニティ主導</dt>
+        <dd class="pl-4 mb-2">
+          誰もがデータの収集、検証、更新に参加できる仕組みを提供し、継続的な改善を図ります。
+        </dd>
+        <dt class="font-bold">情報保護</dt>
+        <dd class="pl-4">
+          機密性の高い顔写真や連絡先などの情報、及びシラバスの講義説明文などの著作権保護が優先される情報は公開しません。
+        </dd>
+        <dt class="font-bold">情報の収集</dt>
+        <dd class="pl-4">
+          大学の公式Webサイト、または学内機関の公式Webサイト等から収集された情報をもとにデータを生成し、必要に応じて情報の加筆・修正を行います。
+          なお、データの収集にあたっては、過度なサーバー負荷を避けるように、リクエスト数や間隔の制御及びローカルキャッシュの利用を行います。
+        </dd>
+      </dl>
+
+      <Heading2>データの修正・削除</Heading2>
+      <p>
+        UEC
+        Atlasのデータに誤りや不足がある場合、データの取り下げりを希望する場合は、
+        <a
+          class="underline"
+          href="https://github.com/uec-atlas/uec-atlas/issues"
+          target="_blank"
+          rel="noopener noreferrer">GitHubのリポジトリ</a
+        >
+        にIssueやPull Requestを作成して報告・修正にご協力ください。
+      </p>
+    </section>
+
+    <section class="mb-12 space-y-6" id="terms">
+      <Heading1>利用規約</Heading1>
+      <p>UEC Atlasのデータは、以下の利用規約のもとで提供されます。</p>
+      <Heading2>免責事項</Heading2>
+      <p>
+        UEC Atlasのデータは、現状のまま提供されます。UEC
+        Atlasは、データの正確性、完全性、信頼性を保証しません。
+        データの利用により生じたいかなる損害についても、UEC
+        Atlasは一切責任を負いません。
+      </p>
+      <p>
+        また、データ構造の変更やデータの削除等を予告なく行う可能性がございます。あらかじめご了承ください。
+      </p>
+      <Heading2>ライセンス・著作権</Heading2>
+      <p>
+        UEC Atlasが公開するデータは、電気通信大学の公式Webサイト、
+        または学内機関の公式Webサイトから収集された情報をもとにしており、
+        これらの情報に関連する著作権は各公開元に帰属します。
+      </p>
+      <p>
+        本サービスが独自に生成・付与したメタデータおよびデータ構造は、
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+          target="_blank"
+          rel="noopener noreferrer">CC BY-NC-SA 4.0ライセンス</a
+        >のもとで提供されます。
+        ただし、電気通信大学の学生及び教職員によるデータの利用は、本規約において非営利利用の範囲内であるとみなします。
+      </p>
+      <p>
+        また、Webサイト及びデータの加工・公開に関するソースコードの著作権は、
+        UEC Atlasプロジェクトの参加者に帰属し、
+        MITライセンスのもとで提供されます。
+      </p>
+      <p>
+        本プロジェクトが提供するデータを利用して作成された二次的著作物の著作権は、当該二次的著作物の作成者に帰属します。
+        データのライセンスを遵守する限りにおいて、UEC Atlasは
+        当該の二次的著作物に対して著作者人格権を含む一切の権利を主張しません。
+      </p>
+
+      <Heading2>禁止事項</Heading2>
+      <p>UEC Atlasのデータを利用する際には、以下の行為を禁止します。</p>
+      <ul class="list-disc pl-6">
+        <li>プロジェクトの趣旨に反する商業利用をすること</li>
+        <li>
+          電気通信大学の公式なプロジェクトであるかのように誤認されるような方法で
+          UEC Atlasのデータを利用すること
+        </li>
+        <li>本プロジェクトが提供するエンドポイントに過度な負荷をかけること</li>
+        <li>
+          本プロジェクトが提供するデータを悪用して、第三者のプライバシーを侵害すること
+        </li>
+        <li>その他法令や公序良俗に反する行為をすること</li>
+      </ul>
+    </section>
+  </div>
+</Layout>

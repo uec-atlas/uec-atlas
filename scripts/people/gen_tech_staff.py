@@ -10,6 +10,9 @@ from ..gen_id import generate_id
 
 TECH_URL = "https://www.tech.uec.ac.jp/about/member.html"
 CACHE_DIR = ".cache/people"
+HEADERS = {
+    "User-Agent": "UEC-Atlas/1.0 (+https://github.com/uec-atlas/uec-atlas)"
+}
 
 
 def get_cache_path(url: str) -> str:
@@ -19,7 +22,7 @@ def get_cache_path(url: str) -> str:
 
 def load_tech_staff():
     client = httpx.Client()
-    response = client.get(TECH_URL)
+    response = client.get(TECH_URL, headers=HEADERS)
     response.raise_for_status()
     html_content = response.text
     parser = LexborHTMLParser(html_content)

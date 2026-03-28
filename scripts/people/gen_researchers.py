@@ -14,9 +14,12 @@ from ..gen_id import generate_id
 
 
 ROOT_URL = "https://www.uec.ac.jp/research/information/"
-LIMITS = httpx.Limits(max_connections=10, max_keepalive_connections=10)
-CONCURRENCY_LIMIT = 10
+LIMITS = httpx.Limits(max_connections=5, max_keepalive_connections=5)
+CONCURRENCY_LIMIT = 5
 CACHE_DIR = ".cache/people"
+HEADERS = {
+    "User-Agent": "UEC-Atlas/1.0 (+https://github.com/uec-atlas/uec-atlas)"
+}
 
 
 def get_cache_path(url: str) -> str:
@@ -34,8 +37,8 @@ async def fill_researcher_details(client: httpx.AsyncClient, researcher: Person,
                 with open(cache_path, "r", encoding="utf-8") as f:
                     html_content = f.read()
             else:
-                await asyncio.sleep(0.25)
-                response = await client.get(researcher.is_based_on, timeout=10.0)
+                await asyncio.sleep(0.5)
+                response = await client.get(researcher.is_based_on, timeout=10.0, headers=HEADERS)
                 response.raise_for_status()
                 html_content = response.text
                 os.makedirs(CACHE_DIR, exist_ok=True)
@@ -78,7 +81,7 @@ async def load_researchers():
             with open(root_cache_path, "r", encoding="utf-8") as f:
                 root_html = f.read()
         else:
-            response = await client.get(ROOT_URL)
+            response = await client.get(ROOT_URL, headers=HEADERS)
             response.raise_for_status()
             root_html = response.text
             os.makedirs(CACHE_DIR, exist_ok=True)
