@@ -58,5 +58,10 @@
     "title": "Academic.+English",
     "name": "Dusza",
     "override": "uar:people/JVFETFKP"
+  },
+  {
+    "title": "基礎化学実験",
+    "name": "池田",
+    "override": "uar:people/7PUXHU3M"
   }
 ]

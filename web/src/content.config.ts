@@ -1,8 +1,9 @@
 import { defineCollection, z } from "astro:content";
-import type { Lecture } from "generated/education";
+import type { Lecture, Person } from "generated/education";
 import type { CourseCategoryCollection } from "generated/education_course_category_collection";
 import type { CourseCollection } from "generated/education_course_collection";
 import type { Curriculum } from "generated/education_curriculum";
+import type { LectureCollection } from "generated/education_lecture_collection";
 import ontologyData from "../generated/ontology_docs.json";
 import type { OntologySlot, RawOntologyClass } from "./data/ontology";
 import type { RawOrganization } from "./data/organizations";
@@ -76,7 +77,6 @@ const educationCurriculums = defineCollection({
     return Object.values(files).flatMap(
       (data) =>
         data.entries?.map((entry) => ({
-          type: "CurriculumEntry",
           year: data.year,
           ...entry,
         })) ?? [],
@@ -89,12 +89,26 @@ const educationLectures = defineCollection({
     const files = import.meta.glob("../../data/education/lectures/**/*.json", {
       eager: true,
       import: "default",
-    }) as Record<string, Lecture>;
+    }) as Record<string, LectureCollection>;
 
-    return Object.values(files).map((lecture) => ({
-      ...lecture,
-      type: "Lecture",
-    }));
+    return Object.values(files).flatMap(
+      (lectureCollection) =>
+        lectureCollection.entries?.map((lecture) => ({
+          type: "Lecture",
+          ...lecture,
+        })) ?? [],
+    );
+  },
+});
+
+const people = defineCollection({
+  loader: () => {
+    const files = import.meta.glob("../../data/people/**/*.json", {
+      eager: true,
+      import: "default",
+    }) as Record<string, Person[]>;
+
+    return Object.values(files).flat();
   },
 });
 
@@ -125,6 +139,7 @@ export const collections = {
   educationCourseCategories,
   educationCurriculums,
   educationLectures,
+  people,
   ontologyClasses,
   ontologySlots,
 };

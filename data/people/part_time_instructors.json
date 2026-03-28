@@ -530,16 +530,6 @@
     "isPartTime": true
   },
   {
-    "id": "uar:people/G6GBO5JY",
-    "name": {
-      "ja": "山口"
-    },
-    "alternateNames": {},
-    "memberOf": [],
-    "isBasedOn": null,
-    "isPartTime": true
-  },
-  {
     "id": "uar:people/VR7N2JSN",
     "name": {
       "ja": "山口 晶子"
@@ -643,16 +633,6 @@
     "id": "uar:people/PGF3Z2M6",
     "name": {
       "ja": "小原 格"
-    },
-    "alternateNames": {},
-    "memberOf": [],
-    "isBasedOn": null,
-    "isPartTime": true
-  },
-  {
-    "id": "uar:people/TT6FKDXA",
-    "name": {
-      "ja": "小山"
     },
     "alternateNames": {},
     "memberOf": [],

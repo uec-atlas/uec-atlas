@@ -1,11 +1,11 @@
 ---
+import { Code } from "astro:components";
+import { defineIcons } from "icon-plugin";
 import Card from "@/components/index/Card.astro";
 import Hero from "@/components/index/Hero.astro";
 import Section from "@/components/index/Section.astro";
 import LayoutNoContainer from "@/layouts/LayoutNoContainer.astro";
 import { expandURI } from "@/utils/url";
-import { Code } from "astro:components";
-import { defineIcons } from "icon-plugin";
 
 export const prerender = true;
 
@@ -42,8 +42,7 @@ defineIcons([
       </Card>
       <Card title="Open Access" icon="material-symbols:public">
         <p class="leading-6 tracking-wide">
-          すべてのデータはオープンライセンス(CC BY
-          4.0)の下で提供され、誰でも自由にアクセス、利用、共有できます。
+          すべてのデータは、誰でも自由にアクセス、利用、共有できます。
         </p>
       </Card>
       <Card title="Community Driven" icon="material-symbols:group">

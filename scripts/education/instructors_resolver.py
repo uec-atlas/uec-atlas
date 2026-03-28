@@ -147,14 +147,13 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
             del unresolved_courses[course.timetable_code]
             continue
         for instructor_name in course_instructor_names[course.timetable_code]:
-            # (1) 完全一致で検索
-            result = candidates_full.get(instructor_name)
-            if result:
-                resolved_instructors[course.timetable_code][instructor_name] = result
-                continue
-
-            # (2) 完全一致しないけどフルネームっぽい場合は、そのまま仮の担当教員として登録
             if is_fullname(instructor_name):
+                # (1) 完全一致で検索
+                result = candidates_full.get(instructor_name)
+                if result:
+                    resolved_instructors[course.timetable_code][instructor_name] = result
+                    continue
+                # (2) 完全一致しないけどフルネームっぽい場合は、そのまま仮の担当教員として登録
                 resolved_instructors[course.timetable_code][instructor_name] = Person(
                     id=None,
                     name=instructor_name.normalized,
@@ -206,6 +205,18 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
                         resolved_instructors[course.timetable_code][instructor_name] = instructor_candidates[0]
                         changed = True
                         continue
+                    else:
+                        same_name = (instructor_name.canonical_key ==
+                                     candidate.canonical_key for candidate in instructor_candidates)
+                        if any(same_name):
+                            print(
+                                f"WARN: Multiple candidates with the same canonical key for part-time instructor '{instructor_name.original}' in course '{course.name}'")
+                            resolved_instructors[course.timetable_code][instructor_name] = next(
+                                candidate for candidate in instructor_candidates if candidate.canonical_key == instructor_name.canonical_key)
+                            changed = True
+                            continue
+                        print(
+                            f"WARN: Could not uniquely resolve part-time instructor '{instructor_name.original}' in course '{course.name}'")
                 else:
                     # (6) それ以外は、全体のリストから前方一致で検索
                     instructor_candidates = [
@@ -234,6 +245,9 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
                             # 名前の完全一致セグメント数もスコアに加算
                             total_score += len(instructor_name.canonical_key.value &
                                                candidate.canonical_key.value)
+
+                            # 非常勤/常勤の一致もスコアに加算
+                            total_score += 1 if candidate.is_part_time == is_part_time else 0
 
                             if total_score > max_score:
                                 max_score = total_score

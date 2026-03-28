@@ -6,6 +6,27 @@ from linkml_runtime.utils.schemaview import SchemaView
 from linkml_runtime.linkml_model.meta import ClassDefinition, SlotDefinition
 
 
+def safe_get_uri(view: SchemaView, element):
+    """
+    Safely retrieves the URI for a given schema element.
+    Catches KeyError/ValueError from linkml_runtime internal resolution issues.
+    """
+    if not element:
+        return None
+
+    # If explicitly defined on the element, use it directly
+    if getattr(element, "slot_uri", None):
+        return element.slot_uri
+    if getattr(element, "class_uri", None):
+        return element.class_uri
+
+    try:
+        return view.get_uri(element)
+    except Exception:
+        # Fallback to None if SchemaView fails to resolve the internal schema map
+        return None
+
+
 def get_slot_info(view: SchemaView, class_name: str, slot_name: str):
     induced_slot = view.induced_slot(slot_name, class_name)
 
@@ -28,7 +49,7 @@ def get_slot_info(view: SchemaView, class_name: str, slot_name: str):
         "inlined_as_list": induced_slot.inlined_as_list,
         "required": induced_slot.required,
         "inherited_from": inherited_from,
-        "slot_uri": view.get_uri(induced_slot)
+        "slot_uri": safe_get_uri(view, induced_slot)
     }
 
 
@@ -72,7 +93,7 @@ def main():
                     all_docs["slots"][slot_name] = {
                         "name": slot_name,
                         "description": slot_def.description if slot_def else None,
-                        "slot_uri": view.get_uri(slot_def) if slot_def else None,
+                        "slot_uri": safe_get_uri(view, slot_def),
                         "range": slot_def.range if slot_def else None,
                         "multivalued": slot_def.multivalued if slot_def else None,
                         "inlined": slot_def.inlined if slot_def else None,
@@ -94,7 +115,7 @@ def main():
             all_docs["classes"][cls_name] = {
                 "name": cls_name,
                 "description": cls_def.description,
-                "class_uri": view.get_uri(cls_def),
+                "class_uri": safe_get_uri(view, cls_def),
                 "is_a": cls_def.is_a,
                 "mixins": cls_def.mixins,
                 "slots": slots,
@@ -110,8 +131,8 @@ def main():
                 if not all_docs["slots"][slot_name].get("description"):
                     all_docs["slots"][slot_name]["description"] = slot_def.description
                 if not all_docs["slots"][slot_name].get("slot_uri"):
-                    all_docs["slots"][slot_name]["slot_uri"] = view.get_uri(
-                        slot_def)
+                    all_docs["slots"][slot_name]["slot_uri"] = safe_get_uri(
+                        view, slot_def)
                 continue
 
             all_docs["slots"][slot_name] = {
@@ -121,7 +142,7 @@ def main():
                 "multivalued": slot_def.multivalued,
                 "inlined_as_list": slot_def.inlined_as_list,
                 "required": slot_def.required,
-                "slot_uri": view.get_uri(slot_def),
+                "slot_uri": safe_get_uri(view, slot_def),
                 "usages": []
             }
 

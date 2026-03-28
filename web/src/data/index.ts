@@ -10,6 +10,7 @@ import {
   rootOntologyClasses,
 } from "./ontology";
 import { _linkedOrganizationMap, _organizationMap } from "./organizations";
+import { _linkedPeopleMap, _peopleMap } from "./people";
 import { _linkedSpatialMap, _spatialMap } from "./spatial";
 
 for (const spatial of _spatialMap.values()) {
@@ -37,6 +38,8 @@ export {
   _courseCategoryMap as courseCategoryMap,
   _curriculumMap as curriculumMap,
   _lectureMap as lectureMap,
+  _peopleMap as peopleMap,
+  _linkedPeopleMap as linkedPeopleMap,
   ontologyClassMap,
   allOntologyClasses,
   rootOntologyClasses,
