@@ -9,6 +9,7 @@ import type {
 import { formatI18NString } from "@/utils/rdf";
 import type { LinkedOrganization } from "./organizations";
 import { _linkedOrganizationMap } from "./organizations";
+import type { LinkedPerson } from "./people";
 
 interface CoursePrerequisiteEntry {
   category?: string;
@@ -24,6 +25,15 @@ interface CourseSuccessorEntry {
   from: string;
   to: string;
 }
+
+export type LinkedCourse = Omit<Course, "lectures"> & {
+  lectures: LinkedLecture[];
+};
+
+export type LinkedLecture = Omit<Lecture, "courses" | "instructors"> & {
+  courses: LinkedCourse[];
+  instructors: LinkedPerson[];
+};
 
 const coursePrerequisites = Object.values(
   import.meta.glob("../../../data/education/course_prerequisites.json", {
@@ -43,10 +53,31 @@ export const _courseMap = new Map<string, Course>();
 export const _courseCategoryMap = new Map<string, CourseCategory>();
 export const _curriculumMap = new Map<string, CurriculumEntry>();
 export const _lectureMap = new Map<string, Lecture>();
+export const _educationMap = new Map<
+  string,
+  Course | CourseCategory | CurriculumEntry | Lecture
+>();
+export const _linkedCourseMap = new Map<string, LinkedCourse>();
+export const _linkedLectureMap = new Map<string, LinkedLecture>();
+export const _linkedEducationMap = new Map<
+  string,
+  LinkedCourse | CourseCategory | CurriculumEntry | LinkedLecture
+>();
 
 const courses = await getCollection("educationCourses");
 for (const course of courses) {
-  _courseMap.set(course.id, course.data as Course);
+  const courseData: Course = {
+    ...course.data,
+  };
+  courseData.codeMappings ??= [];
+  courseData.lectures ??= [];
+  courseData.organizations ??= [];
+  courseData.prerequisites ??= [];
+  _courseMap.set(course.id, courseData);
+  _linkedCourseMap.set(course.id, {
+    ...courseData,
+    lectures: [],
+  });
 }
 
 const courseCategories = await getCollection("educationCourseCategories");
@@ -73,13 +104,59 @@ for (const curriculum of curriculums) {
 
 const lectures = await getCollection("educationLectures");
 for (const lecture of lectures) {
-  _lectureMap.set(lecture.id, lecture.data as Lecture);
+  const lectureData: Lecture = {
+    ...lecture.data,
+  };
+  lectureData.instructors ??= [];
+  lectureData.courses ??= [];
+  _lectureMap.set(lecture.id, lectureData);
+  _linkedLectureMap.set(lecture.id, {
+    ...lectureData,
+    courses: [],
+    instructors: [],
+  });
 }
 
-const years = new Set<number>([2023, 2024, 2025]); // TODO: lecturesを入れたら削除
+for (const entry of [
+  ..._courseMap.values(),
+  ..._courseCategoryMap.values(),
+  ..._curriculumMap.values(),
+  ..._lectureMap.values(),
+]) {
+  _educationMap.set(entry.id, entry);
+}
+
+for (const entry of [
+  ..._linkedCourseMap.values(),
+  ..._courseCategoryMap.values(),
+  ..._curriculumMap.values(),
+  ..._linkedLectureMap.values(),
+]) {
+  _linkedEducationMap.set(entry.id, entry);
+}
 
 for (const lecture of _lectureMap.values()) {
-  years.add(lecture.year);
+  const linkedLecture = _linkedLectureMap.get(lecture.id);
+  if (!linkedLecture) continue;
+  for (const courseId of lecture.courses ?? []) {
+    const course = _courseMap.get(courseId);
+    const linkedCourse = _linkedCourseMap.get(courseId);
+    if (!course || !linkedCourse) continue;
+    course.lectures ??= [];
+    if (!course.lectures.includes(lecture.id)) {
+      course.lectures.push(lecture.id);
+    }
+    linkedCourse.lectures.push(linkedLecture);
+    if (linkedLecture && !linkedLecture.courses.includes(linkedCourse)) {
+      linkedLecture.courses.push(linkedCourse);
+    }
+  }
+}
+
+const years = new Set<number>([]);
+
+for (const curriculum of _curriculumMap.values()) {
+  years.add(curriculum.year);
 }
 
 for (const { from, to } of courseSuccessors) {
@@ -201,14 +278,14 @@ for (const { category, checkpoint, course, targets } of coursePrerequisites) {
             continue;
 
           targetCourse.prerequisites ??= [];
-          const isDuplicate = targetCourse.prerequisites.some(
+          const isDuplicated = targetCourse.prerequisites.some(
             (p) =>
               p.year === prereq.year &&
               p.category === prereq.category &&
               p.checkpoint === prereq.checkpoint &&
               p.course === prereq.course,
           );
-          if (!isDuplicate) {
+          if (!isDuplicated) {
             targetCourse.prerequisites.push(prereq);
           }
         }

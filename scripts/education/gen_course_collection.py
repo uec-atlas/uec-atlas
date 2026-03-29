@@ -51,7 +51,7 @@ if __name__ == "__main__":
     parser.add_argument("--year", type=int,
                         help="Academic year to process (e.g., 2025)")
     parser.add_argument("--input", required=True,
-                        help="Path to pkl file containing DataFrames")
+                        help="Path to PDF file containing course data")
     parser.add_argument("--output", help="Path to output JSON-LD file")
     args = parser.parse_args()
 

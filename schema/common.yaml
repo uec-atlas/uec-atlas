@@ -15,6 +15,8 @@ prefixes:
   uao: https://uec-atlas.org/ontology/
   uar: https://uec-atlas.org/resources/
   uas: https://uec-atlas.org/schema/
+  foaf: http://xmlns.com/foaf/0.1/
+  org: http://www.w3.org/ns/org#
 
 imports:
   - linkml:types
@@ -109,6 +111,15 @@ classes:
     is_a: NamedThing
     mixins:
       - GeoFeature
+  PersonBase:
+    is_a: NamedThingWithId
+    mixins:
+      - SchemaPerson
+      - FoafPerson
+  LectureBase:
+    is_a: NamedThingWithId
+    mixins:
+      - SchemaCourseInstance
   SchemaOpeningHoursSpecification:
     class_uri: schema:OpeningHoursSpecification
     attributes:
@@ -142,6 +153,12 @@ classes:
     class_uri: schema:PostalAddress
   GeoFeature:
     class_uri: geo:Feature
+  SchemaPerson:
+    class_uri: schema:Person
+  FoafPerson:
+    class_uri: foaf:Person
+  SchemaCourseInstance:
+    class_uri: schema:CourseInstance
 
 slots:
   id:
@@ -203,3 +220,26 @@ slots:
     range: SpatialPropertiesBase
     multivalued: true
     inverse: managedBy
+
+  orgMember:
+    slot_uri: org:member
+  orgMemberOf:
+    slot_uri: org:memberOf
+  member:
+    description: "所属する人"
+    mixins:
+      - orgMember
+    slot_uri: schema:member
+    domain: OrganizationBase
+    range: PersonBase
+    multivalued: true
+    inverse: memberOf
+  memberOf:
+    description: "所属組織"
+    mixins:
+      - orgMemberOf
+    slot_uri: schema:memberOf
+    domain: PersonBase
+    range: OrganizationBase
+    multivalued: true
+    inverse: member

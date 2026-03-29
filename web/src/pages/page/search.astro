@@ -4,8 +4,7 @@ import Heading1 from "@/components/Heading1.astro";
 import { allOntologyClasses } from "@/data";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
 import { getDepthByPropertyExistence } from "@/utils/link";
-import { compactUri } from "@/utils/url";
-import { expandURI, toFullURL } from "@/utils/url";
+import { compactUri, expandURI, toFullURL } from "@/utils/url";
 
 const query = Astro.url.searchParams.get("q") || "";
 const searchWords = query.trim().split(/\s+/).filter(Boolean);
@@ -131,7 +130,7 @@ const results = Array.from(resultsMap.values())
     ) : (
       <LinkCardList
         items={results.map((item) => ({
-          uri: item.id,
+          uri: toFullURL(compactUri(item.id)),
           name: item.name,
           tags: [compactUri(item.type, false)],
         }))}

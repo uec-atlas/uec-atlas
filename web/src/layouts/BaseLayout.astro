@@ -25,7 +25,13 @@ const pageDescription =
     <meta name="description" content={pageDescription} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />
-    <meta property="og:image" content={new URL("/ogp.png", Astro.site).href} />
+    <meta
+      property="og:image"
+      content={new URL(
+        "/ogp.png",
+        import.meta.env.SITE || "http://localhost:4321",
+      ).href}
+    />
     <meta property="twitter:card" content="summary_large_image" />
   </head>
   <body class={className}>

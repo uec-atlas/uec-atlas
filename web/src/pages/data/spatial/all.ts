@@ -23,7 +23,7 @@ export const allJSONLD = {
   "@type": ["void:Dataset", "hydra:Collection"],
   type: "FeatureCollection",
   "void:title": "UEC Atlas - All Spatial Data",
-  "void:license": "https://creativecommons.org/by/4.0/",
+  "void:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "void:sparqlEndpoint": toFullURL("/sparql"),
   "hydra:totalItems": allSpatialEntities.length,
   features: allSpatialEntities,

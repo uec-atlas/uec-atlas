@@ -16,11 +16,12 @@
         "uar:people/7ECUFIBV",
         "uar:people/KVHO67IG"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22019101"
     },
     {
       "id": "uar:education/R74MRGYA",
@@ -37,11 +38,12 @@
         "uar:people/5SAOCJMQ",
         "uar:people/IILTNTIZ"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22021101"
     },
     {
       "id": "uar:education/VUBL2BU6",
@@ -57,11 +59,12 @@
       "instructors": [
         "uar:people/V5ZAWLFZ"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22021108"
     },
     {
       "id": "uar:education/HFDV7FOE",
@@ -77,11 +80,12 @@
       "instructors": [
         "uar:people/RR7MG547"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22023103"
     },
     {
       "id": "uar:education/CBZROFOM",
@@ -97,11 +101,12 @@
       "instructors": [
         "uar:people/XBO6XIY3"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "火6"
-      ]
+      ],
+      "timeTableCode": "22016101"
     },
     {
       "id": "uar:education/F6BPSVLK",
@@ -121,11 +126,12 @@
         "uar:people/T3NMARXL",
         "uar:people/XEQSCPLF"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22014101"
     },
     {
       "id": "uar:education/WUAPFDZY",
@@ -141,11 +147,12 @@
       "instructors": [
         "uar:people/STSERQVC"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22018103"
     },
     {
       "id": "uar:education/IHISTFE4",
@@ -161,11 +168,12 @@
       "instructors": [
         "uar:people/BX27MC5N"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22019106"
     },
     {
       "id": "uar:education/NTBRRS4Q",
@@ -181,11 +189,12 @@
       "instructors": [
         "uar:people/EQCRKYCH"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22023105"
     },
     {
       "id": "uar:education/NXJYJI5Y",
@@ -201,11 +210,12 @@
       "instructors": [
         "uar:people/JINEFS6J"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水6"
-      ]
+      ],
+      "timeTableCode": "22011101"
     },
     {
       "id": "uar:education/UT7XLEFM",
@@ -221,11 +231,12 @@
       "instructors": [
         "uar:people/3AMCRUL2"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水6"
-      ]
+      ],
+      "timeTableCode": "22011105"
     },
     {
       "id": "uar:education/KPPHN2MD",
@@ -244,11 +255,12 @@
         "uar:people/K4CU3Q36",
         "uar:people/OODMRXYP"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22018104"
     },
     {
       "id": "uar:education/GV4KG5BW",
@@ -264,11 +276,12 @@
       "instructors": [
         "uar:people/7ECUFIBV"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22019103"
     },
     {
       "id": "uar:education/SQ7ADMQA",
@@ -284,11 +297,12 @@
       "instructors": [
         "uar:people/RCLFT5KP"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22021103"
     },
     {
       "id": "uar:education/2EQ5YHEH",
@@ -304,11 +318,12 @@
       "instructors": [
         "uar:people/J7H4RFQL"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22021110"
     },
     {
       "id": "uar:education/7I45CH6S",
@@ -324,11 +339,12 @@
       "instructors": [
         "uar:people/JVO6TKCB"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22019104"
     },
     {
       "id": "uar:education/Q2WXWJ5F",
@@ -345,11 +361,12 @@
         "uar:people/OW4Z2O3J",
         "uar:people/VNTF5QIX"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22021102"
     },
     {
       "id": "uar:education/NU2A4LIY",
@@ -365,11 +382,12 @@
       "instructors": [
         "uar:people/NWPAL2NY"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22021107"
     },
     {
       "id": "uar:education/APP6OWMR",
@@ -389,11 +407,12 @@
         "uar:people/ZPLRAHFO",
         "uar:people/ZSLJSC7Q"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22023102"
     },
     {
       "id": "uar:education/IWNHK2GG",
@@ -409,11 +428,12 @@
       "instructors": [
         "uar:people/LEYPSBJL"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22015101"
     },
     {
       "id": "uar:education/AN2TWY6F",
@@ -430,11 +450,12 @@
       "instructors": [
         "uar:people/JT3H5JQ6"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22016102"
     },
     {
       "id": "uar:education/4PJ67S7R",
@@ -450,11 +471,12 @@
       "instructors": [
         "uar:people/2RVDTMYR"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22016103"
     },
     {
       "id": "uar:education/36RNMVSF",
@@ -470,11 +492,12 @@
       "instructors": [
         "uar:people/S2FD7QN5"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22019105"
     },
     {
       "id": "uar:education/FRL2OD3U",
@@ -492,11 +515,12 @@
         "uar:people/5JEAVFWW",
         "uar:people/7VUMBBCM"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土1"
-      ]
+      ],
+      "timeTableCode": "22018102"
     },
     {
       "id": "uar:education/AICR63D7",
@@ -512,11 +536,12 @@
       "instructors": [
         "uar:people/ICNDLATG"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土1"
-      ]
+      ],
+      "timeTableCode": "22019107"
     },
     {
       "id": "uar:education/2NQBWMJI",
@@ -532,11 +557,12 @@
       "instructors": [
         "uar:people/T4RQHZ4M"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土1"
-      ]
+      ],
+      "timeTableCode": "22021109"
     },
     {
       "id": "uar:education/HUHHU7AH",
@@ -553,11 +579,12 @@
         "uar:people/NPTBB7HD",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土2"
-      ]
+      ],
+      "timeTableCode": "22012102"
     },
     {
       "id": "uar:education/MV6NJIOF",
@@ -573,11 +600,12 @@
       "instructors": [
         "uar:people/GO2EQHZE"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土2"
-      ]
+      ],
+      "timeTableCode": "22021111"
     },
     {
       "id": "uar:education/AF6XYBOR",
@@ -594,12 +622,13 @@
         "uar:people/6NTNEYHU",
         "uar:people/MEHUBKAP"
       ],
-      "credits": 3,
+      "numberOfCredits": 3,
       "term": "前学期",
       "periods": [
         "土2",
         "土3"
-      ]
+      ],
+      "timeTableCode": "22021104"
     },
     {
       "id": "uar:education/IITURXEQ",
@@ -616,11 +645,12 @@
         "uar:people/JVFETFKP",
         "uar:people/RVJUCE77"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土3"
-      ]
+      ],
+      "timeTableCode": "22012101"
     },
     {
       "id": "uar:education/NCHU76NJ",
@@ -637,11 +667,12 @@
         "uar:people/7QUA3UU2",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土3"
-      ]
+      ],
+      "timeTableCode": "22012104"
     },
     {
       "id": "uar:education/42733Y2R",
@@ -657,11 +688,12 @@
       "instructors": [
         "uar:people/FYTO5OGG"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土3"
-      ]
+      ],
+      "timeTableCode": "22023106"
     },
     {
       "id": "uar:education/72JVF3HY",
@@ -678,11 +710,12 @@
         "uar:people/LNIYWE7J",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土4"
-      ]
+      ],
+      "timeTableCode": "22012103"
     },
     {
       "id": "uar:education/VDZPCRWD",
@@ -698,11 +731,12 @@
       "instructors": [
         "uar:people/6RKYWBBK"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "土4"
-      ]
+      ],
+      "timeTableCode": "22016104"
     },
     {
       "id": "uar:education/NNLGJHGT",
@@ -721,12 +755,13 @@
         "uar:people/RR7MG547",
         "uar:people/TZVE2BIF"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22021105"
     },
     {
       "id": "uar:education/4TWVRIEL",
@@ -744,12 +779,13 @@
         "uar:people/GLRQ5M2Y",
         "uar:people/UY4VFIEO"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22021106"
     },
     {
       "id": "uar:education/JRFFRHVC",
@@ -763,11 +799,12 @@
         "uar:education/RRLTAUXL"
       ],
       "instructors": [],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22011107"
     },
     {
       "id": "uar:education/W6QCY7I4",
@@ -781,11 +818,12 @@
         "uar:education/BWPYJFIE"
       ],
       "instructors": [],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22011108"
     },
     {
       "id": "uar:education/JULRNUQN",
@@ -802,11 +840,12 @@
         "uar:people/4JWSJG45",
         "uar:people/HZLV3PHO"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22018101"
     },
     {
       "id": "uar:education/ROS3P3BY",
@@ -823,11 +862,12 @@
       "instructors": [
         "uar:people/ZSLJSC7Q"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22018107"
     },
     {
       "id": "uar:education/PYACTTJY",
@@ -843,11 +883,12 @@
       "instructors": [
         "uar:people/STSERQVC"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22018203"
     },
     {
       "id": "uar:education/NLUAFNSZ",
@@ -866,11 +907,12 @@
         "uar:people/X3I3ZS2M",
         "uar:people/XGZ4EWC3"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023101"
     },
     {
       "id": "uar:education/X6J5UVVZ",
@@ -886,11 +928,12 @@
       "instructors": [
         "uar:people/YWKA5GN4"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023104"
     },
     {
       "id": "uar:education/WLLJ3V7K",
@@ -906,11 +949,12 @@
       "instructors": [
         "uar:people/RCLFT5KP"
       ],
-      "credits": 3,
+      "numberOfCredits": 3,
       "term": "前学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023107"
     },
     {
       "id": "uar:education/NRFKTKXL",
@@ -926,11 +970,12 @@
       "instructors": [
         "uar:people/JSRMUFXO"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "月6"
-      ]
+      ],
+      "timeTableCode": "22016201"
     },
     {
       "id": "uar:education/2U3G63DK",
@@ -947,11 +992,12 @@
         "uar:people/5YIUMSV6",
         "uar:people/FBE6OG7V"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22019205"
     },
     {
       "id": "uar:education/TCMFCRNW",
@@ -967,11 +1013,12 @@
       "instructors": [
         "uar:people/CHIZ4FCG"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22021206"
     },
     {
       "id": "uar:education/OFICTV7J",
@@ -987,11 +1034,12 @@
       "instructors": [
         "uar:people/TTKTB7AS"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "月7"
-      ]
+      ],
+      "timeTableCode": "22023201"
     },
     {
       "id": "uar:education/NTKQHF22",
@@ -1008,11 +1056,12 @@
       "instructors": [
         "uar:people/6QKF7MBY"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "火6"
-      ]
+      ],
+      "timeTableCode": "22016202"
     },
     {
       "id": "uar:education/E6Y64E7H",
@@ -1028,11 +1077,12 @@
       "instructors": [
         "uar:people/STSERQVC"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22018204"
     },
     {
       "id": "uar:education/YNHQQUFB",
@@ -1049,11 +1099,12 @@
         "uar:people/KVHO67IG",
         "uar:people/YTMI3RAJ"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22019201"
     },
     {
       "id": "uar:education/3DZEO3PT",
@@ -1069,11 +1120,12 @@
       "instructors": [
         "uar:people/4VJIY3KF"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22021205"
     },
     {
       "id": "uar:education/E2QI3INB",
@@ -1089,11 +1141,12 @@
       "instructors": [
         "uar:people/O6TULR7U"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "火7"
-      ]
+      ],
+      "timeTableCode": "22023210"
     },
     {
       "id": "uar:education/NMGQFHDX",
@@ -1109,11 +1162,12 @@
       "instructors": [
         "uar:people/3NE3FBU5"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "水6"
-      ]
+      ],
+      "timeTableCode": "22011204"
     },
     {
       "id": "uar:education/JE6EMFJW",
@@ -1130,11 +1184,12 @@
       "instructors": [
         "uar:people/QZTDZSGL"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22018205"
     },
     {
       "id": "uar:education/34ZWV54R",
@@ -1150,11 +1205,12 @@
       "instructors": [
         "uar:people/YTMI3RAJ"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22019203"
     },
     {
       "id": "uar:education/S345KMVW",
@@ -1170,11 +1226,12 @@
       "instructors": [
         "uar:people/7ECUFIBV"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22021203"
     },
     {
       "id": "uar:education/MWM257LJ",
@@ -1190,11 +1247,12 @@
       "instructors": [
         "uar:people/TRSDMRDN"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "水7"
-      ]
+      ],
+      "timeTableCode": "22023203"
     },
     {
       "id": "uar:education/CRILDXXI",
@@ -1210,11 +1268,12 @@
       "instructors": [
         "uar:people/JZV2MPNE"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22019204"
     },
     {
       "id": "uar:education/SVEDN4JK",
@@ -1230,11 +1289,12 @@
       "instructors": [
         "uar:people/7WSWHPJA"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22023204"
     },
     {
       "id": "uar:education/ERS75GOA",
@@ -1261,11 +1321,12 @@
         "uar:people/SUV3UDKA",
         "uar:people/WOMVA7QB"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "木7"
-      ]
+      ],
+      "timeTableCode": "22023209"
     },
     {
       "id": "uar:education/UIUQZESW",
@@ -1281,11 +1342,12 @@
       "instructors": [
         "uar:people/RPEZUR5G"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22011103"
     },
     {
       "id": "uar:education/4HGBT3YQ",
@@ -1301,11 +1363,12 @@
       "instructors": [
         "uar:people/PBW5EKIU"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22011106"
     },
     {
       "id": "uar:education/S7HPPTUX",
@@ -1321,11 +1384,12 @@
       "instructors": [
         "uar:people/OKDMHI5D"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "金7"
-      ]
+      ],
+      "timeTableCode": "22011201"
     },
     {
       "id": "uar:education/KFGWFT5N",
@@ -1341,11 +1405,12 @@
       "instructors": [
         "uar:people/BRW3BG7J"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "土1"
-      ]
+      ],
+      "timeTableCode": "22021201"
     },
     {
       "id": "uar:education/I2G4S3E2",
@@ -1361,11 +1426,12 @@
       "instructors": [
         "uar:people/SHWYBREW"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "土1"
-      ]
+      ],
+      "timeTableCode": "22023208"
     },
     {
       "id": "uar:education/P25AAHJT",
@@ -1382,11 +1448,12 @@
         "uar:people/NPTBB7HD",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土2"
-      ]
+      ],
+      "timeTableCode": "22012202"
     },
     {
       "id": "uar:education/ZATYHYRE",
@@ -1402,11 +1469,12 @@
       "instructors": [
         "uar:people/6FEERS2J"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "土2"
-      ]
+      ],
+      "timeTableCode": "22023202"
     },
     {
       "id": "uar:education/X3SA7V5M",
@@ -1422,12 +1490,13 @@
       "instructors": [
         "uar:people/UNPW5GTL"
       ],
-      "credits": 3,
+      "numberOfCredits": 3,
       "term": "後学期",
       "periods": [
         "土2",
         "土3"
-      ]
+      ],
+      "timeTableCode": "22021204"
     },
     {
       "id": "uar:education/CKDWRANG",
@@ -1444,11 +1513,12 @@
         "uar:people/JVFETFKP",
         "uar:people/RVJUCE77"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土3"
-      ]
+      ],
+      "timeTableCode": "22012201"
     },
     {
       "id": "uar:education/RFKFX4JT",
@@ -1465,11 +1535,12 @@
         "uar:people/7QUA3UU2",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土3"
-      ]
+      ],
+      "timeTableCode": "22012204"
     },
     {
       "id": "uar:education/F4UHBULZ",
@@ -1486,11 +1557,12 @@
         "uar:people/LNIYWE7J",
         "uar:people/ORXAGGA5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土4"
-      ]
+      ],
+      "timeTableCode": "22012203"
     },
     {
       "id": "uar:education/EDMUYLGN",
@@ -1508,12 +1580,13 @@
         "uar:people/EJQYPVSJ",
         "uar:people/NUYTWY6T"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22018201"
     },
     {
       "id": "uar:education/X2K4UH2V",
@@ -1531,12 +1604,13 @@
         "uar:people/7PUXHU3M",
         "uar:people/S2FD7QN5"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22018202"
     },
     {
       "id": "uar:education/VSVKAZRP",
@@ -1555,12 +1629,13 @@
         "uar:people/OW4Z2O3J",
         "uar:people/ROLVVYVB"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22023205"
     },
     {
       "id": "uar:education/6TVMBKX6",
@@ -1578,12 +1653,13 @@
         "uar:people/XGZ4EWC3",
         "uar:people/YHSCTJKB"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "土4",
         "土5"
-      ]
+      ],
+      "timeTableCode": "22023206"
     },
     {
       "id": "uar:education/OZTWJRXD",
@@ -1597,11 +1673,12 @@
         "uar:education/222VTQEN"
       ],
       "instructors": [],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22011202"
     },
     {
       "id": "uar:education/F7AZ4IUZ",
@@ -1615,11 +1692,12 @@
         "uar:education/OEUGUIKB"
       ],
       "instructors": [],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22011203"
     },
     {
       "id": "uar:education/O6LUZXVA",
@@ -1633,11 +1711,12 @@
         "uar:education/N2BZ2OKI"
       ],
       "instructors": [],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22011205"
     },
     {
       "id": "uar:education/G2NMRMNI",
@@ -1654,11 +1733,12 @@
         "uar:people/FCUTZZET",
         "uar:people/GZGF7ZPU"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22021202"
     },
     {
       "id": "uar:education/Q53JUZ6O",
@@ -1677,11 +1757,12 @@
         "uar:people/RYQ7WSAS",
         "uar:people/XXRC2IOO"
       ],
-      "credits": 1,
+      "numberOfCredits": 1,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023207"
     },
     {
       "id": "uar:education/AKAO6HGO",
@@ -1697,11 +1778,12 @@
       "instructors": [
         "uar:people/EX7OCJRN"
       ],
-      "credits": 2,
+      "numberOfCredits": 2,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023211"
     },
     {
       "id": "uar:education/7WVDO4PZ",
@@ -1717,11 +1799,12 @@
       "instructors": [
         "uar:people/RCLFT5KP"
       ],
-      "credits": 3,
+      "numberOfCredits": 3,
       "term": "後学期",
       "periods": [
         "他"
-      ]
+      ],
+      "timeTableCode": "22023212"
     }
   ]
 }

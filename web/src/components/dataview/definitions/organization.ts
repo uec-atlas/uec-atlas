@@ -8,7 +8,10 @@ import { defineDataViewItems } from "../types";
 
 export const createOrganizationLinkCardSection = (
   title: string,
-  key: Exclude<keyof LinkedOrganization | "reverseRelations", "manages">,
+  key: Exclude<
+    keyof LinkedOrganization | "reverseRelations",
+    "manages" | "member"
+  >,
 ) =>
   defineDataViewItems<LinkedOrganization>()(
     ({ componentItem, sectionItem }) => [
@@ -92,6 +95,28 @@ export const organizationDataView = defineDataViewItems<LinkedOrganization>()(
             fallbackName: {
               ja: "無名の地物",
               en: "Unnamed Feature",
+            },
+          }),
+        }),
+      ],
+    }),
+    sectionItem({
+      type: "section",
+      title: "所属する人",
+      when: (value) => value.member.length > 0,
+      items: [
+        componentItem({
+          type: "component",
+          component: LinkCardList,
+          props: (item) => ({
+            items: item.member.map((person) => ({
+              name: person.name,
+              uri: person.id,
+              tags: [],
+            })),
+            fallbackName: {
+              ja: "無名の人物",
+              en: "Unnamed Person",
             },
           }),
         }),

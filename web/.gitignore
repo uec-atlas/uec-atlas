@@ -2,3 +2,5 @@
 dist/
 # generated types
 .astro/
+
+data/education/unresolved_instructors.json

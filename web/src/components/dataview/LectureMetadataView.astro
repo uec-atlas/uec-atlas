@@ -1,0 +1,36 @@
+---
+import type { LinkedLecture } from "@/data/education";
+
+interface Props {
+  lecture: LinkedLecture;
+}
+const { lecture } = Astro.props;
+---
+
+<div>
+  <a
+    class="d-btn d-btn-primary d-btn-sm mb-4"
+    href={lecture.sourceUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    シラバスを見る
+  </a>
+</div>
+
+<dl>
+  <dt class="font-bold">時間割コード</dt>
+  <dd class="mb-4">{lecture.timeTableCode}</dd>
+
+  <dt class="font-bold">開講年度</dt>
+  <dd class="mb-4">{lecture.year}</dd>
+
+  <dt class="font-bold">開講学期</dt>
+  <dd class="mb-4">{lecture.term}</dd>
+
+  <dt class="font-bold">時限</dt>
+  <dd class="mb-4">{lecture.periods?.join(", ")}</dd>
+
+  <dt class="font-bold">単位数</dt>
+  <dd class="mb-4">{lecture.numberOfCredits}</dd>
+</dl>

@@ -13,7 +13,7 @@ if __name__ == "__main__":
     parser.add_argument("--year", type=int,
                         help="Academic year to process (e.g., 2025)")
     parser.add_argument("--input", required=True,
-                        help="Path to pkl file containing DataFrames")
+                        help="Path to PDF file containing course data")
     args = parser.parse_args()
     if not args.year:
         args.year = int(re.search(r"(\d{4})", args.input).group(1))

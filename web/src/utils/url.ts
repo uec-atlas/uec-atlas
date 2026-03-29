@@ -25,3 +25,13 @@ export const compactUri = (uri: string, withPrefix = true) => {
   }
   return entry ? `${entry[0]}:${uri.slice(entry[1].length)}` : uri;
 };
+
+export const isExternalURL = (url: string) => {
+  try {
+    const parsed = new URL(url);
+    const baseURL = import.meta.env.SITE || "http://localhost:4321";
+    return parsed.origin !== new URL(baseURL).origin;
+  } catch {
+    return true;
+  }
+};

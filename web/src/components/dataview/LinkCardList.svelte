@@ -1,73 +1,99 @@
 <script lang="ts">
-  import Icon from "@/components/Icon.svelte";
-  import { formatI18NString } from "@/utils/rdf";
-  import { expandURI } from "@/utils/url";
-  import type { I18NString } from "generated/common";
-  import { chunk } from "remeda";
+import type { I18NString } from "generated/common";
+import { chunk } from "remeda";
+import Icon from "@/components/Icon.svelte";
+import { formatI18NString } from "@/utils/rdf";
+import { compareStringWithRoman } from "@/utils/string";
+import { expandURI, isExternalURL } from "@/utils/url";
 
-  type TagWithIcon = {
-    label: string;
-    icon: string;
-  };
+type TagWithIcon = {
+  label: string;
+  icon: string;
+};
 
-  interface LinkCardListItem {
-    name?: I18NString;
-    uri: string;
-    tags: (string | TagWithIcon)[];
+interface LinkCardListItem {
+  name?: string | I18NString;
+  uri: string;
+  tags?: (string | TagWithIcon)[];
+}
+
+interface Props {
+  items: LinkCardListItem[];
+  fallbackName?: I18NString;
+  sortByName?: boolean;
+}
+
+const { items, fallbackName, sortByName = true }: Props = $props();
+
+const PAGE_SIZE = 10;
+const MAX_BUTTONS = 7;
+
+let currentPage = $state(0);
+
+const sortedItems = $derived.by(() => {
+  if (!items || items.length === 0) return [];
+  if (!sortByName) return items;
+
+  return [...items].sort((a, b) => {
+    const nameA =
+      formatI18NString(
+        typeof a.name === "string" ? { ja: a.name } : a.name,
+        "ja",
+        fallbackName,
+      ) ?? "";
+
+    const nameB =
+      formatI18NString(
+        typeof b.name === "string" ? { ja: b.name } : b.name,
+        "ja",
+        fallbackName,
+      ) ?? "";
+
+    return compareStringWithRoman(nameA, nameB);
+  });
+});
+
+const pagedItems = $derived(chunk(sortedItems, PAGE_SIZE));
+const totalPages = $derived(pagedItems.length);
+
+$effect(() => {
+  if (sortedItems) {
+    currentPage = 0;
+  }
+});
+
+const displayedPages = $derived.by(() => {
+  if (totalPages <= MAX_BUTTONS) {
+    return Array.from({ length: totalPages }, (_, i) => i);
   }
 
-  interface Props {
-    items: LinkCardListItem[];
-    fallbackName?: I18NString;
+  const boundary = 2;
+
+  if (currentPage <= boundary) {
+    return [0, 1, 2, 3, 4, "...", totalPages - 1];
   }
 
-  const { items, fallbackName }: Props = $props();
-
-  const PAGE_SIZE = 10;
-  const MAX_BUTTONS = 7;
-
-  let currentPage = $state(0);
-
-  const pagedItems = $derived(chunk(items, PAGE_SIZE));
-  const totalPages = $derived(pagedItems.length);
-  const displayedPages = $derived.by(() => {
-    if (totalPages <= MAX_BUTTONS) {
-      return Array.from({ length: totalPages }, (_, i) => i);
-    }
-
-    const boundary = 2;
-
-    if (currentPage <= boundary) {
-      return [0, 1, 2, 3, 4, "...", totalPages - 1];
-    }
-
-    if (currentPage >= totalPages - boundary - 1) {
-      return [
-        0,
-        "...",
-        totalPages - 5,
-        totalPages - 4,
-        totalPages - 3,
-        totalPages - 2,
-        totalPages - 1,
-      ];
-    }
+  if (currentPage >= totalPages - boundary - 1) {
     return [
       0,
       "...",
-      currentPage - 1,
-      currentPage,
-      currentPage + 1,
-      "...",
+      totalPages - 5,
+      totalPages - 4,
+      totalPages - 3,
+      totalPages - 2,
       totalPages - 1,
     ];
-  });
-
-  $effect(() => {
-    if (items) {
-      currentPage = 0;
-    }
-  });
+  }
+  return [
+    0,
+    "...",
+    currentPage - 1,
+    currentPage,
+    currentPage + 1,
+    "...",
+    totalPages - 1,
+  ];
+});
 </script>
 
 <ul class="flex flex-col gap-1">
@@ -76,13 +102,15 @@
       <a
         class="flex flex-row items-center justify-between rounded-md px-3 py-2 hover:bg-base-200 transition-colors border border-base-300 hover:border-primary"
         href={expandURI(item.uri)}
+        target={isExternalURL(item.uri) ? "_blank" : undefined}
+        rel={isExternalURL(item.uri) ? "noopener noreferrer" : undefined}
       >
         <div class="flex flex-col gap-1">
           <p class="flex flex-row gap-2 items-baseline">
             <span class="font-bold">
-              {formatI18NString(item.name, "ja", fallbackName)}
+              {formatI18NString(typeof item.name === "string" ? { ja: item.name } : item.name, "ja", fallbackName)}
             </span>
-            {#each item.tags as tag}
+            {#each item.tags || [] as tag}
               {#if typeof tag === "string"}
                 <span class="d-badge d-badge-primary d-badge-soft d-badge-sm">
                   {tag}
@@ -132,12 +160,17 @@
             {page + 1}
           </button>
         {:else}
-          <button type="button" class="d-join-item d-btn d-btn-sm d-btn-disabled" disabled>
+          <button
+            type="button"
+            class="d-join-item d-btn d-btn-sm d-btn-disabled"
+            disabled
+          >
             ...
           </button>
         {/if}
       {/each}
-      <button type="button"
+      <button
+        type="button"
         class="d-join-item d-btn d-btn-sm"
         disabled={currentPage === totalPages - 1}
         onclick={() => (currentPage += 1)}

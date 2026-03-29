@@ -1,0 +1,11 @@
+---
+interface Props {
+  items: (string | number)[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="list-disc pl-5">
+  {items.map((item) => <li class="leading-6 tracking-wide">{item}</li>)}
+</ul>

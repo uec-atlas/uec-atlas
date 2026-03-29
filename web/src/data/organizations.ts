@@ -3,22 +3,32 @@ import type { Organization } from "generated/organization";
 
 export type RawOrganization = Omit<
   Organization,
-  "hasSubOrganization" | "subOrganizationOf" | "relatedTo" | "manages"
+  | "hasSubOrganization"
+  | "subOrganizationOf"
+  | "relatedTo"
+  | "manages"
+  | "member"
 > & {
   hasSubOrganization?: string[];
   subOrganizationOf?: string[];
   relatedTo?: { type: string; target: string }[];
   manages?: string[];
+  member?: string[];
 };
 
 export type LinkedOrganization = Omit<
   Organization,
-  "hasSubOrganization" | "subOrganizationOf" | "relatedTo" | "manages"
+  | "hasSubOrganization"
+  | "subOrganizationOf"
+  | "relatedTo"
+  | "manages"
+  | "member"
 > & {
   hasSubOrganization: LinkedOrganization[];
   subOrganizationOf: LinkedOrganization[];
   relatedTo: { type: string; target: LinkedOrganization }[];
   manages: LinkedSpatialEntity[];
+  member: LinkedPerson[];
 };
 
 const organizationTypeOrder = [
@@ -50,6 +60,7 @@ export const organizationSorter = (
 };
 
 import { formatI18NString } from "@/utils/rdf";
+import { _peopleMap, type LinkedPerson } from "./people";
 import type { LinkedSpatialEntity } from "./spatial";
 import { _spatialMap } from "./spatial";
 
@@ -62,6 +73,7 @@ const tempMap = new Map<
     subOrganizationOf: Set<string>;
     relatedTo: Map<string, string>;
     manages: Set<string>;
+    member: Set<string>;
   }
 >();
 
@@ -73,6 +85,7 @@ for (const { data } of rawOrganizations) {
       (data.relatedTo ?? []).map((r) => [r.type + r.target, r.type]),
     ),
     manages: new Set(data.manages ?? []),
+    member: new Set(data.member ?? []),
   });
 }
 
@@ -92,6 +105,11 @@ for (const { data } of rawOrganizations) {
       tempMap.get(orgId)?.manages.add(spatial.id);
     }
   }
+  for (const person of _peopleMap.values()) {
+    if (person.memberOf?.some((memberOrgId) => memberOrgId === orgId)) {
+      tempMap.get(orgId)?.member.add(person.id);
+    }
+  }
 }
 
 const baseDataMap = new Map<string, RawOrganization>();
@@ -109,6 +127,7 @@ for (const { data } of rawOrganizations) {
       target: key.slice(type.length),
     })),
     manages: Array.from(temp.manages),
+    member: Array.from(temp.member),
   };
   baseDataMap.set(data.id, raw);
   linkedOrgMap.set(data.id, {
@@ -117,6 +136,7 @@ for (const { data } of rawOrganizations) {
     subOrganizationOf: [],
     relatedTo: [],
     manages: [],
+    member: [],
   });
 }
 

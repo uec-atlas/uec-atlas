@@ -17,6 +17,39 @@ class CodeMapping:
         }
 
 
+suffix_map = {
+    "a": ["uar:organizations/5VDVCRYM"],
+    "b": ["uar:organizations/6BHVGRQD"],
+    "c": ["uar:organizations/6EMQPAAC"],
+    "d": ["uar:organizations/75CN24UH"],
+    "e": ["uar:organizations/7PMAEBVH"],
+
+    "f": ["uar:organizations/CTHKPUEZ"],
+    "g": ["uar:organizations/DX5GN6SU"],
+    "h": ["uar:organizations/FBZBS5JG"],
+    "i": ["uar:organizations/HXSVK2KQ"],
+    "j": ["uar:organizations/IGC4IZMT"],
+
+    "k": ["uar:organizations/M6PLREDB"],
+    "m": ["uar:organizations/MKMLE24S"],
+    "n": ["uar:organizations/NCMQHOOB"],
+    "p": ["uar:organizations/NIBJHDQW"],
+    "r": ["uar:organizations/O757DEDB"],
+
+    "s": ["uar:organizations/OC4WEZCP"],
+    "t": ["uar:organizations/OC4WEZCP"],
+    "z": ["uar:organizations/5TDWVJAF",
+          "uar:organizations/AEFZKYAV",
+          "uar:organizations/LMCZ7FKK"]
+}
+
+
+def resolve_organizations(code: str) -> list[str]:
+    """科目コードの接頭辞に基づいて所属組織を推定する"""
+    suffix = code[-1]
+    return suffix_map.get(suffix, [])
+
+
 @dataclass
 class Course:
     id: str
@@ -38,8 +71,9 @@ class Course:
             "name": {
                 "ja": self.name
             },
-            "credits": self.credits,
-            "codeMappings": [m.to_dict() for m in self.code_mappings]
+            "numberOfCredits": self.credits,
+            "codeMappings": [m.to_dict() for m in self.code_mappings],
+            "organizations": resolve_organizations(self.code_mappings[0].code) if self.code_mappings else []
         }
 
 
@@ -68,7 +102,7 @@ class CourseRegistry:
                 course = Course(
                     id=entry["id"],
                     name=entry["name"]["ja"],
-                    credits=entry["credits"],
+                    credits=entry["numberOfCredits"],
                     code_mappings=[CodeMapping(**m)
                                    for m in entry.get("codeMappings", [])]
                 )

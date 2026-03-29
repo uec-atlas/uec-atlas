@@ -19,7 +19,7 @@ export const allJSONLD = {
   "@id": toFullURL("/resources/people/all"),
   "@type": ["void:Dataset", "hydra:Collection"],
   "void:title": "UEC Atlas - All People",
-  "void:license": "https://creativecommons.org/by/4.0/",
+  "void:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "void:sparqlEndpoint": toFullURL("/sparql"),
   "hydra:totalItems": allPeople.length,
   items: allPeople,

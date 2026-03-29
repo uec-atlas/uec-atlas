@@ -1,13 +1,23 @@
 import { getCollection } from "astro:content";
 import type { Person } from "generated/education";
-import {
-  _linkedOrganizationMap,
-  type LinkedOrganization,
-} from "./organizations";
+import { compareStringWithRoman } from "@/utils/string";
+import type { LinkedOrganization } from "./organizations";
 
 const rawPeople = await getCollection("people");
 
-const people: Person[] = rawPeople.flatMap((entry) => entry.data);
+const people: Person[] = rawPeople
+  .flatMap((entry) => entry.data)
+  .toSorted((a, b) => {
+    const nameJa = a.name.ja ?? a.name.en ?? "";
+    const nameEn = a.name.en ?? a.name.ja ?? "";
+    const nameJaB = b.name.ja ?? b.name.en ?? "";
+    const nameEnB = b.name.en ?? b.name.ja ?? "";
+
+    return (
+      compareStringWithRoman(nameJa, nameJaB) ||
+      compareStringWithRoman(nameEn, nameEnB)
+    );
+  });
 const _peopleMap = new Map(people.map((person) => [person.id, person]));
 
 type LinkedPerson = Omit<Person, "memberOf"> & {
@@ -16,16 +26,4 @@ type LinkedPerson = Omit<Person, "memberOf"> & {
 
 const _linkedPeopleMap: Map<string, LinkedPerson> = new Map();
 
-for (const person of people) {
-  const linkedMemberOf: LinkedOrganization[] = [];
-  for (const orgId of person.memberOf ?? []) {
-    const linkedOrg = _linkedOrganizationMap.get(orgId);
-    if (linkedOrg) linkedMemberOf.push(linkedOrg);
-  }
-  _linkedPeopleMap.set(person.id, {
-    ...person,
-    memberOf: linkedMemberOf,
-  });
-}
-
-export { people, _peopleMap, _linkedPeopleMap, type LinkedPerson };
+export { _linkedPeopleMap, _peopleMap, people, type LinkedPerson, type Person };

@@ -15,10 +15,12 @@ class Lecture:
     term: str
     periods: list[str]
     credits: int
+    timetable_code: str
 
     def to_dict(self) -> dict:
         return {
             "id": self.id,
+            "timeTableCode": self.timetable_code,
             "name": {
                 "ja": utils.normalize_string(self.name),
                 "en": utils.normalize_string(self.name_en)
@@ -27,7 +29,7 @@ class Lecture:
             "sourceUrl": self.source_url,
             "courses": self.courses,
             "instructors": sorted(self.instructors),
-            "credits": self.credits,
+            "numberOfCredits": self.credits,
             "term": utils.normalize_string(self.term),
             "periods": [utils.normalize_string(period) for period in self.periods]
         }

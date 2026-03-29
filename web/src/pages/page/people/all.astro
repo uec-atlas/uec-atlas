@@ -1,26 +1,25 @@
 ---
 import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
 import DataViewComponent from "@/components/dataview/DataView.astro";
-import { allSpatialDataView } from "@/components/dataview/definitions/spatial";
+import { allPeopleDataView } from "@/components/dataview/definitions/people";
 import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
-import SpatialPreviewMap from "@/components/dataview/SpatialPreviewMap.astro";
 import Heading1 from "@/components/Heading1.astro";
 import Heading2 from "@/components/Heading2.astro";
 import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
-import { allJSONLD } from "@/pages/data/spatial/all";
+import { allJSONLD } from "@/pages/data/people/all";
 import { expandURI } from "@/utils/url";
 
 export const prerender = true;
 
-const currentId = `uar:spatial/all`;
+const currentId = `uar:people/all`;
 const fullURL = expandURI(currentId);
 
 const breadcrumbItems = [
   { label: "Home", href: "/page/", icon: "mdi:home" },
   {
-    label: "Spatial",
-    href: "/page/spatial/",
-    icon: "mdi:map",
+    label: "People",
+    href: "/page/people/",
+    icon: "mdi:account",
   },
   {
     label: "all",
@@ -28,16 +27,19 @@ const breadcrumbItems = [
 ];
 ---
 
-<DataRepositoryLayout title="すべての地物">
+<DataRepositoryLayout title="すべての人物">
   <CardBreadcrumb items={breadcrumbItems} />
+  <Heading1>すべての人物</Heading1>
 
-  <Heading1>すべての地物</Heading1>
-  <DataViewComponent value={allJSONLD} items={allSpatialDataView} />
+  <DataViewComponent
+    value={{ people: allJSONLD.items }}
+    items={allPeopleDataView}
+  />
 
   <Heading2>JSON-LD</Heading2>
   <JSONLDPreview
     code={JSON.stringify(allJSONLD, null, 2)}
-    ontology="spatial"
+    ontology="people"
     fullURL={fullURL}
   />
 </DataRepositoryLayout>

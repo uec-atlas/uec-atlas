@@ -1,16 +1,17 @@
 ---
-import { getOntology } from "@/pages/ontology/[path].ttl";
-import { getJsonLdTransformers } from "@/utils/jsonld-transformer";
 import { Code } from "astro:components";
 import Icon from "@/components/Icon.svelte";
+import { getOntology } from "@/pages/ontology/[path].ttl";
+import { getJsonLdTransformers } from "@/utils/jsonld-transformer";
 
 type CodeProps = Parameters<typeof Code>[0];
 interface Props extends CodeProps {
   fullURL: string;
   ontology: string;
+  noCodeBlock?: boolean;
 }
 
-const { fullURL } = Astro.props;
+const { fullURL, noCodeBlock } = Astro.props;
 const ontology = await getOntology(Astro.props.ontology);
 const transformers = await getJsonLdTransformers(
   Astro.props.code,
@@ -36,15 +37,19 @@ const transformers = await getJsonLdTransformers(
     </a>
   </div>
 
-  <div class="d-mockup-code">
-    <Code
-      class="bg-transparent! pl-6 pr-4 before:hidden max-h-80 overflow-y-auto"
-      lang="json"
-      theme="github-dark-dimmed"
-      {...Astro.props}
-      transformers={[...(Astro.props.transformers ?? []), ...transformers]}
-    />
-  </div>
+  {
+    !noCodeBlock && (
+      <div class="d-mockup-code">
+        <Code
+          class="bg-transparent! pl-6 pr-4 before:hidden max-h-80 overflow-y-auto"
+          lang="json"
+          theme="github-dark-dimmed"
+          {...Astro.props}
+          transformers={[...(Astro.props.transformers ?? []), ...transformers]}
+        />
+      </div>
+    )
+  }
 </div>
 
 <style is:global>

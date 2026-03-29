@@ -67,8 +67,8 @@ def apply_corrections_for_row(corrections: list[dict], year: int, code: str, nam
                 out_code = replace["code"]
             if "name" in replace:
                 out_name = replace["name"]
-            if "credits" in replace:
-                out_credits = replace["credits"]
+            if "numberOfCredits" in replace:
+                out_credits = replace["numberOfCredits"]
     return out_code, out_name, out_credits
 
 

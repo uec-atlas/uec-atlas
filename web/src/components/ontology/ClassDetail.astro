@@ -1,6 +1,7 @@
 ---
 import { type LinkedOntologyClass, ontologyClassMap } from "@/data/ontology";
 import Heading2 from "@/components/Heading2.astro";
+import { compareStringWithRoman } from "@/utils/string";
 
 interface Props {
   item: LinkedOntologyClass;
@@ -87,7 +88,7 @@ const { item } = Astro.props;
               const aInherited = !!a.inherited_from;
               const bInherited = !!b.inherited_from;
               if (aInherited !== bInherited) return aInherited ? 1 : -1;
-              return a.name.localeCompare(b.name);
+              return compareStringWithRoman(a.name, b.name);
             })
             .map((slot) => (
               <tr>

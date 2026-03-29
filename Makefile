@@ -7,7 +7,6 @@ JSONLD_FRAME_TARGETS = $(patsubst $(SCHEMA_DIR)/%.yaml, $(GEN_DIR)/%.frame.jsonl
 JSON_SCHEMA_TARGETS = $(patsubst $(SCHEMA_DIR)/%.yaml, $(GEN_DIR)/%.schema.json, $(SOURCES))
 OWL_TARGETS = $(patsubst $(SCHEMA_DIR)/%.yaml, $(GEN_DIR)/%.ttl, $(SOURCES))
 TS_TARGETS = $(patsubst $(SCHEMA_DIR)/%.yaml, $(TS_GEN_DIR)/%.ts, $(SOURCES))
-GRAPHQL_TARGETS = $(patsubst $(SCHEMA_DIR)/%.yaml, $(GEN_DIR)/%.graphql, $(SOURCES))
 ONTOLOGY_MAP_TARGET = $(GEN_DIR)/ontology_map.json
 ONTOLOGY_DOCS_TARGET = $(TS_GEN_DIR)/ontology_docs.json
 
@@ -20,7 +19,7 @@ GEN_ONTOLOGY_DOCS = python3 scripts/gen_ontology_docs.py
 
 .PHONY: all clean setup
 
-all: $(JSONLD_CONTEXT_TARGETS) $(JSONLD_FRAME_TARGETS) $(JSON_SCHEMA_TARGETS) $(OWL_TARGETS) $(TS_TARGETS) $(GRAPHQL_TARGETS) $(ONTOLOGY_MAP_TARGET) $(ONTOLOGY_DOCS_TARGET)
+all: $(JSONLD_CONTEXT_TARGETS) $(JSONLD_FRAME_TARGETS) $(JSON_SCHEMA_TARGETS) $(OWL_TARGETS) $(TS_TARGETS) $(ONTOLOGY_MAP_TARGET) $(ONTOLOGY_DOCS_TARGET)
 
 setup:
 	python3 -m venv .venv
@@ -56,11 +55,6 @@ $(GEN_DIR)/%.ttl: $(SCHEMA_DIR)/%.yaml
 $(TS_GEN_DIR)/%.ts: $(SCHEMA_DIR)/%.yaml
 	@mkdir -p $(TS_GEN_DIR)
 	@$(GEN_TYPESCRIPT) $< > $@
-
-# schema/*.yaml -> generated/*.graphql
-$(GEN_DIR)/%.graphql: $(SCHEMA_DIR)/%.yaml
-	@mkdir -p $(GEN_DIR)
-	gen-graphql $< > $@
 
 $(GEN_DIR)/ontology_map.json: $(SCHEMA_DIR)
 	@mkdir -p $(GEN_DIR)

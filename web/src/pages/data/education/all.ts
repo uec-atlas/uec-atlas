@@ -1,20 +1,8 @@
 import type { APIRoute } from "astro";
-import {
-  courseCategoryMap,
-  courseMap,
-  curriculumMap,
-  lectureMap,
-} from "@/data";
+import { educationMap } from "@/data";
 import { toFullURL } from "@/utils/url";
 
 export const prerender = true;
-
-const allEducation = [
-  ...courseMap.values(),
-  ...courseCategoryMap.values(),
-  ...curriculumMap.values(),
-  ...lectureMap.values(),
-];
 
 export const allJSONLD = {
   "@context": [
@@ -29,10 +17,10 @@ export const allJSONLD = {
   "@id": toFullURL("/resources/education/all"),
   "@type": ["void:Dataset", "hydra:Collection"],
   "void:title": "UEC Atlas - All Education Data",
-  "void:license": "https://creativecommons.org/by/4.0/",
+  "void:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "void:sparqlEndpoint": toFullURL("/sparql"),
-  "hydra:totalItems": allEducation.length,
-  items: allEducation,
+  "hydra:totalItems": educationMap.size,
+  items: Array.from(educationMap.values()),
 };
 
 export const GET: APIRoute = async () => {

@@ -9,6 +9,7 @@ import type {
 import { toOrdinal } from "@/utils/number";
 import { formatI18NString } from "@/utils/rdf";
 import type { LinkedOrganization } from "./organizations";
+import { compareStringWithRoman } from "@/utils/string";
 
 export type RawSpatialProperties = Omit<
   SpatialProperties,
@@ -114,7 +115,7 @@ export const spatialEntitySorter = (
 
   const nameA = formatI18NString(a.properties.name, "ja");
   const nameB = formatI18NString(b.properties.name, "ja");
-  return nameA.localeCompare(nameB, "ja", { numeric: true });
+  return compareStringWithRoman(nameA, nameB);
 };
 
 const rawSpatial = await getCollection("spatial");

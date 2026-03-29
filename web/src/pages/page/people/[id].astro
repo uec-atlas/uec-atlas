@@ -1,0 +1,65 @@
+---
+import { defineIcons } from "icon-plugin";
+import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
+import { personDataView } from "@/components/dataview/definitions/people";
+import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
+import Heading1 from "@/components/Heading1.astro";
+import Heading2 from "@/components/Heading2.astro";
+import { linkedPeopleMap, peopleMap } from "@/data";
+import { type LinkedPerson } from "@/data/people";
+import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
+import { peopleJsonLdMap } from "@/pages/data/people/[id]";
+import { formatI18NString } from "@/utils/rdf";
+import { expandURI } from "@/utils/url";
+
+export const prerender = true;
+
+export const getStaticPaths = async () => {
+  return Array.from(peopleMap.keys()).map((id) => ({
+    params: { id: id.replace("uar:people/", "") },
+  }));
+};
+
+const { id } = Astro.params;
+
+const currentId = `uar:people/${id}`;
+const fullURL = expandURI(currentId);
+
+const person = linkedPeopleMap.get(currentId);
+const personJsonLD = peopleJsonLdMap.get(currentId);
+if (!person || !personJsonLD) {
+  throw new Error("Person not found");
+}
+
+const breadcrumbItems = [
+  { label: "Home", href: "/page/", icon: "mdi:home" },
+  {
+    label: "People",
+    href: "/page/people/",
+    icon: "mdi:account",
+  },
+  {
+    label: formatI18NString(person.name),
+  },
+];
+---
+
+<DataRepositoryLayout title={formatI18NString(person.name, "ja", "無名の組織")}>
+  <CardBreadcrumb items={breadcrumbItems} />
+  <Heading1>
+    <span slot="subtitle"
+      >{formatI18NString(person.name, "en", "Unnamed People")}</span
+    >
+    <span>{formatI18NString(person.name, "ja", "無名の組織")}</span>
+  </Heading1>
+
+  <DataViewComponent value={person} items={personDataView} />
+
+  <Heading2>JSON-LD</Heading2>
+  <JSONLDPreview
+    code={JSON.stringify(personJsonLD, null, 2)}
+    ontology="people"
+    fullURL={fullURL}
+  />
+</DataRepositoryLayout>

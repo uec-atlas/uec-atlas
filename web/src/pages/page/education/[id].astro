@@ -1,0 +1,108 @@
+---
+import CardBreadcrumb from "@/components/CardBreadcrumb.astro";
+import DataViewComponent from "@/components/dataview/DataView.astro";
+import {
+  courseCategoryDataView,
+  courseDataView,
+  curriculumEntryDataView,
+  lectureDataView,
+} from "@/components/dataview/definitions/education";
+import JSONLDPreview from "@/components/dataview/JSONLDPreview.astro";
+import Heading1 from "@/components/Heading1.astro";
+import Heading2 from "@/components/Heading2.astro";
+import Icon from "@/components/Icon.svelte";
+import {
+  courseCategoryMap,
+  courseMap,
+  curriculumMap,
+  educationMap,
+  lectureMap,
+  linkedCourseMap,
+  linkedEducationMap,
+  linkedLectureMap,
+} from "@/data";
+import DataRepositoryLayout from "@/layouts/DataRepositoryLayout.astro";
+import { educationJsonLdMap } from "@/pages/data/education/[id]";
+import { formatI18NString } from "@/utils/rdf";
+import { expandURI } from "@/utils/url";
+
+export const prerender = true;
+
+export const getStaticPaths = async () => {
+  const dataViewMap = [
+    [linkedCourseMap, courseDataView],
+    [courseCategoryMap, courseCategoryDataView],
+    [curriculumMap, curriculumEntryDataView],
+    [linkedLectureMap, lectureDataView],
+  ] as const;
+
+  return dataViewMap.flatMap(([map, dataView]) =>
+    Array.from(map.keys()).map((id) => ({
+      params: {
+        id: id.replace("uar:education/", ""),
+      },
+      props: {
+        dataView,
+      },
+    })),
+  );
+};
+
+const { id } = Astro.params;
+const { dataView } = Astro.props;
+
+const currentId = `uar:education/${id}`;
+const fullURL = expandURI(currentId);
+
+const education = linkedEducationMap.get(currentId);
+const educationJsonLD = educationJsonLdMap.get(currentId);
+if (!education || !educationJsonLD) {
+  throw new Error("Education not found");
+}
+
+const breadcrumbItems = [
+  { label: "Home", href: "/page/", icon: "mdi:home" },
+  {
+    label: "Education",
+    href: "/page/education/",
+    icon: "material-symbols:menu-book",
+  },
+  {
+    label: formatI18NString(education.name),
+    // @ts-expect-error 型が合ってない
+    tag: education.type,
+  },
+];
+---
+
+<DataRepositoryLayout
+  title={formatI18NString(education.name, "ja", "無名の教育系データ")}
+>
+  <CardBreadcrumb items={breadcrumbItems} />
+  <Heading1>
+    <span slot="subtitle"
+      >{
+        formatI18NString(education.name, "en", "Unnamed Educational Data")
+      }</span
+    >
+    <span>{formatI18NString(education.name, "ja", "無名の教育系データ")}</span>
+  </Heading1>
+
+  <div role="alert" class="d-alert d-alert-warning mb-4">
+    <Icon name="mdi:alert" class="w-6 h-6 shrink-0" />
+    <span
+      >本ページはデータの閲覧・構造確認を目的としています。
+      履修にあたっては、必ず大学公式の学修要覧およびシラバスをご確認ください。</span
+    >
+  </div>
+
+  <!-- @ts-expect-error 型が合ってない -->
+  <DataViewComponent value={education} items={dataView} />
+
+  <Heading2>JSON-LD</Heading2>
+  <JSONLDPreview
+    code={JSON.stringify(educationJsonLD, null, 2)}
+    ontology="education"
+    fullURL={fullURL}
+  />
+</DataRepositoryLayout>

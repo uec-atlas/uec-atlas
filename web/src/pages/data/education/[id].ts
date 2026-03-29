@@ -1,50 +1,21 @@
 import type { APIRoute } from "astro";
 import type { JsonLdObj } from "jsonld/jsonld-spec";
-import {
-  courseCategoryMap,
-  courseMap,
-  curriculumMap,
-  lectureMap,
-} from "@/data";
+import { educationMap } from "@/data";
 import { toFullURL } from "@/utils/url";
 
 export const prerender = true;
 
-const educationJsonLdMap = new Map<string, JsonLdObj>();
+export const educationJsonLdMap = new Map<string, JsonLdObj>();
 
 const contextUrl = toFullURL("/schema/education.context.jsonld");
 const datasetUrl = toFullURL("/resources/education");
 
-for (const [id, entity] of courseMap) {
+for (const [id, entry] of educationMap.entries()) {
   // @ts-expect-error 型が合ってない
   educationJsonLdMap.set(id, {
     "@context": contextUrl,
     "void:inDataset": datasetUrl,
-    ...entity,
-  });
-}
-
-for (const [id, entity] of courseCategoryMap) {
-  educationJsonLdMap.set(id, {
-    "@context": contextUrl,
-    "void:inDataset": datasetUrl,
-    ...entity,
-  });
-}
-
-for (const [id, entity] of curriculumMap) {
-  educationJsonLdMap.set(id, {
-    "@context": contextUrl,
-    "void:inDataset": datasetUrl,
-    ...entity,
-  });
-}
-
-for (const [id, entity] of lectureMap) {
-  educationJsonLdMap.set(id, {
-    "@context": contextUrl,
-    "void:inDataset": datasetUrl,
-    ...entity,
+    ...entry,
   });
 }
 

@@ -1,0 +1,10 @@
+---
+interface Props {
+  // biome-ignore lint/suspicious/noExplicitAny: そのまま表示するだけ
+  value: any;
+}
+
+const { value } = Astro.props;
+---
+
+<p class="leading-6 tracking-wide">{value}</p>

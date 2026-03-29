@@ -24,14 +24,17 @@ classes:
   Course:
     is_a: NamedThingWithId
     description: "科目"
+    mixins:
+      - SchemaCourse
     slots:
-      - requiresCourse
+      - requiresCourses
       - requiredBy
+      - courseLecture
     slot_usage:
       id:
         pattern: "^uar:education/"
     attributes:
-      credits:
+      numberOfCredits:
         description: "単位数"
         range: integer
       succeededBy:
@@ -53,6 +56,8 @@ classes:
         range: OrganizationBase
         multivalued: true
         slot_uri: uao:organization
+  SchemaCourse:
+    class_uri: schema:Course
 
   CodeMapping:
     attributes:
@@ -83,8 +88,10 @@ classes:
         range: Course
 
   Lecture:
-    is_a: NamedThingWithId
+    is_a: LectureBase
     description: "開講情報"
+    slots:
+      - lectureCourse
     slot_usage:
       id:
         pattern: "^uar:education/"
@@ -97,17 +104,11 @@ classes:
         description: "シラバスデータの参照元URL"
         range: string
         slot_uri: schema:url
-      courses:
-        description: "対応する学修要覧上の科目"
-        range: Course
-        required: true
-        multivalued: true
-        slot_uri: uao:course
       instructors:
         description: "担当教員"
         range: Person
         multivalued: true
-        slot_uri: uao:instructor
+        slot_uri: schema:instructor
       term:
         description: "開講学期"
         range: string
@@ -116,9 +117,13 @@ classes:
         range: string
         multivalued: true
         slot_uri: uao:period
-      credits:
+      timeTableCode:
+        description: "時間割コード"
+        range: string
+      numberOfCredits:
         description: "シラバスに記載の単位数"
         range: integer
+        slot_uri: schema:numberOfCredits
 
   CurriculumEntry:
     is_a: NamedThingWithId
@@ -214,7 +219,7 @@ slots:
     multivalued: true
     annotations:
       jsonld_container: "@set"
-  requiresCourse:
+  requiresCourses:
     description: "この科目の履修の直接的・間接的な要件となる科目"
     slot_uri: uao:requiresCourse
     domain: Course
@@ -229,4 +234,20 @@ slots:
     range: Course
     multivalued: true
     transitive: true
-    inverse: requiresCourse
+    inverse: requiresCourses
+  lectureCourse:
+    description: "対応する学修要覧上の科目"
+    alias: courses
+    slot_uri: uao:course
+    multivalued: true
+    domain: Lecture
+    range: Course
+    inverse: courseLecture
+  courseLecture:
+    description: "対応する開講情報"
+    alias: lectures
+    slot_uri: uao:course
+    multivalued: true
+    domain: Course
+    range: Lecture
+    inverse: lectureCourse

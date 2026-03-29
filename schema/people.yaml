@@ -14,18 +14,22 @@ default_prefix: uao
 
 classes:
   Person:
-    is_a: NamedThingWithId
+    is_a: PersonBase
     description: "人"
+    slots:
+      - memberOf
     slot_usage:
       id:
         pattern: "^uar:people/"
+      name:
+        mixins:
+          - foafName
     attributes:
-      memberOf:
-        description: "所属組織"
-        range: OrganizationBase
-        multivalued: true
-        slot_uri: schema:memberOf
       isBasedOn:
         description: "情報源"
         range: uriorcurie
         slot_uri: schema:isBasedOn
+
+slots:
+  foafName:
+    slot_uri: foaf:name

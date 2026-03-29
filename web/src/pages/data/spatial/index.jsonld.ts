@@ -12,7 +12,7 @@ export const GET: APIRoute = async () => {
     "@id": toFullURL("/resources/spatial"),
     "@type": ["void:Dataset", "hydra:Collection"],
     "void:title": "UEC Atlas - Spatial Data",
-    "void:license": "https://creativecommons.org/by/4.0/",
+    "void:license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "void:sparqlEndpoint": toFullURL("/sparql"),
     "void:dataDump": {
       "@id": toFullURL("/resources/spatial/all"),
