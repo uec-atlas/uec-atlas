@@ -12,9 +12,9 @@ prefixes:
   hydra: http://www.w3.org/ns/hydra/core#
   void: http://rdfs.org/ns/void#
   schema: http://schema.org/
-  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.org/ontology/
+  uar: https://uec-atlas.org/resources/
+  uas: https://uec-atlas.org/schema/
 
 imports:
   - linkml:types

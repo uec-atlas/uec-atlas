@@ -101,7 +101,7 @@ export const jsonLdToNQuads = async (
     }
   }
 
-  const uarPrefix = "https://uec-atlas.e-chan1007.workers.dev/resources/";
+  const uarPrefix = "https://uec-atlas.org/resources/";
   const tempPrefix = expandURI("uao:_");
 
   const uarPrefixStr = uarPrefix.toString();

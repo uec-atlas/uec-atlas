@@ -3,9 +3,9 @@ name: uec_atlas_spatial
 title: "UEC Atlas Spatial and Building Ontology"
 
 prefixes:
-  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.org/ontology/
+  uar: https://uec-atlas.org/resources/
+  uas: https://uec-atlas.org/schema/
   bot: https://w3id.org/bot#
   geo: http://www.opengis.net/ont/geosparql#
   hydra: http://www.w3.org/ns/hydra/core#

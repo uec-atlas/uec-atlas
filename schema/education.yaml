@@ -3,9 +3,9 @@ name: uec_atlas_education
 title: "UEC Atlas Education Ontology"
 
 prefixes:
-  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.org/ontology/
+  uar: https://uec-atlas.org/resources/
+  uas: https://uec-atlas.org/schema/
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   xsd: http://www.w3.org/2001/XMLSchema#

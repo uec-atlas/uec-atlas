@@ -3,9 +3,9 @@ name: uec_atlas_education_course_collection
 title: "UEC Atlas Education Ontology (Course Collection)"
 
 prefixes:
-  uao: https://uec-atlas.e-chan1007.workers.dev/ontology/
-  uar: https://uec-atlas.e-chan1007.workers.dev/resources/
-  uas: https://uec-atlas.e-chan1007.workers.dev/schema/
+  uao: https://uec-atlas.org/ontology/
+  uar: https://uec-atlas.org/resources/
+  uas: https://uec-atlas.org/schema/
 
 imports:
   - education
