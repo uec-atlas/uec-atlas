@@ -6,10 +6,14 @@ import "@/assets/app.css";
 interface Props {
   class?: string;
   title?: string;
+  description?: string;
 }
 
-const { title, class: className } = Astro.props;
+const { title, description, class: className } = Astro.props;
 const pageTitle = title ? `${title} | UEC Atlas` : "UEC Atlas";
+const pageDescription =
+  description ||
+  "UEC Atlas は、 電気通信大学のデータを構造化・整理し、誰もが利用できるようにする Linked Open Data プロジェクトです。";
 ---
 
 <html lang="ja">
@@ -18,10 +22,11 @@ const pageTitle = title ? `${title} | UEC Atlas` : "UEC Atlas";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
-    <meta
-      name="description"
-      content="UEC Atlas は、電気通信大学のデータを構造化・整理し、誰もが利用できるようにする Linked Open Data プロジェクトです。セマンティックWeb技術を活用してデータの相互運用性と再利用性を高め、データの利活用を促進します。"
-    />
+    <meta name="description" content={pageDescription} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:image" content={new URL("/ogp.png", Astro.site).href} />
+    <meta property="twitter:card" content="summary_large_image" />
   </head>
   <body class={className}>
     <slot />
