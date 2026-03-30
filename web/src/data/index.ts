@@ -21,19 +21,38 @@ import {
 import { _linkedPeopleMap, _peopleMap, type LinkedPerson } from "./people";
 import { _linkedSpatialMap, _spatialMap } from "./spatial";
 
+const linkOrganizationAndSpatial = (orgId: string, spatialId: string) => {
+  const org = _organizationMap.get(orgId);
+  const linkedOrg = _linkedOrganizationMap.get(orgId);
+  const spatial = _spatialMap.get(spatialId);
+  const linkedSpatial = _linkedSpatialMap.get(spatialId);
+  if (!org || !linkedOrg || !spatial || !linkedSpatial) return;
+
+  org.manages ??= [];
+  if (!org.manages.includes(spatial.id)) org.manages.push(spatial.id);
+
+  spatial.properties.managedBy ??= [];
+  if (!spatial.properties.managedBy.includes(org.id)) {
+    spatial.properties.managedBy.push(org.id);
+  }
+
+  if (!linkedOrg.manages.includes(linkedSpatial)) {
+    linkedOrg.manages.push(linkedSpatial);
+  }
+  if (!linkedSpatial.properties.managedBy.includes(linkedOrg)) {
+    linkedSpatial.properties.managedBy.push(linkedOrg);
+  }
+};
+
 for (const spatial of _spatialMap.values()) {
-  const linkedSpatial = _linkedSpatialMap.get(spatial.id);
-  if (!linkedSpatial) continue;
   for (const orgId of spatial.properties.managedBy ?? []) {
-    const org = _organizationMap.get(orgId);
-    const linkedOrg = _linkedOrganizationMap.get(orgId);
-    if (!org || !linkedOrg) continue;
-    org.manages ??= [];
-    if (!org.manages.includes(spatial.id)) org.manages.push(spatial.id);
-    if (!linkedOrg.manages.includes(linkedSpatial))
-      linkedOrg.manages.push(linkedSpatial);
-    if (!linkedSpatial.properties.managedBy.includes(linkedOrg))
-      linkedSpatial.properties.managedBy.push(linkedOrg);
+    linkOrganizationAndSpatial(orgId, spatial.id);
+  }
+}
+
+for (const org of _organizationMap.values()) {
+  for (const spatialId of org.manages ?? []) {
+    linkOrganizationAndSpatial(org.id, spatialId);
   }
 }
 
