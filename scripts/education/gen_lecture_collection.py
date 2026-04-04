@@ -2,6 +2,7 @@ import asyncio
 from collections import defaultdict
 from functools import cache
 import json
+import os
 import re
 
 from .. import utils
@@ -86,12 +87,13 @@ if __name__ == "__main__":
     code_course_id_mapping: dict[str, str] = {}  # 科目コード -> 科目ID
     course_id_code_mapping: dict[str, list[str]
                                  ] = defaultdict(list)  # 科目ID -> 科目コードリスト
+
     with open(course_file, "r", encoding="utf-8") as f:
         course_data = json.load(f)
         course_lookup = {c["id"]: c for c in course_data["entries"]}
         for course in course_data["entries"]:
             for code_mapping in course.get("codeMappings", []):
-                if year in code_mapping["years"]:
+                if year in code_mapping["years"] or year:
                     code_course_id_mapping[code_mapping["code"]] = course["id"]
                     course_id_code_mapping[course["id"]].append(
                         code_mapping["code"])
@@ -110,7 +112,8 @@ if __name__ == "__main__":
                 person.id for person in resolved_instructors.get(syllabus, [])],
             credits=syllabus.credits,
             term=syllabus.term,
-            periods=syllabus.periods.split(",") if syllabus.periods else []
+            periods=syllabus.periods.split(",") if syllabus.periods else [],
+            timetable_code=syllabus.timetable_code
         )
 
         if syllabus.numbering_codes:
@@ -121,8 +124,10 @@ if __name__ == "__main__":
                     f"Warning: Invalid numbering code format '{syllabus.numbering_codes}' for syllabus {syllabus.name}")
                 continue
             for code in codes:
-                lecture.courses.append(code_course_id_mapping.get(code))
-        else:
+                course_id = code_course_id_mapping.get(code)
+                if course_id:
+                    lecture.courses.append(course_id)
+        if not lecture.courses:
             candidates = search_course(
                 list(course_lookup.values()), segment_lecture_name(syllabus.name))
 
@@ -155,5 +160,6 @@ if __name__ == "__main__":
 
         lecture_collection["entries"].append(lecture.to_dict())
 
+    os.makedirs(f"data/education/lectures/{year}", exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(lecture_collection, f, ensure_ascii=False, indent=2)

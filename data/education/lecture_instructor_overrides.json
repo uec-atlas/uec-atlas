@@ -63,5 +63,40 @@
     "title": "基礎化学実験",
     "name": "池田",
     "override": "uar:people/7PUXHU3M"
+  },
+  {
+    "title": "Innovative and Global Leadership Skills（IGLS）",
+    "name": "Shi",
+    "override": "uar:people/7QUA3UU2"
+  },
+  {
+    "title": "基礎科学実験",
+    "name": "大石",
+    "override": "uar:people/65BHQF6C"
+  },
+  {
+    "title": "キャリア",
+    "name": "山田",
+    "override": "uar:people/STSERQVC"
+  },
+  {
+    "title": "教職|教育|指導",
+    "name": "橋本",
+    "override": "uar:people/7KS6AYQE"
+  },
+  {
+    "title": "理工学基礎実験",
+    "name": "野",
+    "override": "uar:people/BMJZUMU5"
+  },
+  {
+    "title": "理工学基礎実験",
+    "name": "坂井",
+    "override": "uar:people/2ZABZD76"
+  },
+  {
+    "title": "English",
+    "name": "Kobayashi-Cuyakimi Estela",
+    "override": "uar:people/KPKIACPZ"
   }
 ]

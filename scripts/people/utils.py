@@ -7,7 +7,9 @@ KANJI_VARIANT_TRANSLATION = str.maketrans({
     "髙": "高",
     "邉": "辺",
     "邊": "辺",
-    "﨑": "崎"
+    "﨑": "崎",
+    "𠮷": "吉",
+    "萓": "萱",
 })
 
 

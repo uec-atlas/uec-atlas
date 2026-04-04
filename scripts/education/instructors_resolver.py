@@ -78,7 +78,7 @@ class InstructorName:
 
     def __post_init__(self):
         self.normalized = re.sub(
-            r"\(.{2,}\)", "", utils.normalize_instructor_name(self.original))
+            r"\(.{2,}?\)", "", utils.normalize_instructor_name(self.original))
         self.segments = re.sub(r"\(.+?\)?", "", self.normalized).split(" ")
         given_name_fragment_match = re.search(
             r"\((.{1})\)?", self.normalized)
@@ -99,7 +99,12 @@ class InstructorName:
 
 @cache
 def split_instructor_name(name: str) -> list[InstructorName]:
-    return [InstructorName(n.strip()) for n in re.split(r"[・、]", name) if n.strip()]
+    name = name.replace(")", ")・")
+    names = [InstructorName(n.strip())
+             for n in re.split(r"[・、]", name) if n.strip()]
+    names = [n for n in names if n.normalized and n.normalized !=
+             "未定" and len(n.normalized) > 0]
+    return names
 
 
 @cache
@@ -147,19 +152,22 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
             del unresolved_courses[course.timetable_code]
             continue
         for instructor_name in course_instructor_names[course.timetable_code]:
+            # (1) もし上書き指定があれば、それを最優先して採用
+            for pattern, instructors in instructor_overrides.items():
+                if re.search(pattern, course.name):
+                    override = instructors.get(instructor_name.normalized)
+                    if override:
+                        resolved_instructors[course.timetable_code][instructor_name] = override
+                        break
+            if instructor_name in resolved_instructors[course.timetable_code]:
+                continue
+
             if is_fullname(instructor_name):
-                # (1) 完全一致で検索
+                # (2) 完全一致で検索
                 result = candidates_full.get(instructor_name)
                 if result:
                     resolved_instructors[course.timetable_code][instructor_name] = result
                     continue
-                # (2) 完全一致しないけどフルネームっぽい場合は、そのまま仮の担当教員として登録
-                resolved_instructors[course.timetable_code][instructor_name] = Person(
-                    id=None,
-                    name=instructor_name.normalized,
-                    member_of=[]
-                )
-                continue
 
             # (3) 名前の前に「*」がついている場合は、教育研究技師部のリストから前方一致で検索
             if instructor_name.original.startswith(TECH_STAFF_PREFIX):
@@ -172,13 +180,14 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
                     resolved_instructors[course.timetable_code][instructor_name] = result
                     continue
 
-            # (4) もし上書き指定があれば、それを優先して採用
-            for pattern, instructors in instructor_overrides.items():
-                if re.search(pattern, course.name):
-                    override = instructors.get(instructor_name.normalized)
-                    if override:
-                        resolved_instructors[course.timetable_code][instructor_name] = override
-                        continue
+            # (4) 完全一致しないけどフルネームっぽい場合は、そのまま仮の担当教員として登録
+            if is_fullname(instructor_name):
+                resolved_instructors[course.timetable_code][instructor_name] = Person(
+                    id=None,
+                    name=instructor_name.normalized,
+                    member_of=[]
+                )
+                continue
 
         if len(resolved_instructors[course.timetable_code]) == len(course_instructor_names[course.timetable_code]):
             del unresolved_courses[course.timetable_code]
@@ -247,7 +256,10 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
                                                candidate.canonical_key.value)
 
                             # 非常勤/常勤の一致もスコアに加算
-                            total_score += 1 if candidate.is_part_time == is_part_time else 0
+                            total_score += 2 if candidate.is_part_time == is_part_time else 0
+
+                            # 教育研究技師部でない人にスコアを加算
+                            total_score += 1 if candidate not in candidates_tech_staff.values() else 0
 
                             if total_score > max_score:
                                 max_score = total_score

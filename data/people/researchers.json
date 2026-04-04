@@ -4427,5 +4427,18 @@
       "uar:organizations/WTCNUI6Z"
     ],
     "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/292"
+  },
+  {
+    "id": "uar:people/6XVNNVW7",
+    "name": {
+      "ja": "新𠮷 直樹",
+      "en": "Shinyoshi Naoki"
+    },
+    "alternateNames": {},
+    "memberOf": [
+      "uar:organizations/LMCZ7FKK",
+      "uar:organizations/MKMLE24S"
+    ],
+    "isBasedOn": "https://www.uec.ac.jp/research/information/teacher/913"
   }
 ]
