@@ -25,6 +25,7 @@
     }
   },
   "vars": {
-    "SITE": "https://uec-atlas.org/"
+    "SITE": "https://uec-atlas.org/",
+    "SPARQL_ENDPOINT": "https://sparql.uec-atlas.org/"
   }
 }

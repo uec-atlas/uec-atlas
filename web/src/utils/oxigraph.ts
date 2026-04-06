@@ -14,31 +14,35 @@ import init, {
   Store,
   Variable,
 } from "oxigraph/web";
-import wasm from "oxigraph/web_bg.wasm";
 
 let initialized = false;
 
 export async function initOxigraph() {
   if (!initialized) {
-    // biome-ignore lint/suspicious/noExplicitAny: Oxigraph expects a specific object format
-    await init({ module_or_path: wasm as any });
+    if (import.meta.env.SSR) {
+      // @ts-expect-error
+      const wasm = await import("oxigraph/web_bg.wasm?module");
+      await init({ module_or_path: wasm.default });
+    } else {
+      await init();
+    }
     initialized = true;
   }
 }
 
 export {
-  Store,
-  namedNode,
-  blankNode,
-  literal,
-  quad,
-  defaultGraph,
-  Variable,
-  NamedNode,
   BlankNode,
-  Literal,
-  Quad,
+  blankNode,
   DefaultGraph,
-  type Quad_Subject,
+  defaultGraph,
+  Literal,
+  literal,
+  NamedNode,
+  namedNode,
+  Quad,
   type Quad_Predicate,
+  type Quad_Subject,
+  quad,
+  Store,
+  Variable,
 };

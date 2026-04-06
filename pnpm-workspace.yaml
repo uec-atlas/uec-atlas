@@ -1,4 +1,5 @@
 packages:
+  - sparql
   - web
 
 onlyBuiltDependencies:

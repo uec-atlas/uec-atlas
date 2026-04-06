@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "sparql": "pnpm -F sparql",
     "web": "pnpm -F web",
     "lint": "biome check --fix"
   },

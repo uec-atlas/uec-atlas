@@ -5,6 +5,7 @@ declare namespace App {
 }
 interface Env {
   SITE: string;
+  SPARQL_ENDPOINT: string;
   ASSETS: {
     fetch: typeof globalThis.fetch;
   };
