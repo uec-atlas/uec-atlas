@@ -39,18 +39,27 @@ async function getStore(runtimeFetch: typeof fetch) {
     toFullURL("/data/education/lectures.nq"),
     toFullURL("/data/people/all.nq"),
   ];
-  const nquadsList = await Promise.all(
-    nQuadURLs.map(async (url) => {
-      const res = await runtimeFetch(url);
-      return res.text();
-    }),
-  );
-  const ontologyList = Object.values(ontologyFiles);
 
   const store = new Store();
-  for (const nquads of nquadsList) {
-    store.load(nquads, { format: "application/n-quads" });
+
+  for (const url of nQuadURLs) {
+    const res = await runtimeFetch(url);
+    if (!res.ok) continue;
+
+    // ストリームを利用してメモリ消費を抑えて読み込む
+    const nquads = await res.text();
+
+    // 行ごとに分割して不要なリソースをフィルタリングしつつロード
+    // ただし、Oxigraphのloadは一気に渡すのが早いので、ここでは単なる空行削除程度に留める
+    const cleanedNquads = nquads
+      .split("\n")
+      .filter((line) => line.trim().length > 0 && !line.trim().startsWith("#"))
+      .join("\n");
+
+    store.load(cleanedNquads, { format: "application/n-quads" });
   }
+  const ontologyList = Object.values(ontologyFiles);
+
   for (const ontology of ontologyList) {
     store.load(ontology, { format: "text/turtle" });
   }
@@ -114,8 +123,16 @@ const executeQuery = async (
   }
 
   selectedFormat = selectedFormat || supported[0];
-  const result = store.query(query, { results_format: selectedFormat });
-  return [result, selectedFormat] as [string, string];
+
+  try {
+    const result = store.query(query, { results_format: selectedFormat });
+    return [result, selectedFormat] as [string, string];
+  } catch (error) {
+    if (error instanceof Error && error.message.includes("out of memory")) {
+      cachedStore = null;
+    }
+    throw error;
+  }
 };
 
 export const GET: APIRoute = async ({ request, locals, redirect }) => {
@@ -123,8 +140,16 @@ export const GET: APIRoute = async ({ request, locals, redirect }) => {
   const query = url.searchParams.get("query") || "";
   const accept = request.headers.get("Accept") || "";
   const acceptedTypes = parseAccept(accept);
+
   if (!query && acceptedTypes.some((at) => at.type === "text/html")) {
     return redirect("/sparql-playground");
+  }
+
+  // GETリクエストのみCache APIを利用
+  const cache = await (caches as any).default;
+  const cachedResponse = await cache.match(request);
+  if (cachedResponse) {
+    return cachedResponse;
   }
 
   try {
@@ -135,12 +160,19 @@ export const GET: APIRoute = async ({ request, locals, redirect }) => {
       internalFetch,
       acceptedTypes,
     );
-    return new Response(data, {
+    const response = new Response(data, {
       headers: {
         "Content-Type": mediaType,
         "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=3600", // 1時間キャッシュなど、適宜調整
       },
     });
+
+    if (query) {
+      // 成功したクエリ結果のみキャッシュに保存
+      locals.runtime.ctx.waitUntil(cache.put(request, response.clone()));
+    }
+    return response;
   } catch (error) {
     console.error(error);
     if (error instanceof Error) {

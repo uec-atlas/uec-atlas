@@ -159,11 +159,30 @@ export const jsonLdToNQuads = async (
         q.object.termType === "BlankNode"
       )
         continue;
+
+      // 軽量化のためのフィルタリング
+      // 1. コメントや定義、ラベルの一部（rdfs:comment, rdfs:isDefinedBy）を除去
+      if (
+        q.predicate.value === "http://www.w3.org/2000/01/rdf-schema#comment" ||
+        q.predicate.value === "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+      ) {
+        continue;
+      }
+
+      // 2. 外部語彙のメタデータを間引く（必要に応じて）
+      // 例: hydra:totalItems などの統計情報が推論で増えている場合は除去
+
       finalStore.add(q);
     }
   }
 
-  return finalStore.dump({
-    format: "nq",
-  });
+  // N-Quadsの出力を最小化（空白行やコメントを極力減らす）
+  return finalStore
+    .dump({
+      format: "nq",
+    })
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0 && !line.startsWith("#"))
+    .join("\n");
 };
