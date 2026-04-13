@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/MOPEQEW7",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/QBTOSVHH"
+  ],
+  "name": {
+    "en": "Department of Informatics (Master's Program)",
+    "ja": "情報学専攻(博士前期課程)"
+  }
+}

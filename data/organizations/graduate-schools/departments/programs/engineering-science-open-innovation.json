@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/33X6ANH4",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/7V6E2WMT"
+  ],
+  "name": {
+    "en": "Engineering Science Open Innovation Program",
+    "ja": "基盤理工学オープンイノベーションプログラム"
+  }
+}

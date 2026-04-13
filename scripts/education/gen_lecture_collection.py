@@ -42,6 +42,17 @@ keyword_suffix_mapping = {
     "Mエリア": ["i", "j"]
 }
 
+graduate_syllabus_types = {"graduate_master", "graduate_doctor"}
+
+
+def is_ab_numbering_code(code: str) -> bool:
+    return len(code) >= 4 and code[3].lower() in {"a", "b"}
+
+
+def dedupe_course_ids(course_ids: list[str]) -> list[str]:
+    # 順序を保持したまま重複を除去する
+    return list(dict.fromkeys(course_ids))
+
 
 def search_course(courses: list[dict], title_segments: list[str]) -> list[dict] | None:
     # タイトルの部分を減らしながら検索して、前方一致するコースを探す
@@ -87,18 +98,33 @@ if __name__ == "__main__":
     code_course_id_mapping: dict[str, str] = {}  # 科目コード -> 科目ID
     course_id_code_mapping: dict[str, list[str]
                                  ] = defaultdict(list)  # 科目ID -> 科目コードリスト
+    courses_without_code_for_year: list[dict] = []
+    courses_with_ab_code_for_year: list[dict] = []
+    all_courses: list[dict] = []
 
     with open(course_file, "r", encoding="utf-8") as f:
         course_data = json.load(f)
-        course_lookup = {c["id"]: c for c in course_data["entries"]}
-        for course in course_data["entries"]:
-            for code_mapping in course.get("codeMappings", []):
-                if year in code_mapping["years"] or year:
-                    code_course_id_mapping[code_mapping["code"]] = course["id"]
-                    course_id_code_mapping[course["id"]].append(
-                        code_mapping["code"])
+        all_courses = course_data["entries"]
+        course_lookup = {c["id"]: c for c in all_courses}
+        for course in all_courses:
+            year_codes: list[str] = [
+                code_mapping["code"]
+                for code_mapping in course.get("codeMappings", [])
+                if year in code_mapping.get("years", [])
+            ]
 
-    fallback_suffix = fallback_suffix.get(syllabus_type, "z")
+            if not year_codes:
+                courses_without_code_for_year.append(course)
+            if any(is_ab_numbering_code(code) for code in year_codes):
+                courses_with_ab_code_for_year.append(course)
+
+            for code in year_codes:
+                code_course_id_mapping[code] = course["id"]
+                course_id_code_mapping[course["id"]].append(code)
+
+    fallback_suffix_value = fallback_suffix.get(syllabus_type, "z")
+    fallback_all_candidates_count = 0
+    fallback_all_candidates_examples: list[str] = []
 
     for syllabus in syllabuses:
         lecture = Lecture(
@@ -115,6 +141,7 @@ if __name__ == "__main__":
             periods=syllabus.periods.split(",") if syllabus.periods else [],
             timetable_code=syllabus.timetable_code
         )
+        title_segments = segment_lecture_name(syllabus.name)
 
         if syllabus.numbering_codes:
             codes = [code.strip()
@@ -123,13 +150,36 @@ if __name__ == "__main__":
                 print(
                     f"Warning: Invalid numbering code format '{syllabus.numbering_codes}' for syllabus {syllabus.name}")
                 continue
+
+            has_ab_numbering_code = False
             for code in codes:
+                has_ab_numbering_code = has_ab_numbering_code or is_ab_numbering_code(
+                    code)
                 course_id = code_course_id_mapping.get(code)
                 if course_id:
                     lecture.courses.append(course_id)
+
+            if has_ab_numbering_code:
+                # 先行履修向けの科目は、同名の大学院科目（numbering codeなし）も併記する
+                no_code_candidates = search_course(
+                    courses_without_code_for_year, title_segments)
+                lecture.courses.extend(
+                    candidate["id"] for candidate in no_code_candidates)
+
+        if syllabus_type in graduate_syllabus_types and not syllabus.numbering_codes:
+            # 大学院シラバスは学務仕様としてnumbering codeを持たないため、no-code科目を優先して照合する
+            no_code_candidates = search_course(
+                courses_without_code_for_year, title_segments)
+            ab_code_candidates = search_course(
+                courses_with_ab_code_for_year, title_segments)
+            lecture.courses.extend(
+                candidate["id"] for candidate in no_code_candidates)
+            lecture.courses.extend(
+                candidate["id"] for candidate in ab_code_candidates)
+
         if not lecture.courses:
             candidates = search_course(
-                list(course_lookup.values()), segment_lecture_name(syllabus.name))
+                all_courses, title_segments)
 
             if len(candidates) == 1:
                 lecture.courses.append(candidates[0]["id"])
@@ -145,14 +195,20 @@ if __name__ == "__main__":
                 else:
                     # シラバス種別に基づくSuffixで絞り込む
                     type_base_candidates = [candidate for candidate in candidates if any(
-                        code.endswith(fallback_suffix) for code in course_id_code_mapping[candidate["id"]])]
+                        code.endswith(fallback_suffix_value) for code in course_id_code_mapping[candidate["id"]])]
                     if type_base_candidates:
                         for candidate in type_base_candidates:
                             lecture.courses.append(candidate["id"])
                     else:
+                        fallback_all_candidates_count += 1
+                        if len(fallback_all_candidates_examples) < 10:
+                            fallback_all_candidates_examples.append(
+                                utils.normalize_string(syllabus.name))
                         # どちらの基準でも絞り込めない場合はすべての候補を追加
                         for candidate in candidates:
                             lecture.courses.append(candidate["id"])
+
+        lecture.courses = dedupe_course_ids(lecture.courses)
 
         if not lecture.courses:
             print(
@@ -163,3 +219,9 @@ if __name__ == "__main__":
     os.makedirs(f"data/education/lectures/{year}", exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(lecture_collection, f, ensure_ascii=False, indent=2)
+
+    print(
+        f"Final fallback (all candidates added) count: {fallback_all_candidates_count}")
+    if fallback_all_candidates_examples:
+        print(
+            f"Final fallback samples: {', '.join(fallback_all_candidates_examples)}")

@@ -2,11 +2,16 @@
   "id": "uar:organizations/NIBJHDQW",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/LMCZ7FKK",
-    "uar:organizations/WLUPOG26"
+    "uar:organizations/LMCZ7FKK"
   ],
   "name": {
     "en": "Applied Physics Program",
     "ja": "物理工学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/WLUPOG26"
+    }
+  ]
 }

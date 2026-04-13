@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/NOKEKYNI",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/QBTOSVHH"
+  ],
+  "name": {
+    "en": "Department of Informatics (Doctoral Program)",
+    "ja": "情報学専攻(博士後期課程)"
+  }
+}

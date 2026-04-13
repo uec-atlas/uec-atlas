@@ -30532,6 +30532,3594 @@
       "organizations": [
         "uar:organizations/O757DEDB"
       ]
+    },
+    {
+      "id": "uar:education/COZ2PEYY",
+      "name": {
+        "ja": "大学院総合コミュニケーション科学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/I6B4KUPA",
+      "name": {
+        "ja": "幾何学基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/6WIK2NRI",
+      "name": {
+        "ja": "解析学基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/P74MWFC4",
+      "name": {
+        "ja": "代数学基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/YAQX6GKY",
+      "name": {
+        "ja": "技術者と安全・環境・倫理"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/HDHSPYWS",
+      "name": {
+        "ja": "国際社会の政治・経済"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/XQRZIVTU",
+      "name": {
+        "ja": "科学技術の歴史"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/7UFYT7X4",
+      "name": {
+        "ja": "現代社会と倫理"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/EBMWXVT3",
+      "name": {
+        "ja": "世界の多極化と異文化理解"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/4JNXSTJW",
+      "name": {
+        "ja": "日本語と思考"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/VFGJ3XW6",
+      "name": {
+        "ja": "言語と論理の哲学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/VRSFHXRL",
+      "name": {
+        "ja": "幾何学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/3CLSVCPU",
+      "name": {
+        "ja": "解析学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/MAYY6332",
+      "name": {
+        "ja": "代数学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/SOJGEPTE",
+      "name": {
+        "ja": "教育学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/7XZCFUY3",
+      "name": {
+        "ja": "大学院特別講義"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/4AUHZUJA",
+      "name": {
+        "ja": "大学院輪講第一(Ⅰ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/XDTXESI3",
+      "name": {
+        "ja": "大学院輪講第一(Ⅱ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/KUIWR6G4",
+      "name": {
+        "ja": "大学院輪講第一(Ⅲ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/PYUFQWSG",
+      "name": {
+        "ja": "大学院輪講第一(Ⅳ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/NILECJ4E",
+      "name": {
+        "ja": "大学院輪講第二"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/I372HDTY",
+      "name": {
+        "ja": "大学院技術英語"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/ML56CDUA",
+      "name": {
+        "ja": "IT最前線"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/44N6Y2LP",
+      "name": {
+        "ja": "実システム創造"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/25EUTVDL",
+      "name": {
+        "ja": "データサイエンティスト特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/ZF75LW7R",
+      "name": {
+        "ja": "データアントレプレナー実践論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CFVZCFOT",
+      "name": {
+        "ja": "ゲーム開発最前線"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/A6NRMA7R",
+      "name": {
+        "ja": "ゲーム開発実践"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/5H5YFPGS",
+      "name": {
+        "ja": "オープンイノベーションスクールⅠ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/BCB4JZMM",
+      "name": {
+        "ja": "オープンイノベーションスクールⅡ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/NZK5ZOW3",
+      "name": {
+        "ja": "大学院インターンシップ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/3C2CUW4O",
+      "name": {
+        "ja": "大学院インターンシップ(海外)"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CJN64GGS",
+      "name": {
+        "ja": "大学院インターンシップ(長期)"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/HLOTWDI4",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/YOAN5HCJ",
+      "name": {
+        "ja": "大学院海外語学研修Ⅰ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/DTNOXFZG",
+      "name": {
+        "ja": "大学院海外語学研修Ⅱ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/7Y3HTZPE",
+      "name": {
+        "ja": "大学院海外研修Ⅰ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/M5L2A7CP",
+      "name": {
+        "ja": "大学院海外研修Ⅱ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CDW3COXF",
+      "name": {
+        "ja": "大学院実践演習(Ⅰ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/A4WRXNIX",
+      "name": {
+        "ja": "大学院実践演習(Ⅱ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/WRZN42AM",
+      "name": {
+        "ja": "大学院実践演習(Ⅲ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/6JUYCP3S",
+      "name": {
+        "ja": "大学院実践演習(Ⅳ)"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/P47WA6D2",
+      "name": {
+        "ja": "メディアアート論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA"
+      ]
+    },
+    {
+      "id": "uar:education/CBDVNEHK",
+      "name": {
+        "ja": "知的学習システム"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA"
+      ]
+    },
+    {
+      "id": "uar:education/GY3YVOEQ",
+      "name": {
+        "ja": "コンピュータグラフィックス応用"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP"
+      ]
+    },
+    {
+      "id": "uar:education/TOBTAER2",
+      "name": {
+        "ja": "データマイニング"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/2AV3LNFC",
+      "name": {
+        "ja": "音声音響情報処理"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP"
+      ]
+    },
+    {
+      "id": "uar:education/QO7RRZ7I",
+      "name": {
+        "ja": "実践ソフトウェア開発基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/4WL26D5E",
+      "name": {
+        "ja": "情報理論基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/2J75T5KN",
+      "name": {
+        "ja": "数理統計学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/KHZAUI34",
+      "name": {
+        "ja": "会計情報システム"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/B5JJGUVV",
+      "name": {
+        "ja": "経営情報システム"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/JBCAA7NY",
+      "name": {
+        "ja": "ソフトウェア品質学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/PPKVPQI3",
+      "name": {
+        "ja": "セキュリティ基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/EA4ZTVKL",
+      "name": {
+        "ja": "実践ソフトウェア開発概論Ⅱ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/ZFQK7PYN",
+      "name": {
+        "ja": "実践ソフトウェア開発概論Ⅲ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/I2C44RQH",
+      "name": {
+        "ja": "現代代数学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CFAASGKR",
+      "name": {
+        "ja": "数理解析学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CKNPEWNJ",
+      "name": {
+        "ja": "認知科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/XZCQOH7T",
+      "name": {
+        "ja": "画像認識システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/GZKENJXW",
+      "name": {
+        "ja": "学習工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/X6LHPI27",
+      "name": {
+        "ja": "認知プロセス論特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/D5NOEO3M",
+      "name": {
+        "ja": "視覚情報処理特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/YYI5SIIM",
+      "name": {
+        "ja": "コミュニケーション論特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/BPXRDAZN",
+      "name": {
+        "ja": "計算機科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/V2QYJ7VH",
+      "name": {
+        "ja": "インタラクティブシステム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/TFR2D2Y6",
+      "name": {
+        "ja": "マルチメディアコンピューティング特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/N3RQOO3V",
+      "name": {
+        "ja": "マルチエージェントシステム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/FZTCIMQ7",
+      "name": {
+        "ja": "サービス・サイエンス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/2APORV4Q",
+      "name": {
+        "ja": "生体システム工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/SSI32DQY",
+      "name": {
+        "ja": "経営システム工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/W6LGQDLW",
+      "name": {
+        "ja": "言語認知システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/453Q22LQ",
+      "name": {
+        "ja": "人間工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/ZLHGCDM2",
+      "name": {
+        "ja": "生産システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/2KEENO5W",
+      "name": {
+        "ja": "システム信頼性特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/FEYSWAHB",
+      "name": {
+        "ja": "コンテンツセキュリティ特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/Y5KZQQU5",
+      "name": {
+        "ja": "ネットワークセキュリティ特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/77MGPF2M",
+      "name": {
+        "ja": "離散情報構造特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/7HB6WENI",
+      "name": {
+        "ja": "ソフトウェアセキュリティ特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/PHGC47VS",
+      "name": {
+        "ja": "暗号理論特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/AF3ADKOE",
+      "name": {
+        "ja": "進化計算特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/CY5WK7QM",
+      "name": {
+        "ja": "インテリジェントシステム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/NDSMKBPW",
+      "name": {
+        "ja": "対話型システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/I7LHAW5W",
+      "name": {
+        "ja": "ヒューマンインタフェース特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/4U53PSYO",
+      "name": {
+        "ja": "知能ロボティクス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/5BVY6X33",
+      "name": {
+        "ja": "メディアデザイン特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/RFHNWA3N",
+      "name": {
+        "ja": "人工知能特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/KEWMA53P",
+      "name": {
+        "ja": "時空間情報科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/BJVBSUBV",
+      "name": {
+        "ja": "リスクマネジメント論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/C6XNYU72",
+      "name": {
+        "ja": "意思決定科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/PRN3KT3E",
+      "name": {
+        "ja": "ネットワークアーキテクチャ論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/SAECC3NB",
+      "name": {
+        "ja": "コンピュータネットワーク特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/NOKEKYNI",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/5RTFPLDR",
+      "name": {
+        "ja": "大学院データサイエンス実践演習1"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA"
+      ]
+    },
+    {
+      "id": "uar:education/K66YFZUL",
+      "name": {
+        "ja": "大学院データサイエンス実践演習2"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/7KGUMEZA"
+      ]
+    },
+    {
+      "id": "uar:education/K6ABV2VO",
+      "name": {
+        "ja": "GLTPセミナー"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG"
+      ]
+    },
+    {
+      "id": "uar:education/YR57ZI6S",
+      "name": {
+        "ja": "ベンチャービジネス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/R2QMCOVK",
+      "name": {
+        "ja": "知的財産権特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/TVYOVNHI",
+      "name": {
+        "ja": "先端技術開発特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/ASSV54C4",
+      "name": {
+        "ja": "ETL(Elementary Teaching Laboratory)"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/LMPU7DIB",
+      "name": {
+        "ja": "危機・限界体験特別実験"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG"
+      ]
+    },
+    {
+      "id": "uar:education/IEWHDSIX",
+      "name": {
+        "ja": "国際科学技術コミュニケーション論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/OFGVUUCV",
+      "name": {
+        "ja": "SDGsを支える情報通信論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/6N32K6W6",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/JCYYHBCM",
+      "name": {
+        "ja": "情報伝送基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/Q37MLNGZ",
+      "name": {
+        "ja": "VLSILow Power Circuit Design"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/DKHJ5YK4",
+      "name": {
+        "ja": "情報通信ネットワーク"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/H5JPLBJM",
+      "name": {
+        "ja": "データ圧縮基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/QUF5UKUF",
+      "name": {
+        "ja": "回路システム基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/W54ZIPMP",
+      "name": {
+        "ja": "ディジタル信号処理基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/HY7CZL37",
+      "name": {
+        "ja": "計算機アーキテクチャ基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/CG5B6GEG",
+      "name": {
+        "ja": "応用解析基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/R42NPHXG",
+      "name": {
+        "ja": "アルゴリズム基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/YXDAZ4UP",
+      "name": {
+        "ja": "応用アルゴリズム論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/VCOHYKWD",
+      "name": {
+        "ja": "ハイパフォーマンスコンピューティング基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/6J5WDNEL",
+      "name": {
+        "ja": "シミュレーション理工学基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/CJC42ORA",
+      "name": {
+        "ja": "プログラム言語基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/BYQ3NU2V",
+      "name": {
+        "ja": "離散最適化基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/HFJ5557V",
+      "name": {
+        "ja": "先端集積デバイス基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/VX2GJRJS",
+      "name": {
+        "ja": "連続最適化基礎論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/GS6PQ4L4",
+      "name": {
+        "ja": "集積回路設計特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/2JLNOTNB",
+      "name": {
+        "ja": "マイクロ波回路設計特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/WJPQKIQD",
+      "name": {
+        "ja": "環境電磁工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/GTK5XBOM",
+      "name": {
+        "ja": "無線通信システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/6ZVFOLGF",
+      "name": {
+        "ja": "情報理論特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/A4BU5LHE",
+      "name": {
+        "ja": "情報光工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/KHF5BSFD",
+      "name": {
+        "ja": "宇宙通信工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/XQ5MMRY6",
+      "name": {
+        "ja": "光通信システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/INP5KJTI",
+      "name": {
+        "ja": "CMOS集積回路設計学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/S3Q4CTEQ",
+      "name": {
+        "ja": "センシング工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/BFYOF7B5",
+      "name": {
+        "ja": "マルチメディア信号処理特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/2KS7KTJA",
+      "name": {
+        "ja": "信号解析学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/UI4GYBYR",
+      "name": {
+        "ja": "伝送工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/TUHA2FXA",
+      "name": {
+        "ja": "電磁波環境観測技術特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/OUQV45AR",
+      "name": {
+        "ja": "生体電磁工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/MJTVY4HT",
+      "name": {
+        "ja": "非線形システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/D4YXKKNY",
+      "name": {
+        "ja": "固体照明工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/WGMISAUJ",
+      "name": {
+        "ja": "音響システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/E7TCJIL3",
+      "name": {
+        "ja": "知識データ工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/GYCYXG57",
+      "name": {
+        "ja": "ハイパフォーマンスコンピューティング特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/LPODKK6J",
+      "name": {
+        "ja": "並列分散システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/TGZAEPNS",
+      "name": {
+        "ja": "シミュレーション理工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/R6KWIRYG",
+      "name": {
+        "ja": "アルゴリズム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/I2F62N7N",
+      "name": {
+        "ja": "応用解析学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/54MIJMK4",
+      "name": {
+        "ja": "知能情報特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/3XBIENXA",
+      "name": {
+        "ja": "理論計算機科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/5YBHU722",
+      "name": {
+        "ja": "ソフトウェア基礎特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/INMJW3C7",
+      "name": {
+        "ja": "計算機構特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/FJMNKD7R",
+      "name": {
+        "ja": "ゲームの数理"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/FGUI5FWJ",
+      "name": {
+        "ja": "情報ネットワーク特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/KTH2FI2O",
+      "name": {
+        "ja": "ネットワークアプリケーション特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/7GDWCREB",
+      "name": {
+        "ja": "ベイズ的人工知能特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/NJD5R3DK",
+      "name": {
+        "ja": "統計的機械学習特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/NPGJXEXW",
+      "name": {
+        "ja": "情報幾何学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/ZFZJKQ47",
+      "name": {
+        "ja": "量子情報数理特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/MBR7HXKG",
+        "uar:organizations/WVVPA2UK"
+      ]
+    },
+    {
+      "id": "uar:education/2FSXX446",
+      "name": {
+        "ja": "ネットワークコンピューティング特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/AJLMS4YG",
+      "name": {
+        "ja": "計算機ネットワーク特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/GTSCYI4F",
+      "name": {
+        "ja": "情報データ解析論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/3KSZ7OLQ",
+      "name": {
+        "ja": "データ解析最適化論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/7KGUMEZA",
+        "uar:organizations/IABG6MUT"
+      ]
+    },
+    {
+      "id": "uar:education/XW46LS3N",
+      "name": {
+        "ja": "音声対話処理"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/SPPBIXHV",
+      "name": {
+        "ja": "アルゴリズム工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/GIH4XDN3",
+      "name": {
+        "ja": "システムソフトウェア特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/DMXDSNW5",
+      "name": {
+        "ja": "基盤ソフトウェア特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/XPI5BYMS",
+      "name": {
+        "ja": "データ工学原論1"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/LXFGR4GU",
+      "name": {
+        "ja": "データ工学原論2"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/CAXIXDWV",
+        "uar:organizations/YBUTN2WI"
+      ]
+    },
+    {
+      "id": "uar:education/LQ54TGL5",
+      "name": {
+        "ja": "並列処理論第一"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7",
+        "uar:organizations/5SBMQ3DP",
+        "uar:organizations/6CT7MIDK"
+      ]
+    },
+    {
+      "id": "uar:education/TEGC5MO7",
+      "name": {
+        "ja": "機械知能システム学専攻基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/HIMCMEVX",
+      "name": {
+        "ja": "熱工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/JEFWZYRW",
+      "name": {
+        "ja": "流体工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/Q7FZHETU",
+      "name": {
+        "ja": "バイオメカニクス基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/4OTIKGUL",
+      "name": {
+        "ja": "材料強度学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/J4T4ZPPB",
+      "name": {
+        "ja": "生産加工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/JOOKBUFY",
+      "name": {
+        "ja": "計測工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/4D7TZXNL",
+      "name": {
+        "ja": "ロボット工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/CASF3RWV",
+      "name": {
+        "ja": "制御系設計学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6"
+      ]
+    },
+    {
+      "id": "uar:education/WG2UFQDQ",
+      "name": {
+        "ja": "センサ信号処理学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/VDME4N6K",
+      "name": {
+        "ja": "生体計測工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/UXKFLYQW",
+      "name": {
+        "ja": "システム制御理論特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/P2EKRDM7",
+      "name": {
+        "ja": "知覚システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/X4SDKY4F",
+      "name": {
+        "ja": "感覚運動システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/DKW7OYJ4",
+      "name": {
+        "ja": "メカトロニクス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/KVSXCD34",
+      "name": {
+        "ja": "ロボット応用工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/J4XI2IAE",
+      "name": {
+        "ja": "ロボット機構制御特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/TKO2BHTE",
+      "name": {
+        "ja": "運動計測学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/C3Z4HAHV",
+      "name": {
+        "ja": "バーチャルリアリティ特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/QLXIOLYZ",
+      "name": {
+        "ja": "コンピュータビジョン特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/E34WW64Q",
+      "name": {
+        "ja": "ロボット情報工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/AZOI42MS",
+      "name": {
+        "ja": "設計システム工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/ZGDDB7PJ",
+      "name": {
+        "ja": "知的生産システム特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/HVI4EZSQ",
+      "name": {
+        "ja": "力学系現象特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/L27CGYMU",
+      "name": {
+        "ja": "計算力学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/JB2S6RYV",
+        "uar:organizations/LRHVCXPH",
+        "uar:organizations/RTZPKMT6",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/2N5M6JAZ",
+      "name": {
+        "ja": "実践的先進機器分析"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/IA3LZIZI",
+      "name": {
+        "ja": "光・量子エレクトロニクス基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/GEXMDCEO",
+      "name": {
+        "ja": "光デバイス工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/JQ5AMOSR",
+      "name": {
+        "ja": "量子物理工学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/WEEPQ7IZ",
+      "name": {
+        "ja": "固体物性論基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/OLYZA2AW",
+      "name": {
+        "ja": "分子細胞生物学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/X7P4PQEY",
+      "name": {
+        "ja": "生体情報学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/4MOMZY2O",
+      "name": {
+        "ja": "量子エネルギー科学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/SRU3IPGE",
+      "name": {
+        "ja": "画像情報学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP"
+      ]
+    },
+    {
+      "id": "uar:education/UXAQV6OI",
+      "name": {
+        "ja": "光化学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP"
+      ]
+    },
+    {
+      "id": "uar:education/BOGC626G",
+      "name": {
+        "ja": "応用電磁気学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/VTQ7TZJL",
+      "name": {
+        "ja": "固体量子工学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/X4FTYCD4",
+      "name": {
+        "ja": "生物有機化学"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/IJHDG64Q",
+      "name": {
+        "ja": "生体機能システム学基礎"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/STR33PS7",
+      "name": {
+        "ja": "環境材料学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/5PQJGUUJ",
+      "name": {
+        "ja": "ナノフォトニクス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/T2POZZ7S",
+      "name": {
+        "ja": "ナノエレクトロニクス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/XRHWFHT2",
+      "name": {
+        "ja": "光通信デバイス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/CCK2T23A",
+      "name": {
+        "ja": "固体・ソフトマターフォトニクス特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP"
+      ]
+    },
+    {
+      "id": "uar:education/HG4WCMQX",
+      "name": {
+        "ja": "物理工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/WEZJEPVX",
+      "name": {
+        "ja": "量子情報光学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/3CTGTYF4",
+      "name": {
+        "ja": "低温量子物性工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/PUUJYLEU",
+      "name": {
+        "ja": "ナノトライボロジー特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/XJGDSN5L",
+      "name": {
+        "ja": "統計物理工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/WKEE2NJW",
+      "name": {
+        "ja": "現代レーザー分光学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/BFYMICLW",
+      "name": {
+        "ja": "原子光工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/H3MQTJXB",
+      "name": {
+        "ja": "凝縮体量子工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/O22JXRW4",
+      "name": {
+        "ja": "電子物性特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/J23VQAZQ",
+      "name": {
+        "ja": "Ⅹ線結晶学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/RRQUR3YN"
+      ]
+    },
+    {
+      "id": "uar:education/6FZQGVUX",
+      "name": {
+        "ja": "固体物性化学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/XZOMW76P",
+      "name": {
+        "ja": "生命分子科学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/2JG3WHRA",
+      "name": {
+        "ja": "無機物質化学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/LYN3X6F3",
+      "name": {
+        "ja": "物理化学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/7QRXRFJA",
+      "name": {
+        "ja": "化学生命工学特論A"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/7ACPSBY3",
+      "name": {
+        "ja": "化学生命工学特論B"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
+    },
+    {
+      "id": "uar:education/UY4TGPDI",
+      "name": {
+        "ja": "オープンラボワークⅠ挑戦"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/LLVH3C42",
+      "name": {
+        "ja": "オープンラボワークⅡ開拓"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/U6W3VD35",
+      "name": {
+        "ja": "オープンラボワークⅢ融合"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/WNSGS4UP",
+      "name": {
+        "ja": "オープンラボワークⅣ革新"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/RRQUR3YN",
+        "uar:organizations/SSCABOYO"
+      ]
+    },
+    {
+      "id": "uar:education/A2QPJKSQ",
+      "name": {
+        "ja": "情報学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/NOKEKYNI"
+      ]
+    },
+    {
+      "id": "uar:education/UDHVTBE4",
+      "name": {
+        "ja": "情報・ネットワーク工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/2N6AIBY7"
+      ]
+    },
+    {
+      "id": "uar:education/YYV44PPS",
+      "name": {
+        "ja": "Advanced Roboticsand Mechatronics Engineering"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/PVXT3G2R",
+      "name": {
+        "ja": "機械知能システム学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/FCILN2CQ",
+      "name": {
+        "ja": "オープンイノベーションスクールⅢ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/HA5KFIW3",
+      "name": {
+        "ja": "オープンイノベーションスクールⅣ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/XV27HQMA",
+      "name": {
+        "ja": "オープンイノベーションスクールⅤ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/C7CIWG7D",
+      "name": {
+        "ja": "大学院国際協働学術研修"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/FP5ITZ4S",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/SRDXNCZ6",
+      "name": {
+        "ja": "大学院国際協働学術研修(長期)"
+      },
+      "numberOfCredits": 4,
+      "organizations": [
+        "uar:organizations/FP5ITZ4S",
+        "uar:organizations/VV4HKADC"
+      ]
+    },
+    {
+      "id": "uar:education/TVK3XS77",
+      "name": {
+        "ja": "基盤理工学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/MO3K4CS6"
+      ]
+    },
+    {
+      "id": "uar:education/72IMTNFU",
+      "name": {
+        "ja": "サステイナビリティ研究基礎A"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/Q5YDV2YV",
+      "name": {
+        "ja": "協働分野セミナーⅠ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/EOT6JK7I",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅰ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/UZWMPAVY",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅱ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/QPBMVKNE",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅲ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/ANZKYUDM",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅳ"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/GYXBHYPW",
+      "name": {
+        "ja": "学外実践実習"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/ECFIKVNU",
+      "name": {
+        "ja": "学内実践実習"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/7V3HKQ34",
+      "name": {
+        "ja": "サステイナビリティ研究基礎B"
+      },
+      "numberOfCredits": 1,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/ATTGIWS5",
+      "name": {
+        "ja": "協働分野セミナーⅡ"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/XH66SRKN"
+      ]
+    },
+    {
+      "id": "uar:education/UGEJGKDQ",
+      "name": {
+        "ja": "生命分子化学特論"
+      },
+      "numberOfCredits": 2,
+      "organizations": [
+        "uar:organizations/33X6ANH4",
+        "uar:organizations/5J7NMJ3N"
+      ]
     }
   ]
 }

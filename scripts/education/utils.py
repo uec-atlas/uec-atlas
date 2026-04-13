@@ -22,4 +22,6 @@ def canonicalize_subject_name(name: str) -> str:
 
 def normalize_instructor_name(name: str) -> str:
     """担当教員名の正規化"""
-    return utils.normalize_string(name).lstrip("◯〇○*＊").removesuffix("ほか").removesuffix("他").replace(",", "").strip().title()
+    normalized = utils.normalize_string(name)
+    normalized = re.sub(r"^[\s　]*[\(（]非[\)）]\s*", "", normalized)
+    return normalized.lstrip("◯〇○*＊").removesuffix("ほか").removesuffix("他").replace(",", "").strip().title()

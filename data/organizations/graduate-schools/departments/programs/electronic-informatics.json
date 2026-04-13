@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/IABG6MUT",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/LTZM72NZ"
+  ],
+  "name": {
+    "en": "Electronic Informatics Program",
+    "ja": "電子情報学プログラム"
+  }
+}

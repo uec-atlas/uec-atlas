@@ -2,11 +2,16 @@
   "id": "uar:organizations/DX5GN6SU",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV",
-    "uar:organizations/SJGILYFG"
+    "uar:organizations/AEFZKYAV"
   ],
   "name": {
     "en": "Information and Communication Engineering Program",
     "ja": "情報通信工学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/SJGILYFG"
+    }
+  ]
 }

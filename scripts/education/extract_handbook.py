@@ -6,8 +6,10 @@ import json
 import argparse
 import sys
 import pandas as pd
+import re
 from functools import cache
 from pathlib import Path
+from typing import Optional
 
 # --- 定数およびユーティリティ ---
 
@@ -73,13 +75,32 @@ def apply_corrections_for_row(corrections: list[dict], year: int, code: str, nam
 
 
 @cache
-def extract_handbook_tables(year: int, input_path: str) -> list[pd.DataFrame]:
-    output = Path(f"generated/handbook_tables_{year}.pkl")
+def extract_handbook_tables(
+    year: int,
+    input_path: str,
+    pages: Optional[tuple[int, ...]] = None,
+    profile: str = "gakuiki",
+    merge_col_edge_tolerance: float = 15.0,
+    normalized_col_edge_tolerance: float = 0.08,
+) -> list[pd.DataFrame]:
+    pdf_stem = Path(input_path).stem
+    safe_pdf_stem = re.sub(r"[^A-Za-z0-9_.-]+", "_", pdf_stem)
+    safe_profile = re.sub(r"[^A-Za-z0-9_.-]+", "_", profile)
+    page_tag = "all" if not pages else "p" + "-".join(str(p) for p in pages)
+
+    output = Path(
+        f"generated/handbook_tables_{year}_{safe_pdf_stem}_{safe_profile}_{page_tag}.pkl"
+    )
     if output.exists():
         return pickle.loads(output.read_bytes())
 
     tables = extract_tables(
-        input_path, None, load_handbook_rotations(year))
+        input_path,
+        list(pages) if pages else None,
+        load_handbook_rotations(year),
+        merge_col_edge_tolerance=merge_col_edge_tolerance,
+        normalized_col_edge_tolerance=normalized_col_edge_tolerance,
+    )
 
     final_tables = []
     corr_dir = Path(__file__).parent / "corrections"
@@ -96,6 +117,10 @@ def extract_handbook_tables(year: int, input_path: str) -> list[pd.DataFrame]:
                     final_tables.append(csv_df)
                 continue
         final_tables.append(table)
+
+    if not final_tables:
+        output.write_bytes(pickle.dumps([]))
+        return []
 
     final_tables = merge_tables(final_tables)
     for table in final_tables:

@@ -1,0 +1,86 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/E5UR5PXF",
+      "name": {
+        "ja": "基盤理工学専攻(博士後期課程) - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MO3K4CS6",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/TIOBL7GT",
+      "name": {
+        "ja": "基盤理工学専攻(博士後期課程) - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MO3K4CS6",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ]
+    },
+    {
+      "id": "uar:education/RCPU2X24",
+      "name": {
+        "ja": "基盤理工学専攻(博士後期課程) - 大学院産学連携科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MO3K4CS6",
+      "category": "uar:education/BRSN55XD",
+      "courses": [
+        "uar:education/YR57ZI6S",
+        "uar:education/R2QMCOVK",
+        "uar:education/TVYOVNHI",
+        "uar:education/ASSV54C4",
+        "uar:education/IEWHDSIX",
+        "uar:education/OFGVUUCV",
+        "uar:education/ML56CDUA",
+        "uar:education/25EUTVDL",
+        "uar:education/ZF75LW7R",
+        "uar:education/CFVZCFOT",
+        "uar:education/A6NRMA7R",
+        "uar:education/FCILN2CQ",
+        "uar:education/HA5KFIW3",
+        "uar:education/XV27HQMA",
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4",
+        "uar:education/YOAN5HCJ",
+        "uar:education/DTNOXFZG",
+        "uar:education/7Y3HTZPE",
+        "uar:education/M5L2A7CP"
+      ]
+    },
+    {
+      "id": "uar:education/IW24NTTY",
+      "name": {
+        "ja": "基盤理工学専攻(博士後期課程) - 専門上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/MO3K4CS6",
+      "category": "uar:education/NWIRJZXN",
+      "courses": [
+        "uar:education/TVK3XS77"
+      ]
+    }
+  ]
+}

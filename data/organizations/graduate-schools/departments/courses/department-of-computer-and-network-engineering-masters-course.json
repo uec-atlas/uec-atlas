@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/LTZM72NZ",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/SJGILYFG"
+  ],
+  "name": {
+    "en": "Department of Computer and Network Engineering (Master's Program)",
+    "ja": "情報・ネットワーク工学専攻(博士前期課程)"
+  }
+}

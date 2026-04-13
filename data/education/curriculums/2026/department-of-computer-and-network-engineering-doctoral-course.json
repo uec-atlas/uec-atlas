@@ -1,0 +1,126 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/RPJOSS7A",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻(博士後期課程) - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/2N6AIBY7",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/FBY67Z2U",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻(博士後期課程) - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/2N6AIBY7",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ]
+    },
+    {
+      "id": "uar:education/GJSACBGN",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻(博士後期課程) - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/2N6AIBY7",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/VX2GJRJS"
+      ]
+    },
+    {
+      "id": "uar:education/3XVWJRPR",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻(博士後期課程) - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/2N6AIBY7",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/GS6PQ4L4",
+        "uar:education/2JLNOTNB",
+        "uar:education/WJPQKIQD",
+        "uar:education/GTK5XBOM",
+        "uar:education/6ZVFOLGF",
+        "uar:education/A4BU5LHE",
+        "uar:education/KHF5BSFD",
+        "uar:education/XQ5MMRY6",
+        "uar:education/INP5KJTI",
+        "uar:education/S3Q4CTEQ",
+        "uar:education/BFYOF7B5",
+        "uar:education/2KS7KTJA",
+        "uar:education/UI4GYBYR",
+        "uar:education/TUHA2FXA",
+        "uar:education/OUQV45AR",
+        "uar:education/MJTVY4HT",
+        "uar:education/I7LHAW5W",
+        "uar:education/D4YXKKNY",
+        "uar:education/WGMISAUJ",
+        "uar:education/E7TCJIL3",
+        "uar:education/GYCYXG57",
+        "uar:education/LPODKK6J",
+        "uar:education/TGZAEPNS",
+        "uar:education/R6KWIRYG",
+        "uar:education/I2F62N7N",
+        "uar:education/54MIJMK4",
+        "uar:education/3XBIENXA",
+        "uar:education/5YBHU722",
+        "uar:education/INMJW3C7",
+        "uar:education/7HB6WENI",
+        "uar:education/FJMNKD7R",
+        "uar:education/XZCQOH7T",
+        "uar:education/TFR2D2Y6",
+        "uar:education/FGUI5FWJ",
+        "uar:education/KTH2FI2O",
+        "uar:education/7GDWCREB",
+        "uar:education/NJD5R3DK",
+        "uar:education/NPGJXEXW",
+        "uar:education/ZFZJKQ47",
+        "uar:education/2FSXX446",
+        "uar:education/AJLMS4YG",
+        "uar:education/GTSCYI4F",
+        "uar:education/3KSZ7OLQ",
+        "uar:education/XW46LS3N",
+        "uar:education/SPPBIXHV",
+        "uar:education/GIH4XDN3",
+        "uar:education/DMXDSNW5",
+        "uar:education/XPI5BYMS",
+        "uar:education/LXFGR4GU",
+        "uar:education/LQ54TGL5"
+      ]
+    },
+    {
+      "id": "uar:education/OINZWYUH",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻(博士後期課程) - 専門上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/2N6AIBY7",
+      "category": "uar:education/NWIRJZXN",
+      "courses": [
+        "uar:education/UDHVTBE4"
+      ]
+    }
+  ]
+}

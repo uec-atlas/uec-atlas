@@ -2,11 +2,16 @@
   "id": "uar:organizations/FBZBS5JG",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV",
-    "uar:organizations/SJGILYFG"
+    "uar:organizations/AEFZKYAV"
   ],
   "name": {
     "en": "Electronics and Information Engineering Program",
     "ja": "電子情報学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/SJGILYFG"
+    }
+  ]
 }

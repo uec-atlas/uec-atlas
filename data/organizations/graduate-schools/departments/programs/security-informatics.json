@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/WVVPA2UK",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/MOPEQEW7"
+  ],
+  "name": {
+    "en": "Security Informatics Program",
+    "ja": "セキュリティ情報学プログラム"
+  }
+}

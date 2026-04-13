@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/7V6E2WMT",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/WLUPOG26"
+  ],
+  "name": {
+    "en": "Department of Engineering Science (Master's Program)",
+    "ja": "基盤理工学専攻(博士前期課程)"
+  }
+}

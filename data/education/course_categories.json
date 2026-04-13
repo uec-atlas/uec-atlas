@@ -374,6 +374,91 @@
       "name": {
         "ja": "共通単位"
       }
+    },
+    {
+      "id": "uar:education/FICAX42K",
+      "name": {
+        "ja": "大学院基礎教育科目"
+      }
+    },
+    {
+      "id": "uar:education/HD4XAWIY",
+      "name": {
+        "ja": "大学院実践教育科目"
+      }
+    },
+    {
+      "id": "uar:education/44UQPTIM",
+      "name": {
+        "ja": "大学院輪講"
+      },
+      "subCategoryOf": "uar:education/HD4XAWIY"
+    },
+    {
+      "id": "uar:education/BRSN55XD",
+      "name": {
+        "ja": "大学院産学連携科目"
+      },
+      "subCategoryOf": "uar:education/HD4XAWIY"
+    },
+    {
+      "id": "uar:education/JMFPSMNN",
+      "name": {
+        "ja": "大学院専門教育科目"
+      }
+    },
+    {
+      "id": "uar:education/IPSVVKEF",
+      "name": {
+        "ja": "専門科目Ⅰ"
+      },
+      "subCategoryOf": "uar:education/JMFPSMNN"
+    },
+    {
+      "id": "uar:education/JPZYRXG3",
+      "name": {
+        "ja": "専門科目Ⅱ"
+      },
+      "subCategoryOf": "uar:education/JMFPSMNN"
+    },
+    {
+      "id": "uar:education/IMXRBQ52",
+      "name": {
+        "ja": "専門科目Ⅱ(A)"
+      },
+      "subCategoryOf": "uar:education/JPZYRXG3"
+    },
+    {
+      "id": "uar:education/72W3G2M7",
+      "name": {
+        "ja": "専門科目Ⅱ(B)"
+      },
+      "subCategoryOf": "uar:education/JPZYRXG3"
+    },
+    {
+      "id": "uar:education/NWIRJZXN",
+      "name": {
+        "ja": "専門上級科目"
+      },
+      "subCategoryOf": "uar:education/JMFPSMNN"
+    },
+    {
+      "id": "uar:education/TPGGQZLC",
+      "name": {
+        "ja": "共通基盤科目"
+      }
+    },
+    {
+      "id": "uar:education/HDJKVTQ4",
+      "name": {
+        "ja": "サステイナビリティ研究セミナー／ラボワーク科目"
+      }
+    },
+    {
+      "id": "uar:education/YQVMOGOH",
+      "name": {
+        "ja": "実践実習科目"
+      }
     }
   ]
 }

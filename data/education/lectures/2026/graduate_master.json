@@ -1,0 +1,6360 @@
+{
+  "type": "LectureCollection",
+  "entries": [
+    {
+      "id": "uar:education/6SFU6ZED",
+      "timeTableCode": "25131106",
+      "name": {
+        "ja": "知的学習システム",
+        "en": "Advanced Topics in Machine Learning"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131106.html",
+      "courses": [
+        "uar:education/CBDVNEHK",
+        "uar:education/EUQJ5Z4X",
+        "uar:education/CNNN2DCB"
+      ],
+      "instructors": [
+        "uar:people/ZSLJSC7Q"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月1"
+      ]
+    },
+    {
+      "id": "uar:education/O4NBFHBT",
+      "timeTableCode": "25231112",
+      "name": {
+        "ja": "応用解析基礎論",
+        "en": "Fundamentals of Applied Analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231112.html",
+      "courses": [
+        "uar:education/CG5B6GEG",
+        "uar:education/IYKUFH45"
+      ],
+      "instructors": [
+        "uar:people/XU5JEU36"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月1"
+      ]
+    },
+    {
+      "id": "uar:education/H7KXJZNR",
+      "timeTableCode": "25232119",
+      "name": {
+        "ja": "ハイパフォーマンスコンピューティング特論",
+        "en": "Advanced High Performance Computing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232119.html",
+      "courses": [
+        "uar:education/GYCYXG57"
+      ],
+      "instructors": [
+        "uar:people/7VCSUYNB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月1"
+      ]
+    },
+    {
+      "id": "uar:education/36SQYPXM",
+      "timeTableCode": "25132135",
+      "name": {
+        "ja": "リスクマネジメント論",
+        "en": "Risk management"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132135.html",
+      "courses": [
+        "uar:education/BJVBSUBV"
+      ],
+      "instructors": [
+        "uar:people/L6Z6QZTO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/FPQAHYBR",
+      "timeTableCode": "25132140",
+      "name": {
+        "ja": "進化計算特論",
+        "en": "Advanced Evolutionary Computation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132140.html",
+      "courses": [
+        "uar:education/AF3ADKOE"
+      ],
+      "instructors": [
+        "uar:people/OW4Z2O3J"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/YFJEOX72",
+      "timeTableCode": "25231113",
+      "name": {
+        "ja": "アルゴリズム基礎論",
+        "en": "Fundamentals of Algorithm Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231113.html",
+      "courses": [
+        "uar:education/R42NPHXG",
+        "uar:education/5NX34CCU",
+        "uar:education/PQ7HPC5I"
+      ],
+      "instructors": [
+        "uar:people/3E6CFT7W"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/ACVWYKDY",
+      "timeTableCode": "25232117",
+      "name": {
+        "ja": "音響システム特論",
+        "en": "Advanced Acoustic System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232117.html",
+      "courses": [
+        "uar:education/WGMISAUJ"
+      ],
+      "instructors": [
+        "uar:people/CHP65BAL"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/WLICV2AJ",
+      "timeTableCode": "25232252",
+      "name": {
+        "ja": "VLSI Low Power Circuit Design",
+        "en": "VLSI Low Power Circuit Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232252.html",
+      "courses": [
+        "uar:education/Q37MLNGZ",
+        "uar:education/JT7VMUPX",
+        "uar:education/G665O5X2",
+        "uar:education/AWKDU3EU",
+        "uar:education/DCNY5DBK",
+        "uar:education/OJWYEWM7"
+      ],
+      "instructors": [
+        "uar:people/DKPHOFVN"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/56ECDOGI",
+      "timeTableCode": "25431109",
+      "name": {
+        "ja": "量子物理工学基礎",
+        "en": "Fundamentals of Quantum Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431109.html",
+      "courses": [
+        "uar:education/JQ5AMOSR",
+        "uar:education/TYXLYDYK",
+        "uar:education/C45FIO7K",
+        "uar:education/MSRUVTZ6"
+      ],
+      "instructors": [
+        "uar:people/XER5UGJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/AKBN7JIT",
+      "timeTableCode": "25131118",
+      "name": {
+        "ja": "実践ソフトウェア開発概論Ⅱ",
+        "en": "Practical Software Development Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131118.html",
+      "courses": [
+        "uar:education/EA4ZTVKL",
+        "uar:education/LALNPA5U",
+        "uar:education/PYKTHZNV",
+        "uar:education/ZAOFSC77",
+        "uar:education/J65XIVQO"
+      ],
+      "instructors": [
+        "uar:people/DGFDJJS7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月2",
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/WXCXXNIH",
+      "timeTableCode": "25132105",
+      "name": {
+        "ja": "認知プロセス論特論",
+        "en": "Topics on Cognitive Processing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132105.html",
+      "courses": [
+        "uar:education/X6LHPI27"
+      ],
+      "instructors": [
+        "uar:people/EQMLW5XI"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/DR566UQI",
+      "timeTableCode": "25231107",
+      "name": {
+        "ja": "情報通信ネットワーク",
+        "en": "Information and Communication Networks"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231107.html",
+      "courses": [
+        "uar:education/DKHJ5YK4",
+        "uar:education/TTOQPTDB",
+        "uar:education/ZCFRH7I5"
+      ],
+      "instructors": [
+        "uar:people/RR7MG547"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/ZGL5B6W6",
+      "timeTableCode": "25232118",
+      "name": {
+        "ja": "知識データ工学特論",
+        "en": "Advanced Data and Knowledge Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232118.html",
+      "courses": [
+        "uar:education/E7TCJIL3"
+      ],
+      "instructors": [
+        "uar:people/CHIZ4FCG"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/XQ77ZIBW",
+      "timeTableCode": "25332105",
+      "name": {
+        "ja": "知覚システム特論",
+        "en": "Advanced topics in perceptual system"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332105.html",
+      "courses": [
+        "uar:education/P2EKRDM7",
+        "uar:education/WTJOLGXP",
+        "uar:education/JCVIXUOW",
+        "uar:education/YOOL2QQP"
+      ],
+      "instructors": [
+        "uar:people/RYQ7WSAS"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/JHUIMKLW",
+      "timeTableCode": "25431115",
+      "name": {
+        "ja": "画像情報学基礎",
+        "en": "Fundamentals of Image Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431115.html",
+      "courses": [
+        "uar:education/SRU3IPGE",
+        "uar:education/3TE6U4PV",
+        "uar:education/DKNI74TQ"
+      ],
+      "instructors": [
+        "uar:people/ZMZU5CDY"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/S3JA673B",
+      "timeTableCode": "25132102",
+      "name": {
+        "ja": "認知科学特論",
+        "en": "Advanced Cognitive Sciences"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132102.html",
+      "courses": [
+        "uar:education/CKNPEWNJ"
+      ],
+      "instructors": [
+        "uar:people/MQK63CDO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/BWN3XLER",
+      "timeTableCode": "25132116",
+      "name": {
+        "ja": "言語認知システム特論",
+        "en": "Advanced Topics in Language and Cognitive Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132116.html",
+      "courses": [
+        "uar:education/W6LGQDLW"
+      ],
+      "instructors": [
+        "uar:people/UY4VFIEO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/XSNSUXKL",
+      "timeTableCode": "25232103",
+      "name": {
+        "ja": "環境電磁工学特論",
+        "en": "Advanced Electromagnetic Compatibility"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232103.html",
+      "courses": [
+        "uar:education/WJPQKIQD",
+        "uar:education/FILAF7MA"
+      ],
+      "instructors": [
+        "uar:people/LDVPREG3",
+        "uar:people/TRSDMRDN"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/LBN6KJK2",
+      "timeTableCode": "25232133",
+      "name": {
+        "ja": "ベイズ的人工知能特論",
+        "en": "Advanced Theory on Bayesian Artificial Intelligence"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232133.html",
+      "courses": [
+        "uar:education/7GDWCREB"
+      ],
+      "instructors": [
+        "uar:people/5L4UF3U6"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/XKY4U37S",
+      "timeTableCode": "25232139",
+      "name": {
+        "ja": "情報データ解析論",
+        "en": "Advanced Theory on Information Data Analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232139.html",
+      "courses": [
+        "uar:education/GTSCYI4F"
+      ],
+      "instructors": [
+        "uar:people/26YSLDK2"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/KQROZIAU",
+      "timeTableCode": "25331106",
+      "name": {
+        "ja": "熱工学基礎",
+        "en": "Fundamentals of Thermodynamics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331106.html",
+      "courses": [
+        "uar:education/HIMCMEVX",
+        "uar:education/C6DD2ZLQ",
+        "uar:education/USCLISZ7",
+        "uar:education/YVX3UV2Q"
+      ],
+      "instructors": [
+        "uar:people/3K6SNLXR"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/OKWVPBBC",
+      "timeTableCode": "25432109",
+      "name": {
+        "ja": "固体・ソフトマターフォトニクス特論",
+        "en": "Solid-State and Soft Matter Photonics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432109.html",
+      "courses": [
+        "uar:education/CCK2T23A"
+      ],
+      "instructors": [
+        "uar:people/TLCBSUCO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/FPVMPLYP",
+      "timeTableCode": "25432120",
+      "name": {
+        "ja": "現代レーザー分光学特論",
+        "en": "Advanced Laser Spectroscopy"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432120.html",
+      "courses": [
+        "uar:education/WKEE2NJW"
+      ],
+      "instructors": [
+        "uar:people/4RJX3IKC",
+        "uar:people/7XAGGJW5"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/2BXWQDGP",
+      "timeTableCode": "25122101",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25122101.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/RVJUCE77",
+        "uar:people/YLFPCYKR"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/GPBHDWF7",
+      "timeTableCode": "25122102",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25122102.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/ROLVVYVB",
+        "uar:people/RVJUCE77"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/BQV5AX22",
+      "timeTableCode": "25122103",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25122103.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/SUV3UDKA"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/LYNNZU3I",
+      "timeTableCode": "25222101",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25222101.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/4R6JILMK",
+        "uar:people/7QUA3UU2",
+        "uar:people/DW3EI262",
+        "uar:people/HIYNRYDZ",
+        "uar:people/Y6XJBB3X"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/WOHTAWEU",
+      "timeTableCode": "25222102",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25222102.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/NXFDPRKJ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/T566TD7Q",
+      "timeTableCode": "25222103",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25222103.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/C4PQHY57"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/RQWNKCEW",
+      "timeTableCode": "25222104",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25222104.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/KQS6LQQ7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/47QZIEZV",
+      "timeTableCode": "25232125",
+      "name": {
+        "ja": "理論計算機科学特論",
+        "en": "Advanced Study for Theoretical Computer Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232125.html",
+      "courses": [
+        "uar:education/3XBIENXA"
+      ],
+      "instructors": [
+        "uar:people/QXZPC4WO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/N44ULVSS",
+      "timeTableCode": "25331110",
+      "name": {
+        "ja": "生産加工学基礎",
+        "en": "Fundamentals of Mechanical Working"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331110.html",
+      "courses": [
+        "uar:education/J4T4ZPPB",
+        "uar:education/7RXWWIMW",
+        "uar:education/6RWRDVPF",
+        "uar:education/2A2VSVWQ"
+      ],
+      "instructors": [
+        "uar:people/7QRALXO4",
+        "uar:people/WZBTAY2G"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/4UJP4SD6",
+      "timeTableCode": "25431111",
+      "name": {
+        "ja": "分子細胞生物学基礎",
+        "en": "Fundamentals of Cell and Molecular Biology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431111.html",
+      "courses": [
+        "uar:education/OLYZA2AW",
+        "uar:education/X32SL2N2",
+        "uar:education/AZXFR7UB"
+      ],
+      "instructors": [
+        "uar:people/TZM2RKWN"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/VTYUY42O",
+      "timeTableCode": "25432116",
+      "name": {
+        "ja": "低温量子物性工学特論",
+        "en": "Advanced Low Temperature Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432116.html",
+      "courses": [
+        "uar:education/3CTGTYF4"
+      ],
+      "instructors": [
+        "uar:people/FVT3I4YM",
+        "uar:people/RUDEV32S"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/V3LTUSMJ",
+      "timeTableCode": "25131109",
+      "name": {
+        "ja": "音声音響情報処理",
+        "en": "Speech and Acoustic Information Processing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131109.html",
+      "courses": [
+        "uar:education/2AV3LNFC",
+        "uar:education/OJTMB4SW",
+        "uar:education/NMVGU6TW"
+      ],
+      "instructors": [
+        "uar:people/UZIGPBQ4"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/6MYYU34M",
+      "timeTableCode": "25132115",
+      "name": {
+        "ja": "経営システム工学特論",
+        "en": "Advanced Management System Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132115.html",
+      "courses": [
+        "uar:education/SSI32DQY"
+      ],
+      "instructors": [
+        "uar:people/KD4CL7EU"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/LEHZGCMI",
+      "timeTableCode": "25232110",
+      "name": {
+        "ja": "マルチメディア信号処理特論",
+        "en": "Advanced Multimedia Signal Processing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232110.html",
+      "courses": [
+        "uar:education/BFYOF7B5"
+      ],
+      "instructors": [
+        "uar:people/EFEH4CET"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/C3OB2NZ2",
+      "timeTableCode": "25232142",
+      "name": {
+        "ja": "アルゴリズム工学特論",
+        "en": "Advanced Topics on Algorithmic Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232142.html",
+      "courses": [
+        "uar:education/SPPBIXHV"
+      ],
+      "instructors": [
+        "uar:people/H5HIHWCX"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/7GP2R7F3",
+      "timeTableCode": "25331107",
+      "name": {
+        "ja": "流体工学基礎",
+        "en": "Fundamentals of Fluid Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331107.html",
+      "courses": [
+        "uar:education/JEFWZYRW",
+        "uar:education/MNRFFVER",
+        "uar:education/CRUWN3A5",
+        "uar:education/IW4ZFIIL"
+      ],
+      "instructors": [
+        "uar:people/4J7I7AIV"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/6QANR4MJ",
+      "timeTableCode": "25432104",
+      "name": {
+        "ja": "ナノエレクトロニクス特論",
+        "en": "Advanced Nano-Electronics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432104.html",
+      "courses": [
+        "uar:education/T2POZZ7S"
+      ],
+      "instructors": [
+        "uar:people/OUFQ5NJ4"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/4IEURGVT",
+      "timeTableCode": "25231117",
+      "name": {
+        "ja": "プログラム言語基礎論",
+        "en": "Fundamentals of Programming Languages"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231117.html",
+      "courses": [
+        "uar:education/CJC42ORA",
+        "uar:education/VLJJWPQA",
+        "uar:education/CBCV4ECW"
+      ],
+      "instructors": [
+        "uar:people/JFOKA2US"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/EJEBAWMH",
+      "timeTableCode": "25232251",
+      "name": {
+        "ja": "ゲームの数理",
+        "en": "Mathematical Models in Games"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232251.html",
+      "courses": [
+        "uar:education/FJMNKD7R"
+      ],
+      "instructors": [
+        "uar:people/MF5RDAUB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/X5ZCBHWR",
+      "timeTableCode": "25331113",
+      "name": {
+        "ja": "制御系設計学基礎",
+        "en": "Fundamentals of Control System Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331113.html",
+      "courses": [
+        "uar:education/CASF3RWV",
+        "uar:education/ZCHBQLGJ",
+        "uar:education/QDCZJ4GC",
+        "uar:education/X22LS5XZ"
+      ],
+      "instructors": [
+        "uar:people/V5ZAWLFZ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/KBO3PF3D",
+      "timeTableCode": "25431122",
+      "name": {
+        "ja": "先端集積デバイス基礎",
+        "en": "Fundamentals of Modern Semiconductor Devices"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431122.html",
+      "courses": [
+        "uar:education/HFJ5557V",
+        "uar:education/HP724CCA",
+        "uar:education/NJ4IHDGJ",
+        "uar:education/LY2NUYCW"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/WJMILYXI",
+      "timeTableCode": "25131108",
+      "name": {
+        "ja": "データマイニング",
+        "en": "Data Mining"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131108.html",
+      "courses": [
+        "uar:education/TOBTAER2",
+        "uar:education/JDVWV35R",
+        "uar:education/ZMAODSVV",
+        "uar:education/475Q3JXM",
+        "uar:education/5H6ER2SI"
+      ],
+      "instructors": [
+        "uar:people/46POMMLX",
+        "uar:people/6AM363X5",
+        "uar:people/BEFM5ORO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/4IYTKZBL",
+      "timeTableCode": "25132210",
+      "name": {
+        "ja": "マルチメディアコンピューティング特論",
+        "en": "Advanced Multimedia Computing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132210.html",
+      "courses": [
+        "uar:education/TFR2D2Y6"
+      ],
+      "instructors": [
+        "uar:people/233BGDDN",
+        "uar:people/DODBNQGZ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/OJKSLFSZ",
+      "timeTableCode": "25231106",
+      "name": {
+        "ja": "情報伝送基礎",
+        "en": "Fundamentals of Information Transmission"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231106.html",
+      "courses": [
+        "uar:education/JCYYHBCM",
+        "uar:education/MV3CZKW3"
+      ],
+      "instructors": [
+        "uar:people/EPUACK2I",
+        "uar:people/HX4DI3RM",
+        "uar:people/NWPAL2NY"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/XUDMPXHZ",
+      "timeTableCode": "25232146",
+      "name": {
+        "ja": "データ工学原論2",
+        "en": "Principles of Data Engineering 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232146.html",
+      "courses": [
+        "uar:education/LXFGR4GU"
+      ],
+      "instructors": [
+        "uar:people/TTKTB7AS"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/7BOSXZSN",
+      "timeTableCode": "25431107",
+      "name": {
+        "ja": "光・量子エレクトロニクス基礎",
+        "en": "Fundamentals of Optical and Quantum Electronics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431107.html",
+      "courses": [
+        "uar:education/IA3LZIZI",
+        "uar:education/L45YSQMT",
+        "uar:education/PNDZ3L4J",
+        "uar:education/Y2BGV5LC"
+      ],
+      "instructors": [
+        "uar:people/TRKE7QBK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/HWV5LXES",
+      "timeTableCode": "25010104",
+      "name": {
+        "ja": "代数学基礎論",
+        "en": "Fundamentals of Algebra"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010104.html",
+      "courses": [
+        "uar:education/P74MWFC4"
+      ],
+      "instructors": [
+        "uar:people/6QKF7MBY"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/2BZUQUAL",
+      "timeTableCode": "25010209",
+      "name": {
+        "ja": "現代社会と倫理",
+        "en": "The modern society and ethics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010209.html",
+      "courses": [
+        "uar:education/7UFYT7X4"
+      ],
+      "instructors": [
+        "uar:people/AAAJKLNU"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/JV5ODP6I",
+      "timeTableCode": "25131114",
+      "name": {
+        "ja": "経営情報システム",
+        "en": "Management Information Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131114.html",
+      "courses": [
+        "uar:education/B5JJGUVV",
+        "uar:education/VVN7MT2Q"
+      ],
+      "instructors": [
+        "uar:people/XXRC2IOO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/CPLJQY47",
+      "timeTableCode": "25231105",
+      "name": {
+        "ja": "情報・ネットワーク工学専攻基礎",
+        "en": "Fundamentals of Computer and Network Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231105.html",
+      "courses": [
+        "uar:education/6N32K6W6",
+        "uar:education/EES7ANE3",
+        "uar:education/EHLSHFYJ",
+        "uar:education/ETCIR4KG",
+        "uar:education/SE6JPKTD"
+      ],
+      "instructors": [
+        "uar:people/4JQPYR2L",
+        "uar:people/BLZNVNA2"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/M2TTC32X",
+      "timeTableCode": "25331105",
+      "name": {
+        "ja": "機械知能システム学専攻基礎",
+        "en": "Fundamental of Mechanical and Intelligent Systems Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331105.html",
+      "courses": [
+        "uar:education/TEGC5MO7",
+        "uar:education/NEJTJZC6",
+        "uar:education/JAZNF42G",
+        "uar:education/AYIP5C7I"
+      ],
+      "instructors": [
+        "uar:people/EQCRKYCH",
+        "uar:people/XZ7S46IN",
+        "uar:people/YHSCTJKB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/3Y2ZANKZ",
+      "timeTableCode": "25432101",
+      "name": {
+        "ja": "環境材料学特論",
+        "en": "Advanced Environmental Materials Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432101.html",
+      "courses": [
+        "uar:education/STR33PS7"
+      ],
+      "instructors": [
+        "uar:people/G4G46RRN"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/HUC7RTZG",
+      "timeTableCode": "25232136",
+      "name": {
+        "ja": "量子情報数理特論",
+        "en": "Advanced Topics on Quantum Information Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232136.html",
+      "courses": [
+        "uar:education/ZFZJKQ47"
+      ],
+      "instructors": [
+        "uar:people/5FOU4WTB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水3"
+      ]
+    },
+    {
+      "id": "uar:education/BFG62LDH",
+      "timeTableCode": "25232137",
+      "name": {
+        "ja": "ネットワークコンピューティング特論",
+        "en": "Advanced Network Computing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232137.html",
+      "courses": [
+        "uar:education/2FSXX446"
+      ],
+      "instructors": [
+        "uar:people/RCLFT5KP"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水3"
+      ]
+    },
+    {
+      "id": "uar:education/ZKG26TSY",
+      "timeTableCode": "25232145",
+      "name": {
+        "ja": "データ工学原論1",
+        "en": "Principles of Data Engineering 1"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232145.html",
+      "courses": [
+        "uar:education/XPI5BYMS"
+      ],
+      "instructors": [
+        "uar:people/6MNN46C7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水3"
+      ]
+    },
+    {
+      "id": "uar:education/NAVSL4OZ",
+      "timeTableCode": "25432102",
+      "name": {
+        "ja": "ナノフォトニクス特論",
+        "en": "Advanced Nanophotonics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432102.html",
+      "courses": [
+        "uar:education/5PQJGUUJ"
+      ],
+      "instructors": [
+        "uar:people/TLCBSUCO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水3"
+      ]
+    },
+    {
+      "id": "uar:education/FEWIMZHZ",
+      "timeTableCode": "25010103",
+      "name": {
+        "ja": "解析学基礎論",
+        "en": "Fundamentals of Analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010103.html",
+      "courses": [
+        "uar:education/6WIK2NRI"
+      ],
+      "instructors": [
+        "uar:people/YTMI3RAJ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水5"
+      ]
+    },
+    {
+      "id": "uar:education/VVZQPCGR",
+      "timeTableCode": "25010215",
+      "name": {
+        "ja": "幾何学基礎論(夜間修士)",
+        "en": "Fundamental of Geometry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010215.html",
+      "courses": [
+        "uar:education/I6B4KUPA"
+      ],
+      "instructors": [
+        "uar:people/JSRMUFXO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "水7"
+      ]
+    },
+    {
+      "id": "uar:education/CSH67PWZ",
+      "timeTableCode": "25131107",
+      "name": {
+        "ja": "コンピュータグラフィックス応用",
+        "en": "Applied Computer Graphics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131107.html",
+      "courses": [
+        "uar:education/GY3YVOEQ",
+        "uar:education/DJPZRL3I",
+        "uar:education/XQNIR7HH"
+      ],
+      "instructors": [
+        "uar:people/7Z3JSGJQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/5PBK5DTJ",
+      "timeTableCode": "25331108",
+      "name": {
+        "ja": "バイオメカニクス基礎",
+        "en": "Fundamentals of Biomechanics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331108.html",
+      "courses": [
+        "uar:education/Q7FZHETU",
+        "uar:education/44V4HNK3",
+        "uar:education/YG7PYVND",
+        "uar:education/D4PHCXSA"
+      ],
+      "instructors": [
+        "uar:people/FZ4UREQ3"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/Z5CCR3NS",
+      "timeTableCode": "25432146",
+      "name": {
+        "ja": "化学生命工学特論B",
+        "en": "Selected Topics in Chemistry and Biotechnology B"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432146.html",
+      "courses": [
+        "uar:education/7ACPSBY3",
+        "uar:education/GX4B7OFL"
+      ],
+      "instructors": [
+        "uar:people/G5HN5SJB"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/AKULB2Q5",
+      "timeTableCode": "25132104",
+      "name": {
+        "ja": "学習工学特論",
+        "en": "Learning Informatics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132104.html",
+      "courses": [
+        "uar:education/GZKENJXW",
+        "uar:education/54XDSHKT",
+        "uar:education/CHQ26P7P",
+        "uar:education/RMDSJNED"
+      ],
+      "instructors": [
+        "uar:people/3DPGQ2T7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/N6ICYPND",
+      "timeTableCode": "25132119",
+      "name": {
+        "ja": "システム信頼性特論",
+        "en": "Advanced Theory of Systems Reliability"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132119.html",
+      "courses": [
+        "uar:education/2KEENO5W"
+      ],
+      "instructors": [
+        "uar:people/6UKD2PJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/HIKEXBLH",
+      "timeTableCode": "25232112",
+      "name": {
+        "ja": "伝送工学特論",
+        "en": "Advanced Transmission Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232112.html",
+      "courses": [
+        "uar:education/UI4GYBYR"
+      ],
+      "instructors": [
+        "uar:people/Q67WXXAZ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/LDFNV2FS",
+      "timeTableCode": "25331109",
+      "name": {
+        "ja": "材料強度学基礎",
+        "en": "Fundamentals of Strength and Fracture of Materials"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331109.html",
+      "courses": [
+        "uar:education/4OTIKGUL",
+        "uar:education/YVZT5EWE",
+        "uar:education/GKPUDIUG",
+        "uar:education/DDXOKAL4"
+      ],
+      "instructors": [
+        "uar:people/ASEMMDEE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/6VRPXDYT",
+      "timeTableCode": "25431108",
+      "name": {
+        "ja": "光デバイス工学基礎",
+        "en": "Fundamentals of Photonic Devices"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431108.html",
+      "courses": [
+        "uar:education/GEXMDCEO",
+        "uar:education/LROEHL2O",
+        "uar:education/H4VPM3OF",
+        "uar:education/4BRY2L3O"
+      ],
+      "instructors": [
+        "uar:people/4PI46EHS"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/RRU6JK3J",
+      "timeTableCode": "25432140",
+      "name": {
+        "ja": "生命分子化学特論",
+        "en": "Biomolecular Chemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432140.html",
+      "courses": [
+        "uar:education/G2SUO6Y5"
+      ],
+      "instructors": [
+        "uar:people/AEYKOOHS",
+        "uar:people/EHUO2UF3"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/XPTVHMJA",
+      "timeTableCode": "25132142",
+      "name": {
+        "ja": "メディアデザイン特論",
+        "en": "Advanced Media Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132142.html",
+      "courses": [
+        "uar:education/5BVY6X33"
+      ],
+      "instructors": [
+        "uar:people/Q5XTH3TF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/XUVUPKLY",
+      "timeTableCode": "25232147",
+      "name": {
+        "ja": "並列処理論第一",
+        "en": "Parallel Processing Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232147.html",
+      "courses": [
+        "uar:education/LQ54TGL5"
+      ],
+      "instructors": [
+        "uar:people/REWFE2JW"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/TIQFBEGP",
+      "timeTableCode": "25331111",
+      "name": {
+        "ja": "計測工学基礎",
+        "en": "Fundamentals of Measurement Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331111.html",
+      "courses": [
+        "uar:education/JOOKBUFY",
+        "uar:education/KCOS6AOI",
+        "uar:education/BLO6QYXO",
+        "uar:education/DSCI3PEQ"
+      ],
+      "instructors": [
+        "uar:people/IQY6OZBK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/KHQAU2IX",
+      "timeTableCode": "25432121",
+      "name": {
+        "ja": "原子光工学特論",
+        "en": "Advanced Atomic and Optical Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432121.html",
+      "courses": [
+        "uar:education/BFYMICLW"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/ZIWHHRXI"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/G53LUP6B",
+      "timeTableCode": "25432214",
+      "name": {
+        "ja": "固体照明工学特論",
+        "en": "Solid State Lighting"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432214.html",
+      "courses": [
+        "uar:education/D4YXKKNY"
+      ],
+      "instructors": [
+        "uar:people/KJBY3QE7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/Y3F7C2AL",
+      "timeTableCode": "25132133",
+      "name": {
+        "ja": "人工知能特論",
+        "en": "Artificial Intelligence"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132133.html",
+      "courses": [
+        "uar:education/RFHNWA3N"
+      ],
+      "instructors": [
+        "uar:people/ZDLDH7EF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/XTCZVMWA",
+      "timeTableCode": "25132137",
+      "name": {
+        "ja": "ネットワークアーキテクチャ論",
+        "en": "Network Architecture"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132137.html",
+      "courses": [
+        "uar:education/PRN3KT3E"
+      ],
+      "instructors": [
+        "uar:people/G5U6VNT2"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/EX42J5WL",
+      "timeTableCode": "25231110",
+      "name": {
+        "ja": "ディジタル信号処理基礎",
+        "en": "Fundamentals of Digital Signal Processing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231110.html",
+      "courses": [
+        "uar:education/W54ZIPMP",
+        "uar:education/UKO655OI"
+      ],
+      "instructors": [
+        "uar:people/ABZ4QDCC",
+        "uar:people/ASG6LQUB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/TNCX3QTS",
+      "timeTableCode": "25232127",
+      "name": {
+        "ja": "計算機構特論",
+        "en": "Topics on Theory of Computation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232127.html",
+      "courses": [
+        "uar:education/INMJW3C7"
+      ],
+      "instructors": [
+        "uar:people/ILQDJLPU"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/OOTP5VZ2",
+      "timeTableCode": "25331112",
+      "name": {
+        "ja": "ロボット工学基礎",
+        "en": "Fundamentals of Robotics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331112.html",
+      "courses": [
+        "uar:education/4D7TZXNL",
+        "uar:education/GC4SRYFL",
+        "uar:education/2LTVIQQS",
+        "uar:education/F6HBMAMS"
+      ],
+      "instructors": [
+        "uar:people/BRUZCP3G",
+        "uar:people/FS5E73XG",
+        "uar:people/O6TULR7U"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/BIK32J2T",
+      "timeTableCode": "25322102",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25322102.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/LJU24IE6"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木5"
+      ]
+    },
+    {
+      "id": "uar:education/WL4UOFFX",
+      "timeTableCode": "25422101",
+      "name": {
+        "ja": "大学院技術英語",
+        "en": "Graduate Technical English"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25422101.html",
+      "courses": [
+        "uar:education/I372HDTY"
+      ],
+      "instructors": [
+        "uar:people/BMJZUMU5"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "木5"
+      ]
+    },
+    {
+      "id": "uar:education/H3RZTLP7",
+      "timeTableCode": "25431116",
+      "name": {
+        "ja": "光化学",
+        "en": "Fundamentals of Photochemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431116.html",
+      "courses": [
+        "uar:education/UXAQV6OI",
+        "uar:education/X47PTXJW",
+        "uar:education/2P52RJVB"
+      ],
+      "instructors": [
+        "uar:people/7KXFZ7KT"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金1"
+      ]
+    },
+    {
+      "id": "uar:education/IKBZ4VOL",
+      "timeTableCode": "25132128",
+      "name": {
+        "ja": "ヒューマンインタフェース特論",
+        "en": "Advanced Human Interface"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132128.html",
+      "courses": [
+        "uar:education/I7LHAW5W"
+      ],
+      "instructors": [
+        "uar:people/GZGF7ZPU"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/KIVGSH4K",
+      "timeTableCode": "25132111",
+      "name": {
+        "ja": "マルチエージェントシステム特論",
+        "en": "Advanced Multiagent System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132111.html",
+      "courses": [
+        "uar:education/N3RQOO3V"
+      ],
+      "instructors": [
+        "uar:people/VN3TQOBK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/POH4GESZ",
+      "timeTableCode": "25132121",
+      "name": {
+        "ja": "ネットワークセキュリティ特論",
+        "en": "Advanced Network Security"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132121.html",
+      "courses": [
+        "uar:education/Y5KZQQU5"
+      ],
+      "instructors": [
+        "uar:people/ZZQEX3JE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/6SBFKAEN",
+      "timeTableCode": "25231108",
+      "name": {
+        "ja": "データ圧縮基礎",
+        "en": "Fundamentals of Data Compression"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231108.html",
+      "courses": [
+        "uar:education/H5JPLBJM",
+        "uar:education/OCIIN25W",
+        "uar:education/42IYNZSY"
+      ],
+      "instructors": [
+        "uar:people/LMTD7BAK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/7AWLM6EU",
+      "timeTableCode": "25431112",
+      "name": {
+        "ja": "生体情報学基礎",
+        "en": "Fundamentals of Information Biology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431112.html",
+      "courses": [
+        "uar:education/X7P4PQEY",
+        "uar:education/YJYBHSDN",
+        "uar:education/MLT6QCFC"
+      ],
+      "instructors": [
+        "uar:people/JQTGCUDC"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/Z5NIL5SR",
+      "timeTableCode": "25132109",
+      "name": {
+        "ja": "インタラクティブシステム特論",
+        "en": "Advanced Interactive System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132109.html",
+      "courses": [
+        "uar:education/V2QYJ7VH",
+        "uar:education/JSTW4ROH",
+        "uar:education/GJXQMCVA"
+      ],
+      "instructors": [
+        "uar:people/MUVTU4RB"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金4"
+      ]
+    },
+    {
+      "id": "uar:education/T3IRWI7G",
+      "timeTableCode": "25010102",
+      "name": {
+        "ja": "幾何学基礎論",
+        "en": "Fundamental of Geometry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010102.html",
+      "courses": [
+        "uar:education/I6B4KUPA"
+      ],
+      "instructors": [
+        "uar:people/JSRMUFXO"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/N25256UD",
+      "timeTableCode": "25010105",
+      "name": {
+        "ja": "技術者と安全・環境・倫理",
+        "en": "Engineering Safety,Environment & Ethics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010105.html",
+      "courses": [
+        "uar:education/YAQX6GKY"
+      ],
+      "instructors": [
+        "uar:people/JU7TUGIH"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/MGVECDKQ",
+      "timeTableCode": "25010124",
+      "name": {
+        "ja": "言語と論理の哲学",
+        "en": "Philosophy of Language and Logic"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010124.html",
+      "courses": [
+        "uar:education/VFGJ3XW6"
+      ],
+      "instructors": [
+        "uar:people/OKDMHI5D"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/BO2J2GA5",
+      "timeTableCode": "25023217",
+      "name": {
+        "ja": "SDGsを支える情報通信論",
+        "en": "Information and Communications Technologies for SDGs"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023217.html",
+      "courses": [
+        "uar:education/OFGVUUCV"
+      ],
+      "instructors": [
+        "uar:people/IM76OK6C",
+        "uar:people/VNTF5QIX"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/T4KBPSOD",
+      "timeTableCode": "25023111",
+      "name": {
+        "ja": "オープンイノベーションスクールⅠ",
+        "en": "Open Innovation School Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023111.html",
+      "courses": [
+        "uar:education/5H5YFPGS"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/7P2JOPFS",
+      "timeTableCode": "25023112",
+      "name": {
+        "ja": "オープンイノベーションスクールⅡ",
+        "en": "Open Innovation School Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023112.html",
+      "courses": [
+        "uar:education/BCB4JZMM"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/IK6EGPP6",
+      "timeTableCode": "25023113",
+      "name": {
+        "ja": "大学院海外語学研修Ⅰ",
+        "en": "Graduate Overseas Language Training Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023113.html",
+      "courses": [
+        "uar:education/YOAN5HCJ"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/3UETHA4L",
+      "timeTableCode": "25023114",
+      "name": {
+        "ja": "大学院海外語学研修Ⅱ",
+        "en": "Graduate Overseas Language Training Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023114.html",
+      "courses": [
+        "uar:education/DTNOXFZG"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/RUDMBW54",
+      "timeTableCode": "25023120",
+      "name": {
+        "ja": "大学院海外研修Ⅰ",
+        "en": "Advanced Overseas Training Program Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023120.html",
+      "courses": [
+        "uar:education/7Y3HTZPE"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/TDOU7WMO",
+      "timeTableCode": "25023121",
+      "name": {
+        "ja": "大学院海外研修Ⅱ",
+        "en": "Advanced Overseas Training Program Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023121.html",
+      "courses": [
+        "uar:education/M5L2A7CP"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/72GHFFGI",
+      "timeTableCode": "25023123",
+      "name": {
+        "ja": "ゲーム開発実践",
+        "en": "Project Based Learning of Game Development"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023123.html",
+      "courses": [
+        "uar:education/A6NRMA7R"
+      ],
+      "instructors": [
+        "uar:people/LJU24IE6",
+        "uar:people/MUVTU4RB",
+        "uar:people/Q5XTH3TF",
+        "uar:people/SHWYBREW"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/IFMTX7RP",
+      "timeTableCode": "25121101",
+      "name": {
+        "ja": "大学院輪講第一(Ⅰ)",
+        "en": "Graduate Seminar 1 (Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25121101.html",
+      "courses": [
+        "uar:education/4AUHZUJA"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/NB6OEZ2Z",
+      "timeTableCode": "25121103",
+      "name": {
+        "ja": "大学院輪講第一(Ⅲ)",
+        "en": "Graduate Seminar 1 (Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25121103.html",
+      "courses": [
+        "uar:education/KUIWR6G4"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/3ZFCK6G2",
+      "timeTableCode": "25124101",
+      "name": {
+        "ja": "大学院インターンシップ(令和7年度以前入学生)",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124101.html",
+      "courses": [
+        "uar:education/NZK5ZOW3"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/4ADMFJFX",
+      "timeTableCode": "25124102",
+      "name": {
+        "ja": "大学院インターンシップ(海外)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124102.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MMK74OIB",
+      "timeTableCode": "25124103",
+      "name": {
+        "ja": "大学院インターンシップ(長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124103.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/ZR7YSFFD",
+      "timeTableCode": "25124104",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124104.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/DY4CQQVC",
+      "timeTableCode": "25124105",
+      "name": {
+        "ja": "大学院インターンシップ",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124105.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/WEQH3ZAV",
+      "timeTableCode": "25124106",
+      "name": {
+        "ja": "大学院インターンシップ(海外)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124106.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/V4GPEQDZ",
+      "timeTableCode": "25124107",
+      "name": {
+        "ja": "大学院インターンシップ(長期)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124107.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/OFOLMA3I",
+      "timeTableCode": "25124108",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25124108.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO",
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/ABV4FIJW",
+      "timeTableCode": "25131101",
+      "name": {
+        "ja": "大学院実践演習(Ⅰ)",
+        "en": "Graduate School Laboratory Practicum(Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131101.html",
+      "courses": [
+        "uar:education/CDW3COXF"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/GLRBITDP",
+      "timeTableCode": "25131103",
+      "name": {
+        "ja": "大学院実践演習(Ⅲ)",
+        "en": "Graduate School Laboratory Practicum(Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131103.html",
+      "courses": [
+        "uar:education/WRZN42AM"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/XYSL2MRL",
+      "timeTableCode": "25131113",
+      "name": {
+        "ja": "会計情報システム",
+        "en": "Fundamentals of Accounting Information Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131113.html",
+      "courses": [
+        "uar:education/KHZAUI34",
+        "uar:education/REA26R3G"
+      ],
+      "instructors": [
+        "uar:people/PKNO3WRL"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MSW5ON3N",
+      "timeTableCode": "25221101",
+      "name": {
+        "ja": "大学院輪講第一(Ⅰ)",
+        "en": "Graduate Seminar 1 (Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25221101.html",
+      "courses": [
+        "uar:education/4AUHZUJA"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/IVAAKVCE",
+      "timeTableCode": "25221103",
+      "name": {
+        "ja": "大学院輪講第一(Ⅲ)",
+        "en": "Graduate Seminar 1 (Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25221103.html",
+      "courses": [
+        "uar:education/KUIWR6G4"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/BSTKRALI",
+      "timeTableCode": "25224101",
+      "name": {
+        "ja": "大学院インターンシップ(令和7年度以前入学生)",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224101.html",
+      "courses": [
+        "uar:education/NZK5ZOW3"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/S73XJ3RC",
+      "timeTableCode": "25224102",
+      "name": {
+        "ja": "大学院インターンシップ(海外)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224102.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MI47JLPM",
+      "timeTableCode": "25224103",
+      "name": {
+        "ja": "大学院インターンシップ(長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224103.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/ZL2RXAUN",
+      "timeTableCode": "25224104",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224104.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2UXIT527",
+      "timeTableCode": "25224105",
+      "name": {
+        "ja": "大学院インターンシップ",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224105.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/OHYRNXMV",
+      "timeTableCode": "25224106",
+      "name": {
+        "ja": "大学院インターンシップ(海外)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224106.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/I7T5J4FE",
+      "timeTableCode": "25224107",
+      "name": {
+        "ja": "大学院インターンシップ(長期)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224107.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/AYVAPUW6",
+      "timeTableCode": "25224108",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25224108.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/W35JBUCY",
+      "timeTableCode": "25231101",
+      "name": {
+        "ja": "大学院実践演習(Ⅰ)",
+        "en": "Graduate School Laboratory Practicum(Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231101.html",
+      "courses": [
+        "uar:education/CDW3COXF"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/FUSZ2YJB",
+      "timeTableCode": "25231103",
+      "name": {
+        "ja": "大学院実践演習(Ⅲ)",
+        "en": "Graduate School Laboratory Practicum(Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231103.html",
+      "courses": [
+        "uar:education/WRZN42AM"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/7B6FZX4H",
+      "timeTableCode": "25232101",
+      "name": {
+        "ja": "集積回路設計特論",
+        "en": "Advanced Integrated Circuit Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232101.html",
+      "courses": [
+        "uar:education/GS6PQ4L4"
+      ],
+      "instructors": [
+        "uar:people/J7H4RFQL",
+        "uar:people/UNPW5GTL"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/CD7MNXHA",
+      "timeTableCode": "25232102",
+      "name": {
+        "ja": "マイクロ波回路設計特論",
+        "en": "Advanced Microwave Circuit Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232102.html",
+      "courses": [
+        "uar:education/2JLNOTNB",
+        "uar:education/4UPFCQ5T"
+      ],
+      "instructors": [
+        "uar:people/SVKCTHM5"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2TGQC5AR",
+      "timeTableCode": "25321101",
+      "name": {
+        "ja": "大学院輪講第一(Ⅰ)",
+        "en": "Graduate Seminar 1 (Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25321101.html",
+      "courses": [
+        "uar:education/4AUHZUJA"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/C4BMJ564",
+      "timeTableCode": "25321103",
+      "name": {
+        "ja": "大学院輪講第一(Ⅲ)",
+        "en": "Graduate Seminar 1 (Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25321103.html",
+      "courses": [
+        "uar:education/KUIWR6G4"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2VD7QHM2",
+      "timeTableCode": "25324101",
+      "name": {
+        "ja": "大学院インターンシップ(令和7年度以前入学生)",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324101.html",
+      "courses": [
+        "uar:education/NZK5ZOW3"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/UAYH5Z7L",
+      "timeTableCode": "25324102",
+      "name": {
+        "ja": "大学院インターンシップ(海外)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324102.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/4ZCHEAUV",
+      "timeTableCode": "25324103",
+      "name": {
+        "ja": "大学院インターンシップ(長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324103.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/GPRREXAH",
+      "timeTableCode": "25324104",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324104.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/UFVNFPLD",
+      "timeTableCode": "25324105",
+      "name": {
+        "ja": "大学院インターンシップ",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324105.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SR3WUBMG",
+      "timeTableCode": "25324106",
+      "name": {
+        "ja": "大学院インターンシップ(海外)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324106.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/TPFI6IM4",
+      "timeTableCode": "25324107",
+      "name": {
+        "ja": "大学院インターンシップ(長期)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324107.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5PYJSAYW",
+      "timeTableCode": "25324108",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25324108.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/QOSUQ4II",
+      "timeTableCode": "25331101",
+      "name": {
+        "ja": "大学院実践演習(Ⅰ)",
+        "en": "Graduate School Laboratory Practicum(Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331101.html",
+      "courses": [
+        "uar:education/CDW3COXF"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/H6XLARAC",
+      "timeTableCode": "25331103",
+      "name": {
+        "ja": "大学院実践演習(Ⅲ)",
+        "en": "Graduate School Laboratory Practicum(Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331103.html",
+      "courses": [
+        "uar:education/WRZN42AM"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5XNZXS5S",
+      "timeTableCode": "25332108",
+      "name": {
+        "ja": "大学院国際協働学術研修",
+        "en": "Graduate International Jointly Offered Academic Training Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332108.html",
+      "courses": [
+        "uar:education/C7CIWG7D",
+        "uar:education/SRDXNCZ6"
+      ],
+      "instructors": [
+        "uar:people/EQCRKYCH",
+        "uar:people/FS5E73XG",
+        "uar:people/JSXZEFZA",
+        "uar:people/LJU24IE6",
+        "uar:people/O6TULR7U",
+        "uar:people/OSAXS7OW",
+        "uar:people/T6AIVFFC"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/QJEODCAB",
+      "timeTableCode": "25332109",
+      "name": {
+        "ja": "大学院国際協働学術研修(長期)",
+        "en": "Graduate International Jointly Offered Academic Training Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332109.html",
+      "courses": [
+        "uar:education/C7CIWG7D",
+        "uar:education/SRDXNCZ6"
+      ],
+      "instructors": [
+        "uar:people/EQCRKYCH",
+        "uar:people/FS5E73XG",
+        "uar:people/JSXZEFZA",
+        "uar:people/LJU24IE6",
+        "uar:people/O6TULR7U",
+        "uar:people/OSAXS7OW",
+        "uar:people/T6AIVFFC"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/PZUXBZ5T",
+      "timeTableCode": "25421101",
+      "name": {
+        "ja": "大学院輪講第一(Ⅰ)",
+        "en": "Graduate Seminar 1 (Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25421101.html",
+      "courses": [
+        "uar:education/4AUHZUJA"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/OYDBSIWO",
+      "timeTableCode": "25421103",
+      "name": {
+        "ja": "大学院輪講第一(Ⅲ)",
+        "en": "Graduate Seminar 1 (Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25421103.html",
+      "courses": [
+        "uar:education/KUIWR6G4"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SMTIF4CK",
+      "timeTableCode": "25424101",
+      "name": {
+        "ja": "大学院インターンシップ(令和7年度以前入学生)",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424101.html",
+      "courses": [
+        "uar:education/NZK5ZOW3"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/LXYNULGG",
+      "timeTableCode": "25424102",
+      "name": {
+        "ja": "大学院インターンシップ(海外)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424102.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2RSTJUZI",
+      "timeTableCode": "25424103",
+      "name": {
+        "ja": "大学院インターンシップ(長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424103.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2SDCNOZY",
+      "timeTableCode": "25424104",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)(令和7年度以前入学生)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424104.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/4KOXSA3W",
+      "timeTableCode": "25424105",
+      "name": {
+        "ja": "大学院インターンシップ",
+        "en": "Advanced Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424105.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/XISRKPHZ",
+      "timeTableCode": "25424106",
+      "name": {
+        "ja": "大学院インターンシップ(海外)",
+        "en": "Advanced Internship (Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424106.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/V4UKEVNJ",
+      "timeTableCode": "25424107",
+      "name": {
+        "ja": "大学院インターンシップ(長期)",
+        "en": "Advanced Internship (Long-term)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424107.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/CJN64GGS"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/F62AYBMQ",
+      "timeTableCode": "25424108",
+      "name": {
+        "ja": "大学院インターンシップ(海外・長期)",
+        "en": "Advanced Internship (Long-term & Overseas)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25424108.html",
+      "courses": [
+        "uar:education/NZK5ZOW3",
+        "uar:education/HLOTWDI4"
+      ],
+      "instructors": [
+        "uar:people/4VJIY3KF",
+        "uar:people/5SAOCJMQ"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/X7VZMPUG",
+      "timeTableCode": "25431101",
+      "name": {
+        "ja": "大学院実践演習(Ⅰ)",
+        "en": "Graduate School Laboratory Practicum(Ⅰ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431101.html",
+      "courses": [
+        "uar:education/CDW3COXF"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/EPTN4A5K",
+      "timeTableCode": "25431103",
+      "name": {
+        "ja": "大学院実践演習(Ⅲ)",
+        "en": "Graduate School Laboratory Practicum(Ⅲ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431103.html",
+      "courses": [
+        "uar:education/WRZN42AM"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/QAB2ISAN",
+      "timeTableCode": "25431110",
+      "name": {
+        "ja": "固体物性論基礎",
+        "en": "Fundamentals of Solid State Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431110.html",
+      "courses": [
+        "uar:education/WEEPQ7IZ",
+        "uar:education/DNUWTLP3",
+        "uar:education/LZFR47U7",
+        "uar:education/KWH2KDTE",
+        "uar:education/F2C46XMO"
+      ],
+      "instructors": [
+        "uar:people/NUYTWY6T",
+        "uar:people/WXIMOOM4"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/L564OPWK",
+      "timeTableCode": "25431119",
+      "name": {
+        "ja": "生物有機化学",
+        "en": "Bio-organic chemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431119.html",
+      "courses": [
+        "uar:education/X4FTYCD4",
+        "uar:education/YEKANXOE"
+      ],
+      "instructors": [
+        "uar:people/P37EGXEV"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/C3VCIP7T",
+      "timeTableCode": "25432113",
+      "name": {
+        "ja": "物理工学特論",
+        "en": "Advanced Engineering Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432113.html",
+      "courses": [
+        "uar:education/HG4WCMQX"
+      ],
+      "instructors": [
+        "uar:people/V2KTSVGS"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/H2CYYMDT",
+      "timeTableCode": "25432141",
+      "name": {
+        "ja": "オープンラボワークⅠ挑戦",
+        "en": "Open Lab work Ⅰ - Challenge"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432141.html",
+      "courses": [
+        "uar:education/UY4TGPDI"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SDSTJOQA",
+      "timeTableCode": "25432142",
+      "name": {
+        "ja": "オープンラボワークⅡ開拓",
+        "en": "Open Lab work Ⅱ - Cultivation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432142.html",
+      "courses": [
+        "uar:education/LLVH3C42"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/OGKSHTKW",
+      "timeTableCode": "25432143",
+      "name": {
+        "ja": "オープンラボワークⅢ融合",
+        "en": "Open Lab work Ⅲ - Integration"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432143.html",
+      "courses": [
+        "uar:education/U6W3VD35"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/ATZ7PC3Z",
+      "timeTableCode": "25432144",
+      "name": {
+        "ja": "オープンラボワークⅣ革新",
+        "en": "Open Lab work Ⅳ - Innovation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432144.html",
+      "courses": [
+        "uar:education/WNSGS4UP"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 4,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/PRTCJU3S",
+      "timeTableCode": "25432145",
+      "name": {
+        "ja": "化学生命工学特論A",
+        "en": "Selected Topics in Chemistry and Biotechnology A"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432145.html",
+      "courses": [
+        "uar:education/7QRXRFJA",
+        "uar:education/HKEMZ2ZW"
+      ],
+      "instructors": [
+        "uar:people/VMIWADXX"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/TP3YOLZD",
+      "timeTableCode": "25023306",
+      "name": {
+        "ja": "危機・限界体験特別実験",
+        "en": "Advanced Experiments of Danger Experience and Failing Observation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023306.html",
+      "courses": [
+        "uar:education/LMPU7DIB"
+      ],
+      "instructors": [
+        "uar:people/3Q4VGPDS",
+        "uar:people/IILTNTIZ",
+        "uar:people/STHGAYQ3"
+      ],
+      "numberOfCredits": 2,
+      "term": "通年",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/S5VTFHVP",
+      "timeTableCode": "25023310",
+      "name": {
+        "ja": "実システム創造",
+        "en": "Project-based Learning of Practical Information System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023310.html",
+      "courses": [
+        "uar:education/44N6Y2LP"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK",
+        "uar:people/NL5W7DAQ",
+        "uar:people/ZPLRAHFO"
+      ],
+      "numberOfCredits": 2,
+      "term": "通年",
+      "periods": [
+        "水4"
+      ]
+    },
+    {
+      "id": "uar:education/X4BLV24A",
+      "timeTableCode": "25020301",
+      "name": {
+        "ja": "GLTPセミナー",
+        "en": "GLTP Seminar"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25020301.html",
+      "courses": [
+        "uar:education/K6ABV2VO"
+      ],
+      "instructors": [
+        "uar:people/BMJZUMU5"
+      ],
+      "numberOfCredits": 1,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/C65D5T3M",
+      "timeTableCode": "25023304",
+      "name": {
+        "ja": "ETL(Elementary Teaching Laboratory)",
+        "en": "ETL (Elementary Teaching Laboratory)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023304.html",
+      "courses": [
+        "uar:education/ASSV54C4"
+      ],
+      "instructors": [
+        "uar:people/3Q4VGPDS",
+        "uar:people/STHGAYQ3"
+      ],
+      "numberOfCredits": 2,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/6W6MJY7X",
+      "timeTableCode": "25010122",
+      "name": {
+        "ja": "大学院特別講義(デザイン思考実践(特論))",
+        "en": "Special Lecture on Informatics and Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010122.html",
+      "courses": [
+        "uar:education/7XZCFUY3"
+      ],
+      "instructors": [
+        "uar:people/XBZB5I5Q"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2D6ID2M4",
+      "timeTableCode": "25131110",
+      "name": {
+        "ja": "実践ソフトウェア開発基礎論",
+        "en": "Fundamentals of Practical Software Development"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131110.html",
+      "courses": [
+        "uar:education/QO7RRZ7I",
+        "uar:education/LCWWTR76",
+        "uar:education/OHJRZSTR",
+        "uar:education/55DZ2RTJ",
+        "uar:education/FE4YM26S"
+      ],
+      "instructors": [
+        "uar:people/CNMR4IHF"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2ZLXIA4L",
+      "timeTableCode": "25132143",
+      "name": {
+        "ja": "大学院データサイエンス実践演習1",
+        "en": "Advanced Practical Exercise in Data Science 1"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132143.html",
+      "courses": [
+        "uar:education/5RTFPLDR"
+      ],
+      "instructors": [
+        "uar:people/CNMR4IHF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/IVDJVDB5",
+      "timeTableCode": "25132144",
+      "name": {
+        "ja": "大学院データサイエンス実践演習2",
+        "en": "Advanced Practical Exercise in Data Science 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132144.html",
+      "courses": [
+        "uar:education/K66YFZUL"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/DWOGH7HN",
+      "timeTableCode": "25431118",
+      "name": {
+        "ja": "固体量子工学",
+        "en": "Fundamentals of Solid State Electronics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431118.html",
+      "courses": [
+        "uar:education/VTQ7TZJL",
+        "uar:education/RK5NWZV7"
+      ],
+      "instructors": [
+        "uar:people/QX6YHQC5"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/U2RPL4AY",
+      "timeTableCode": "25132207",
+      "name": {
+        "ja": "コミュニケーション論特論",
+        "en": "Advanced Lectures on Communication"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132207.html",
+      "courses": [
+        "uar:education/YYI5SIIM"
+      ],
+      "instructors": [
+        "uar:people/GAQMWSPI"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/IA4YAZWZ",
+      "timeTableCode": "25231216",
+      "name": {
+        "ja": "シミュレーション理工学基礎論",
+        "en": "Fundamentals of Simulation in Science and Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231216.html",
+      "courses": [
+        "uar:education/6J5WDNEL",
+        "uar:education/AHQTV3BV"
+      ],
+      "instructors": [
+        "uar:people/DW3EI262"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/R5YND62Y",
+      "timeTableCode": "25332207",
+      "name": {
+        "ja": "メカトロニクス特論",
+        "en": "Advanced Mechatronics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332207.html",
+      "courses": [
+        "uar:education/DKW7OYJ4",
+        "uar:education/HWVVSKAX",
+        "uar:education/5I2RP7OV",
+        "uar:education/IJOQSXYV"
+      ],
+      "instructors": [
+        "uar:people/IUWYYWJW",
+        "uar:people/JSXZEFZA"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/6UN2KQS5",
+      "timeTableCode": "25431217",
+      "name": {
+        "ja": "応用電磁気学",
+        "en": "Fundamentals of Electromagnetic Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431217.html",
+      "courses": [
+        "uar:education/BOGC626G",
+        "uar:education/LOFAFCSP",
+        "uar:education/UXFDCP4Q"
+      ],
+      "instructors": [
+        "uar:people/7XAGGJW5",
+        "uar:people/TTQJREIJ"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月2"
+      ]
+    },
+    {
+      "id": "uar:education/54RYZDJY",
+      "timeTableCode": "25132217",
+      "name": {
+        "ja": "人間工学特論",
+        "en": "Advanced Topics on Ergonomics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132217.html",
+      "courses": [
+        "uar:education/453Q22LQ"
+      ],
+      "instructors": [
+        "uar:people/GLRQ5M2Y"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/D5BRZ22Q",
+      "timeTableCode": "25232244",
+      "name": {
+        "ja": "基盤ソフトウェア特論",
+        "en": "Advanced Progamming Languages: Concepts and Implementation"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232244.html",
+      "courses": [
+        "uar:education/DMXDSNW5"
+      ],
+      "instructors": [
+        "uar:people/NL5W7DAQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/WSVBWPLM",
+      "timeTableCode": "25332208",
+      "name": {
+        "ja": "ロボット応用工学特論",
+        "en": "Advanced Robotics Engineering and Applications"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332208.html",
+      "courses": [
+        "uar:education/KVSXCD34",
+        "uar:education/RGA42UED",
+        "uar:education/MIURUUTP",
+        "uar:education/P7ZG4TJW"
+      ],
+      "instructors": [
+        "uar:people/35332NAW",
+        "uar:people/LLU3R6VP"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/PW2EBWYD",
+      "timeTableCode": "25432224",
+      "name": {
+        "ja": "Ⅹ線結晶学特論",
+        "en": "Advanced Ⅹ-Ray Crystallography"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432224.html",
+      "courses": [
+        "uar:education/J23VQAZQ",
+        "uar:education/K4PU6SNK"
+      ],
+      "instructors": [
+        "uar:people/TFBL2SXR"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月3"
+      ]
+    },
+    {
+      "id": "uar:education/7WUYKGHD",
+      "timeTableCode": "25232209",
+      "name": {
+        "ja": "センシング工学特論",
+        "en": "Advanced Sensing Technology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232209.html",
+      "courses": [
+        "uar:education/S3Q4CTEQ",
+        "uar:education/RC4EBLST",
+        "uar:education/IV2B37NK"
+      ],
+      "instructors": [
+        "uar:people/6FEERS2J"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/SRSAOTNB",
+      "timeTableCode": "25232222",
+      "name": {
+        "ja": "アルゴリズム特論",
+        "en": "Topics on Algorithms"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232222.html",
+      "courses": [
+        "uar:education/R6KWIRYG",
+        "uar:education/47727RAG",
+        "uar:education/3TXGXIZG"
+      ],
+      "instructors": [
+        "uar:people/X3I3ZS2M"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/EIXJXEJA",
+      "timeTableCode": "25332209",
+      "name": {
+        "ja": "ロボット機構制御特論",
+        "en": "Advanced Course of Robotics and Control"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332209.html",
+      "courses": [
+        "uar:education/J4XI2IAE",
+        "uar:education/WVOIWSSZ",
+        "uar:education/RHOKDNC4",
+        "uar:education/YOIOKTTD"
+      ],
+      "instructors": [
+        "uar:people/NPMAASJ2",
+        "uar:people/T6AIVFFC"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月4"
+      ]
+    },
+    {
+      "id": "uar:education/5FIH7AGP",
+      "timeTableCode": "25132203",
+      "name": {
+        "ja": "画像認識システム特論",
+        "en": "Advanced Image Recognition Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132203.html",
+      "courses": [
+        "uar:education/XZCQOH7T",
+        "uar:education/3CTMQG2X",
+        "uar:education/CMWUMRT4",
+        "uar:education/WNKRGK6O",
+        "uar:education/V2N2YKR3"
+      ],
+      "instructors": [
+        "uar:people/JURNZTCR"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "月5"
+      ]
+    },
+    {
+      "id": "uar:education/T5UKU642",
+      "timeTableCode": "25332215",
+      "name": {
+        "ja": "知的生産システム特論",
+        "en": "Advanced Intelligent Production System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332215.html",
+      "courses": [
+        "uar:education/ZGDDB7PJ",
+        "uar:education/WA4SYEHK",
+        "uar:education/Q7DGB4ZZ",
+        "uar:education/WHH7B2BH"
+      ],
+      "instructors": [
+        "uar:people/AQJQ5IUN"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/3GMJMBC7",
+      "timeTableCode": "25432230",
+      "name": {
+        "ja": "物理化学特論",
+        "en": "Advanced Physical Chemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432230.html",
+      "courses": [
+        "uar:education/LYN3X6F3",
+        "uar:education/XO4GBVTF"
+      ],
+      "instructors": [
+        "uar:people/LEYPSBJL"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火1"
+      ]
+    },
+    {
+      "id": "uar:education/XZYOZSYI",
+      "timeTableCode": "25132218",
+      "name": {
+        "ja": "生産システム特論",
+        "en": "Advanced Manufacturing Systems Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132218.html",
+      "courses": [
+        "uar:education/ZLHGCDM2"
+      ],
+      "instructors": [
+        "uar:people/5JEAVFWW"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/QFD7WNTY",
+      "timeTableCode": "25231218",
+      "name": {
+        "ja": "離散最適化基礎論",
+        "en": "Foundation of Discrete Optimization"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231218.html",
+      "courses": [
+        "uar:education/BYQ3NU2V",
+        "uar:education/S2ZPLXSP",
+        "uar:education/7XHKSZOH"
+      ],
+      "instructors": [
+        "uar:people/QXZPC4WO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/HNG7KWSU",
+      "timeTableCode": "25332214",
+      "name": {
+        "ja": "設計システム工学特論",
+        "en": "Advanced Engineering of Design Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332214.html",
+      "courses": [
+        "uar:education/AZOI42MS",
+        "uar:education/LYGY5N6F",
+        "uar:education/GIMFKNPI",
+        "uar:education/5UZFDUKR"
+      ],
+      "instructors": [
+        "uar:people/T4RQHZ4M",
+        "uar:people/TQ5BT22M"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/CZBJMGCD",
+      "timeTableCode": "25432211",
+      "name": {
+        "ja": "情報光工学特論",
+        "en": "Advanced Information Optics and Photonics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432211.html",
+      "courses": [
+        "uar:education/A4BU5LHE"
+      ],
+      "instructors": [
+        "uar:people/2KBG2FV5"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火2"
+      ]
+    },
+    {
+      "id": "uar:education/LFZGHSQM",
+      "timeTableCode": "25132238",
+      "name": {
+        "ja": "コンピュータネットワーク特論",
+        "en": "Advanced Computer Networks"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132238.html",
+      "courses": [
+        "uar:education/SAECC3NB"
+      ],
+      "instructors": [
+        "uar:people/2MLDHKO7"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/J6DBNUKA",
+      "timeTableCode": "25231214",
+      "name": {
+        "ja": "応用アルゴリズム論",
+        "en": "Applied Algorithms"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231214.html",
+      "courses": [
+        "uar:education/YXDAZ4UP",
+        "uar:education/L5JZXNJW",
+        "uar:education/LHD2EXAI"
+      ],
+      "instructors": [
+        "uar:people/4JQPYR2L"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/Z6GRH7WB",
+      "timeTableCode": "25232214",
+      "name": {
+        "ja": "生体電磁工学特論",
+        "en": "Advanced electromagnetics Engineering and Applications"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232214.html",
+      "courses": [
+        "uar:education/OUQV45AR"
+      ],
+      "instructors": [
+        "uar:people/YWKA5GN4"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/PVJLOV4K",
+      "timeTableCode": "25232238",
+      "name": {
+        "ja": "計算機ネットワーク特論",
+        "en": "Advanced Interconnection Networks"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232238.html",
+      "courses": [
+        "uar:education/AJLMS4YG"
+      ],
+      "instructors": [
+        "uar:people/3HDO73TE"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/HQXFO2GX",
+      "timeTableCode": "25431214",
+      "name": {
+        "ja": "量子エネルギー科学",
+        "en": "Quantum Energy Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431214.html",
+      "courses": [
+        "uar:education/4MOMZY2O",
+        "uar:education/QAKEREPS",
+        "uar:education/VNERRBSJ"
+      ],
+      "instructors": [
+        "uar:people/JOEY4M6R"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/A4TKWGRC",
+      "timeTableCode": "25432215",
+      "name": {
+        "ja": "量子情報光学特論",
+        "en": "Quantum Information Optics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432215.html",
+      "courses": [
+        "uar:education/WEZJEPVX"
+      ],
+      "instructors": [
+        "uar:people/3Q4VGPDS",
+        "uar:people/YQIMQF5M"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火3"
+      ]
+    },
+    {
+      "id": "uar:education/PDD3UUAG",
+      "timeTableCode": "25132222",
+      "name": {
+        "ja": "離散情報構造特論",
+        "en": "Advanced Topics on Discrete Information Structure"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132222.html",
+      "courses": [
+        "uar:education/77MGPF2M"
+      ],
+      "instructors": [
+        "uar:people/LE7U3UZ4"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/7K3XLNT2",
+      "timeTableCode": "25132230",
+      "name": {
+        "ja": "知能ロボティクス特論",
+        "en": "Advanced Topics on Intelligent Robotics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132230.html",
+      "courses": [
+        "uar:education/4U53PSYO"
+      ],
+      "instructors": [
+        "uar:people/YYI3BMPV"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/YIU3JDEV",
+      "timeTableCode": "25232213",
+      "name": {
+        "ja": "電磁波環境観測技術特論",
+        "en": "Advanced topics on electromagnetic wave technology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232213.html",
+      "courses": [
+        "uar:education/TUHA2FXA",
+        "uar:education/MKVPIXC2"
+      ],
+      "instructors": [
+        "uar:people/KQS6LQQ7"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/HPP73ZP5",
+      "timeTableCode": "25232231",
+      "name": {
+        "ja": "情報ネットワーク特論",
+        "en": "Topics on Information Networks"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232231.html",
+      "courses": [
+        "uar:education/FGUI5FWJ"
+      ],
+      "instructors": [
+        "uar:people/YKAOCMUP"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/ONJIEE46",
+      "timeTableCode": "25431220",
+      "name": {
+        "ja": "生体機能システム学基礎",
+        "en": "Basic human physiology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431220.html",
+      "courses": [
+        "uar:education/IJHDG64Q",
+        "uar:education/ZIH4UAC6"
+      ],
+      "instructors": [
+        "uar:people/T3NMARXL",
+        "uar:people/XEQSCPLF"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/VOLLGZWL",
+      "timeTableCode": "25432218",
+      "name": {
+        "ja": "ナノトライボロジー特論",
+        "en": "Advanced Nanotribology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432218.html",
+      "courses": [
+        "uar:education/PUUJYLEU",
+        "uar:education/KC3N5UVK",
+        "uar:education/MEM2TBRW",
+        "uar:education/HXGPELAJ",
+        "uar:education/2S7EUQO4"
+      ],
+      "instructors": [
+        "uar:people/ZJ7PBIAL"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火4"
+      ]
+    },
+    {
+      "id": "uar:education/UMZM754D",
+      "timeTableCode": "25010106",
+      "name": {
+        "ja": "国際社会の政治・経済",
+        "en": "Politics and Economics of International Society"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010106.html",
+      "courses": [
+        "uar:education/HDHSPYWS"
+      ],
+      "instructors": [
+        "uar:people/QXRSQY5R"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/3M25UXLH",
+      "timeTableCode": "25010212",
+      "name": {
+        "ja": "解析学特論",
+        "en": "Advanced Topics in Analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010212.html",
+      "courses": [
+        "uar:education/3CLSVCPU"
+      ],
+      "instructors": [
+        "uar:people/J2IKPUUV"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/JNYDT4HR",
+      "timeTableCode": "25023209",
+      "name": {
+        "ja": "IT最前線",
+        "en": "Leading Edge Information Technology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023209.html",
+      "courses": [
+        "uar:education/ML56CDUA"
+      ],
+      "instructors": [
+        "uar:people/GZGF7ZPU",
+        "uar:people/YYI3BMPV"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/C6SCEE2M",
+      "timeTableCode": "25232143",
+      "name": {
+        "ja": "システムソフトウェア特論",
+        "en": "Advanced Topics on System Software"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232143.html",
+      "courses": [
+        "uar:education/GIH4XDN3"
+      ],
+      "instructors": [
+        "uar:people/HIYNRYDZ"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "火5"
+      ]
+    },
+    {
+      "id": "uar:education/R6SSK3MI",
+      "timeTableCode": "25010208",
+      "name": {
+        "ja": "科学技術の歴史",
+        "en": "History of Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010208.html",
+      "courses": [
+        "uar:education/XQRZIVTU"
+      ],
+      "instructors": [
+        "uar:people/3NE3FBU5"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水1"
+      ]
+    },
+    {
+      "id": "uar:education/BINDO4ZE",
+      "timeTableCode": "25132224",
+      "name": {
+        "ja": "暗号理論特論",
+        "en": "Advanced Topics on Cryptography"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132224.html",
+      "courses": [
+        "uar:education/PHGC47VS"
+      ],
+      "instructors": [
+        "uar:people/7JCGFXFP",
+        "uar:people/HZLV3PHO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/FOW3TQW4",
+      "timeTableCode": "25132227",
+      "name": {
+        "ja": "対話型システム特論",
+        "en": "Advanced Topics in Interactive Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132227.html",
+      "courses": [
+        "uar:education/NDSMKBPW"
+      ],
+      "instructors": [
+        "uar:people/Z75Y3CKY"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/CI23VGE6",
+      "timeTableCode": "25132234",
+      "name": {
+        "ja": "時空間情報科学特論",
+        "en": "Spatiotemporal Informatics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132234.html",
+      "courses": [
+        "uar:education/KEWMA53P"
+      ],
+      "instructors": [
+        "uar:people/TVQANKJS"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/3EPB4MZS",
+      "timeTableCode": "25132245",
+      "name": {
+        "ja": "意思決定科学特論",
+        "en": "Advanced Decision Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132245.html",
+      "courses": [
+        "uar:education/C6XNYU72"
+      ],
+      "instructors": [
+        "uar:people/HBBOANPH"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/23QMGR4X",
+      "timeTableCode": "25232235",
+      "name": {
+        "ja": "情報幾何学特論",
+        "en": "Advanced Topics on Information Geometry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232235.html",
+      "courses": [
+        "uar:education/NPGJXEXW"
+      ],
+      "instructors": [
+        "uar:people/E3ABZWXO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/L4ACFUYJ",
+      "timeTableCode": "25332213",
+      "name": {
+        "ja": "ロボット情報工学特論",
+        "en": "Advanced Information Engineering for Robotics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332213.html",
+      "courses": [
+        "uar:education/E34WW64Q",
+        "uar:education/PKRKZV5G",
+        "uar:education/JHFONRQF",
+        "uar:education/YYGBHBFR"
+      ],
+      "instructors": [
+        "uar:people/7PNYCYGZ",
+        "uar:people/XGZ4EWC3"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/CRGEO4G3",
+      "timeTableCode": "25432229",
+      "name": {
+        "ja": "無機物質化学特論",
+        "en": "Advanced Inorganic Materials Chemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432229.html",
+      "courses": [
+        "uar:education/2JG3WHRA",
+        "uar:education/VN56EJEF"
+      ],
+      "instructors": [
+        "uar:people/S2FD7QN5"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水2"
+      ]
+    },
+    {
+      "id": "uar:education/HRR4YC53",
+      "timeTableCode": "25023101",
+      "name": {
+        "ja": "ベンチャービジネス特論",
+        "en": "Advanced Lectures on Venture Business"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023101.html",
+      "courses": [
+        "uar:education/YR57ZI6S"
+      ],
+      "instructors": [
+        "uar:people/J6PTFVF3"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水3"
+      ]
+    },
+    {
+      "id": "uar:education/FWTFKTKJ",
+      "timeTableCode": "25010214",
+      "name": {
+        "ja": "教育学特論",
+        "en": "Advanced Pedagogy"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010214.html",
+      "courses": [
+        "uar:education/SOJGEPTE"
+      ],
+      "instructors": [
+        "uar:people/2SQHMYHS"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水4"
+      ]
+    },
+    {
+      "id": "uar:education/XQTENTLY",
+      "timeTableCode": "25010220",
+      "name": {
+        "ja": "日本語と思考",
+        "en": "Japanese Language and Thought"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010220.html",
+      "courses": [
+        "uar:education/4JNXSTJW"
+      ],
+      "instructors": [
+        "uar:people/2U2X7WA2"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水4"
+      ]
+    },
+    {
+      "id": "uar:education/IEPTRTCZ",
+      "timeTableCode": "25023202",
+      "name": {
+        "ja": "知的財産権特論",
+        "en": "Advanced Intellectual Property"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023202.html",
+      "courses": [
+        "uar:education/R2QMCOVK"
+      ],
+      "instructors": [
+        "uar:people/OODMRXYP"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水4"
+      ]
+    },
+    {
+      "id": "uar:education/XK4HEUPC",
+      "timeTableCode": "25010211",
+      "name": {
+        "ja": "幾何学特論",
+        "en": "Advanced Topics of Geometry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010211.html",
+      "courses": [
+        "uar:education/VRSFHXRL"
+      ],
+      "instructors": [
+        "uar:people/HS7PPYK2"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水5"
+      ]
+    },
+    {
+      "id": "uar:education/NLJWIMLW",
+      "timeTableCode": "25010216",
+      "name": {
+        "ja": "世界の多極化と異文化理解",
+        "en": "Multipolarization of the World and Cross-cultural Understanding"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010216.html",
+      "courses": [
+        "uar:education/EBMWXVT3"
+      ],
+      "instructors": [
+        "uar:people/ABE7X7TT",
+        "uar:people/DMD3AVQM",
+        "uar:people/SBUGM2RY",
+        "uar:people/SEZCGIO7",
+        "uar:people/U3ZWKNQ2"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水5"
+      ]
+    },
+    {
+      "id": "uar:education/PRBWXF7B",
+      "timeTableCode": "25023203",
+      "name": {
+        "ja": "先端技術開発特論",
+        "en": "Advanced Engineering Development"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023203.html",
+      "courses": [
+        "uar:education/TVYOVNHI"
+      ],
+      "instructors": [
+        "uar:people/BMJZUMU5"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水5"
+      ]
+    },
+    {
+      "id": "uar:education/MWBKMPL2",
+      "timeTableCode": "25131220",
+      "name": {
+        "ja": "現代代数学",
+        "en": "Modern Algebra"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131220.html",
+      "courses": [
+        "uar:education/I2C44RQH",
+        "uar:education/PVEE2ZJT",
+        "uar:education/ZFAM2ESR",
+        "uar:education/V3MCUYXW",
+        "uar:education/EL6R5TGS"
+      ],
+      "instructors": [
+        "uar:people/R6QHQUWJ"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "水5"
+      ]
+    },
+    {
+      "id": "uar:education/VQXUV7NQ",
+      "timeTableCode": "25232224",
+      "name": {
+        "ja": "知能情報特論",
+        "en": "Advanced Intelligent Information Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232224.html",
+      "courses": [
+        "uar:education/54MIJMK4"
+      ],
+      "instructors": [
+        "uar:people/SHWYBREW"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/W35BLIUJ",
+      "timeTableCode": "25332217",
+      "name": {
+        "ja": "力学系現象特論",
+        "en": "Advanced Theory of Dynamical Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332217.html",
+      "courses": [
+        "uar:education/HVI4EZSQ",
+        "uar:education/FT5XGAF4",
+        "uar:education/XLSDWI3U",
+        "uar:education/LE2YQOMA"
+      ],
+      "instructors": [
+        "uar:people/SW2AXMZY",
+        "uar:people/YIOKKS5I"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/XABFECKU",
+      "timeTableCode": "25131216",
+      "name": {
+        "ja": "ソフトウェア品質学",
+        "en": "Software Quality"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131216.html",
+      "courses": [
+        "uar:education/JBCAA7NY",
+        "uar:education/CA34AADY",
+        "uar:education/MFO2UJ7D"
+      ],
+      "instructors": [
+        "uar:people/ZPLRAHFO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/PALL2JCR",
+      "timeTableCode": "25232205",
+      "name": {
+        "ja": "情報理論特論",
+        "en": "Advanced Information Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232205.html",
+      "courses": [
+        "uar:education/6ZVFOLGF"
+      ],
+      "instructors": [
+        "uar:people/BONH7BQC"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/RYC244JD",
+      "timeTableCode": "25232232",
+      "name": {
+        "ja": "ネットワークアプリケーション特論",
+        "en": "Advanced Topics on Network Applications"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232232.html",
+      "courses": [
+        "uar:education/KTH2FI2O"
+      ],
+      "instructors": [
+        "uar:people/XCCPH47B"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/TZFFJQPG",
+      "timeTableCode": "25232234",
+      "name": {
+        "ja": "統計的機械学習特論",
+        "en": "Advanced Statistical Machine Learning"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232234.html",
+      "courses": [
+        "uar:education/NJD5R3DK"
+      ],
+      "instructors": [
+        "uar:people/BGVGN2CA",
+        "uar:people/I5H4LTQD"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/SJ75X4L6",
+      "timeTableCode": "25332211",
+      "name": {
+        "ja": "バーチャルリアリティ特論",
+        "en": "Advanced Virtual Reality"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332211.html",
+      "courses": [
+        "uar:education/C3Z4HAHV",
+        "uar:education/XQGQNWIM",
+        "uar:education/YSY3MW3G",
+        "uar:education/V427LX2A"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/AYBS25S2",
+      "timeTableCode": "25432219",
+      "name": {
+        "ja": "統計物理工学特論",
+        "en": "Advanced Statistical Physics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432219.html",
+      "courses": [
+        "uar:education/XJGDSN5L"
+      ],
+      "instructors": [
+        "uar:people/JZV2MPNE"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木2"
+      ]
+    },
+    {
+      "id": "uar:education/RQJHQU25",
+      "timeTableCode": "25131211",
+      "name": {
+        "ja": "情報理論基礎",
+        "en": "Fundamentals of Information Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131211.html",
+      "courses": [
+        "uar:education/4WL26D5E",
+        "uar:education/A2GSZDLM",
+        "uar:education/MATSDJJM",
+        "uar:education/NL4D34LR",
+        "uar:education/I5BDUZF3"
+      ],
+      "instructors": [
+        "uar:people/WOMVA7QB"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/GU4LERN4",
+      "timeTableCode": "25232215",
+      "name": {
+        "ja": "非線形システム特論",
+        "en": "Nonlinear Dynamical Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232215.html",
+      "courses": [
+        "uar:education/MJTVY4HT"
+      ],
+      "instructors": [
+        "uar:people/FWGCQEJE"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/HSKGOW33",
+      "timeTableCode": "25332223",
+      "name": {
+        "ja": "システム制御理論特論",
+        "en": "Advanced Systems and Control Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332223.html",
+      "courses": [
+        "uar:education/UXKFLYQW"
+      ],
+      "instructors": [
+        "uar:people/24NH4SFS"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木3"
+      ]
+    },
+    {
+      "id": "uar:education/C64342JW",
+      "timeTableCode": "25132208",
+      "name": {
+        "ja": "計算機科学特論",
+        "en": "Advanced Computer Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132208.html",
+      "courses": [
+        "uar:education/BPXRDAZN"
+      ],
+      "instructors": [
+        "uar:people/3P6YWDYQ"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/AUQ4SOPH",
+      "timeTableCode": "25132214",
+      "name": {
+        "ja": "生体システム工学特論",
+        "en": "Advanced Topics in Biological Systems Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132214.html",
+      "courses": [
+        "uar:education/2APORV4Q"
+      ],
+      "instructors": [
+        "uar:people/3PRQ5INS"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/74ZCO34P",
+      "timeTableCode": "25231209",
+      "name": {
+        "ja": "回路システム基礎",
+        "en": "Fundamentals of Circuits and Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231209.html",
+      "courses": [
+        "uar:education/QUF5UKUF",
+        "uar:education/MQ2J5LSQ",
+        "uar:education/4SIRNC4J"
+      ],
+      "instructors": [
+        "uar:people/GO2EQHZE",
+        "uar:people/UNPW5GTL"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/MP777VVD",
+      "timeTableCode": "25332201",
+      "name": {
+        "ja": "センサ信号処理学特論",
+        "en": "Advanced Signal Processing of Sensor Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332201.html",
+      "courses": [
+        "uar:education/WG2UFQDQ",
+        "uar:education/NSGJFGTC",
+        "uar:education/VAHHDVE7",
+        "uar:education/KROSQB4X"
+      ],
+      "instructors": [
+        "uar:people/7WSWHPJA"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木4"
+      ]
+    },
+    {
+      "id": "uar:education/A3PNAONV",
+      "timeTableCode": "25431221",
+      "name": {
+        "ja": "実践的先進機器分析",
+        "en": "Practical advanced instrumental analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431221.html",
+      "courses": [
+        "uar:education/2N5M6JAZ"
+      ],
+      "instructors": [
+        "uar:people/6QOGZXZV",
+        "uar:people/7KXFZ7KT",
+        "uar:people/7T3ZUYBG",
+        "uar:people/STHGAYQ3",
+        "uar:people/TVWG7QIB",
+        "uar:people/TZM2RKWN"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木4",
+        "木5"
+      ]
+    },
+    {
+      "id": "uar:education/OFVL6GKE",
+      "timeTableCode": "25131105",
+      "name": {
+        "ja": "メディアアート論",
+        "en": "Topics in Media Art"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131105.html",
+      "courses": [
+        "uar:education/P47WA6D2",
+        "uar:education/SYEPCLZV",
+        "uar:education/7BCC6M4H"
+      ],
+      "instructors": [
+        "uar:people/4JWSJG45"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木5"
+      ]
+    },
+    {
+      "id": "uar:education/F4RWZWOY",
+      "timeTableCode": "25332202",
+      "name": {
+        "ja": "生体計測工学特論",
+        "en": "Advanced Bioinstrumentation Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332202.html",
+      "courses": [
+        "uar:education/VDME4N6K",
+        "uar:education/RA2BGAZY",
+        "uar:education/7WQF4IQM",
+        "uar:education/LSFJJXJI"
+      ],
+      "instructors": [
+        "uar:people/4TD5W5N2",
+        "uar:people/BXGDQHT6"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木5"
+      ]
+    },
+    {
+      "id": "uar:education/SSY5HNRQ",
+      "timeTableCode": "25432231",
+      "name": {
+        "ja": "光通信デバイス特論(社会人修士用)",
+        "en": "Design Techniques of Opto-electronic Devices"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432231.html",
+      "courses": [
+        "uar:education/XRHWFHT2"
+      ],
+      "instructors": [
+        "uar:people/BX27MC5N"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "木6"
+      ]
+    },
+    {
+      "id": "uar:education/IXV3R7VJ",
+      "timeTableCode": "25132226",
+      "name": {
+        "ja": "インテリジェントシステム特論",
+        "en": "Advanced Topics on Intelligent Soft Computing Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132226.html",
+      "courses": [
+        "uar:education/CY5WK7QM"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/BX6EMWOI",
+      "timeTableCode": "25232241",
+      "name": {
+        "ja": "音声対話処理",
+        "en": "Advanced Theory on Spoken Dialog Processing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232241.html",
+      "courses": [
+        "uar:education/XW46LS3N"
+      ],
+      "instructors": [
+        "uar:people/QHD4CPVT"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/RA6U2YA6",
+      "timeTableCode": "25332218",
+      "name": {
+        "ja": "計算力学特論",
+        "en": "Advanced Computational Mechanics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332218.html",
+      "courses": [
+        "uar:education/L27CGYMU",
+        "uar:education/7JJWVQC6",
+        "uar:education/VNI6YHZG",
+        "uar:education/DRGLZU4H"
+      ],
+      "instructors": [
+        "uar:people/OQLXEVOM",
+        "uar:people/YIOKKS5I"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/MISBA6NO",
+      "timeTableCode": "25432222",
+      "name": {
+        "ja": "凝縮体量子工学特論",
+        "en": "Selected Topics on Quantum Degenerate Systems"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432222.html",
+      "courses": [
+        "uar:education/H3MQTJXB",
+        "uar:education/YQB3LWIX"
+      ],
+      "instructors": [
+        "uar:people/6NTNEYHU",
+        "uar:people/DA5NWFA5"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/MZLJKVAW",
+      "timeTableCode": "25432225",
+      "name": {
+        "ja": "固体物性化学特論",
+        "en": "Advanced Solid State Chemistry"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432225.html",
+      "courses": [
+        "uar:education/6FZQGVUX",
+        "uar:education/NG6SBYXX"
+      ],
+      "instructors": [
+        "uar:people/6QOGZXZV",
+        "uar:people/UTILXAPL"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/4PLPL5RQ",
+      "timeTableCode": "25132223",
+      "name": {
+        "ja": "ソフトウェアセキュリティ特論",
+        "en": "Advanced Software Security"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132223.html",
+      "courses": [
+        "uar:education/7HB6WENI"
+      ],
+      "instructors": [
+        "uar:people/HV5QLMPF"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/M542LF53",
+      "timeTableCode": "25232216",
+      "name": {
+        "ja": "ヒューマンインタフェース特論",
+        "en": "Advanced Topics on Human Interface"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232216.html",
+      "courses": [
+        "uar:education/I7LHAW5W"
+      ],
+      "instructors": [
+        "uar:people/FBE6OG7V"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/BV2WIOX3",
+      "timeTableCode": "25232223",
+      "name": {
+        "ja": "応用解析学特論",
+        "en": "Advanced Applied Analysis"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232223.html",
+      "courses": [
+        "uar:education/I2F62N7N"
+      ],
+      "instructors": [
+        "uar:people/L464HI6G"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/GDVWMPSH",
+      "timeTableCode": "25232249",
+      "name": {
+        "ja": "CMOS集積回路設計学特論",
+        "en": "CMOS Advanced Integrated Circuit Design"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232249.html",
+      "courses": [
+        "uar:education/INP5KJTI"
+      ],
+      "instructors": [
+        "uar:people/7LENZEOE"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/Y55NA4D7",
+      "timeTableCode": "25332212",
+      "name": {
+        "ja": "コンピュータビジョン特論",
+        "en": "Advanced Computer Vision"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332212.html",
+      "courses": [
+        "uar:education/QLXIOLYZ",
+        "uar:education/5G7PEXLM",
+        "uar:education/XQYS5SJZ",
+        "uar:education/CNOJYBQW"
+      ],
+      "instructors": [
+        "uar:people/EX7OCJRN"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/MJRAKEBK",
+      "timeTableCode": "25432208",
+      "name": {
+        "ja": "光通信デバイス特論",
+        "en": "Design Techniques of Opto-electronic Devices"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432208.html",
+      "courses": [
+        "uar:education/XRHWFHT2"
+      ],
+      "instructors": [
+        "uar:people/BX27MC5N"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金3"
+      ]
+    },
+    {
+      "id": "uar:education/XDN2REIV",
+      "timeTableCode": "25131212",
+      "name": {
+        "ja": "数理統計学基礎",
+        "en": "Fundamentals of Mathematical Statistics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131212.html",
+      "courses": [
+        "uar:education/2J75T5KN",
+        "uar:education/LC3PMVVE",
+        "uar:education/56HSIFPS",
+        "uar:education/HKA36AAK",
+        "uar:education/PW47QBMW"
+      ],
+      "instructors": [
+        "uar:people/7ECUFIBV"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金4"
+      ]
+    },
+    {
+      "id": "uar:education/XSKB6363",
+      "timeTableCode": "25231215",
+      "name": {
+        "ja": "ハイパフォーマンスコンピューティング基礎論",
+        "en": "Fundamentals of High Performance Computing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231215.html",
+      "courses": [
+        "uar:education/534UM65G",
+        "uar:education/W2W7E5OE",
+        "uar:education/VCOHYKWD"
+      ],
+      "instructors": [
+        "uar:people/JD6YVCZF",
+        "uar:people/YOA5FMYW"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金4"
+      ]
+    },
+    {
+      "id": "uar:education/WXFIB4T2",
+      "timeTableCode": "25232208",
+      "name": {
+        "ja": "光通信システム特論",
+        "en": "Advanced Optical Communication System"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232208.html",
+      "courses": [
+        "uar:education/XQ5MMRY6"
+      ],
+      "instructors": [
+        "uar:people/IM76OK6C"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金4"
+      ]
+    },
+    {
+      "id": "uar:education/HCLZFZXS",
+      "timeTableCode": "25432223",
+      "name": {
+        "ja": "電子物性特論",
+        "en": "Advanced Lectures on Electronic Properties in Solids"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25432223.html",
+      "courses": [
+        "uar:education/O22JXRW4"
+      ],
+      "instructors": [
+        "uar:people/24OVPC5M",
+        "uar:people/7T3ZUYBG"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金4"
+      ]
+    },
+    {
+      "id": "uar:education/ESFQ4ACV",
+      "timeTableCode": "25023107",
+      "name": {
+        "ja": "国際科学技術コミュニケーション論",
+        "en": "International Communication for Science and Technology"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023107.html",
+      "courses": [
+        "uar:education/IEWHDSIX"
+      ],
+      "instructors": [
+        "uar:people/IM76OK6C",
+        "uar:people/VNTF5QIX"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/KCOSMXO5",
+      "timeTableCode": "25023222",
+      "name": {
+        "ja": "ゲーム開発最前線",
+        "en": "Frontiers of Game Development"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023222.html",
+      "courses": [
+        "uar:education/CFVZCFOT"
+      ],
+      "instructors": [
+        "uar:people/LJU24IE6",
+        "uar:people/MUVTU4RB",
+        "uar:people/Q5XTH3TF",
+        "uar:people/SHWYBREW"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "金5"
+      ]
+    },
+    {
+      "id": "uar:education/MCSM45S4",
+      "timeTableCode": "25023211",
+      "name": {
+        "ja": "データサイエンティスト特論",
+        "en": "Advanced Data Scientist"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023211.html",
+      "courses": [
+        "uar:education/25EUTVDL"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "土3",
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/RJZHNLBC",
+      "timeTableCode": "25023212",
+      "name": {
+        "ja": "データアントレプレナー実践論",
+        "en": "Data Entrepreneur Practical Theory"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023212.html",
+      "courses": [
+        "uar:education/ZF75LW7R"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "土3",
+        "土4",
+        "土5"
+      ]
+    },
+    {
+      "id": "uar:education/ZDDY53CR",
+      "timeTableCode": "25010101",
+      "name": {
+        "ja": "大学院総合コミュニケーション科学",
+        "en": "Graduate Course of Science and Technology on Communications"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25010101.html",
+      "courses": [
+        "uar:education/COZ2PEYY"
+      ],
+      "instructors": [
+        "uar:people/ZSLJSC7Q"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/POTZM4GE",
+      "timeTableCode": "25023213",
+      "name": {
+        "ja": "大学院海外語学研修Ⅰ",
+        "en": "Graduate Overseas Language Training Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023213.html",
+      "courses": [
+        "uar:education/YOAN5HCJ"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/AFEAWRDM",
+      "timeTableCode": "25023214",
+      "name": {
+        "ja": "大学院海外語学研修Ⅱ",
+        "en": "Graduate Overseas Language Training Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023214.html",
+      "courses": [
+        "uar:education/DTNOXFZG"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/W5EXVKL5",
+      "timeTableCode": "25023220",
+      "name": {
+        "ja": "大学院海外研修Ⅰ",
+        "en": "Advanced Overseas Training Program Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023220.html",
+      "courses": [
+        "uar:education/7Y3HTZPE"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/TU57TY3S",
+      "timeTableCode": "25023221",
+      "name": {
+        "ja": "大学院海外研修Ⅱ",
+        "en": "Advanced Overseas Training Program Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25023221.html",
+      "courses": [
+        "uar:education/M5L2A7CP"
+      ],
+      "instructors": [
+        "uar:people/BR27PIYI"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/FLVOVE4O",
+      "timeTableCode": "25121202",
+      "name": {
+        "ja": "大学院輪講第一(Ⅱ)",
+        "en": "Graduate Seminar 1 (Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25121202.html",
+      "courses": [
+        "uar:education/XDTXESI3"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/LMV7XSHQ",
+      "timeTableCode": "25121204",
+      "name": {
+        "ja": "大学院輪講第一(Ⅳ)",
+        "en": "Graduate Seminar 1 (Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25121204.html",
+      "courses": [
+        "uar:education/PYUFQWSG"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/U6WND26H",
+      "timeTableCode": "25131202",
+      "name": {
+        "ja": "大学院実践演習(Ⅱ)",
+        "en": "Graduate School Laboratory Practicum(Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131202.html",
+      "courses": [
+        "uar:education/A4WRXNIX"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/BAY2W6FG",
+      "timeTableCode": "25131204",
+      "name": {
+        "ja": "大学院実践演習(Ⅳ)",
+        "en": "Graduate School Laboratory Practicum(Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131204.html",
+      "courses": [
+        "uar:education/6JUYCP3S"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/DVT3232K",
+      "timeTableCode": "25131219",
+      "name": {
+        "ja": "実践ソフトウェア開発概論Ⅲ",
+        "en": "Practical Software Development Ⅲ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131219.html",
+      "courses": [
+        "uar:education/ZFQK7PYN",
+        "uar:education/SHQPSLMJ",
+        "uar:education/JTXPHKJB",
+        "uar:education/XSA3SZBV",
+        "uar:education/BACFNCT4"
+      ],
+      "instructors": [
+        "uar:people/BEFM5ORO"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/LCR6UCV2",
+      "timeTableCode": "25221202",
+      "name": {
+        "ja": "大学院輪講第一(Ⅱ)",
+        "en": "Graduate Seminar 1 (Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25221202.html",
+      "courses": [
+        "uar:education/XDTXESI3"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/CL3NP7UT",
+      "timeTableCode": "25221204",
+      "name": {
+        "ja": "大学院輪講第一(Ⅳ)",
+        "en": "Graduate Seminar 1 (Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25221204.html",
+      "courses": [
+        "uar:education/PYUFQWSG"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/6WCDSNRM",
+      "timeTableCode": "25231202",
+      "name": {
+        "ja": "大学院実践演習(Ⅱ)",
+        "en": "Graduate School Laboratory Practicum(Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231202.html",
+      "courses": [
+        "uar:education/A4WRXNIX"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/AUKU4WCE",
+      "timeTableCode": "25231204",
+      "name": {
+        "ja": "大学院実践演習(Ⅳ)",
+        "en": "Graduate School Laboratory Practicum(Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231204.html",
+      "courses": [
+        "uar:education/6JUYCP3S"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/ORSKDFEH",
+      "timeTableCode": "25232207",
+      "name": {
+        "ja": "宇宙通信工学特論",
+        "en": "Advanced Space Communication Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232207.html",
+      "courses": [
+        "uar:education/KHF5BSFD"
+      ],
+      "instructors": [
+        "uar:people/C4PQHY57"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/3N7F4FDE",
+      "timeTableCode": "25321202",
+      "name": {
+        "ja": "大学院輪講第一(Ⅱ)",
+        "en": "Graduate Seminar 1 (Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25321202.html",
+      "courses": [
+        "uar:education/XDTXESI3"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SZTF3HWY",
+      "timeTableCode": "25321204",
+      "name": {
+        "ja": "大学院輪講第一(Ⅳ)",
+        "en": "Graduate Seminar 1 (Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25321204.html",
+      "courses": [
+        "uar:education/PYUFQWSG"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/AWIVIX2B",
+      "timeTableCode": "25331202",
+      "name": {
+        "ja": "大学院実践演習(Ⅱ)",
+        "en": "Graduate School Laboratory Practicum(Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331202.html",
+      "courses": [
+        "uar:education/A4WRXNIX"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/G3CYAICQ",
+      "timeTableCode": "25331204",
+      "name": {
+        "ja": "大学院実践演習(Ⅳ)",
+        "en": "Graduate School Laboratory Practicum(Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25331204.html",
+      "courses": [
+        "uar:education/6JUYCP3S"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5KIQWC5V",
+      "timeTableCode": "25421202",
+      "name": {
+        "ja": "大学院輪講第一(Ⅱ)",
+        "en": "Graduate Seminar 1 (Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25421202.html",
+      "courses": [
+        "uar:education/XDTXESI3"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/7IQYKCTU",
+      "timeTableCode": "25421204",
+      "name": {
+        "ja": "大学院輪講第一(Ⅳ)",
+        "en": "Graduate Seminar 1 (Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25421204.html",
+      "courses": [
+        "uar:education/PYUFQWSG"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/D7VJKAOP",
+      "timeTableCode": "25431202",
+      "name": {
+        "ja": "大学院実践演習(Ⅱ)",
+        "en": "Graduate School Laboratory Practicum(Ⅱ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431202.html",
+      "courses": [
+        "uar:education/A4WRXNIX"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/H4LF6FEK",
+      "timeTableCode": "25431204",
+      "name": {
+        "ja": "大学院実践演習(Ⅳ)",
+        "en": "Graduate School Laboratory Practicum(Ⅳ)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25431204.html",
+      "courses": [
+        "uar:education/6JUYCP3S"
+      ],
+      "instructors": [],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/63LFMVAC",
+      "timeTableCode": "25332220",
+      "name": {
+        "ja": "Advanced Robotics and Mechatronics Engineering",
+        "en": "Advanced Robotics and Mechatronics Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332220.html",
+      "courses": [
+        "uar:education/ONGRFO65",
+        "uar:education/YYV44PPS",
+        "uar:education/MV3ED3NE",
+        "uar:education/3MLHAB6R"
+      ],
+      "instructors": [
+        "uar:people/7IO66OK7",
+        "uar:people/C2LQDI5G",
+        "uar:people/EX7OCJRN",
+        "uar:people/IUWYYWJW",
+        "uar:people/LJU24IE6",
+        "uar:people/NPMAASJ2",
+        "uar:people/O6TULR7U"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期集中",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/COA2EHS2",
+      "timeTableCode": "25131117",
+      "name": {
+        "ja": "セキュリティ基礎",
+        "en": "Fundamentals of Security"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25131117.html",
+      "courses": [
+        "uar:education/PPKVPQI3",
+        "uar:education/ICRIY7HV"
+      ],
+      "instructors": [
+        "uar:people/SUV3UDKA"
+      ],
+      "numberOfCredits": 2,
+      "term": "春ターム",
+      "periods": [
+        "火2",
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/QDEXBHHO",
+      "timeTableCode": "25231111",
+      "name": {
+        "ja": "計算機アーキテクチャ基礎論",
+        "en": "Fundamentals of Computer Architecture"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25231111.html",
+      "courses": [
+        "uar:education/HY7CZL37",
+        "uar:education/P6X6IQCJ",
+        "uar:education/Q22LE77O"
+      ],
+      "instructors": [
+        "uar:people/PLNM4TA6"
+      ],
+      "numberOfCredits": 2,
+      "term": "春ターム",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/3FJX4INJ",
+      "timeTableCode": "25132120",
+      "name": {
+        "ja": "コンテンツセキュリティ特論",
+        "en": "Advanced Topics of Content Security"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132120.html",
+      "courses": [
+        "uar:education/FEYSWAHB"
+      ],
+      "instructors": [
+        "uar:people/SENHYA4S"
+      ],
+      "numberOfCredits": 2,
+      "term": "夏ターム",
+      "periods": [
+        "火2",
+        "金2"
+      ]
+    },
+    {
+      "id": "uar:education/KEZ2AEPQ",
+      "timeTableCode": "25232240",
+      "name": {
+        "ja": "データ解析最適化論",
+        "en": "Advanced Topics in Data Analysis Optimization"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25232240.html",
+      "courses": [
+        "uar:education/3KSZ7OLQ"
+      ],
+      "instructors": [
+        "uar:people/IIKP5NKI"
+      ],
+      "numberOfCredits": 2,
+      "term": "秋ターム",
+      "periods": [
+        "月1",
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/YWK57PEL",
+      "timeTableCode": "25332210",
+      "name": {
+        "ja": "運動計測学特論",
+        "en": "Advanced Measurement and Evaluation of Human Motor Movement"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25332210.html",
+      "courses": [
+        "uar:education/TKO2BHTE",
+        "uar:education/EYKMI2AX",
+        "uar:education/ZP3VW2E7",
+        "uar:education/NI64TU3L"
+      ],
+      "instructors": [
+        "uar:people/RWX76R5O"
+      ],
+      "numberOfCredits": 2,
+      "term": "秋ターム",
+      "periods": [
+        "月1",
+        "木1"
+      ]
+    },
+    {
+      "id": "uar:education/WNJHBJJF",
+      "timeTableCode": "25132206",
+      "name": {
+        "ja": "視覚情報処理特論",
+        "en": "Advanced Visual Computing"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/33/33_25132206.html",
+      "courses": [
+        "uar:education/D5NOEO3M"
+      ],
+      "instructors": [
+        "uar:people/VNTF5QIX"
+      ],
+      "numberOfCredits": 2,
+      "term": "秋ターム",
+      "periods": [
+        "火1",
+        "金1"
+      ]
+    }
+  ]
+}

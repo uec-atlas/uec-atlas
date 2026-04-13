@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/7KGUMEZA",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/MOPEQEW7"
+  ],
+  "name": {
+    "en": "Design Thinking and Data Science Program",
+    "ja": "デザイン思考・データサイエンスプログラム"
+  }
+}

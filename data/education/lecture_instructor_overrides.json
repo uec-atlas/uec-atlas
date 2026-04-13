@@ -98,5 +98,10 @@
     "title": "English",
     "name": "Kobayashi-Cuyakimi Estela",
     "override": "uar:people/KPKIACPZ"
+  },
+  {
+    "title": "大学院技術英語",
+    "name": "Jeffreys Atsuko M",
+    "override": "uar:people/RVJUCE77"
   }
 ]
