@@ -2038,5 +2038,105 @@
     "memberOf": [],
     "isBasedOn": null,
     "isPartTime": true
+  },
+  {
+    "id": "uar:people/KD4CL7EU",
+    "name": {
+      "ja": "中邨 良樹"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/AAAJKLNU",
+    "name": {
+      "ja": "小濵 聖子"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/G5HN5SJB",
+    "name": {
+      "ja": "白井 直樹"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/JU7TUGIH",
+    "name": {
+      "ja": "吉岡 樹男"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/PKNO3WRL",
+    "name": {
+      "ja": "北田 皓嗣"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/V2KTSVGS",
+    "name": {
+      "ja": "増田 亮"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/VMIWADXX",
+    "name": {
+      "ja": "高井 淳朗"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/JOEY4M6R",
+    "name": {
+      "ja": "小林 義男"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/QXRSQY5R",
+    "name": {
+      "ja": "宮地 隆廣"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/SEZCGIO7",
+    "name": {
+      "ja": "金 庚芬"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
   }
 ]

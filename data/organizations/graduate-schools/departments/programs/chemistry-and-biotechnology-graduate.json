@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/5J7NMJ3N",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/7V6E2WMT"
+  ],
+  "name": {
+    "en": "Chemistry and Biotechnology Program",
+    "ja": "化学生命工学プログラム"
+  }
+}

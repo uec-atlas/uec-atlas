@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/RTZPKMT6",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/FP5ITZ4S"
+  ],
+  "name": {
+    "en": "Mechanical Systems Program",
+    "ja": "機械システムプログラム"
+  }
+}

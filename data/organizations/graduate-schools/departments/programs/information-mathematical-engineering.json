@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/6CT7MIDK",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/LTZM72NZ"
+  ],
+  "name": {
+    "en": "Information Mathematical Engineering Program",
+    "ja": "情報数理工学プログラム"
+  }
+}

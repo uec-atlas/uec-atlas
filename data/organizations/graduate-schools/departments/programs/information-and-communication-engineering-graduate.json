@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/MBR7HXKG",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/LTZM72NZ"
+  ],
+  "name": {
+    "en": "Information and Communication Engineering Program",
+    "ja": "情報通信工学プログラム"
+  }
+}

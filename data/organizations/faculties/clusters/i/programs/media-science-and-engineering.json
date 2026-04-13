@@ -2,11 +2,16 @@
   "id": "uar:organizations/5VDVCRYM",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF",
-    "uar:organizations/QBTOSVHH"
+    "uar:organizations/5TDWVJAF"
   ],
   "name": {
     "en": "Media Science and Engineering Program",
     "ja": "メディア情報学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/QBTOSVHH"
+    }
+  ]
 }

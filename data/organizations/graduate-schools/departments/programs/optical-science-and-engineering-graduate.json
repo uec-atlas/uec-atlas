@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/L2WL3SRP",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/7V6E2WMT"
+  ],
+  "name": {
+    "en": "Optical Science and Engineering Program",
+    "ja": "光工学プログラム"
+  }
+}

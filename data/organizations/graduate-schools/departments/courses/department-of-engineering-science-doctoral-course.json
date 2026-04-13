@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/MO3K4CS6",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/WLUPOG26"
+  ],
+  "name": {
+    "en": "Department of Engineering Science (Doctoral Program)",
+    "ja": "基盤理工学専攻(博士後期課程)"
+  }
+}

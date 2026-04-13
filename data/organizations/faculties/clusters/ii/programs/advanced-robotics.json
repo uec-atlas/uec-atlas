@@ -2,11 +2,16 @@
   "id": "uar:organizations/IGC4IZMT",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/AEFZKYAV",
-    "uar:organizations/W23WZ55B"
+    "uar:organizations/AEFZKYAV"
   ],
   "name": {
     "en": "Advanced Robotics Program",
     "ja": "先端ロボティクスプログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/W23WZ55B"
+    }
+  ]
 }

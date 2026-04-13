@@ -2,11 +2,16 @@
   "id": "uar:organizations/NCMQHOOB",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/LMCZ7FKK",
-    "uar:organizations/WLUPOG26"
+    "uar:organizations/LMCZ7FKK"
   ],
   "name": {
     "en": "Optical Science and Engineering Program",
     "ja": "光工学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/WLUPOG26"
+    }
+  ]
 }

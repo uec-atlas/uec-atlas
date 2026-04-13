@@ -246,7 +246,7 @@ slots:
   courseLecture:
     description: "対応する開講情報"
     alias: lectures
-    slot_uri: uao:course
+    slot_uri: uao:lecture
     multivalued: true
     domain: Course
     range: Lecture

@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/RRQUR3YN",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/7V6E2WMT"
+  ],
+  "name": {
+    "en": "Applied Physics Program",
+    "ja": "物理工学プログラム"
+  }
+}

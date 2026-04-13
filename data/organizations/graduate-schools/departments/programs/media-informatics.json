@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/5SBMQ3DP",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/MOPEQEW7"
+  ],
+  "name": {
+    "en": "Media Informatics Program",
+    "ja": "メディア情報学プログラム"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/AN3I67MK",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/COZ2PEYY",
+        "uar:education/I6B4KUPA",
+        "uar:education/6WIK2NRI",
+        "uar:education/P74MWFC4",
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/MNPPKEPE",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/4AUHZUJA",
+        "uar:education/XDTXESI3",
+        "uar:education/KUIWR6G4",
+        "uar:education/PYUFQWSG"
+      ]
+    },
+    {
+      "id": "uar:education/CJGQWUOR",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 大学院実践教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/HD4XAWIY",
+      "courses": [
+        "uar:education/I372HDTY"
+      ]
+    },
+    {
+      "id": "uar:education/2IUYSMPO",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 大学院産学連携科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/BRSN55XD",
+      "courses": [
+        "uar:education/ML56CDUA",
+        "uar:education/44N6Y2LP",
+        "uar:education/25EUTVDL",
+        "uar:education/ZF75LW7R",
+        "uar:education/CFVZCFOT",
+        "uar:education/A6NRMA7R",
+        "uar:education/5H5YFPGS",
+        "uar:education/BCB4JZMM",
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4",
+        "uar:education/YOAN5HCJ",
+        "uar:education/DTNOXFZG",
+        "uar:education/7Y3HTZPE",
+        "uar:education/M5L2A7CP"
+      ]
+    },
+    {
+      "id": "uar:education/EQSEO563",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/CDW3COXF",
+        "uar:education/A4WRXNIX",
+        "uar:education/WRZN42AM",
+        "uar:education/6JUYCP3S",
+        "uar:education/TOBTAER2",
+        "uar:education/QO7RRZ7I",
+        "uar:education/4WL26D5E",
+        "uar:education/2J75T5KN",
+        "uar:education/KHZAUI34",
+        "uar:education/B5JJGUVV",
+        "uar:education/JBCAA7NY",
+        "uar:education/EA4ZTVKL",
+        "uar:education/ZFQK7PYN",
+        "uar:education/I2C44RQH",
+        "uar:education/CFAASGKR",
+        "uar:education/CKNPEWNJ",
+        "uar:education/TFR2D2Y6",
+        "uar:education/FZTCIMQ7",
+        "uar:education/2APORV4Q",
+        "uar:education/SSI32DQY",
+        "uar:education/W6LGQDLW",
+        "uar:education/453Q22LQ",
+        "uar:education/ZLHGCDM2",
+        "uar:education/2KEENO5W",
+        "uar:education/RFHNWA3N",
+        "uar:education/KEWMA53P",
+        "uar:education/BJVBSUBV",
+        "uar:education/C6XNYU72",
+        "uar:education/6N32K6W6",
+        "uar:education/HY7CZL37",
+        "uar:education/R42NPHXG",
+        "uar:education/YXDAZ4UP",
+        "uar:education/VCOHYKWD",
+        "uar:education/CJC42ORA",
+        "uar:education/BYQ3NU2V",
+        "uar:education/VX2GJRJS",
+        "uar:education/I7LHAW5W",
+        "uar:education/E7TCJIL3",
+        "uar:education/GYCYXG57",
+        "uar:education/LPODKK6J",
+        "uar:education/R6KWIRYG",
+        "uar:education/54MIJMK4",
+        "uar:education/3XBIENXA",
+        "uar:education/5YBHU722",
+        "uar:education/INMJW3C7",
+        "uar:education/7HB6WENI",
+        "uar:education/XZCQOH7T",
+        "uar:education/FGUI5FWJ",
+        "uar:education/KTH2FI2O",
+        "uar:education/2FSXX446",
+        "uar:education/AJLMS4YG",
+        "uar:education/XW46LS3N",
+        "uar:education/SPPBIXHV",
+        "uar:education/GIH4XDN3",
+        "uar:education/DMXDSNW5",
+        "uar:education/XPI5BYMS",
+        "uar:education/LXFGR4GU"
+      ]
+    },
+    {
+      "id": "uar:education/UQEKEEEO",
+      "name": {
+        "ja": "経営・社会情報学プログラム - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/YBUTN2WI",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/CKNPEWNJ",
+        "uar:education/TFR2D2Y6",
+        "uar:education/FZTCIMQ7",
+        "uar:education/2APORV4Q",
+        "uar:education/SSI32DQY",
+        "uar:education/W6LGQDLW",
+        "uar:education/453Q22LQ",
+        "uar:education/ZLHGCDM2",
+        "uar:education/2KEENO5W",
+        "uar:education/RFHNWA3N",
+        "uar:education/KEWMA53P",
+        "uar:education/BJVBSUBV",
+        "uar:education/C6XNYU72"
+      ]
+    }
+  ]
+}

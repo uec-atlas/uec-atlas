@@ -2,11 +2,16 @@
   "id": "uar:organizations/6EMQPAAC",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF",
-    "uar:organizations/SJGILYFG"
+    "uar:organizations/5TDWVJAF"
   ],
   "name": {
     "en": "Mathematical Information Science Program",
     "ja": "情報数理工学プログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/SJGILYFG"
+    }
+  ]
 }

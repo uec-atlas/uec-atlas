@@ -14,6 +14,35 @@ RE_JAPANESE = re.compile(r"[\u3040-\u30ff\u4e00-\u9faf]")
 TAGGER = MeCab.Tagger()
 
 
+REPLACEMENT_CHAR_FIXES = {
+    # Frequent mojibake in handbook PDFs (prolonged sound mark and small kana)
+    "メデ□ア": "メディア",
+    "セキ□リテ□": "セキュリティ",
+    "デ□タ": "データ",
+    "コンピ□□タ": "コンピュータ",
+    "イノベ□シ□ン": "イノベーション",
+    "オ□プン": "オープン",
+    "ロボテ□クス": "ロボティクス",
+    "サステイナビリテ□": "サステイナビリティ",
+    "セミナ□": "セミナー",
+    "ラボワ□ク": "ラボワーク",
+}
+
+
+@cache
+def normalize_broken_katakana(text: str) -> str:
+    if "□" not in text:
+        return text
+
+    fixed = text
+    for src, dst in REPLACEMENT_CHAR_FIXES.items():
+        fixed = fixed.replace(src, dst)
+
+    # Fallback for prolonged sound mark that becomes □ at word end.
+    fixed = re.sub(r"([\u30A0-\u30FF])□(?![\u30A0-\u30FF])", r"\1ー", fixed)
+    return fixed
+
+
 @cache
 def clean_text(text: str) -> str:
     if not text:
@@ -22,6 +51,7 @@ def clean_text(text: str) -> str:
     # 日本語文字間の不要なスペースを削除
     text = re.sub(r"([^\x00-\x7f])\s+", r"\1", text)
     text = re.sub(r"\s+([^\x00-\x7f])", r"\1", text)
+    text = normalize_broken_katakana(text)
     return text.strip()
 
 
@@ -181,7 +211,7 @@ class TableExtractor:
 
 
 def estimate_header_boundary(df: pd.DataFrame) -> int:
-    """科目番号パターンとセル結合の痕跡から、データ行の開始位置（ヘッダー行数）を特定する"""
+    """セル結合の痕跡から、データ行の開始位置（ヘッダー行数）を特定する"""
 
     def _norm(v: Any) -> str:
         if v is None:
@@ -255,14 +285,157 @@ def estimate_table_title(page, last_y: float, current_table_top: float) -> str:
         return ""
 
 
-def merge_tables_structural(tables: list[dict]) -> list[dict]:
+def are_col_edges_compatible(
+    current_edges: list[float],
+    next_edges: list[float],
+    absolute_tolerance: float,
+    normalized_tolerance: float,
+) -> bool:
+    """列境界が同じ構造かを判定する。
+
+    印刷用PDFではノド側余白の影響でページごとに表全体が左右にずれることがあるため、
+    絶対座標だけでなく正規化座標でも比較する。
+    """
+    if len(current_edges) != len(next_edges):
+        return False
+
+    if np.allclose(current_edges, next_edges, atol=absolute_tolerance):
+        return True
+
+    current_span = current_edges[-1] - current_edges[0]
+    next_span = next_edges[-1] - next_edges[0]
+    if current_span <= 0 or next_span <= 0:
+        return False
+
+    current_norm = [
+        (edge - current_edges[0]) / current_span for edge in current_edges
+    ]
+    next_norm = [
+        (edge - next_edges[0]) / next_span for edge in next_edges
+    ]
+    return np.allclose(current_norm, next_norm, atol=normalized_tolerance)
+
+
+def are_col_edges_compatible_with_offsets(
+    current_edges: list[float],
+    next_edges: list[float],
+    current_offset: int,
+    next_offset: int,
+    absolute_tolerance: float,
+    normalized_tolerance: float,
+) -> bool:
+    current_tail = current_edges[current_offset:]
+    next_tail = next_edges[next_offset:]
+    if len(current_tail) != len(next_tail):
+        return False
+
+    return are_col_edges_compatible(
+        current_tail,
+        next_tail,
+        absolute_tolerance=absolute_tolerance,
+        normalized_tolerance=normalized_tolerance,
+    )
+
+
+def columns_are_generic(columns: list[str]) -> bool:
+    return all(str(c).startswith("Col_") for c in columns)
+
+
+def resolve_continuation_alignment(
+    curr_cols: list[str],
+    nxt_cols: list[str],
+    curr_edges: list[float],
+    nxt_edges: list[float],
+    absolute_tolerance: float,
+    normalized_tolerance: float,
+) -> Optional[str]:
+    """列数が1つ違う継続表の位置合わせパターンを返す。"""
+    if not columns_are_generic(nxt_cols):
+        return None
+
+    if len(curr_cols) == len(nxt_cols) + 1:
+        # 継続ページで先頭カテゴリ列が落ちるケースが多い。
+        if are_col_edges_compatible_with_offsets(
+            curr_edges,
+            nxt_edges,
+            current_offset=1,
+            next_offset=0,
+            absolute_tolerance=absolute_tolerance,
+            normalized_tolerance=normalized_tolerance,
+        ):
+            return "missing_left"
+
+        if are_col_edges_compatible_with_offsets(
+            curr_edges,
+            nxt_edges,
+            current_offset=0,
+            next_offset=0,
+            absolute_tolerance=absolute_tolerance,
+            normalized_tolerance=normalized_tolerance,
+        ):
+            return "missing_right"
+
+    if len(curr_cols) + 1 == len(nxt_cols):
+        # 現在表が継続断片で、次ページで先頭列が復帰するパターン。
+        if are_col_edges_compatible_with_offsets(
+            curr_edges,
+            nxt_edges,
+            current_offset=0,
+            next_offset=1,
+            absolute_tolerance=absolute_tolerance,
+            normalized_tolerance=normalized_tolerance,
+        ):
+            return "missing_left_curr"
+
+    return None
+
+
+def align_continuation_dataframe(
+    curr_columns: pd.Index,
+    nxt_df: pd.DataFrame,
+    alignment: str,
+) -> pd.DataFrame:
+    aligned = pd.DataFrame("", index=nxt_df.index, columns=curr_columns)
+
+    if alignment == "missing_left":
+        aligned.iloc[:, 1:] = nxt_df.to_numpy()
+        return aligned
+
+    if alignment == "missing_right":
+        aligned.iloc[:, :-1] = nxt_df.to_numpy()
+        return aligned
+
+    if alignment == "missing_left_curr":
+        # curr columns are shorter by one; map next columns (except first) onto curr.
+        candidate = nxt_df.iloc[:, 1:].copy()
+        candidate.columns = curr_columns
+        return candidate
+
+    nxt_same = nxt_df.copy()
+    nxt_same.columns = curr_columns
+    return nxt_same
+
+
+def merge_tables_structural(
+    tables: list[dict],
+    col_edge_tolerance: float = 15.0,
+    normalized_edge_tolerance: float = 0.08,
+) -> list[dict]:
+    for table in tables:
+        if "page_end" not in table:
+            table["page_end"] = table.get("page")
+
     merged = [tables[0]]
     for nxt in tables[1:]:
         curr = merged[-1]
 
-        # 列の境界線が近いか（列数が同じで、座標のズレが許容範囲内か）
-        is_same_structure = len(curr["col_edges"]) == len(nxt["col_edges"]) and \
-            np.allclose(curr["col_edges"], nxt["col_edges"], atol=15)
+        # 列境界が同一構造か。ノド側余白で左右にずれるケースに対応する。
+        is_same_structure = are_col_edges_compatible(
+            curr["col_edges"],
+            nxt["col_edges"],
+            absolute_tolerance=col_edge_tolerance,
+            normalized_tolerance=normalized_edge_tolerance,
+        )
 
         cols_curr: list[str] = [c.replace(" ", "").split(".")[0]
                                 for c in curr["df"].columns]
@@ -272,6 +445,7 @@ def merge_tables_structural(tables: list[dict]) -> list[dict]:
         is_same_columns = cols_curr == cols_nxt
 
         should_merge = False
+        continuation_alignment = None
         if is_same_columns:
             # 列名が完全一致している場合は結合対象
             should_merge = True
@@ -279,13 +453,33 @@ def merge_tables_structural(tables: list[dict]) -> list[dict]:
             # 列の構造が同じで、列数も同じ場合で、cidが含まれていない（列名が正しく抽出されている）場合は結合対象
             should_merge = True
 
+        # 継続ページで先頭カテゴリ列が欠落するケースを吸収する。
+        if not should_merge:
+            curr_tail_page = curr.get("page_end", curr.get("page"))
+            nxt_head_page = nxt.get("page")
+            page_gap = abs((nxt_head_page or 0) - (curr_tail_page or 0))
+            if page_gap <= 1:
+                continuation_alignment = resolve_continuation_alignment(
+                    cols_curr,
+                    cols_nxt,
+                    curr["col_edges"],
+                    nxt["col_edges"],
+                    absolute_tolerance=col_edge_tolerance,
+                    normalized_tolerance=normalized_edge_tolerance,
+                )
+                should_merge = continuation_alignment is not None
+
         if should_merge:
             # 次の表の列名を前の表に合わせて結合
-            nxt_df = nxt["df"].copy()
-            nxt_df.columns = curr["df"].columns
+            nxt_df = align_continuation_dataframe(
+                curr["df"].columns,
+                nxt["df"],
+                continuation_alignment or "same",
+            )
             curr["df"] = pd.concat([curr["df"], nxt_df], ignore_index=True)
             if not curr["title"] and nxt["title"]:
                 curr["title"] = nxt["title"]
+            curr["page_end"] = nxt.get("page_end", nxt.get("page"))
         else:
             merged.append(nxt)
     return merged
@@ -317,7 +511,13 @@ def merge_tables(tables: list[pd.DataFrame]) -> list[pd.DataFrame]:
     return merged
 
 
-def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_pages: Optional[dict[int, int]] = None) -> list[pd.DataFrame]:
+def extract_tables(
+    pdf_path: str,
+    pages: Optional[list[int]] = None,
+    rotate_pages: Optional[dict[int, int]] = None,
+    merge_col_edge_tolerance: float = 15.0,
+    normalized_col_edge_tolerance: float = 0.08,
+) -> list[pd.DataFrame]:
     raw_results = []
     reader = PdfReader(pdf_path)
     writer = PdfWriter()
@@ -377,7 +577,11 @@ def extract_tables(pdf_path: str, pages: Optional[list[int]] = None, rotate_page
     # -----------------------------------------------------
 
     final_dfs = []
-    for m in merge_tables_structural(raw_results):
+    for m in merge_tables_structural(
+        raw_results,
+        col_edge_tolerance=merge_col_edge_tolerance,
+        normalized_edge_tolerance=normalized_col_edge_tolerance,
+    ):
         df = m["df"]
         df.attrs["title"] = m["title"]
         df.attrs["page"] = m.get("page")
@@ -391,10 +595,18 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("pdf_path")
     parser.add_argument("--pages")
+    parser.add_argument("--merge-col-edge-tolerance", type=float, default=15.0)
+    parser.add_argument("--normalized-col-edge-tolerance",
+                        type=float, default=0.08)
     args = parser.parse_args()
     pg_list = [int(x) for x in args.pages.split(",")] if args.pages else None
 
-    tables = extract_tables(args.pdf_path, pages=pg_list)
+    tables = extract_tables(
+        args.pdf_path,
+        pages=pg_list,
+        merge_col_edge_tolerance=args.merge_col_edge_tolerance,
+        normalized_col_edge_tolerance=args.normalized_col_edge_tolerance,
+    )
     for i, df in enumerate(tables):
         print(f"\n### Table {i+1}: {df.attrs.get('title', 'Untitled')}\n")
         print(df.to_markdown(index=False))

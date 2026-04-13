@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/SSCABOYO",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/7V6E2WMT"
+  ],
+  "name": {
+    "en": "Electronic Engineering Program",
+    "ja": "電子工学プログラム"
+  }
+}

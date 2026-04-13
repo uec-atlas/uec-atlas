@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/LRHVCXPH",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/FP5ITZ4S"
+  ],
+  "name": {
+    "en": "Measurement and Control Systems Program",
+    "ja": "計測・制御システムプログラム"
+  }
+}

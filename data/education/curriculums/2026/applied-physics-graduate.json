@@ -1,0 +1,140 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/54XAMFYB",
+      "name": {
+        "ja": "物理工学プログラム - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/COZ2PEYY",
+        "uar:education/I6B4KUPA",
+        "uar:education/6WIK2NRI",
+        "uar:education/P74MWFC4",
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/BVV5WHQS",
+      "name": {
+        "ja": "物理工学プログラム - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/4AUHZUJA",
+        "uar:education/XDTXESI3",
+        "uar:education/KUIWR6G4",
+        "uar:education/PYUFQWSG"
+      ]
+    },
+    {
+      "id": "uar:education/UAVYROK7",
+      "name": {
+        "ja": "物理工学プログラム - 大学院実践教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/HD4XAWIY",
+      "courses": [
+        "uar:education/I372HDTY"
+      ]
+    },
+    {
+      "id": "uar:education/PBJWRU2K",
+      "name": {
+        "ja": "物理工学プログラム - 大学院産学連携科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/BRSN55XD",
+      "courses": [
+        "uar:education/ML56CDUA",
+        "uar:education/44N6Y2LP",
+        "uar:education/25EUTVDL",
+        "uar:education/ZF75LW7R",
+        "uar:education/CFVZCFOT",
+        "uar:education/A6NRMA7R",
+        "uar:education/5H5YFPGS",
+        "uar:education/BCB4JZMM",
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4",
+        "uar:education/YOAN5HCJ",
+        "uar:education/DTNOXFZG",
+        "uar:education/7Y3HTZPE",
+        "uar:education/M5L2A7CP"
+      ]
+    },
+    {
+      "id": "uar:education/AZTLZZXL",
+      "name": {
+        "ja": "物理工学プログラム - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/CDW3COXF",
+        "uar:education/A4WRXNIX",
+        "uar:education/WRZN42AM",
+        "uar:education/6JUYCP3S",
+        "uar:education/2N5M6JAZ",
+        "uar:education/IA3LZIZI",
+        "uar:education/GEXMDCEO",
+        "uar:education/JQ5AMOSR",
+        "uar:education/WEEPQ7IZ",
+        "uar:education/4MOMZY2O",
+        "uar:education/BOGC626G",
+        "uar:education/VTQ7TZJL",
+        "uar:education/HFJ5557V",
+        "uar:education/T2POZZ7S",
+        "uar:education/HG4WCMQX",
+        "uar:education/WEZJEPVX"
+      ]
+    },
+    {
+      "id": "uar:education/KEWEIHBT",
+      "name": {
+        "ja": "物理工学プログラム - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RRQUR3YN",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/T2POZZ7S",
+        "uar:education/HG4WCMQX",
+        "uar:education/WEZJEPVX",
+        "uar:education/3CTGTYF4",
+        "uar:education/PUUJYLEU",
+        "uar:education/XJGDSN5L",
+        "uar:education/WKEE2NJW",
+        "uar:education/BFYMICLW",
+        "uar:education/H3MQTJXB",
+        "uar:education/O22JXRW4",
+        "uar:education/J23VQAZQ",
+        "uar:education/UY4TGPDI",
+        "uar:education/LLVH3C42",
+        "uar:education/U6W3VD35",
+        "uar:education/WNSGS4UP"
+      ]
+    }
+  ]
+}

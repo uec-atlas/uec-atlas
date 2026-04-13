@@ -18,6 +18,13 @@ imports:
 
 default_prefix: uao
 
+enums:
+  OrganizationRelationType:
+    description: "組織間関係の種別"
+    permissible_values:
+      RelatedDepartment:
+        description: "関連する専攻"
+
 classes:
   Organization:
     is_a: OrganizationBase
@@ -87,6 +94,10 @@ classes:
     is_a: AbstractEducationalOrganization
     description: "教育プログラム"
 
+  EducationCourse:
+    is_a: AbstractEducationalOrganization
+    description: "課程"
+
   Department:
     is_a: AbstractEducationalOrganization
     description: "専攻"
@@ -97,8 +108,7 @@ classes:
       type:
         description: "関係性の種類"
         required: true
-        designates_type: true
-        range: string
+        range: OrganizationRelationType
       target:
         required: true
         description: "関係先の組織"

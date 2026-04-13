@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/2N6AIBY7",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/SJGILYFG"
+  ],
+  "name": {
+    "en": "Department of Computer and Network Engineering (Doctoral Program)",
+    "ja": "情報・ネットワーク工学専攻(博士後期課程)"
+  }
+}

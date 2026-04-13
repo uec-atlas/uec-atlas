@@ -12,7 +12,7 @@ from ..people import utils as people_utils
 from ..gen_id import generate_id
 from collections import defaultdict
 
-PART_TIME_PREFIX = ("◯", "〇", "○")
+PART_TIME_PREFIX = ("◯", "〇", "○", "(非)", "（非）")
 TECH_STAFF_PREFIX = ("*", "＊")
 
 
@@ -103,7 +103,7 @@ def split_instructor_name(name: str) -> list[InstructorName]:
     names = [InstructorName(n.strip())
              for n in re.split(r"[・、]", name) if n.strip()]
     names = [n for n in names if n.normalized and n.normalized !=
-             "未定" and len(n.normalized) > 0]
+             "未定" and n.normalized.replace(" ", "") != "各指導教員" and len(n.normalized) > 0]
     return names
 
 
@@ -296,7 +296,7 @@ def resolve_instructors(syllabuses: list[SyllabusCourse]) -> dict[SyllabusCourse
 
             if person is None or person.id is None:
                 name_ja = inst_name.normalized
-                if name_ja == "未定":
+                if name_ja == "未定" or name_ja.replace(" ", "") == "各指導教員":
                     continue
                 unresolved_to_subjects[name_ja].add(course_name)
 

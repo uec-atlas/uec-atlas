@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/YBUTN2WI",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/MOPEQEW7"
+  ],
+  "name": {
+    "en": "Management and Social Informatics Program",
+    "ja": "経営・社会情報学プログラム"
+  }
+}

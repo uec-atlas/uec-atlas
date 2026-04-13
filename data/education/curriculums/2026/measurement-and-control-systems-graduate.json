@@ -1,0 +1,122 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/YHCAHAMV",
+      "name": {
+        "ja": "計測・制御システムプログラム - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/COZ2PEYY",
+        "uar:education/I6B4KUPA",
+        "uar:education/6WIK2NRI",
+        "uar:education/P74MWFC4",
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/EBOUNUG4",
+      "name": {
+        "ja": "計測・制御システムプログラム - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/4AUHZUJA",
+        "uar:education/XDTXESI3",
+        "uar:education/KUIWR6G4",
+        "uar:education/PYUFQWSG"
+      ]
+    },
+    {
+      "id": "uar:education/RAK5MVVP",
+      "name": {
+        "ja": "計測・制御システムプログラム - 大学院実践教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/HD4XAWIY",
+      "courses": [
+        "uar:education/I372HDTY"
+      ]
+    },
+    {
+      "id": "uar:education/7NCGGOBM",
+      "name": {
+        "ja": "計測・制御システムプログラム - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/CDW3COXF",
+        "uar:education/A4WRXNIX",
+        "uar:education/WRZN42AM",
+        "uar:education/6JUYCP3S",
+        "uar:education/TEGC5MO7",
+        "uar:education/HIMCMEVX",
+        "uar:education/JEFWZYRW",
+        "uar:education/Q7FZHETU",
+        "uar:education/4OTIKGUL",
+        "uar:education/J4T4ZPPB",
+        "uar:education/JOOKBUFY",
+        "uar:education/4D7TZXNL",
+        "uar:education/CASF3RWV"
+      ]
+    },
+    {
+      "id": "uar:education/D5WQP5FW",
+      "name": {
+        "ja": "計測・制御システムプログラム - 専門科目Ⅱ(A)"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/IMXRBQ52",
+      "courses": [
+        "uar:education/WG2UFQDQ",
+        "uar:education/VDME4N6K",
+        "uar:education/UXKFLYQW",
+        "uar:education/P2EKRDM7",
+        "uar:education/X4SDKY4F",
+        "uar:education/TKO2BHTE"
+      ]
+    },
+    {
+      "id": "uar:education/ORJP4T6L",
+      "name": {
+        "ja": "計測・制御システムプログラム - 専門科目Ⅱ(B)"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/72W3G2M7",
+      "courses": [
+        "uar:education/DKW7OYJ4",
+        "uar:education/KVSXCD34",
+        "uar:education/J4XI2IAE",
+        "uar:education/C3Z4HAHV",
+        "uar:education/QLXIOLYZ",
+        "uar:education/E34WW64Q",
+        "uar:education/AZOI42MS",
+        "uar:education/ZGDDB7PJ",
+        "uar:education/HVI4EZSQ",
+        "uar:education/L27CGYMU"
+      ]
+    }
+  ]
+}

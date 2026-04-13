@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/CAXIXDWV",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/LTZM72NZ"
+  ],
+  "name": {
+    "en": "Computer Science Program",
+    "ja": "コンピュータサイエンスプログラム"
+  }
+}

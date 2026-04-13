@@ -1,0 +1,585 @@
+{
+  "type": "LectureCollection",
+  "entries": [
+    {
+      "id": "uar:education/3GHUUUSA",
+      "timeTableCode": "26023101",
+      "name": {
+        "ja": "オープンイノベーションスクールⅢ",
+        "en": "Open Innovation School Ⅲ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26023101.html",
+      "courses": [
+        "uar:education/FCILN2CQ"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/HCSCJRB7",
+      "timeTableCode": "26023102",
+      "name": {
+        "ja": "オープンイノベーションスクールⅣ",
+        "en": "Open Innovation School Ⅳ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26023102.html",
+      "courses": [
+        "uar:education/HA5KFIW3"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MUKVYLAF",
+      "timeTableCode": "26023103",
+      "name": {
+        "ja": "オープンイノベーションスクールⅤ",
+        "en": "Open Innovation School Ⅴ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26023103.html",
+      "courses": [
+        "uar:education/XV27HQMA"
+      ],
+      "instructors": [
+        "uar:people/MEHUBKAP",
+        "uar:people/P37EGXEV",
+        "uar:people/TNBZFVUF"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/YIVHM5R3",
+      "timeTableCode": "26133101",
+      "name": {
+        "ja": "情報学特論",
+        "en": "Advanced Informatics"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26133101.html",
+      "courses": [
+        "uar:education/A2QPJKSQ"
+      ],
+      "instructors": [],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/C6L53277",
+      "timeTableCode": "26233101",
+      "name": {
+        "ja": "情報・ネットワーク工学特論",
+        "en": "Advanced Computer and Network Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26233101.html",
+      "courses": [
+        "uar:education/UDHVTBE4"
+      ],
+      "instructors": [
+        "uar:people/SHWYBREW"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/Q2NIBV7G",
+      "timeTableCode": "26333101",
+      "name": {
+        "ja": "機械知能システム学特論",
+        "en": "Advanced Mechanical and Intelligent Systems Engineering"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26333101.html",
+      "courses": [
+        "uar:education/PVXT3G2R"
+      ],
+      "instructors": [],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/CUGCVP7R",
+      "timeTableCode": "26433101",
+      "name": {
+        "ja": "基盤理工学特論",
+        "en": "Advanced Engineering Science"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26433101.html",
+      "courses": [
+        "uar:education/TVK3XS77"
+      ],
+      "instructors": [],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/C3GFUDJP",
+      "timeTableCode": "26551101",
+      "name": {
+        "ja": "サステイナビリティ研究基礎A(R6年度以前入学生)",
+        "en": "Foundations of Sustainability Research A(~2024 entrants)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26551101.html",
+      "courses": [
+        "uar:education/72IMTNFU"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/J7WFCA2M",
+      "timeTableCode": "26551103",
+      "name": {
+        "ja": "サステイナビリティ研究基礎A",
+        "en": "Foundations of Sustainability Research A"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26551103.html",
+      "courses": [
+        "uar:education/72IMTNFU"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5ZKPTDLY",
+      "timeTableCode": "26552101",
+      "name": {
+        "ja": "協働分野セミナーⅠ(R6年度以前入学生)",
+        "en": "Interdisciplinary Seminar Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26552101.html",
+      "courses": [
+        "uar:education/Q5YDV2YV"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/V5NN63US",
+      "timeTableCode": "26552107",
+      "name": {
+        "ja": "協働分野セミナーⅠ",
+        "en": "Interdisciplinary Seminar Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26552107.html",
+      "courses": [
+        "uar:education/Q5YDV2YV"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/A2TFFZ7W",
+      "timeTableCode": "26553101",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅰ",
+        "en": "Sustainability Research Advanced Practicum Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553101.html",
+      "courses": [
+        "uar:education/EOT6JK7I"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/CVBS4JLC",
+      "timeTableCode": "26553102",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅱ",
+        "en": "Sustainability Research Advanced Practicum Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553102.html",
+      "courses": [
+        "uar:education/UZWMPAVY"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/I7FDO2YD",
+      "timeTableCode": "26553103",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅲ",
+        "en": "Sustainability Research Advanced Practicum Ⅲ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553103.html",
+      "courses": [
+        "uar:education/QPBMVKNE"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/N2WIN4B5",
+      "timeTableCode": "26553104",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅳ",
+        "en": "Sustainability Research Advanced Practicum Ⅳ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553104.html",
+      "courses": [
+        "uar:education/ANZKYUDM"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "前学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/JURWQSLX",
+      "timeTableCode": "26121301",
+      "name": {
+        "ja": "大学院輪講第二",
+        "en": "Graduate Seminar 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26121301.html",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ],
+      "instructors": [],
+      "numberOfCredits": 4,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/JUBROULP",
+      "timeTableCode": "26221301",
+      "name": {
+        "ja": "大学院輪講第二",
+        "en": "Graduate Seminar 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26221301.html",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ],
+      "instructors": [],
+      "numberOfCredits": 4,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/SOJDXF76",
+      "timeTableCode": "26321301",
+      "name": {
+        "ja": "大学院輪講第二",
+        "en": "Graduate Seminar 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26321301.html",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ],
+      "instructors": [],
+      "numberOfCredits": 4,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/2LHAIGKN",
+      "timeTableCode": "26421301",
+      "name": {
+        "ja": "大学院輪講第二",
+        "en": "Graduate Seminar 2"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26421301.html",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ],
+      "instructors": [],
+      "numberOfCredits": 4,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/QBJY7R66",
+      "timeTableCode": "26553105",
+      "name": {
+        "ja": "学外実践実習",
+        "en": "Extramural Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553105.html",
+      "courses": [
+        "uar:education/GYXBHYPW"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/F6DCX2IE",
+      "timeTableCode": "26553206",
+      "name": {
+        "ja": "学内実践実習",
+        "en": "Intramural Internship"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553206.html",
+      "courses": [
+        "uar:education/ECFIKVNU"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "通年",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5HY6OLWB",
+      "timeTableCode": "26551202",
+      "name": {
+        "ja": "サステイナビリティ研究基礎B(R6年度以前入学生)",
+        "en": "Foundations of Sustainability Research B(~2024 entrants)"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26551202.html",
+      "courses": [
+        "uar:education/7V3HKQ34"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/NHZB7KKK",
+      "timeTableCode": "26551204",
+      "name": {
+        "ja": "サステイナビリティ研究基礎B",
+        "en": "Foundations of Sustainability Research B"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26551204.html",
+      "courses": [
+        "uar:education/7V3HKQ34"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/BVUBIX4V",
+      "timeTableCode": "26552208",
+      "name": {
+        "ja": "協働分野セミナーⅡ",
+        "en": "Interdisciplinary Seminar Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26552208.html",
+      "courses": [
+        "uar:education/ATTGIWS5"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 2,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/EUKBI3KM",
+      "timeTableCode": "26553201",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅰ",
+        "en": "Sustainability Research Advanced Practicum Ⅰ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553201.html",
+      "courses": [
+        "uar:education/EOT6JK7I"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/5RVL2UUK",
+      "timeTableCode": "26553202",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅱ",
+        "en": "Sustainability Research Advanced Practicum Ⅱ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553202.html",
+      "courses": [
+        "uar:education/UZWMPAVY"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/MRWZG6DT",
+      "timeTableCode": "26553203",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅲ",
+        "en": "Sustainability Research Advanced Practicum Ⅲ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553203.html",
+      "courses": [
+        "uar:education/QPBMVKNE"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    },
+    {
+      "id": "uar:education/Z2JCN7UO",
+      "timeTableCode": "26553204",
+      "name": {
+        "ja": "サステイナビリティ研究先端演習Ⅳ",
+        "en": "Sustainability Research Advanced Practicum Ⅳ"
+      },
+      "year": 2026,
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/34/34_26553204.html",
+      "courses": [
+        "uar:education/ANZKYUDM"
+      ],
+      "instructors": [
+        "uar:people/3RI7NRLK"
+      ],
+      "numberOfCredits": 1,
+      "term": "後学期",
+      "periods": [
+        "他"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/FP5ITZ4S",
+  "type": "EducationCourse",
+  "subOrganizationOf": [
+    "uar:organizations/W23WZ55B"
+  ],
+  "name": {
+    "en": "Department of Mechanical and Intelligent Systems Engineering (Master's Program)",
+    "ja": "機械知能システム学専攻(博士前期課程)"
+  }
+}

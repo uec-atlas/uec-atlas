@@ -1,0 +1,11 @@
+{
+  "id": "uar:organizations/JB2S6RYV",
+  "type": "EducationProgram",
+  "subOrganizationOf": [
+    "uar:organizations/FP5ITZ4S"
+  ],
+  "name": {
+    "en": "Advanced Robotics Program",
+    "ja": "先端ロボティクスプログラム"
+  }
+}

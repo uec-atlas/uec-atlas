@@ -2,11 +2,16 @@
   "id": "uar:organizations/75CN24UH",
   "type": "EducationProgram",
   "subOrganizationOf": [
-    "uar:organizations/5TDWVJAF",
-    "uar:organizations/SJGILYFG"
+    "uar:organizations/5TDWVJAF"
   ],
   "name": {
     "en": "Computer Science Program",
     "ja": "コンピュータサイエンスプログラム"
-  }
+  },
+  "relatedTo": [
+    {
+      "type": "RelatedDepartment",
+      "target": "uar:organizations/SJGILYFG"
+    }
+  ]
 }

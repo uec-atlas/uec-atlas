@@ -1,0 +1,84 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/4ERPIFM2",
+      "name": {
+        "ja": "機械知能システム学専攻(博士後期課程) - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/VV4HKADC",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/NNWFBRGB",
+      "name": {
+        "ja": "機械知能システム学専攻(博士後期課程) - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/VV4HKADC",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ]
+    },
+    {
+      "id": "uar:education/GEXSGYN5",
+      "name": {
+        "ja": "機械知能システム学専攻(博士後期課程) - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/VV4HKADC",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/WG2UFQDQ",
+        "uar:education/VDME4N6K",
+        "uar:education/UXKFLYQW",
+        "uar:education/P2EKRDM7",
+        "uar:education/X4SDKY4F",
+        "uar:education/DKW7OYJ4",
+        "uar:education/KVSXCD34",
+        "uar:education/J4XI2IAE",
+        "uar:education/TKO2BHTE",
+        "uar:education/C3Z4HAHV",
+        "uar:education/QLXIOLYZ",
+        "uar:education/E34WW64Q",
+        "uar:education/AZOI42MS",
+        "uar:education/ZGDDB7PJ",
+        "uar:education/HVI4EZSQ",
+        "uar:education/L27CGYMU",
+        "uar:education/PUUJYLEU",
+        "uar:education/YYV44PPS",
+        "uar:education/C7CIWG7D",
+        "uar:education/SRDXNCZ6"
+      ]
+    },
+    {
+      "id": "uar:education/7R6LWNFL",
+      "name": {
+        "ja": "機械知能システム学専攻(博士後期課程) - 専門上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/VV4HKADC",
+      "category": "uar:education/NWIRJZXN",
+      "courses": [
+        "uar:education/PVXT3G2R"
+      ]
+    }
+  ]
+}
