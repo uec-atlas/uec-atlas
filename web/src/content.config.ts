@@ -59,7 +59,11 @@ const educationCourseCategories = defineCollection({
     ) as Record<string, CourseCategoryCollection>;
 
     return Object.values(files).flatMap(
-      (data) => data.entries?.map((entry) => ({ ...entry })) ?? [],
+      (data) =>
+        data.entries?.map((entry) => ({
+          type: "CourseCategory",
+          ...entry,
+        })) ?? [],
     );
   },
 });
