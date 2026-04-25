@@ -37,7 +37,7 @@ def normalize_string(string: str) -> str:
         return roman_map.get(text, text)
 
     string = re.sub(
-        r"(?<![a-zA-Z0-9])[IVX]+(?![a-zA-Z0-9]|エリア)", replace_roman, string)
+        r"(?<![a-zA-Z0-9]|類・)[IVX]+(?![a-zA-Z0-9]|エリア|線)", replace_roman, string)
     string = re.sub(r"([a-zA-Z])([\u2160-\u216F])", r"\1 \2", string)
     string = re.sub(r"([a-z])([A-Z])", r"\1 \2", string)
     string = re.sub(r"\s+", " ", string)
