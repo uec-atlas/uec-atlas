@@ -185,20 +185,18 @@
           "minCredits": 15,
           "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA"
-          ]
-        },
-        {
-          "minCredits": 8,
-          "description": "情報数理工学実験第一及び情報数理工学実験第二A並びに第二Bの単位を修得していること。",
-          "targetCategories": [
-            "uar:education/YSB4JMOU"
+            "uar:education/EP2LLKV4"
           ]
         },
         {
           "minCredits": 101,
           "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/LBDTE64K",
+        "uar:education/ZHFVNDNB",
+        "uar:education/HGWA5EM6"
       ]
     },
     {

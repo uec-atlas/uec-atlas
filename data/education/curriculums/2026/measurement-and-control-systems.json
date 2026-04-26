@@ -240,23 +240,30 @@
       "targetOrganization": "uar:organizations/HXSVK2KQ",
       "categoryRequirements": [
         {
-          "minCredits": 15,
-          "description": "類共通基礎科目の全必修科目6科目の11単位及び選択必修科目2科目の4単位以上を修得していること。",
+          "minCredits": 11,
+          "description": "類共通基礎科目の全必修科目6科目の11単位を修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA"
+            "uar:education/EP2LLKV4"
           ]
         },
         {
-          "minCredits": 10,
-          "description": "メカノデザイン,メカトロニクス基礎実験A及びB,マシンデザインA及びBの単位を修得していること。",
+          "minCredits": 4,
+          "description": "類共通基礎科目の選択必修科目2科目の4単位以上を修得していること。",
           "targetCategories": [
-            "uar:education/YSB4JMOU"
+            "uar:education/BFLB7HEA"
           ]
         },
         {
           "minCredits": 104,
           "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/EG22OY63",
+        "uar:education/EKFAJRGO",
+        "uar:education/MOJSIGS5",
+        "uar:education/JF2MFB4H",
+        "uar:education/ZWALLKSO"
       ]
     },
     {

@@ -188,20 +188,17 @@
           "minCredits": 17,
           "description": "類共通基礎科目の必修科目10科目の17単位をすべて修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA"
-          ]
-        },
-        {
-          "minCredits": 4,
-          "description": "プログラミング言語実験及びデザイン思考・データサイエンス実験の単位を修得していること。",
-          "targetCategories": [
-            "uar:education/YSB4JMOU"
+            "uar:education/EP2LLKV4"
           ]
         },
         {
           "minCredits": 101,
           "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/CDIELROE",
+        "uar:education/LFWKGIMA"
       ]
     },
     {
@@ -303,13 +300,13 @@
           ]
         },
         {
-          "minCredits": 15,
+          "minCredits": 20,
           "targetCategories": [
             "uar:education/RATDGCTQ"
           ]
         },
         {
-          "minCredits": 21,
+          "minCredits": 16,
           "targetCategories": [
             "uar:education/IIBWCNBT"
           ]

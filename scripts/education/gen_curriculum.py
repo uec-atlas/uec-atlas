@@ -49,7 +49,6 @@ def generate_curriculum(year: int, input_path: str):
             return output_files_per_organization[org.id][1]
 
         path = outdir / f"{org.file_basename}.json"
-        entries = []
         if path.exists():
             try:
                 with open(path, "r", encoding="utf-8") as f:
@@ -58,7 +57,6 @@ def generate_curriculum(year: int, input_path: str):
             except Exception as e:
                 print(
                     f"Warning: Failed to load existing curriculum file {path}: {e}")
-
         output_files_per_organization[org.id] = (org.file_basename, entries)
         return entries
 
@@ -241,9 +239,32 @@ def generate_curriculum(year: int, input_path: str):
                     category_fragments = category_fragments[-1].split("・")
                 else:
                     category_fragments = [category_fragments[-1]]
-                categories = [find_course_category_by_fragments(
-                    [f]) for f in category_fragments]
-                categories = [c for c in categories if c is not None]
+
+                categories = []
+                for f in category_fragments:
+                    frags_list = []
+                    if f in ["理数基礎科目", "類共通基礎科目", "類専門科目", "専門科目"]:
+                        has_sub = False
+                        notes_clean = notes.replace("選択必修", "@@@")
+                        if "必修" in notes_clean:
+                            frags_list.append([f, "必修科目"])
+                            has_sub = True
+                        if "@@@" in notes_clean:
+                            frags_list.append([f, "選択必修科目"])
+                            has_sub = True
+                        if "選択" in notes_clean:
+                            frags_list.append([f, "選択科目"])
+                            has_sub = True
+                        if not has_sub:
+                            frags_list.append([f])
+                    else:
+                        frags_list.append([f])
+
+                    for frags in frags_list:
+                        cat = find_course_category_by_fragments(frags)
+                        if cat:
+                            categories.append(cat)
+
                 if not categories:
                     if "必要総単位数" in category_fragments_str:
                         credits = int(re.search(r"(\d+)単位以上を修得",

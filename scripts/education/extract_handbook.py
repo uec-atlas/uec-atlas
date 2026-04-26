@@ -83,6 +83,13 @@ def extract_handbook_tables(
     merge_col_edge_tolerance: float = 15.0,
     normalized_col_edge_tolerance: float = 0.08,
 ) -> list[pd.DataFrame]:
+    if input_path is not None and str(input_path).endswith('.pkl'):
+        path = Path(input_path)
+        if path.exists():
+            return pickle.loads(path.read_bytes())
+        else:
+            raise FileNotFoundError(f"Input PKL not found: {input_path}")
+
     pdf_stem = Path(input_path).stem
     safe_pdf_stem = re.sub(r"[^A-Za-z0-9_.-]+", "_", pdf_stem)
     safe_profile = re.sub(r"[^A-Za-z0-9_.-]+", "_", profile)

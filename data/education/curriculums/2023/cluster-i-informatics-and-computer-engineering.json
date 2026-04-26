@@ -428,6 +428,12 @@
       "targetOrganization": "uar:organizations/5TDWVJAF",
       "categoryRequirements": [
         {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
           "minCredits": 4,
           "targetCategories": [
             "uar:education/BIZMTYJH"
@@ -462,12 +468,6 @@
           "targetCategories": [
             "uar:education/AD4LGWNT"
           ]
-        },
-        {
-          "minCredits": 3,
-          "targetCategories": [
-            "uar:education/EP2LLKV4"
-          ]
         }
       ]
     },
@@ -494,13 +494,6 @@
           ]
         },
         {
-          "minCredits": 2,
-          "description": "健康・体力つくり実習1単位、健康論1単位",
-          "targetCategories": [
-            "uar:education/B3JQULL5"
-          ]
-        },
-        {
           "minCredits": 6,
           "description": "初年次導入科目(3科目)の単位をすべて修得していること。",
           "targetCategories": [
@@ -508,19 +501,17 @@
           ]
         },
         {
-          "minCredits": 2,
-          "description": "総合コミュニケーション科学の単位を修得していること。",
-          "targetCategories": [
-            "uar:education/NNAK4A3G"
-          ]
-        },
-        {
           "minCredits": 18,
           "description": "理数基礎科目(必修科目10科目)の単位をすべて修得していること。",
           "targetCategories": [
-            "uar:education/FT4TXJMO"
+            "uar:education/AD4LGWNT"
           ]
         }
+      ],
+      "courseRequirements": [
+        "uar:education/P6LADPPL",
+        "uar:education/X4UBJ2RY",
+        "uar:education/PZNVLUH7"
       ]
     }
   ]

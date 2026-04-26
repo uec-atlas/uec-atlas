@@ -204,20 +204,19 @@
           "minCredits": 21,
           "description": "類共通基礎科目の全必修科目10科目のうち、9科目以上の単位を修得し、かつ、必修科目及び選択必修科目のうち、21単位以上を修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA"
-          ]
-        },
-        {
-          "minCredits": 6,
-          "description": "電子情報学実験A及び電子情報学実験B1並びにB2の単位を修得していること。",
-          "targetCategories": [
-            "uar:education/YSB4JMOU"
+            "uar:education/EP2LLKV4",
+            "uar:education/BFLB7HEA"
           ]
         },
         {
           "minCredits": 104,
           "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/PP5K5CNW",
+        "uar:education/LGQCWMAA",
+        "uar:education/M5NWKWAL"
       ]
     },
     {

@@ -185,22 +185,26 @@
       "categoryRequirements": [
         {
           "minCredits": 19,
-          "description": "類共通基礎科目の全必修科目8科目の17単位及び選択科目1科目の2単位以上を修得していること。",
+          "description": "類共通基礎科目の全必修科目8科目の17単位を修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA"
+            "uar:education/EP2LLKV4"
           ]
         },
         {
-          "minCredits": 4,
-          "description": "プログラミング言語実験及びセキュリティ情報学実験の単位を修得していること。",
+          "minCredits": 19,
+          "description": "類共通基礎科目の選択科目1科目の2単位以上を修得していること。",
           "targetCategories": [
-            "uar:education/YSB4JMOU"
+            "uar:education/FS2YNTNZ"
           ]
         },
         {
           "minCredits": 104,
           "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/SWLBIH3T",
+        "uar:education/HYAUJT2V"
       ]
     },
     {

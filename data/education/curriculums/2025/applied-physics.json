@@ -204,17 +204,22 @@
       "targetOrganization": "uar:organizations/NIBJHDQW",
       "categoryRequirements": [
         {
-          "minCredits": 0,
-          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目11科目の24単位のうち、18単位以上の単位を修得していること。類専門科目の理工学基礎実験並びに物理工学実験第一及び第二の単位を修得していること。",
+          "minCredits": 18,
+          "description": "2年次までの類共通基礎科目及び類専門科目の必修科目11科目の24単位のうち、18単位以上の単位を修得していること。",
           "targetCategories": [
-            "uar:education/4NUIY6AA",
-            "uar:education/YSB4JMOU"
+            "uar:education/EP2LLKV4",
+            "uar:education/RATDGCTQ"
           ]
         },
         {
           "minCredits": 104,
           "description": "上記審査基準を満たし、更に卒業所要単位(133単位)のうち、104単位以上を修得していなければならない。"
         }
+      ],
+      "courseRequirements": [
+        "uar:education/TPK2EPIY",
+        "uar:education/B2N56ZWD",
+        "uar:education/KUOHUGT7"
       ]
     },
     {
