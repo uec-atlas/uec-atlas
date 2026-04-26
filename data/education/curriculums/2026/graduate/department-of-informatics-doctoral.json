@@ -1,0 +1,145 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/CTXMHLC5",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/XQZUYEZK",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/NILECJ4E"
+      ]
+    },
+    {
+      "id": "uar:education/SLJZW4YU",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/JBCAA7NY",
+        "uar:education/I2C44RQH",
+        "uar:education/CFAASGKR"
+      ]
+    },
+    {
+      "id": "uar:education/CKUOH6QO",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/CKNPEWNJ",
+        "uar:education/XZCQOH7T",
+        "uar:education/GZKENJXW",
+        "uar:education/X6LHPI27",
+        "uar:education/D5NOEO3M",
+        "uar:education/YYI5SIIM",
+        "uar:education/BPXRDAZN",
+        "uar:education/V2QYJ7VH",
+        "uar:education/TFR2D2Y6",
+        "uar:education/N3RQOO3V",
+        "uar:education/FZTCIMQ7",
+        "uar:education/2APORV4Q",
+        "uar:education/SSI32DQY",
+        "uar:education/W6LGQDLW",
+        "uar:education/453Q22LQ",
+        "uar:education/ZLHGCDM2",
+        "uar:education/2KEENO5W",
+        "uar:education/FEYSWAHB",
+        "uar:education/Y5KZQQU5",
+        "uar:education/77MGPF2M",
+        "uar:education/7HB6WENI",
+        "uar:education/PHGC47VS",
+        "uar:education/AF3ADKOE",
+        "uar:education/CY5WK7QM",
+        "uar:education/NDSMKBPW",
+        "uar:education/I7LHAW5W",
+        "uar:education/4U53PSYO",
+        "uar:education/5BVY6X33",
+        "uar:education/RFHNWA3N",
+        "uar:education/KEWMA53P",
+        "uar:education/BJVBSUBV",
+        "uar:education/C6XNYU72",
+        "uar:education/PRN3KT3E",
+        "uar:education/SAECC3NB"
+      ]
+    },
+    {
+      "id": "uar:education/R4URWPJS",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 専門上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "category": "uar:education/NWIRJZXN",
+      "courses": [
+        "uar:education/A2QPJKSQ"
+      ]
+    },
+    {
+      "id": "uar:education/MYXF2LDR",
+      "name": {
+        "ja": "情報学専攻(博士後期課程) - 修了所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/NOKEKYNI",
+      "categoryRequirements": [
+        {
+          "minCredits": 4,
+          "description": "大学院輪講を4単位修得すること。",
+          "targetCategories": [
+            "uar:education/44UQPTIM"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "description": "専門上級科目を2単位修得すること。",
+          "targetCategories": [
+            "uar:education/NWIRJZXN"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "description": "大学院基礎教育科目、大学院産学連携科目及び大学院専門教育科目の区分から2単位以上を修得すること。",
+          "targetCategories": [
+            "uar:education/FICAX42K",
+            "uar:education/BRSN55XD",
+            "uar:education/JMFPSMNN"
+          ]
+        }
+      ]
+    }
+  ]
+}

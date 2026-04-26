@@ -1,0 +1,325 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/ZTY7NGZV",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/YQUNDBMD",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/GLWN7N4I",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/E2RVSBXC",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/ODIBYFPK",
+        "uar:education/JCX3HIYB",
+        "uar:education/BUL7Z2VA",
+        "uar:education/TABL5MRQ",
+        "uar:education/NQTMTH65",
+        "uar:education/NI7OHFYC",
+        "uar:education/6DV3FLFX",
+        "uar:education/NHP567EI",
+        "uar:education/2KFDIPX5"
+      ]
+    },
+    {
+      "id": "uar:education/XGRTZ5AO",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/2TEBTZIV",
+        "uar:education/A4L5NLJU",
+        "uar:education/BBPIQJ3V",
+        "uar:education/Q4FEQDII",
+        "uar:education/3SOQ7PWK",
+        "uar:education/PUDISZO3",
+        "uar:education/JYYF5VOG"
+      ]
+    },
+    {
+      "id": "uar:education/SF5WZFJB",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/NAN4RFRN",
+        "uar:education/SP2BV326",
+        "uar:education/RTNRU6PW",
+        "uar:education/XLJLRGKP",
+        "uar:education/ATBE5K7L",
+        "uar:education/VYSSUVUG",
+        "uar:education/ER4GY5B2",
+        "uar:education/MKTPJX7Z",
+        "uar:education/TDKMA4FU"
+      ]
+    },
+    {
+      "id": "uar:education/AC2BBEVV",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/24T7LD24",
+        "uar:education/M2NPRI5O",
+        "uar:education/IOEGCQXI",
+        "uar:education/67CQEIX2",
+        "uar:education/H4I64MLP",
+        "uar:education/7LMOR5IA",
+        "uar:education/I22B2F34",
+        "uar:education/K4NZVYKR",
+        "uar:education/DHBS4JZ7",
+        "uar:education/FCP2HVKP",
+        "uar:education/RO3BM3FM",
+        "uar:education/QYR22PXP",
+        "uar:education/DDKWIVIC",
+        "uar:education/X56MH3WO",
+        "uar:education/OOWTPD7X",
+        "uar:education/F55K2BTZ",
+        "uar:education/KMDGTHWW",
+        "uar:education/KSID7JIR",
+        "uar:education/FVAAAMWJ",
+        "uar:education/XYOB4B5M",
+        "uar:education/E5KBIH4G",
+        "uar:education/FMASTYNC",
+        "uar:education/HM5JX6SQ",
+        "uar:education/6WC4XACD",
+        "uar:education/YALTUYDE",
+        "uar:education/YCJDEJJD",
+        "uar:education/WL7XUJCN",
+        "uar:education/WFMPTHIV"
+      ]
+    },
+    {
+      "id": "uar:education/5XPDWGI3",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/X2VU6VF6",
+        "uar:education/JNHM5STX",
+        "uar:education/UKOHPGT2",
+        "uar:education/FSWOKS2P",
+        "uar:education/EHLSHFYJ",
+        "uar:education/Q22LE77O",
+        "uar:education/VLJJWPQA",
+        "uar:education/EHRAHX5X",
+        "uar:education/PQ7HPC5I",
+        "uar:education/LHD2EXAI",
+        "uar:education/3TXGXIZG",
+        "uar:education/W2W7E5OE",
+        "uar:education/7XHKSZOH",
+        "uar:education/SQSJ7TK7",
+        "uar:education/CMWUMRT4",
+        "uar:education/4H4H5OZB"
+      ]
+    },
+    {
+      "id": "uar:education/HTR26E4O",
+      "name": {
+        "ja": "コンピュータサイエンスプログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/LD2NT7ZA",
+        "uar:education/TSUF6H6I",
+        "uar:education/HMVNOZM4",
+        "uar:education/EVR5GAIC"
+      ]
+    },
+    {
+      "id": "uar:education/PUY2UR2K",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "categoryRequirements": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 101,
+          "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
+        }
+      ],
+      "courseRequirements": [
+        "uar:education/RTNRU6PW",
+        "uar:education/XLJLRGKP",
+        "uar:education/ATBE5K7L"
+      ]
+    },
+    {
+      "id": "uar:education/KKJYSVAC",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/75CN24UH",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 15,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 16,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 7,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/GTISJT63",
+      "name": {
+        "ja": "共同サステイナビリティ研究専攻 - 共通基盤科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/XH66SRKN",
+      "category": "uar:education/TPGGQZLC",
+      "courses": [
+        "uar:education/72IMTNFU",
+        "uar:education/7V3HKQ34"
+      ]
+    },
+    {
+      "id": "uar:education/5FRX7IVY",
+      "name": {
+        "ja": "共同サステイナビリティ研究専攻 - サステイナビリティ研究セミナー／ラボワーク科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/XH66SRKN",
+      "category": "uar:education/HDJKVTQ4",
+      "courses": [
+        "uar:education/Q5YDV2YV",
+        "uar:education/ATTGIWS5"
+      ]
+    },
+    {
+      "id": "uar:education/EMIVDPAE",
+      "name": {
+        "ja": "共同サステイナビリティ研究専攻 - 実践実習科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/XH66SRKN",
+      "category": "uar:education/YQVMOGOH",
+      "courses": [
+        "uar:education/EOT6JK7I",
+        "uar:education/UZWMPAVY",
+        "uar:education/QPBMVKNE",
+        "uar:education/ANZKYUDM",
+        "uar:education/GYXBHYPW",
+        "uar:education/ECFIKVNU"
+      ]
+    },
+    {
+      "id": "uar:education/CZ7Y3IZL",
+      "name": {
+        "ja": "共同サステイナビリティ研究専攻 - 修了所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/XH66SRKN",
+      "categoryRequirements": [
+        {
+          "minCredits": 2,
+          "description": "共通基盤科目を2単位修得すること。",
+          "targetCategories": [
+            "uar:education/TPGGQZLC"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "description": "主指導教員・副指導教員による協働セミナーを4単位修得すること。",
+          "targetCategories": [
+            "uar:education/HDJKVTQ4"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "description": "「学外実践実習」「学内実践実習」いずれかを含む実践実習科目を6単位修得すること。",
+          "targetCategories": [
+            "uar:education/YQVMOGOH"
+          ]
+        }
+      ]
+    }
+  ]
+}

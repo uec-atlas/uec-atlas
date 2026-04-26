@@ -1,0 +1,318 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/Q552T3I4",
+      "name": {
+        "ja": "メディア情報学プログラム - 理数基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/XRYWGM6T",
+        "uar:education/PQIZYWTL",
+        "uar:education/6LPHI36K",
+        "uar:education/7NG5LBIA",
+        "uar:education/JFLBXAGJ",
+        "uar:education/F5CJBSSO",
+        "uar:education/ZFSPOFHL",
+        "uar:education/T4EYFHMO",
+        "uar:education/DP7LKGWX",
+        "uar:education/Y4NC3VFN"
+      ]
+    },
+    {
+      "id": "uar:education/CNVE7WXG",
+      "name": {
+        "ja": "メディア情報学プログラム - 理数基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/MMQPRW5P",
+      "courses": [
+        "uar:education/TT73ZHTZ",
+        "uar:education/GLWN7N4I",
+        "uar:education/XKE6ZH6U",
+        "uar:education/E53NGOV2"
+      ]
+    },
+    {
+      "id": "uar:education/WSAPRCTR",
+      "name": {
+        "ja": "メディア情報学プログラム - 類共通基礎科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/EP2LLKV4",
+      "courses": [
+        "uar:education/HFHTGYVJ",
+        "uar:education/QPDCPTHD",
+        "uar:education/Z25E6O7S",
+        "uar:education/JZZF5ZI6",
+        "uar:education/TRJQ2HNQ",
+        "uar:education/VNP2WLDI",
+        "uar:education/Y3SIICUQ",
+        "uar:education/QHILKZ4E",
+        "uar:education/VBW6DTUK"
+      ]
+    },
+    {
+      "id": "uar:education/SXTKCRF4",
+      "name": {
+        "ja": "メディア情報学プログラム - 類共通基礎科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/FS2YNTNZ",
+      "courses": [
+        "uar:education/U6GHKOVN",
+        "uar:education/UGO4I3O3",
+        "uar:education/YSB7672N",
+        "uar:education/B62ZBZB4",
+        "uar:education/45JV6ZD5",
+        "uar:education/BTYZS27C",
+        "uar:education/IFGDKUVV"
+      ]
+    },
+    {
+      "id": "uar:education/7LTOWZJ5",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/必修科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/RATDGCTQ",
+      "courses": [
+        "uar:education/CKLPSTSF",
+        "uar:education/7KI2KAR7",
+        "uar:education/VQEFLAO3",
+        "uar:education/N2B4BAJN",
+        "uar:education/UKNSSEL4",
+        "uar:education/QO6FOSWZ",
+        "uar:education/KCAWTWWG"
+      ]
+    },
+    {
+      "id": "uar:education/XNPVDU5R",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/選択科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/IIBWCNBT",
+      "courses": [
+        "uar:education/WM6RFFYE",
+        "uar:education/FTN6XTUL",
+        "uar:education/HWUDR36A",
+        "uar:education/OTRFHV7A",
+        "uar:education/L4ENZGM4",
+        "uar:education/2GOEEPJ7",
+        "uar:education/O3O6442H",
+        "uar:education/LW7NB4BX",
+        "uar:education/BSGGTQKG",
+        "uar:education/JIY6P3SH",
+        "uar:education/62WKUOJ5",
+        "uar:education/IJXBQNLA",
+        "uar:education/UIHKZLS5",
+        "uar:education/3GGHHSHB",
+        "uar:education/VL63EJ43",
+        "uar:education/6PWZN5GN",
+        "uar:education/ULTPOQPW",
+        "uar:education/TP2FSGUW",
+        "uar:education/VM6ZDTGI",
+        "uar:education/MZG4EXOO",
+        "uar:education/BJ3SE3JQ",
+        "uar:education/UJVGJ2JW",
+        "uar:education/VOQB4I6X",
+        "uar:education/NYJYUCGM",
+        "uar:education/7FGPJEDC"
+      ]
+    },
+    {
+      "id": "uar:education/X62DJ2O2",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/自由科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/TZCVU7TC",
+      "courses": [
+        "uar:education/BY63E6MP",
+        "uar:education/SYEPCLZV",
+        "uar:education/EUQJ5Z4X",
+        "uar:education/DJPZRL3I",
+        "uar:education/JDVWV35R",
+        "uar:education/OJTMB4SW",
+        "uar:education/54XDSHKT",
+        "uar:education/JSTW4ROH",
+        "uar:education/LCWWTR76",
+        "uar:education/LALNPA5U",
+        "uar:education/SHQPSLMJ",
+        "uar:education/3CTMQG2X",
+        "uar:education/A2GSZDLM",
+        "uar:education/LC3PMVVE",
+        "uar:education/PVEE2ZJT",
+        "uar:education/MG2QEFCK"
+      ]
+    },
+    {
+      "id": "uar:education/6VYNZXX7",
+      "name": {
+        "ja": "メディア情報学プログラム - 類専門科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "category": "uar:education/CSC64UHO",
+      "courses": [
+        "uar:education/KBRJYNC3",
+        "uar:education/GMFKHCXX",
+        "uar:education/RZNSQC4E"
+      ]
+    },
+    {
+      "id": "uar:education/NRMVOBJJ",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "categoryRequirements": [
+        {
+          "minCredits": 15,
+          "description": "類共通基礎科目の必修科目9科目の15単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 101,
+          "description": "上記審査基準を満たし、更に卒業所要単位(128単位)のうち、101単位以上を修得していなければならない。"
+        }
+      ],
+      "courseRequirements": [
+        "uar:education/7KI2KAR7",
+        "uar:education/VQEFLAO3"
+      ]
+    },
+    {
+      "id": "uar:education/2HG5M6Z3",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/5VDVCRYM",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/2HGUSRXG"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/ONHTCGJO"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BXZWGUXE"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/PXKZGKBB"
+          ]
+        },
+        {
+          "minCredits": 18,
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 15,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/FS2YNTNZ"
+          ]
+        },
+        {
+          "minCredits": 13,
+          "targetCategories": [
+            "uar:education/RATDGCTQ"
+          ]
+        },
+        {
+          "minCredits": 22,
+          "targetCategories": [
+            "uar:education/IIBWCNBT"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/7YNQFIBT"
+          ]
+        }
+      ]
+    }
+  ]
+}

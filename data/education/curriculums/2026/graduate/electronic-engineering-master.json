@@ -1,0 +1,196 @@
+{
+  "type": "Curriculum",
+  "year": 2026,
+  "entries": [
+    {
+      "id": "uar:education/ZGRRLGZ2",
+      "name": {
+        "ja": "電子工学プログラム - 大学院基礎教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/FICAX42K",
+      "courses": [
+        "uar:education/COZ2PEYY",
+        "uar:education/I6B4KUPA",
+        "uar:education/6WIK2NRI",
+        "uar:education/P74MWFC4",
+        "uar:education/YAQX6GKY",
+        "uar:education/HDHSPYWS",
+        "uar:education/XQRZIVTU",
+        "uar:education/7UFYT7X4",
+        "uar:education/EBMWXVT3",
+        "uar:education/4JNXSTJW",
+        "uar:education/VFGJ3XW6",
+        "uar:education/VRSFHXRL",
+        "uar:education/3CLSVCPU",
+        "uar:education/MAYY6332",
+        "uar:education/SOJGEPTE",
+        "uar:education/7XZCFUY3"
+      ]
+    },
+    {
+      "id": "uar:education/7BKPFO2Z",
+      "name": {
+        "ja": "電子工学プログラム - 大学院輪講"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/44UQPTIM",
+      "courses": [
+        "uar:education/4AUHZUJA",
+        "uar:education/XDTXESI3",
+        "uar:education/KUIWR6G4",
+        "uar:education/PYUFQWSG"
+      ]
+    },
+    {
+      "id": "uar:education/32PLONQH",
+      "name": {
+        "ja": "電子工学プログラム - 大学院実践教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/HD4XAWIY",
+      "courses": [
+        "uar:education/I372HDTY"
+      ]
+    },
+    {
+      "id": "uar:education/XLDMVROR",
+      "name": {
+        "ja": "電子工学プログラム - 大学院産学連携科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/BRSN55XD",
+      "courses": [
+        "uar:education/ML56CDUA",
+        "uar:education/44N6Y2LP",
+        "uar:education/25EUTVDL",
+        "uar:education/ZF75LW7R",
+        "uar:education/CFVZCFOT",
+        "uar:education/A6NRMA7R",
+        "uar:education/5H5YFPGS",
+        "uar:education/BCB4JZMM",
+        "uar:education/NZK5ZOW3",
+        "uar:education/3C2CUW4O",
+        "uar:education/CJN64GGS",
+        "uar:education/HLOTWDI4",
+        "uar:education/YOAN5HCJ",
+        "uar:education/DTNOXFZG",
+        "uar:education/7Y3HTZPE",
+        "uar:education/M5L2A7CP"
+      ]
+    },
+    {
+      "id": "uar:education/4JJSY7UZ",
+      "name": {
+        "ja": "電子工学プログラム - 専門科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/IPSVVKEF",
+      "courses": [
+        "uar:education/CDW3COXF",
+        "uar:education/A4WRXNIX",
+        "uar:education/WRZN42AM",
+        "uar:education/6JUYCP3S",
+        "uar:education/2N5M6JAZ",
+        "uar:education/IA3LZIZI",
+        "uar:education/GEXMDCEO",
+        "uar:education/JQ5AMOSR",
+        "uar:education/WEEPQ7IZ",
+        "uar:education/OLYZA2AW",
+        "uar:education/X7P4PQEY",
+        "uar:education/4MOMZY2O",
+        "uar:education/HFJ5557V",
+        "uar:education/STR33PS7",
+        "uar:education/5PQJGUUJ",
+        "uar:education/XQ5MMRY6",
+        "uar:education/T2POZZ7S",
+        "uar:education/XRHWFHT2",
+        "uar:education/HG4WCMQX"
+      ]
+    },
+    {
+      "id": "uar:education/MKSO37HT",
+      "name": {
+        "ja": "電子工学プログラム - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/STR33PS7",
+        "uar:education/5PQJGUUJ",
+        "uar:education/XQ5MMRY6",
+        "uar:education/T2POZZ7S",
+        "uar:education/XRHWFHT2",
+        "uar:education/HG4WCMQX",
+        "uar:education/PUUJYLEU",
+        "uar:education/UY4TGPDI",
+        "uar:education/LLVH3C42",
+        "uar:education/U6W3VD35",
+        "uar:education/WNSGS4UP"
+      ]
+    },
+    {
+      "id": "uar:education/4EUJ6PXM",
+      "name": {
+        "ja": "電子工学プログラム - 修了所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/SSCABOYO",
+      "categoryRequirements": [
+        {
+          "minCredits": 2,
+          "description": "大学院基礎教育科目を2単位以上修得すること。",
+          "targetCategories": [
+            "uar:education/FICAX42K"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "description": "大学院輪講を4単位修得すること。",
+          "targetCategories": [
+            "uar:education/44UQPTIM"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "description": "大学院産学連携科目を2単位以上修得すること。",
+          "targetCategories": [
+            "uar:education/BRSN55XD"
+          ]
+        },
+        {
+          "minCredits": 10,
+          "description": "専門科目Ⅰを10単位以上修得すること。",
+          "targetCategories": [
+            "uar:education/IPSVVKEF"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "description": "専門科目Ⅱを8単位以上修得すること。",
+          "targetCategories": [
+            "uar:education/JPZYRXG3"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "description": "大学院基礎教育科目、大学院産学連携科目及び大学院専門教育科目の区分から2単位以上を修得すること。",
+          "targetCategories": [
+            "uar:education/FICAX42K",
+            "uar:education/BRSN55XD",
+            "uar:education/JMFPSMNN"
+          ]
+        }
+      ],
+      "courseRequirements": [
+        "uar:education/I372HDTY"
+      ]
+    }
+  ]
+}

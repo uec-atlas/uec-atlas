@@ -1,0 +1,369 @@
+{
+  "type": "Curriculum",
+  "year": 2023,
+  "entries": [
+    {
+      "id": "uar:education/7C2SJF4S",
+      "name": {
+        "ja": "先端工学基礎課程 - 総合文化科目/人文・社会科学科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/UAPNAXFB",
+      "courses": [
+        "uar:education/K4QWR2EP",
+        "uar:education/222VTQEN",
+        "uar:education/OEUGUIKB",
+        "uar:education/6UUYTO57",
+        "uar:education/NHCEYRCY",
+        "uar:education/N2BZ2OKI",
+        "uar:education/I72I52ZZ",
+        "uar:education/A5QVYIRN",
+        "uar:education/BAKIZ5I7",
+        "uar:education/MYL24EZR",
+        "uar:education/IJNW2FCL",
+        "uar:education/RRLTAUXL",
+        "uar:education/BWPYJFIE"
+      ]
+    },
+    {
+      "id": "uar:education/B2X6II74",
+      "name": {
+        "ja": "先端工学基礎課程 - 総合文化科目/上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/FYWU7HU5",
+      "courses": [
+        "uar:education/2QV4F66K",
+        "uar:education/4FBRNDCP",
+        "uar:education/3JDYBDWK",
+        "uar:education/7S3ZBWYT",
+        "uar:education/CALZFL7S",
+        "uar:education/CCBYPOBO"
+      ]
+    },
+    {
+      "id": "uar:education/CC46GX35",
+      "name": {
+        "ja": "先端工学基礎課程 - 総合文化科目/言語文化科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/26TDPRGA",
+      "courses": [
+        "uar:education/PE2F6OIO",
+        "uar:education/E44CGW2O",
+        "uar:education/HDA7KNBD",
+        "uar:education/APMEKSY3",
+        "uar:education/QXDWAWIC",
+        "uar:education/A6HMQ2YB",
+        "uar:education/QIHA6BTE",
+        "uar:education/CFGB2CAO"
+      ]
+    },
+    {
+      "id": "uar:education/SDKRKT2N",
+      "name": {
+        "ja": "先端工学基礎課程 - 総合文化科目/健康科学科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/LOMF6PIL",
+      "courses": [
+        "uar:education/I5JA7722"
+      ]
+    },
+    {
+      "id": "uar:education/52JPHNKN",
+      "name": {
+        "ja": "先端工学基礎課程 - 総合文化科目/理工系教養科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/XCVNZS7I",
+      "courses": [
+        "uar:education/DQUDQNS3"
+      ]
+    },
+    {
+      "id": "uar:education/ZGWNGO3Q",
+      "name": {
+        "ja": "先端工学基礎課程 - 実践教育科目/初年次導入科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/XP55JSPI",
+      "courses": [
+        "uar:education/KKWCZP2E",
+        "uar:education/S3WXBXL6",
+        "uar:education/JUGMI3HS",
+        "uar:education/E6XXWSOV"
+      ]
+    },
+    {
+      "id": "uar:education/WMOBOUQZ",
+      "name": {
+        "ja": "先端工学基礎課程 - 実践教育科目/データサイエンス科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/NNAK4A3G",
+      "courses": [
+        "uar:education/XLFGHFF6",
+        "uar:education/NMNUROMZ"
+      ]
+    },
+    {
+      "id": "uar:education/ME7PDVGL",
+      "name": {
+        "ja": "先端工学基礎課程 - 実践教育科目/産学連携教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/4Q6RMC64",
+      "courses": [
+        "uar:education/VHFN2PMF",
+        "uar:education/WDMSODTV"
+      ]
+    },
+    {
+      "id": "uar:education/YWC3PWCD",
+      "name": {
+        "ja": "先端工学基礎課程 - 実践教育科目/技術者教養科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/QCQ2EJWC",
+      "courses": [
+        "uar:education/TGRWFNPX",
+        "uar:education/J62T4H35"
+      ]
+    },
+    {
+      "id": "uar:education/MEUEYNHV",
+      "name": {
+        "ja": "先端工学基礎課程 - 理数基礎科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/AD4LGWNT",
+      "courses": [
+        "uar:education/TCO5RUBM",
+        "uar:education/7MW2MMYB",
+        "uar:education/WW5KNXZK",
+        "uar:education/YJ4CIWDK",
+        "uar:education/J7CSWLBQ",
+        "uar:education/2KQIO25C",
+        "uar:education/FE72WCA5",
+        "uar:education/DMAPSLM2",
+        "uar:education/5AUZ5SBR",
+        "uar:education/QWW4FQCV"
+      ]
+    },
+    {
+      "id": "uar:education/GU57CCZE",
+      "name": {
+        "ja": "先端工学基礎課程 - 専門基礎科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/Z6K3S43B",
+      "courses": [
+        "uar:education/S65ETOC4",
+        "uar:education/JGDG5QYR",
+        "uar:education/VVSXR3VG",
+        "uar:education/BX4GXKLN",
+        "uar:education/AFWB32TB",
+        "uar:education/VXGX65QG",
+        "uar:education/5HGFELMZ",
+        "uar:education/IGVYREQL",
+        "uar:education/YRELHBB3",
+        "uar:education/BLKXK72E",
+        "uar:education/EJRL4UN4",
+        "uar:education/HA4L65CK",
+        "uar:education/LVPS66MS",
+        "uar:education/JFUZFS3R",
+        "uar:education/V4URSW5A",
+        "uar:education/JF722BPS",
+        "uar:education/5FK67U75"
+      ]
+    },
+    {
+      "id": "uar:education/D2CCMXP6",
+      "name": {
+        "ja": "先端工学基礎課程 - 専門科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "category": "uar:education/NGVH4A4Z",
+      "courses": [
+        "uar:education/E54ZZNMS",
+        "uar:education/6KDYAJZE",
+        "uar:education/LVXM4FOD",
+        "uar:education/AWVNIRMP",
+        "uar:education/IVF4SUZC",
+        "uar:education/FCIGXFXJ",
+        "uar:education/IAQQGCZI",
+        "uar:education/LW7INQAG",
+        "uar:education/6OEXVQZU",
+        "uar:education/AKKGL3DZ",
+        "uar:education/4E3QFDV5",
+        "uar:education/MQUGLEY2",
+        "uar:education/6GO7L44U",
+        "uar:education/O2JDFHO4",
+        "uar:education/6TF725QT",
+        "uar:education/6XCGMYA3",
+        "uar:education/WAHS4JVQ",
+        "uar:education/Z4CPPJBE",
+        "uar:education/MDKPUE3L"
+      ]
+    },
+    {
+      "id": "uar:education/T9KWP5RZ",
+      "name": {
+        "ja": "輪講履修条件"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "categoryRequirements": [
+        {
+          "minCredits": 71,
+          "description": "3年次前学期(5学期)終了までに、卒業に必要な単位のうち71単位以上を修得していること。"
+        }
+      ]
+    },
+    {
+      "id": "uar:education/M2XH8VQC",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "categoryRequirements": [
+        {
+          "minCredits": 90,
+          "description": "卒業に必要な124単位のうち90単位以上を修得していること。"
+        },
+        {
+          "minCredits": 4,
+          "description": "初年次導入科目の必修科目4単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 12,
+          "description": "理数基礎科目の必修科目12単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 19,
+          "description": "専門基礎科目の必修科目19単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/Z6K3S43B"
+          ]
+        }
+      ],
+      "courseRequirements": [
+        "uar:education/XLFGHFF6"
+      ]
+    },
+    {
+      "id": "uar:education/R7JNF4LA",
+      "name": {
+        "ja": "卒業所要単位"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/OC4WEZCP",
+      "categoryRequirements": [
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/UAPNAXFB"
+          ]
+        },
+        {
+          "minCredits": 8,
+          "targetCategories": [
+            "uar:education/26TDPRGA"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/LOMF6PIL"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/XCVNZS7I"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/FYWU7HU5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/4Q6RMC64"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/QCQ2EJWC"
+          ]
+        },
+        {
+          "minCredits": 14,
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/MMQPRW5P"
+          ]
+        },
+        {
+          "minCredits": 32,
+          "description": "専門基礎科目は必修22単位以上、選択10単位以上を含めて32単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/Z6K3S43B"
+          ]
+        },
+        {
+          "minCredits": 30,
+          "description": "専門科目は必修12単位以上、選択18単位以上を含めて30単位以上を修得していること。",
+          "targetCategories": [
+            "uar:education/NGVH4A4Z"
+          ]
+        },
+        {
+          "minCredits": 124,
+          "description": "卒業所要単位として合計124単位以上を修得していること。"
+        }
+      ]
+    }
+  ]
+}

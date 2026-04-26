@@ -1,0 +1,524 @@
+{
+  "type": "Curriculum",
+  "year": 2025,
+  "entries": [
+    {
+      "id": "uar:education/S6RQPA4Q",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/人文・社会科学科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/UAPNAXFB",
+      "courses": [
+        "uar:education/XA73MHHR",
+        "uar:education/ND5T7BES",
+        "uar:education/N2QXWBMQ",
+        "uar:education/MV66PQFG",
+        "uar:education/WMQ6MK2O",
+        "uar:education/NZC7W6WI",
+        "uar:education/2RVJD25W",
+        "uar:education/LB7D6EIM",
+        "uar:education/KO5SDAMI",
+        "uar:education/A4C52PGY",
+        "uar:education/LLLUW3PL",
+        "uar:education/SPJQ53MA",
+        "uar:education/TG6R7F6K",
+        "uar:education/SVH3R5DI",
+        "uar:education/TN72VDT3",
+        "uar:education/FUBXMMDS",
+        "uar:education/DT2ZZ32U",
+        "uar:education/QNCGMNMP",
+        "uar:education/Z4XX7YH6",
+        "uar:education/EUXKDXLO",
+        "uar:education/5JW2AF2S",
+        "uar:education/R2AATCM3",
+        "uar:education/4XM6AX5J",
+        "uar:education/BOCIQDIA",
+        "uar:education/A2SCBRGO",
+        "uar:education/NEBE24JF",
+        "uar:education/QRWZDDSK",
+        "uar:education/D6Z75XBL",
+        "uar:education/DFMFO4S5",
+        "uar:education/RIE64LDH",
+        "uar:education/UQH7WVWE",
+        "uar:education/UNP3VQBC",
+        "uar:education/I7DHNM34",
+        "uar:education/II7EPQUJ",
+        "uar:education/D3OTNWSC"
+      ]
+    },
+    {
+      "id": "uar:education/4KOGQKJS",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/BIZMTYJH",
+      "courses": [
+        "uar:education/FRHT34C2",
+        "uar:education/RRAKIHLN",
+        "uar:education/UAI4YP3F",
+        "uar:education/NXDNOFXR"
+      ]
+    },
+    {
+      "id": "uar:education/OHVS3PPL",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅰ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/2HGUSRXG",
+      "courses": [
+        "uar:education/PGI36Z4T",
+        "uar:education/VQW7LREJ"
+      ]
+    },
+    {
+      "id": "uar:education/72MLMOJ6",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化基礎科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/7C2FCWAI",
+      "courses": [
+        "uar:education/CBQ2WGR2",
+        "uar:education/Z3I66PWY",
+        "uar:education/FVLB7UPT",
+        "uar:education/Y3R5MMVW",
+        "uar:education/5B7CWYOJ",
+        "uar:education/PAZF6QKR",
+        "uar:education/CTUXGTCA",
+        "uar:education/MDV73IZ5",
+        "uar:education/NBFSIQQ4",
+        "uar:education/AATMAHL4"
+      ]
+    },
+    {
+      "id": "uar:education/IU2T5OOD",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化応用科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/7PNYJAS6",
+      "courses": [
+        "uar:education/XUB7N5RK",
+        "uar:education/4C3BTZQE",
+        "uar:education/AAEBGWAC",
+        "uar:education/7ZKGJ5A5",
+        "uar:education/A3M5FM3C",
+        "uar:education/YLM7MVTD",
+        "uar:education/BCLJT5FH",
+        "uar:education/V2GIFAW3",
+        "uar:education/X46CWQZX",
+        "uar:education/6VCR5EZ2"
+      ]
+    },
+    {
+      "id": "uar:education/2CK23WRS",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/言語文化科目/言語文化演習科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/ONHTCGJO",
+      "courses": [
+        "uar:education/RFWUSYZJ",
+        "uar:education/AVA5BOYC",
+        "uar:education/HTBJSBP2",
+        "uar:education/NR4YVNEI",
+        "uar:education/AAEV7MFE",
+        "uar:education/327IWIYC",
+        "uar:education/XXTD7RL2",
+        "uar:education/UCYRMU2F",
+        "uar:education/4ZUIHNR5",
+        "uar:education/3WHQFBSZ",
+        "uar:education/6HJXNNTN",
+        "uar:education/76WLKMZG"
+      ]
+    },
+    {
+      "id": "uar:education/2PYPPUGU",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/日本語･日本文化科目/日本語"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/L23EC7SE",
+      "courses": [
+        "uar:education/VBY6VBGQ",
+        "uar:education/REWWOC2Q",
+        "uar:education/HSQS2XM2"
+      ]
+    },
+    {
+      "id": "uar:education/PAOGM7NN",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/日本語･日本文化科目/日本文化科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/CBFOHA4B",
+      "courses": [
+        "uar:education/FKK32HQS",
+        "uar:education/6FBMYOVJ",
+        "uar:education/VCT6A3UK",
+        "uar:education/F33PYBVB",
+        "uar:education/N4AOJD65"
+      ]
+    },
+    {
+      "id": "uar:education/JWTLZHEY",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/健康・スポーツ科学科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/B3JQULL5",
+      "courses": [
+        "uar:education/X4UBJ2RY",
+        "uar:education/P6LADPPL",
+        "uar:education/UAWQIO4W",
+        "uar:education/NISPRX62",
+        "uar:education/AVOEKIDL",
+        "uar:education/IOCTIR6G"
+      ]
+    },
+    {
+      "id": "uar:education/2LYT25HD",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/理工系教養科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/XCVNZS7I",
+      "courses": [
+        "uar:education/6LTFIQRS",
+        "uar:education/767IUSN7",
+        "uar:education/O5OWBX3V",
+        "uar:education/YPXGMN4T",
+        "uar:education/CTVSSYQ7",
+        "uar:education/JTYMMQTM",
+        "uar:education/SOTP4IFA"
+      ]
+    },
+    {
+      "id": "uar:education/LK6L4CE7",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/A類文化と社会"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/Y2N7LUOC",
+      "courses": [
+        "uar:education/Q3U32AY3",
+        "uar:education/2LHOKNYO",
+        "uar:education/CRKANOAQ",
+        "uar:education/C2AG3RJM",
+        "uar:education/HW4BO6XW",
+        "uar:education/UKNR5AEM",
+        "uar:education/E3FIHARU",
+        "uar:education/J3U6SCBT",
+        "uar:education/36KSFFFF",
+        "uar:education/DLS6VU4Z",
+        "uar:education/IFI5YAHB",
+        "uar:education/O5UPHAHO",
+        "uar:education/S52J45QR",
+        "uar:education/7ZUSJ7I2",
+        "uar:education/HBPO5DMY",
+        "uar:education/NRVHRYDA",
+        "uar:education/G46EXTGS",
+        "uar:education/DKUA6K2E",
+        "uar:education/BEUKLINY"
+      ]
+    },
+    {
+      "id": "uar:education/RDVEGOUR",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/B類言語によるコミュニケーション"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/WIKMSOUV",
+      "courses": [
+        "uar:education/5D7PE2NB",
+        "uar:education/2GVLAFQI",
+        "uar:education/6RJ66RIF",
+        "uar:education/VWMUMYIU",
+        "uar:education/52KMJL3J",
+        "uar:education/GKE4DUFS",
+        "uar:education/WQXEERWF",
+        "uar:education/D3OOI7EO",
+        "uar:education/NSK6XA2A",
+        "uar:education/QOFWUERK",
+        "uar:education/X7CB6SU7",
+        "uar:education/XT2AJ36O",
+        "uar:education/4RZP2B25",
+        "uar:education/RGIPUCOF",
+        "uar:education/TODLBKBB",
+        "uar:education/PR34L3XX",
+        "uar:education/MYJEFFBF",
+        "uar:education/EPTGBOIN"
+      ]
+    },
+    {
+      "id": "uar:education/22WBEEQ5",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/C類異文化の理解"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/D7ZABGMS",
+      "courses": [
+        "uar:education/B77LPB4R",
+        "uar:education/TDMJ7B4X",
+        "uar:education/JGKSF7V7",
+        "uar:education/VZJ4S7XK",
+        "uar:education/LNP6IC5W",
+        "uar:education/YRKRTIIL",
+        "uar:education/H7T5632O",
+        "uar:education/ZR2NH6FA"
+      ]
+    },
+    {
+      "id": "uar:education/WE53FWPS",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/D類現代の科学"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/FXMDHPBC",
+      "courses": [
+        "uar:education/72RF7KK4",
+        "uar:education/GFVKSQI6",
+        "uar:education/IMBLCEYS",
+        "uar:education/SWGKNY3C",
+        "uar:education/7AVBKSGY",
+        "uar:education/3KSE5MJJ",
+        "uar:education/IPIDXC4R",
+        "uar:education/KUQ5WC3W"
+      ]
+    },
+    {
+      "id": "uar:education/NS5I2DUA",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/上級科目/E類健康とスポーツの科学"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/PLEWXBFH",
+      "courses": [
+        "uar:education/7WVP7FGX",
+        "uar:education/X5QKSPXF",
+        "uar:education/QE4H43P4",
+        "uar:education/2WTINHP2",
+        "uar:education/RDDBRKE7",
+        "uar:education/WTL3EOLZ",
+        "uar:education/KF57D623",
+        "uar:education/S6D64W6I"
+      ]
+    },
+    {
+      "id": "uar:education/UM343Y5C",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/国際科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/W62OLBYU",
+      "courses": [
+        "uar:education/5D7PE2NB",
+        "uar:education/6RJ66RIF",
+        "uar:education/D3OOI7EO",
+        "uar:education/52KMJL3J",
+        "uar:education/2GVLAFQI",
+        "uar:education/WQXEERWF",
+        "uar:education/VWMUMYIU",
+        "uar:education/GKE4DUFS",
+        "uar:education/SR2FAVZC",
+        "uar:education/C4GID4VE",
+        "uar:education/DQNEQWDU",
+        "uar:education/IHFGAUQU",
+        "uar:education/FGLN2CYT",
+        "uar:education/AZR322KA"
+      ]
+    },
+    {
+      "id": "uar:education/YU6N5MS2",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 総合文化科目/特別講義"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/TMBIGKDA",
+      "courses": [
+        "uar:education/7QZ2AKUY",
+        "uar:education/7LFSPPK7"
+      ]
+    },
+    {
+      "id": "uar:education/IFOWNSUY",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 実践教育科目/初年次導入科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/XP55JSPI",
+      "courses": [
+        "uar:education/LBPS2IKH",
+        "uar:education/5WBH3EIG",
+        "uar:education/MH5T5TDE",
+        "uar:education/4QIECXUP",
+        "uar:education/BG6Q2FGE"
+      ]
+    },
+    {
+      "id": "uar:education/NVEMQHYL",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 実践教育科目/データサイエンス科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/NNAK4A3G",
+      "courses": [
+        "uar:education/PZNVLUH7",
+        "uar:education/52WXRG6C"
+      ]
+    },
+    {
+      "id": "uar:education/SN3HTNPT",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 実践教育科目/倫理・キャリア教育科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/BXZWGUXE",
+      "courses": [
+        "uar:education/PIITQQJM",
+        "uar:education/TSNZIRF4",
+        "uar:education/FAK7XWJS",
+        "uar:education/W6D53QRZ",
+        "uar:education/UWDYQIHZ",
+        "uar:education/4F5LR4EH",
+        "uar:education/GZK2QPXZ",
+        "uar:education/A6N7AN7I",
+        "uar:education/OYLVTNYR",
+        "uar:education/7QYUNDUT",
+        "uar:education/YIPIYHIZ",
+        "uar:education/7KU57L36"
+      ]
+    },
+    {
+      "id": "uar:education/HGSEICCX",
+      "name": {
+        "ja": "Ⅱ類(融合系) - 実践教育科目/技術英語科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "category": "uar:education/PXKZGKBB",
+      "courses": [
+        "uar:education/2536M64H",
+        "uar:education/RXVL354N"
+      ]
+    },
+    {
+      "id": "uar:education/37IHBNRC",
+      "name": {
+        "ja": "2年次終了時審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "categoryRequirements": [
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/B3JQULL5"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "targetCategories": [
+            "uar:education/NNAK4A3G"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uar:education/HHC47SMB",
+      "name": {
+        "ja": "卒業研究着手審査"
+      },
+      "type": "Checkpoint",
+      "targetOrganization": "uar:organizations/AEFZKYAV",
+      "categoryRequirements": [
+        {
+          "minCredits": 4,
+          "description": "言語文化基礎科目Ⅰ(1年次英語4単位)",
+          "targetCategories": [
+            "uar:education/BIZMTYJH"
+          ]
+        },
+        {
+          "minCredits": 2,
+          "description": "言語文化基礎科目Ⅱ(独、仏、露、中、韓のいずれかひとつの外国語2単位)",
+          "targetCategories": [
+            "uar:education/7C2FCWAI"
+          ]
+        },
+        {
+          "minCredits": 6,
+          "description": "初年次導入科目(3科目)の単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/XP55JSPI"
+          ]
+        },
+        {
+          "minCredits": 20,
+          "description": "理数基礎科目(必修科目11科目)の単位をすべて修得していること。",
+          "targetCategories": [
+            "uar:education/AD4LGWNT"
+          ]
+        }
+      ],
+      "courseRequirements": [
+        "uar:education/P6LADPPL",
+        "uar:education/X4UBJ2RY",
+        "uar:education/PZNVLUH7"
+      ]
+    }
+  ]
+}
