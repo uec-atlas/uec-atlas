@@ -11,7 +11,6 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016136.html",
       "courses": [
-        "uar:education/GKE4DUFS",
         "uar:education/GKE4DUFS"
       ],
       "instructors": [],
@@ -58,28 +57,6 @@
       "instructors": [
         "uar:people/EOQEC3JO",
         "uar:people/STSERQVC"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "月1"
-      ]
-    },
-    {
-      "id": "uar:education/QAAY3AWT",
-      "timeTableCode": "21026112",
-      "name": {
-        "ja": "知的学習システム(大学院連携科目)",
-        "en": "Advanced Topics in Machine Learning"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026112.html",
-      "courses": [
-        "uar:education/EUQJ5Z4X",
-        "uar:education/CNNN2DCB"
-      ],
-      "instructors": [
-        "uar:people/ZSLJSC7Q"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -529,29 +506,6 @@
       ],
       "instructors": [
         "uar:people/S2FD7QN5"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "月2"
-      ]
-    },
-    {
-      "id": "uar:education/VWJLRZMF",
-      "timeTableCode": "21026143",
-      "name": {
-        "ja": "量子物理工学基礎(大学院連携科目)",
-        "en": "Fundamentals of Quantum Physics"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026143.html",
-      "courses": [
-        "uar:education/TYXLYDYK",
-        "uar:education/C45FIO7K",
-        "uar:education/MSRUVTZ6"
-      ],
-      "instructors": [
-        "uar:people/XER5UGJE"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -1754,29 +1708,6 @@
       ]
     },
     {
-      "id": "uar:education/QWPQ5S64",
-      "timeTableCode": "21026133",
-      "name": {
-        "ja": "熱工学基礎(大学院連携科目)",
-        "en": "Fundamentals of Thermodynamics"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026133.html",
-      "courses": [
-        "uar:education/C6DD2ZLQ",
-        "uar:education/USCLISZ7",
-        "uar:education/YVX3UV2Q"
-      ],
-      "instructors": [
-        "uar:people/3K6SNLXR"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "月4"
-      ]
-    },
-    {
       "id": "uar:education/FZBSIHRE",
       "timeTableCode": "21124107",
       "name": {
@@ -1807,8 +1738,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124114.html",
       "courses": [
-        "uar:education/CSW2NYMS",
-        "uar:education/4OCJXKVS"
+        "uar:education/CSW2NYMS"
       ],
       "instructors": [
         "uar:people/6AM363X5"
@@ -1872,8 +1802,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21224139.html",
       "courses": [
-        "uar:education/UK7MZDPJ",
-        "uar:education/2ECXKIS6"
+        "uar:education/M2ASML53",
+        "uar:education/KUVR3EKU"
       ],
       "instructors": [
         "uar:people/5FOU4WTB"
@@ -2353,7 +2283,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012131.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -2374,7 +2305,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012132.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/IO3CTNKH"
@@ -2395,7 +2327,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012133.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/JVFETFKP"
@@ -2416,7 +2349,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012134.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -2437,7 +2371,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012135.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -2458,7 +2393,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012136.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -2627,7 +2563,7 @@
       "id": "uar:education/QVOVYXPZ",
       "timeTableCode": "21013108",
       "name": {
-        "ja": "Academic English for the Second Year Ⅰ(Ⅰ類・I)",
+        "ja": "Academic English for the Second Year Ⅰ(Ⅰ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅰ"
       },
       "year": 2026,
@@ -2808,52 +2744,6 @@
       ]
     },
     {
-      "id": "uar:education/HVFY2OSA",
-      "timeTableCode": "21026137",
-      "name": {
-        "ja": "生産加工学基礎(大学院連携科目)",
-        "en": "Fundamentals of Mechanical Working"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026137.html",
-      "courses": [
-        "uar:education/7RXWWIMW",
-        "uar:education/6RWRDVPF",
-        "uar:education/2A2VSVWQ"
-      ],
-      "instructors": [
-        "uar:people/7QRALXO4",
-        "uar:people/WZBTAY2G"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "火1"
-      ]
-    },
-    {
-      "id": "uar:education/A4TLWDCB",
-      "timeTableCode": "21026145",
-      "name": {
-        "ja": "分子細胞生物学基礎(大学院連携科目)",
-        "en": "Fundamentals of Cell and Molecular Biology"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026145.html",
-      "courses": [
-        "uar:education/X32SL2N2",
-        "uar:education/AZXFR7UB"
-      ],
-      "instructors": [
-        "uar:people/TZM2RKWN"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "火1"
-      ]
-    },
-    {
       "id": "uar:education/LHPRTNQ6",
       "timeTableCode": "21124119",
       "name": {
@@ -3002,7 +2892,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012137.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -3023,7 +2914,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012138.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/DRGS3DBC"
@@ -3044,7 +2936,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012139.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -3065,7 +2958,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012140.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -3086,7 +2980,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012141.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/7K4GM4CI"
@@ -3107,7 +3002,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012142.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/JVFETFKP"
@@ -3298,7 +3194,7 @@
       "id": "uar:education/EO7CSTBA",
       "timeTableCode": "21013126",
       "name": {
-        "ja": "Academic English for the Second Year Ⅰ(Ⅱ類・I)",
+        "ja": "Academic English for the Second Year Ⅰ(Ⅱ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅰ"
       },
       "year": 2026,
@@ -3595,29 +3491,6 @@
       ]
     },
     {
-      "id": "uar:education/PKU6LO6O",
-      "timeTableCode": "21026134",
-      "name": {
-        "ja": "流体工学基礎(大学院連携科目)",
-        "en": "Fundamentals of Fluid Engineering"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026134.html",
-      "courses": [
-        "uar:education/MNRFFVER",
-        "uar:education/CRUWN3A5",
-        "uar:education/IW4ZFIIL"
-      ],
-      "instructors": [
-        "uar:people/4J7I7AIV"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "火2"
-      ]
-    },
-    {
       "id": "uar:education/IUR2KYTF",
       "timeTableCode": "21124116",
       "name": {
@@ -3883,7 +3756,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012143.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/7K4GM4CI"
@@ -3904,9 +3778,12 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012144.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
-      "instructors": [],
+      "instructors": [
+        "uar:people/BT4TMQRX"
+      ],
       "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
@@ -3923,7 +3800,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012145.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -3944,7 +3822,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012146.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -3965,7 +3844,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012147.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -3986,7 +3866,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012148.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -4007,7 +3888,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012156.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -4198,7 +4080,7 @@
       "id": "uar:education/J4OKX7ZO",
       "timeTableCode": "21013127",
       "name": {
-        "ja": "Academic English for the Second Year Ⅰ(Ⅲ類・I)",
+        "ja": "Academic English for the Second Year Ⅰ(Ⅲ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅰ"
       },
       "year": 2026,
@@ -4403,29 +4285,6 @@
       ],
       "instructors": [
         "uar:people/C4PQHY57"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "火3"
-      ]
-    },
-    {
-      "id": "uar:education/LO5I7YFM",
-      "timeTableCode": "21026153",
-      "name": {
-        "ja": "先端集積デバイス基礎(大学院連携科目)",
-        "en": "Fundamentals of Modern Semiconductor Devices"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026153.html",
-      "courses": [
-        "uar:education/4RCMNQTZ",
-        "uar:education/HP724CCA",
-        "uar:education/NJ4IHDGJ"
-      ],
-      "instructors": [
-        "uar:people/4VJIY3KF"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -4700,7 +4559,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012149.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/DRGS3DBC"
@@ -4721,7 +4581,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012150.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -4742,9 +4603,12 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012151.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
-      "instructors": [],
+      "instructors": [
+        "uar:people/BT4TMQRX"
+      ],
       "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
@@ -4761,7 +4625,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012152.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -4782,7 +4647,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012153.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -4803,7 +4669,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012154.html",
       "courses": [
-        "uar:education/HDA7KNBD"
+        "uar:education/HDA7KNBD",
+        "uar:education/RRAKIHLN"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -5021,32 +4888,6 @@
       ],
       "instructors": [
         "uar:people/TVWG7QIB"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "火4"
-      ]
-    },
-    {
-      "id": "uar:education/WQRGMFTL",
-      "timeTableCode": "21026114",
-      "name": {
-        "ja": "データマイニング(大学院連携科目)",
-        "en": "Data Mining"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026114.html",
-      "courses": [
-        "uar:education/ZMAODSVV",
-        "uar:education/5H6ER2SI",
-        "uar:education/JDVWV35R",
-        "uar:education/475Q3JXM"
-      ],
-      "instructors": [
-        "uar:people/46POMMLX",
-        "uar:people/6AM363X5",
-        "uar:people/BEFM5ORO"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -6223,8 +6064,7 @@
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124108.html",
       "courses": [
         "uar:education/LW7NB4BX",
-        "uar:education/6VYNPFMR",
-        "uar:education/NXUQE6RW"
+        "uar:education/6VYNPFMR"
       ],
       "instructors": [
         "uar:people/GAQMWSPI"
@@ -8252,14 +8092,14 @@
       ]
     },
     {
-      "id": "uar:education/MPVRRX65",
-      "timeTableCode": "21017109",
+      "id": "uar:education/RBSQ4OIU",
+      "timeTableCode": "21017118",
       "name": {
         "ja": "Advanced Engineering Science Ⅰ(Polymer Photonics)",
         "en": "Advanced Engineering Science Ⅰ(Polymer Photonics)"
       },
       "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21017109.html",
+      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21017118.html",
       "courses": [
         "uar:education/6IJOWUMV",
         "uar:education/RV33IGF2",
@@ -8352,29 +8192,6 @@
       ],
       "instructors": [
         "uar:people/6OUIE47N"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "木2"
-      ]
-    },
-    {
-      "id": "uar:education/FPYOZZAS",
-      "timeTableCode": "21026136",
-      "name": {
-        "ja": "材料強度学基礎(大学院連携科目)",
-        "en": "Fundamentals of Strength and Fracture of Materials"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026136.html",
-      "courses": [
-        "uar:education/YVZT5EWE",
-        "uar:education/GKPUDIUG",
-        "uar:education/DDXOKAL4"
-      ],
-      "instructors": [
-        "uar:people/ASEMMDEE"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -9718,7 +9535,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012101.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -9739,7 +9557,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012102.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -9760,7 +9579,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012103.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -9781,7 +9601,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012104.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -9802,7 +9623,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012105.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -9823,7 +9645,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012106.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -10127,7 +9950,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012107.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -10148,7 +9972,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012108.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -10169,7 +9994,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012109.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -10190,7 +10016,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012110.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -10211,7 +10038,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012111.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -10232,7 +10060,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012112.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -10467,8 +10296,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124113.html",
       "courses": [
-        "uar:education/H74J4MXD",
-        "uar:education/NXUQE6RW"
+        "uar:education/H74J4MXD"
       ],
       "instructors": [
         "uar:people/BEFM5ORO"
@@ -10659,7 +10487,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012113.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -10680,7 +10509,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012114.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -10701,9 +10531,12 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012115.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
-      "instructors": [],
+      "instructors": [
+        "uar:people/QKMBZJK4"
+      ],
       "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
@@ -10720,7 +10553,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012116.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -10741,7 +10575,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012117.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -10762,7 +10597,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012118.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -10783,7 +10619,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012125.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -10804,7 +10641,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012155.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -10962,28 +10800,6 @@
       ],
       "instructors": [
         "uar:people/YTMI3RAJ"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "金3"
-      ]
-    },
-    {
-      "id": "uar:education/QFLFXEHC",
-      "timeTableCode": "21026146",
-      "name": {
-        "ja": "生体情報学基礎(大学院連携科目)",
-        "en": "Fundamentals of Information Biology"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026146.html",
-      "courses": [
-        "uar:education/YJYBHSDN",
-        "uar:education/MLT6QCFC"
-      ],
-      "instructors": [
-        "uar:people/JQTGCUDC"
       ],
       "numberOfCredits": 2,
       "term": "前学期",
@@ -11300,7 +11116,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012119.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/VSWXUXHN"
@@ -11321,7 +11138,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012120.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -11342,9 +11160,12 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012121.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
-      "instructors": [],
+      "instructors": [
+        "uar:people/QKMBZJK4"
+      ],
       "numberOfCredits": 1,
       "term": "前学期",
       "periods": [
@@ -11361,7 +11182,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012122.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/5HH5A2J2"
@@ -11382,7 +11204,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012123.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -11403,7 +11226,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012124.html",
       "courses": [
-        "uar:education/PE2F6OIO"
+        "uar:education/PE2F6OIO",
+        "uar:education/FRHT34C2"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -11640,7 +11464,6 @@
       "courses": [
         "uar:education/FEF2MKO2",
         "uar:education/BY63E6MP",
-        "uar:education/TUXQSB7G",
         "uar:education/3UAPGCSA",
         "uar:education/X2VU6VF6"
       ],
@@ -11664,7 +11487,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124131.html",
       "courses": [
-        "uar:education/IJKQQDHS"
+        "uar:education/NARPHM6E"
       ],
       "instructors": [
         "uar:people/CNMR4IHF"
@@ -11972,50 +11795,6 @@
       ]
     },
     {
-      "id": "uar:education/SPJJ6BWP",
-      "timeTableCode": "21026109",
-      "name": {
-        "ja": "生物有機化学(大学院連携科目)",
-        "en": "Bio-organic chemistry"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026109.html",
-      "courses": [
-        "uar:education/YEKANXOE"
-      ],
-      "instructors": [
-        "uar:people/P37EGXEV"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "他"
-      ]
-    },
-    {
-      "id": "uar:education/ABHAVMYZ",
-      "timeTableCode": "21026128",
-      "name": {
-        "ja": "情報伝送基礎(大学院連携科目)",
-        "en": "Fundamentals of Information Transmission"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026128.html",
-      "courses": [
-        "uar:education/MV3CZKW3"
-      ],
-      "instructors": [
-        "uar:people/EPUACK2I",
-        "uar:people/HX4DI3RM",
-        "uar:people/NWPAL2NY"
-      ],
-      "numberOfCredits": 2,
-      "term": "前学期",
-      "periods": [
-        "他"
-      ]
-    },
-    {
       "id": "uar:education/CK26OGIE",
       "timeTableCode": "21122107",
       "name": {
@@ -12125,7 +11904,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124132.html",
       "courses": [
-        "uar:education/6OOX3L4H"
+        "uar:education/2FA3TX3T"
       ],
       "instructors": [
         "uar:people/DGFDJJS7"
@@ -12146,7 +11925,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124242.html",
       "courses": [
-        "uar:education/QPIIL72Q"
+        "uar:education/LKPQQVFR"
       ],
       "instructors": [
         "uar:people/3P6YWDYQ"
@@ -12538,7 +12317,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016126.html",
       "courses": [
-        "uar:education/72RF7KK4"
+        "uar:education/GFVKSQI6"
       ],
       "instructors": [
         "uar:people/FVT3I4YM"
@@ -14000,8 +13779,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21224281.html",
       "courses": [
-        "uar:education/KVFO2ZTU",
-        "uar:education/ZHQC4J6A"
+        "uar:education/UFKZMG7D",
+        "uar:education/2EKRRN6Z"
       ],
       "instructors": [
         "uar:people/EQCRKYCH"
@@ -14120,7 +13899,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124239.html",
       "courses": [
-        "uar:education/LFWKGIMA"
+        "uar:education/XPABG2UD"
       ],
       "instructors": [
         "uar:people/3P6YWDYQ",
@@ -14384,7 +14163,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014301.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/GAQMWSPI",
@@ -14456,7 +14235,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124240.html",
       "courses": [
-        "uar:education/IJXBQNLA"
+        "uar:education/AZXI2EIE"
       ],
       "instructors": [
         "uar:people/VN3TQOBK"
@@ -14987,7 +14766,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014305.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/GAQMWSPI",
@@ -15384,7 +15163,6 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016236.html",
       "courses": [
-        "uar:education/52KMJL3J",
         "uar:education/52KMJL3J"
       ],
       "instructors": [
@@ -15634,7 +15412,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012231.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -15655,7 +15434,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012232.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/IO3CTNKH"
@@ -15676,7 +15456,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012233.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/JVFETFKP"
@@ -15697,7 +15478,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012234.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -15718,7 +15500,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012235.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -15739,7 +15522,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012236.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -15798,7 +15582,7 @@
       "id": "uar:education/4BR7A6FV",
       "timeTableCode": "21013203",
       "name": {
-        "ja": "Academic English for the Second Year Ⅱ(Ⅰ類・I)",
+        "ja": "Academic English for the Second Year Ⅱ(Ⅰ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅱ"
       },
       "year": 2026,
@@ -16219,7 +16003,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012237.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -16240,7 +16025,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012238.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/DRGS3DBC"
@@ -16261,7 +16047,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012239.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -16282,7 +16069,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012240.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -16303,7 +16091,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012241.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/7K4GM4CI"
@@ -16324,7 +16113,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012242.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/JVFETFKP"
@@ -16515,7 +16305,7 @@
       "id": "uar:education/3DTUXG7S",
       "timeTableCode": "21013226",
       "name": {
-        "ja": "Academic English for the Second Year Ⅱ(Ⅱ類・I)",
+        "ja": "Academic English for the Second Year Ⅱ(Ⅱ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅱ"
       },
       "year": 2026,
@@ -16820,8 +16610,7 @@
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124214.html",
       "courses": [
         "uar:education/3GGHHSHB",
-        "uar:education/OQE44HC6",
-        "uar:education/WZ7NT6IL"
+        "uar:education/OQE44HC6"
       ],
       "instructors": [
         "uar:people/UY4VFIEO"
@@ -16988,7 +16777,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012243.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/7K4GM4CI"
@@ -17009,7 +16799,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012244.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [],
       "numberOfCredits": 1,
@@ -17028,7 +16819,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012245.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -17049,7 +16841,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012246.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -17070,7 +16863,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012247.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/BXQV3BSF"
@@ -17091,7 +16885,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012248.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/H35VHQMW"
@@ -17112,7 +16907,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012256.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -17303,7 +17099,7 @@
       "id": "uar:education/LTHKRHDE",
       "timeTableCode": "21013227",
       "name": {
-        "ja": "Academic English for the Second Year Ⅱ(Ⅲ類・I)",
+        "ja": "Academic English for the Second Year Ⅱ(Ⅲ類・Ⅰ)",
         "en": "Academic English for the Second Year Ⅱ"
       },
       "year": 2026,
@@ -17547,7 +17343,6 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124221.html",
       "courses": [
-        "uar:education/TOKCXLDZ",
         "uar:education/Z53NUHMU"
       ],
       "instructors": [
@@ -17682,7 +17477,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012249.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/DRGS3DBC"
@@ -17703,7 +17499,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012250.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/NPTBB7HD"
@@ -17724,7 +17521,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012251.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -17745,7 +17543,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012253.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/THZM6XSS"
@@ -17766,7 +17565,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012254.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -17787,7 +17587,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012255.html",
       "courses": [
-        "uar:education/APMEKSY3"
+        "uar:education/APMEKSY3",
+        "uar:education/NXDNOFXR"
       ],
       "instructors": [],
       "numberOfCredits": 1,
@@ -18002,8 +17803,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124215.html",
       "courses": [
-        "uar:education/VL63EJ43",
-        "uar:education/WZ7NT6IL"
+        "uar:education/VL63EJ43"
       ],
       "instructors": [
         "uar:people/JURNZTCR"
@@ -18224,7 +18024,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016207.html",
       "courses": [
-        "uar:education/7ZUSJ7I2"
+        "uar:education/O5UPHAHO"
       ],
       "instructors": [],
       "numberOfCredits": 2,
@@ -19219,30 +19019,6 @@
       ]
     },
     {
-      "id": "uar:education/MG5R2T5G",
-      "timeTableCode": "21026216",
-      "name": {
-        "ja": "ロボット情報工学特論(大学院連携科目)",
-        "en": "Advanced Information Engineering for Robotics"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026216.html",
-      "courses": [
-        "uar:education/PKRKZV5G",
-        "uar:education/JHFONRQF",
-        "uar:education/YYGBHBFR"
-      ],
-      "instructors": [
-        "uar:people/7PNYCYGZ",
-        "uar:people/XGZ4EWC3"
-      ],
-      "numberOfCredits": 2,
-      "term": "後学期",
-      "periods": [
-        "水2"
-      ]
-    },
-    {
       "id": "uar:education/ZIHFWTJQ",
       "timeTableCode": "21124211",
       "name": {
@@ -20140,7 +19916,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016205.html",
       "courses": [
-        "uar:education/IFI5YAHB"
+        "uar:education/36KSFFFF"
       ],
       "instructors": [
         "uar:people/3NE3FBU5"
@@ -20161,7 +19937,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016209.html",
       "courses": [
-        "uar:education/G46EXTGS"
+        "uar:education/HBPO5DMY"
       ],
       "instructors": [
         "uar:people/4F7FYDO6"
@@ -20343,30 +20119,6 @@
         "uar:people/7QRALXO4",
         "uar:people/PJOMB6BX",
         "uar:people/YYSUKQPF"
-      ],
-      "numberOfCredits": 2,
-      "term": "後学期",
-      "periods": [
-        "水5"
-      ]
-    },
-    {
-      "id": "uar:education/NUP2GERF",
-      "timeTableCode": "21026224",
-      "name": {
-        "ja": "現代代数学(大学院連携科目)",
-        "en": "Modern Algebra"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026224.html",
-      "courses": [
-        "uar:education/EL6R5TGS",
-        "uar:education/PVEE2ZJT",
-        "uar:education/ZFAM2ESR",
-        "uar:education/V3MCUYXW"
-      ],
-      "instructors": [
-        "uar:people/R6QHQUWJ"
       ],
       "numberOfCredits": 2,
       "term": "後学期",
@@ -21419,7 +21171,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014306.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/6DMDZ2HQ",
@@ -21942,7 +21694,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014304.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/6DMDZ2HQ",
@@ -22138,29 +21890,6 @@
       ],
       "instructors": [
         "uar:people/CHIZ4FCG"
-      ],
-      "numberOfCredits": 2,
-      "term": "後学期",
-      "periods": [
-        "木4"
-      ]
-    },
-    {
-      "id": "uar:education/YMIYPSIP",
-      "timeTableCode": "21026235",
-      "name": {
-        "ja": "回路システム基礎(大学院連携科目)",
-        "en": "Fundamentals of Circuits and Systems"
-      },
-      "year": 2026,
-      "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21026235.html",
-      "courses": [
-        "uar:education/MQ2J5LSQ",
-        "uar:education/4SIRNC4J"
-      ],
-      "instructors": [
-        "uar:people/GO2EQHZE",
-        "uar:people/MJ5KMWQA"
       ],
       "numberOfCredits": 2,
       "term": "後学期",
@@ -22758,7 +22487,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012201.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -22779,7 +22509,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012202.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/RVJUCE77"
@@ -22800,7 +22531,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012203.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -22821,7 +22553,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012204.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -22842,7 +22575,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012205.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -22863,7 +22597,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012206.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -23218,7 +22953,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012207.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -23239,7 +22975,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012208.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -23260,7 +22997,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012209.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -23281,7 +23019,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012210.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -23302,7 +23041,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012211.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -23323,7 +23063,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012212.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -23981,7 +23722,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012214.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/DRBIOROS"
@@ -24002,7 +23744,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012215.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [],
       "numberOfCredits": 1,
@@ -24021,7 +23764,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012216.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/T6RKPORG"
@@ -24042,7 +23786,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012217.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/2IFIAE2Q"
@@ -24063,7 +23808,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012218.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -24084,7 +23830,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012219.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -24105,7 +23852,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012227.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/C72KO2FJ"
@@ -24126,7 +23874,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012228.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -24147,7 +23896,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014302.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/7L64WJRQ",
@@ -24511,7 +24260,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012220.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/ZMTFAVOC"
@@ -24532,7 +24282,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012221.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [],
       "numberOfCredits": 1,
@@ -24551,7 +24302,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012223.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/5HH5A2J2"
@@ -24572,7 +24324,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012224.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/6WPEIX65"
@@ -24593,7 +24346,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012225.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/VSWXUXHN"
@@ -24614,7 +24368,8 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21012226.html",
       "courses": [
-        "uar:education/E44CGW2O"
+        "uar:education/E44CGW2O",
+        "uar:education/UAI4YP3F"
       ],
       "instructors": [
         "uar:people/K3DRHUQM"
@@ -24698,7 +24453,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21014303.html",
       "courses": [
-        "uar:education/X4UBJ2RY"
+        "uar:education/P6LADPPL"
       ],
       "instructors": [
         "uar:people/7L64WJRQ",
@@ -24848,7 +24603,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124238.html",
       "courses": [
-        "uar:education/NARPHM6E"
+        "uar:education/SJGT5PTN"
       ],
       "instructors": [
         "uar:people/DGFDJJS7"
@@ -25169,7 +24924,7 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21016225.html",
       "courses": [
-        "uar:education/7AVBKSGY"
+        "uar:education/IMBLCEYS"
       ],
       "instructors": [],
       "numberOfCredits": 2,
@@ -25284,7 +25039,6 @@
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/31/31_21124220.html",
       "courses": [
-        "uar:education/4BZK45BB",
         "uar:education/OUUI7YTK"
       ],
       "instructors": [
@@ -25810,10 +25564,10 @@
         "uar:education/LBPS2IKH"
       ],
       "instructors": [
-        "uar:people/3GDGTQRA",
         "uar:people/65BHQF6C",
         "uar:people/7QRALXO4",
         "uar:people/BMJZUMU5",
+        "uar:people/FR3SFCVV",
         "uar:people/KLBELMUH",
         "uar:people/YWKA5GN4"
       ],

@@ -33,11 +33,13 @@ def normalize_string(string: str) -> str:
     }
 
     def replace_roman(match):
-        text = match.group(0)
-        return roman_map.get(text, text)
+        prefix = match.group(1)
+        text = match.group(2)
+        return f"{prefix}{roman_map.get(text, text)}"
 
+    # Python 3.13 では可変長look-behindが使えないため、前方境界はキャプチャで処理する。
     string = re.sub(
-        r"(?<![a-zA-Z0-9]|類・)[IVX]+(?![a-zA-Z0-9]|エリア|線)", replace_roman, string)
+        r"(^|[^a-zA-Z0-9]|類・)([IVX]+)(?![a-zA-Z0-9]|エリア|線)", replace_roman, string)
     string = re.sub(r"([a-zA-Z])([\u2160-\u216F])", r"\1 \2", string)
     string = re.sub(r"([a-z])([A-Z])", r"\1 \2", string)
     string = re.sub(r"\s+", " ", string)

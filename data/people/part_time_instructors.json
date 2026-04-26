@@ -2138,5 +2138,25 @@
     "memberOf": [],
     "isBasedOn": null,
     "isPartTime": true
+  },
+  {
+    "id": "uar:people/BT4TMQRX",
+    "name": {
+      "ja": "Roxanne Lizelle Niveri"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
+  },
+  {
+    "id": "uar:people/QKMBZJK4",
+    "name": {
+      "ja": "Laura Huston"
+    },
+    "alternateNames": {},
+    "memberOf": [],
+    "isBasedOn": null,
+    "isPartTime": true
   }
 ]

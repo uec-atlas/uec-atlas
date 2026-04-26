@@ -10,6 +10,7 @@ KANJI_VARIANT_TRANSLATION = str.maketrans({
     "﨑": "崎",
     "𠮷": "吉",
     "萓": "萱",
+    "兒": "児"
 })
 
 

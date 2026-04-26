@@ -31497,12 +31497,9 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/JB2S6RYV",
         "uar:organizations/L2WL3SRP",
-        "uar:organizations/LRHVCXPH",
         "uar:organizations/MBR7HXKG",
         "uar:organizations/RRQUR3YN",
-        "uar:organizations/RTZPKMT6",
         "uar:organizations/SSCABOYO",
         "uar:organizations/WVVPA2UK",
         "uar:organizations/YBUTN2WI"
@@ -31521,12 +31518,9 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/JB2S6RYV",
         "uar:organizations/L2WL3SRP",
-        "uar:organizations/LRHVCXPH",
         "uar:organizations/MBR7HXKG",
         "uar:organizations/RRQUR3YN",
-        "uar:organizations/RTZPKMT6",
         "uar:organizations/SSCABOYO",
         "uar:organizations/WVVPA2UK",
         "uar:organizations/YBUTN2WI"
@@ -31545,12 +31539,9 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/JB2S6RYV",
         "uar:organizations/L2WL3SRP",
-        "uar:organizations/LRHVCXPH",
         "uar:organizations/MBR7HXKG",
         "uar:organizations/RRQUR3YN",
-        "uar:organizations/RTZPKMT6",
         "uar:organizations/SSCABOYO",
         "uar:organizations/WVVPA2UK",
         "uar:organizations/YBUTN2WI"
@@ -31569,12 +31560,9 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/JB2S6RYV",
         "uar:organizations/L2WL3SRP",
-        "uar:organizations/LRHVCXPH",
         "uar:organizations/MBR7HXKG",
         "uar:organizations/RRQUR3YN",
-        "uar:organizations/RTZPKMT6",
         "uar:organizations/SSCABOYO",
         "uar:organizations/WVVPA2UK",
         "uar:organizations/YBUTN2WI"
@@ -31797,8 +31785,7 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/NOKEKYNI",
-        "uar:organizations/WVVPA2UK",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/WVVPA2UK"
       ]
     },
     {
@@ -32018,13 +32005,11 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/NOKEKYNI",
-        "uar:organizations/WVVPA2UK",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/WVVPA2UK"
       ]
     },
     {
@@ -32086,8 +32071,7 @@
         "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/NOKEKYNI",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/NOKEKYNI"
       ]
     },
     {
@@ -32322,14 +32306,10 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/CAXIXDWV",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32339,8 +32319,7 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32350,8 +32329,7 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32361,10 +32339,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32374,10 +32350,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32387,10 +32361,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32400,7 +32372,6 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32411,10 +32382,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32424,7 +32393,6 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32435,10 +32403,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32448,10 +32414,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32461,10 +32425,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32474,7 +32436,6 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32485,10 +32446,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32498,10 +32457,8 @@
       },
       "numberOfCredits": 2,
       "organizations": [
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32512,13 +32469,11 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
         "uar:organizations/L2WL3SRP",
         "uar:organizations/MBR7HXKG",
         "uar:organizations/RRQUR3YN",
-        "uar:organizations/SSCABOYO",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/SSCABOYO"
       ]
     },
     {
@@ -32529,10 +32484,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32543,10 +32496,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32557,8 +32508,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32569,8 +32519,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32581,8 +32530,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32593,8 +32541,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32606,11 +32553,10 @@
       "organizations": [
         "uar:organizations/2N6AIBY7",
         "uar:organizations/33X6ANH4",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
         "uar:organizations/L2WL3SRP",
         "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -32621,8 +32567,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32636,8 +32581,8 @@
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
         "uar:organizations/MBR7HXKG",
-        "uar:organizations/SSCABOYO",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MO3K4CS6",
+        "uar:organizations/SSCABOYO"
       ]
     },
     {
@@ -32648,8 +32593,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32660,10 +32604,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32674,10 +32616,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32688,10 +32628,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32702,7 +32640,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32714,7 +32651,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32726,7 +32662,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32738,7 +32673,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32750,7 +32684,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32762,7 +32695,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -32774,10 +32706,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32788,10 +32718,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32802,10 +32730,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32816,7 +32742,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32828,10 +32753,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32842,7 +32765,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32854,10 +32776,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32868,10 +32788,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32882,10 +32800,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32896,10 +32812,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32910,7 +32824,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32922,8 +32835,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32934,8 +32846,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -32946,7 +32857,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32958,7 +32868,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -32970,8 +32879,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32982,8 +32890,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/MBR7HXKG",
-        "uar:organizations/WVVPA2UK"
+        "uar:organizations/MBR7HXKG"
       ]
     },
     {
@@ -32994,8 +32901,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33006,8 +32912,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33018,7 +32923,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -33030,7 +32934,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/7KGUMEZA",
         "uar:organizations/IABG6MUT"
       ]
     },
@@ -33042,8 +32945,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33054,8 +32956,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33066,10 +32967,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33080,10 +32979,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33094,8 +32991,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33106,8 +33002,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/CAXIXDWV",
-        "uar:organizations/YBUTN2WI"
+        "uar:organizations/CAXIXDWV"
       ]
     },
     {
@@ -33118,7 +33013,6 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/2N6AIBY7",
-        "uar:organizations/5SBMQ3DP",
         "uar:organizations/6CT7MIDK"
       ]
     },
@@ -33252,10 +33146,8 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/5J7NMJ3N",
-        "uar:organizations/JB2S6RYV",
         "uar:organizations/L2WL3SRP",
-        "uar:organizations/LRHVCXPH",
-        "uar:organizations/RTZPKMT6",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/VV4HKADC"
       ]
     },
@@ -33622,6 +33514,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/SSCABOYO"
       ]
     },
@@ -33634,6 +33527,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/SSCABOYO"
       ]
     },
@@ -33646,6 +33540,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN",
         "uar:organizations/SSCABOYO"
       ]
@@ -33659,6 +33554,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/SSCABOYO"
       ]
     },
@@ -33670,7 +33566,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/L2WL3SRP"
+        "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33682,6 +33579,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN",
         "uar:organizations/SSCABOYO"
       ]
@@ -33695,6 +33593,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33706,6 +33605,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33718,6 +33618,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN",
         "uar:organizations/SSCABOYO",
         "uar:organizations/VV4HKADC"
@@ -33731,6 +33632,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33742,6 +33644,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33753,6 +33656,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33764,6 +33668,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33775,6 +33680,7 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33787,6 +33693,7 @@
       "organizations": [
         "uar:organizations/33X6ANH4",
         "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN"
       ]
     },
@@ -33798,7 +33705,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33809,7 +33717,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33820,7 +33729,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33831,7 +33741,8 @@
       "numberOfCredits": 2,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33842,7 +33753,8 @@
       "numberOfCredits": 1,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33853,7 +33765,8 @@
       "numberOfCredits": 1,
       "organizations": [
         "uar:organizations/33X6ANH4",
-        "uar:organizations/5J7NMJ3N"
+        "uar:organizations/5J7NMJ3N",
+        "uar:organizations/MO3K4CS6"
       ]
     },
     {
@@ -33891,6 +33804,7 @@
       "organizations": [
         "uar:organizations/5J7NMJ3N",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN",
         "uar:organizations/SSCABOYO"
       ]
@@ -33904,6 +33818,7 @@
       "organizations": [
         "uar:organizations/5J7NMJ3N",
         "uar:organizations/L2WL3SRP",
+        "uar:organizations/MO3K4CS6",
         "uar:organizations/RRQUR3YN",
         "uar:organizations/SSCABOYO"
       ]
@@ -33984,10 +33899,7 @@
         "ja": "大学院国際協働学術研修"
       },
       "numberOfCredits": 2,
-      "organizations": [
-        "uar:organizations/FP5ITZ4S",
-        "uar:organizations/VV4HKADC"
-      ]
+      "organizations": []
     },
     {
       "id": "uar:education/SRDXNCZ6",
@@ -33995,10 +33907,7 @@
         "ja": "大学院国際協働学術研修(長期)"
       },
       "numberOfCredits": 4,
-      "organizations": [
-        "uar:organizations/FP5ITZ4S",
-        "uar:organizations/VV4HKADC"
-      ]
+      "organizations": []
     },
     {
       "id": "uar:education/TVK3XS77",

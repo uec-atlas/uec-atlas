@@ -102,6 +102,14 @@ if __name__ == "__main__":
     courses_with_ab_code_for_year: list[dict] = []
     all_courses: list[dict] = []
 
+    existing_lectures = {}
+    if os.path.exists(output_file):
+        with open(output_file, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+            for entry in existing_data.get("entries", []):
+                if "sourceUrl" in entry:
+                    existing_lectures[entry["sourceUrl"]] = entry["id"]
+
     with open(course_file, "r", encoding="utf-8") as f:
         course_data = json.load(f)
         all_courses = course_data["entries"]
@@ -127,8 +135,9 @@ if __name__ == "__main__":
     fallback_all_candidates_examples: list[str] = []
 
     for syllabus in syllabuses:
+        lecture_id = existing_lectures.get(syllabus.url, generate_id("uar:education/"))
         lecture = Lecture(
-            id=generate_id("uar:education/"),
+            id=lecture_id,
             name=syllabus.name,
             name_en=syllabus.name_en,
             year=year,
@@ -158,6 +167,21 @@ if __name__ == "__main__":
                 course_id = code_course_id_mapping.get(code)
                 if course_id:
                     lecture.courses.append(course_id)
+
+                if syllabus_type == "faculty_day" and code.endswith("s"):
+                    candidates = search_course(all_courses, title_segments)
+                    suffix_candidates = [suffix for keyword,
+                                         suffixes in keyword_suffix_mapping.items() if keyword in syllabus.name for suffix in suffixes]
+                    if suffix_candidates:
+                        for candidate in candidates:
+                            for suffix in suffix_candidates:
+                                if any(c.endswith(suffix) for c in course_id_code_mapping[candidate["id"]]):
+                                    lecture.courses.append(candidate["id"])
+                    else:
+                        type_base_candidates = [candidate for candidate in candidates if any(
+                            c.endswith(fallback_suffix_value) for c in course_id_code_mapping[candidate["id"]])]
+                        for candidate in type_base_candidates:
+                            lecture.courses.append(candidate["id"])
 
             if has_ab_numbering_code:
                 # 先行履修向けの科目は、同名の大学院科目（numbering codeなし）も併記する
