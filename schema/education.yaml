@@ -104,6 +104,11 @@ classes:
         description: "シラバスデータの参照元URL"
         range: string
         slot_uri: schema:url
+      targetGrades:
+        description: "開講対象学年"
+        range: integer
+        multivalued: true
+        slot_uri: uao:targetGrade
       instructors:
         description: "担当教員"
         range: Person

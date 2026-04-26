@@ -65,5 +65,4 @@ $(ONTOLOGY_DOCS_TARGET): $(SCHEMA_DIR) scripts/gen_ontology_docs.py
 	$(GEN_ONTOLOGY_DOCS) $(SCHEMA_DIR) > $@
 
 clean:
-	rm -rf $(GEN_DIR)
-	rm -rf $(TS_GEN_DIR)
+	rm -rf $(GEN_DIR)/*.{jsonld,json,ttl} $(TS_GEN_DIR)/*.ts

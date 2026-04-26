@@ -19,6 +19,7 @@ class SyllabusCourse:
     name_en: str = None
     instructors: str = None
     numbering_codes: str = None
+    year_offered: str = None
     timetable_code: str = None
     url: str = None
 
@@ -63,6 +64,8 @@ async def fill_course_details(client: httpx.AsyncClient, course: SyllabusCourse,
                 "body > table:nth-child(8) > tbody > tr:nth-child(2) > td")
             node_code = parser.css_first(
                 "body > table:nth-child(8) > tbody > tr:nth-child(3) > td")
+            node_year_offered = parser.css_first(
+                "body > table:nth-child(8) > tbody > tr:nth-child(4) > td:nth-child(4)")
             node_credits = parser.css_first(
                 "body > table:nth-child(8) > tbody > tr:nth-child(6) > td:nth-child(4)")
 
@@ -70,6 +73,8 @@ async def fill_course_details(client: httpx.AsyncClient, course: SyllabusCourse,
                 course.name_en = node_en.text().strip()
             if node_code:
                 course.numbering_codes = node_code.text().strip()
+            if node_year_offered:
+                course.year_offered = node_year_offered.text().strip()
             if node_credits:
                 try:
                     course.credits = int(node_credits.text().strip())

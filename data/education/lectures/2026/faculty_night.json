@@ -10,6 +10,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/TCO5RUBM"
       ],
@@ -32,6 +38,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021101.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JGDG5QYR"
       ],
@@ -53,6 +64,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021109.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/V4URSW5A"
       ],
@@ -74,6 +89,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023103.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/4E3QFDV5"
       ],
@@ -95,6 +113,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016101.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/2QV4F66K"
       ],
@@ -116,6 +138,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22014101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/I5JA7722"
       ],
@@ -141,6 +169,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018103.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VHFN2PMF"
       ],
@@ -162,6 +194,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019106.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5AUZ5SBR"
       ],
@@ -183,6 +220,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023105.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/O2JDFHO4"
       ],
@@ -204,8 +244,14 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011107.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
-        "uar:education/MYL24EZR"
+        "uar:education/RRLTAUXL"
       ],
       "instructors": [
         "uar:people/FPPJG5UO"
@@ -225,6 +271,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011108.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BWPYJFIE"
       ],
@@ -246,6 +298,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/YIPIYHIZ",
         "uar:education/TGRWFNPX"
@@ -270,6 +325,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019103.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/WW5KNXZK"
       ],
@@ -291,6 +352,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021103.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VXGX65QG"
       ],
@@ -312,6 +378,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021107.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/HA4L65CK"
       ],
@@ -333,6 +403,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018102.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/S3WXBXL6"
       ],
@@ -355,6 +431,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021102.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/AFWB32TB"
       ],
@@ -377,6 +458,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021111.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5FK67U75"
       ],
@@ -398,6 +483,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023102.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6OEXVQZU"
       ],
@@ -423,6 +511,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22015101.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/DQUDQNS3"
       ],
@@ -444,6 +537,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016102.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/3JDYBDWK",
         "uar:education/VZJ4S7XK"
@@ -466,6 +563,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016103.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/4FBRNDCP"
       ],
@@ -487,6 +588,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019105.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/DMAPSLM2"
       ],
@@ -508,6 +615,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019104.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/J7CSWLBQ"
       ],
@@ -529,6 +642,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019107.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QWW4FQCV"
       ],
@@ -550,6 +668,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021108.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JFUZFS3R"
       ],
@@ -571,6 +693,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012102.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/RRAKIHLN"
       ],
@@ -593,6 +721,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021110.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JF722BPS"
       ],
@@ -614,6 +746,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021104.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5HGFELMZ"
       ],
@@ -637,6 +774,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FRHT34C2"
       ],
@@ -659,6 +802,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012104.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QIHA6BTE"
       ],
@@ -681,6 +828,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023106.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/WAHS4JVQ"
       ],
@@ -702,6 +852,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012103.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QXDWAWIC"
       ],
@@ -724,6 +879,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/7S3ZBWYT"
       ],
@@ -745,6 +903,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021105.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BLKXK72E"
       ],
@@ -770,6 +932,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021106.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/EJRL4UN4"
       ],
@@ -794,6 +960,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/6UUYTO57"
       ],
@@ -813,8 +985,14 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011105.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
-        "uar:education/A5QVYIRN"
+        "uar:education/MYL24EZR"
       ],
       "instructors": [],
       "numberOfCredits": 2,
@@ -832,6 +1010,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/KKWCZP2E"
       ],
@@ -854,6 +1038,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018107.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NMNUROMZ",
         "uar:education/52WXRG6C"
@@ -876,6 +1064,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/XLFGHFF6"
       ],
@@ -897,6 +1090,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023101.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/IAQQGCZI"
       ],
@@ -921,6 +1117,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6GO7L44U"
       ],
@@ -942,6 +1141,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023107.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/Z4CPPJBE"
       ],
@@ -963,6 +1165,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016201.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CALZFL7S"
       ],
@@ -984,6 +1191,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019205.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FE72WCA5"
       ],
@@ -1005,6 +1218,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021206.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/LVPS66MS"
       ],
@@ -1026,6 +1244,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023201.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/E54ZZNMS"
       ],
@@ -1047,6 +1269,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023208.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/AKKGL3DZ"
       ],
@@ -1068,6 +1293,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22016202.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CCBYPOBO",
         "uar:education/SWGKNY3C"
@@ -1090,6 +1320,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/WDMSODTV"
       ],
@@ -1111,6 +1345,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/7MW2MMYB"
       ],
@@ -1133,6 +1373,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021205.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/YRELHBB3"
       ],
@@ -1154,6 +1399,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023210.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6TF725QT"
       ],
@@ -1175,6 +1423,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/222VTQEN"
       ],
@@ -1196,6 +1450,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018205.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/7KU57L36",
         "uar:education/J62T4H35"
@@ -1218,6 +1475,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019203.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/YJ4CIWDK"
       ],
@@ -1239,6 +1502,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BX4GXKLN"
       ],
@@ -1260,6 +1528,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023202.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/6KDYAJZE"
       ],
@@ -1281,6 +1553,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22019204.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/2KQIO25C"
       ],
@@ -1302,6 +1580,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/AWVNIRMP"
       ],
@@ -1323,6 +1605,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023209.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/MQUGLEY2"
       ],
@@ -1355,8 +1640,14 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011106.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
-        "uar:education/BAKIZ5I7"
+        "uar:education/IJNW2FCL"
       ],
       "instructors": [
         "uar:people/PBW5EKIU"
@@ -1376,6 +1667,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/S65ETOC4"
       ],
@@ -1397,6 +1694,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NXDNOFXR"
       ],
@@ -1419,6 +1722,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023203.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/LVXM4FOD"
       ],
@@ -1440,6 +1747,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021204.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/IGVYREQL"
       ],
@@ -1462,6 +1774,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/UAI4YP3F"
       ],
@@ -1484,6 +1802,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CFGB2CAO"
       ],
@@ -1506,6 +1828,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22012203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/A6HMQ2YB"
       ],
@@ -1528,6 +1855,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JUGMI3HS"
       ],
@@ -1552,6 +1885,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22018202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/E6XXWSOV"
       ],
@@ -1576,6 +1915,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023205.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/IVF4SUZC"
       ],
@@ -1601,6 +1944,10 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023206.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FCIGXFXJ"
       ],
@@ -1625,6 +1972,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011103.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/A5QVYIRN"
       ],
@@ -1644,6 +1997,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/K4QWR2EP"
       ],
@@ -1663,6 +2022,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011203.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/OEUGUIKB"
       ],
@@ -1682,6 +2047,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011204.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NHCEYRCY"
       ],
@@ -1701,6 +2072,12 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22011205.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/N2BZ2OKI"
       ],
@@ -1720,6 +2097,11 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22021202.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VVSXR3VG"
       ],
@@ -1742,6 +2124,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023207.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/LW7INQAG"
       ],
@@ -1766,6 +2151,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023211.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6XCGMYA3"
       ],
@@ -1787,6 +2175,9 @@
       },
       "year": 2026,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2026/32/32_22023212.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/MDKPUE3L"
       ],

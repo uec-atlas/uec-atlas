@@ -3,12 +3,19 @@
   "entries": [
     {
       "id": "uar:education/6RFJVV7E",
+      "timeTableCode": "22019101",
       "name": {
         "ja": "基礎微分積分学第一",
         "en": "Basic Calculus Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/TCO5RUBM"
       ],
@@ -20,17 +27,22 @@
       "term": "前学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22019101"
+      ]
     },
     {
       "id": "uar:education/R74MRGYA",
+      "timeTableCode": "22021101",
       "name": {
         "ja": "応用数学第一",
         "en": "Applied Mathematics Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021101.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JGDG5QYR"
       ],
@@ -42,17 +54,21 @@
       "term": "前学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22021101"
+      ]
     },
     {
       "id": "uar:education/VUBL2BU6",
+      "timeTableCode": "22021108",
       "name": {
         "ja": "制御工学",
         "en": "Control System Engineering"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021108.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JFUZFS3R"
       ],
@@ -63,17 +79,20 @@
       "term": "前学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22021108"
+      ]
     },
     {
       "id": "uar:education/HFDV7FOE",
+      "timeTableCode": "22023103",
       "name": {
         "ja": "通信・ネットワーク",
         "en": "Communications and Networks"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023103.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/4E3QFDV5"
       ],
@@ -84,17 +103,21 @@
       "term": "前学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22023103"
+      ]
     },
     {
       "id": "uar:education/CBZROFOM",
+      "timeTableCode": "22016101",
       "name": {
         "ja": "科学という文化",
         "en": "Science and Culture"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016101.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/2QV4F66K"
       ],
@@ -105,17 +128,23 @@
       "term": "前学期",
       "periods": [
         "火6"
-      ],
-      "timeTableCode": "22016101"
+      ]
     },
     {
       "id": "uar:education/F6BPSVLK",
+      "timeTableCode": "22014101",
       "name": {
         "ja": "健康実践論",
         "en": "Theory and Practice for Health"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22014101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/I5JA7722"
       ],
@@ -130,17 +159,21 @@
       "term": "前学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22014101"
+      ]
     },
     {
       "id": "uar:education/WUAPFDZY",
+      "timeTableCode": "22018103",
       "name": {
         "ja": "技術課程演習第一",
         "en": "Practice for Career Persons' Course Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018103.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VHFN2PMF"
       ],
@@ -151,17 +184,22 @@
       "term": "前学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22018103"
+      ]
     },
     {
       "id": "uar:education/IHISTFE4",
+      "timeTableCode": "22019106",
       "name": {
         "ja": "基礎解析学",
         "en": "Introduction to Analysis"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019106.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5AUZ5SBR"
       ],
@@ -172,17 +210,20 @@
       "term": "前学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22019106"
+      ]
     },
     {
       "id": "uar:education/NTBRRS4Q",
+      "timeTableCode": "22023105",
       "name": {
         "ja": "メカトロニクス",
         "en": "Mechatronics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023105.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/O2JDFHO4"
       ],
@@ -193,17 +234,23 @@
       "term": "前学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22023105"
+      ]
     },
     {
       "id": "uar:education/NXJYJI5Y",
+      "timeTableCode": "22011101",
       "name": {
         "ja": "歴史学",
         "en": "History"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/6UUYTO57"
       ],
@@ -214,17 +261,23 @@
       "term": "前学期",
       "periods": [
         "水6"
-      ],
-      "timeTableCode": "22011101"
+      ]
     },
     {
       "id": "uar:education/UT7XLEFM",
+      "timeTableCode": "22011105",
       "name": {
         "ja": "社会学",
         "en": "Sociology"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011105.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/MYL24EZR"
       ],
@@ -235,17 +288,20 @@
       "term": "前学期",
       "periods": [
         "水6"
-      ],
-      "timeTableCode": "22011105"
+      ]
     },
     {
       "id": "uar:education/KPPHN2MD",
+      "timeTableCode": "22018104",
       "name": {
         "ja": "知的財産権",
         "en": "Intellectual Property"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/YIPIYHIZ",
         "uar:education/TGRWFNPX"
@@ -259,17 +315,23 @@
       "term": "前学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22018104"
+      ]
     },
     {
       "id": "uar:education/GV4KG5BW",
+      "timeTableCode": "22019103",
       "name": {
         "ja": "ベクトルと行列第一",
         "en": "Introductory Linear Algebra Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019103.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/WW5KNXZK"
       ],
@@ -280,17 +342,22 @@
       "term": "前学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22019103"
+      ]
     },
     {
       "id": "uar:education/SQ7ADMQA",
+      "timeTableCode": "22021103",
       "name": {
         "ja": "論理回路学",
         "en": "Logical Circuits"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021103.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VXGX65QG"
       ],
@@ -301,17 +368,21 @@
       "term": "前学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22021103"
+      ]
     },
     {
       "id": "uar:education/2EQ5YHEH",
+      "timeTableCode": "22021110",
       "name": {
         "ja": "電子回路学",
         "en": "Electronics Circuits"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021110.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JF722BPS"
       ],
@@ -322,17 +393,23 @@
       "term": "前学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22021110"
+      ]
     },
     {
       "id": "uar:education/7I45CH6S",
+      "timeTableCode": "22019104",
       "name": {
         "ja": "基礎物理学第一",
         "en": "Fundamental Physics Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019104.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/J7CSWLBQ"
       ],
@@ -343,17 +420,22 @@
       "term": "前学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22019104"
+      ]
     },
     {
       "id": "uar:education/Q2WXWJ5F",
+      "timeTableCode": "22021102",
       "name": {
         "ja": "プログラミング通論および演習",
         "en": "Fundamentals of Computer Programming Exercises"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021102.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/AFWB32TB"
       ],
@@ -365,17 +447,21 @@
       "term": "前学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22021102"
+      ]
     },
     {
       "id": "uar:education/NU2A4LIY",
+      "timeTableCode": "22021107",
       "name": {
         "ja": "情報通信と符号化",
         "en": "Introduction to Information Theory and Coding"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021107.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/HA4L65CK"
       ],
@@ -386,17 +472,20 @@
       "term": "前学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22021107"
+      ]
     },
     {
       "id": "uar:education/APP6OWMR",
+      "timeTableCode": "22023102",
       "name": {
         "ja": "情報メディアシステム",
         "en": "Media Computing System"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023102.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6OEXVQZU"
       ],
@@ -411,17 +500,22 @@
       "term": "前学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22023102"
+      ]
     },
     {
       "id": "uar:education/IWNHK2GG",
+      "timeTableCode": "22015101",
       "name": {
         "ja": "環境科学",
         "en": "Environmental Science"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22015101.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/DQUDQNS3"
       ],
@@ -432,17 +526,21 @@
       "term": "前学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22015101"
+      ]
     },
     {
       "id": "uar:education/AN2TWY6F",
+      "timeTableCode": "22016102",
       "name": {
         "ja": "国際文化論",
         "en": "Intercultural Studies"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016102.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/3JDYBDWK",
         "uar:education/VZJ4S7XK"
@@ -454,17 +552,21 @@
       "term": "前学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22016102"
+      ]
     },
     {
       "id": "uar:education/4PJ67S7R",
+      "timeTableCode": "22016103",
       "name": {
         "ja": "科学技術と倫理",
         "en": "Science,Technology and Ethics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016103.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/4FBRNDCP"
       ],
@@ -475,17 +577,23 @@
       "term": "前学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22016103"
+      ]
     },
     {
       "id": "uar:education/36RNMVSF",
+      "timeTableCode": "22019105",
       "name": {
         "ja": "化学結合と構造",
         "en": "Chemical Bonding and Structure: an Introduction"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019105.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/DMAPSLM2"
       ],
@@ -496,17 +604,23 @@
       "term": "前学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22019105"
+      ]
     },
     {
       "id": "uar:education/FRL2OD3U",
+      "timeTableCode": "22018102",
       "name": {
         "ja": "コンピュータリテラシー",
         "en": "Computer Literacy"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018102.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/S3WXBXL6"
       ],
@@ -519,17 +633,22 @@
       "term": "前学期",
       "periods": [
         "土1"
-      ],
-      "timeTableCode": "22018102"
+      ]
     },
     {
       "id": "uar:education/AICR63D7",
+      "timeTableCode": "22019107",
       "name": {
         "ja": "基礎物理学第三",
         "en": "Fundamental Physics Ⅲ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019107.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QWW4FQCV"
       ],
@@ -540,17 +659,21 @@
       "term": "前学期",
       "periods": [
         "土1"
-      ],
-      "timeTableCode": "22019107"
+      ]
     },
     {
       "id": "uar:education/2NQBWMJI",
+      "timeTableCode": "22021109",
       "name": {
         "ja": "設計工学",
         "en": "Mechanical Engineering Design"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021109.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/V4URSW5A"
       ],
@@ -561,17 +684,23 @@
       "term": "前学期",
       "periods": [
         "土1"
-      ],
-      "timeTableCode": "22021109"
+      ]
     },
     {
       "id": "uar:education/HUHHU7AH",
+      "timeTableCode": "22012102",
       "name": {
         "ja": "Academic Spoken English Ⅰ",
         "en": "Academic Spoken English Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012102.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/RRAKIHLN"
       ],
@@ -583,17 +712,21 @@
       "term": "前学期",
       "periods": [
         "土2"
-      ],
-      "timeTableCode": "22012102"
+      ]
     },
     {
       "id": "uar:education/MV6NJIOF",
+      "timeTableCode": "22021111",
       "name": {
         "ja": "回路システム学",
         "en": "Circuits and Systems"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021111.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5FK67U75"
       ],
@@ -604,17 +737,22 @@
       "term": "前学期",
       "periods": [
         "土2"
-      ],
-      "timeTableCode": "22021111"
+      ]
     },
     {
       "id": "uar:education/AF6XYBOR",
+      "timeTableCode": "22021104",
       "name": {
         "ja": "電磁気学および演習",
         "en": "Electromagnetism and Practice"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021104.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/5HGFELMZ"
       ],
@@ -627,17 +765,23 @@
       "periods": [
         "土2",
         "土3"
-      ],
-      "timeTableCode": "22021104"
+      ]
     },
     {
       "id": "uar:education/IITURXEQ",
+      "timeTableCode": "22012101",
       "name": {
         "ja": "Academic Written English Ⅰ",
         "en": "Academic Written English Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FRHT34C2"
       ],
@@ -649,17 +793,21 @@
       "term": "前学期",
       "periods": [
         "土3"
-      ],
-      "timeTableCode": "22012101"
+      ]
     },
     {
       "id": "uar:education/NCHU76NJ",
+      "timeTableCode": "22012104",
       "name": {
         "ja": "Academic Presentation in English",
         "en": "Academic Presentation in English"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012104.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QIHA6BTE"
       ],
@@ -671,17 +819,20 @@
       "term": "前学期",
       "periods": [
         "土3"
-      ],
-      "timeTableCode": "22012104"
+      ]
     },
     {
       "id": "uar:education/42733Y2R",
+      "timeTableCode": "22023106",
       "name": {
         "ja": "先端トピックス",
         "en": "Topics in Modern Technologies"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023106.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/WAHS4JVQ"
       ],
@@ -692,17 +843,22 @@
       "term": "前学期",
       "periods": [
         "土3"
-      ],
-      "timeTableCode": "22023106"
+      ]
     },
     {
       "id": "uar:education/72JVF3HY",
+      "timeTableCode": "22012103",
       "name": {
         "ja": "Academic English for the 2nd Year Ⅰ",
         "en": "Academic English for the 2nd Year Ⅰ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012103.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/QXDWAWIC"
       ],
@@ -714,17 +870,20 @@
       "term": "前学期",
       "periods": [
         "土4"
-      ],
-      "timeTableCode": "22012103"
+      ]
     },
     {
       "id": "uar:education/VDZPCRWD",
+      "timeTableCode": "22016104",
       "name": {
         "ja": "国際技術協力論",
         "en": "International Technical Cooperation"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/7S3ZBWYT"
       ],
@@ -735,17 +894,21 @@
       "term": "前学期",
       "periods": [
         "土4"
-      ],
-      "timeTableCode": "22016104"
+      ]
     },
     {
       "id": "uar:education/NNLGJHGT",
+      "timeTableCode": "22021105",
       "name": {
         "ja": "アナログ回路実験",
         "en": "Analog Circuit Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021105.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BLKXK72E"
       ],
@@ -760,17 +923,21 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22021105"
+      ]
     },
     {
       "id": "uar:education/4TWVRIEL",
+      "timeTableCode": "22021106",
       "name": {
         "ja": "プログラミング実験",
         "en": "Programming Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021106.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/EJRL4UN4"
       ],
@@ -784,17 +951,23 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22021106"
+      ]
     },
     {
       "id": "uar:education/JRFFRHVC",
+      "timeTableCode": "22011107",
       "name": {
         "ja": "地理学(R7開講なし)",
         "en": "Geography"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011107.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/RRLTAUXL"
       ],
@@ -803,17 +976,23 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22011107"
+      ]
     },
     {
       "id": "uar:education/W6QCY7I4",
+      "timeTableCode": "22011108",
       "name": {
         "ja": "社会思想史(R7開講なし)",
         "en": "History of Social Thought"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011108.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BWPYJFIE"
       ],
@@ -822,17 +1001,23 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22011108"
+      ]
     },
     {
       "id": "uar:education/JULRNUQN",
+      "timeTableCode": "22018101",
       "name": {
         "ja": "アカデミックリテラシー",
         "en": "Academic Literacy"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018101.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/KKWCZP2E"
       ],
@@ -844,17 +1029,21 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22018101"
+      ]
     },
     {
       "id": "uar:education/ROS3P3BY",
+      "timeTableCode": "22018107",
       "name": {
         "ja": "データサイエンス演習",
         "en": "Data Science Studies"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018107.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NMNUROMZ",
         "uar:education/52WXRG6C"
@@ -866,17 +1055,22 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22018107"
+      ]
     },
     {
       "id": "uar:education/PYACTTJY",
+      "timeTableCode": "22018203",
       "name": {
         "ja": "総合コミュニケーション科学",
         "en": "Comprehensive Communications Sciences"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/XLFGHFF6"
       ],
@@ -887,17 +1081,20 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22018203"
+      ]
     },
     {
       "id": "uar:education/NLUAFNSZ",
+      "timeTableCode": "22023101",
       "name": {
         "ja": "輪講A(学域・K課程)",
         "en": "Seminar A"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023101.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/IAQQGCZI"
       ],
@@ -911,17 +1108,20 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023101"
+      ]
     },
     {
       "id": "uar:education/X6J5UVVZ",
+      "timeTableCode": "22023104",
       "name": {
         "ja": "計測工学",
         "en": "Instrumentation Engineering"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023104.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6GO7L44U"
       ],
@@ -932,17 +1132,20 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023104"
+      ]
     },
     {
       "id": "uar:education/WLLJ3V7K",
+      "timeTableCode": "22023107",
       "name": {
         "ja": "卒業研究A(学域・K課程)",
         "en": "Senior Thesis A"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023107.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/Z4CPPJBE"
       ],
@@ -953,17 +1156,22 @@
       "term": "前学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023107"
+      ]
     },
     {
       "id": "uar:education/NRFKTKXL",
+      "timeTableCode": "22016201",
       "name": {
         "ja": "応用幾何学",
         "en": "Applied Geometry"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016201.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CALZFL7S"
       ],
@@ -974,17 +1182,23 @@
       "term": "後学期",
       "periods": [
         "月6"
-      ],
-      "timeTableCode": "22016201"
+      ]
     },
     {
       "id": "uar:education/2U3G63DK",
+      "timeTableCode": "22019205",
       "name": {
         "ja": "基礎プログラミングおよび演習",
         "en": "Fundamental Programming"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019205.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FE72WCA5"
       ],
@@ -996,17 +1210,22 @@
       "term": "後学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22019205"
+      ]
     },
     {
       "id": "uar:education/TCMFCRNW",
+      "timeTableCode": "22021206",
       "name": {
         "ja": "アルゴリズム・データ構造および演習",
         "en": "Algorithms and Data Structures with Programming Projects"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021206.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/LVPS66MS"
       ],
@@ -1017,17 +1236,21 @@
       "term": "後学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22021206"
+      ]
     },
     {
       "id": "uar:education/OFICTV7J",
+      "timeTableCode": "22023201",
       "name": {
         "ja": "計算機工学",
         "en": "Computer Engineering"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023201.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/E54ZZNMS"
       ],
@@ -1038,17 +1261,22 @@
       "term": "後学期",
       "periods": [
         "月7"
-      ],
-      "timeTableCode": "22023201"
+      ]
     },
     {
       "id": "uar:education/NTKQHF22",
+      "timeTableCode": "22016202",
       "name": {
         "ja": "応用代数学",
         "en": "Applied Algebra"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22016202.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CCBYPOBO",
         "uar:education/SWGKNY3C"
@@ -1060,17 +1288,21 @@
       "term": "後学期",
       "periods": [
         "火6"
-      ],
-      "timeTableCode": "22016202"
+      ]
     },
     {
       "id": "uar:education/E6Y64E7H",
+      "timeTableCode": "22018204",
       "name": {
         "ja": "技術課程演習第二",
         "en": "Practice for Career Persons' Course Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/WDMSODTV"
       ],
@@ -1081,17 +1313,23 @@
       "term": "後学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22018204"
+      ]
     },
     {
       "id": "uar:education/YNHQQUFB",
+      "timeTableCode": "22019201",
       "name": {
         "ja": "基礎微分積分学第二",
         "en": "Basic Calculus Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/7MW2MMYB"
       ],
@@ -1103,17 +1341,22 @@
       "term": "後学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22019201"
+      ]
     },
     {
       "id": "uar:education/3DZEO3PT",
+      "timeTableCode": "22021205",
       "name": {
         "ja": "基礎電子工学",
         "en": "Fundamental Electronics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021205.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/YRELHBB3"
       ],
@@ -1124,17 +1367,20 @@
       "term": "後学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22021205"
+      ]
     },
     {
       "id": "uar:education/E2QI3INB",
+      "timeTableCode": "22023210",
       "name": {
         "ja": "ロボティックス",
         "en": "Robotics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023210.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6TF725QT"
       ],
@@ -1145,17 +1391,23 @@
       "term": "後学期",
       "periods": [
         "火7"
-      ],
-      "timeTableCode": "22023210"
+      ]
     },
     {
       "id": "uar:education/NMGQFHDX",
+      "timeTableCode": "22011204",
       "name": {
         "ja": "科学史",
         "en": "History of Science"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011204.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NHCEYRCY"
       ],
@@ -1166,17 +1418,20 @@
       "term": "後学期",
       "periods": [
         "水6"
-      ],
-      "timeTableCode": "22011204"
+      ]
     },
     {
       "id": "uar:education/JE6EMFJW",
+      "timeTableCode": "22018205",
       "name": {
         "ja": "技術者倫理",
         "en": "Ethics for Engineers"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018205.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/7KU57L36",
         "uar:education/J62T4H35"
@@ -1188,17 +1443,23 @@
       "term": "後学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22018205"
+      ]
     },
     {
       "id": "uar:education/34ZWV54R",
+      "timeTableCode": "22019203",
       "name": {
         "ja": "ベクトルと行列第二",
         "en": "Introductory Linear Algebra Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019203.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/YJ4CIWDK"
       ],
@@ -1209,17 +1470,22 @@
       "term": "後学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22019203"
+      ]
     },
     {
       "id": "uar:education/S345KMVW",
+      "timeTableCode": "22021203",
       "name": {
         "ja": "確率統計",
         "en": "Probability and Statistics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/BX4GXKLN"
       ],
@@ -1230,17 +1496,21 @@
       "term": "後学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22021203"
+      ]
     },
     {
       "id": "uar:education/MWM257LJ",
+      "timeTableCode": "22023203",
       "name": {
         "ja": "電磁波工学",
         "en": "Electromagnetic Wave Engineering"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023203.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/LVXM4FOD"
       ],
@@ -1251,17 +1521,23 @@
       "term": "後学期",
       "periods": [
         "水7"
-      ],
-      "timeTableCode": "22023203"
+      ]
     },
     {
       "id": "uar:education/CRILDXXI",
+      "timeTableCode": "22019204",
       "name": {
         "ja": "基礎物理学第二",
         "en": "Fundamental Physics Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22019204.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/2KQIO25C"
       ],
@@ -1272,17 +1548,21 @@
       "term": "後学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22019204"
+      ]
     },
     {
       "id": "uar:education/SVEDN4JK",
+      "timeTableCode": "22023204",
       "name": {
         "ja": "組み込みシステム",
         "en": "Embedded System"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/AWVNIRMP"
       ],
@@ -1293,17 +1573,20 @@
       "term": "後学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22023204"
+      ]
     },
     {
       "id": "uar:education/ERS75GOA",
+      "timeTableCode": "22023209",
       "name": {
         "ja": "暗号情報セキュリティ",
         "en": "Cryptography and Information Security"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023209.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/MQUGLEY2"
       ],
@@ -1325,17 +1608,23 @@
       "term": "後学期",
       "periods": [
         "木7"
-      ],
-      "timeTableCode": "22023209"
+      ]
     },
     {
       "id": "uar:education/UIUQZESW",
+      "timeTableCode": "22011103",
       "name": {
         "ja": "音楽",
         "en": "Music"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011103.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/A5QVYIRN"
       ],
@@ -1346,17 +1635,23 @@
       "term": "後学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22011103"
+      ]
     },
     {
       "id": "uar:education/4HGBT3YQ",
+      "timeTableCode": "22011106",
       "name": {
         "ja": "法学",
         "en": "Jurisprudence"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011106.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/IJNW2FCL"
       ],
@@ -1367,17 +1662,23 @@
       "term": "後学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22011106"
+      ]
     },
     {
       "id": "uar:education/S7HPPTUX",
+      "timeTableCode": "22011201",
       "name": {
         "ja": "哲学",
         "en": "Philosophy"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/K4QWR2EP"
       ],
@@ -1388,17 +1689,23 @@
       "term": "後学期",
       "periods": [
         "金7"
-      ],
-      "timeTableCode": "22011201"
+      ]
     },
     {
       "id": "uar:education/KFGWFT5N",
+      "timeTableCode": "22021201",
       "name": {
         "ja": "離散数学",
         "en": "Discrete Mathematics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/S65ETOC4"
       ],
@@ -1409,17 +1716,20 @@
       "term": "後学期",
       "periods": [
         "土1"
-      ],
-      "timeTableCode": "22021201"
+      ]
     },
     {
       "id": "uar:education/I2G4S3E2",
+      "timeTableCode": "22023208",
       "name": {
         "ja": "知能システム",
         "en": "Intelligent Systems"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023208.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/AKKGL3DZ"
       ],
@@ -1430,17 +1740,23 @@
       "term": "後学期",
       "periods": [
         "土1"
-      ],
-      "timeTableCode": "22023208"
+      ]
     },
     {
       "id": "uar:education/P25AAHJT",
+      "timeTableCode": "22012202",
       "name": {
         "ja": "Academic Spoken English Ⅱ",
         "en": "Academic Spoken English Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/NXDNOFXR"
       ],
@@ -1452,17 +1768,21 @@
       "term": "後学期",
       "periods": [
         "土2"
-      ],
-      "timeTableCode": "22012202"
+      ]
     },
     {
       "id": "uar:education/ZATYHYRE",
+      "timeTableCode": "22023202",
       "name": {
         "ja": "信号処理論",
         "en": "Signal Processing"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023202.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/6KDYAJZE"
       ],
@@ -1473,17 +1793,22 @@
       "term": "後学期",
       "periods": [
         "土2"
-      ],
-      "timeTableCode": "22023202"
+      ]
     },
     {
       "id": "uar:education/X3SA7V5M",
+      "timeTableCode": "22021204",
       "name": {
         "ja": "電気回路学および演習",
         "en": "Electric Circuit Theory and Practice"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021204.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/IGVYREQL"
       ],
@@ -1495,17 +1820,23 @@
       "periods": [
         "土2",
         "土3"
-      ],
-      "timeTableCode": "22021204"
+      ]
     },
     {
       "id": "uar:education/CKDWRANG",
+      "timeTableCode": "22012201",
       "name": {
         "ja": "Academic Written English Ⅱ",
         "en": "Academic Written English Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/UAI4YP3F"
       ],
@@ -1517,17 +1848,21 @@
       "term": "後学期",
       "periods": [
         "土3"
-      ],
-      "timeTableCode": "22012201"
+      ]
     },
     {
       "id": "uar:education/RFKFX4JT",
+      "timeTableCode": "22012204",
       "name": {
         "ja": "Academic Writing in English",
         "en": "Academic Writing in English"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012204.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/CFGB2CAO"
       ],
@@ -1539,17 +1874,22 @@
       "term": "後学期",
       "periods": [
         "土3"
-      ],
-      "timeTableCode": "22012204"
+      ]
     },
     {
       "id": "uar:education/F4UHBULZ",
+      "timeTableCode": "22012203",
       "name": {
         "ja": "Academic English for the 2nd Year Ⅱ",
         "en": "Academic English for the 2nd Year Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22012203.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/A6HMQ2YB"
       ],
@@ -1561,17 +1901,23 @@
       "term": "後学期",
       "periods": [
         "土4"
-      ],
-      "timeTableCode": "22012203"
+      ]
     },
     {
       "id": "uar:education/EDMUYLGN",
+      "timeTableCode": "22018201",
       "name": {
         "ja": "基礎物理学実験",
         "en": "Physics Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018201.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/JUGMI3HS"
       ],
@@ -1585,17 +1931,23 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22018201"
+      ]
     },
     {
       "id": "uar:education/X2K4UH2V",
+      "timeTableCode": "22018202",
       "name": {
         "ja": "基礎化学実験",
         "en": "Chemistry Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22018202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/E6XXWSOV"
       ],
@@ -1609,17 +1961,21 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22018202"
+      ]
     },
     {
       "id": "uar:education/VSVKAZRP",
+      "timeTableCode": "22023205",
       "name": {
         "ja": "情報学実験",
         "en": "Informatics Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023205.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/IVF4SUZC"
       ],
@@ -1634,17 +1990,21 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22023205"
+      ]
     },
     {
       "id": "uar:education/6TVMBKX6",
+      "timeTableCode": "22023206",
       "name": {
         "ja": "知能機械工学実験",
         "en": "Mechanical Engineering and Intelligent Systems Laboratory"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023206.html",
+      "targetGrades": [
+        3,
+        4
+      ],
       "courses": [
         "uar:education/FCIGXFXJ"
       ],
@@ -1658,17 +2018,23 @@
       "periods": [
         "土4",
         "土5"
-      ],
-      "timeTableCode": "22023206"
+      ]
     },
     {
       "id": "uar:education/OZTWJRXD",
+      "timeTableCode": "22011202",
       "name": {
         "ja": "倫理学(R7開講なし)",
         "en": "Ethics"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011202.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/222VTQEN"
       ],
@@ -1677,17 +2043,23 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22011202"
+      ]
     },
     {
       "id": "uar:education/F7AZ4IUZ",
+      "timeTableCode": "22011203",
       "name": {
         "ja": "心理学(R7開講なし)",
         "en": "Psychology"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011203.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/OEUGUIKB"
       ],
@@ -1696,17 +2068,23 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22011203"
+      ]
     },
     {
       "id": "uar:education/O6LUZXVA",
+      "timeTableCode": "22011205",
       "name": {
         "ja": "文学(R7開講なし)",
         "en": "Literature"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22011205.html",
+      "targetGrades": [
+        1,
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/N2BZ2OKI"
       ],
@@ -1715,17 +2093,22 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22011205"
+      ]
     },
     {
       "id": "uar:education/G2NMRMNI",
+      "timeTableCode": "22021202",
       "name": {
         "ja": "応用数学第二",
         "en": "Applied Mathematics Ⅱ"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22021202.html",
+      "targetGrades": [
+        2,
+        3,
+        4
+      ],
       "courses": [
         "uar:education/VVSXR3VG"
       ],
@@ -1737,17 +2120,20 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22021202"
+      ]
     },
     {
       "id": "uar:education/Q53JUZ6O",
+      "timeTableCode": "22023207",
       "name": {
         "ja": "輪講B(学域・K課程)",
         "en": "Seminar B"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023207.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/LW7INQAG"
       ],
@@ -1761,17 +2147,20 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023207"
+      ]
     },
     {
       "id": "uar:education/AKAO6HGO",
+      "timeTableCode": "22023211",
       "name": {
         "ja": "ヒューマンインタフェース",
         "en": "Human Interface"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023211.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/6XCGMYA3"
       ],
@@ -1782,17 +2171,20 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023211"
+      ]
     },
     {
       "id": "uar:education/7WVDO4PZ",
+      "timeTableCode": "22023212",
       "name": {
         "ja": "卒業研究B(学域・K課程)",
         "en": "Senior Thesis B"
       },
       "year": 2025,
       "sourceUrl": "https://kyoumu.office.uec.ac.jp/syllabus/2025/32/32_22023212.html",
+      "targetGrades": [
+        4
+      ],
       "courses": [
         "uar:education/MDKPUE3L"
       ],
@@ -1803,8 +2195,7 @@
       "term": "後学期",
       "periods": [
         "他"
-      ],
-      "timeTableCode": "22023212"
+      ]
     }
   ]
 }

@@ -10,6 +10,7 @@ class Lecture:
     name_en: str
     year: int
     source_url: str
+    target_grades: list[int]
     courses: list[str]
     instructors: list[str]
     term: str
@@ -27,6 +28,7 @@ class Lecture:
             },
             "year": self.year,
             "sourceUrl": self.source_url,
+            "targetGrades": self.target_grades,
             "courses": self.courses,
             "instructors": sorted(self.instructors),
             "numberOfCredits": self.credits,

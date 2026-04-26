@@ -300,7 +300,7 @@
           ]
         },
         {
-          "minCredits": 20,
+          "minCredits": 15,
           "targetCategories": [
             "uar:education/RATDGCTQ"
           ]

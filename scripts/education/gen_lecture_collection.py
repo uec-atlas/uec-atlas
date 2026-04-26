@@ -43,6 +43,12 @@ keyword_suffix_mapping = {
 }
 
 graduate_syllabus_types = {"graduate_master", "graduate_doctor"}
+default_target_grades_by_syllabus_type = {
+    "faculty_day": [1, 2, 3, 4],
+    "faculty_night": [1, 2, 3, 4],
+    "graduate_master": [1, 2],
+    "graduate_doctor": [1, 2, 3],
+}
 
 
 def is_ab_numbering_code(code: str) -> bool:
@@ -64,6 +70,49 @@ def search_course(courses: list[dict], title_segments: list[str]) -> list[dict] 
         if all(course_title_segments[i] == title_segments[i] for i in range(min(len(course_title_segments), len(title_segments)))):
             candidates.append(course)
     return candidates or search_course(courses, title_segments[:-1])
+
+
+def resolve_target_grades(year_offered: str | None, syllabus_type: str) -> list[int]:
+    default_target_grades = default_target_grades_by_syllabus_type.get(
+        syllabus_type, [1, 2, 3, 4])
+
+    # 大学院シラバスは種別ベースで安定して補完する
+    if syllabus_type in graduate_syllabus_types:
+        return default_target_grades
+
+    if not year_offered:
+        return default_target_grades
+
+    normalized = year_offered.replace(" ", "")
+    if not normalized:
+        return default_target_grades
+
+    parts = [part for part in re.split(r"[/,、]", normalized) if part]
+    if not parts:
+        return default_target_grades
+
+    parsed_grades: list[int] = []
+    for part in parts:
+        if part.isdigit():
+            parsed_grades.append(int(part))
+            continue
+
+        matched = re.fullmatch(r"([0-9]+)年次", part)
+        if matched:
+            parsed_grades.append(int(matched.group(1)))
+            continue
+
+        print(
+            f"Warning: Invalid year offered '{year_offered}' for syllabus type '{syllabus_type}'. Falling back to default target grades {default_target_grades}.")
+        return default_target_grades
+
+    valid_grades = [grade for grade in parsed_grades if 1 <= grade <= 4]
+    if not valid_grades:
+        print(
+            f"Warning: Out-of-range year offered '{year_offered}' for syllabus type '{syllabus_type}'. Falling back to default target grades {default_target_grades}.")
+        return default_target_grades
+
+    return sorted(set(valid_grades))
 
 
 if __name__ == "__main__":
@@ -135,13 +184,16 @@ if __name__ == "__main__":
     fallback_all_candidates_examples: list[str] = []
 
     for syllabus in syllabuses:
-        lecture_id = existing_lectures.get(syllabus.url, generate_id("uar:education/"))
+        lecture_id = existing_lectures.get(
+            syllabus.url, generate_id("uar:education/"))
         lecture = Lecture(
             id=lecture_id,
             name=syllabus.name,
             name_en=syllabus.name_en,
             year=year,
             source_url=syllabus.url,
+            target_grades=resolve_target_grades(
+                syllabus.year_offered, syllabus_type),
             courses=[],
             instructors=[
                 person.id for person in resolved_instructors.get(syllabus, [])],
