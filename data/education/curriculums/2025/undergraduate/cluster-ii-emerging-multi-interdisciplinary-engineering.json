@@ -435,6 +435,7 @@
       "categoryRequirements": [
         {
           "minCredits": 4,
+          "description": "1年次開講の力学、2年次開講の確率統計",
           "targetCategories": [
             "uar:education/EP2LLKV4"
           ]

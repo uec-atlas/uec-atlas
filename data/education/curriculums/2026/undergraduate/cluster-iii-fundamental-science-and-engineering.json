@@ -435,6 +435,7 @@
       "categoryRequirements": [
         {
           "minCredits": 3,
+          "description": "1年次開講の必修科目",
           "targetCategories": [
             "uar:education/EP2LLKV4"
           ]
