@@ -156,7 +156,7 @@ for (const lecture of _lectureMap.values()) {
 const years = new Set<number>([]);
 
 for (const curriculum of _curriculumMap.values()) {
-  years.add(curriculum.year);
+  if (curriculum.year) years.add(curriculum.year);
 }
 
 for (const { from, to } of courseSuccessors) {
@@ -184,10 +184,14 @@ for (const category of _courseCategoryMap.values()) {
   if (nameJa) categoryNameMap.set(nameJa, category.id);
 }
 
-const organizationNameMap = new Map<string, string>();
+const organizationNameMap = new Map<string, string[]>();
 for (const org of _linkedOrganizationMap.values()) {
   const nameJa = formatI18NString(org.name, "ja");
-  if (nameJa) organizationNameMap.set(nameJa, org.id);
+  if (nameJa) {
+    const list = organizationNameMap.get(nameJa) ?? [];
+    list.push(org.id);
+    organizationNameMap.set(nameJa, list);
+  }
 }
 
 const curriculumEntryNameMap = new Map<string, CurriculumEntry[]>();
@@ -204,7 +208,7 @@ for (const { category, checkpoint, course, targets } of coursePrerequisites) {
   for (const year of Array.from(years)) {
     for (const target of targets) {
       const leafTargetOrgIds = target.organizations
-        .map((orgName) => organizationNameMap.get(orgName))
+        .flatMap((orgName) => organizationNameMap.get(orgName))
         .filter((id): id is string => id !== undefined);
 
       const targetOrgIdSet = new Set<string>();
