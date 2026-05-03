@@ -428,12 +428,6 @@
       "targetOrganization": "uar:organizations/LMCZ7FKK",
       "categoryRequirements": [
         {
-          "minCredits": 3,
-          "targetCategories": [
-            "uar:education/EP2LLKV4"
-          ]
-        },
-        {
           "minCredits": 4,
           "targetCategories": [
             "uar:education/BIZMTYJH"
@@ -467,6 +461,13 @@
           "minCredits": 20,
           "targetCategories": [
             "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 3,
+          "description": "1年次開講の必修科目",
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
           ]
         }
       ]

@@ -436,12 +436,6 @@
         {
           "minCredits": 4,
           "targetCategories": [
-            "uar:education/EP2LLKV4"
-          ]
-        },
-        {
-          "minCredits": 4,
-          "targetCategories": [
             "uar:education/BIZMTYJH"
           ]
         },
@@ -473,6 +467,13 @@
           "minCredits": 20,
           "targetCategories": [
             "uar:education/AD4LGWNT"
+          ]
+        },
+        {
+          "minCredits": 4,
+          "description": "1年次開講の力学、2年次開講の確率統計",
+          "targetCategories": [
+            "uar:education/EP2LLKV4"
           ]
         }
       ]
