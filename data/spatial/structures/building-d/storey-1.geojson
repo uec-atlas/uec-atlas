@@ -523,7 +523,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/AQWA3EDW",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -558,7 +559,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/AQWA3EDW",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

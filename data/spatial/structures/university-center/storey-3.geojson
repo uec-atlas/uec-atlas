@@ -389,7 +389,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/SAUNE7KB",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

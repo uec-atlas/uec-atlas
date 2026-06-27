@@ -115,7 +115,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/QDCHGYMQ",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -275,7 +276,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/QDCHGYMQ",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

@@ -411,7 +411,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/LTNGXLLO",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -639,7 +640,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/LTNGXLLO",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -678,7 +680,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/LTNGXLLO",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

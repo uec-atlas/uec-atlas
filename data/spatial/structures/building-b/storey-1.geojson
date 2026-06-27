@@ -391,7 +391,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/GPF6JS5K",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -655,7 +656,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/GPF6JS5K",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -736,7 +738,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/GPF6JS5K",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

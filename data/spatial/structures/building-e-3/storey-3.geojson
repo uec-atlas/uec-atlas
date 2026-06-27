@@ -720,7 +720,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4MTKMABN",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1096,7 +1097,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4MTKMABN",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1741,7 +1743,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4MTKMABN",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

@@ -393,7 +393,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/MDQKQLF4",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1151,7 +1152,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/MDQKQLF4",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     }
   ]

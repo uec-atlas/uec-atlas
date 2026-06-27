@@ -253,7 +253,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/7DO63MWH",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -296,7 +297,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/7DO63MWH",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

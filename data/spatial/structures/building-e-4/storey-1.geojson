@@ -1146,7 +1146,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4ZANQRHR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1294,7 +1295,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4ZANQRHR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1349,7 +1351,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/4ZANQRHR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

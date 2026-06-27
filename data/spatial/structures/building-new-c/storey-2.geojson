@@ -277,7 +277,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/QMICBXOI",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

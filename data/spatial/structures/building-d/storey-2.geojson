@@ -399,7 +399,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/PTIRATZ4",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -442,7 +443,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/PTIRATZ4",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     }
   ]

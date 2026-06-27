@@ -461,7 +461,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/K7OH4RFV",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -516,7 +517,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/K7OH4RFV",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

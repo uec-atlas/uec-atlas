@@ -848,7 +848,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/I3Y3BJGR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

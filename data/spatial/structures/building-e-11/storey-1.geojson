@@ -193,7 +193,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/BG4XB25Y",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -525,7 +526,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/BG4XB25Y",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -765,7 +767,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/BG4XB25Y",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -812,7 +815,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/BG4XB25Y",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

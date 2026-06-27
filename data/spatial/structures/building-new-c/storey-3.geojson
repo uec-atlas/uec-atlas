@@ -277,7 +277,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/ZMHMB2RM",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     }
   ]

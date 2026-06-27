@@ -590,7 +590,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/73EMUPBR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -879,7 +880,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/73EMUPBR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -1546,7 +1548,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/73EMUPBR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

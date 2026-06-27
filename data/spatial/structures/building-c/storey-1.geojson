@@ -267,7 +267,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/IONZ2OF2",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -362,7 +363,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/IONZ2OF2",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

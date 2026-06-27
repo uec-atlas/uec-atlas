@@ -670,7 +670,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/I5FFUOUS",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -787,7 +788,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/I5FFUOUS",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -997,7 +999,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/I5FFUOUS",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

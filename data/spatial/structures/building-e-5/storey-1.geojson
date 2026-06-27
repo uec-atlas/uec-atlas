@@ -59,7 +59,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/KL65KI6X",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

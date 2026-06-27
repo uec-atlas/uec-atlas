@@ -119,7 +119,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/7TXWE3EL",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -587,7 +588,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/7TXWE3EL",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

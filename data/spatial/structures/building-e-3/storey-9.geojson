@@ -798,7 +798,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/SJPIG73A",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {

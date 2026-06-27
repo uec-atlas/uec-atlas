@@ -82,7 +82,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/XTRGPCYR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -216,7 +217,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/XTRGPCYR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -435,7 +437,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/XTRGPCYR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
@@ -666,7 +669,8 @@
       },
       "properties": {
         "containedInPlace": "uar:spatial/XTRGPCYR",
-        "type": "Room"
+        "type": "Passage",
+        "category": "corridor"
       }
     },
     {
