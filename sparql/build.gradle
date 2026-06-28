@@ -1,0 +1,39 @@
+plugins {
+    id "java"
+    id "application"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.eclipse.jetty:jetty-server:12.1.10"
+    implementation "org.eclipse.jetty.ee10:jetty-ee10-servlet:12.1.10"
+    implementation "org.eclipse.jetty.http2:jetty-http2-server:12.1.10"
+    implementation "org.eclipse.jetty.compression:jetty-compression-gzip:12.1.10"
+    implementation "org.eclipse.jetty.compression:jetty-compression-zstandard:12.1.10"
+    implementation "org.eclipse.jetty.compression:jetty-compression-server:12.1.10"
+    implementation "org.apache.jena:jena-tdb2:6.1.0"
+}
+
+jar {
+    destinationDirectory = file("$buildDir/distributions")
+    manifest {
+        attributes (
+            "Main-Class": "SparqlServer",
+            "Class-Path": configurations.runtimeClasspath.files.collect { "lib/$it.name" }.join(' ')
+        )
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+tasks.register("copyDependencies", Copy) {
+    from configurations.runtimeClasspath
+    into "$buildDir/distributions/lib"
+}
+
+build.dependsOn "copyDependencies"

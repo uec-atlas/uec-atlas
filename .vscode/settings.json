@@ -40,5 +40,6 @@
   "yaml.schemas": {
     "https://w3id.org/linkml/meta.schema.json": "schema/*.yaml"
   },
-  "js/ts.tsdk.path": "node_modules/typescript/lib"
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "java.configuration.updateBuildConfiguration": "interactive"
 }

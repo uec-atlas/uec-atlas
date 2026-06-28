@@ -1,1 +1,5 @@
-index.js
+.gradle
+build
+tdb2_data
+tmp_data
+bin

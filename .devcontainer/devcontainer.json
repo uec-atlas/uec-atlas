@@ -16,7 +16,9 @@
 				"astro-build.astro-vscode",
 				"redhat.vscode-yaml",
 				"biomejs.biome",
-				"ms-python.python"
+				"ms-python.python",
+				"vscjava.vscode-gradle",
+				"redhat.java"
 			]
 		}
 	}
