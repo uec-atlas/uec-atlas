@@ -48,6 +48,11 @@
           "ja": "301講義室",
           "en": "Lecture Room 301"
         },
+        "alternateName": {
+          "ja": [
+            "C301"
+          ]
+        },
         "usage": "lecture",
         "maximumAttendeeCapacity": 139,
         "maximumExamAttendeeCapacity": 139,

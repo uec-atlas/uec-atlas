@@ -206,6 +206,11 @@
           "ja": "102講義室",
           "en": "Lecture Room 102"
         },
+        "alternateName": {
+          "ja": [
+            "B102"
+          ]
+        },
         "usage": "lecture",
         "maximumAttendeeCapacity": 143,
         "maximumExamAttendeeCapacity": 95,
@@ -439,6 +444,11 @@
         "category": "office",
         "name": {
           "ja": "学生支援センター"
+        },
+        "alternateName": {
+          "ja": [
+            "学生何でも相談室"
+          ]
         }
       }
     },
@@ -533,6 +543,11 @@
         "name": {
           "ja": "101講義室",
           "en": "Lecture Room 101"
+        },
+        "alternateName": {
+          "ja": [
+            "B101"
+          ]
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 143,

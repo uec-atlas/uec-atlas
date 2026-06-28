@@ -80,6 +80,11 @@
           "ja": "201講義室",
           "en": "Lecture Room 201"
         },
+        "alternateName": {
+          "ja": [
+            "B201"
+          ]
+        },
         "usage": "lecture",
         "maximumAttendeeCapacity": 226,
         "maximumExamAttendeeCapacity": 226,
@@ -170,6 +175,11 @@
         "name": {
           "ja": "202講義室",
           "en": "Lecture Room 202"
+        },
+        "alternateName": {
+          "ja": [
+            "B202"
+          ]
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 438,

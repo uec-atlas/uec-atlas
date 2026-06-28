@@ -261,6 +261,11 @@
           "ja": "401講義室",
           "en": "Lecture Room 401"
         },
+        "alternateName": {
+          "ja": [
+            "C401"
+          ]
+        },
         "usage": "lecture",
         "maximumAttendeeCapacity": 48,
         "maximumExamAttendeeCapacity": 48,
@@ -303,6 +308,11 @@
         "name": {
           "ja": "402講義室",
           "en": "Lecture Room 402"
+        },
+        "alternateName": {
+          "ja": [
+            "C402"
+          ]
         },
         "usage": "lecture",
         "maximumAttendeeCapacity": 48,
