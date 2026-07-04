@@ -45,7 +45,8 @@
         "uar:education/UNP3VQBC",
         "uar:education/I7DHNM34",
         "uar:education/II7EPQUJ",
-        "uar:education/D3OTNWSC"
+        "uar:education/D3OTNWSC",
+        "uar:education/3PYSN2QP"
       ]
     },
     {
@@ -344,7 +345,9 @@
         "uar:education/DQNEQWDU",
         "uar:education/IHFGAUQU",
         "uar:education/FGLN2CYT",
-        "uar:education/AZR322KA"
+        "uar:education/AZR322KA",
+        "uar:education/ZFI3MZX4",
+        "uar:education/YPFAEDB4"
       ]
     },
     {
@@ -519,6 +522,48 @@
         "uar:education/P6LADPPL",
         "uar:education/X4UBJ2RY",
         "uar:education/PZNVLUH7"
+      ]
+    },
+    {
+      "id": "uar:education/4FX54TU5",
+      "name": {
+        "ja": "Ⅲ類(理工系) - 総合文化科目/上級科目"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LMCZ7FKK",
+      "category": "uar:education/FYWU7HU5",
+      "courses": [
+        "uar:education/SR2FAVZC",
+        "uar:education/C4GID4VE",
+        "uar:education/DQNEQWDU",
+        "uar:education/IHFGAUQU",
+        "uar:education/ZFI3MZX4",
+        "uar:education/YPFAEDB4"
+      ],
+      "targetGrades": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "uar:education/3SHBMW7M",
+      "name": {
+        "ja": "Ⅲ類(理工系) - 総合文化科目/言語文化科目/言語文化演習科目（国際科目）"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LMCZ7FKK",
+      "category": "uar:education/ONHTCGJO",
+      "targetGrades": [
+        1,
+        2
+      ],
+      "courses": [
+        "uar:education/SR2FAVZC",
+        "uar:education/C4GID4VE",
+        "uar:education/DQNEQWDU",
+        "uar:education/IHFGAUQU",
+        "uar:education/ZFI3MZX4",
+        "uar:education/YPFAEDB4"
       ]
     }
   ]

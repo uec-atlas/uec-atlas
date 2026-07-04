@@ -86,6 +86,7 @@
       "category": "uar:education/72W3G2M7",
       "courses": [
         "uar:education/WG2UFQDQ",
+        "uar:education/VDME4N6K",
         "uar:education/UXKFLYQW",
         "uar:education/P2EKRDM7",
         "uar:education/X4SDKY4F",
@@ -95,7 +96,8 @@
         "uar:education/TKO2BHTE",
         "uar:education/C3Z4HAHV",
         "uar:education/QLXIOLYZ",
-        "uar:education/E34WW64Q"
+        "uar:education/E34WW64Q",
+        "uar:education/YYV44PPS"
       ]
     },
     {
@@ -110,7 +112,21 @@
         "uar:education/AZOI42MS",
         "uar:education/ZGDDB7PJ",
         "uar:education/HVI4EZSQ",
-        "uar:education/L27CGYMU"
+        "uar:education/L27CGYMU",
+        "uar:education/PUUJYLEU"
+      ]
+    },
+    {
+      "id": "uar:education/X8Y8Z8AB",
+      "name": {
+        "ja": "機械システムプログラム - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/RTZPKMT6",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/C7CIWG7D",
+        "uar:education/SRDXNCZ6"
       ]
     },
     {

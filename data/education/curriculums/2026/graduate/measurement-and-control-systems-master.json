@@ -86,6 +86,7 @@
       "category": "uar:education/IMXRBQ52",
       "courses": [
         "uar:education/WG2UFQDQ",
+        "uar:education/VDME4N6K",
         "uar:education/UXKFLYQW",
         "uar:education/P2EKRDM7",
         "uar:education/X4SDKY4F",
@@ -110,7 +111,22 @@
         "uar:education/AZOI42MS",
         "uar:education/ZGDDB7PJ",
         "uar:education/HVI4EZSQ",
-        "uar:education/L27CGYMU"
+        "uar:education/L27CGYMU",
+        "uar:education/PUUJYLEU",
+        "uar:education/YYV44PPS"
+      ]
+    },
+    {
+      "id": "uar:education/X7Y8Z9AB",
+      "name": {
+        "ja": "計測・制御システムプログラム - 専門科目Ⅱ"
+      },
+      "type": "CourseCategoryMapping",
+      "targetOrganization": "uar:organizations/LRHVCXPH",
+      "category": "uar:education/JPZYRXG3",
+      "courses": [
+        "uar:education/C7CIWG7D",
+        "uar:education/SRDXNCZ6"
       ]
     },
     {
