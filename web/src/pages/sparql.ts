@@ -7,7 +7,7 @@ async function handleSparqlRequest(
   const { request, locals } = context;
   const url = new URL(request.url);
   const accept = request.headers.get("accept") || "";
-  const acceptEncoding = request.headers.get("accept-encoding") || "";
+
   const endpoint = locals.runtime.env.SPARQL_ENDPOINT;
 
   if (!endpoint) {
@@ -35,7 +35,19 @@ async function handleSparqlRequest(
     }
   }
 
-  const cacheKey = new Request(request.url, {
+  const cacheKeyURL = new URL(request.url);
+  cacheKeyURL.searchParams.delete("query");
+
+  const queryHashBuffer = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(body || ""),
+  );
+  const queryHash = Array.from(new Uint8Array(queryHashBuffer))
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+
+  cacheKeyURL.searchParams.set("queryHash", queryHash);
+  const cacheKey = new Request(cacheKeyURL, {
     method: "GET",
     headers: {
       accept: accept,
@@ -73,7 +85,7 @@ async function handleSparqlRequest(
     headers.set("cache-control", "public, max-age=3600, s-maxage=3600");
     headers.set("access-control-allow-origin", "*");
 
-    return new Response(cachedResponse.body, {
+    return new Response(cachedResponse.clone().body, {
       status: 200,
       headers: headers,
     });
