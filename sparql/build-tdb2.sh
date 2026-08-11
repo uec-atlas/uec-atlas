@@ -4,8 +4,8 @@ set -e
 mkdir -p ./tmp_data
 mkdir -p ./tdb2_data
 
-JENA_VERSION="6.1.0"
-jena="https://dlcdn.apache.org/jena/binaries/apache-jena-${JENA_VERSION}.zip"
+JENA_VERSION="6.2.0"
+jena="https://archive.apache.org/dist/jena/binaries/apache-jena-${JENA_VERSION}.zip"
 
 if [ ! -d ./tmp_data/apache-jena-${JENA_VERSION} ]; then
   echo "=== Downloading Apache Jena ==="

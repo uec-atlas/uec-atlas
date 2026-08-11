@@ -3,6 +3,13 @@
 
 /data/*
   Content-Type: application/ld+json
+  X-Robots-Tag: noindex
+
+/resources/*
+  X-Robots-Tag: noindex
+
+/page/*
+  X-Robots-Tag: noindex
 
 /data/*.nq
   ! Content-Type
