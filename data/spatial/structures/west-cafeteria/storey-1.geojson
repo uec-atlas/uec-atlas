@@ -30,17 +30,79 @@
     {
       "id": "uar:spatial/2VSC3VTZ",
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54171437,
+              35.65706014
+            ],
+            [
+              139.54166789,
+              35.65695767
+            ],
+            [
+              139.54179154,
+              35.65692031
+            ],
+            [
+              139.54178296,
+              35.6569014
+            ],
+            [
+              139.54198252,
+              35.6568411
+            ],
+            [
+              139.5420606,
+              35.65701324
+            ],
+            [
+              139.54194511,
+              35.65704813
+            ],
+            [
+              139.54192209,
+              35.65699738
+            ],
+            [
+              139.54171437,
+              35.65706014
+            ]
+          ]
+        ]
+      },
       "properties": {
+        "containedInPlace": "uar:spatial/VAG5Y5QF",
         "type": "Facility",
         "name": {
-          "ja": "西食堂 den"
+          "ja": "西食堂"
         },
         "category": "cafeteria",
-        "containedInPlace": "uar:spatial/VAG5Y5QF",
         "openingHoursSpecification": [
           {
             "dayOfWeek": "Monday",
+            "opens": "11:30:00+09:00",
+            "closes": "13:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Tuesday",
+            "opens": "11:30:00+09:00",
+            "closes": "13:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Wednesday",
+            "opens": "11:30:00+09:00",
+            "closes": "13:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Thursday",
+            "opens": "11:30:00+09:00",
+            "closes": "13:30:00+09:00"
+          },
+          {
+            "dayOfWeek": "Friday",
             "opens": "11:30:00+09:00",
             "closes": "13:30:00+09:00"
           }

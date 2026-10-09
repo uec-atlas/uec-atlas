@@ -28,6 +28,22 @@
       }
     },
     {
+      "id": "uar:spatial/TYNWBTWL",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.54338403,
+          35.65851795
+        ]
+      },
+      "properties": {
+        "type": "BuildingEntrance",
+        "bearing": 285.0,
+        "containedInPlace": "uar:spatial/DPN5OPCK"
+      }
+    },
+    {
       "id": "uar:spatial/CCCJCN7H",
       "type": "Feature",
       "geometry": {
@@ -41,6 +57,48 @@
         "type": "BuildingEntrance",
         "bearing": 190.0,
         "containedInPlace": "uar:spatial/DPN5OPCK"
+      }
+    },
+    {
+      "id": "uar:spatial/ZHETZP7C",
+      "type": "Feature",
+      "properties": {
+        "containedInPlace": "uar:spatial/DPN5OPCK",
+        "type": "Room",
+        "name": {
+          "ja": "UECコミュニケーションミュージアム別館"
+        },
+        "usage": "museum",
+        "isPartOf": [
+          "uar:spatial/NSE5X2WH"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.54326056,
+              35.65863954
+            ],
+            [
+              139.54320614,
+              35.65845536
+            ],
+            [
+              139.54335678,
+              35.65842571
+            ],
+            [
+              139.54341057,
+              35.65860777
+            ],
+            [
+              139.54326056,
+              35.65863954
+            ]
+          ]
+        ]
       }
     }
   ]
